@@ -1,8 +1,110 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-06T12:59:02.000Z",
+  "generatedAt": "2026-10-06T13:36:10.000Z",
   "releases": [
+    {
+      "id": 404756251,
+      "tag_name": "pulsia.object-model-studio@0.10.12",
+      "name": "Object Model Studio 0.10.12",
+      "body": "Object Model Studio의 모델 작업 도우미를 Mini ACP 공용 companion view에 연결합니다.\n\n기존 도킹, 높이 조절, 창 분리, 대화, 검토와 Agent 설정 동작을 유지합니다. Agent 요청은 전체 모델 JSON 대신 식별 요약과 MCP 도구 조회를 우선 사용합니다.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.12",
+      "published_at": "2026-10-06T13:36:10Z",
+      "created_at": "2026-10-06T13:06:00Z",
+      "updated_at": "2026-10-06T13:36:10Z",
+      "assets": [
+        {
+          "id": 615623877,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 364478,
+          "digest": "sha256:7d96db98312f3312053ef478fbf979f63dfb06aa5efc8655d7e571f7f208285d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.12/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-06T13:36:09Z",
+          "updated_at": "2026-10-06T13:36:09Z"
+        },
+        {
+          "id": 615623883,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:74e23cc9fec1d6e9f5e810a0efcdc895e7e209b6f26115db4dd20cf6db9a35da",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.12/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-06T13:36:09Z",
+          "updated_at": "2026-10-06T13:36:09Z"
+        }
+      ]
+    },
+    {
+      "id": 404756162,
+      "tag_name": "pulsia.catalog-studio@1.2.30",
+      "name": "Catalog Studio 1.2.30",
+      "body": "Catalog Studio의 좌측 Agent 옵션을 Mini ACP 공용 companion view로 이동합니다.\n\nMini ACP가 없으면 Agent 옵션 영역만 표시하지 않으며 카탈로그 조회·편집 기능은 계속 사용할 수 있습니다.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.30",
+      "published_at": "2026-10-06T13:36:07Z",
+      "created_at": "2026-10-06T13:06:00Z",
+      "updated_at": "2026-10-06T13:36:07Z",
+      "assets": [
+        {
+          "id": 615623691,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 268050,
+          "digest": "sha256:a6f937948918b294d721c6b37ee0021c4b8a54d9002eeab903625f7efcedc10d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.30/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-06T13:36:06Z",
+          "updated_at": "2026-10-06T13:36:06Z"
+        },
+        {
+          "id": 615623689,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:4e4d2fa4547ed6a73d2d46842124e18f8d38a714505429b4809cbc291bffd27c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.30/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-06T13:36:06Z",
+          "updated_at": "2026-10-06T13:36:06Z"
+        }
+      ]
+    },
+    {
+      "id": 404756083,
+      "tag_name": "pulsia-plugin-mini-acp@1.0.0",
+      "name": "Mini ACP 1.0.0",
+      "body": "좌측 소메뉴 하단 ACP Agent 화면을 공용 플러그인으로 제공합니다.\n\n- selector와 assistant 화면 변형\n- ACP Agent 세션, 모델·추론 옵션, 대화·중단\n- 소비 플러그인 provider 등록과 미설치 시 안전한 제외\n- 매뉴얼, 기능 목록, 자체 유지보수 스킬과 소비 플러그인 연결 스킬\n- 문서·MCP 도구 우선 조회와 전체 snapshot JSON 최후 수단 원칙\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-mini-acp%401.0.0",
+      "published_at": "2026-10-06T13:36:04Z",
+      "created_at": "2026-10-06T13:06:00Z",
+      "updated_at": "2026-10-06T13:36:04Z",
+      "assets": [
+        {
+          "id": 615623487,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 11647,
+          "digest": "sha256:68414a8189f36eeab47d161059a4a8c873031913a43ca41fed38b7e3b916b89e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.0/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-10-06T13:36:03Z",
+          "updated_at": "2026-10-06T13:36:03Z"
+        },
+        {
+          "id": 615623482,
+          "name": "pulsia-plugin-mini-acp.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:63dda27abba138a83e0bbfab5f9b6da6a18a98b7140935c2647b10c351703d6c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.0/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-10-06T13:36:03Z",
+          "updated_at": "2026-10-06T13:36:03Z"
+        }
+      ]
+    },
     {
       "id": 402786690,
       "tag_name": "pulsia.test-pack@1.0.1",
