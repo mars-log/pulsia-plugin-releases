@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-06T13:54:08.000Z",
+  "generatedAt": "2026-10-06T13:57:03.000Z",
   "releases": [
     {
       "id": 404756251,
@@ -72,6 +72,40 @@
       ]
     },
     {
+      "id": 404788868,
+      "tag_name": "pulsia-plugin-wingate-seller@0.1.1",
+      "name": "pulsia-plugin-wingate-seller 0.1.1",
+      "body": "OTA verification release. Public MCP screen queries now report pluginVersion 0.1.1 with explicit output schemas; manuals, feature indexes, skills, and tests were updated together.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-seller%400.1.1",
+      "published_at": "2026-10-06T13:56:59Z",
+      "created_at": "2026-10-06T13:54:11Z",
+      "updated_at": "2026-10-06T13:56:59Z",
+      "assets": [
+        {
+          "id": 615681951,
+          "name": "pulsia-plugin-wingate-seller.zip",
+          "state": "uploaded",
+          "size": 111708,
+          "digest": "sha256:187b41ecd568f332d23627cabfed0aae9c6422a0f8f95b30a797ba3b13ee6ce7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.1/pulsia-plugin-wingate-seller.zip",
+          "created_at": "2026-10-06T13:56:57Z",
+          "updated_at": "2026-10-06T13:56:58Z"
+        },
+        {
+          "id": 615681952,
+          "name": "pulsia-plugin-wingate-seller.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:28562209d8de835af4c4d09618653f5a92328bf2f9be85851b7b7308abe235d6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.1/pulsia-plugin-wingate-seller.zip.sha256",
+          "created_at": "2026-10-06T13:56:57Z",
+          "updated_at": "2026-10-06T13:56:58Z"
+        }
+      ]
+    },
+    {
       "id": 404785891,
       "tag_name": "pulsia-plugin-wingate-seller@0.1.0",
       "name": "pulsia-plugin-wingate-seller 0.1.0",
@@ -102,6 +136,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.0/pulsia-plugin-wingate-seller.zip.sha256",
           "created_at": "2026-10-06T13:53:59Z",
           "updated_at": "2026-10-06T13:53:59Z"
+        }
+      ]
+    },
+    {
+      "id": 404788933,
+      "tag_name": "pulsia-plugin-wingate-manager@0.1.1",
+      "name": "pulsia-plugin-wingate-manager 0.1.1",
+      "body": "OTA verification release. Public MCP screen queries now report pluginVersion 0.1.1 with explicit output schemas; manuals, feature indexes, skills, and tests were updated together.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-manager%400.1.1",
+      "published_at": "2026-10-06T13:57:03Z",
+      "created_at": "2026-10-06T13:54:11Z",
+      "updated_at": "2026-10-06T13:57:03Z",
+      "assets": [
+        {
+          "id": 615682094,
+          "name": "pulsia-plugin-wingate-manager.zip",
+          "state": "uploaded",
+          "size": 112839,
+          "digest": "sha256:bc3b1ffdcc491f9832b42741ac8cf3a6febfc944afa9f8b177dc0d78c6018d9d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.1/pulsia-plugin-wingate-manager.zip",
+          "created_at": "2026-10-06T13:57:02Z",
+          "updated_at": "2026-10-06T13:57:02Z"
+        },
+        {
+          "id": 615682093,
+          "name": "pulsia-plugin-wingate-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 100,
+          "digest": "sha256:d433d42e95e16dd738f8f526da52cfd95cdf82709d1b1dd51f12bd1fe0a8a5a8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.1/pulsia-plugin-wingate-manager.zip.sha256",
+          "created_at": "2026-10-06T13:57:02Z",
+          "updated_at": "2026-10-06T13:57:02Z"
         }
       ]
     },
