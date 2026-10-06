@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-06T13:57:06.000Z",
+  "generatedAt": "2026-10-06T14:37:25.000Z",
   "releases": [
     {
       "id": 404756251,
@@ -68,6 +68,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.30/pulsia-catalog-studio.zip.sha256",
           "created_at": "2026-10-06T13:36:06Z",
           "updated_at": "2026-10-06T13:36:06Z"
+        }
+      ]
+    },
+    {
+      "id": 404832161,
+      "tag_name": "pulsia-plugin-wingate-seller@0.1.2",
+      "name": "pulsia-plugin-wingate-seller 0.1.2",
+      "body": "Fixes agent.skill@1 contribution validation by using Schema-compatible plugin-local skill IDs. Packaging, Pulsia Capability Registry validation, and plugin build checks passed.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-seller%400.1.2",
+      "published_at": "2026-10-06T14:37:25Z",
+      "created_at": "2026-10-06T13:57:19Z",
+      "updated_at": "2026-10-06T14:37:25Z",
+      "assets": [
+        {
+          "id": 615772898,
+          "name": "pulsia-plugin-wingate-seller.zip",
+          "state": "uploaded",
+          "size": 111952,
+          "digest": "sha256:203ba1262830cc736362d382c512c16819069684b9fe681591fb792a07ddc5a7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.2/pulsia-plugin-wingate-seller.zip",
+          "created_at": "2026-10-06T14:37:24Z",
+          "updated_at": "2026-10-06T14:37:24Z"
+        },
+        {
+          "id": 615772918,
+          "name": "pulsia-plugin-wingate-seller.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:d42b450ceeb3c4733cce1d42ed46090212916220a8f1a238def0f2636b3a32fa",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.2/pulsia-plugin-wingate-seller.zip.sha256",
+          "created_at": "2026-10-06T14:37:24Z",
+          "updated_at": "2026-10-06T14:37:24Z"
         }
       ]
     },
@@ -272,6 +306,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.0/pulsia-plugin-wingate-client.zip.sha256",
           "created_at": "2026-10-06T13:54:06Z",
           "updated_at": "2026-10-06T13:54:07Z"
+        }
+      ]
+    },
+    {
+      "id": 404832105,
+      "tag_name": "pulsia-plugin-mini-acp@1.0.1",
+      "name": "pulsia-plugin-mini-acp 1.0.1",
+      "body": "Fixes agent.skill@1 contribution validation by using Schema-compatible plugin-local skill IDs. Packaging, Pulsia Capability Registry validation, and plugin build checks passed.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-mini-acp%401.0.1",
+      "published_at": "2026-10-06T14:37:21Z",
+      "created_at": "2026-10-06T13:57:19Z",
+      "updated_at": "2026-10-06T14:37:21Z",
+      "assets": [
+        {
+          "id": 615772718,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 11904,
+          "digest": "sha256:0474affc8e35f92a7d8fb47a08440cf49732f7bdb51d5eb70906c421d4ceda5c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.1/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-10-06T14:37:20Z",
+          "updated_at": "2026-10-06T14:37:21Z"
+        },
+        {
+          "id": 615772716,
+          "name": "pulsia-plugin-mini-acp.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:232b6d38d9566afca697f04168a3754a4b49b39258eae05dfdc133f2651cfdd6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.1/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-10-06T14:37:20Z",
+          "updated_at": "2026-10-06T14:37:20Z"
         }
       ]
     },
