@@ -1,0 +1,3315 @@
+{
+  "format": "pulsia-plugin-catalog-v1",
+  "repository": "mars-log/pulsia-plugin-releases",
+  "generatedAt": "2026-10-06T12:59:02.000Z",
+  "releases": [
+    {
+      "id": 402786690,
+      "tag_name": "pulsia.test-pack@1.0.1",
+      "name": "Pulsia Test Pack 1.0.1",
+      "body": "Source: https://github.com/mars-log/pulsia-plugin-studio/commit/eff3eae09d17e2d98a612d71d67478b32fcf0cdb\n\n개발 원본은 Pulsia Plugin Studio에서 관리함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.test-pack%401.0.1",
+      "published_at": "2026-10-04T02:21:32Z",
+      "created_at": "2026-10-03T18:08:48Z",
+      "updated_at": "2026-10-04T02:21:33Z",
+      "assets": [
+        {
+          "id": 608962501,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 23668,
+          "digest": "sha256:9facc73592a88db50269ea7cb4a5c7f0dcd1ea6478639b96751a732c0a3b7ed7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.1/pulsia-test-pack.zip",
+          "created_at": "2026-10-04T02:21:32Z",
+          "updated_at": "2026-10-04T02:21:32Z"
+        },
+        {
+          "id": 608962507,
+          "name": "pulsia-test-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 87,
+          "digest": "sha256:067b32192418f6a97ea962a1882624895f8269db5aeb804e81bb5f70f4f6bf6a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.1/pulsia-test-pack.zip.sha256",
+          "created_at": "2026-10-04T02:21:33Z",
+          "updated_at": "2026-10-04T02:21:33Z"
+        }
+      ]
+    },
+    {
+      "id": 404238424,
+      "tag_name": "pulsia.object-model-studio@0.10.11",
+      "name": "Object Model Studio 0.10.11",
+      "body": "모델 작업 도우미에서 보관함을 생성하고 모델을 다른 보관함으로 이동할 수 있도록 수정했습니다. 모델 개요의 새 보관함 흐름을 다른 화면과 동일하게 맞추고, 작업 완료 응답을 실제 저장 상태 확인 뒤 반환하도록 보강했습니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.11",
+      "published_at": "2026-10-06T02:10:28Z",
+      "created_at": "2026-10-03T18:08:48Z",
+      "updated_at": "2026-10-06T02:10:28Z",
+      "assets": [
+        {
+          "id": 614187053,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 362461,
+          "digest": "sha256:e48b3da0350f95671f6c7c9db06b65c92af0cd54c1519185bb2592bb19be1064",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.11/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-06T02:10:27Z",
+          "updated_at": "2026-10-06T02:10:27Z"
+        },
+        {
+          "id": 614187054,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:004b61104a62c8a76dca2479ffb3c6fbdf581f5cb61724120884e6dd165e4f43",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.11/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-06T02:10:27Z",
+          "updated_at": "2026-10-06T02:10:27Z"
+        }
+      ]
+    },
+    {
+      "id": 402798056,
+      "tag_name": "pulsia.object-model-studio@0.10.10",
+      "name": "Object Model Studio 0.10.10",
+      "body": "## 변경 내용\n\n- 모델 맵이 보관함별 펼친 업무 그룹, 선택 모델, 카메라 위치와 배율, 구성 펼침과 속성 보기 상태를 앱 재시작 뒤 복원함.\n- 빈 맵 우클릭 메뉴에서 `모델 추가`를 선택해 기존 새 모델 팝업을 열 수 있음.\n- `속성 보기`에서 설명·분류·속성·구성요소·관계와 개수 조건을 카드 내부 행으로 확인할 수 있음.\n- 소메뉴를 `모델 개요 → 모델 맵 → 모델 관리` 순서로 정리하고 모델 개요 아이콘을 변경함.\n- 플러그인 연동 매뉴얼과 AI 실행 스킬을 같은 기능 기준으로 갱신함.\n\n## 검증\n\n- 관련 단위 시험 15개 통과함.\n- 별도 Electron 사용자 데이터 폴더에 설치한 ZIP으로 모델 맵 11단계 UI 시험을 통과함.\n- 화면 왕복 상태 복원, 실제 우클릭 생성, light/dark, 480/900/1440 너비와 500개 모델 검색을 확인함.\n- 공개 API 문서 검사와 스킬 검사를 통과함.\n\nSHA-256: `9942dd4394260bd6d12f8c9cfd62bc1b941efc2abe254cbdfa0a1c3ebdc3a6b1`\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.10",
+      "published_at": "2026-10-04T02:56:26Z",
+      "created_at": "2026-10-03T18:08:48Z",
+      "updated_at": "2026-10-04T02:56:26Z",
+      "assets": [
+        {
+          "id": 609007827,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 359294,
+          "digest": "sha256:9942dd4394260bd6d12f8c9cfd62bc1b941efc2abe254cbdfa0a1c3ebdc3a6b1",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.10/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-04T02:56:24Z",
+          "updated_at": "2026-10-04T02:56:25Z"
+        },
+        {
+          "id": 609007826,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:74c665e889f37d192c47147b48d7e53f8e5a9a2f4aa400a3e60914c85ffbf129",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.10/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-04T02:56:24Z",
+          "updated_at": "2026-10-04T02:56:24Z"
+        }
+      ]
+    },
+    {
+      "id": 402804025,
+      "tag_name": "pulsia.java-development-pack@0.1.41",
+      "name": "Java Development Pack 0.1.41",
+      "body": "기존 0.1.40 설치본에 Plugin Release OTA 설정을 전달하기 위한 갱신입니다. 기능 소스는 0.1.40과 같으며, 설치 후 다음 Java 개발 팩 버전부터 Pulsia의 플러그인 업데이트 화면에서 확인할 수 있습니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.java-development-pack%400.1.41",
+      "published_at": "2026-10-04T03:16:47Z",
+      "created_at": "2026-10-03T18:08:48Z",
+      "updated_at": "2026-10-04T03:16:47Z",
+      "assets": [
+        {
+          "id": 609030287,
+          "name": "pulsia-java-development-pack.zip",
+          "state": "uploaded",
+          "size": 9247008,
+          "digest": "sha256:c5332c698e52b526f4a6909597645756452c5a948d9e4f71bfd1c234515c9c12",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.41/pulsia-java-development-pack.zip",
+          "created_at": "2026-10-04T03:16:44Z",
+          "updated_at": "2026-10-04T03:16:46Z"
+        },
+        {
+          "id": 609030288,
+          "name": "pulsia-java-development-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:d5b7406cd45933fc168378f1349b569a75bbc3a6a6cc0dccf04b5a188303868a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.41/pulsia-java-development-pack.zip.sha256",
+          "created_at": "2026-10-04T03:16:44Z",
+          "updated_at": "2026-10-04T03:16:44Z"
+        }
+      ]
+    },
+    {
+      "id": 402786674,
+      "tag_name": "pulsia.java-development-pack@0.1.40",
+      "name": "Java Development Pack 0.1.40",
+      "body": "Source: https://github.com/mars-log/pulsia-plugin-studio/commit/eff3eae09d17e2d98a612d71d67478b32fcf0cdb\n\n개발 원본은 Pulsia Plugin Studio에서 관리함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.java-development-pack%400.1.40",
+      "published_at": "2026-10-04T02:21:28Z",
+      "created_at": "2026-10-03T18:08:48Z",
+      "updated_at": "2026-10-04T02:21:30Z",
+      "assets": [
+        {
+          "id": 608962447,
+          "name": "pulsia-java-development-pack.zip",
+          "state": "uploaded",
+          "size": 9247008,
+          "digest": "sha256:eb3214e36e7410de59107e78c815fd6cdaf20be4c53fa60ff71e650dff152b4d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.40/pulsia-java-development-pack.zip",
+          "created_at": "2026-10-04T02:21:29Z",
+          "updated_at": "2026-10-04T02:21:30Z"
+        },
+        {
+          "id": 608962478,
+          "name": "pulsia-java-development-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:5bc996e16d6aa372f8059771357284ade5e813a93e5aeb60bdd364a6dac78584",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.40/pulsia-java-development-pack.zip.sha256",
+          "created_at": "2026-10-04T02:21:30Z",
+          "updated_at": "2026-10-04T02:21:30Z"
+        }
+      ]
+    },
+    {
+      "id": 404708377,
+      "tag_name": "pulsia.catalog-studio@1.2.29",
+      "name": "Catalog Studio 1.2.29",
+      "body": "템플릿 업데이트 시 프로젝트 문서 본문을 ACP 대화 입력에 포함하지 않습니다. 프로젝트 경로, 템플릿 구조와 문서 경로 목록만 전달하고 ACP Agent가 관련 파일을 검색·읽기 도구로 직접 확인합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.29",
+      "published_at": "2026-10-06T12:59:02Z",
+      "created_at": "2026-10-03T18:08:48Z",
+      "updated_at": "2026-10-06T12:59:02Z",
+      "assets": [
+        {
+          "id": 615527342,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 266499,
+          "digest": "sha256:6fbf63fee6a8c3e0227d0d5c5d0dfb022beeeb4099a752648fc22fdf74fddd00",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.29/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-06T12:59:01Z",
+          "updated_at": "2026-10-06T12:59:01Z"
+        },
+        {
+          "id": 615527340,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:926a754109b1dfb7e91bede874baaff0ed7b286b155fbc6911bd02a49566b86e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.29/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-06T12:59:01Z",
+          "updated_at": "2026-10-06T12:59:01Z"
+        }
+      ]
+    },
+    {
+      "id": 404700792,
+      "tag_name": "pulsia.catalog-studio@1.2.28",
+      "name": "Catalog Studio 1.2.28",
+      "body": "프로젝트 문서가 많을 때 템플릿 업데이트용 AI 요청이 Pulsia의 20만 자 제한을 넘지 않도록 모든 문서 경로와 본문 앞뒤 발췌를 제한 안에서 구성합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.28",
+      "published_at": "2026-10-06T12:50:44Z",
+      "created_at": "2026-10-03T18:08:48Z",
+      "updated_at": "2026-10-06T12:50:44Z",
+      "assets": [
+        {
+          "id": 615509049,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 266752,
+          "digest": "sha256:c1e1ec7a9d0dbe3ba0e556d8f40d0f55a09b6e3c929122dd9a38eb1b4818c2e0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.28/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-06T12:50:43Z",
+          "updated_at": "2026-10-06T12:50:43Z"
+        },
+        {
+          "id": 615509047,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:5ad5607a7dac33855a357e5efc606c1a2e4eda2a957da39037dc9d0190584b82",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.28/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-06T12:50:43Z",
+          "updated_at": "2026-10-06T12:50:43Z"
+        }
+      ]
+    },
+    {
+      "id": 404695971,
+      "tag_name": "pulsia.catalog-studio@1.2.27",
+      "name": "Catalog Studio 1.2.27",
+      "body": "ACP Agent 모델 변경 뒤 노력치 설정 요청의 종류를 Pulsia 허용값으로 정규화해 CAPABILITY_REQUEST_INVALID 오류를 수정합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.27",
+      "published_at": "2026-10-06T12:45:30Z",
+      "created_at": "2026-10-03T18:08:48Z",
+      "updated_at": "2026-10-06T12:45:30Z",
+      "assets": [
+        {
+          "id": 615498637,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 266332,
+          "digest": "sha256:9f84ba0be5e0f4405bc9b63967d392663a35e68746fbbd6f82b0e458cdcd69ee",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.27/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-06T12:45:29Z",
+          "updated_at": "2026-10-06T12:45:29Z"
+        },
+        {
+          "id": 615498636,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:9e6ab6bfbdbe82166a19c3554c940bd1fe6bdd2c0ab156535a0919a472deda72",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.27/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-06T12:45:29Z",
+          "updated_at": "2026-10-06T12:45:29Z"
+        }
+      ]
+    },
+    {
+      "id": 404688553,
+      "tag_name": "pulsia.catalog-studio@1.2.26",
+      "name": "Catalog Studio 1.2.26",
+      "body": "템플릿 업데이트 진행 이벤트 스키마를 보완하고 현재 Pulsia ACP Agent 세션 요청 형식에 맞춰 템플릿 2.0.001 적용 실패를 수정합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.26",
+      "published_at": "2026-10-06T12:37:12Z",
+      "created_at": "2026-10-03T18:08:48Z",
+      "updated_at": "2026-10-06T12:37:12Z",
+      "assets": [
+        {
+          "id": 615478702,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 266296,
+          "digest": "sha256:5edcdc7256d0b3fa00c415630c8834b2b8a53992442de3dfcc38eb741accd3e0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.26/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-06T12:37:11Z",
+          "updated_at": "2026-10-06T12:37:11Z"
+        },
+        {
+          "id": 615478708,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:6967a2ac2c34b8e194306d3953ef5e0c41a5a26ffdf3bf35bd3698daf1e0427c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.26/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-06T12:37:11Z",
+          "updated_at": "2026-10-06T12:37:11Z"
+        }
+      ]
+    },
+    {
+      "id": 403864078,
+      "tag_name": "pulsia.catalog-studio@1.2.24",
+      "name": "Catalog Studio 1.2.24",
+      "body": "카탈로그 목록의 폴더와 파일을 같은 부모 안에서 드래그하여 재정렬하고 프로젝트별 순서를 저장합니다. 템플릿 항목 순서와 프로젝트와 업무 관리 2.0.001 지원을 추가합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.24",
+      "published_at": "2026-10-05T15:25:07Z",
+      "created_at": "2026-10-03T18:08:48Z",
+      "updated_at": "2026-10-05T15:25:07Z",
+      "assets": [
+        {
+          "id": 612935506,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 265994,
+          "digest": "sha256:b60144c000da17d7c17ccec473e96c59ffd972fc0731deee21b53741e00af127",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.24/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-05T15:25:05Z",
+          "updated_at": "2026-10-05T15:25:06Z"
+        },
+        {
+          "id": 612935512,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:5c42d4d248a00188647ea869eb8f56afbc0b834cfe4979cddc8e79e2d6daebc0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.24/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-05T15:25:05Z",
+          "updated_at": "2026-10-05T15:25:06Z"
+        }
+      ]
+    },
+    {
+      "id": 403864114,
+      "tag_name": "catalog.templates@2.0.001",
+      "name": "Catalog templates 2.0.001",
+      "body": "모든 템플릿 항목의 명시적 순서를 제공하고 프로젝트와 업무 관리 템플릿에 시작 흐름 순서와 사용자·화면 시나리오를 추가합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/catalog.templates%402.0.001",
+      "published_at": "2026-10-05T15:25:10Z",
+      "created_at": "2026-10-03T18:08:48Z",
+      "updated_at": "2026-10-05T15:25:10Z",
+      "assets": [
+        {
+          "id": 612935755,
+          "name": "catalog-templates.json",
+          "state": "uploaded",
+          "size": 85225,
+          "digest": "sha256:499bae0d65561d6aad596c181960f2296a25f2b85264b1e17907314c7cca07a4",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/catalog.templates%402.0.001/catalog-templates.json",
+          "created_at": "2026-10-05T15:25:09Z",
+          "updated_at": "2026-10-05T15:25:09Z"
+        },
+        {
+          "id": 612935756,
+          "name": "catalog-templates.json.sha256",
+          "state": "uploaded",
+          "size": 89,
+          "digest": "sha256:4763842c23854b3981516b984c1aed4c601536656b33907e3c8890c3f5abe3ce",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/catalog.templates%402.0.001/catalog-templates.json.sha256",
+          "created_at": "2026-10-05T15:25:09Z",
+          "updated_at": "2026-10-05T15:25:09Z"
+        }
+      ]
+    },
+    {
+      "id": 392449582,
+      "tag_name": "wintera.net-manager@0.1.7",
+      "name": "Net Manager 0.1.7",
+      "body": "장비 모델명, 유선 LAN·와이파이 표시, Lucide 아이콘 검색·선택을 추가함.\n변경 적용 버튼 대비 및 Net Manager 메뉴 아이콘을 개선함.\n연결 안내를 ‘노드 연결점’으로 통일함.\n\nNet Manager 전용 배포임. Pulsia 플러그인 업데이트 확인에서 설치함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/wintera.net-manager%400.1.7",
+      "published_at": "2026-09-20T13:57:41Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-20T13:57:41Z",
+      "assets": [
+        {
+          "id": 576907075,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 150758,
+          "digest": "sha256:ffac3a10df94a7311c23ad5c878769bbb8183e756b5a66734bb4b03a724d5d7f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.net-manager%400.1.7/wintera-net-manager.zip",
+          "created_at": "2026-09-20T13:57:40Z",
+          "updated_at": "2026-09-20T13:57:40Z"
+        }
+      ]
+    },
+    {
+      "id": 397054845,
+      "tag_name": "wintera.net-manager@0.1.23",
+      "name": "wintera.net-manager@0.1.23",
+      "body": "기본 예시 네트워크 이름을 '우리집 네트워크 - sample'로 변경했습니다.\n\n처음 실행할 때 보이는 샘플을 사용자의 실제 저장 데이터와 구분할 수 있습니다. 기존에 저장한 네트워크의 이름이나 장비 정보는 변경하지 않습니다.\n\n검증: 프로덕션 빌드·설치 패키지 생성, 기본 샘플 이름 및 장비 7개·연결 6개 보존 확인.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/wintera.net-manager%400.1.23",
+      "published_at": "2026-09-26T03:10:48Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-26T03:10:48Z",
+      "assets": [
+        {
+          "id": 589809125,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 181217,
+          "digest": "sha256:1abcd8563cece5380ad251c18fd24f86fe9f73cc1b28804879fb608e96278fee",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.net-manager%400.1.23/wintera-net-manager.zip",
+          "created_at": "2026-09-26T03:10:46Z",
+          "updated_at": "2026-09-26T03:10:47Z"
+        },
+        {
+          "id": 589809145,
+          "name": "wintera-net-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:5d68c8ce2d0d89af1d852f061f5915165bdd1c366c1efafaa768cc764f535f77",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.net-manager%400.1.23/wintera-net-manager.zip.sha256",
+          "created_at": "2026-09-26T03:10:47Z",
+          "updated_at": "2026-09-26T03:10:47Z"
+        }
+      ]
+    },
+    {
+      "id": 392698697,
+      "tag_name": "wintera.net-manager@0.1.21",
+      "name": "Net Manager 0.1.21",
+      "body": "## 변경 내용\n\n- Windows 기본 도구로 현재 LAN 장비 탐색을 지원함\n- 장비별 연결 방식을 제거하고 연결선마다 와이파이·유선 랜을 지정하도록 변경함\n- 지정된 연결 방식만 연결선 가운데 SVG 아이콘으로 표시함\n- 좌우 패널 폭과 열림 상태를 저장하고 패널 아이콘을 통일함\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/wintera.net-manager%400.1.21",
+      "published_at": "2026-09-21T04:38:22Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-21T04:38:22Z",
+      "assets": [
+        {
+          "id": 578240253,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 181145,
+          "digest": "sha256:1f9e156687ea36513d8982716a5fd0c0f2ba875e0c25e42319f49a45b0744ebe",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.net-manager%400.1.21/wintera-net-manager.zip",
+          "created_at": "2026-09-21T04:38:21Z",
+          "updated_at": "2026-09-21T04:38:21Z"
+        }
+      ]
+    },
+    {
+      "id": 392483719,
+      "tag_name": "wintera.net-manager@0.1.20",
+      "name": "Net Manager 0.1.20",
+      "body": "대메뉴 globe-check·서브메뉴 wifi-cog를 복원했습니다. Pulsia 0.2.971의 본체 Lucide 지원으로 처음부터 표시되며 CSS 교체를 사용하지 않습니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/wintera.net-manager%400.1.20",
+      "published_at": "2026-09-20T15:51:09Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-20T15:51:09Z",
+      "assets": [
+        {
+          "id": 577082104,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 182325,
+          "digest": "sha256:a1f0708590db427fdb45f2cd2a2e767ff1beb34e009f75dbae73549efbd19138",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.net-manager%400.1.20/wintera-net-manager.zip",
+          "created_at": "2026-09-20T15:51:08Z",
+          "updated_at": "2026-09-20T15:51:08Z"
+        }
+      ]
+    },
+    {
+      "id": 392478705,
+      "tag_name": "wintera.net-manager@0.1.19",
+      "name": "Net Manager 0.1.19",
+      "body": "메뉴 아이콘을 Pulsia 기본 globe·network로 변경했습니다. 화면을 연 뒤 아이콘을 바꾸던 CSS 대체를 제거했습니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/wintera.net-manager%400.1.19",
+      "published_at": "2026-09-20T15:34:32Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-20T15:34:32Z",
+      "assets": [
+        {
+          "id": 577058086,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 182321,
+          "digest": "sha256:2bd5cd0825641aa5f7a6e452091c4de23f03f122ec126a142d237795de45f701",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.net-manager%400.1.19/wintera-net-manager.zip",
+          "created_at": "2026-09-20T15:34:31Z",
+          "updated_at": "2026-09-20T15:34:31Z"
+        }
+      ]
+    },
+    {
+      "id": 392472923,
+      "tag_name": "wintera.net-manager@0.1.18",
+      "name": "Net Manager 0.1.18",
+      "body": "AI 장비 검색·재검색·정보 채우기와 실제 통신 상태 확인을 제공합니다. AI 요청과 관측 자료를 구분하고 이전 결과를 보존합니다. ACP 모델·버전 등의 서비스 오류는 장비 형식 오류와 구분해 표시합니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/wintera.net-manager%400.1.18",
+      "published_at": "2026-09-20T15:15:35Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-20T15:15:35Z",
+      "assets": [
+        {
+          "id": 577029544,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 183156,
+          "digest": "sha256:3d34e69a5fdf6cbffe0ae77007309fd26e6c5dbdcc30ff49c22cd8ee54c7bfcc",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.net-manager%400.1.18/wintera-net-manager.zip",
+          "created_at": "2026-09-20T15:15:34Z",
+          "updated_at": "2026-09-20T15:15:34Z"
+        }
+      ]
+    },
+    {
+      "id": 392471706,
+      "tag_name": "wintera.net-manager@0.1.17",
+      "name": "Net Manager 0.1.17",
+      "body": "AI 장비 분석과 카드 정보 채우기, 실제 통신 상태 확인을 제공합니다. 재검색 결과를 유지하고 같은 IP로 등록된 장비의 설명을 각각 보존합니다. 결과 표의 IP 줄바꿈을 방지하고 단일 장비 설명을 간결하게 조정했습니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/wintera.net-manager%400.1.17",
+      "published_at": "2026-09-20T15:11:21Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-20T15:11:21Z",
+      "assets": [
+        {
+          "id": 577022519,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 182963,
+          "digest": "sha256:58dc127d34453a3edaea83b5a83948149ded12e559c2ad1427df62d94240fd53",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.net-manager%400.1.17/wintera-net-manager.zip",
+          "created_at": "2026-09-20T15:11:20Z",
+          "updated_at": "2026-09-20T15:11:20Z"
+        }
+      ]
+    },
+    {
+      "id": 392469768,
+      "tag_name": "wintera.net-manager@0.1.16",
+      "name": "Net Manager 0.1.16",
+      "body": "AI 분석 요청의 목적과 관측 데이터 구분을 명확하게 했습니다. 실제 통신 상태 표시, 카드의 연결 방식과 AI 정보 채우기, 재검색 결과 보존을 포함합니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/wintera.net-manager%400.1.16",
+      "published_at": "2026-09-20T15:05:00Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-20T15:05:00Z",
+      "assets": [
+        {
+          "id": 577013218,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 182889,
+          "digest": "sha256:8ded4461a268735700266dbbaf528d81e95105c239b978e31527d5f9d54a48d9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.net-manager%400.1.16/wintera-net-manager.zip",
+          "created_at": "2026-09-20T15:04:59Z",
+          "updated_at": "2026-09-20T15:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": 392468579,
+      "tag_name": "wintera.net-manager@0.1.15",
+      "name": "Net Manager 0.1.15",
+      "body": "장비의 실제 IP·웹 응답과 현재 PC 외부 통신을 확인해 카드와 상세에 표시합니다. 직접 조회할 수 없는 L2 장비와 미응답을 구분합니다. AI 응답 진단과 재검색 결과 보존을 보완했습니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/wintera.net-manager%400.1.15",
+      "published_at": "2026-09-20T15:01:07Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-20T15:01:07Z",
+      "assets": [
+        {
+          "id": 577007705,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 182720,
+          "digest": "sha256:78b1120562138f95b8ce75a3f8123562e8be9bc54e03069387599af284c98876",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.net-manager%400.1.15/wintera-net-manager.zip",
+          "created_at": "2026-09-20T15:01:06Z",
+          "updated_at": "2026-09-20T15:01:06Z"
+        }
+      ]
+    },
+    {
+      "id": 392467036,
+      "tag_name": "wintera.net-manager@0.1.14",
+      "name": "Net Manager 0.1.14",
+      "body": "재검색 시 기존 AI 설명을 보존하고, 읽을 수 없는 답변은 같은 AI에 한 번 형식 보정을 요청합니다. 최종 답변 미전달과 형식 오류를 구분합니다. 카드 LAN/Wi-Fi 칩과 AI 정보 채우기를 포함합니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/wintera.net-manager%400.1.14",
+      "published_at": "2026-09-20T14:56:05Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-20T14:56:05Z",
+      "assets": [
+        {
+          "id": 576999700,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 178708,
+          "digest": "sha256:ca5a5a4c77941fd0caac2763b8ddd1d6f8a4c25aa0df39996ca10c304eec19de",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.net-manager%400.1.14/wintera-net-manager.zip",
+          "created_at": "2026-09-20T14:56:04Z",
+          "updated_at": "2026-09-20T14:56:04Z"
+        }
+      ]
+    },
+    {
+      "id": 392466430,
+      "tag_name": "wintera.net-manager@0.1.13",
+      "name": "Net Manager 0.1.13",
+      "body": "카드에 LAN/Wi-Fi 연결 칩과 AI로 정보 채우기 버튼을 추가했습니다. 선택한 장비를 자동 분석하고 수정 가능한 제안을 확인한 뒤 업데이트할 수 있습니다. 기존 맵과 연결은 유지합니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/wintera.net-manager%400.1.13",
+      "published_at": "2026-09-20T14:54:01Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-20T14:54:01Z",
+      "assets": [
+        {
+          "id": 576996255,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 178384,
+          "digest": "sha256:15a30122e1fbd3b3a0f58d8d63ef72a0d025fdc14a27656b8f7078ad13088b7f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.net-manager%400.1.13/wintera-net-manager.zip",
+          "created_at": "2026-09-20T14:53:59Z",
+          "updated_at": "2026-09-20T14:54:00Z"
+        }
+      ]
+    },
+    {
+      "id": 392464313,
+      "tag_name": "wintera.net-manager@0.1.12",
+      "name": "Net Manager 0.1.12",
+      "body": "모든 IP 장비를 설명하고 검색 일치와 별도 등록 추천을 구분합니다.\n\n- IP 없는 항목은 AI 검색 목록에서 제외, 기존 맵은 유지\n- 검색어와 관계없이 IP 있는 장비 모두에 설명 제공\n- 검색어 관련 후보만 AI 추정 칩·행 강조\n- 검색어와 무관하지만 사용 제품으로 식별되는 미등록 장비는 연한 파란색 AI 등록 추천 칩 표시\n- macOS mDNS로 Google Nest·AirPlay·스마트홈·프린터·SMB 장비의 이름·모델·서비스 정보 보강\n- 단문 응답·장비별 점진 표시·지원되는 낮은 추론 강도·탐색 결과 재사용 적용\n- 저장 실패 안내가 각 모달 안에 표시되도록 보완\n\n0.1.10에서 실제 Claude의 NAS·TV 분류와 설명 출력 확인 후 개선한 버전입니다. 기기 식별 정보가 없으면 임의로 종류를 단정하지 않습니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/wintera.net-manager%400.1.12",
+      "published_at": "2026-09-20T14:46:59Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-20T14:46:59Z",
+      "assets": [
+        {
+          "id": 576985018,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 175362,
+          "digest": "sha256:81f8efec6487dd7b4612b63746a4312fd97254a5b5004ceff1a2a210e8ebda15",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.net-manager%400.1.12/wintera-net-manager.zip",
+          "created_at": "2026-09-20T14:46:57Z",
+          "updated_at": "2026-09-20T14:46:58Z"
+        }
+      ]
+    },
+    {
+      "id": 392462984,
+      "tag_name": "wintera.net-manager@0.1.11",
+      "name": "Net Manager 0.1.11",
+      "body": "AI 장비 분류 응답을 간결하게 줄이고, 완성된 장비별 결과를 즉시 표시합니다.\n\n- 근거 없는 IP별 반복 설명 제거, 이름·모델·제조사 정보가 있는 후보 우선 분류\n- ACP가 지원하는 경우 플러그인 전용 세션의 추론 강도를 낮게 설정\n- 같은 네트워크에서 2분 내 다시 요청하면 탐색 결과 재사용\n- 응답 전체 종료를 기다리지 않고 NAS·TV 등 분류와 설명을 점진적으로 표시\n- 기존 대화 설정·네트워크 맵·다른 플러그인 릴리스 유지\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/wintera.net-manager%400.1.11",
+      "published_at": "2026-09-20T14:42:28Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-20T14:42:28Z",
+      "assets": [
+        {
+          "id": 576978373,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 173334,
+          "digest": "sha256:33c91d1eae52482d27e7f18881fa855937b8c2d41123883d11bae081a026751a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.net-manager%400.1.11/wintera-net-manager.zip",
+          "created_at": "2026-09-20T14:42:27Z",
+          "updated_at": "2026-09-20T14:42:28Z"
+        }
+      ]
+    },
+    {
+      "id": 392461526,
+      "tag_name": "wintera.net-manager@0.1.10",
+      "name": "Net Manager 0.1.10",
+      "body": "장비 탐색 결과를 연결된 ACP AI가 분류하고 근거를 설명합니다. AI 추정 행에 옅은 배경과 칩을 표시합니다.\n\n- Vue 반응형 데이터 IPC 전달 오류와 Pulsia agent 응답 역할 처리 오류 수정\n- AI로 장비 등록: 현재 LAN의 ARP·SSDP 결과, 장비 종류 추정, 선택 등록\n- 이 장비 연결 확인: 내부 IP·게이트웨이·외부 IP·응답 경유지와 저장 맵 비교, 블록별 검토·편집 후 적용\n- 최근 대화한 ACP 기본 선택과 AI 선택 지원\n- 아이콘 창 이동·모서리 크기 조절·목록 스크롤 개선, 크기 조절 장식 숨김\n- 검색창 돋보기 내부 배치와 얇은 포커스 테두리\n\n현재 장비 검색은 macOS/Linux에서 지원합니다. L2 중간 장비·벽 배선·NAT 구성은 관측 없이 추정 확정하지 않습니다. 다른 플러그인의 릴리스와 공용 latest 표시는 변경하지 않습니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/wintera.net-manager%400.1.10",
+      "published_at": "2026-09-20T14:37:14Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-20T14:37:14Z",
+      "assets": [
+        {
+          "id": 576970204,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 172212,
+          "digest": "sha256:8991b63b865da0e40bd79d1b96d74023b4c6b61a0b731d40ae72235c58af1396",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.net-manager%400.1.10/wintera-net-manager.zip",
+          "created_at": "2026-09-20T14:37:13Z",
+          "updated_at": "2026-09-20T14:37:13Z"
+        }
+      ]
+    },
+    {
+      "id": 397054900,
+      "tag_name": "wintera.holdings.object-studio@0.9.2",
+      "name": "wintera.holdings.object-studio@0.9.2",
+      "body": "법인 운영 샘플 모델 생성과 세 화면 표시를 개선했습니다.\n\n- 버튼 이름을 '법인 운영 샘플 모델 생성'으로 변경했습니다.\n- 선택한 보관함에 한 번만 저장하며 새 예시 보관함을 반복 생성하지 않습니다.\n- 샘플 저장과 모델 불러오기 상태를 표시하고 처리 중 재실행을 막습니다.\n- 저장 완료 후 모델 편집을 열고, 재진입 시 저장된 모델 목록을 표시합니다.\n- 객체 만들기·모델 관리·모델 맵의 보관함 선택을 공유합니다.\n- 느린 AI 목록 조회가 저장된 모델 표시를 지연시키지 않도록 분리했습니다.\n- 기존 샘플과 사용자가 수정한 모델을 보존합니다.\n\n검증: 단위 검사 72개, 객체 만들기·모델 관리·모델 맵 Electron UI 검증 통과. 재시작·지연·반복 클릭·이전 샘플 호환 확인.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/wintera.holdings.object-studio%400.9.2",
+      "published_at": "2026-09-26T03:10:59Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-26T03:10:59Z",
+      "assets": [
+        {
+          "id": 589809438,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 305231,
+          "digest": "sha256:afdb12cb8fc5eb4053ecbf15b22d96cda05e8be2fbca997ade341f6bd92e964e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.holdings.object-studio%400.9.2/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-09-26T03:10:58Z",
+          "updated_at": "2026-09-26T03:10:58Z"
+        },
+        {
+          "id": 589809452,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:a021e5c53e767fdbbd8f1b65056e6c2594b3701598b7f59f71b2d6568c949832",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.holdings.object-studio%400.9.2/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-09-26T03:10:59Z",
+          "updated_at": "2026-09-26T03:10:59Z"
+        }
+      ]
+    },
+    {
+      "id": 395765242,
+      "tag_name": "wintera.holdings.object-studio@0.9.1",
+      "name": "Object Model Manager 0.9.1",
+      "body": "객체 만들기·모델 관리·모델 맵에서 같은 모델을 작성하고 편집할 수 있습니다.\n\n- 객체 만들기: 설치된 ACP AI의 모델·성능을 선택하고 필요한 모델과 업무 그룹 배치를 자연어로 요청합니다. 결과에서 편집과 연결 보기를 바로 엽니다.\n- 모델 맵: 모델·구성요소·관계를 탐색하고 연결선과 모델에서 편집 창을 엽니다. 모델 관리에서도 이동·크기 조절 가능한 연결 보기 창을 제공합니다.\n- AI 연동: 공개 모델 조회·작성·편집 API와 Object Manager 스킬을 포함합니다. 일괄 변경 검증, 중복 요청 방지, 동시 수정 충돌 검사, 중단 및 삭제 확인을 지원합니다.\n- 윈테라 운영 예시: 법인·사람·은행·계좌·네트워크·서버·사무 장비·가구·계약·플러그인 연동 등 모델 74개와 업무 그룹 28개를 별도 보관함에 만듭니다. 실제 운영값은 비어 있습니다.\n- 객체 관리·객체 연결·객체 만들기-archive·객체 맵-archive·대상관계 보기 화면을 제거합니다. 기존 데이터와 호환 API는 유지합니다.\n\n단위 검사 70개와 세 화면 UI·공개 MCP 검증을 통과했습니다. Pulsia 0.2.977에서 설치된 Codex ACP의 모델·성능 변경, 그룹 배치, 새 모델·관계 작성과 맵 편집을 확인했습니다.\n\n모델 버전 발행·실제 자산 생성·장비 제어·원격 DB 동기화는 포함하지 않습니다. AI 모델·성능 옵션은 설치된 ACP가 제공하는 항목에 따릅니다.\n\n설치: Pulsia 플러그인 관리에서 업데이트하거나 첨부 ZIP을 선택하세요. SHA-256 파일을 함께 제공합니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/wintera.holdings.object-studio%400.9.1",
+      "published_at": "2026-09-24T14:19:57Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-24T14:19:57Z",
+      "assets": [
+        {
+          "id": 586117046,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 302273,
+          "digest": "sha256:4843cdbeaedac166d48660522ae8f953f2a3c466063d11cd594c691260f2baa5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.holdings.object-studio%400.9.1/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-09-24T14:19:55Z",
+          "updated_at": "2026-09-24T14:19:56Z"
+        },
+        {
+          "id": 586117051,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:4727b40b383b421ba7a529f58ddaed317e8bec105a86c62a8567eef38d2205bd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.holdings.object-studio%400.9.1/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-09-24T14:19:55Z",
+          "updated_at": "2026-09-24T14:19:56Z"
+        }
+      ]
+    },
+    {
+      "id": 395698792,
+      "tag_name": "wintera.holdings.object-studio@0.7.9",
+      "name": "Object Model Manager 0.7.9",
+      "body": "객체 매니저에 모델 관리 메뉴를 추가함. 기존 객체 관리·객체 연결과 저장 데이터를 유지함.\n\n- 속성·모델 자체 값·구성요소·관계를 편집하고 재사용 모델을 조합함.\n- 업무 그룹을 폴더처럼 만들고 같은 모델을 여러 그룹에 배치함. 우클릭·인라인 이름 변경·모델 검색 추가를 제공함.\n- 모델 탐색을 업무 그룹별 / 분류별 / 전체 모델로 통일함. 각 보기에 필요한 생성·분류 관리·펼치기·접기 동작을 제공함.\n- 긴 이름과 버튼 줄바꿈, 패널 크기 조절, 사용처 이동과 미저장 편집 복귀를 개선함.\n- 빈 화면 제목은 “사용할 구조를 모델로 만드세요”로 표시함.\n\n검증: 단위 테스트 60개, 기존 UI 회귀, 모델 500개 탐색과 생성·저장·복구·그룹 조작 시험 통과. 실제 Pulsia 0.2.977에 설치하여 확인함.\n\n모델 버전 발행·고정·갱신은 아직 제공하지 않음. 기존 객체 데이터는 자동 변환하지 않음.\n\n업데이트: Pulsia 플러그인 관리에서 업데이트 확인 후 객체 매니저를 업데이트함. 수동 설치는 첨부 ZIP을 사용함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/wintera.holdings.object-studio%400.7.9",
+      "published_at": "2026-09-24T13:06:14Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-24T13:06:14Z",
+      "assets": [
+        {
+          "id": 585980722,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 274766,
+          "digest": "sha256:2d587d618493eec531ebf4619afec1b78052a5d6540402bcf30d3854030eb4c6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.holdings.object-studio%400.7.9/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-09-24T13:06:12Z",
+          "updated_at": "2026-09-24T13:06:13Z"
+        },
+        {
+          "id": 585980723,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:8a84b2fa68eef4a5cb7eb7bfee9a19d617532e5a5a6431dc2bb6fba3c4eda85e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.holdings.object-studio%400.7.9/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-09-24T13:06:12Z",
+          "updated_at": "2026-09-24T13:06:13Z"
+        }
+      ]
+    },
+    {
+      "id": 393028889,
+      "tag_name": "wintera.holdings.object-studio@0.5.1",
+      "name": "Object Manager 0.5.1",
+      "body": "객체 관리와 객체 연결의 탐색·편집 화면을 개선했습니다.\n\n- 제목·개수·검색 도구를 정리하고 목록과 상세 헤더 높이를 맞췄습니다.\n- 선택 행의 세로 강조 바와 hover 구분선 강조를 제거했습니다. 검색창은 돋보기를 포함한 얇은 포커스 테두리를 사용합니다.\n- 종류·객체 아이콘을 Lucide 목록에서 선택하고, SVG는 별도 입력창에서 미리 보고 적용할 수 있습니다.\n- 연결 맵의 SVG 선과 화살표가 객체 드래그를 따라 움직이며 시작 화면·객체별 위치를 저장합니다.\n- 하단 탐색 경로와 뒤로가기를 추가하고 종류·상세 패널 너비 조절 및 복원을 지원합니다.\n- 기존 archive 화면과 객체 ID·관계를 유지합니다.\n\n검증: 단위 검사 47개, 새 UI 15개 흐름 및 기존 화면 회귀 검사 통과. 격리된 Electron에서 검증했으며 사용자 운영 데이터는 변경하지 않았습니다.\n\n설치: Pulsia 플러그인 관리에서 첨부 ZIP을 설치하세요.\n\nSHA-256: b8de02b78c5f8060553bb0aa56c12b7f265c69e18b21f9cac158fed200323953\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/wintera.holdings.object-studio%400.5.1",
+      "published_at": "2026-09-21T14:27:42Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-21T14:27:42Z",
+      "assets": [
+        {
+          "id": 579201443,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 227331,
+          "digest": "sha256:b8de02b78c5f8060553bb0aa56c12b7f265c69e18b21f9cac158fed200323953",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.holdings.object-studio%400.5.1/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-09-21T14:27:41Z",
+          "updated_at": "2026-09-21T14:27:41Z"
+        }
+      ]
+    },
+    {
+      "id": 392943182,
+      "tag_name": "wintera.holdings.object-studio@0.4.1",
+      "name": "Object Manager 0.4.1",
+      "body": "객체 매니저 0.4.1\n\n- 여러 루트와 카드·종류·속성·값 연결을 제공합니다.\n- 회사 기본, 사업장과 공간, 장비와 네트워크 프리셋을 제공합니다.\n- 다른 플러그인과 AI가 사용할 공개 동작과 객체 관리 스킬을 포함합니다.\n- 설치 ID: wintera.holdings.object-studio\n- 업데이트 저장소: mars-log/pulsia-plugin-releases\n\n기존 데이터를 보존하려면 설치 ID를 변경하지 마세요. 이 버전의 다중 루트 저장 형식은 구버전에서 읽을 수 없으므로 다운그레이드에는 이전 데이터 백업이 필요합니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/wintera.holdings.object-studio%400.4.1",
+      "published_at": "2026-09-21T12:31:34Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-21T12:31:34Z",
+      "assets": [
+        {
+          "id": 579004067,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 184294,
+          "digest": "sha256:c3f1be984a096c86804382705612b68125de09f3d72411e1764d13e40b9c6613",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.holdings.object-studio%400.4.1/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-09-21T12:31:33Z",
+          "updated_at": "2026-09-21T12:31:33Z"
+        },
+        {
+          "id": 579004070,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:3d84735a376d48077b381f05dc235a6e369646c5ff212d7bcb1694d7911c201b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/wintera.holdings.object-studio%400.4.1/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-09-21T12:31:33Z",
+          "updated_at": "2026-09-21T12:31:33Z"
+        }
+      ]
+    },
+    {
+      "id": 398887437,
+      "tag_name": "pulsia.object-model-studio@0.9.7",
+      "name": "Object Model Studio 0.9.7",
+      "body": "저장 버튼과 기본 정보 요약을 정리했습니다.\n\n- 닫기·모델 저장 버튼: 높이 26px, 상하 패딩 5px, 모서리 1px.\n- 저장 버튼: Pulsia 테마 강조색의 옅은 배경. 저장할 변경이 없으면 배경 없이 흐리게 표시.\n- 속성·구성요소·관계 개수 아래 8px 간격.\n- 접힌 기본 정보: 모델 이름·분류·설명을 라벨 정렬된 세 줄로 표시. 긴 값은 줄마다 말줄임.\n\n실제 Host 패키지 설치 기반 격리 Electron 화면에서 버튼 치수와 밝은/어두운 테마, 좁은 화면, 편집·저장·취소 흐름을 확인했습니다.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.9.7",
+      "published_at": "2026-09-29T06:52:43Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-29T06:52:43Z",
+      "assets": [
+        {
+          "id": 597509731,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 311244,
+          "digest": "sha256:a436341aa61448b146d6cbfbba14746e728abdcd335f1b49a5d2a4e444c6bd92",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.9.7/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-09-29T06:52:42Z",
+          "updated_at": "2026-09-29T06:52:43Z"
+        },
+        {
+          "id": 597509737,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:8690ff3d898c411a50410562595c2474e929a254ee69e20c2322d3526d207c70",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.9.7/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-09-29T06:52:42Z",
+          "updated_at": "2026-09-29T06:52:42Z"
+        }
+      ]
+    },
+    {
+      "id": 398874445,
+      "tag_name": "pulsia.object-model-studio@0.9.6",
+      "name": "Object Model Studio 0.9.6",
+      "body": "기본 정보에 모델 이름·분류·설명을 한 줄로 표시하고, 각 값만 말줄임합니다.\n\n- 모델 구성의 모델 열기는 원래 화면을 유지하면서 여러 독립 창을 엽니다. 클릭·포커스한 창만 앞으로 올라오며 창별 이동·크기·최대화·복원을 저장합니다.\n- 항목 편집 팝업의 헤더·푸터를 줄이고 모서리와 크기 조절 표시를 정리했습니다. 입력 방식·연결 모델 셀렉트의 화살표 여백과 포커스 테두리를 수정했습니다.\n- 속성·구성요소·관계·위치 값 제거 전에 확인하며, 제거 버튼의 글자와 아이콘은 마우스를 올리면 빨간색으로 표시합니다.\n\n실제 Pulsia 빌더로 패키지를 설치한 격리 Electron 화면에서 항목 편집 6단계, 다중 모델 창 5단계, 기본 정보 요약 2단계를 검증했습니다. 밝은/어두운 테마와 좁은 화면, 저장 취소, 창 위치 복원을 확인했습니다.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.9.6",
+      "published_at": "2026-09-29T06:28:24Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-29T06:28:24Z",
+      "assets": [
+        {
+          "id": 597464495,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 311109,
+          "digest": "sha256:1ea3a02ac9a78bf80d8d1beb9d2e6c2d6520118a8bfa9e8cadc170266218ca57",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.9.6/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-09-29T06:28:23Z",
+          "updated_at": "2026-09-29T06:28:24Z"
+        },
+        {
+          "id": 597464493,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:e9204fb308d89bfd9b5d1a05b84cae8f170a07a574885dd93611a7286e76039e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.9.6/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-09-29T06:28:23Z",
+          "updated_at": "2026-09-29T06:28:23Z"
+        }
+      ]
+    },
+    {
+      "id": 397906633,
+      "tag_name": "pulsia.object-model-studio@0.9.4",
+      "name": "pulsia.object-model-studio@0.9.4",
+      "body": "사이드바 상단과 루트 이름을 Object Model Studio로 수정함. 플러그인 관리 표기와 내부 ID는 유지함. Source: mars-log/pulsia-plugin-object-manager 4cce24e. light/dark 실제 설치 표시 확인함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.9.4",
+      "published_at": "2026-09-28T02:25:51Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-28T02:25:51Z",
+      "assets": [
+        {
+          "id": 594281453,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 304788,
+          "digest": "sha256:b0b889c10129513db5772d5e4ca803aa74ce3097f1bc20b9d809b43537324619",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.9.4/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-09-28T02:25:50Z",
+          "updated_at": "2026-09-28T02:25:51Z"
+        }
+      ]
+    },
+    {
+      "id": 397496349,
+      "tag_name": "pulsia.object-model-studio@0.9.3",
+      "name": "pulsia.object-model-studio@0.9.3",
+      "body": "제품 표시와 API ID를 pulsia.object-model-studio로 통일함. Pulsia 0.2.979의 호환 연결을 통해 기존 객체 모델 데이터를 같은 위치에서 사용함.\n\nPulsia 0.2.979 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-object-manager/commit/a10f9e2787128a600745b56e4c0a4039d6bd83da\n\nSHA-256 (pulsia-plugin-object-manager.zip): db3c656004c8450a14bfeee2a61c16c820ba254e509520de45ca45a75b779d80",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.9.3",
+      "published_at": "2026-09-27T04:24:23Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-27T04:24:23Z",
+      "assets": [
+        {
+          "id": 592106476,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 305184,
+          "digest": "sha256:db3c656004c8450a14bfeee2a61c16c820ba254e509520de45ca45a75b779d80",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.9.3/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-09-27T04:11:03Z",
+          "updated_at": "2026-09-27T04:11:03Z"
+        },
+        {
+          "id": 592106513,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:1640a0cf08de0e959d790ec98b04c88d04f92038200453f4fd4160ec5acd9b36",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.9.3/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-09-27T04:11:04Z",
+          "updated_at": "2026-09-27T04:11:04Z"
+        }
+      ]
+    },
+    {
+      "id": 401581028,
+      "tag_name": "pulsia.object-model-studio@0.10.9",
+      "name": "Object Model Studio 0.10.9",
+      "body": "Object Model Studio 0.10.9 combines the Object Model Studio-wide single model helper from 0.10.7 with the model map zoom slider from 0.10.8.\n\nPulsia 0.3.111 or later is required. Older Pulsia versions reject the new primary-menu companion view field before installation.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/a612655",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.9",
+      "published_at": "2026-10-02T06:16:51Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-10-02T06:16:51Z",
+      "assets": [
+        {
+          "id": 604958686,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 354148,
+          "digest": "sha256:c3267be36cfbac28ffa284e222749764d4002dc425cb6d612c1ead0b000af2ed",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.9/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-02T06:16:50Z",
+          "updated_at": "2026-10-02T06:16:51Z"
+        },
+        {
+          "id": 604958685,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:54e77db15b45953fe9ba8a1a63c4508b300095055a6db550681ec21c748b0234",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.9/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-02T06:16:50Z",
+          "updated_at": "2026-10-02T06:16:50Z"
+        }
+      ]
+    },
+    {
+      "id": 401572463,
+      "tag_name": "pulsia.object-model-studio@0.10.8",
+      "name": "Object Model Studio 0.10.8",
+      "body": "모델 맵 배율 숫자를 누르면 조작부 위쪽에 세로 슬라이더가 열립니다. 슬라이더 클릭·드래그·키보드와 Esc·바깥 클릭 닫기를 지원하며 기존 버튼·휠·화면 맞춤·노드 이동과 배치 저장을 유지합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.8",
+      "published_at": "2026-10-02T05:55:41Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-10-02T05:55:41Z",
+      "assets": [
+        {
+          "id": 604926501,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 354148,
+          "digest": "sha256:efb31ba464c285237486897c7bffdcef59173e847fb400b8350c9662e6aa5536",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.8/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-02T05:55:40Z",
+          "updated_at": "2026-10-02T05:55:40Z"
+        },
+        {
+          "id": 604926503,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:7a0061308b6fed45e37bf528ed7b9456a9614d68129327350edbd8266fff817e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.8/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-02T05:55:40Z",
+          "updated_at": "2026-10-02T05:55:40Z"
+        }
+      ]
+    },
+    {
+      "id": 401568053,
+      "tag_name": "pulsia.object-model-studio@0.10.7",
+      "name": "Object Model Studio 0.10.7",
+      "body": "Object Model Studio 0.10.7\n\n- Object Model Studio 대메뉴가 모델 작업 도우미 한 개를 소유하도록 변경함\n- 분리 창 유지와 어느 화면에서든 패널 복귀 동작을 일관되게 처리함\n- 모델 맵, 업무 그룹, 특정 모델, 모델 관리 편집 화면을 Agent가 표시할 수 있게 함\n- 객체 만들기 상단에 보관함 개요 그래프와 업무 그룹 계층을 추가함\n- 선택 상자를 Lucide 쉐브론과 일정한 오른쪽 여백으로 통일함\n\nPulsia 0.3.111 이상과 함께 사용해야 함.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.7",
+      "published_at": "2026-10-02T05:44:38Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-10-02T05:44:38Z",
+      "assets": [
+        {
+          "id": 604908035,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 351991,
+          "digest": "sha256:0a48178a31401dc135d83cec94d7ab802b30503944c7d49239f350024815f648",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.7/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-02T05:44:37Z",
+          "updated_at": "2026-10-02T05:44:37Z"
+        },
+        {
+          "id": 604908040,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 100,
+          "digest": "sha256:3796d4dfdce46c976afa874ae4deb1dd054e66b5cde038fa9b9c6c8bca3c9e01",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.7/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-02T05:44:37Z",
+          "updated_at": "2026-10-02T05:44:37Z"
+        }
+      ]
+    },
+    {
+      "id": 401491358,
+      "tag_name": "pulsia.object-model-studio@0.10.6",
+      "name": "Object Model Studio 0.10.6",
+      "body": "모델 맵의 속성·구성요소·관계 요약은 첫 항목을 자동으로 열지 않고 모델 편집창의 해당 구역으로 이동합니다. 모델 편집창과 기본 정보 연결부를 조밀하게 정리하고, 모델 탐색·맵 도구 영역의 높이와 업무 그룹 선택 쉐브론 여백을 맞췄습니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.6",
+      "published_at": "2026-10-02T02:12:21Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-10-02T02:12:21Z",
+      "assets": [
+        {
+          "id": 604600401,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 344974,
+          "digest": "sha256:2a25b726f477385b7d2e701b9359ee111ad3c5ff728a497dfb6b308fdd8a1943",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.6/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-02T02:12:19Z",
+          "updated_at": "2026-10-02T02:12:19Z"
+        },
+        {
+          "id": 604600402,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:aa7f71b9fcd5d5c7672c432d2acf27060f1659f07cebb841e457081b16bc3fb8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.6/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-02T02:12:19Z",
+          "updated_at": "2026-10-02T02:12:19Z"
+        }
+      ]
+    },
+    {
+      "id": 401484702,
+      "tag_name": "pulsia.object-model-studio@0.10.5",
+      "name": "Object Model Studio 0.10.5",
+      "body": "업무 그룹 선택 항목의 light/dark 가독성과 패널 분리 아이콘 정렬을 수정했습니다. 마지막 Agent의 모델, 추론 수준, 실행 모드 등 세션 설정을 저장하고 새 세션에 유효한 값을 복원합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.5",
+      "published_at": "2026-10-02T01:54:12Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-10-02T01:54:12Z",
+      "assets": [
+        {
+          "id": 604568895,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 344634,
+          "digest": "sha256:375f0efcc15ffca275761f8512ec638723850b13039b044c62d33f61fbf74257",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.5/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-02T01:54:11Z",
+          "updated_at": "2026-10-02T01:54:11Z"
+        },
+        {
+          "id": 604568898,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:8f654d588ea1552dc8132276fa990e74d3dfa229d7a4a89ef019f3c7948806d2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.5/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-02T01:54:11Z",
+          "updated_at": "2026-10-02T01:54:11Z"
+        }
+      ]
+    },
+    {
+      "id": 401474853,
+      "tag_name": "pulsia.object-model-studio@0.10.4",
+      "name": "Object Model Studio 0.10.4",
+      "body": "도우미 높이 조절선을 ACP 채팅과 같은 1px 표시로 맞추고 보관함 옆에 업무 그룹 선택을 배치함.\nAgent 설정을 ACP 세션 설정과 같은 설명 포함 행과 토글 구성으로 변경하고 Agent 선택을 첫 행에 제공함.\n마지막으로 정상 연결한 Agent를 재실행 때 새 세션으로 자동 연결하고 상태를 작은 아이콘과 글자로 표시함.\n분리창 복귀 아이콘을 square-arrow-out-down-left로 변경하고 크기 조절 기능을 유지하면서 기본 줄무늬 표시를 제거함.\n\n검증: 단위 시험 77개, 격리 Electron 도우미 집중 시험 3단계, 공용 Agent·모델 연결 시각 회귀 8단계와 light/dark 전체 화면 검수를 통과함.\n소스: mars-log/pulsia-plugin-studio 8206216",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.4",
+      "published_at": "2026-10-02T01:29:09Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-10-02T01:29:09Z",
+      "assets": [
+        {
+          "id": 604521436,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 343998,
+          "digest": "sha256:27461aab852683617a14c2c1f6fdd7e7c136a7585aab44aa16b74c8ef0d880f9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.4/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-02T01:29:08Z",
+          "updated_at": "2026-10-02T01:29:09Z"
+        },
+        {
+          "id": 604521438,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:0cd8593af2328c5e75bfffc3c4331355e609ca6ea8e3f21ebd634454da3e05ea",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.4/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-02T01:29:08Z",
+          "updated_at": "2026-10-02T01:29:09Z"
+        }
+      ]
+    },
+    {
+      "id": 401461280,
+      "tag_name": "pulsia.object-model-studio@0.10.3",
+      "name": "Object Model Studio 0.10.3",
+      "body": "Agent 연결·설정·조회 오류를 Pulsia 공용 알림으로 표시하고 설정 아래의 중복 빨간 문구를 제거함.\n요청 실패는 모델 작업 도우미에서 원인과 요청 수정 동작을 제공하며 중앙의 기존 모델 목록을 유지함.\n저장 완료 뒤 실제 변경 개수·변경 모델·업무 그룹과 편집·연결 보기·전체 모델 보기를 제공함.\n\n검증: 단위 시험 77개, 격리 Electron 도우미 집중 시험 2단계, 공용 Agent·모델 연결 시각 회귀 8단계와 light/dark 전체 화면 검수를 통과함.\n소스: mars-log/pulsia-plugin-studio 065e7d8\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.3",
+      "published_at": "2026-10-02T00:52:17Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-10-02T00:52:17Z",
+      "assets": [
+        {
+          "id": 604464971,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 342664,
+          "digest": "sha256:e3867836fa31c256ec1fbbe070dd91db5f99fe24929fd918e7831d65d12d5763",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.3/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-02T00:52:16Z",
+          "updated_at": "2026-10-02T00:52:16Z"
+        },
+        {
+          "id": 604464972,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 100,
+          "digest": "sha256:54d429952be31c64849742b1f771dffe5b4155d71ad978ff56b50f70bfcd4c73",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.3/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-02T00:52:16Z",
+          "updated_at": "2026-10-02T00:52:16Z"
+        }
+      ]
+    },
+    {
+      "id": 401454483,
+      "tag_name": "pulsia.object-model-studio@0.10.2",
+      "name": "Object Model Studio 0.10.2",
+      "body": "모델 작업 도우미의 위쪽 경계에서 전체 높이 조절·저장과 분리창 복귀를 지원함.\n창 분리 아이콘을 Lucide square-arrow-out-up-right로 변경함.\n한글 조합 중 전송 시 마지막 글자 누락을 수정하고 작성 중 기존 모델 목록을 유지함.\n\n검증: 모델 작성 단위 시험 9개, 격리 Electron light/dark, 실제 Chromium IME 조합과 포인터 전송, 패널 높이 저장·복원·작은 창 확인을 통과함.\n소스: mars-log/pulsia-plugin-studio a0ec500",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.2",
+      "published_at": "2026-10-02T00:33:32Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-10-02T00:33:32Z",
+      "assets": [
+        {
+          "id": 604437597,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 342170,
+          "digest": "sha256:6f6b893761cd75afe07292d88ad42bb5064ba2b5516ed5eeb1f732689f6fff78",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.2/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-02T00:33:31Z",
+          "updated_at": "2026-10-02T00:33:32Z"
+        },
+        {
+          "id": 604437604,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:9d75b377669563101fd322efd4fdc5447597a93883483306fcd6a74e5f235209",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.2/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-02T00:33:31Z",
+          "updated_at": "2026-10-02T00:33:32Z"
+        }
+      ]
+    },
+    {
+      "id": 401095826,
+      "tag_name": "pulsia.object-model-studio@0.10.1",
+      "name": "Object Model Studio 0.10.1",
+      "body": "모델 작업 도우미를 왼쪽·오른쪽 말풍선 대화로 정돈함.\r\n\r\n- 사용자 오른쪽·도우미 왼쪽 말풍선, Lucide 아이콘 및 보관함 선택을 적용함.\r\n- 입력창 상단 경계 드래그로 높이를 조절하고 저장함. textarea 기본 크기 조절 손잡이를 제거함.\r\n- 도우미 분리 창의 이동·크기 저장·재결합을 제공함. 다른 대메뉴에서는 숨기고 복귀 시 복원함.\r\n- 확인 질문에 답변하거나 요청을 취소할 수 있으며 모델 목록을 유지함.\r\n- Agent 설정을 정돈하고 매뉴얼·스킬을 함께 갱신함.\r\n\r\n검증: 모델 Agent 단위 시험 9/9, 격리 Electron 설치 UI·저장·MCP 연동 8/8 단계 통과함. light/dark 실제 렌더링을 확인함.\r\n\r\n소스: https://github.com/mars-log/pulsia-plugin-studio/commit/40858c0\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.1",
+      "published_at": "2026-10-01T15:19:00Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-10-01T15:19:00Z",
+      "assets": [
+        {
+          "id": 603533168,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 341483,
+          "digest": "sha256:f127f32973be61c760e39d2897095bd09f2cd9dc5fa3cff28c6029ad2af1c25a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.1/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-01T15:18:59Z",
+          "updated_at": "2026-10-01T15:18:59Z"
+        },
+        {
+          "id": 603533166,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:d3dc5d8df6fd511f968602f0f404465d33f2760e4ba5f49a48cc250e2563a1ad",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.1/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-01T15:18:59Z",
+          "updated_at": "2026-10-01T15:18:59Z"
+        }
+      ]
+    },
+    {
+      "id": 401048398,
+      "tag_name": "pulsia.object-model-studio@0.10.0",
+      "name": "Object Model Studio 0.10.0",
+      "body": "Object Model Studio 0.10.0\r\n\r\n- 객체 만들기·모델 관리·모델 맵의 공용 ACP Agent를 왼쪽 패널로 이동함. 입력·실행·대기열·중단·삭제 확인을 유지함.\r\n- 모델 맵의 노드·하위 구성 추가, 드래그 연결·해제, 키보드 이름 변경과 구성 접기·펼치기를 추가함.\r\n- 공통 모델 발행 버전, 소비처별 차이·선택적 갱신, 필수 속성 검사와 기존 값 보존 도우미를 제공함.\r\n- 다른 보관함의 모델 연결과 양방향 탐색·복귀를 추가함.\r\n- 플러그인 연동 매뉴얼·공개 MCP 동작·Agent 스킬과 패키징 문서 검사를 제공함.\r\n\r\n검증: 관련 단위 30개, 설치 ZIP의 새 UI·MCP 7개 시나리오, 기존 모델 맵 회귀 9개 시나리오 통과함. light/dark와 좁은 화면을 확인함. ACP는 격리된 시험 Agent로 검증함.\r\n\r\n기존 설치는 Pulsia 플러그인 업데이트에서 적용함. ZIP은 신규 설치용임. 실제 업무 값과 실물 식별·장비 실행은 소비 플러그인이 담당함.\r\n\r\n소스: https://github.com/mars-log/pulsia-plugin-studio/commit/b6abda3\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.0",
+      "published_at": "2026-10-01T14:27:20Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-10-01T14:27:20Z",
+      "assets": [
+        {
+          "id": 603436149,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 336105,
+          "digest": "sha256:c7d50d461899c41365c9b50bdd65549e1f7c7a5ab94e56c1263b547fd58d372c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.0/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-01T14:27:18Z",
+          "updated_at": "2026-10-01T14:27:19Z"
+        },
+        {
+          "id": 603436145,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:0c7a7c36e76eca8f9905c4503725fe00bec31a63bbde5eabd56ca58977eb1033",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.0/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-01T14:27:18Z",
+          "updated_at": "2026-10-01T14:27:18Z"
+        }
+      ]
+    },
+    {
+      "id": 397906663,
+      "tag_name": "pulsia.net-manager@0.1.25",
+      "name": "pulsia.net-manager@0.1.25",
+      "body": "사이드바 상단과 루트 이름을 Net Manager로 수정함. 플러그인 관리 표기와 내부 ID는 유지함. Source: mars-log/pulsia-plugin-net-manager 7e7d5db. light/dark 실제 설치 표시 확인함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.net-manager%400.1.25",
+      "published_at": "2026-09-28T02:25:56Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-28T02:25:56Z",
+      "assets": [
+        {
+          "id": 594281559,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 181260,
+          "digest": "sha256:0530e96892afd4f2058229076134160cd26c8645642c7324f39c8dae2c072812",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.25/wintera-net-manager.zip",
+          "created_at": "2026-09-28T02:25:54Z",
+          "updated_at": "2026-09-28T02:25:55Z"
+        }
+      ]
+    },
+    {
+      "id": 397496360,
+      "tag_name": "pulsia.net-manager@0.1.24",
+      "name": "pulsia.net-manager@0.1.24",
+      "body": "제품 표시와 API ID를 pulsia.net-manager로 통일함. 기존 네트워크 저장소와 API 호출 호환을 유지함. 기존 OTA 공급원 일치를 위해 ZIP 이름은 유지함.\n\nPulsia 0.2.979 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-net-manager/commit/f0e778b1c4d635d9793f8f3d104ff6c57d2a41ed\n\nSHA-256 (wintera-net-manager.zip): d9fb3d3c6e2f6e903f20da5f1c6be40846a13e1627df183ac63ff4daf167eb81",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.net-manager%400.1.24",
+      "published_at": "2026-09-27T04:24:24Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-27T04:24:24Z",
+      "assets": [
+        {
+          "id": 592106555,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 181208,
+          "digest": "sha256:d9fb3d3c6e2f6e903f20da5f1c6be40846a13e1627df183ac63ff4daf167eb81",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.24/wintera-net-manager.zip",
+          "created_at": "2026-09-27T04:11:06Z",
+          "updated_at": "2026-09-27T04:11:06Z"
+        },
+        {
+          "id": 592106571,
+          "name": "wintera-net-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:8cfee8a6490689e5d3efa56a31a542423ff3ff782fa4ba18af9fe7bf0914cfdc",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.24/wintera-net-manager.zip.sha256",
+          "created_at": "2026-09-27T04:11:07Z",
+          "updated_at": "2026-09-27T04:11:07Z"
+        }
+      ]
+    },
+    {
+      "id": 399271187,
+      "tag_name": "pulsia.home@1.0.01",
+      "name": "pulsia.home@1.0.01",
+      "body": "Pulsia 기본 홈. 프로젝트 설정·플러그인·작업 진행·AI 연결로 이동하며 앱 설정에서 다른 홈으로 교체할 수 있음.\n\nPulsia 0.2.988 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-home/commit/f40170c59d1249a105c9303aa9ac996768045fe4\n\nSHA-256 (pulsia-home.zip): a5ab3e9ce41965d0e5e02418c8c62d039fc4bff0103b63cb7b9ff01ae03e920f",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.home%401.0.01",
+      "published_at": "2026-09-29T15:15:10Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-29T15:15:10Z",
+      "assets": [
+        {
+          "id": 598516471,
+          "name": "pulsia-home.zip",
+          "state": "uploaded",
+          "size": 6596,
+          "digest": "sha256:a5ab3e9ce41965d0e5e02418c8c62d039fc4bff0103b63cb7b9ff01ae03e920f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.home%401.0.01/pulsia-home.zip",
+          "created_at": "2026-09-29T15:15:08Z",
+          "updated_at": "2026-09-29T15:15:08Z"
+        },
+        {
+          "id": 598516509,
+          "name": "pulsia-home.zip.sha256",
+          "state": "uploaded",
+          "size": 82,
+          "digest": "sha256:b34e42387e90b107399800c53e873bd13fc17c05fb83c9b65d9061ef3ab7de3f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.home%401.0.01/pulsia-home.zip.sha256",
+          "created_at": "2026-09-29T15:15:09Z",
+          "updated_at": "2026-09-29T15:15:09Z"
+        }
+      ]
+    },
+    {
+      "id": 397980151,
+      "tag_name": "pulsia.db-connector-v0.2.3",
+      "name": "DB Connector 0.2.3",
+      "body": "DB Connector 0.2.3\n\n- Pulsia 0.2.983 이상에서 Agent가 현재 열린 연결 설정 화면을 확인하고 접속 정보를 입력할 수 있음.\n- 화면의 Test Connection과 같은 동작을 실행하고 성공·실패의 최종 표시 결과를 확인함.\n- 저장하지 않은 변경 보호, 비밀번호 마스킹, 저장·연결 풀 생성 없는 시험 흐름을 적용함.\n- Windows light/dark 화면 및 PostgreSQL 드라이버 로컬 시험을 통과함. 실제 업무 DB 연결은 별도 환경 확인이 필요함.\n\nSource: https://github.com/mars-log/pulsia-plugin-db-connector/commit/1754760",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.db-connector-v0.2.3",
+      "published_at": "2026-09-28T05:47:41Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-28T05:47:41Z",
+      "assets": [
+        {
+          "id": 594625443,
+          "name": "db-driver-mariadb-3.5.4.zip",
+          "state": "uploaded",
+          "size": 1943250,
+          "digest": "sha256:7516eeb4901ba2e84b51e8929cf0118afcadde91cd0e80e86f4bb652d7a88311",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.3/db-driver-mariadb-3.5.4.zip",
+          "created_at": "2026-09-28T05:47:04Z",
+          "updated_at": "2026-09-28T05:47:04Z"
+        },
+        {
+          "id": 594625446,
+          "name": "db-driver-mysql-3.24.4.zip",
+          "state": "uploaded",
+          "size": 572704,
+          "digest": "sha256:bdf5da492320adab9a567e95461faaedb2141d403a0a17729db02508ffa8732d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.3/db-driver-mysql-3.24.4.zip",
+          "created_at": "2026-09-28T05:47:04Z",
+          "updated_at": "2026-09-28T05:47:04Z"
+        },
+        {
+          "id": 594625448,
+          "name": "db-driver-oracle-7.0.1.zip",
+          "state": "uploaded",
+          "size": 366766,
+          "digest": "sha256:4619f90ba417b9adcf3a652dd480cf531f348150f43cc081006e3749d16b7b14",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.3/db-driver-oracle-7.0.1.zip",
+          "created_at": "2026-09-28T05:47:04Z",
+          "updated_at": "2026-09-28T05:47:04Z"
+        },
+        {
+          "id": 594625466,
+          "name": "db-driver-postgresql-8.23.0.zip",
+          "state": "uploaded",
+          "size": 158664,
+          "digest": "sha256:4670de6a7682e8c5312307e45a6cac07fb1256297b369660489d4768c3f6267e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.3/db-driver-postgresql-8.23.0.zip",
+          "created_at": "2026-09-28T05:47:04Z",
+          "updated_at": "2026-09-28T05:47:04Z"
+        },
+        {
+          "id": 594625445,
+          "name": "pulsia-plugin-db-connector.zip",
+          "state": "uploaded",
+          "size": 199957,
+          "digest": "sha256:cfc180c113484a406d4211e474a60c877427efcd7898b4a5f7fa6a3cb8be3c4d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.3/pulsia-plugin-db-connector.zip",
+          "created_at": "2026-09-28T05:47:04Z",
+          "updated_at": "2026-09-28T05:47:04Z"
+        },
+        {
+          "id": 594625447,
+          "name": "pulsia-plugin-db-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 65,
+          "digest": "sha256:0081276417298c58eb161a91ade02cd3da12d8c797824f21ec2ea42a2e3ce553",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.3/pulsia-plugin-db-connector.zip.sha256",
+          "created_at": "2026-09-28T05:47:04Z",
+          "updated_at": "2026-09-28T05:47:04Z"
+        }
+      ]
+    },
+    {
+      "id": 393535821,
+      "tag_name": "pulsia.db-connector-v0.2.2",
+      "name": "DB Connector 0.2.2",
+      "body": "DB Connector 0.2.2\n\n패널 조절선 CSS 수정:\n- 기본·마우스 올림·드래그·키보드 포커스 모두 1px 선 유지\n- 4px 색 띠와 중복 테두리 제거, 하나의 연속 경계선 사용\n- 마우스 조작 영역만 투명하게 확장\n- 소스 주석과 AI 작업 기준에 굵은 조절선 금지 명시\n\n기존 패널 크기 조절과 Pulsia 공통 모달 동작은 유지됩니다.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.db-connector-v0.2.2",
+      "published_at": "2026-09-22T07:44:24Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-22T07:44:24Z",
+      "assets": [
+        {
+          "id": 580860950,
+          "name": "db-driver-mariadb-3.5.4.zip",
+          "state": "uploaded",
+          "size": 1943250,
+          "digest": "sha256:7516eeb4901ba2e84b51e8929cf0118afcadde91cd0e80e86f4bb652d7a88311",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.2/db-driver-mariadb-3.5.4.zip",
+          "created_at": "2026-09-22T07:44:23Z",
+          "updated_at": "2026-09-22T07:44:23Z"
+        },
+        {
+          "id": 580860934,
+          "name": "db-driver-mysql-3.24.4.zip",
+          "state": "uploaded",
+          "size": 572704,
+          "digest": "sha256:bdf5da492320adab9a567e95461faaedb2141d403a0a17729db02508ffa8732d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.2/db-driver-mysql-3.24.4.zip",
+          "created_at": "2026-09-22T07:44:22Z",
+          "updated_at": "2026-09-22T07:44:22Z"
+        },
+        {
+          "id": 580860937,
+          "name": "db-driver-oracle-7.0.1.zip",
+          "state": "uploaded",
+          "size": 366766,
+          "digest": "sha256:4619f90ba417b9adcf3a652dd480cf531f348150f43cc081006e3749d16b7b14",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.2/db-driver-oracle-7.0.1.zip",
+          "created_at": "2026-09-22T07:44:22Z",
+          "updated_at": "2026-09-22T07:44:22Z"
+        },
+        {
+          "id": 580860935,
+          "name": "db-driver-postgresql-8.23.0.zip",
+          "state": "uploaded",
+          "size": 158664,
+          "digest": "sha256:4670de6a7682e8c5312307e45a6cac07fb1256297b369660489d4768c3f6267e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.2/db-driver-postgresql-8.23.0.zip",
+          "created_at": "2026-09-22T07:44:22Z",
+          "updated_at": "2026-09-22T07:44:22Z"
+        },
+        {
+          "id": 580860933,
+          "name": "pulsia-plugin-db-connector.zip",
+          "state": "uploaded",
+          "size": 198567,
+          "digest": "sha256:9c578b3e5afcc4d630e96cb07ab96f0f3384f74dc22b85d38961ccf788fb50cf",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.2/pulsia-plugin-db-connector.zip",
+          "created_at": "2026-09-22T07:44:22Z",
+          "updated_at": "2026-09-22T07:44:22Z"
+        },
+        {
+          "id": 580860936,
+          "name": "pulsia-plugin-db-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 65,
+          "digest": "sha256:481af2019e8333eaba1f34cf086abee57407a1537766f42d022bfb97d7f28ecb",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.2/pulsia-plugin-db-connector.zip.sha256",
+          "created_at": "2026-09-22T07:44:22Z",
+          "updated_at": "2026-09-22T07:44:22Z"
+        }
+      ]
+    },
+    {
+      "id": 393531354,
+      "tag_name": "pulsia.db-connector-v0.2.1",
+      "name": "DB Connector 0.2.1",
+      "body": "DB Connector 0.2.1\n\n- Data Sources/Drivers 좌측 목록 패널을 페이지와 팝업 모두에서 드래그하여 폭 조절\n- 경계선에 포커스 후 방향키·Home·End로 폭 조절\n- CSS grid와 CSS 변수로 크기 적용 및 상세 영역 최소 공간 유지\n- Pulsia 공통 모달의 기존 헤더 이동·가장자리 크기 조절 재사용\n- Lucide 버튼 아이콘 및 은은한 1px 포커스 테두리 유지\n\n검증: 자동화 테스트 15개, 패키지 설치, 페이지/팝업 목록 조절, 공통 모달 헤더 이동·크기 조절, 메뉴 표시 토글 통과.\nPulsia 0.2.977 이상 권장. 내부 문서·참고 캡처는 공개 ZIP에서 제외됨.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.db-connector-v0.2.1",
+      "published_at": "2026-09-22T07:36:54Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-22T07:36:54Z",
+      "assets": [
+        {
+          "id": 580846583,
+          "name": "db-driver-mariadb-3.5.4.zip",
+          "state": "uploaded",
+          "size": 1943250,
+          "digest": "sha256:7516eeb4901ba2e84b51e8929cf0118afcadde91cd0e80e86f4bb652d7a88311",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.1/db-driver-mariadb-3.5.4.zip",
+          "created_at": "2026-09-22T07:36:52Z",
+          "updated_at": "2026-09-22T07:36:53Z"
+        },
+        {
+          "id": 580846561,
+          "name": "db-driver-mysql-3.24.4.zip",
+          "state": "uploaded",
+          "size": 572704,
+          "digest": "sha256:bdf5da492320adab9a567e95461faaedb2141d403a0a17729db02508ffa8732d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.1/db-driver-mysql-3.24.4.zip",
+          "created_at": "2026-09-22T07:36:52Z",
+          "updated_at": "2026-09-22T07:36:53Z"
+        },
+        {
+          "id": 580846556,
+          "name": "db-driver-oracle-7.0.1.zip",
+          "state": "uploaded",
+          "size": 366766,
+          "digest": "sha256:4619f90ba417b9adcf3a652dd480cf531f348150f43cc081006e3749d16b7b14",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.1/db-driver-oracle-7.0.1.zip",
+          "created_at": "2026-09-22T07:36:52Z",
+          "updated_at": "2026-09-22T07:36:52Z"
+        },
+        {
+          "id": 580846560,
+          "name": "db-driver-postgresql-8.23.0.zip",
+          "state": "uploaded",
+          "size": 158664,
+          "digest": "sha256:4670de6a7682e8c5312307e45a6cac07fb1256297b369660489d4768c3f6267e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.1/db-driver-postgresql-8.23.0.zip",
+          "created_at": "2026-09-22T07:36:52Z",
+          "updated_at": "2026-09-22T07:36:52Z"
+        },
+        {
+          "id": 580846555,
+          "name": "pulsia-plugin-db-connector.zip",
+          "state": "uploaded",
+          "size": 198537,
+          "digest": "sha256:029c7881adbe047ad4dff2719f0c398d60c5fcaa451217d4d8af49d0cdd995a7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.1/pulsia-plugin-db-connector.zip",
+          "created_at": "2026-09-22T07:36:52Z",
+          "updated_at": "2026-09-22T07:36:52Z"
+        },
+        {
+          "id": 580846557,
+          "name": "pulsia-plugin-db-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 65,
+          "digest": "sha256:8f8ff26cb359b3aaa41720d5215bf64eb63f4528c20d655665303257c19c9f2c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.1/pulsia-plugin-db-connector.zip.sha256",
+          "created_at": "2026-09-22T07:36:52Z",
+          "updated_at": "2026-09-22T07:36:52Z"
+        }
+      ]
+    },
+    {
+      "id": 393525379,
+      "tag_name": "pulsia.db-connector-v0.2.0",
+      "name": "DB Connector 0.2.0",
+      "body": "DB Connector 0.2.0\n\n- Pulsia 스타일의 세로 탭, Lucide 버튼 아이콘, DB 벤더 로고, 추가 팝업 및 Go to Driver 제공\n- 얇은 반투명 포커스 테두리와 간격 0 적용\n- 앱 설정 DB Connector 메뉴 표시 토글 제공\n- 드라이버 이름·URL 템플릿·고급 속성 편집 및 저장 지원\n- Database 드롭다운, PostgreSQL No auth, MySQL/MariaDB Unix Socket 옵션 제공\n- 외부 드라이버 어댑터, 비밀번호 저장 정책, 트랜잭션 및 TLS 설정 개선\n\n메뉴 표시 즉시 반영과 공통 팝업 로고에는 Pulsia 0.2.977 이상이 필요합니다.\n\n검증: 자동화 테스트 15개, Pulsia 패키지 설치·메뉴·팝업, MySQL/MariaDB 실서버 트랜잭션 검증 통과. PostgreSQL 실연결 통과. Oracle 이전 실연결 성공 기록은 있으나 최신 재시도는 응답 대기로 미완료입니다.\n\n내부 문서·참고 캡처는 공개 ZIP에 포함하지 않습니다.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.db-connector-v0.2.0",
+      "published_at": "2026-09-22T07:26:24Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-22T07:26:24Z",
+      "assets": [
+        {
+          "id": 580826512,
+          "name": "db-driver-mariadb-3.5.4.zip",
+          "state": "uploaded",
+          "size": 1943250,
+          "digest": "sha256:7516eeb4901ba2e84b51e8929cf0118afcadde91cd0e80e86f4bb652d7a88311",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.0/db-driver-mariadb-3.5.4.zip",
+          "created_at": "2026-09-22T07:26:23Z",
+          "updated_at": "2026-09-22T07:26:23Z"
+        },
+        {
+          "id": 580826498,
+          "name": "db-driver-mysql-3.24.4.zip",
+          "state": "uploaded",
+          "size": 572704,
+          "digest": "sha256:bdf5da492320adab9a567e95461faaedb2141d403a0a17729db02508ffa8732d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.0/db-driver-mysql-3.24.4.zip",
+          "created_at": "2026-09-22T07:26:22Z",
+          "updated_at": "2026-09-22T07:26:23Z"
+        },
+        {
+          "id": 580826500,
+          "name": "db-driver-oracle-7.0.1.zip",
+          "state": "uploaded",
+          "size": 366766,
+          "digest": "sha256:4619f90ba417b9adcf3a652dd480cf531f348150f43cc081006e3749d16b7b14",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.0/db-driver-oracle-7.0.1.zip",
+          "created_at": "2026-09-22T07:26:22Z",
+          "updated_at": "2026-09-22T07:26:23Z"
+        },
+        {
+          "id": 580826499,
+          "name": "db-driver-postgresql-8.23.0.zip",
+          "state": "uploaded",
+          "size": 158664,
+          "digest": "sha256:4670de6a7682e8c5312307e45a6cac07fb1256297b369660489d4768c3f6267e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.0/db-driver-postgresql-8.23.0.zip",
+          "created_at": "2026-09-22T07:26:22Z",
+          "updated_at": "2026-09-22T07:26:22Z"
+        },
+        {
+          "id": 580826497,
+          "name": "pulsia-plugin-db-connector.zip",
+          "state": "uploaded",
+          "size": 197851,
+          "digest": "sha256:302b6c0b525f3d5a9d1d06263c98f1d97a190783533e9ef781f758da51e78275",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.0/pulsia-plugin-db-connector.zip",
+          "created_at": "2026-09-22T07:26:22Z",
+          "updated_at": "2026-09-22T07:26:22Z"
+        },
+        {
+          "id": 580826501,
+          "name": "pulsia-plugin-db-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 65,
+          "digest": "sha256:450f21fac082897b14bf276f30bcba6e07a8653564c8774b107aa7a0fe15e68d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.0/pulsia-plugin-db-connector.zip.sha256",
+          "created_at": "2026-09-22T07:26:22Z",
+          "updated_at": "2026-09-22T07:26:23Z"
+        }
+      ]
+    },
+    {
+      "id": 393493284,
+      "tag_name": "pulsia.db-connector-v0.1.1",
+      "name": "DB Connector 0.1.1",
+      "body": "DB Connector 0.1.1\n\nPulsia 0.2.976에서 ZIP 설치가 plugin.json 형식 오류로 실패하던 문제를 수정했습니다. 기존 본체가 지원하지 않는 매니페스트 속성을 제거했습니다. 설치된 본체의 실제 스키마로 호환성을 검증했습니다.\n\n팝업과 설치 상세 메뉴 토글에는 해당 통합 변경을 포함한 Pulsia 본체가 필요합니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.db-connector-v0.1.1",
+      "published_at": "2026-09-22T06:19:16Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-22T06:19:16Z",
+      "assets": [
+        {
+          "id": 580720420,
+          "name": "db-driver-mariadb-3.5.4.zip",
+          "state": "uploaded",
+          "size": 1941037,
+          "digest": "sha256:b1cedc06e35806777eb11461e9101248de31e523d50a8b143bd58541a52456a5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.1.1/db-driver-mariadb-3.5.4.zip",
+          "created_at": "2026-09-22T06:19:15Z",
+          "updated_at": "2026-09-22T06:19:16Z"
+        },
+        {
+          "id": 580720393,
+          "name": "db-driver-mysql-3.24.4.zip",
+          "state": "uploaded",
+          "size": 570493,
+          "digest": "sha256:146dc9f032f3134fc96e9f44d1f7314a201f1df446bf6806066eb3a540f2c50d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.1.1/db-driver-mysql-3.24.4.zip",
+          "created_at": "2026-09-22T06:19:15Z",
+          "updated_at": "2026-09-22T06:19:15Z"
+        },
+        {
+          "id": 580720391,
+          "name": "db-driver-oracle-7.0.1.zip",
+          "state": "uploaded",
+          "size": 364458,
+          "digest": "sha256:153f82275accc0517f0e1c3873628f548cf259559b847c3228996ed38a3b83a6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.1.1/db-driver-oracle-7.0.1.zip",
+          "created_at": "2026-09-22T06:19:15Z",
+          "updated_at": "2026-09-22T06:19:15Z"
+        },
+        {
+          "id": 580720386,
+          "name": "db-driver-postgresql-8.23.0.zip",
+          "state": "uploaded",
+          "size": 156456,
+          "digest": "sha256:4664f055757417cf497080df8f11fdc6ef7efd6d1855c69d407ee28c9390e561",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.1.1/db-driver-postgresql-8.23.0.zip",
+          "created_at": "2026-09-22T06:19:14Z",
+          "updated_at": "2026-09-22T06:19:15Z"
+        },
+        {
+          "id": 580720387,
+          "name": "pulsia-plugin-db-connector.zip",
+          "state": "uploaded",
+          "size": 159142,
+          "digest": "sha256:1d8b8414b6b5033f2c3799b5216af4bf36f110775470e563a0ee0be8505fedc6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.1.1/pulsia-plugin-db-connector.zip",
+          "created_at": "2026-09-22T06:19:15Z",
+          "updated_at": "2026-09-22T06:19:15Z"
+        },
+        {
+          "id": 580720390,
+          "name": "pulsia-plugin-db-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 65,
+          "digest": "sha256:72bd39e005cea9be116b1c86c7ae4562818d8f2f5753c49b42381a0ef5c1cc1a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.1.1/pulsia-plugin-db-connector.zip.sha256",
+          "created_at": "2026-09-22T06:19:15Z",
+          "updated_at": "2026-09-22T06:19:15Z"
+        }
+      ]
+    },
+    {
+      "id": 393490103,
+      "tag_name": "pulsia.db-connector-v0.1.0",
+      "name": "DB Connector 0.1.0",
+      "body": "# DB Connector 0.1.0\n\nOracle, PostgreSQL, MySQL, MariaDB 드라이버 설치와 연결 풀을 제공하는 초기 구현입니다.\n\n- YAML 기반 데이터 소스·드라이버 관리 화면\n- 암호화된 로컬 접속정보, 다른 플러그인용 Node SDK\n- SHA-256으로 검증하는 별도 드라이버 다운로드\n- Oracle·PostgreSQL 실제 연결 검증, MySQL·MariaDB 실제 서버 검증은 미완료\n\n팝업 호출과 설치 상세의 메뉴 표시 설정은 DB Connector 통합 변경이 포함된 Pulsia 본체가 필요합니다. 이 릴리스에 Pulsia 본체 업데이트는 포함되지 않습니다. DataGrip의 모든 고급 설정을 제공하는 버전은 아닙니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.db-connector-v0.1.0",
+      "published_at": "2026-09-22T06:11:13Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-22T06:11:13Z",
+      "assets": [
+        {
+          "id": 580707972,
+          "name": "db-driver-mariadb-3.5.4.zip",
+          "state": "uploaded",
+          "size": 1941037,
+          "digest": "sha256:b1cedc06e35806777eb11461e9101248de31e523d50a8b143bd58541a52456a5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.1.0/db-driver-mariadb-3.5.4.zip",
+          "created_at": "2026-09-22T06:11:11Z",
+          "updated_at": "2026-09-22T06:11:12Z"
+        },
+        {
+          "id": 580707947,
+          "name": "db-driver-mysql-3.24.4.zip",
+          "state": "uploaded",
+          "size": 570493,
+          "digest": "sha256:146dc9f032f3134fc96e9f44d1f7314a201f1df446bf6806066eb3a540f2c50d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.1.0/db-driver-mysql-3.24.4.zip",
+          "created_at": "2026-09-22T06:11:10Z",
+          "updated_at": "2026-09-22T06:11:11Z"
+        },
+        {
+          "id": 580707952,
+          "name": "db-driver-oracle-7.0.1.zip",
+          "state": "uploaded",
+          "size": 364458,
+          "digest": "sha256:153f82275accc0517f0e1c3873628f548cf259559b847c3228996ed38a3b83a6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.1.0/db-driver-oracle-7.0.1.zip",
+          "created_at": "2026-09-22T06:11:11Z",
+          "updated_at": "2026-09-22T06:11:11Z"
+        },
+        {
+          "id": 580707948,
+          "name": "db-driver-postgresql-8.23.0.zip",
+          "state": "uploaded",
+          "size": 156456,
+          "digest": "sha256:4664f055757417cf497080df8f11fdc6ef7efd6d1855c69d407ee28c9390e561",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.1.0/db-driver-postgresql-8.23.0.zip",
+          "created_at": "2026-09-22T06:11:10Z",
+          "updated_at": "2026-09-22T06:11:11Z"
+        },
+        {
+          "id": 580707951,
+          "name": "pulsia-plugin-db-connector.zip",
+          "state": "uploaded",
+          "size": 159151,
+          "digest": "sha256:6594d7d2c009bc12ee0cc587897613a12a802cdcb2a54216c3a528a4366f7e48",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.1.0/pulsia-plugin-db-connector.zip",
+          "created_at": "2026-09-22T06:11:10Z",
+          "updated_at": "2026-09-22T06:11:11Z"
+        },
+        {
+          "id": 580707954,
+          "name": "pulsia-plugin-db-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 65,
+          "digest": "sha256:79a11ce41c9484181d339167d7a52dd159d1ddf4fcd3aafa771ff5fe5390f242",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.1.0/pulsia-plugin-db-connector.zip.sha256",
+          "created_at": "2026-09-22T06:11:11Z",
+          "updated_at": "2026-09-22T06:11:11Z"
+        }
+      ]
+    },
+    {
+      "id": 401572375,
+      "tag_name": "pulsia.catalog-studio@1.2.23",
+      "name": "Catalog Studio 1.2.23",
+      "body": "관계 지도를 이동·확대할 수 있는 마인드맵 형태로 개선했습니다. 관계선의 삼각형 끝 표시를 제거하고, Ctrl+휠·일반 휠·빈 화면 드래그·노드 이동·화면 맞춤·배치 정리를 지원합니다. 배율 숫자를 누르면 위쪽 세로 슬라이더로 직접 조절할 수 있습니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.23",
+      "published_at": "2026-10-02T05:55:31Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-10-02T05:55:31Z",
+      "assets": [
+        {
+          "id": 604926178,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 262936,
+          "digest": "sha256:10793dfa1edff4bd6c7dc65d116f6624ad2db0fa01d424b8b5af7df9101ddc5a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.23/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-02T05:55:30Z",
+          "updated_at": "2026-10-02T05:55:30Z"
+        },
+        {
+          "id": 604926181,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:c22d88271a3926dd803ef942ab4a1d4da694796aaa4f72a93342d1cc1c0f6c06",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.23/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-02T05:55:30Z",
+          "updated_at": "2026-10-02T05:55:30Z"
+        }
+      ]
+    },
+    {
+      "id": 401498311,
+      "tag_name": "pulsia.catalog-studio@1.2.22",
+      "name": "Catalog Studio 1.2.22",
+      "body": "저장된 작업 이력을 Catalog 진입 때 알림으로 다시 표시하지 않도록 수정했습니다. 현재 세션의 실행 중 작업과 새 결과만 표시하며, 확인 필요 결과에는 주의 아이콘과 항목 수를 보여 줍니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.22",
+      "published_at": "2026-10-02T02:30:43Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-10-02T02:30:43Z",
+      "assets": [
+        {
+          "id": 604633383,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 258565,
+          "digest": "sha256:78f2e9d9801130936b6baac3a4e217aa2974fb75b0b486b2fdc20c3a2b021a70",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.22/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-02T02:30:41Z",
+          "updated_at": "2026-10-02T02:30:42Z"
+        },
+        {
+          "id": 604633381,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:8c5a5dd86584d5f3f770b70a7184f96e202eb6dbf7e08266e92c8fd2e6b06a65",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.22/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-02T02:30:41Z",
+          "updated_at": "2026-10-02T02:30:42Z"
+        }
+      ]
+    },
+    {
+      "id": 400792542,
+      "tag_name": "pulsia.catalog-studio@1.2.21",
+      "name": "Catalog Studio 1.2.21",
+      "body": "기존 카탈로그 위치에서 Agent가 템플릿 구조 변경을 반영하도록 업데이트 흐름을 수정함.\n\n- 전체 모달과 새 저장 위치 입력을 제거하고 작은 안내에서 구조 변경 확인·Agent로 업데이트를 제공함.\n- 기존 문서 위치를 유지하며 변경안·항목별 처리 결과·적용 파일을 작업별로 저장함.\n- 동시 편집 충돌을 감지하고 적용 실패 시 기존 수정 파일 복구를 시도함. 미해결 항목이 있으면 기존 템플릿 버전을 유지함.\n- 버전 비교·적용·미해결·충돌·복구 시험 6개와 light/dark·좁은 화면 검증 통과함. 실제 유료 ACP 실행은 별도 검증 대상임.\n- 앞으로 일반 템플릿 변경은 패치 버전을 기본으로 사용함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.21",
+      "published_at": "2026-10-01T08:55:35Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-10-01T08:55:35Z",
+      "assets": [
+        {
+          "id": 602835797,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 255329,
+          "digest": "sha256:b2288bc5670781ec9974e3aa3a1b9d241a19ecc1b0a44fb99f56427d5f6a33c1",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.21/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-01T08:55:33Z",
+          "updated_at": "2026-10-01T08:55:34Z"
+        },
+        {
+          "id": 602835798,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:8a6416ed2248d58b40f640e5277ec6c3eaccfdf25a3ac34f732cb5e50f6c416a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.21/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-01T08:55:33Z",
+          "updated_at": "2026-10-01T08:55:34Z"
+        }
+      ]
+    },
+    {
+      "id": 400770143,
+      "tag_name": "pulsia.catalog-studio@1.2.20",
+      "name": "Catalog Studio 1.2.20",
+      "body": "문서 변경 확인 아이콘을 book-search로 바꾸고 템플릿 업데이트 조회·변경 내용 검토·새 루트 이관 준비를 추가함.\n\n- 새 버전이 있을 때 템플릿 업데이트 버튼 표시, 수동 조회 메뉴 제공함.\n- 현재·대상 템플릿 해시를 이관 직전 검증하고 기존 ACP·백그라운드 작업을 사용함.\n- 기존 카탈로그와 사용자 추가 문서 보존함.\n- 관련 16개 시험 및 light/dark·720/1440 패키지 화면·프로젝트 전환 검증 통과함.\n- 소스: https://github.com/mars-log/pulsia-plugin-studio/commit/a93ea5e\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.20",
+      "published_at": "2026-10-01T08:24:03Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-10-01T08:24:03Z",
+      "assets": [
+        {
+          "id": 602786000,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 252986,
+          "digest": "sha256:79a3242596a9d5a514db0a1ada0adc8a92fbc732147fdb5900c3a82527593779",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.20/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-01T08:24:02Z",
+          "updated_at": "2026-10-01T08:24:02Z"
+        },
+        {
+          "id": 602785999,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:bd430aa30e5cd3ac6bce3670e6b4c8e6e52b90f1487949f76e4afa2ffa2122f3",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.20/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-01T08:24:02Z",
+          "updated_at": "2026-10-01T08:24:02Z"
+        }
+      ]
+    },
+    {
+      "id": 400023826,
+      "tag_name": "pulsia.catalog-studio@1.2.19",
+      "name": "Catalog Studio 1.2.19",
+      "body": "- 최초 설정과 메뉴 전환 중 스타일 없는 팝업이 잠깐 표시되는 현상을 수정함.\n- 카탈로그 위치와 참고 문서 설정을 두 카드로 정리하고 큰 파일 숫자 입력·안내 문구·작은 창 배치를 개선함.\n- Windows light/dark에서 최초 클릭·반복 전환·폴더 선택·설정 저장을 검증함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.19",
+      "published_at": "2026-09-30T12:29:59Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-30T12:29:59Z",
+      "assets": [
+        {
+          "id": 600874045,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 248847,
+          "digest": "sha256:9225abea56a0628202497b857199a7e1276eb9ff273957d31eea547e44e2e842",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.19/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-30T12:29:57Z",
+          "updated_at": "2026-09-30T12:29:57Z"
+        },
+        {
+          "id": 600874051,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:424ea26080ee39a0e726fc1efb66b41c64c9851270c8ea58782a01404b1da0f6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.19/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-30T12:29:57Z",
+          "updated_at": "2026-09-30T12:29:58Z"
+        }
+      ]
+    },
+    {
+      "id": 399767379,
+      "tag_name": "pulsia.catalog-studio@1.2.18",
+      "name": "Catalog Studio 1.2.18",
+      "body": "확인 필요의 문서·작업 선택을 기존 화면과 같은 중립 배경으로 표시하고 왼쪽 강조선을 제거했습니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.18",
+      "published_at": "2026-09-30T06:21:32Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-30T06:21:32Z",
+      "assets": [
+        {
+          "id": 600196359,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 248473,
+          "digest": "sha256:bda61bfe450922dd172adb6749dc511fc95ba3be081b0caca1f8837065f8a06e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.18/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-30T06:21:30Z",
+          "updated_at": "2026-09-30T06:21:31Z"
+        },
+        {
+          "id": 600196358,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:944e61496505063a645606d90fe09144513b27dec6d14f7ec7591f108892a503",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.18/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-30T06:21:30Z",
+          "updated_at": "2026-09-30T06:21:31Z"
+        }
+      ]
+    },
+    {
+      "id": 399749745,
+      "tag_name": "pulsia.catalog-studio@1.2.17",
+      "name": "Catalog Studio 1.2.17",
+      "body": "Catalog Studio 1.2.17\n\n- 앱 재시작·일시 정지 후 완료 문서 체크포인트를 유지하고 미완료 항목부터 이어갑니다.\n- 종료된 과거 작업의 진행 중 표시를 복구하고 선택한 기록을 명확히 표시합니다.\n- 문서/작업 선택 강조, 비활성 이유 표시, 펼침 기능 없는 쉐브론 제거를 반영했습니다.\n- 본체 작업 로그의 맨 아래 유지 기능은 Pulsia 0.2.992에서 제공됩니다.\n\n검증: 관련 단위 14개, Windows 패키지 light/dark 복구·선택·스크롤 검증.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.17",
+      "published_at": "2026-09-30T05:44:00Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-30T05:44:00Z",
+      "assets": [
+        {
+          "id": 600139713,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 248532,
+          "digest": "sha256:5689f256cde3e74c77e646433e77dce8064a1b8e1a816916cdb17743362637d2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.17/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-30T05:43:59Z",
+          "updated_at": "2026-09-30T05:43:59Z"
+        },
+        {
+          "id": 600139715,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:57f676d674bd51db6639c30c9f14cb43c63da1cba6a298fadb38a5055c4b8e68",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.17/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-30T05:43:59Z",
+          "updated_at": "2026-09-30T05:43:59Z"
+        }
+      ]
+    },
+    {
+      "id": 399734773,
+      "tag_name": "pulsia.catalog-studio@1.2.16",
+      "name": "Catalog Studio 1.2.16",
+      "body": "Catalog Studio 1.2.16\n\n문서 상세의 구성 정보 창에서 .catalog/ 안의 구조·관계·문서 속성을 확인하고 수정할 수 있습니다. 일반 JSON 문서는 목록에 유지합니다.\n\n- 기존 구성 파일의 검증·이관, JSON 규격과 저장 충돌 검사\n- light/dark 표시, 창 위치·크기·목록 폭 복원\n- 구형 카탈로그 재개 시 사용자가 정한 폴더 선언 보존\n\n관련 단위·Windows 패키지·공개 업데이트 검증을 수행했습니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.16",
+      "published_at": "2026-09-30T05:08:44Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-30T05:08:44Z",
+      "assets": [
+        {
+          "id": 600092122,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 247032,
+          "digest": "sha256:f25f4645e5b33f3a64370d658397985b01aa864e20196e5bf91ea1a7de865773",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.16/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-30T05:08:42Z",
+          "updated_at": "2026-09-30T05:08:43Z"
+        },
+        {
+          "id": 600092114,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:af6de1780e58fabe75c09a1bf7b1839affb1ebfe4e0c4af8148564de8838c5f5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.16/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-30T05:08:42Z",
+          "updated_at": "2026-09-30T05:08:42Z"
+        }
+      ]
+    },
+    {
+      "id": 399733666,
+      "tag_name": "pulsia.catalog-studio@1.2.15",
+      "name": "Catalog Studio 1.2.15",
+      "body": "Catalog Studio 1.2.15\n\n- 문서 폴더별 .catalog 구성 정보 분리. 일반 JSON 문서는 목록에 유지하고 구조 선언은 관계 계산에 사용합니다.\n- 문서 상세에서 구성 파일 목록·경로·내용을 확인하고 수정·저장할 수 있습니다.\n- 창 이동·크기·목록 폭 복원, light/dark 표시, 변경 충돌·형식 검증을 제공합니다.\n- 기존 구성은 문서 본문을 건드리지 않고 검증 후 이관하며 충돌한 파일은 보존합니다.\n\nWindows 패키지 설치·light/dark·재기동·구성 저장 및 관련 단위 검증 완료.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.15",
+      "published_at": "2026-09-30T05:06:04Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-30T05:06:04Z",
+      "assets": [
+        {
+          "id": 600087379,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 246968,
+          "digest": "sha256:b7b4e32aa7cf188d5d1e12ccf938b5d0da32ff443b2277c6efc5729ed757a01d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.15/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-30T05:06:02Z",
+          "updated_at": "2026-09-30T05:06:03Z"
+        },
+        {
+          "id": 600087384,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:532170d2743aa2caca883b37286290ac7880f402e38c41b939e1e749dc4d8f69",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.15/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-30T05:06:02Z",
+          "updated_at": "2026-09-30T05:06:02Z"
+        }
+      ]
+    },
+    {
+      "id": 399728464,
+      "tag_name": "pulsia.catalog-studio@1.2.14",
+      "name": "Catalog Studio 1.2.14",
+      "body": "Agent 옵션 앞 아이콘을 bot으로 변경했습니다. 좁은 사이드바에서도 아이콘의 정사각형 비율을 유지합니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.14",
+      "published_at": "2026-09-30T04:53:04Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-30T04:53:04Z",
+      "assets": [
+        {
+          "id": 600071146,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 237302,
+          "digest": "sha256:2c7b3510f2f86e8cc9602f281ee4372d260367a9619b90128b892504a87eacb2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.14/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-30T04:53:03Z",
+          "updated_at": "2026-09-30T04:53:03Z"
+        },
+        {
+          "id": 600071149,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:0cb251d905b94162014614aba8b67bc4c4dd6f8b9f85d6245a95ae88a7f96b4c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.14/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-30T04:53:03Z",
+          "updated_at": "2026-09-30T04:53:03Z"
+        }
+      ]
+    },
+    {
+      "id": 399672735,
+      "tag_name": "pulsia.catalog-studio@1.2.13",
+      "name": "pulsia.catalog-studio@1.2.13",
+      "body": "Catalog Studio의 Agent 옵션을 ACP 채팅 옵션과 같은 행 구성으로 맞췄습니다.\n\n- 항목명·설명과 우측 선택 컨트롤을 정렬하고 라이트·다크 선택 목록의 배경·글자색을 수정했습니다.\n- 좁은 사이드바에서도 팝업과 라벨이 잘리지 않도록 했습니다.\n- 작업 알림의 일시 정지·상세 보기·닫기를 오른쪽 위 Lucide 아이콘과 툴팁으로 표시합니다.\n- 실제 Windows Pulsia0.2.989에서 양쪽 테마·선택값 저장·알림 동작·재시작을 확인했습니다.\n\nSource: mars-log/pulsia-plugin-catalog-manager@94139cd",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.13",
+      "published_at": "2026-09-30T02:36:41Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-30T02:36:41Z",
+      "assets": [
+        {
+          "id": 599848706,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 237219,
+          "digest": "sha256:9c04a1386894932a3b40f200f235d2acc21a6b0e088ce662bc281d0017929799",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.13/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-30T02:36:40Z",
+          "updated_at": "2026-09-30T02:36:40Z"
+        },
+        {
+          "id": 599848704,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:dd73fc82b64551c923d1f9a7ca5b04b2b3a5a5b93c66f5ec53a22864520004cd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.13/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-30T02:36:40Z",
+          "updated_at": "2026-09-30T02:36:40Z"
+        }
+      ]
+    },
+    {
+      "id": 399655000,
+      "tag_name": "pulsia.catalog-studio@1.2.12",
+      "name": "pulsia.catalog-studio@1.2.12",
+      "body": "Catalog Studio의 Agent 선택을 서브메뉴 하단으로 통합했습니다. 처음 설치할 때도 선택할 수 있고 문서 정리·검토·수정·모델 정리안 작성에 같은 Agent와 모델을 사용합니다.\n\n- 작업 알림을 닫아도 작업이 계속됩니다.\n- Pulsia 하단 작업 상세의 작은 종·목록 아이콘으로 알림을 복원하거나 작업 이력으로 이동합니다.\n- 확인 필요의 문서/작업 상태 탭에서 진행·로그·결과를 확인하며 앱을 다시 켜도 이력이 유지됩니다.\n\n하단 공용 작업 목록 연동은 Pulsia 0.2.989 이상에서 사용할 수 있습니다.\n\n검증: 격리 Electron light/dark, 실제 Windows 배포 실행 파일과 최종 ZIP 연동·재시작, 관련 단위 시험 통과. 유료 ACP 호출은 이번 UI 검증에서 실행하지 않았습니다.\n\nSource: mars-log/pulsia-plugin-catalog-manager@94e37a0\nSHA-256: 17e3d024c4105217aeba51ffdf53963a79ae7512b4618c7ae3306d50928e3500\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.12",
+      "published_at": "2026-09-30T01:54:13Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-30T01:54:13Z",
+      "assets": [
+        {
+          "id": 599762579,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 236279,
+          "digest": "sha256:17e3d024c4105217aeba51ffdf53963a79ae7512b4618c7ae3306d50928e3500",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.12/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-30T01:53:34Z",
+          "updated_at": "2026-09-30T01:53:34Z"
+        },
+        {
+          "id": 599762578,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:f222eac9e67c82be44a465fc5b9213bca226e1db91c491cf40a0fd6105b8fe32",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.12/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-30T01:53:33Z",
+          "updated_at": "2026-09-30T01:53:34Z"
+        }
+      ]
+    },
+    {
+      "id": 399236593,
+      "tag_name": "pulsia.catalog-studio@1.2.11",
+      "name": "pulsia.catalog-studio@1.2.11",
+      "body": "카탈로그 작업 진행 중 작은 회전 원을 표시함. 완료 개수가 같아도 실행 중임을 확인할 수 있으며 일시 정지·연결 오류·완료에서는 회전을 중지함. 사이드바와 탭 밖 진행 알림에 같은 표시를 사용하고 light/dark와 움직임 감소 설정을 지원함.\n\nPulsia 0.2.985 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-catalog-manager/commit/a276a829d810ab0eebb900c5a21fb9c941a40fc1\n\nSHA-256 (pulsia-catalog-studio.zip): f172b201d00ee5dcdc6c3fd72e87d7ac3757fdf7a439893df6915c5464b09795",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.11",
+      "published_at": "2026-09-29T14:35:16Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-29T14:35:16Z",
+      "assets": [
+        {
+          "id": 598435597,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 229290,
+          "digest": "sha256:f172b201d00ee5dcdc6c3fd72e87d7ac3757fdf7a439893df6915c5464b09795",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.11/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-29T14:35:14Z",
+          "updated_at": "2026-09-29T14:35:15Z"
+        },
+        {
+          "id": 598435619,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:852ed371dd67610c3d88f513e4597db7b333525632c93ecd74f8e117a7e27dc9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.11/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-29T14:35:15Z",
+          "updated_at": "2026-09-29T14:35:15Z"
+        }
+      ]
+    },
+    {
+      "id": 399216981,
+      "tag_name": "pulsia.catalog-studio@1.2.10",
+      "name": "pulsia.catalog-studio@1.2.10",
+      "body": "카탈로그 탭을 모두 닫아도 정리와 ACP 응답 저장을 유지하고 다른 화면에서 진행·결과를 표시함. 재진입과 앱 재기동에서 저장 기록을 복원함. 작은 프로젝트는 원문 전체를 요청에 직접 제공해 반복 탐색을 줄임. 확인 필요 체크리스트와 저장된 응답 복구를 지원함. Agent 변경 시 모델·노력치 목록과 기본값을 새 Agent에 맞춰 갱신함.\n\nPulsia 0.2.985 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-catalog-manager/commit/e6edd61c059c95b07cba72814498c47d6cbd0bb0\n\nSHA-256 (pulsia-catalog-studio.zip): 1e3f8fa69da8b0d397b32281eb8e5b2b347a2c03f19de94763eeef41c2a8563e",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.10",
+      "published_at": "2026-09-29T14:13:39Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-29T14:13:39Z",
+      "assets": [
+        {
+          "id": 598387779,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 228363,
+          "digest": "sha256:1e3f8fa69da8b0d397b32281eb8e5b2b347a2c03f19de94763eeef41c2a8563e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.10/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-29T14:13:36Z",
+          "updated_at": "2026-09-29T14:13:37Z"
+        },
+        {
+          "id": 598387808,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:788b1a2fd444b652d444a1b0e965abe84dca0af8c79ed040fa9230c5c8e47a36",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.10/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-29T14:13:38Z",
+          "updated_at": "2026-09-29T14:13:38Z"
+        }
+      ]
+    },
+    {
+      "id": 399150465,
+      "tag_name": "pulsia.catalog-studio@1.2.09",
+      "name": "pulsia.catalog-studio@1.2.09",
+      "body": "정리 중 개별 오류를 확인 필요에 보존하고 나머지 항목을 계속 처리하며 실패 단계부터 재시도함. 큰 파일 확인 기준 기본 5 MB와 설정 변경을 제공함. 문서 메타데이터를 별도 파일로 이관하고 관계 근거·변경 조건·처리 순서와 저장 전 안내를 제공함. 서브 메뉴 하단에 선택 모델·노력치를 표시하며 확인 필요의 수정 요청에도 같은 선택을 적용함. 밝은·어두운 화면과 실제 ACP 요청을 검증함.\n\nPulsia 0.2.985 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-catalog-manager/commit/5a71fbb4a2d2fae629482e857510fda7e21c22c3\n\nSHA-256 (pulsia-catalog-studio.zip): aee6558ea19c8108726678b99c858bc466c685a8af438693ee776277a232c76b",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.09",
+      "published_at": "2026-09-29T12:59:05Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-29T12:59:05Z",
+      "assets": [
+        {
+          "id": 598230241,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 225178,
+          "digest": "sha256:aee6558ea19c8108726678b99c858bc466c685a8af438693ee776277a232c76b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.09/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-29T12:59:02Z",
+          "updated_at": "2026-09-29T12:59:03Z"
+        },
+        {
+          "id": 598230276,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:50e68b245261d960a833d9b598a0973f87845bb59c5664730426a3464f462135",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.09/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-29T12:59:04Z",
+          "updated_at": "2026-09-29T12:59:04Z"
+        }
+      ]
+    },
+    {
+      "id": 398951898,
+      "tag_name": "pulsia.catalog-studio@1.2.08",
+      "name": "Catalog Studio 1.2.08",
+      "body": "문서 수가 아니라 선택한 템플릿의 문서 항목마다 원본을 탐색하여 정리합니다. 템플릿은 별도 릴리즈 채널에서 다운로드하며, 최초 선택 후 해당 카탈로그 루트에 고정됩니다.\n\n- 개발 프로젝트, 개발 프로젝트 모음, 매장 운영, 법인 운영과 템플릿 없음 선택\n- 문서 항목별 진행률·결과 저장·명시적 재개, 이전 1136묶음 자동 재개 차단\n- 템플릿 버전 변경과 다른 종류로의 이관은 새 루트에서 진행하며 기존 문서와 사용자 추가 자료 보존\n- 문서 지도·참조 영역·최근 변경 문서 중심 개요\n- 공통 헤더39px, 검색 여백6/7/5/7px, 관계 보기 조절선1px\n- 진행·일시 정지·중지·이어가기의 Lucide 상태 아이콘과 작은 진행 표시\n\n이전 카탈로그는 그대로 읽을 수 있습니다. 새 정리는 ‘카탈로그 새로 만들기·이관’에서 새 루트와 템플릿을 선택하세요. 템플릿 없음은 템플릿 이관을 지원하지 않습니다.\n\n검증: 관련21개 시험, 이관 ID중복 보완 후11개 재검사, 실제 Pulsia ZIP 설치·공개 템플릿 다운로드·다섯 화면·밝은/어두운 UI 검증. 유료 ACP 실행은 포함하지 않았습니다. 실제 Agent의 도구·토큰 사용량은 별도입니다.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.08",
+      "published_at": "2026-09-29T08:30:31Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-29T08:30:31Z",
+      "assets": [
+        {
+          "id": 597694830,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 211556,
+          "digest": "sha256:b268d5673aa1d281a22ece90a097a504469c65d7686111f1101f4c4ea9240900",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.08/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-29T08:30:30Z",
+          "updated_at": "2026-09-29T08:30:30Z"
+        },
+        {
+          "id": 597694834,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:ca9ada98dae2d495bdfc688ef0c05f7e3b14a3f12cc2cf2c3229a3368a6d4ba1",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.08/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-29T08:30:30Z",
+          "updated_at": "2026-09-29T08:30:30Z"
+        }
+      ]
+    },
+    {
+      "id": 398877206,
+      "tag_name": "pulsia.catalog-studio@1.2.07",
+      "name": "Catalog Studio 1.2.07",
+      "body": "- 하단 진행 버튼과 상태 문구를 10px로 줄였습니다.\n- 연결·자료 전달·AI 처리·응답 검증·읽기·저장·일시 정지에 맞는 Lucide SVG 아이콘을 추가했습니다.\n- 개요의 프로젝트 안내 헤더 아래 겹친 선을 제거하고 행 구분선이 빈 칸까지 이어지도록 수정했습니다.\n\n실제 ZIP 설치에서 6열·3열·2열 배치, 글꼴 크기와 단계별 아이콘을 확인했습니다. 진행 표시 검증은 AI 호출 없이 UI 상태로 수행했습니다.\n\n이 버전은 UI 수정입니다. 대규모 기존 문서의 순차 ACP 호출 방식은 변경하지 않았습니다.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.07",
+      "published_at": "2026-09-29T06:33:56Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-29T06:33:56Z",
+      "assets": [
+        {
+          "id": 597474030,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 195788,
+          "digest": "sha256:462a7ea5f7b61267bd1ad4d7aeb60e0fb5723b98b0551f314a5220d19b8f1d95",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.07/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-29T06:33:55Z",
+          "updated_at": "2026-09-29T06:33:55Z"
+        },
+        {
+          "id": 597474028,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:150670282c6477ed40643489f46e1efe9b621c9572a2d45cb4c0d32979639e0e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.07/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-29T06:33:55Z",
+          "updated_at": "2026-09-29T06:33:55Z"
+        }
+      ]
+    },
+    {
+      "id": 398866751,
+      "tag_name": "pulsia.catalog-studio@1.2.06",
+      "name": "Catalog Studio 1.2.06",
+      "body": "최초 설정과 문서 정리 화면의 연결을 수정했습니다.\n\n- 최초 설정의 닫기·나중에를 제거했습니다. 이미 설정한 카탈로그의 Agent 선택 창에서는 취소할 수 있습니다.\n- 플러그인 업데이트 뒤 Agent 선택과 닫기 버튼에 화면이 반응하지 않던 문제를 수정했습니다. 진행 중인 작업과 완료 상태를 유지합니다.\n- 기존 문서·AI 문서 입력 아래에 전체 경로를 표시하고 입력과 동시에 갱신합니다.\n- 원본 보존 안내와 위치 변경 시 주의·재스캔 안내를 구분해 읽기 쉽게 배치했습니다.\n\n검증: 실제 ZIP 설치의 라이트·다크 화면, 다섯 서브 화면 Agent 선택·취소, 새 Vue 번들에서 기존 상태 재사용, 진행 callback·중첩 checklist·연속 업데이트 회귀 검증을 통과했습니다.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.06",
+      "published_at": "2026-09-29T06:13:12Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-29T06:13:12Z",
+      "assets": [
+        {
+          "id": 597437547,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 194767,
+          "digest": "sha256:c3d2af8b822d62957c8a56fc55fafe4067af9060fe4cb9918fd3f810bf92e710",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.06/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-29T06:13:11Z",
+          "updated_at": "2026-09-29T06:13:11Z"
+        },
+        {
+          "id": 597437548,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:12e15d7ab2a8c56812c3e22a1747443ed847ac88af71f9458034d20a9b6bec68",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.06/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-29T06:13:11Z",
+          "updated_at": "2026-09-29T06:13:11Z"
+        }
+      ]
+    },
+    {
+      "id": 398856617,
+      "tag_name": "pulsia.catalog-studio@1.2.05",
+      "name": "pulsia.catalog-studio@1.2.05",
+      "body": "Catalog Studio 1.2.05\n\n기존 문서 폴더 안내에 원본 파일·폴더를 직접 옮겼을 때 링크가 끊기거나 다른 문서를 가리킬 수 있다는 설명을 추가했습니다. 위치 변경 뒤 폴더 설정과 재스캔 결과의 연결 문서를 확인하도록 안내합니다.\n\n1.2.04의 제목 옆 전체 프로젝트 경로, 입력별 실시간 경로 미리보기, 안내 문구 배치를 포함합니다.\n실제 ZIP의 최초 설정과 공통 설정 화면을 확인했습니다.\nSource: mars-log/pulsia-plugin-catalog-manager@18c8250\nSHA-256: a4dce9716741ff7f73f77eb8b04e08da062825596f27dd71c96aede0246376d8",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.05",
+      "published_at": "2026-09-29T05:50:24Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-29T05:50:24Z",
+      "assets": [
+        {
+          "id": 597390237,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 193832,
+          "digest": "sha256:a4dce9716741ff7f73f77eb8b04e08da062825596f27dd71c96aede0246376d8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.05/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-29T05:50:23Z",
+          "updated_at": "2026-09-29T05:50:23Z"
+        },
+        {
+          "id": 597390235,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:5179c4365be2218808a1f1f13bb8376ece43e5882802951aefc90d51ddb1cc53",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.05/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-29T05:50:23Z",
+          "updated_at": "2026-09-29T05:50:23Z"
+        }
+      ]
+    },
+    {
+      "id": 398855814,
+      "tag_name": "pulsia.catalog-studio@1.2.04",
+      "name": "pulsia.catalog-studio@1.2.04",
+      "body": "Catalog Studio 1.2.04\n\n- 프로젝트 전체 경로를 카탈로그 위치 제목 옆으로 옮기고 잘리지 않게 표시합니다.\n- 위치 안내를 제목 바로 아래에 배치했습니다.\n- 각 폴더 입력 아래에 경로 미리보기를 표시하며 입력 즉시 갱신합니다.\n- 원본 폴더 안내를 처음 사용하는 사람이 이해할 수 있도록 수정했습니다.\n\n실제 ZIP의 최초 설정·공통 설정에서 배치와 입력별 미리보기 갱신을 확인했습니다.\nSource: mars-log/pulsia-plugin-catalog-manager@54a87b3\nSHA-256: ae04674469208c8b5ff6bdaa314e3dd5bfc6bc1891fd8515df8b4264f41a8913",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.04",
+      "published_at": "2026-09-29T05:48:25Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-29T05:48:25Z",
+      "assets": [
+        {
+          "id": 597385969,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 193690,
+          "digest": "sha256:ae04674469208c8b5ff6bdaa314e3dd5bfc6bc1891fd8515df8b4264f41a8913",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.04/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-29T05:48:23Z",
+          "updated_at": "2026-09-29T05:48:24Z"
+        },
+        {
+          "id": 597385967,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:2f7074d07d24ee25927247377ccf7950cd817d2fba2fe74e7d77001a3de9d9d8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.04/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-29T05:48:23Z",
+          "updated_at": "2026-09-29T05:48:23Z"
+        }
+      ]
+    },
+    {
+      "id": 398849996,
+      "tag_name": "pulsia.catalog-studio@1.2.03",
+      "name": "pulsia.catalog-studio@1.2.03",
+      "body": "Catalog Studio 1.2.03\n\n- 카탈로그 루트 옆에 프로젝트 위치를 작고 흐린 글자로 표시합니다.\n- 루트·문서 폴더·AI 문서 폴더를 3열 한 줄, 기존 문서·AI 문서 폴더를 5:5 두 열로 배치했습니다.\n- 진한 활성 테두리를 얇은 회색 포커스 표시로 변경했습니다.\n- 문자 ×로 만든 닫기·제거 버튼을 Lucide SVG로 통일했습니다.\n- Agent·모델·노력치 선택 상자의 Lucide 쉐브론과 오른쪽 테두리 사이에 8px 여백을 적용했습니다.\n\n최초 설정과 공통 설정 창의 light/dark 실제 ZIP 표시를 확인했습니다.\nSource: mars-log/pulsia-plugin-catalog-manager@388694b\nSHA-256: 6c48e731116d35ec43a04a7f5e764892a05a169e36d826b483f9d8a680640e73",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.03",
+      "published_at": "2026-09-29T05:34:35Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-29T05:34:35Z",
+      "assets": [
+        {
+          "id": 597361012,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 193614,
+          "digest": "sha256:6c48e731116d35ec43a04a7f5e764892a05a169e36d826b483f9d8a680640e73",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.03/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-29T05:34:34Z",
+          "updated_at": "2026-09-29T05:34:34Z"
+        },
+        {
+          "id": 597361013,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:2c18f52bd490e219732196e69dd9d4fef390e10de45cf1edcc8ae581fe4c6c31",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.03/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-29T05:34:34Z",
+          "updated_at": "2026-09-29T05:34:34Z"
+        }
+      ]
+    },
+    {
+      "id": 398841056,
+      "tag_name": "pulsia.catalog-studio@1.2.02",
+      "name": "pulsia.catalog-studio@1.2.02",
+      "body": "Catalog Studio 1.2.02\n\n- 기존 문서 이동·백업 절차를 제거하고, 별도 카탈로그 루트의 doc/docs에 새 문서를 정리합니다.\n- 기존 문서와 AI 문서 폴더를 여러 개 등록하고 다른 PC의 경로로 다시 설정할 수 있습니다.\n- 모든 화면에 공통 설정 창을 추가했습니다. 창 위치·크기·내부 패널 너비가 유지됩니다.\n- 진행 상황은 서브메뉴 하단에 표시됩니다. 체크리스트와 완료된 분석을 저장하여 정지·종료 후 이어갈 수 있습니다.\n- 역할/주제/파일의 계층형 문서와 원본 링크를 생성하고 기존 소스 설명의 ID·관계를 유지합니다.\n\n기존 사용자는 설정에서 별도 카탈로그 루트와 원본 폴더를 지정한 후 새 정리를 시작하면 됩니다. 기존 문서와 과거 백업은 보존됩니다.\n\n검증: Windows Pulsia 0.2.986의 실제 ZIP 설치, Codex ACP 정리, 밝은/어두운 화면, 다섯 화면 설정, 일시 정지·앱 종료·재개, 원본 보존·경로 재연결.\nSource: mars-log/pulsia-plugin-catalog-manager@7048d7c93ee7d5702481f208d063db93331319fe\nSHA-256: 30c00df3beb40d1173e7237574a71f4c5d0861a7aa26cce293d9ee15862ee256",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.02",
+      "published_at": "2026-09-29T05:13:02Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-29T05:13:02Z",
+      "assets": [
+        {
+          "id": 597322863,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 192526,
+          "digest": "sha256:30c00df3beb40d1173e7237574a71f4c5d0861a7aa26cce293d9ee15862ee256",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.02/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-29T05:13:01Z",
+          "updated_at": "2026-09-29T05:13:01Z"
+        },
+        {
+          "id": 597322862,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:bcc05c77c026066a25a34202e6ebdb95c22b36c8670229dafa5e2e34113795b2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.02/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-29T05:13:01Z",
+          "updated_at": "2026-09-29T05:13:01Z"
+        }
+      ]
+    },
+    {
+      "id": 398352884,
+      "tag_name": "pulsia.catalog-studio@1.2.01",
+      "name": "pulsia.catalog-studio@1.2.01",
+      "body": "관계 보기의 목록을 카탈로그와 같은 검색·폴더 트리로 통일하고 100개 제한을 제거함. 변경 영향의 기준 항목을 누르면 검색·트리 선택창을 열어 바로 변경할 수 있음. 선택창 이동·크기 조절과 재실행 후 크기 복원을 지원함. 패키지·표시·태그 버전은 모두 1.2.01임.\n\nPulsia 0.2.985 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-catalog-manager/commit/73635a660cd6cde78a23f833465cc85ff76b69ae\n\nSHA-256 (pulsia-catalog-studio.zip): 939d98f3da4dd388d278b698d8be16ecb217c84e5ce06b927349eaddbdc98f8d",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.01",
+      "published_at": "2026-09-28T14:55:09Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-28T14:55:09Z",
+      "assets": [
+        {
+          "id": 595663390,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 178297,
+          "digest": "sha256:939d98f3da4dd388d278b698d8be16ecb217c84e5ce06b927349eaddbdc98f8d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.01/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-28T14:55:06Z",
+          "updated_at": "2026-09-28T14:55:07Z"
+        },
+        {
+          "id": 595663432,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:0076fc23e38ed18fec6979b25e606dfd78f3ddccff529b18ccc239e8a0b83dc0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.01/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-28T14:55:08Z",
+          "updated_at": "2026-09-28T14:55:08Z"
+        }
+      ]
+    },
+    {
+      "id": 397997711,
+      "tag_name": "pulsia.catalog-studio@1.1.5",
+      "name": "pulsia.catalog-studio@1.1.5",
+      "body": "Catalog Studio 1.1.5\n\n- 사용자 문서를 프로젝트 구성 문서와 업무·작업 문서로 분류하고 본문 또는 참고 링크로 보존함.\n- 기존 백업 재분류, 분석 재사용과 편집본 보호를 지원함.\n- 카탈로그·관계 보기·변경 영향의 패널 경계를 조절하고 너비를 저장함.\n- 다섯 화면의 Lucide 아이콘과 최초 SVG 표시 크기를 수정함.\n- 관련 시험 51개, 실제 ACP 및 light/dark 화면 검증을 통과함.\n\nSource: aa0e13f\nSHA-256: 6c67da2f864a186b40c9bd42211bd17bf1c83beb42f1339033a75a3c8ace4a56\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.1.5",
+      "published_at": "2026-09-28T06:29:27Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-28T06:29:27Z",
+      "assets": [
+        {
+          "id": 594696879,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 144834,
+          "digest": "sha256:6c67da2f864a186b40c9bd42211bd17bf1c83beb42f1339033a75a3c8ace4a56",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.5/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-28T06:29:26Z",
+          "updated_at": "2026-09-28T06:29:27Z"
+        }
+      ]
+    },
+    {
+      "id": 397978412,
+      "tag_name": "pulsia.catalog-studio@1.1.4",
+      "name": "pulsia.catalog-studio@1.1.4",
+      "body": "Catalog Studio 1.1.4\n\n- Move originals and create the catalog structure before decoding documents.\n- Read UTF-8, UTF-16 and Korean legacy documents automatically; preserve opaque originals as references.\n- Persist selected agent/model, inventory, plan and progress. Resume after app restart while preserving explicit pause.\n- Show partial catalog content and a compact progress checklist while organizing.\n\nValidation: 41 focused tests; real ACP adoption and actual app restart/pause/resume in light and dark on Windows.\nSource: ef5bfad\nSHA-256: d60e796f86acf9e86e31172656f9013ed80599255eed8fdd5570fce1d9f7a657\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.1.4",
+      "published_at": "2026-09-28T05:42:57Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-28T05:42:57Z",
+      "assets": [
+        {
+          "id": 594618045,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 138861,
+          "digest": "sha256:d60e796f86acf9e86e31172656f9013ed80599255eed8fdd5570fce1d9f7a657",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.4/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-28T05:42:56Z",
+          "updated_at": "2026-09-28T05:42:56Z"
+        }
+      ]
+    },
+    {
+      "id": 397967237,
+      "tag_name": "pulsia.catalog-studio@1.1.3",
+      "name": "pulsia.catalog-studio@1.1.3",
+      "body": "Catalog Studio 1.1.3\n\n- Apply the approved first-use modal and thin progress display to all five catalog screens; remove preview screens.\n- Keep catalog work running across screen navigation. Support selected backup folders, preserved originals, resumable setup, and migration from earlier catalog structures.\n- Replace repeated directory IPC with bounded native directory enumeration.\n- Install portable request-original, interpretation, classification, and user-edit context guidance for project agents.\n\nValidation: 42 focused tests; light/dark five-screen flows; real Codex ACP adoption in two projects and legacy migration with an external backup folder.\nSource: mars-log/pulsia-plugin-catalog-manager@d255904\nSHA-256: 8f2f6754d5eb2dc3c66d53b6d4fcb120c3178bd9aa458f664f36ed42dbf8b973\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.1.3",
+      "published_at": "2026-09-28T05:12:23Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-28T05:12:23Z",
+      "assets": [
+        {
+          "id": 594564686,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 131953,
+          "digest": "sha256:8f2f6754d5eb2dc3c66d53b6d4fcb120c3178bd9aa458f664f36ed42dbf8b973",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.3/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-28T05:12:22Z",
+          "updated_at": "2026-09-28T05:12:22Z"
+        }
+      ]
+    },
+    {
+      "id": 397906604,
+      "tag_name": "pulsia.catalog-studio@1.1.2",
+      "name": "pulsia.catalog-studio@1.1.2",
+      "body": "Catalog Studio 1.1.2\n\n- 기존 문서를 먼저 백업하고 원문 복사 또는 참고 링크로 새 카탈로그에 반영.\n- AI는 문서 역할과 copy/link를 결정하며 본문을 요약해 대체하지 않음.\n- 인덱스의 Markdown 링크 열기와 탐색기 링크 하위 항목 표시.\n- 프로젝트 탐색 분할 처리로 대규모 목록의 단일 호출 시간 초과 방지.\n- 사이드바 상단과 루트는 Catalog Studio로 표시.\n\nSource: mars-log/pulsia-plugin-catalog-manager commit 2e822e3. 기존 완료 문서는 자동 덮어쓰지 않음.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.1.2",
+      "published_at": "2026-09-28T02:25:47Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-28T02:25:47Z",
+      "assets": [
+        {
+          "id": 594281299,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 120024,
+          "digest": "sha256:57a3a3f6d2cc51da24ebf923dd86e6f999755da6bf363809aa553f76ffd46419",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.2/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-28T02:25:46Z",
+          "updated_at": "2026-09-28T02:25:47Z"
+        }
+      ]
+    },
+    {
+      "id": 398296596,
+      "tag_name": "pulsia.catalog-studio@1.1.19",
+      "name": "pulsia.catalog-studio@1.1.19",
+      "body": "카탈로그와 참고 문서 팝업에서 마우스 뒤로/앞으로 버튼을 지원함. 마우스 탐색 후 Backspace가 계속 동작하도록 포커스 처리와 중복 화면 이동을 수정함. 입력란의 문자 삭제 동작을 유지함.\n\nPulsia 0.2.980 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-catalog-manager/commit/d4bce6adc4cf3359589b188859701b88f0cc1386\n\nSHA-256 (pulsia-catalog-studio.zip): aabe97e74ae4ca28b19202cd482d47de831a546391e18544f3b461b54ca3aaed",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.1.19",
+      "published_at": "2026-09-28T13:50:14Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-28T13:50:14Z",
+      "assets": [
+        {
+          "id": 595525598,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 174865,
+          "digest": "sha256:aabe97e74ae4ca28b19202cd482d47de831a546391e18544f3b461b54ca3aaed",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.19/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-28T13:50:12Z",
+          "updated_at": "2026-09-28T13:50:13Z"
+        },
+        {
+          "id": 595525618,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:b992e3065cb4484d7a51367882c26e6b71b090af7ced84b2c067fb1edd8ab041",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.19/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-28T13:50:13Z",
+          "updated_at": "2026-09-28T13:50:13Z"
+        }
+      ]
+    },
+    {
+      "id": 398280902,
+      "tag_name": "pulsia.catalog-studio@1.1.18",
+      "name": "pulsia.catalog-studio@1.1.18",
+      "body": "문서 이동 기록·뒤로/앞으로·맨 위로·현재 문서 위치 찾기를 제공함. 참고 문서 팝업의 고정 헤더·이동·크기 조절·최대화와 재시작 후 상태 복원을 지원함. 미연결 모델 안내는 닫으면 현재 실행 세션 동안 숨김을 유지함.\n\nPulsia 0.2.980 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-catalog-manager/commit/4228c6d86d2d0fc4ed3c88edc738c09e801a1093\n\nSHA-256 (pulsia-catalog-studio.zip): f546b575563aafc6703337f85be61a555455e7025ed4237affa493bdeeded92e",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.1.18",
+      "published_at": "2026-09-28T13:32:36Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-28T13:32:36Z",
+      "assets": [
+        {
+          "id": 595487590,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 173601,
+          "digest": "sha256:f546b575563aafc6703337f85be61a555455e7025ed4237affa493bdeeded92e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.18/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-28T13:32:34Z",
+          "updated_at": "2026-09-28T13:32:34Z"
+        },
+        {
+          "id": 595487618,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:98338e501755aac884c0bc776ac8be690d700b453a52eba764d12db2652dab61",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.18/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-28T13:32:35Z",
+          "updated_at": "2026-09-28T13:32:35Z"
+        }
+      ]
+    },
+    {
+      "id": 398255706,
+      "tag_name": "pulsia.catalog-studio@1.1.17",
+      "name": "pulsia.catalog-studio@1.1.17",
+      "body": "현재 단계의 완료율을 강조색 채움 막대와 숫자로 표시함. 실행 중 표시와 처리 중인 묶음의 파일·AI 상태·경과 시간을 제공함. 완료 수가 없는 단계는 대기 표시로 구분함.\n\nPulsia 0.2.980 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-catalog-manager/commit/665e7613d9f9980c15de42d703fc683e8832d12c\n\nSHA-256 (pulsia-catalog-studio.zip): cb2855df9389e3c86d2b8bd2a560dac8d996992ddda3e550922f0ee9b1f2241d",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.1.17",
+      "published_at": "2026-09-28T13:02:24Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-28T13:02:24Z",
+      "assets": [
+        {
+          "id": 595425781,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 165449,
+          "digest": "sha256:cb2855df9389e3c86d2b8bd2a560dac8d996992ddda3e550922f0ee9b1f2241d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.17/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-28T13:02:22Z",
+          "updated_at": "2026-09-28T13:02:23Z"
+        },
+        {
+          "id": 595425814,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:aa4c3b0bf773b3ebfa1eb611f82b172beca354c550fb950ee8a32422ccc5e769",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.17/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-28T13:02:23Z",
+          "updated_at": "2026-09-28T13:02:23Z"
+        }
+      ]
+    },
+    {
+      "id": 398250299,
+      "tag_name": "pulsia.catalog-studio@1.1.16",
+      "name": "pulsia.catalog-studio@1.1.16",
+      "body": "상태 문장 앞 Agent 이름을 작은 선택 칩으로 표시함. 이름 칩을 누르면 Agent·모델·노력치 변경 창이 열림. 가운데 별도 변경 버튼은 제거함. 이전 세션의 변경 버튼 무반응 수정도 포함함.\n\nPulsia 0.2.980 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-catalog-manager/commit/72a33c3ea5b29c3faa108d3134fa473f54290826\n\nSHA-256 (pulsia-catalog-studio.zip): 5f250ae2e11355c964bddfe38c983a2a6d283474cae006229ef17fd79735020b",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.1.16",
+      "published_at": "2026-09-28T12:55:29Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-28T12:55:29Z",
+      "assets": [
+        {
+          "id": 595412821,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 164731,
+          "digest": "sha256:5f250ae2e11355c964bddfe38c983a2a6d283474cae006229ef17fd79735020b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.16/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-28T12:55:27Z",
+          "updated_at": "2026-09-28T12:55:27Z"
+        },
+        {
+          "id": 595412851,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:d6913562344ed3103627c0c3ddc2ff035959b012a03931a0f4eb1aa90ea8589d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.16/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-28T12:55:28Z",
+          "updated_at": "2026-09-28T12:55:28Z"
+        }
+      ]
+    },
+    {
+      "id": 398248167,
+      "tag_name": "pulsia.catalog-studio@1.1.15",
+      "name": "pulsia.catalog-studio@1.1.15",
+      "body": "업데이트 전 정리 세션을 유지한 경우 Agent 변경 버튼이 반응하지 않는 문제를 수정함. 기존 진행 상태를 보존하며 새 변경 동작을 연결함. 업데이트 후 카탈로그 화면을 다시 열어 적용함.\n\nPulsia 0.2.980 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-catalog-manager/commit/bd64cc850ae99d5093a83665e2ed9dc908b5b1e9\n\nSHA-256 (pulsia-catalog-studio.zip): c2b3e336efb3000d046c3856ef433ddf46156394b08f4ca2a7b7ee7418a8e8ac",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.1.15",
+      "published_at": "2026-09-28T12:52:46Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-28T12:52:46Z",
+      "assets": [
+        {
+          "id": 595407635,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 164187,
+          "digest": "sha256:c2b3e336efb3000d046c3856ef433ddf46156394b08f4ca2a7b7ee7418a8e8ac",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.15/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-28T12:52:44Z",
+          "updated_at": "2026-09-28T12:52:45Z"
+        },
+        {
+          "id": 595407673,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:77af0121cd08b0278c4791270b3d4a3bf3081ab86ab60e5ce7e0d5bada46af01",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.15/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-28T12:52:45Z",
+          "updated_at": "2026-09-28T12:52:45Z"
+        }
+      ]
+    },
+    {
+      "id": 398231693,
+      "tag_name": "pulsia.catalog-studio@1.1.14",
+      "name": "pulsia.catalog-studio@1.1.14",
+      "body": "중단된 카탈로그 정리에서 Agent·모델·노력치를 바꿔 이어갈 수 있음. 기존 백업·동의·작업 종류를 유지함. 카탈로그 본문 위에 큰 빈 공간이 생기는 레이아웃 오류를 수정함.\n\nPulsia 0.2.980 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-catalog-manager/commit/e207f281e07afe2bc135aeb6016a014f61b7667d\n\nSHA-256 (pulsia-catalog-studio.zip): f0da71dab866bb595d57f800b909d529825b56576547a78369e234c65a5b4b75",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.1.14",
+      "published_at": "2026-09-28T12:32:22Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-28T12:32:22Z",
+      "assets": [
+        {
+          "id": 595368616,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 163959,
+          "digest": "sha256:f0da71dab866bb595d57f800b909d529825b56576547a78369e234c65a5b4b75",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.14/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-28T12:32:19Z",
+          "updated_at": "2026-09-28T12:32:20Z"
+        },
+        {
+          "id": 595368646,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:3ae13babb51b7a6d1f34ae205bda580b8a9e84979a8cd6c2d72ee914108d8997",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.14/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-28T12:32:20Z",
+          "updated_at": "2026-09-28T12:32:20Z"
+        }
+      ]
+    },
+    {
+      "id": 398224319,
+      "tag_name": "pulsia.catalog-studio@1.1.13",
+      "name": "pulsia.catalog-studio@1.1.13",
+      "body": "문서 경로 칩을 모든 화면의 공통 첫 줄 오른쪽에 배치함. 작은 크기는 유지하며 좁은 화면에서도 오른쪽에 표시함.\n\nPulsia 0.2.980 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-catalog-manager/commit/5ae16c3c0f639966823ce72205efe0aa3a57f537\n\nSHA-256 (pulsia-catalog-studio.zip): edc814f0c0cd8c73f7c51fd9ca942beb15263c384ab7f6fad36adf54c6363f89",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.1.13",
+      "published_at": "2026-09-28T12:22:41Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-28T12:22:41Z",
+      "assets": [
+        {
+          "id": 595350877,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 163726,
+          "digest": "sha256:edc814f0c0cd8c73f7c51fd9ca942beb15263c384ab7f6fad36adf54c6363f89",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.13/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-28T12:22:39Z",
+          "updated_at": "2026-09-28T12:22:39Z"
+        },
+        {
+          "id": 595350901,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:34f7f2023c9759cdc9a563a333d47634cfb899b074cf2a84af23975899fefab2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.13/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-28T12:22:40Z",
+          "updated_at": "2026-09-28T12:22:40Z"
+        }
+      ]
+    },
+    {
+      "id": 398217509,
+      "tag_name": "pulsia.catalog-studio@1.1.12",
+      "name": "pulsia.catalog-studio@1.1.12",
+      "body": "카탈로그 경로 표시를 개요의 프로젝트명 옆으로 옮기고 작게 표시함. 문서 폴더 입력과 최초 설정의 Agent·모델·노력치 선택을 한 줄로 배치함. 사무실에서 커밋한 19c776f UI 변경을 포함함.\n\nPulsia 0.2.980 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-catalog-manager/commit/e76954cd6a75f8818d1cf6e644a7006a2db47ea5\n\nSHA-256 (pulsia-catalog-studio.zip): 25d38de9cab4f8e74abc98e42caca2714a1492c54a6fffa2c844ba83ac4014ef",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.1.12",
+      "published_at": "2026-09-28T12:14:13Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-28T12:14:13Z",
+      "assets": [
+        {
+          "id": 595334490,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 163689,
+          "digest": "sha256:25d38de9cab4f8e74abc98e42caca2714a1492c54a6fffa2c844ba83ac4014ef",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.12/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-28T12:14:11Z",
+          "updated_at": "2026-09-28T12:14:11Z"
+        },
+        {
+          "id": 595334518,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:69e8ddd9de0c1ac1c116d27572c2011d2333557e201024447c6336c4342155be",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.12/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-28T12:14:12Z",
+          "updated_at": "2026-09-28T12:14:12Z"
+        }
+      ]
+    },
+    {
+      "id": 398071650,
+      "tag_name": "pulsia.catalog-studio@1.1.11",
+      "name": "Catalog Studio 1.1.11",
+      "body": "프로젝트별 카탈로그(doc)·AI 문서(docs) 루트 분리, 문서 루트 밖 백업 차단, 루트 변경 및 file-symlink 아이콘 반영. 사용자 요청에 따라 추가 실행 시험은 생략함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.1.11",
+      "published_at": "2026-09-28T08:37:54Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-28T08:37:54Z",
+      "assets": [
+        {
+          "id": 594924919,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 162854,
+          "digest": "sha256:b7fbc2a15ad3f1283ad54078f0e5694863836cac1b831c53691d2b71c469e884",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.11/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-28T08:37:53Z",
+          "updated_at": "2026-09-28T08:37:53Z"
+        }
+      ]
+    },
+    {
+      "id": 398035981,
+      "tag_name": "pulsia.catalog-studio@1.1.10",
+      "name": "pulsia.catalog-studio@1.1.10",
+      "body": "Catalog Studio 1.1.10\n\n- 문서 관리 목적에 맞춰 Agent 작성 규칙을 AGENTS·Claude·Gemini·Copilot·Cursor 진입점에 전파함. 기존 설치 지침도 갱신함.\n- 선언된 폴더·인덱스·설명 JSON·명시 관계를 5개 화면에서 읽고 규격·원본을 검사함. 메뉴 전환 시 AI 재분석을 제거함.\n- 기존 문서는 통 백업 후 전체 이관 계획을 저장하고 복사·참조를 적용함. 입력·분석·완료 단계를 재사용하고 중단 후 재개함.\n- ACP 최종 JSON 추출, 오류 반복, 패널 너비 공유, 화살표·SVG 및 다크 모드 관계 글자색을 수정함.\n- 단위 50개, 실제 Claude ACP 재분류, Codex ACP 앱 종료·재개, light/dark 5개 화면을 검증함.\n\nSource: mars-log/pulsia-plugin-catalog-manager@eaf956f\nSHA-256: 1192fc057fd2d56933d7bb2e5f11afee23131aac5fd2f32dbc7445dd9edf53ff\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.1.10",
+      "published_at": "2026-09-28T07:40:31Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-28T07:40:31Z",
+      "assets": [
+        {
+          "id": 594818691,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 157204,
+          "digest": "sha256:1192fc057fd2d56933d7bb2e5f11afee23131aac5fd2f32dbc7445dd9edf53ff",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.10/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-28T07:40:30Z",
+          "updated_at": "2026-09-28T07:40:30Z"
+        }
+      ]
+    },
+    {
+      "id": 397699983,
+      "tag_name": "pulsia.catalog-studio@1.1.1",
+      "name": "pulsia.catalog-studio@1.1.1",
+      "body": "프로젝트 루트별 실행 상태·캐시를 분리하고 숨겨진 하위 Git 저장소를 부모 정리에서 제외함. 동일 문서와 완료된 분석을 재사용하며 두 묶음씩 간결하게 정리함. 최초 정리의 Low 기본 선택, 묶음별 실시간 진행·중단·재개와 출처 검증을 제공함. 기존 정리가 진행 중이면 중단 후 업데이트하고 화면을 다시 열어 정리 이어가기를 실행함. 원문 백업과 중단 기록을 삭제하지 않음.\n\nPulsia 0.2.980 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-catalog-manager/commit/33bc9bf4d2d10c8f033ceb22a9c51966a4e87bd8\n\nSHA-256 (pulsia-catalog-studio.zip): 56ae48effafd617255eabf19d41b9adef4c6ecaa627b01edf4d70a82d61bf6ad",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.1.1",
+      "published_at": "2026-09-27T15:21:38Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-27T15:21:38Z",
+      "assets": [
+        {
+          "id": 593184548,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 113185,
+          "digest": "sha256:56ae48effafd617255eabf19d41b9adef4c6ecaa627b01edf4d70a82d61bf6ad",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.1/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-27T15:21:36Z",
+          "updated_at": "2026-09-27T15:21:37Z"
+        },
+        {
+          "id": 593184579,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:48b8096f3e0c19a724fd1ab92f2e3b92fb0224bdeff135083ed7e8f957fc14dd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.1/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-27T15:21:37Z",
+          "updated_at": "2026-09-27T15:21:37Z"
+        }
+      ]
+    },
+    {
+      "id": 397564674,
+      "tag_name": "pulsia.catalog-studio@1.1.0",
+      "name": "pulsia.catalog-studio@1.1.0",
+      "body": "1.1.0: AI 단계·경과 시간·마지막 응답과 지연 호출 중단, listAgents 입력 규격 수정, 모델 매니저 선택 설치·후속 설치·재연결, 현재 문서 기반 모델 정리안 검토·적용, 임의 깊이 서브 프로젝트 선택·자료 분리를 추가함. 기존 수정:  설치 상태에 맞는 안내·재조회 피드백, 선택 목록 색상, 메뉴 아이콘, 큰 문서 자동 분할·재개를 수정함. 신규 프로젝트 문서 골격, 기존 프로젝트 ACP 최초 정리·원문 백업·참고 링크, 별도 동의 소스 헤더, 요청 원문·해석과 doc/docs 동시 갱신, 모든 ACP 작업의 모델·노력치 선택을 제공함.\n\nPulsia 0.2.980 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-catalog-manager/commit/3819fdf3c6afd19bcefc4fbfee309c28862d983b\n\nSHA-256 (pulsia-catalog-studio.zip): 3dbce65fef7596f22a60dcf768bf0395cd96aac4c6a93578cf85a6cbe9cec95c",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.1.0",
+      "published_at": "2026-09-27T08:31:50Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-27T08:31:50Z",
+      "assets": [
+        {
+          "id": 592487882,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 107530,
+          "digest": "sha256:3dbce65fef7596f22a60dcf768bf0395cd96aac4c6a93578cf85a6cbe9cec95c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.0/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-27T08:27:26Z",
+          "updated_at": "2026-09-27T08:27:27Z"
+        },
+        {
+          "id": 592487901,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:fd72abe0f9e69d027071ad0b87f8d58463cc9d01188df932413eebb24998c76f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.1.0/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-27T08:27:27Z",
+          "updated_at": "2026-09-27T08:27:28Z"
+        }
+      ]
+    },
+    {
+      "id": 397555835,
+      "tag_name": "pulsia.catalog-studio@1.0.1",
+      "name": "pulsia.catalog-studio@1.0.1",
+      "body": "1.0.1: 설치 상태에 맞는 안내·재조회 피드백, 선택 목록 색상, 메뉴 아이콘, 큰 문서 자동 분할·재개를 수정함. 신규 프로젝트 문서 골격, 기존 프로젝트 ACP 최초 정리·원문 백업·참고 링크, 별도 동의 소스 헤더, 요청 원문·해석과 doc/docs 동시 갱신, 모든 ACP 작업의 모델·노력치 선택을 제공함.\n\nPulsia 0.2.979 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-catalog-manager/commit/a36f16b7681917651105ef283a9697c61365ee12\n\nSHA-256 (pulsia-catalog-studio.zip): 9f8ebc7abce7c77031d3017043d3900b91b2b5f7c4de1dc11a538cbfed7f0f01",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.0.1",
+      "published_at": "2026-09-27T07:47:07Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-27T07:47:07Z",
+      "assets": [
+        {
+          "id": 592423053,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 91785,
+          "digest": "sha256:9f8ebc7abce7c77031d3017043d3900b91b2b5f7c4de1dc11a538cbfed7f0f01",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.0.1/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-27T07:47:06Z",
+          "updated_at": "2026-09-27T07:47:06Z"
+        },
+        {
+          "id": 592423065,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:0b5448377d5398423150839f9b498d1cd07dcc4ace9c0c321d23631116136b7b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.0.1/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-27T07:47:06Z",
+          "updated_at": "2026-09-27T07:47:06Z"
+        }
+      ]
+    },
+    {
+      "id": 397496337,
+      "tag_name": "pulsia.catalog-studio@1.0.0",
+      "name": "pulsia.catalog-studio@1.0.0",
+      "body": "신규 프로젝트 문서 골격, 기존 프로젝트 ACP 최초 정리·원문 백업·참고 링크, 별도 동의 소스 헤더, 요청 원문·해석과 doc/docs 동시 갱신, 모든 ACP 작업의 모델·노력치 선택을 제공함.\n\nPulsia 0.2.979 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-catalog-manager/commit/18c7bca14b5f4d7ef41cd1e83b93881119879b5e\n\nSHA-256 (pulsia-catalog-studio.zip): fcb734aab00d477e4002da02aa0577214a093f6d90138a667257c9c9146892fc",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.0.0",
+      "published_at": "2026-09-27T04:24:21Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-27T04:24:21Z",
+      "assets": [
+        {
+          "id": 592106431,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 90329,
+          "digest": "sha256:fcb734aab00d477e4002da02aa0577214a093f6d90138a667257c9c9146892fc",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.0.0/pulsia-catalog-studio.zip",
+          "created_at": "2026-09-27T04:11:00Z",
+          "updated_at": "2026-09-27T04:11:00Z"
+        },
+        {
+          "id": 592106438,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:04ed3ad8aff84c7983e4373d4633edb4b5a38f740fd3541e16c0633655342f81",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.0.0/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-09-27T04:11:01Z",
+          "updated_at": "2026-09-27T04:11:01Z"
+        }
+      ]
+    },
+    {
+      "id": 400770178,
+      "tag_name": "catalog.templates@2.0.0",
+      "name": "Catalog templates 2.0.0",
+      "body": "범용 project-portfolio 템플릿을 추가함. 업무 ID별 요청·산출물·검증·인계를 연결하며 부모의 공동 업무와 자식 상세를 분리함.\n\n- 프로젝트·안내·업무·공통 기준·이력·구성 관리 6개 영역과 17개 기본 문서임.\n- development-portfolio 1.0.0의 후속 ID를 명시함.\n- 법인 운영·개발 프로젝트·매장 운영 템플릿도 기존 업무 트리를 유지하여 포함함.\n- 기존 카탈로그는 자동 변경하지 않으며 새 루트 이관으로 적용함.\n- 소스: https://github.com/mars-log/pulsia-plugin-studio/commit/a93ea5e\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/catalog.templates%402.0.0",
+      "published_at": "2026-10-01T08:24:07Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-10-01T08:24:07Z",
+      "assets": [
+        {
+          "id": 602786047,
+          "name": "catalog-templates.json",
+          "state": "uploaded",
+          "size": 79590,
+          "digest": "sha256:cd5804891d82e02d6108a5ae398b015a8feb4f6dc10d840190d7601747cab16e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/catalog.templates%402.0.0/catalog-templates.json",
+          "created_at": "2026-10-01T08:24:05Z",
+          "updated_at": "2026-10-01T08:24:05Z"
+        },
+        {
+          "id": 602786046,
+          "name": "catalog-templates.json.sha256",
+          "state": "uploaded",
+          "size": 89,
+          "digest": "sha256:24509dc4dcdab0128f86a80ed3bb8674f812b7c1454e02e1d468f08de327df60",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/catalog.templates%402.0.0/catalog-templates.json.sha256",
+          "created_at": "2026-10-01T08:24:05Z",
+          "updated_at": "2026-10-01T08:24:05Z"
+        }
+      ]
+    },
+    {
+      "id": 398928665,
+      "tag_name": "catalog.templates@1.0.0",
+      "name": "Catalog Templates 1.0.0",
+      "body": "Catalog Studio 문서 구조 템플릿 1.0.0\n\n개발 프로젝트, 개발 프로젝트 모음, 매장 운영, 법인 운영의 문서 목적·담당·필수 내용·갱신 기준을 제공합니다. 플러그인은 이 릴리즈의 JSON을 다운로드하고 선택한 버전을 카탈로그에 고정합니다. 새 버전은 기존 문서를 보존하는 새 루트 AI 이관으로 적용합니다.\n\n일반 운영 템플릿이며 개별 현장·관할의 법적 의무를 확정하지 않습니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/catalog.templates%401.0.0",
+      "published_at": "2026-09-29T07:57:05Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-29T07:57:05Z",
+      "assets": [
+        {
+          "id": 597630589,
+          "name": "catalog-templates.json",
+          "state": "uploaded",
+          "size": 70029,
+          "digest": "sha256:42fd353f70345d79f20cb1db122cccefd0ec4593a08cd4600f21016f9d60314c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/catalog.templates%401.0.0/catalog-templates.json",
+          "created_at": "2026-09-29T07:57:04Z",
+          "updated_at": "2026-09-29T07:57:04Z"
+        },
+        {
+          "id": 597630590,
+          "name": "catalog-templates.json.sha256",
+          "state": "uploaded",
+          "size": 89,
+          "digest": "sha256:362e852f98b228eff15277e862a550cd9cd4d349330d37335bf715d65fa3a8e7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/catalog.templates%401.0.0/catalog-templates.json.sha256",
+          "created_at": "2026-09-29T07:57:04Z",
+          "updated_at": "2026-09-29T07:57:04Z"
+        }
+      ]
+    },
+    {
+      "id": 398928693,
+      "tag_name": "catalog.templates-stable",
+      "name": "Catalog Templates stable channel",
+      "body": "Catalog Studio 문서 구조 템플릿 1.0.0\n\n개발 프로젝트, 개발 프로젝트 모음, 매장 운영, 법인 운영의 문서 목적·담당·필수 내용·갱신 기준을 제공합니다. 플러그인은 이 릴리즈의 JSON을 다운로드하고 선택한 버전을 카탈로그에 고정합니다. 새 버전은 기존 문서를 보존하는 새 루트 AI 이관으로 적용합니다.\n\n일반 운영 템플릿이며 개별 현장·관할의 법적 의무를 확정하지 않습니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/catalog.templates-stable",
+      "published_at": "2026-09-29T07:57:08Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-10-05T15:25:12Z",
+      "assets": [
+        {
+          "id": 612935859,
+          "name": "catalog-template-index.json",
+          "state": "uploaded",
+          "size": 261,
+          "digest": "sha256:8e005de26bd01d176597b581a29f91699a2c89968ebdb31d9102f9a25d6cf12a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/catalog.templates-stable/catalog-template-index.json",
+          "created_at": "2026-10-05T15:25:11Z",
+          "updated_at": "2026-10-05T15:25:12Z"
+        }
+      ]
+    }
+  ]
+}
