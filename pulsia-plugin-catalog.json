@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-06T15:16:25.000Z",
+  "generatedAt": "2026-10-06T15:24:59.000Z",
   "releases": [
+    {
+      "id": 404880186,
+      "tag_name": "pulsia-plugin-mini-acp@1.0.101",
+      "name": "pulsia-plugin-mini-acp 1.0.101",
+      "body": "Docks the Mini ACP panel to the bottom of the left side panel and shows it only while its primary menu is active (fixes squashed 분리/접기 buttons at the window top-left).",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-mini-acp%401.0.101",
+      "published_at": "2026-10-06T15:24:59Z",
+      "created_at": "2026-10-06T15:16:30Z",
+      "updated_at": "2026-10-06T15:24:59Z",
+      "assets": [
+        {
+          "id": 615891201,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 12480,
+          "digest": "sha256:2d04464240dfc7fd5e8f72240853c6b78395ba6c4c33118da6e8a88f1b28a271",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.101/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-10-06T15:24:58Z",
+          "updated_at": "2026-10-06T15:24:58Z"
+        },
+        {
+          "id": 615891182,
+          "name": "pulsia-plugin-mini-acp.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:d579468a8761e0bc80a3921b0e8c643b788ae3dfbe079f278123e9364cc3ecd4",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.101/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-10-06T15:24:58Z",
+          "updated_at": "2026-10-06T15:24:58Z"
+        }
+      ]
+    },
     {
       "id": 404756251,
       "tag_name": "pulsia.object-model-studio@0.10.12",
@@ -170,6 +204,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.2/pulsia-plugin-wingate-seller.zip.sha256",
           "created_at": "2026-10-06T14:37:24Z",
           "updated_at": "2026-10-06T14:37:24Z"
+        }
+      ]
+    },
+    {
+      "id": 404880047,
+      "tag_name": "pulsia-plugin-wingate-seller@0.1.101",
+      "name": "pulsia-plugin-wingate-seller 0.1.101",
+      "body": "Renders into an inner surface so host re-renders no longer strip plugin classes; login card stays centered.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-seller%400.1.101",
+      "published_at": "2026-10-06T15:24:50Z",
+      "created_at": "2026-10-06T15:16:30Z",
+      "updated_at": "2026-10-06T15:24:50Z",
+      "assets": [
+        {
+          "id": 615890755,
+          "name": "pulsia-plugin-wingate-seller.zip",
+          "state": "uploaded",
+          "size": 114080,
+          "digest": "sha256:6d8ba9d68f2c9373d5bb8c1d1d2ed2d9b1d0365c0c0018f689917e862d0acc92",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.101/pulsia-plugin-wingate-seller.zip",
+          "created_at": "2026-10-06T15:24:49Z",
+          "updated_at": "2026-10-06T15:24:49Z"
+        },
+        {
+          "id": 615890754,
+          "name": "pulsia-plugin-wingate-seller.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:e912b6356a18959baad2b3002c190635d28c3b06c28a34fc378813778b5d6962",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.101/pulsia-plugin-wingate-seller.zip.sha256",
+          "created_at": "2026-10-06T15:24:49Z",
+          "updated_at": "2026-10-06T15:24:49Z"
         }
       ]
     },
@@ -344,6 +412,40 @@
       ]
     },
     {
+      "id": 404880097,
+      "tag_name": "pulsia-plugin-wingate-manager@0.1.101",
+      "name": "pulsia-plugin-wingate-manager 0.1.101",
+      "body": "Renders into an inner surface so host re-renders no longer strip plugin classes; login card stays centered.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-manager%400.1.101",
+      "published_at": "2026-10-06T15:24:53Z",
+      "created_at": "2026-10-06T15:16:30Z",
+      "updated_at": "2026-10-06T15:24:53Z",
+      "assets": [
+        {
+          "id": 615890928,
+          "name": "pulsia-plugin-wingate-manager.zip",
+          "state": "uploaded",
+          "size": 115202,
+          "digest": "sha256:6031f757bdb7e5f1ccfab4ca5b203a9e06247bc7610d837d24ec911e2db5cc35",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.101/pulsia-plugin-wingate-manager.zip",
+          "created_at": "2026-10-06T15:24:52Z",
+          "updated_at": "2026-10-06T15:24:52Z"
+        },
+        {
+          "id": 615890926,
+          "name": "pulsia-plugin-wingate-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 100,
+          "digest": "sha256:a1b65bda676c05c68bb730e79abc3fd33eec7b3ae78bae93016eb32886b4f760",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.101/pulsia-plugin-wingate-manager.zip.sha256",
+          "created_at": "2026-10-06T15:24:52Z",
+          "updated_at": "2026-10-06T15:24:52Z"
+        }
+      ]
+    },
+    {
       "id": 404788933,
       "tag_name": "pulsia-plugin-wingate-manager@0.1.1",
       "name": "pulsia-plugin-wingate-manager 0.1.1",
@@ -510,6 +612,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.2/pulsia-plugin-wingate-client.zip.sha256",
           "created_at": "2026-10-06T14:37:31Z",
           "updated_at": "2026-10-06T14:37:31Z"
+        }
+      ]
+    },
+    {
+      "id": 404880142,
+      "tag_name": "pulsia-plugin-wingate-client@0.1.101",
+      "name": "pulsia-plugin-wingate-client 0.1.101",
+      "body": "Renders into an inner surface so host re-renders no longer strip plugin classes; login card stays centered.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.101",
+      "published_at": "2026-10-06T15:24:56Z",
+      "created_at": "2026-10-06T15:16:30Z",
+      "updated_at": "2026-10-06T15:24:56Z",
+      "assets": [
+        {
+          "id": 615891040,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 119634,
+          "digest": "sha256:ccac4ccf8e249fcac44bb5b017c7b361a5bc064aa3095fdc79911860588b9e52",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.101/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-10-06T15:24:55Z",
+          "updated_at": "2026-10-06T15:24:55Z"
+        },
+        {
+          "id": 615891046,
+          "name": "pulsia-plugin-wingate-client.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:b8070493a61f6a8de891dd31eed10a47224c88b0f87fd5e46dda994b7714d252",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.101/pulsia-plugin-wingate-client.zip.sha256",
+          "created_at": "2026-10-06T15:24:55Z",
+          "updated_at": "2026-10-06T15:24:55Z"
         }
       ]
     },
