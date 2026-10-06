@@ -4,40 +4,6 @@
   "generatedAt": "2026-10-06T15:24:59.000Z",
   "releases": [
     {
-      "id": 404880186,
-      "tag_name": "pulsia-plugin-mini-acp@1.0.101",
-      "name": "pulsia-plugin-mini-acp 1.0.101",
-      "body": "Docks the Mini ACP panel to the bottom of the left side panel and shows it only while its primary menu is active (fixes squashed 분리/접기 buttons at the window top-left).",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-mini-acp%401.0.101",
-      "published_at": "2026-10-06T15:24:59Z",
-      "created_at": "2026-10-06T15:16:30Z",
-      "updated_at": "2026-10-06T15:24:59Z",
-      "assets": [
-        {
-          "id": 615891201,
-          "name": "pulsia-plugin-mini-acp.zip",
-          "state": "uploaded",
-          "size": 12480,
-          "digest": "sha256:2d04464240dfc7fd5e8f72240853c6b78395ba6c4c33118da6e8a88f1b28a271",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.101/pulsia-plugin-mini-acp.zip",
-          "created_at": "2026-10-06T15:24:58Z",
-          "updated_at": "2026-10-06T15:24:58Z"
-        },
-        {
-          "id": 615891182,
-          "name": "pulsia-plugin-mini-acp.zip.sha256",
-          "state": "uploaded",
-          "size": 93,
-          "digest": "sha256:d579468a8761e0bc80a3921b0e8c643b788ae3dfbe079f278123e9364cc3ecd4",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.101/pulsia-plugin-mini-acp.zip.sha256",
-          "created_at": "2026-10-06T15:24:58Z",
-          "updated_at": "2026-10-06T15:24:58Z"
-        }
-      ]
-    },
-    {
       "id": 404756251,
       "tag_name": "pulsia.object-model-studio@0.10.12",
       "name": "Object Model Studio 0.10.12",
@@ -714,6 +680,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.0/pulsia-plugin-wingate-client.zip.sha256",
           "created_at": "2026-10-06T13:54:06Z",
           "updated_at": "2026-10-06T13:54:07Z"
+        }
+      ]
+    },
+    {
+      "id": 404880186,
+      "tag_name": "pulsia-plugin-mini-acp@1.0.101",
+      "name": "pulsia-plugin-mini-acp 1.0.101",
+      "body": "Docks the Mini ACP panel to the bottom of the left side panel and shows it only while its primary menu is active (fixes squashed 분리/접기 buttons at the window top-left).",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-mini-acp%401.0.101",
+      "published_at": "2026-10-06T15:24:59Z",
+      "created_at": "2026-10-06T15:16:30Z",
+      "updated_at": "2026-10-06T15:24:59Z",
+      "assets": [
+        {
+          "id": 615891201,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 12480,
+          "digest": "sha256:2d04464240dfc7fd5e8f72240853c6b78395ba6c4c33118da6e8a88f1b28a271",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.101/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-10-06T15:24:58Z",
+          "updated_at": "2026-10-06T15:24:58Z"
+        },
+        {
+          "id": 615891182,
+          "name": "pulsia-plugin-mini-acp.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:d579468a8761e0bc80a3921b0e8c643b788ae3dfbe079f278123e9364cc3ecd4",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.101/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-10-06T15:24:58Z",
+          "updated_at": "2026-10-06T15:24:58Z"
         }
       ]
     },
