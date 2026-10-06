@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-06T14:37:25.000Z",
+  "generatedAt": "2026-10-06T14:37:32.000Z",
   "releases": [
     {
       "id": 404756251,
@@ -174,6 +174,40 @@
       ]
     },
     {
+      "id": 404832216,
+      "tag_name": "pulsia-plugin-wingate-manager@0.1.2",
+      "name": "pulsia-plugin-wingate-manager 0.1.2",
+      "body": "Fixes agent.skill@1 contribution validation by using Schema-compatible plugin-local skill IDs. Packaging, Pulsia Capability Registry validation, and plugin build checks passed.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-manager%400.1.2",
+      "published_at": "2026-10-06T14:37:29Z",
+      "created_at": "2026-10-06T13:57:19Z",
+      "updated_at": "2026-10-06T14:37:29Z",
+      "assets": [
+        {
+          "id": 615773049,
+          "name": "pulsia-plugin-wingate-manager.zip",
+          "state": "uploaded",
+          "size": 113073,
+          "digest": "sha256:395cb9a46f77a99b8fbc8d7040d63d0da8acd3d2239417df564b190226e65b3a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.2/pulsia-plugin-wingate-manager.zip",
+          "created_at": "2026-10-06T14:37:27Z",
+          "updated_at": "2026-10-06T14:37:28Z"
+        },
+        {
+          "id": 615773047,
+          "name": "pulsia-plugin-wingate-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 100,
+          "digest": "sha256:714e6fc56d43bc7af66c5048ae0c2ef190f2dc935e450d4ab28e37f002cbea9f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.2/pulsia-plugin-wingate-manager.zip.sha256",
+          "created_at": "2026-10-06T14:37:27Z",
+          "updated_at": "2026-10-06T14:37:28Z"
+        }
+      ]
+    },
+    {
       "id": 404788933,
       "tag_name": "pulsia-plugin-wingate-manager@0.1.1",
       "name": "pulsia-plugin-wingate-manager 0.1.1",
@@ -238,6 +272,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.0/pulsia-plugin-wingate-manager.zip.sha256",
           "created_at": "2026-10-06T13:54:03Z",
           "updated_at": "2026-10-06T13:54:03Z"
+        }
+      ]
+    },
+    {
+      "id": 404832283,
+      "tag_name": "pulsia-plugin-wingate-client@0.1.2",
+      "name": "pulsia-plugin-wingate-client 0.1.2",
+      "body": "Fixes agent.skill@1 contribution validation by using Schema-compatible plugin-local skill IDs. Packaging, Pulsia Capability Registry validation, and plugin build checks passed.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.2",
+      "published_at": "2026-10-06T14:37:32Z",
+      "created_at": "2026-10-06T14:37:30Z",
+      "updated_at": "2026-10-06T14:37:32Z",
+      "assets": [
+        {
+          "id": 615773213,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 117494,
+          "digest": "sha256:e30fa98ab0de6eb2f34efca1f09310eddd2cfd6884c44a127fda71723c10f186",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.2/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-10-06T14:37:31Z",
+          "updated_at": "2026-10-06T14:37:31Z"
+        },
+        {
+          "id": 615773212,
+          "name": "pulsia-plugin-wingate-client.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:464870a8b300c4e7ea10eed18a9254817a514bda2014b7c579cde4f01f73a892",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.2/pulsia-plugin-wingate-client.zip.sha256",
+          "created_at": "2026-10-06T14:37:31Z",
+          "updated_at": "2026-10-06T14:37:31Z"
         }
       ]
     },
