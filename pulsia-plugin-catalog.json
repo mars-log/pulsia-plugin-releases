@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-07T12:20:17.000Z",
+  "generatedAt": "2026-10-07T12:42:09.000Z",
   "releases": [
     {
       "id": 405731915,
@@ -170,6 +170,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.2/pulsia-plugin-acp-workbench.zip.sha256",
           "created_at": "2026-10-07T08:32:30Z",
           "updated_at": "2026-10-07T08:32:30Z"
+        }
+      ]
+    },
+    {
+      "id": 405751977,
+      "tag_name": "pulsia-plugin-acp-workbench@1.1.103",
+      "name": "ACP Workbench 1.1.103",
+      "body": "## 수정\n\n- 오른쪽 Agent 화면이 Pulsia 패널의 남은 높이를 전부 사용하도록 최상위 크기 계산을 수정함.\n- 대화 목록을 열고 닫아도 대화 본문 높이가 유지됨.\n- Pulsia 0.3.125와 함께 일반 Plugin 오류를 본문에 넣지 않고 동일 오류를 한 번만 알리도록 적용함.\n\n소스: mars-log/pulsia-plugin-studio@452c33f\nSHA-256: 9e07b3b08dc9968c03e9747460cb815292e41aca41a6154ff313abe9879c10ed",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.103",
+      "published_at": "2026-10-07T12:42:09Z",
+      "created_at": "2026-10-07T12:20:22Z",
+      "updated_at": "2026-10-07T12:42:09Z",
+      "assets": [
+        {
+          "id": 618662423,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 687493,
+          "digest": "sha256:9e07b3b08dc9968c03e9747460cb815292e41aca41a6154ff313abe9879c10ed",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.103/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-10-07T12:42:08Z",
+          "updated_at": "2026-10-07T12:42:08Z"
+        },
+        {
+          "id": 618662424,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:9b136646bd8fd1caa14b0faecc6f4766cb91432a8e4ae1092d68482a337f17c1",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.103/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-10-07T12:42:08Z",
+          "updated_at": "2026-10-07T12:42:08Z"
         }
       ]
     },
