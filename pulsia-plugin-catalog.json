@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-07T08:32:43.000Z",
+  "generatedAt": "2026-10-07T08:44:24.000Z",
   "releases": [
+    {
+      "id": 405557852,
+      "tag_name": "pulsia-plugin-acp-workbench@1.1.3",
+      "name": "ACP Workbench 1.1.3",
+      "body": "## 수정\n\n- Agent 패널 자식 화면보다 먼저 ACP Workbench 연결을 설정해 시작 시 `ACP_WORKBENCH_UI_UNAVAILABLE`이 발생하는 순서를 수정함.\n- 설치 Agent 조회를 공개 `acp.registry@1`의 `installed` 동작으로 전달해 `APP_CONTROL_ACTION_INVALID` 반복 오류를 수정함.\n- Agent 상태 조회는 기존 `acp.userWorkspace@1` 경로를 유지함.\n\n## 검증\n\n- ACP Workbench 집중 시험 3/3 통과함.\n- Plugin Studio manifest 검사 34개 통과함.\n- 공개 ZIP 추출 뒤 의존성 설치와 Vue 화면 컴파일 통과함: 출력 27개 파일, 7,800,975바이트임.\n- 격리된 Electron 실행에서 Agent 아이콘, 오른쪽 패널, 설치 Agent 목록을 확인했고 Plugin 프론트엔드 오류 0건임.\n\n## 알려진 검증 조건\n\n- 별도의 새 격리 프로필 설치 시험 1회에서 Windows가 관리형 `node_modules` 폴더 이름 변경을 `EPERM`으로 거부함. 이전 격리 프로필의 1.1.3 설치와 실제 Electron 실행은 성공했으며, Windows 새 설치·업데이트 경로는 후속 재검증이 필요함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.3",
+      "published_at": "2026-10-07T08:44:24Z",
+      "created_at": "2026-10-07T08:32:45Z",
+      "updated_at": "2026-10-07T08:44:24Z",
+      "assets": [
+        {
+          "id": 618110203,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 284962,
+          "digest": "sha256:2d864afea4a4aa4f113504aba7d87a772edbf039f1ea50018f2196f9cf1c6ff9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.3/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-10-07T08:44:23Z",
+          "updated_at": "2026-10-07T08:44:24Z"
+        },
+        {
+          "id": 618110207,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:dd88e0890eb063521ccbd8c6f7a14c4398f35f50921bc1e9b7e5c8d31700d29b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.3/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-10-07T08:44:23Z",
+          "updated_at": "2026-10-07T08:44:23Z"
+        }
+      ]
+    },
     {
       "id": 405547666,
       "tag_name": "pulsia-plugin-acp-workbench@1.1.2",
