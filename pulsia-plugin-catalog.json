@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-07T13:27:54.000Z",
+  "generatedAt": "2026-10-07T14:11:01.000Z",
   "releases": [
     {
       "id": 405762935,
@@ -266,6 +266,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.2/pulsia-plugin-acp-workbench.zip.sha256",
           "created_at": "2026-10-07T08:32:30Z",
           "updated_at": "2026-10-07T08:32:30Z"
+        }
+      ]
+    },
+    {
+      "id": 405835449,
+      "tag_name": "pulsia-plugin-acp-workbench@1.1.104",
+      "name": "ACP Workbench 1.1.104",
+      "body": "긴 대화에서 일반 문자 입력이 전체 Agent 패널을 매번 다시 갱신하지 않도록 작성창 상태를 분리했습니다. 이미지, 파일, 경로 없는 스크린샷 첨부와 대화별 초안 복원 흐름은 유지합니다. Pulsia 0.3.128부터 오른쪽 패널의 바깥 경계선과 너비 조절 영역은 Pulsia 공통 패널이 한 번만 표시합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.104",
+      "published_at": "2026-10-07T14:11:01Z",
+      "created_at": "2026-10-07T13:28:02Z",
+      "updated_at": "2026-10-07T14:11:01Z",
+      "assets": [
+        {
+          "id": 618890004,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 272298,
+          "digest": "sha256:f0dfb9671c891a46b9f6e0a8bca247e2e377e4368903dad7cb8db1d2106288dd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.104/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-10-07T14:10:59Z",
+          "updated_at": "2026-10-07T14:11:00Z"
+        },
+        {
+          "id": 618890006,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:14a5eceab5932d1f566de8a5cc66ce57fa4bcfb0cac58fc8076a463eabd2dddf",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.104/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-10-07T14:10:59Z",
+          "updated_at": "2026-10-07T14:10:59Z"
         }
       ]
     },
