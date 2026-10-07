@@ -1,19 +1,53 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-07T08:27:39.000Z",
+  "generatedAt": "2026-10-07T08:32:43.000Z",
   "releases": [
+    {
+      "id": 405547666,
+      "tag_name": "pulsia-plugin-acp-workbench@1.1.2",
+      "name": "ACP Workbench 1.1.2",
+      "body": "ACP Workbench 1.1.2 fixes the public Plugin archive rejected by Pulsia's 2,000-entry ZIP limit. The release contains source and lock data only; local node_modules and generated .pulsia output are excluded. Requires Pulsia 0.3.123 or later. SHA-256: ab4ab7c4a0e5a9e9008d88fcf82f8e1da19601323c725bd2ac9ae2237ce2fbe6",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.2",
+      "published_at": "2026-10-07T08:32:32Z",
+      "created_at": "2026-10-07T08:27:49Z",
+      "updated_at": "2026-10-07T08:32:32Z",
+      "assets": [
+        {
+          "id": 618083699,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 284198,
+          "digest": "sha256:ab4ab7c4a0e5a9e9008d88fcf82f8e1da19601323c725bd2ac9ae2237ce2fbe6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.2/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-10-07T08:32:30Z",
+          "updated_at": "2026-10-07T08:32:31Z"
+        },
+        {
+          "id": 618083676,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:4aa17078dd4eaad217f102a7ba3cc03572d70ecc4f3660e1972294c457f52875",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.2/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-10-07T08:32:30Z",
+          "updated_at": "2026-10-07T08:32:30Z"
+        }
+      ]
+    },
     {
       "id": 405537606,
       "tag_name": "pulsia-plugin-acp-workbench@1.1.1",
       "name": "ACP Workbench 1.1.1",
-      "body": "ACP Workbench를 Pulsia 설치본과 분리된 설치형 Plugin으로 배포합니다. 설치 과정에서 Vue 화면과 관리형 의존성을 컴파일하며, Plugin이 설치·활성화된 경우에만 Agent 패널·하단 아이콘·AI Agent 설정을 제공합니다.",
+      "body": "주의: 이 릴리즈 ZIP에는 로컬 node_modules가 포함되어 Pulsia의 Plugin ZIP 파일 수 제한을 초과합니다. 설치하지 말고 ACP Workbench 1.1.2로 업데이트하십시오. 대체 릴리즈: https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.2",
       "draft": false,
       "prerelease": false,
       "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.1",
       "published_at": "2026-10-07T08:20:46Z",
       "created_at": "2026-10-07T07:46:04Z",
-      "updated_at": "2026-10-07T08:20:46Z",
+      "updated_at": "2026-10-07T08:32:43Z",
       "assets": [
         {
           "id": 618056282,
