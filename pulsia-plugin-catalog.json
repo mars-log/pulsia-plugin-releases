@@ -1,8 +1,110 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-07T08:46:11.000Z",
+  "generatedAt": "2026-10-07T12:20:17.000Z",
   "releases": [
+    {
+      "id": 405731915,
+      "tag_name": "pulsia-plugin-wingate-seller@0.1.102",
+      "name": "Wingate Seller 0.1.102",
+      "body": "오늘 낮 수정본: Pulsia 패널·로그인 화면 정렬, Plugin별 Backend 로그인 세션 복원, Client 패널 배치를 반영함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-seller%400.1.102",
+      "published_at": "2026-10-07T12:20:10Z",
+      "created_at": "2026-10-07T08:46:22Z",
+      "updated_at": "2026-10-07T12:20:10Z",
+      "assets": [
+        {
+          "id": 618612399,
+          "name": "pulsia-plugin-wingate-seller.zip",
+          "state": "uploaded",
+          "size": 115617,
+          "digest": "sha256:c1c8fc1c80285036299c91b88d19926e8cd7b8c92dc52fc1af72ccf6b2481b09",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.102/pulsia-plugin-wingate-seller.zip",
+          "created_at": "2026-10-07T12:20:09Z",
+          "updated_at": "2026-10-07T12:20:09Z"
+        },
+        {
+          "id": 618612403,
+          "name": "pulsia-plugin-wingate-seller.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:e65c281bff81ae69a8650dde0235212f49b7b2741295665abdc6da02c06d1344",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.102/pulsia-plugin-wingate-seller.zip.sha256",
+          "created_at": "2026-10-07T12:20:09Z",
+          "updated_at": "2026-10-07T12:20:09Z"
+        }
+      ]
+    },
+    {
+      "id": 405731976,
+      "tag_name": "pulsia-plugin-wingate-manager@0.1.102",
+      "name": "Wingate Manager 0.1.102",
+      "body": "오늘 낮 수정본: Pulsia 패널·로그인 화면 정렬, Plugin별 Backend 로그인 세션 복원, Client 패널 배치를 반영함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-manager%400.1.102",
+      "published_at": "2026-10-07T12:20:14Z",
+      "created_at": "2026-10-07T08:46:22Z",
+      "updated_at": "2026-10-07T12:20:14Z",
+      "assets": [
+        {
+          "id": 618612532,
+          "name": "pulsia-plugin-wingate-manager.zip",
+          "state": "uploaded",
+          "size": 116739,
+          "digest": "sha256:19aada0cfa37e5c08bc074a3aa4429d5a01877f2823fc7b692e48e395343e6e3",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.102/pulsia-plugin-wingate-manager.zip",
+          "created_at": "2026-10-07T12:20:12Z",
+          "updated_at": "2026-10-07T12:20:13Z"
+        },
+        {
+          "id": 618612541,
+          "name": "pulsia-plugin-wingate-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 100,
+          "digest": "sha256:f71f719538c4ea5b8f35e9477bc6af7e02785a7c528241545df863c0a6dc7d6f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.102/pulsia-plugin-wingate-manager.zip.sha256",
+          "created_at": "2026-10-07T12:20:13Z",
+          "updated_at": "2026-10-07T12:20:13Z"
+        }
+      ]
+    },
+    {
+      "id": 405732044,
+      "tag_name": "pulsia-plugin-wingate-client@0.1.102",
+      "name": "Wingate Client 0.1.102",
+      "body": "오늘 낮 수정본: Pulsia 패널·로그인 화면 정렬, Plugin별 Backend 로그인 세션 복원, Client 패널 배치를 반영함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.102",
+      "published_at": "2026-10-07T12:20:17Z",
+      "created_at": "2026-10-07T08:46:22Z",
+      "updated_at": "2026-10-07T12:20:17Z",
+      "assets": [
+        {
+          "id": 618612691,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 121629,
+          "digest": "sha256:1e42442b326c8a782bd067a872ff4536480ad81535c5db4030a080934b4b337b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.102/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-10-07T12:20:16Z",
+          "updated_at": "2026-10-07T12:20:16Z"
+        },
+        {
+          "id": 618612693,
+          "name": "pulsia-plugin-wingate-client.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:8be8573a01d20e09ba6a2c9034c549e188766f5c548b74d593a4c6aa653688e1",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.102/pulsia-plugin-wingate-client.zip.sha256",
+          "created_at": "2026-10-07T12:20:16Z",
+          "updated_at": "2026-10-07T12:20:16Z"
+        }
+      ]
+    },
     {
       "id": 405557852,
       "tag_name": "pulsia-plugin-acp-workbench@1.1.3",
