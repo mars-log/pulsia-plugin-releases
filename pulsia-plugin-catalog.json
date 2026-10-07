@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-07T08:20:46.000Z",
+  "generatedAt": "2026-10-07T08:27:39.000Z",
   "releases": [
     {
       "id": 405537606,
@@ -823,13 +823,13 @@
       "id": 405508263,
       "tag_name": "pulsia-plugin-acp-workbench@1.1.0",
       "name": "ACP Workbench 1.1.0",
-      "body": "ACP Agent 오른쪽 작업 화면, AI Agent 설정과 상태 표시를 Plugin 소스로 분리했습니다. Pulsia 0.3.123 이상에서 기본 번들 Plugin으로 사용하며, 호환 Provider Plugin으로 교체할 수 있습니다.",
+      "body": "주의: Pulsia 0.3.123의 자동 번들과 함께 사용하면 화면 로드에 실패합니다. Pulsia 0.3.124와 ACP Workbench 1.1.1을 사용하세요.\n\nACP Agent 오른쪽 작업 화면, AI Agent 설정과 상태 표시를 Plugin 소스로 분리했습니다. Pulsia 0.3.123 이상에서 기본 번들 Plugin으로 사용하며, 호환 Provider Plugin으로 교체할 수 있습니다.",
       "draft": false,
       "prerelease": false,
       "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.0",
       "published_at": "2026-10-07T07:45:56Z",
       "created_at": "2026-10-06T15:25:17Z",
-      "updated_at": "2026-10-07T07:45:56Z",
+      "updated_at": "2026-10-07T08:27:39Z",
       "assets": [
         {
           "id": 617979229,
