@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-07T12:54:40.000Z",
+  "generatedAt": "2026-10-07T13:27:54.000Z",
   "releases": [
     {
       "id": 405762935,
@@ -116,6 +116,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.102/pulsia-plugin-wingate-manager.zip.sha256",
           "created_at": "2026-10-07T12:20:13Z",
           "updated_at": "2026-10-07T12:20:13Z"
+        }
+      ]
+    },
+    {
+      "id": 405793398,
+      "tag_name": "pulsia-plugin-wingate-client@0.1.104",
+      "name": "Wingate Client 0.1.104",
+      "body": "왼쪽 패널 배치 시 Lucide shield-cog 아이콘을 Activity Bar가 아닌 하단 상태 표시줄 왼쪽에 표시하고, 아이콘으로 Client 패널을 여닫도록 변경함. Pulsia 0.3.127 이상이 필요함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.104",
+      "published_at": "2026-10-07T13:27:54Z",
+      "created_at": "2026-10-07T12:54:50Z",
+      "updated_at": "2026-10-07T13:27:54Z",
+      "assets": [
+        {
+          "id": 618777187,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 121739,
+          "digest": "sha256:f709e14db895ed4a0dfac34440acdee694c891e108761c811b1786ad2130eee8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.104/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-10-07T13:27:53Z",
+          "updated_at": "2026-10-07T13:27:53Z"
         }
       ]
     },
