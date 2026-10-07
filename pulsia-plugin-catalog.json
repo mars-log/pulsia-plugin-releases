@@ -1,8 +1,32 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-07T14:11:01.000Z",
+  "generatedAt": "2026-10-07T14:14:06.000Z",
   "releases": [
+    {
+      "id": 405838482,
+      "tag_name": "pulsia.net-manager@0.1.125",
+      "name": "Net Manager 0.1.125",
+      "body": "# Net Manager 0.1.125\n\n- 다른 Pulsia Plugin 제작 Agent가 읽는 전체 공개 매뉴얼과 기능 원장을 설치 묶음에 추가함.\n- 네트워크 맵 관리, LAN 장비 탐색, 장비·연결 상태 확인, ACP AI 분석용 기능별 스킬 5개를 추가함.\n- 네트워크 맵 조회·충돌 방지 저장, 네트워크 탐색·진단, ACP 분석 시작·상태 조회·취소용 공개 MCP action 11개를 추가함.\n- 네트워크 맵 저장 전에 현재 hash를 확인하여 다른 화면이나 Agent가 먼저 저장한 변경을 덮어쓰지 않게 함.\n- ACP Agent 호출을 현재 Pulsia Host의 직접 `acpAgent` 요청 형식으로 갱신함.\n- 기능 원장·매뉴얼·스킬·공개 action의 연결과 저장 충돌·ACP 요청 형식을 자동 시험함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.net-manager%400.1.125",
+      "published_at": "2026-10-07T14:14:06Z",
+      "created_at": "2026-10-07T14:11:11Z",
+      "updated_at": "2026-10-07T14:14:06Z",
+      "assets": [
+        {
+          "id": 618898538,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 194267,
+          "digest": "sha256:7d352ae338442d055c452eb851bc4bcd6698daf11b27a0c98064b32d39c4af4a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.125/wintera-net-manager.zip",
+          "created_at": "2026-10-07T14:14:05Z",
+          "updated_at": "2026-10-07T14:14:05Z"
+        }
+      ]
+    },
     {
       "id": 405762935,
       "tag_name": "pulsia-plugin-wingate-seller@0.1.103",
