@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-07T14:14:06.000Z",
+  "generatedAt": "2026-10-07T15:04:02.000Z",
   "releases": [
     {
       "id": 405838482,
@@ -290,6 +290,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.2/pulsia-plugin-acp-workbench.zip.sha256",
           "created_at": "2026-10-07T08:32:30Z",
           "updated_at": "2026-10-07T08:32:30Z"
+        }
+      ]
+    },
+    {
+      "id": 405889455,
+      "tag_name": "pulsia-plugin-acp-workbench@1.1.105",
+      "name": "ACP Workbench 1.1.105",
+      "body": "- 입력 영역 높이 조절 중 CSS custom property만 갱신합니다.\n- 마지막 움직임 뒤 200ms에 높이 상태를 한 번 반영합니다.\n- 200ms 안에 다시 조절하면 앞선 예약 반영을 취소하고 보이는 높이에서 이어갑니다.\n- ZIP SHA-256: c05d2b8e2232cbf2ddf8ad591a63c11b167b67e5311eacd4b28a98fb0ba15448",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.105",
+      "published_at": "2026-10-07T15:04:02Z",
+      "created_at": "2026-10-07T14:14:15Z",
+      "updated_at": "2026-10-07T15:04:02Z",
+      "assets": [
+        {
+          "id": 619027316,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 272901,
+          "digest": "sha256:c05d2b8e2232cbf2ddf8ad591a63c11b167b67e5311eacd4b28a98fb0ba15448",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.105/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-10-07T15:04:01Z",
+          "updated_at": "2026-10-07T15:04:01Z"
+        },
+        {
+          "id": 619027322,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:e83665b615d02321b2a11d35ff466dd21289b8a093edef0eb34b931eb17452da",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.105/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-10-07T15:04:01Z",
+          "updated_at": "2026-10-07T15:04:01Z"
         }
       ]
     },
