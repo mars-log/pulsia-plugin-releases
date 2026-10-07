@@ -1,8 +1,32 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-07T12:42:09.000Z",
+  "generatedAt": "2026-10-07T12:54:40.000Z",
   "releases": [
+    {
+      "id": 405762935,
+      "tag_name": "pulsia-plugin-wingate-seller@0.1.103",
+      "name": "Wingate Seller 0.1.103",
+      "body": "Pulsia 공용 버튼 높이·패딩·강조색 규격을 적용하고 Seller 대메뉴 아이콘을 Lucide user-shield로 변경함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-seller%400.1.103",
+      "published_at": "2026-10-07T12:54:40Z",
+      "created_at": "2026-10-07T12:42:20Z",
+      "updated_at": "2026-10-07T12:54:40Z",
+      "assets": [
+        {
+          "id": 618693220,
+          "name": "pulsia-plugin-wingate-seller.zip",
+          "state": "uploaded",
+          "size": 115670,
+          "digest": "sha256:8240be960fba3dc57b8e4be6b073ab974469c353d98dbf462b90de9046a72bc1",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.103/pulsia-plugin-wingate-seller.zip",
+          "created_at": "2026-10-07T12:54:39Z",
+          "updated_at": "2026-10-07T12:54:39Z"
+        }
+      ]
+    },
     {
       "id": 405731915,
       "tag_name": "pulsia-plugin-wingate-seller@0.1.102",
@@ -38,6 +62,30 @@
       ]
     },
     {
+      "id": 405762924,
+      "tag_name": "pulsia-plugin-wingate-manager@0.1.103",
+      "name": "Wingate Manager 0.1.103",
+      "body": "Pulsia 공용 버튼 높이·패딩·강조색 규격을 Manager 화면 전체에 적용함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-manager%400.1.103",
+      "published_at": "2026-10-07T12:54:40Z",
+      "created_at": "2026-10-07T12:42:20Z",
+      "updated_at": "2026-10-07T12:54:40Z",
+      "assets": [
+        {
+          "id": 618693196,
+          "name": "pulsia-plugin-wingate-manager.zip",
+          "state": "uploaded",
+          "size": 116787,
+          "digest": "sha256:bdf8e5569eee75fe7cc20264f255c48ee1885d36dae7406a4d291c2e09133344",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.103/pulsia-plugin-wingate-manager.zip",
+          "created_at": "2026-10-07T12:54:38Z",
+          "updated_at": "2026-10-07T12:54:39Z"
+        }
+      ]
+    },
+    {
       "id": 405731976,
       "tag_name": "pulsia-plugin-wingate-manager@0.1.102",
       "name": "Wingate Manager 0.1.102",
@@ -68,6 +116,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.102/pulsia-plugin-wingate-manager.zip.sha256",
           "created_at": "2026-10-07T12:20:13Z",
           "updated_at": "2026-10-07T12:20:13Z"
+        }
+      ]
+    },
+    {
+      "id": 405762937,
+      "tag_name": "pulsia-plugin-wingate-client@0.1.103",
+      "name": "Wingate Client 0.1.103",
+      "body": "Pulsia 공용 버튼 규격을 적용하고 왼쪽 배치 Activity Bar 아이콘을 Lucide shield-cog로 변경함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.103",
+      "published_at": "2026-10-07T12:54:40Z",
+      "created_at": "2026-10-07T12:42:20Z",
+      "updated_at": "2026-10-07T12:54:40Z",
+      "assets": [
+        {
+          "id": 618693225,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 121693,
+          "digest": "sha256:ecf88b54d50b1a6e43e821b085616aa4255881bdbc3034ded9949c66d5ff921f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.103/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-10-07T12:54:39Z",
+          "updated_at": "2026-10-07T12:54:39Z"
         }
       ]
     },
