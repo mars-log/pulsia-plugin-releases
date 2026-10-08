@@ -1,29 +1,29 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-08T02:58:09.000Z",
+  "generatedAt": "2026-10-08T02:59:42.000Z",
   "releases": [
     {
       "id": 406362907,
       "tag_name": "pulsia.home@1.0.101",
       "name": "pulsia.home 1.0.101",
-      "body": "## 변경 내용\n\n- 홈 플러그인이 `홈`과 `작업 진행` 하위 메뉴를 직접 제공함\n- `홈` 메뉴 아이콘을 `crown`으로 변경함\n- `작업 진행` 메뉴 아이콘을 `rotate-ccw-clock`으로 변경함\n- Pulsia Core 0.3.131부터 적용되는 메뉴 소유 위치와 맞춤\n\n## 검증\n\n- Plugin Studio 검사 통과\n- Pulsia 플러그인 API 검사 통과\n- Pulsia light/dark 플러그인 로딩 smoke 통과\n\nSHA-256: `d6bc5c90ce4e3b4b4a778cd07bb455a3602131164c95dc036c8403a83bf0949f`\n",
+      "body": "## 변경 내용\n\n- 홈 플러그인이 `홈`과 `작업 진행` 하위 메뉴를 직접 제공함\n- `홈` 메뉴 아이콘을 `crown`으로 변경함\n- `작업 진행` 메뉴 아이콘을 `rotate-ccw-clock`으로 변경함\n- Pulsia Core 0.3.131부터 적용되는 메뉴 소유 위치와 맞춤\n\n## 검증\n\n- Plugin Studio 검사 통과\n- Pulsia 플러그인 API 검사 통과\n- Pulsia light/dark 플러그인 로딩 smoke 통과\n\nSHA-256: `82eb7271e34e8f646f1d2f6a2c96de4b443dd43212b9261d6546763ac03a9f4e`\n",
       "draft": false,
       "prerelease": false,
       "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.home%401.0.101",
       "published_at": "2026-10-08T02:58:09Z",
       "created_at": "2026-10-08T02:21:52Z",
-      "updated_at": "2026-10-08T02:58:09Z",
+      "updated_at": "2026-10-08T02:59:42Z",
       "assets": [
         {
-          "id": 620542596,
+          "id": 620545494,
           "name": "pulsia-home.zip",
           "state": "uploaded",
-          "size": 10985,
-          "digest": "sha256:d6bc5c90ce4e3b4b4a778cd07bb455a3602131164c95dc036c8403a83bf0949f",
+          "size": 10407,
+          "digest": "sha256:82eb7271e34e8f646f1d2f6a2c96de4b443dd43212b9261d6546763ac03a9f4e",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.home%401.0.101/pulsia-home.zip",
-          "created_at": "2026-10-08T02:58:08Z",
-          "updated_at": "2026-10-08T02:58:08Z"
+          "created_at": "2026-10-08T02:59:41Z",
+          "updated_at": "2026-10-08T02:59:41Z"
         }
       ]
     },
