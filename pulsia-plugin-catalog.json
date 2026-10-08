@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-08T02:08:43.000Z",
+  "generatedAt": "2026-10-08T02:21:44.000Z",
   "releases": [
+    {
+      "id": 406341314,
+      "tag_name": "pulsia-plugin-acp-workbench@1.1.109",
+      "name": "ACP Workbench 1.1.109",
+      "body": "- Agent가 보낸 중간 설명을 도구 실행 사이의 원래 순서에 표시함.\n- 중간 설명이 없는 긴 도구 실행을 최대 5건씩 묶고 확인된 작업 종류와 개수를 문장으로 표시함.\n- 구조화된 diff의 순변경 파일 수와 추가·삭제 줄 수를 최종 응답 아래에 표시함.\n- 파일 삭제 diff를 변경 검토와 삭제 줄 수에 포함함.\n- Plugin Studio 소스: mars-log/pulsia-plugin-studio@c4d0183b9fcfb460ae712771597beb8f517aab7b\n- SHA-256: aecd5dcb233facecb1a9731481d491eea5116c9ae156b6d3a9d80715a028b9b5",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.109",
+      "published_at": "2026-10-08T02:21:44Z",
+      "created_at": "2026-10-08T02:08:58Z",
+      "updated_at": "2026-10-08T02:21:44Z",
+      "assets": [
+        {
+          "id": 620465290,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 276627,
+          "digest": "sha256:aecd5dcb233facecb1a9731481d491eea5116c9ae156b6d3a9d80715a028b9b5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.109/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-10-08T02:21:43Z",
+          "updated_at": "2026-10-08T02:21:43Z"
+        },
+        {
+          "id": 620465293,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:71a04711d96debfbe54155cf45b14f0503d17f7e518044b31d2e8d2663d78bd7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.109/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-10-08T02:21:43Z",
+          "updated_at": "2026-10-08T02:21:43Z"
+        }
+      ]
+    },
     {
       "id": 406334430,
       "tag_name": "pulsia-plugin-acp-workbench@1.1.108",
