@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-07T15:19:12.000Z",
+  "generatedAt": "2026-10-08T01:02:18.000Z",
   "releases": [
     {
       "id": 405838482,
@@ -290,6 +290,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.2/pulsia-plugin-acp-workbench.zip.sha256",
           "created_at": "2026-10-07T08:32:30Z",
           "updated_at": "2026-10-07T08:32:30Z"
+        }
+      ]
+    },
+    {
+      "id": 406296895,
+      "tag_name": "pulsia-plugin-acp-workbench@1.1.107",
+      "name": "ACP Workbench 1.1.107",
+      "body": "- Claude Agent 구조화 질문의 답변 전송 실패를 수정함.\n- Workbench 작업 이름 respondQuestion과 accept·decline·cancel 응답 값을 분리함.\n- payload가 Workbench 작업 이름을 덮어쓰지 못하게 함.\n- Plugin Studio 소스: mars-log/pulsia-plugin-studio@4138e7931a7d27b85937a8d7c89cf9fe2e54b037\n- SHA-256: 767820a7a171ae2d4a155be1041d57fd693a3681a040c7ca94f38ed2046b0527",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.107",
+      "published_at": "2026-10-08T01:02:18Z",
+      "created_at": "2026-10-07T15:19:27Z",
+      "updated_at": "2026-10-08T01:02:18Z",
+      "assets": [
+        {
+          "id": 620283419,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 274446,
+          "digest": "sha256:767820a7a171ae2d4a155be1041d57fd693a3681a040c7ca94f38ed2046b0527",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.107/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-10-08T01:02:17Z",
+          "updated_at": "2026-10-08T01:02:17Z"
+        },
+        {
+          "id": 620283420,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:486c01a8917ab21bbbcd92bb94b7be5309b2a7efa1598743a383d978c9cc5bab",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.107/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-10-08T01:02:17Z",
+          "updated_at": "2026-10-08T01:02:17Z"
         }
       ]
     },
