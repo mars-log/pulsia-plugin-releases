@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-08T06:21:59.000Z",
+  "generatedAt": "2026-10-08T06:46:06.000Z",
   "releases": [
+    {
+      "id": 406505283,
+      "tag_name": "pulsia.home@1.0.103",
+      "name": "pulsia.home 1.0.103",
+      "body": "Pulsia 홈에 Core가 제공하는 실제 플러그인 현황을 표시합니다.\n\n- 설치됨·기본 제공·선택 설치·프론트엔드·백엔드 수 표시\n- 업데이트 가능한 플러그인 목록 표시\n- 플러그인 현황과 업데이트 항목에서 플러그인 관리 화면 열기\n- 30초 간격 상태 갱신과 light·dark 대응\n\nZIP SHA-256: `911061780e842e960f9d670867e050f27fab9ec2d9e578cfd62ab3a97f842857`\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.home%401.0.103",
+      "published_at": "2026-10-08T06:46:06Z",
+      "created_at": "2026-10-08T06:22:09Z",
+      "updated_at": "2026-10-08T06:46:06Z",
+      "assets": [
+        {
+          "id": 620997577,
+          "name": "pulsia-home.zip",
+          "state": "uploaded",
+          "size": 5279,
+          "digest": "sha256:911061780e842e960f9d670867e050f27fab9ec2d9e578cfd62ab3a97f842857",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.home%401.0.103/pulsia-home.zip",
+          "created_at": "2026-10-08T06:46:05Z",
+          "updated_at": "2026-10-08T06:46:05Z"
+        },
+        {
+          "id": 620997578,
+          "name": "pulsia-home.zip.sha256",
+          "state": "uploaded",
+          "size": 82,
+          "digest": "sha256:ee9e6cd46110261ce7f15da614e743086d0586d3a089706c08e672bd2d379a9e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.home%401.0.103/pulsia-home.zip.sha256",
+          "created_at": "2026-10-08T06:46:05Z",
+          "updated_at": "2026-10-08T06:46:05Z"
+        }
+      ]
+    },
     {
       "id": 406485555,
       "tag_name": "pulsia.home@1.0.102",
