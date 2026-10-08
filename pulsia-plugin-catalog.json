@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-08T01:05:24.000Z",
+  "generatedAt": "2026-10-08T02:08:26.000Z",
   "releases": [
+    {
+      "id": 406334430,
+      "tag_name": "pulsia-plugin-acp-workbench@1.1.108",
+      "name": "ACP Workbench 1.1.108",
+      "body": "- ACP 대화 행 우클릭에서 이름 변경과 새로고침이 빈 메뉴로 제거되던 문제를 수정함.\n- 공용 Context Menu Popup에 실제 명령 ID를 전달함.\n- 항목이 없는 renderer fallback이 안내 한 행 높이를 확보하도록 수정함.\n- Plugin Studio 소스: mars-log/pulsia-plugin-studio@3f73d5b8d4c11fdb06ee4ad4b80b8fe032ec4d1a\n- SHA-256: e81a8141b631c896cada350356c7f6d57793f5ff2471cf032a6ca224595d0895",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.108",
+      "published_at": "2026-10-08T02:08:26Z",
+      "created_at": "2026-10-08T01:05:33Z",
+      "updated_at": "2026-10-08T02:08:26Z",
+      "assets": [
+        {
+          "id": 620431445,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 274563,
+          "digest": "sha256:e81a8141b631c896cada350356c7f6d57793f5ff2471cf032a6ca224595d0895",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.108/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-10-08T02:08:24Z",
+          "updated_at": "2026-10-08T02:08:25Z"
+        },
+        {
+          "id": 620431430,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:8873b9fd4217549a642bf04b73ed667a52925cc29b0df773c4ff42f3d26bc788",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.108/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-10-08T02:08:24Z",
+          "updated_at": "2026-10-08T02:08:24Z"
+        }
+      ]
+    },
     {
       "id": 405838482,
       "tag_name": "pulsia.net-manager@0.1.125",
