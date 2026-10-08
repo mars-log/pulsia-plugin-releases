@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-08T02:59:42.000Z",
+  "generatedAt": "2026-10-08T06:21:59.000Z",
   "releases": [
+    {
+      "id": 406485555,
+      "tag_name": "pulsia.home@1.0.102",
+      "name": "pulsia.home 1.0.102",
+      "body": "홈 화면 큰 제목 제거, 현재 프로젝트명 축소·상단 이동, 실제 작업 진행(activeTasks) 기반 맥박 그래프 추가.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.home%401.0.102",
+      "published_at": "2026-10-08T06:21:59Z",
+      "created_at": "2026-10-08T02:59:49Z",
+      "updated_at": "2026-10-08T06:21:59Z",
+      "assets": [
+        {
+          "id": 620942662,
+          "name": "pulsia-home.zip",
+          "state": "uploaded",
+          "size": 4316,
+          "digest": "sha256:af4b46000879f5820fe86925321907557bb286af0fd3b96e779adcceed368187",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.home%401.0.102/pulsia-home.zip",
+          "created_at": "2026-10-08T06:21:58Z",
+          "updated_at": "2026-10-08T06:21:58Z"
+        },
+        {
+          "id": 620942665,
+          "name": "pulsia-home.zip.sha256",
+          "state": "uploaded",
+          "size": 82,
+          "digest": "sha256:2f40ec0efea57a0b64f531eb7b88660b640d700585175eda1974e58514acd042",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.home%401.0.102/pulsia-home.zip.sha256",
+          "created_at": "2026-10-08T06:21:58Z",
+          "updated_at": "2026-10-08T06:21:58Z"
+        }
+      ]
+    },
     {
       "id": 406362907,
       "tag_name": "pulsia.home@1.0.101",
