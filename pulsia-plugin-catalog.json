@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-09T06:00:56.000Z",
+  "generatedAt": "2026-10-09T06:01:07.000Z",
   "releases": [
+    {
+      "id": 407572625,
+      "tag_name": "pulsia.test-pack@1.0.103",
+      "name": "Pulsia Test Pack 1.0.103",
+      "body": "- 미국 주요 지표 7개, 시장 요약, 종목 검색과 관심 종목 목록을 제공하는 시장 정보 화면을 추가함.\n- Yahoo 공개 chart 자료를 사용자가 요청할 때 조회하며 일부 실패와 전체 실패를 구분함.\n- 인터넷 연결이 없거나 자료가 비어 있으면 기본 이미지와 데이터 없음 상태를 표시함.\n- 내부 요청 문서, 참고 스크린샷과 시험 코드는 공개 ZIP에서 제외함.\n- Plugin Studio 소스: mars-log/pulsia-plugin-studio@dceb09fa4a91bcf0371f1e570f45553f6b7fe161\n- SHA-256: 37b4874e7c8f94808e899061faa3226f7f18a907e29de964ba9d19bd0bb77dcb",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.test-pack%401.0.103",
+      "published_at": "2026-10-09T06:01:07Z",
+      "created_at": "2026-10-09T06:00:58Z",
+      "updated_at": "2026-10-09T06:01:07Z",
+      "assets": [
+        {
+          "id": 624057020,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 35462,
+          "digest": "sha256:37b4874e7c8f94808e899061faa3226f7f18a907e29de964ba9d19bd0bb77dcb",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.103/pulsia-test-pack.zip",
+          "created_at": "2026-10-09T06:01:06Z",
+          "updated_at": "2026-10-09T06:01:06Z"
+        },
+        {
+          "id": 624057021,
+          "name": "pulsia-test-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 87,
+          "digest": "sha256:33efdb340101b897e5b687477a803c97662a1788ada4132fb13542f10c85d0e6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.103/pulsia-test-pack.zip.sha256",
+          "created_at": "2026-10-09T06:01:06Z",
+          "updated_at": "2026-10-09T06:01:06Z"
+        }
+      ]
+    },
     {
       "id": 407572509,
       "tag_name": "pulsia-plugin-tutorial-pulsia-starter@0.1.101",
