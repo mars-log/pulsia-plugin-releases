@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-08T06:46:06.000Z",
+  "generatedAt": "2026-10-09T06:00:29.000Z",
   "releases": [
     {
       "id": 406505283,
@@ -92,6 +92,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.home%401.0.101/pulsia-home.zip",
           "created_at": "2026-10-08T02:59:41Z",
           "updated_at": "2026-10-08T02:59:41Z"
+        }
+      ]
+    },
+    {
+      "id": 407572263,
+      "tag_name": "pulsia-plugin-acp-workbench@1.1.110",
+      "name": "ACP Workbench 1.1.110",
+      "body": "- 기존 ACP Agent 패널에서만 동작하는 첫 사용 튜토리얼용 메모리 Agent 껍데기를 추가함.\n- 연습 요청 세 번에 고정 응답하고, 튜토리얼 종료 또는 앱 재시작 때 설치 상태와 대화를 제거함.\n- 실제 Agent 목록과 대화 흐름을 보존하며 범용 모의 Agent 기능은 제공하지 않음.\n- Plugin Studio 소스: mars-log/pulsia-plugin-studio@dceb09f2ae2f27270fb28962e46d7a6229de3b12\n- SHA-256: 5ece8ffc2c9526d265ca2b341e8233e264c34892f5e8bf83db19df1f87c72b75",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.110",
+      "published_at": "2026-10-09T06:00:29Z",
+      "created_at": "2026-10-08T06:46:15Z",
+      "updated_at": "2026-10-09T06:00:29Z",
+      "assets": [
+        {
+          "id": 624055770,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 282011,
+          "digest": "sha256:5ece8ffc2c9526d265ca2b341e8233e264c34892f5e8bf83db19df1f87c72b75",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.110/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-10-09T06:00:28Z",
+          "updated_at": "2026-10-09T06:00:29Z"
+        },
+        {
+          "id": 624055768,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:cd1ee22640eb39b845765669951f4e6314066bd18fb8c0d97f9caec34e884ca0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.110/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-10-09T06:00:28Z",
+          "updated_at": "2026-10-09T06:00:28Z"
         }
       ]
     },
