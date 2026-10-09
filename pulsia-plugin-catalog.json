@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-09T06:00:43.000Z",
+  "generatedAt": "2026-10-09T06:00:56.000Z",
   "releases": [
+    {
+      "id": 407572509,
+      "tag_name": "pulsia-plugin-tutorial-pulsia-starter@0.1.101",
+      "name": "Pulsia 시작 튜토리얼 0.1.101",
+      "body": "- Pulsia 첫 사용자가 Agent 설치, 관리 프로젝트 생성, 파일 정리 요청과 Plugin 설치 승인을 실제 화면에서 연습하는 흐름을 추가함.\n- 전용 화면 대신 기존 Workbench 조작과 공용 화면 안내 기능을 사용함.\n- Core 0.3.135 이상과 ACP Workbench 1.1.110 이상이 필요함.\n- Plugin Studio 소스: mars-log/pulsia-plugin-studio@dceb09fa4a91bcf0371f1e570f45553f6b7fe161\n- SHA-256: 4f6b90b0828d843147416262ed17b02f25daa6b6577a1949d8c0bc11597da85e",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-tutorial-pulsia-starter%400.1.101",
+      "published_at": "2026-10-09T06:00:56Z",
+      "created_at": "2026-10-09T06:00:47Z",
+      "updated_at": "2026-10-09T06:00:56Z",
+      "assets": [
+        {
+          "id": 624056703,
+          "name": "pulsia-plugin-tutorial-pulsia-starter.zip",
+          "state": "uploaded",
+          "size": 19349,
+          "digest": "sha256:4f6b90b0828d843147416262ed17b02f25daa6b6577a1949d8c0bc11597da85e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.101/pulsia-plugin-tutorial-pulsia-starter.zip",
+          "created_at": "2026-10-09T06:00:54Z",
+          "updated_at": "2026-10-09T06:00:55Z"
+        },
+        {
+          "id": 624056704,
+          "name": "pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
+          "state": "uploaded",
+          "size": 108,
+          "digest": "sha256:f9bac8eb26185366901e1d358881122730e0fee328ab5c4ed29264284d04da31",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.101/pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
+          "created_at": "2026-10-09T06:00:54Z",
+          "updated_at": "2026-10-09T06:00:54Z"
+        }
+      ]
+    },
     {
       "id": 406505283,
       "tag_name": "pulsia.home@1.0.103",
