@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-10T08:19:25.000Z",
+  "generatedAt": "2026-10-10T12:59:46.000Z",
   "releases": [
+    {
+      "id": 408954874,
+      "tag_name": "pulsia.java-development-pack@0.1.143",
+      "name": "Java Development Pack 0.1.143",
+      "body": "Java 프로젝트 구조 화면의 일회성 안내, 오류, 저장 결과를 Pulsia Workbench 공용 알림으로 이동했습니다. 프로젝트 설정 페이지와 모달 명령은 같은 Vue 화면 컴포넌트를 계속 사용합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.java-development-pack%400.1.143",
+      "published_at": "2026-10-10T12:59:46Z",
+      "created_at": "2026-10-10T08:19:33Z",
+      "updated_at": "2026-10-10T12:59:46Z",
+      "assets": [
+        {
+          "id": 627987440,
+          "name": "pulsia-java-development-pack.zip",
+          "state": "uploaded",
+          "size": 4770059,
+          "digest": "sha256:6f6ad85b920c77180a833f801ee79ef2bc20430de5616c5d0a8660c9d2c4b6b3",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.143/pulsia-java-development-pack.zip",
+          "created_at": "2026-10-10T12:59:44Z",
+          "updated_at": "2026-10-10T12:59:45Z"
+        },
+        {
+          "id": 627987439,
+          "name": "pulsia-java-development-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:a30a93bca4761962e4dd589f21b9b6d108237b79b2d3d629325060c6d85156f4",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.143/pulsia-java-development-pack.zip.sha256",
+          "created_at": "2026-10-10T12:59:44Z",
+          "updated_at": "2026-10-10T12:59:45Z"
+        }
+      ]
+    },
     {
       "id": 408802029,
       "tag_name": "pulsia.java-development-pack@0.1.142",
