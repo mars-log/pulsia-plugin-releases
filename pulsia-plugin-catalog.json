@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-10T05:11:11.000Z",
+  "generatedAt": "2026-10-10T08:19:25.000Z",
   "releases": [
+    {
+      "id": 408802029,
+      "tag_name": "pulsia.java-development-pack@0.1.142",
+      "name": "Java Development Pack 0.1.142",
+      "body": "JetBrains IntelliJ IDEA 공식 소스 기준으로 Maven 설정 선택지와 입력 방식을 정정했습니다.\n\nMaven Runner 환경 변수와 Properties가 실제 실행에 반영되며 시스템 환경 변수 포함 여부를 선택할 수 있습니다. 프로젝트 별 설정에는 Java 프로젝트 구조 소메뉴 하나가 추가되고 Project, Modules, Libraries, Facets, Artifacts, SDKs, Global Libraries, Problems를 같은 화면에서 전환합니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.java-development-pack%400.1.142",
+      "published_at": "2026-10-10T08:19:25Z",
+      "created_at": "2026-10-10T05:11:19Z",
+      "updated_at": "2026-10-10T08:19:25Z",
+      "assets": [
+        {
+          "id": 627413851,
+          "name": "pulsia-java-development-pack.zip",
+          "state": "uploaded",
+          "size": 4769901,
+          "digest": "sha256:320d729be3b0905caf2fcf7ecafe05355c9a8fa171d183d47d6849cc39019989",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.142/pulsia-java-development-pack.zip",
+          "created_at": "2026-10-10T08:19:24Z",
+          "updated_at": "2026-10-10T08:19:24Z"
+        },
+        {
+          "id": 627413847,
+          "name": "pulsia-java-development-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:b43684625f5bb6d7acdf7843199e3bd5daf8542438aa7ba8cf9da22025bdfe5a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.142/pulsia-java-development-pack.zip.sha256",
+          "created_at": "2026-10-10T08:19:24Z",
+          "updated_at": "2026-10-10T08:19:24Z"
+        }
+      ]
+    },
     {
       "id": 408670465,
       "tag_name": "pulsia.java-development-pack@0.1.141",
