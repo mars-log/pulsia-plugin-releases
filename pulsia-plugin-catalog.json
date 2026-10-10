@@ -1,8 +1,76 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-10T03:49:06.000Z",
+  "generatedAt": "2026-10-10T05:02:04.000Z",
   "releases": [
+    {
+      "id": 408663993,
+      "tag_name": "pulsia-plugin-tutorial-pulsia-starter@0.1.103",
+      "name": "Pulsia 시작 안내 0.1.103",
+      "body": "프로젝트 폴더 선택을 취소하거나 다른 폴더를 골라도 안전한 튜토리얼 프로젝트를 유지하고 탐색기로 이어지도록 개선함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-tutorial-pulsia-starter%400.1.103",
+      "published_at": "2026-10-10T05:02:04Z",
+      "created_at": "2026-10-10T03:49:16Z",
+      "updated_at": "2026-10-10T05:02:04Z",
+      "assets": [
+        {
+          "id": 627050915,
+          "name": "pulsia-plugin-tutorial-pulsia-starter.zip",
+          "state": "uploaded",
+          "size": 22722,
+          "digest": "sha256:e1bf4820f0729fefc8f0170fbc404c4c705497ae5f5ff4165ca956923c4ee80d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.103/pulsia-plugin-tutorial-pulsia-starter.zip",
+          "created_at": "2026-10-10T05:02:03Z",
+          "updated_at": "2026-10-10T05:02:03Z"
+        },
+        {
+          "id": 627050914,
+          "name": "pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
+          "state": "uploaded",
+          "size": 108,
+          "digest": "sha256:72c6c872c2b4ed7fba08062f763696b5e9ec36e6a7f6cd75c1aa07466b6d509c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.103/pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
+          "created_at": "2026-10-10T05:02:03Z",
+          "updated_at": "2026-10-10T05:02:03Z"
+        }
+      ]
+    },
+    {
+      "id": 408663969,
+      "tag_name": "pulsia-plugin-acp-workbench@1.1.112",
+      "name": "ACP Workbench 1.1.112",
+      "body": "실행 중 Agent 설치 후보를 ACP Registry의 일반 목록에서 검색·필터·설치하도록 개선함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.112",
+      "published_at": "2026-10-10T05:02:02Z",
+      "created_at": "2026-10-10T03:49:16Z",
+      "updated_at": "2026-10-10T05:02:02Z",
+      "assets": [
+        {
+          "id": 627050836,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 282445,
+          "digest": "sha256:ddf3b91bbf88167ca7e9c23f578fe90e36613435e88c12817cd63eeabf22cf87",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.112/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-10-10T05:02:01Z",
+          "updated_at": "2026-10-10T05:02:01Z"
+        },
+        {
+          "id": 627050835,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:ef1e76e9bf3b4fa04c5d7df579a2c2c09d7e7494c54a20e380ef36d830577530",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.112/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-10-10T05:02:01Z",
+          "updated_at": "2026-10-10T05:02:01Z"
+        }
+      ]
+    },
     {
       "id": 407572625,
       "tag_name": "pulsia.test-pack@1.0.103",
