@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-10T12:59:46.000Z",
+  "generatedAt": "2026-10-10T13:58:06.000Z",
   "releases": [
     {
       "id": 408954874,
@@ -102,6 +102,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.141/pulsia-java-development-pack.zip.sha256",
           "created_at": "2026-10-10T05:11:10Z",
           "updated_at": "2026-10-10T05:11:10Z"
+        }
+      ]
+    },
+    {
+      "id": 408984377,
+      "tag_name": "pulsia.catalog-studio@1.2.31",
+      "name": "pulsia.catalog-studio@1.2.31",
+      "body": "최초 프로젝트에서 Catalog Studio Agent 패널이 현재 Pulsia 좌측 패널 구조에 표시되도록 수정했습니다. Agent와 모델을 선택해야 시작할 수 있을 때 시작 버튼 왼쪽에 중립 상태 안내를 표시합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.31",
+      "published_at": "2026-10-10T13:58:06Z",
+      "created_at": "2026-10-10T12:59:54Z",
+      "updated_at": "2026-10-10T13:58:06Z",
+      "assets": [
+        {
+          "id": 628111266,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 268271,
+          "digest": "sha256:c38a3d7d9b29b9dc1e77b060f221df68ff67cf3625b48e25e32023f1f264e508",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.31/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-10T13:58:05Z",
+          "updated_at": "2026-10-10T13:58:05Z"
+        },
+        {
+          "id": 628111267,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:1828042fbe78a704315ed4ea07c838b60898ea3569478040f69c18c0053d8b3e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.31/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-10T13:58:05Z",
+          "updated_at": "2026-10-10T13:58:05Z"
         }
       ]
     },
