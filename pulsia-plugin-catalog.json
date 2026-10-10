@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-10T15:36:03.000Z",
+  "generatedAt": "2026-10-10T15:37:56.000Z",
   "releases": [
     {
       "id": 408954874,
@@ -102,6 +102,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.141/pulsia-java-development-pack.zip.sha256",
           "created_at": "2026-10-10T05:11:10Z",
           "updated_at": "2026-10-10T05:11:10Z"
+        }
+      ]
+    },
+    {
+      "id": 409037638,
+      "tag_name": "pulsia.catalog-studio@1.2.32",
+      "name": "Catalog Studio 1.2.32",
+      "body": "카탈로그 템플릿 전체를 ACP 요청 한 번으로 정리합니다. 문서별 반복 세션과 중복 원본 탐색을 제거하고, 부분 실패와 중단 후 재개는 문서별 상태로 보존합니다. Pulsia 0.3.144 이상에서는 프로젝트 파일명·본문 백그라운드 검색을 우선 사용합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.32",
+      "published_at": "2026-10-10T15:37:56Z",
+      "created_at": "2026-10-10T15:36:15Z",
+      "updated_at": "2026-10-10T15:37:56Z",
+      "assets": [
+        {
+          "id": 628321119,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 267568,
+          "digest": "sha256:8c04a9a754ed317fcb1739b5afd9d01427f6a1af79f002047434c3c76105672d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.32/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-10T15:37:55Z",
+          "updated_at": "2026-10-10T15:37:55Z"
+        },
+        {
+          "id": 628321125,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:81e2b21eb2c5b06a0298d65f006a105d88db1743ec844de331445f92c15f92f4",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.32/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-10T15:37:55Z",
+          "updated_at": "2026-10-10T15:37:55Z"
         }
       ]
     },
