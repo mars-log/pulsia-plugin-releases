@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-10T05:02:04.000Z",
+  "generatedAt": "2026-10-10T05:11:11.000Z",
   "releases": [
+    {
+      "id": 408670465,
+      "tag_name": "pulsia.java-development-pack@0.1.141",
+      "name": "Java Development Pack 0.1.141",
+      "body": "IntelliJ 공개 소스 기준으로 Maven과 하위 설정, Gradle, Java Compiler, HotSwap 앱 설정을 재구성했습니다.\n\n프로젝트 루트의 프로젝트 설정에서 Project, Modules, Libraries, Facets, Artifacts, SDKs, Global Libraries, Problems를 편집할 수 있습니다. Java Pack을 제거하면 관련 설정과 메뉴가 사라지고 다시 설치하면 복원됩니다.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.java-development-pack%400.1.141",
+      "published_at": "2026-10-10T05:11:11Z",
+      "created_at": "2026-10-10T05:02:10Z",
+      "updated_at": "2026-10-10T05:11:11Z",
+      "assets": [
+        {
+          "id": 627066192,
+          "name": "pulsia-java-development-pack.zip",
+          "state": "uploaded",
+          "size": 4765185,
+          "digest": "sha256:4b3e6daf76c485c9fd3da7d2d2348072db564b94d94559a3acbfc9c95787380d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.141/pulsia-java-development-pack.zip",
+          "created_at": "2026-10-10T05:11:10Z",
+          "updated_at": "2026-10-10T05:11:10Z"
+        },
+        {
+          "id": 627066193,
+          "name": "pulsia-java-development-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:b3d12e17463e5c7efebe6801b71925769ae696b8de82c57cabddf8b3ed7a511f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.141/pulsia-java-development-pack.zip.sha256",
+          "created_at": "2026-10-10T05:11:10Z",
+          "updated_at": "2026-10-10T05:11:10Z"
+        }
+      ]
+    },
     {
       "id": 408663993,
       "tag_name": "pulsia-plugin-tutorial-pulsia-starter@0.1.103",
