@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-09T06:01:07.000Z",
+  "generatedAt": "2026-10-10T03:49:06.000Z",
   "releases": [
     {
       "id": 407572625,
@@ -38,6 +38,40 @@
       ]
     },
     {
+      "id": 408614862,
+      "tag_name": "pulsia-plugin-tutorial-pulsia-starter@0.1.102",
+      "name": "Pulsia 시작 안내 0.1.102",
+      "body": "설정·Agent 설치·프로젝트 폴더 선택·대화·Plugin 설치까지 이어지는 시작 안내 흐름과 반복 실행 오류를 수정했습니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-tutorial-pulsia-starter%400.1.102",
+      "published_at": "2026-10-10T03:49:06Z",
+      "created_at": "2026-10-09T06:01:10Z",
+      "updated_at": "2026-10-10T03:49:06Z",
+      "assets": [
+        {
+          "id": 626925238,
+          "name": "pulsia-plugin-tutorial-pulsia-starter.zip",
+          "state": "uploaded",
+          "size": 22592,
+          "digest": "sha256:7bca5836d6a77ecf6c0957648fc157db6057a63b792c2baa60c800ddd51bb08d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.102/pulsia-plugin-tutorial-pulsia-starter.zip",
+          "created_at": "2026-10-10T03:49:05Z",
+          "updated_at": "2026-10-10T03:49:05Z"
+        },
+        {
+          "id": 626925237,
+          "name": "pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
+          "state": "uploaded",
+          "size": 108,
+          "digest": "sha256:3711636b002cba12223a286ea20f49bff09a28951f55017fc382344d55005b65",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.102/pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
+          "created_at": "2026-10-10T03:49:05Z",
+          "updated_at": "2026-10-10T03:49:05Z"
+        }
+      ]
+    },
+    {
       "id": 407572509,
       "tag_name": "pulsia-plugin-tutorial-pulsia-starter@0.1.101",
       "name": "Pulsia 시작 튜토리얼 0.1.101",
@@ -68,6 +102,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.101/pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
           "created_at": "2026-10-09T06:00:54Z",
           "updated_at": "2026-10-09T06:00:54Z"
+        }
+      ]
+    },
+    {
+      "id": 408614817,
+      "tag_name": "pulsia-plugin-acp-workbench@1.1.111",
+      "name": "ACP Workbench 1.1.111",
+      "body": "Pulsia 시작 안내의 Agent 설치·선택·대화 흐름을 지원하는 메모리 전용 튜토리얼 Agent와 화면 안내 대상을 보완했습니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.111",
+      "published_at": "2026-10-10T03:49:03Z",
+      "created_at": "2026-10-09T06:01:10Z",
+      "updated_at": "2026-10-10T03:49:03Z",
+      "assets": [
+        {
+          "id": 626925151,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 283240,
+          "digest": "sha256:03b77391197f1d6c85de8be37292a8d365e6f345597c86cb88e5547ac3bf17e4",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.111/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-10-10T03:49:02Z",
+          "updated_at": "2026-10-10T03:49:03Z"
+        },
+        {
+          "id": 626925150,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:913f0f5b64714a310796ae2fff620a4ebce0781225e046cae5faeed3a9e2ec27",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.111/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-10-10T03:49:02Z",
+          "updated_at": "2026-10-10T03:49:02Z"
         }
       ]
     },
