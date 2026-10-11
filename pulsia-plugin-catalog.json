@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-11T13:41:19.000Z",
+  "generatedAt": "2026-10-11T13:41:27.000Z",
   "releases": [
     {
       "id": 409676499,
@@ -228,6 +228,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.34/pulsia-catalog-studio.zip.sha256",
           "created_at": "2026-10-11T04:18:25Z",
           "updated_at": "2026-10-11T04:18:25Z"
+        }
+      ]
+    },
+    {
+      "id": 409692957,
+      "tag_name": "pulsia.catalog-studio@1.2.134",
+      "name": "Catalog Studio 1.2.134",
+      "body": "Pulsia의 footer 없는 왼쪽 패널에서도 카탈로그 작업 진행·중지·이어가기 블록을 하단에 표시합니다. 기존 footer 포함 Host 배치도 유지합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.134",
+      "published_at": "2026-10-11T13:41:27Z",
+      "created_at": "2026-10-11T13:41:21Z",
+      "updated_at": "2026-10-11T13:41:27Z",
+      "assets": [
+        {
+          "id": 630851946,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 272813,
+          "digest": "sha256:5082d38c858a6e056e8ea93113877c849f86bb9c441196caef665e97169e7e60",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.134/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-11T13:41:26Z",
+          "updated_at": "2026-10-11T13:41:26Z"
+        },
+        {
+          "id": 630851947,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:f38325bffaf44989439225f9c4909b21f702a4e4d0b781800a876127fc47703a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.134/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-11T13:41:26Z",
+          "updated_at": "2026-10-11T13:41:26Z"
         }
       ]
     },
