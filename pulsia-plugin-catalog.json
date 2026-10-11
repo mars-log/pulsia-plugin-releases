@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-11T02:33:27.000Z",
+  "generatedAt": "2026-10-11T03:12:27.000Z",
   "releases": [
     {
       "id": 409348789,
@@ -34,6 +34,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client-addon-ssh-client%400.0.103/pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
           "created_at": "2026-10-11T02:33:26Z",
           "updated_at": "2026-10-11T02:33:27Z"
+        }
+      ]
+    },
+    {
+      "id": 409372629,
+      "tag_name": "pulsia-plugin-acp-workbench@1.1.115",
+      "name": "ACP Workbench 1.1.115",
+      "body": "오류 카드만 표시된 대화에서도 Agent 입력창이 오른쪽 패널 하단에 유지되도록 내부 flex 배치를 복구했습니다. 패널 외곽 경계선과 너비 조절은 계속 Pulsia Host가 소유합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.115",
+      "published_at": "2026-10-11T03:12:27Z",
+      "created_at": "2026-10-11T02:33:33Z",
+      "updated_at": "2026-10-11T03:12:27Z",
+      "assets": [
+        {
+          "id": 629635986,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 284874,
+          "digest": "sha256:4834dbec2e9caa17259ee1e9071ae464a0eb808eee7791de125bad4cb6476d31",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.115/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-10-11T03:12:26Z",
+          "updated_at": "2026-10-11T03:12:27Z"
+        },
+        {
+          "id": 629635987,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:1b7a259a97ca5389dfbf608e243da8ac4f459b85f38dd9e239dd31944ae4bae8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.115/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-10-11T03:12:26Z",
+          "updated_at": "2026-10-11T03:12:27Z"
         }
       ]
     },
