@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-11T14:11:36.000Z",
+  "generatedAt": "2026-10-11T14:52:28.000Z",
   "releases": [
     {
       "id": 409676499,
@@ -378,6 +378,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client-addon-ssh-client%400.0.103/pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
           "created_at": "2026-10-11T02:33:26Z",
           "updated_at": "2026-10-11T02:33:27Z"
+        }
+      ]
+    },
+    {
+      "id": 409729660,
+      "tag_name": "pulsia-plugin-mini-acp@1.0.104",
+      "name": "Mini ACP 1.0.104",
+      "body": "## 수정 내용\n\n- Object Model Studio를 처음 열 때 모델 작업 도우미가 표시되지 않는 문제를 수정함.\n- 왼쪽 패널의 실제 크기가 계산된 뒤 도킹 위치를 적용함.\n- 활성 Mini ACP 화면을 Workbench 본문 위에 표시하고 비활성 화면은 기존 계층을 유지함.\n- 모델 스튜디오 소메뉴 이동 시 같은 도우미 화면과 대화 상태를 유지함.\n\n## 확인\n\n- Mini ACP 시험 6개 통과함.\n- 정식 Pulsia를 별도 사용자 데이터로 완전히 종료한 상태에서 다시 실행해 첫 진입을 확인함.\n- light와 dark에서 도우미 노출, 334px 도킹 너비, 모델 맵 이동 뒤 화면 인스턴스 유지를 확인함.\n- ZIP SHA-256: `1258d93a1d39b94fa852caa914410ad73d6d63af75bbb64e1d831277a64fa50b`\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-mini-acp%401.0.104",
+      "published_at": "2026-10-11T14:52:28Z",
+      "created_at": "2026-10-11T14:11:44Z",
+      "updated_at": "2026-10-11T14:52:28Z",
+      "assets": [
+        {
+          "id": 631005210,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 18269,
+          "digest": "sha256:1258d93a1d39b94fa852caa914410ad73d6d63af75bbb64e1d831277a64fa50b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.104/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-10-11T14:52:27Z",
+          "updated_at": "2026-10-11T14:52:27Z"
+        },
+        {
+          "id": 631005212,
+          "name": "pulsia-plugin-mini-acp.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:7fc389dead5035017c059d0a99d6abf8c874c811a1d9a058880b21f90d783131",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.104/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-10-11T14:52:27Z",
+          "updated_at": "2026-10-11T14:52:27Z"
         }
       ]
     },
