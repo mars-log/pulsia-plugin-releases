@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-11T02:33:21.000Z",
+  "generatedAt": "2026-10-11T02:33:27.000Z",
   "releases": [
+    {
+      "id": 409348789,
+      "tag_name": "pulsia-plugin-wingate-client-addon-ssh-client@0.0.103",
+      "name": "SSH Client Addon 0.0.103",
+      "body": "Wingate Client 0.1.107과 맞춘 SSH 접속 대상 저장·조회 기능을 제공합니다. 접속 비밀번호는 저장하지 않고 Pulsia 터미널의 SSH 요청에서 입력합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client-addon-ssh-client%400.0.103",
+      "published_at": "2026-10-11T02:33:27Z",
+      "created_at": "2026-10-11T02:33:24Z",
+      "updated_at": "2026-10-11T02:33:27Z",
+      "assets": [
+        {
+          "id": 629571900,
+          "name": "pulsia-plugin-wingate-client-addon-ssh-client.zip",
+          "state": "uploaded",
+          "size": 32656,
+          "digest": "sha256:011c597a5a8414e74b3e53a90d4629d93125ed441ffa38e634698b4992ceb5ac",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client-addon-ssh-client%400.0.103/pulsia-plugin-wingate-client-addon-ssh-client.zip",
+          "created_at": "2026-10-11T02:33:26Z",
+          "updated_at": "2026-10-11T02:33:27Z"
+        },
+        {
+          "id": 629571901,
+          "name": "pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
+          "state": "uploaded",
+          "size": 116,
+          "digest": "sha256:368e4a11aa9371b635a9c022c48031735a40f5b3ee65c0e868fcbbbefeeaa1c4",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client-addon-ssh-client%400.0.103/pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
+          "created_at": "2026-10-11T02:33:26Z",
+          "updated_at": "2026-10-11T02:33:27Z"
+        }
+      ]
+    },
     {
       "id": 409348738,
       "tag_name": "pulsia.test-pack@1.0.104",
@@ -238,6 +272,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.31/pulsia-catalog-studio.zip.sha256",
           "created_at": "2026-10-10T13:58:05Z",
           "updated_at": "2026-10-10T13:58:05Z"
+        }
+      ]
+    },
+    {
+      "id": 409348764,
+      "tag_name": "pulsia-plugin-wingate-client@0.1.107",
+      "name": "Wingate Client 0.1.107",
+      "body": "SSH 접속 정보를 Pulsia 터미널에 복제 가능한 값만 전달하도록 수정했습니다. 비밀번호는 저장하지 않으며 접속 뒤 터미널의 비밀번호 요청에서 입력하도록 안내합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.107",
+      "published_at": "2026-10-11T02:33:24Z",
+      "created_at": "2026-10-10T15:38:04Z",
+      "updated_at": "2026-10-11T02:33:24Z",
+      "assets": [
+        {
+          "id": 629571836,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 134188,
+          "digest": "sha256:f1098dd880638623fb936a65d7ba0a9a35f191ff4e58b33dae922ccdf2e9daf4",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.107/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-10-11T02:33:23Z",
+          "updated_at": "2026-10-11T02:33:24Z"
+        },
+        {
+          "id": 629571834,
+          "name": "pulsia-plugin-wingate-client.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:5564b4095748a6c3afd320480d4da8d7c94b430fa3b2e57537db8ba304ab5ba7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.107/pulsia-plugin-wingate-client.zip.sha256",
+          "created_at": "2026-10-11T02:33:23Z",
+          "updated_at": "2026-10-11T02:33:24Z"
         }
       ]
     },
