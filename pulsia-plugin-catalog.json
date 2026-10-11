@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-11T12:40:15.000Z",
+  "generatedAt": "2026-10-11T12:57:56.000Z",
   "releases": [
+    {
+      "id": 409667385,
+      "tag_name": "pulsia.test-pack@1.0.106",
+      "name": "Pulsia Test Pack 1.0.106",
+      "body": "# Pulsia Test Pack 1.0.106\n\n- 단일 선택 입력의 light·dark 펼침 목록 대비와 Lucide chevron 위치를 기준 예제에 반영함.\n- 복합 검색 입력의 중복 지우기 표시를 제거하고 접근 가능한 Lucide `X` 버튼을 적용함.\n- 공용 탐색 트리의 아이콘 슬롯·단계 간격·키보드 조작·좁은 화면 말줄임 예제를 추가함.\n- 가로·세로 분할 영역의 포인터·키보드 크기 조절과 200ms 정착 반영 예제를 추가함.\n- 이동·8방향 크기 조절·포커스 순환·IME 보호·preferred/effective geometry 분리·화면 영역 제한·pointerup 뒤 200ms 정착 저장·저장 실패 재시도를 포함한 대화 상자 예제를 추가함.\n- 예제 추가 요청은 로컬 기록만 저장하며 Agent 실행·소스 수정·커밋·배포를 자동 시작하지 않음을 화면과 공개 문서에 명시함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.test-pack%401.0.106",
+      "published_at": "2026-10-11T12:57:56Z",
+      "created_at": "2026-10-11T12:40:22Z",
+      "updated_at": "2026-10-11T12:57:56Z",
+      "assets": [
+        {
+          "id": 630758066,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 84447,
+          "digest": "sha256:7df378725348fb05f1b664f50319bfa0cd581d6a2ae329de25668b151f880862",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.106/pulsia-test-pack.zip",
+          "created_at": "2026-10-11T12:57:55Z",
+          "updated_at": "2026-10-11T12:57:56Z"
+        },
+        {
+          "id": 630758065,
+          "name": "pulsia-test-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 87,
+          "digest": "sha256:c9b651b02d3ade5d1275efe2796a9a652680af1dfb00597299cb336e3af69ef5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.106/pulsia-test-pack.zip.sha256",
+          "created_at": "2026-10-11T12:57:55Z",
+          "updated_at": "2026-10-11T12:57:56Z"
+        }
+      ]
+    },
     {
       "id": 409659053,
       "tag_name": "pulsia.test-pack@1.0.105",
