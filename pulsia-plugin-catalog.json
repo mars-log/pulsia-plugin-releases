@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-11T13:41:27.000Z",
+  "generatedAt": "2026-10-11T13:56:32.000Z",
   "releases": [
     {
       "id": 409676499,
@@ -262,6 +262,54 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.134/pulsia-catalog-studio.zip.sha256",
           "created_at": "2026-10-11T13:41:26Z",
           "updated_at": "2026-10-11T13:41:26Z"
+        }
+      ]
+    },
+    {
+      "id": 409699699,
+      "tag_name": "pulsia-plugin-wingate-client@0.1.108",
+      "name": "Wingate Client 0.1.108",
+      "body": "로그인 전후 헤더 높이를 Pulsia 공용 규격에 맞추고 계정·로그아웃 조작을 Lucide 아이콘으로 정리했습니다. SSH 접속 대상 아이콘 선택 모달과 안전한 SVG 직접 입력을 추가했으며, 편집창은 헤더와 저장 버튼을 고정하고 내용만 스크롤하도록 수정했습니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.108",
+      "published_at": "2026-10-11T13:56:32Z",
+      "created_at": "2026-10-11T13:41:35Z",
+      "updated_at": "2026-10-11T13:56:32Z",
+      "assets": [
+        {
+          "id": 630884555,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 143598,
+          "digest": "sha256:075fa29ccd28dc3fc4a7cac3a8884bfd5ed46869812353465f147ad0da8f1168",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.108/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-10-11T13:56:31Z",
+          "updated_at": "2026-10-11T13:56:31Z"
+        }
+      ]
+    },
+    {
+      "id": 409699700,
+      "tag_name": "pulsia-plugin-wingate-client-addon-ssh-client@0.0.104",
+      "name": "SSH Client Addon 0.0.104",
+      "body": "SSH 접속 대상별 Lucide 또는 안전한 직접 입력 SVG 아이콘을 저장합니다. SVG는 스크립트·외부 참조·고정 색상·비정상 구조를 저장 전에 거부하며, Agent 공개 조회에서는 아이콘 종류와 Lucide 이름만 제공하고 사용자 SVG 원문은 노출하지 않습니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client-addon-ssh-client%400.0.104",
+      "published_at": "2026-10-11T13:56:32Z",
+      "created_at": "2026-10-11T13:41:35Z",
+      "updated_at": "2026-10-11T13:56:32Z",
+      "assets": [
+        {
+          "id": 630884557,
+          "name": "pulsia-plugin-wingate-client-addon-ssh-client.zip",
+          "state": "uploaded",
+          "size": 28919,
+          "digest": "sha256:58d4008ea3a36c237c7e1238e7181f22ba6429742f68a8b91b29e7dcb23d4ee4",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client-addon-ssh-client%400.0.104/pulsia-plugin-wingate-client-addon-ssh-client.zip",
+          "created_at": "2026-10-11T13:56:31Z",
+          "updated_at": "2026-10-11T13:56:31Z"
         }
       ]
     },
