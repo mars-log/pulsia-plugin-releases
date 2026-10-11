@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-10T15:37:56.000Z",
+  "generatedAt": "2026-10-11T02:33:21.000Z",
   "releases": [
+    {
+      "id": 409348738,
+      "tag_name": "pulsia.test-pack@1.0.104",
+      "name": "Pulsia Test Pack 1.0.104",
+      "body": "Pulsia UI 기준 예제 화면을 추가했습니다. 여러 Markdown 파일로 나눈 기준 트리를 화면·Agent 공개 기능·스킬이 함께 사용하며, 안정 ID로 예제를 조회하고 변경 요청을 남길 수 있습니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.test-pack%401.0.104",
+      "published_at": "2026-10-11T02:33:21Z",
+      "created_at": "2026-10-10T15:38:04Z",
+      "updated_at": "2026-10-11T02:33:21Z",
+      "assets": [
+        {
+          "id": 629571760,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 60904,
+          "digest": "sha256:3fe0a601a87a63f65812e3a320d704db2843e16c4f409041fec5058de80151c2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.104/pulsia-test-pack.zip",
+          "created_at": "2026-10-11T02:33:20Z",
+          "updated_at": "2026-10-11T02:33:21Z"
+        },
+        {
+          "id": 629571761,
+          "name": "pulsia-test-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 87,
+          "digest": "sha256:59a644eacf644c4edfea6b1f87cffaff297b3174de181cfb24dc3c2da54bfc56",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.104/pulsia-test-pack.zip.sha256",
+          "created_at": "2026-10-11T02:33:20Z",
+          "updated_at": "2026-10-11T02:33:20Z"
+        }
+      ]
+    },
     {
       "id": 408954874,
       "tag_name": "pulsia.java-development-pack@0.1.143",
@@ -102,6 +136,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.141/pulsia-java-development-pack.zip.sha256",
           "created_at": "2026-10-10T05:11:10Z",
           "updated_at": "2026-10-10T05:11:10Z"
+        }
+      ]
+    },
+    {
+      "id": 409348708,
+      "tag_name": "pulsia.catalog-studio@1.2.33",
+      "name": "Catalog Studio 1.2.33",
+      "body": "작업 진행창의 일시 정지·상세 보기 아이콘을 바로잡고 헤더 드래그 이동과 위치 복원을 추가했습니다. 문서 다시 점검과 앱 재시작 뒤 중단 작업 계속하기·처음부터 다시 점검 흐름을 제공합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.33",
+      "published_at": "2026-10-11T02:33:18Z",
+      "created_at": "2026-10-10T15:38:04Z",
+      "updated_at": "2026-10-11T02:33:18Z",
+      "assets": [
+        {
+          "id": 629571651,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 272698,
+          "digest": "sha256:1dc846a8b1b1a75370aa304e01227dc6357d6f1e1b1f999b67a881090f40f5f2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.33/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-11T02:33:17Z",
+          "updated_at": "2026-10-11T02:33:17Z"
+        },
+        {
+          "id": 629571652,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:bccf3d01603a3c47a8e2ded9a3878c540610134829e6b48ce086c04cc4e1d1d3",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.33/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-11T02:33:17Z",
+          "updated_at": "2026-10-11T02:33:17Z"
         }
       ]
     },
@@ -252,6 +320,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.103/pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
           "created_at": "2026-10-10T05:02:03Z",
           "updated_at": "2026-10-10T05:02:03Z"
+        }
+      ]
+    },
+    {
+      "id": 409348680,
+      "tag_name": "pulsia-plugin-acp-workbench@1.1.114",
+      "name": "ACP Workbench 1.1.114",
+      "body": "Agent 응답 실패 시 Internal error만 표시하지 않고, 확인 가능한 원인과 정리된 상세 내용을 대화 안에서 안내합니다. 실패한 대화를 다시 열거나 새 대화를 시작하는 동작을 함께 제공합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.114",
+      "published_at": "2026-10-11T02:33:15Z",
+      "created_at": "2026-10-10T15:38:04Z",
+      "updated_at": "2026-10-11T02:33:15Z",
+      "assets": [
+        {
+          "id": 629571564,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 284801,
+          "digest": "sha256:a6ad70293779d1b286ce60bec2bc252c33662729a04ac768000cd30e35cf2255",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.114/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-10-11T02:33:14Z",
+          "updated_at": "2026-10-11T02:33:15Z"
+        },
+        {
+          "id": 629571566,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:799430dd03f524dcaa5acb4c1b8ec4730467d2279d20403e03e935aede108c41",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.114/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-10-11T02:33:14Z",
+          "updated_at": "2026-10-11T02:33:14Z"
         }
       ]
     },
