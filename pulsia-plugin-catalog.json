@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-12T01:10:27.000Z",
+  "generatedAt": "2026-10-12T03:03:50.000Z",
   "releases": [
+    {
+      "id": 410103881,
+      "tag_name": "pulsia.object-model-studio@0.10.116",
+      "name": "Object Model Studio 0.10.116",
+      "body": "대메뉴가 하나의 모델 작업 도우미를 소유하고 네 화면을 함께 제어하는 Object Model Studio 릴리즈입니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.116",
+      "published_at": "2026-10-12T03:03:50Z",
+      "created_at": "2026-10-12T01:10:40Z",
+      "updated_at": "2026-10-12T03:03:50Z",
+      "assets": [
+        {
+          "id": 632491703,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 359133,
+          "digest": "sha256:b2b7f3f4c885dfefb28f76193b700236ea3e9db1850695583ac4891f59acd091",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.116/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-12T03:03:49Z",
+          "updated_at": "2026-10-12T03:03:49Z"
+        },
+        {
+          "id": 632491702,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:f87b47698b6d1f1e901c5e040a04fea76d9511892396345e7a78f80f5572bf94",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.116/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-12T03:03:49Z",
+          "updated_at": "2026-10-12T03:03:49Z"
+        }
+      ]
+    },
     {
       "id": 410034224,
       "tag_name": "pulsia.object-model-studio@0.10.115",
@@ -38,6 +72,40 @@
       ]
     },
     {
+      "id": 410103848,
+      "tag_name": "pulsia-plugin-mini-acp@1.0.108",
+      "name": "Mini ACP 1.0.108",
+      "body": "Core의 공용 ACP Agent 기능을 독립 작업 공간과 선택 상태로 제공하는 Mini ACP 릴리즈입니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-mini-acp%401.0.108",
+      "published_at": "2026-10-12T03:03:47Z",
+      "created_at": "2026-10-12T01:10:40Z",
+      "updated_at": "2026-10-12T03:03:47Z",
+      "assets": [
+        {
+          "id": 632491642,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 14832,
+          "digest": "sha256:d1d3f83202e66905746eab262b724d6d4633c5e05854113928076f40d2e2aedd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.108/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-10-12T03:03:46Z",
+          "updated_at": "2026-10-12T03:03:46Z"
+        },
+        {
+          "id": 632491644,
+          "name": "pulsia-plugin-mini-acp.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:8a86696b1e5fce2c9ae5c4a7b5888c3e3843bf818e08deb29ed35d7e210f74e2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.108/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-10-12T03:03:46Z",
+          "updated_at": "2026-10-12T03:03:46Z"
+        }
+      ]
+    },
+    {
       "id": 410034179,
       "tag_name": "pulsia-plugin-mini-acp@1.0.107",
       "name": "Mini ACP 1.0.107",
@@ -68,6 +136,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.107/pulsia-plugin-mini-acp.zip.sha256",
           "created_at": "2026-10-12T01:10:16Z",
           "updated_at": "2026-10-12T01:10:17Z"
+        }
+      ]
+    },
+    {
+      "id": 410103816,
+      "tag_name": "pulsia-plugin-acp-workbench@1.1.117",
+      "name": "ACP Workbench 1.1.117",
+      "body": "Core의 공용 ACP Agent 화면을 사용하는 ACP Workbench 릴리즈입니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.117",
+      "published_at": "2026-10-12T03:03:44Z",
+      "created_at": "2026-10-12T01:10:40Z",
+      "updated_at": "2026-10-12T03:03:44Z",
+      "assets": [
+        {
+          "id": 632491564,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 14385,
+          "digest": "sha256:fe6d2fc5ec3dfff8d12eae78b2e1c6d5d28fcabca55409eec66a7ba269b38018",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.117/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-10-12T03:03:43Z",
+          "updated_at": "2026-10-12T03:03:44Z"
+        },
+        {
+          "id": 632491562,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:eff6c1f6f79501050cf38b37e7699315e9e500017cdd24ee82019a38cc5f235f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.117/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-10-12T03:03:43Z",
+          "updated_at": "2026-10-12T03:03:44Z"
         }
       ]
     },
