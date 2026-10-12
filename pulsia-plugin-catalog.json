@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-12T07:53:41.000Z",
+  "generatedAt": "2026-10-12T08:23:00.000Z",
   "releases": [
+    {
+      "id": 410365526,
+      "tag_name": "pulsia.sql-studio@0.0.102",
+      "name": "SQL Studio 0.0.102",
+      "body": "SQL Studio의 실제 DB 탐색기와 SQL 결과 패널 껍데기를 Workbench 공용 패널 구조에 맞게 수정함. 대메뉴 표시와 사용자 숨김 설정, 공용 왼쪽 패널 전환, 단일 Database Explorer 헤더, 내부 트리 스크롤, Services형 SQL 결과 헤더, 실제 도크 너비·최대화·닫기 조작을 제공함. Pulsia Core 0.3.158 이상이 필요함. DB Connector 조회, SQL 실행과 본문 편집기 래핑은 후속 구현 범위임.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.sql-studio%400.0.102",
+      "published_at": "2026-10-12T08:23:00Z",
+      "created_at": "2026-10-12T07:53:50Z",
+      "updated_at": "2026-10-12T08:23:00Z",
+      "assets": [
+        {
+          "id": 633147903,
+          "name": "pulsia-sql-studio.zip",
+          "state": "uploaded",
+          "size": 15188,
+          "digest": "sha256:0ba5647c28e5c7635f347b57db1495c4c652bab052ed180f22e4cf724571182f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.102/pulsia-sql-studio.zip",
+          "created_at": "2026-10-12T08:22:59Z",
+          "updated_at": "2026-10-12T08:22:59Z"
+        },
+        {
+          "id": 633147904,
+          "name": "pulsia-sql-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:a1be95c819729fdaf3a96ad66c93c86b30438b951e0566aef47a624a4fccf9d3",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.102/pulsia-sql-studio.zip.sha256",
+          "created_at": "2026-10-12T08:22:59Z",
+          "updated_at": "2026-10-12T08:22:59Z"
+        }
+      ]
+    },
     {
       "id": 410294681,
       "tag_name": "pulsia.sql-studio@0.0.101",
