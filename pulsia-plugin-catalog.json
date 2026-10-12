@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-12T06:24:37.000Z",
+  "generatedAt": "2026-10-12T07:06:21.000Z",
   "releases": [
+    {
+      "id": 410294681,
+      "tag_name": "pulsia.sql-studio@0.0.101",
+      "name": "SQL Studio 0.0.101",
+      "body": "왼쪽 데이터베이스 탐색기, SQL 세션 탭, 하단 세션·결과 패널 목업을 추가함. DB Connector 접속 정보 재사용 구조와 MCP 화면 동작·Agent Skill을 포함함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.sql-studio%400.0.101",
+      "published_at": "2026-10-12T07:06:21Z",
+      "created_at": "2026-10-12T06:24:45Z",
+      "updated_at": "2026-10-12T07:06:21Z",
+      "assets": [
+        {
+          "id": 632977590,
+          "name": "pulsia-sql-studio.zip",
+          "state": "uploaded",
+          "size": 14604,
+          "digest": "sha256:0b621a939c87a639f1fdfeaa5a4cc4d6e6c583bcd31bb0ba167120438baabb76",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.101/pulsia-sql-studio.zip",
+          "created_at": "2026-10-12T07:06:20Z",
+          "updated_at": "2026-10-12T07:06:20Z"
+        },
+        {
+          "id": 632977589,
+          "name": "pulsia-sql-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:6b9be12b59f58be7e6894357f09a5df257335fae5af97a48a33958bb6e506d9c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.101/pulsia-sql-studio.zip.sha256",
+          "created_at": "2026-10-12T07:06:20Z",
+          "updated_at": "2026-10-12T07:06:20Z"
+        }
+      ]
+    },
     {
       "id": 410206352,
       "tag_name": "pulsia.object-model-studio@0.10.117",
