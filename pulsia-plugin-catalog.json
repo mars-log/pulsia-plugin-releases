@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-12T03:03:50.000Z",
+  "generatedAt": "2026-10-12T04:37:00.000Z",
   "releases": [
     {
       "id": 410103881,
@@ -68,6 +68,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.115/pulsia-plugin-object-manager.zip.sha256",
           "created_at": "2026-10-12T01:10:26Z",
           "updated_at": "2026-10-12T01:10:26Z"
+        }
+      ]
+    },
+    {
+      "id": 410167072,
+      "tag_name": "pulsia-plugin-mini-acp@1.0.109",
+      "name": "Mini ACP 1.0.109",
+      "body": "대메뉴 헤더 요청을 현재 공용 ACP 화면 선택과 연결하고, 화면 해제·선택 변경·지원 확인 실패에서 요청을 안전하게 중단합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-mini-acp%401.0.109",
+      "published_at": "2026-10-12T04:37:00Z",
+      "created_at": "2026-10-12T03:03:53Z",
+      "updated_at": "2026-10-12T04:37:00Z",
+      "assets": [
+        {
+          "id": 632673490,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 18249,
+          "digest": "sha256:3faa7bb46bc84178b235b78602903ba53a2143357dbce97c15f7d014125ed19c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.109/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-10-12T04:36:59Z",
+          "updated_at": "2026-10-12T04:36:59Z"
+        },
+        {
+          "id": 632673485,
+          "name": "pulsia-plugin-mini-acp.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:0edbe727ea40e243087509f9b04ad173bdb7f0d337380f646ec0a75217af3ef2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.109/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-10-12T04:36:59Z",
+          "updated_at": "2026-10-12T04:36:59Z"
         }
       ]
     },
