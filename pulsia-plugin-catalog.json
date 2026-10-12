@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-12T07:06:21.000Z",
+  "generatedAt": "2026-10-12T07:53:41.000Z",
   "releases": [
     {
       "id": 410294681,
@@ -126,6 +126,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.115/pulsia-plugin-object-manager.zip.sha256",
           "created_at": "2026-10-12T01:10:26Z",
           "updated_at": "2026-10-12T01:10:26Z"
+        }
+      ]
+    },
+    {
+      "id": 410338126,
+      "tag_name": "pulsia-plugin-mini-acp@1.0.112",
+      "name": "Mini ACP 1.0.112",
+      "body": "Mini ACP가 Core의 ACP 세션·메시지·Agent 실행 기능을 사용하면서 좌측 도크와 분리 창의 제어줄, 팝업, 문구와 좁은 폭 배치를 직접 소유합니다.\n\n검증:\n- Mini ACP 단위 시험 12개 통과\n- Plugin Studio manifest·기여 Schema 39개 검사 통과\n- Core 0.3.155와 0.3.156의 Agent 선택 DOM 모두 지원\n- 오른쪽 ACP Workbench 선택자와 표시 규칙 유지\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-mini-acp%401.0.112",
+      "published_at": "2026-10-12T07:53:41Z",
+      "created_at": "2026-10-12T07:06:30Z",
+      "updated_at": "2026-10-12T07:53:41Z",
+      "assets": [
+        {
+          "id": 633081687,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 20882,
+          "digest": "sha256:5a0edde0b1b539e308062fb553655a1da76ccc1ca7c810d4e5babe3751fd7f54",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.112/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-10-12T07:53:39Z",
+          "updated_at": "2026-10-12T07:53:40Z"
+        },
+        {
+          "id": 633081686,
+          "name": "pulsia-plugin-mini-acp.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:62b71bb6008691b0b74e2d25bb1041b06cf3711cbbfdd02997847929807b1106",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.112/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-10-12T07:53:39Z",
+          "updated_at": "2026-10-12T07:53:40Z"
         }
       ]
     },
