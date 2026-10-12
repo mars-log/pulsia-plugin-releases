@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-12T01:10:17.000Z",
+  "generatedAt": "2026-10-12T01:10:27.000Z",
   "releases": [
+    {
+      "id": 410034224,
+      "tag_name": "pulsia.object-model-studio@0.10.115",
+      "name": "Object Model Studio 0.10.115",
+      "body": "## 변경 내용\n\n- Object Model Studio 대메뉴가 모델 작업 도우미 한 개를 소유함\n- 모델 개요·모델 맵·모델 관리·AI 작업이 같은 도우미와 보관함·업무 그룹·선택 모델 상태를 사용함\n- 소메뉴를 열기 전 대메뉴 진입부터 도우미를 사용할 수 있음\n- 화면 이동 중 중복 창 생성과 소메뉴 종료에 따른 도우미 소멸을 제거함\n\nPulsia Core 0.3.150과 Mini ACP 1.0.107이 필요함.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.115",
+      "published_at": "2026-10-12T01:10:27Z",
+      "created_at": "2026-10-12T00:40:07Z",
+      "updated_at": "2026-10-12T01:10:27Z",
+      "assets": [
+        {
+          "id": 632266905,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 358282,
+          "digest": "sha256:f3dfac0a5592e7d03d14cefcae3abfa23d2b708306d0d12fb761110f9ede5b7f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.115/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-12T01:10:26Z",
+          "updated_at": "2026-10-12T01:10:26Z"
+        },
+        {
+          "id": 632266906,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:1299424b89e0caa80508ab496c2868181483ff07082ed4138b6269c0a121b7cb",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.115/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-12T01:10:26Z",
+          "updated_at": "2026-10-12T01:10:26Z"
+        }
+      ]
+    },
     {
       "id": 410034179,
       "tag_name": "pulsia-plugin-mini-acp@1.0.107",
