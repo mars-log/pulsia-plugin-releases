@@ -1,8 +1,32 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-12T04:37:00.000Z",
+  "generatedAt": "2026-10-12T05:28:16.000Z",
   "releases": [
+    {
+      "id": 410206352,
+      "tag_name": "pulsia.object-model-studio@0.10.117",
+      "name": "Object Model Studio 0.10.117",
+      "body": "- Object Model Studio 대메뉴가 네 소메뉴에서 공유하는 모델 작업 도우미 한 개를 소유함.\n- 도우미를 분리하면 다른 대메뉴에서도 유지하고 어느 화면에서든 다시 붙일 수 있음.\n- Plugin별 Agent, 모델, 추론 옵션을 오른쪽 ACP Agent와 독립적으로 저장함.\n- 오늘 사용자 요청 43개와 첨부 화면 31개, 해석 및 원문별 대조, 실행 근거를 기록함.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.117",
+      "published_at": "2026-10-12T05:28:16Z",
+      "created_at": "2026-10-12T04:37:10Z",
+      "updated_at": "2026-10-12T05:28:16Z",
+      "assets": [
+        {
+          "id": 632770933,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 360156,
+          "digest": "sha256:1ce97848c6029899285117fd32caefb9ca4692b3678c3d89bee7470f49b81375",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.117/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-12T05:28:15Z",
+          "updated_at": "2026-10-12T05:28:15Z"
+        }
+      ]
+    },
     {
       "id": 410103881,
       "tag_name": "pulsia.object-model-studio@0.10.116",
@@ -68,6 +92,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.115/pulsia-plugin-object-manager.zip.sha256",
           "created_at": "2026-10-12T01:10:26Z",
           "updated_at": "2026-10-12T01:10:26Z"
+        }
+      ]
+    },
+    {
+      "id": 410206321,
+      "tag_name": "pulsia-plugin-mini-acp@1.0.110",
+      "name": "Mini ACP 1.0.110",
+      "body": "- Core 공용 ACP 화면의 companion 배치를 사용해 Plugin별 Agent와 세션 옵션을 독립적으로 선택함.\n- 오른쪽 ACP Agent header를 복제하지 않고 간결한 Agent 선택과 업무 요청 화면을 제공함.\n- 보관함과 업무 그룹 선택기의 중복 chevron을 제거함.\n- 공개 매뉴얼과 Plugin 연결 스킬에 Core ACP, Mini ACP, 공개 MCP 업무 동작, 현재 화면 동작의 역할을 기록함.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-mini-acp%401.0.110",
+      "published_at": "2026-10-12T05:28:13Z",
+      "created_at": "2026-10-12T04:37:10Z",
+      "updated_at": "2026-10-12T05:28:13Z",
+      "assets": [
+        {
+          "id": 632770832,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 19528,
+          "digest": "sha256:8282787b869cdb7b6300813407941bae6fffd831a3d222b76e80a06c584a6b8c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.110/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-10-12T05:28:12Z",
+          "updated_at": "2026-10-12T05:28:12Z"
         }
       ]
     },
