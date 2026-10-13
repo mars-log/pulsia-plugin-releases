@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-13T02:31:16.000Z",
+  "generatedAt": "2026-10-13T05:32:29.000Z",
   "releases": [
     {
       "id": 411190663,
@@ -34,6 +34,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.104/pulsia-sql-studio.zip.sha256",
           "created_at": "2026-10-13T02:31:15Z",
           "updated_at": "2026-10-13T02:31:15Z"
+        }
+      ]
+    },
+    {
+      "id": 411315623,
+      "tag_name": "pulsia.catalog-studio@1.2.135",
+      "name": "Catalog Studio 1.2.135",
+      "body": "Catalog Studio가 설치된 프로젝트에 파일 기반 문제 해결 기록을 추가합니다.\n\n- 프로젝트별 AI 문서 루트에 config와 records를 분리해 생성\n- categories.json 계층을 화면 트리에 즉시 반영\n- 분류·모듈·요청 트리와 Markdown 읽기 화면 제공\n- 데이터베이스 없이 프로젝트 파일과 Git 이력으로 관리\n- light/dark 실제 설치 화면 검증\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.135",
+      "published_at": "2026-10-13T05:32:29Z",
+      "created_at": "2026-10-13T02:31:21Z",
+      "updated_at": "2026-10-13T05:32:29Z",
+      "assets": [
+        {
+          "id": 636007047,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 281849,
+          "digest": "sha256:ee0ba952d4eb4b6ec5fb396af4f25271261c09be799f5d12d810c1495fbc8dc5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.135/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-13T05:32:27Z",
+          "updated_at": "2026-10-13T05:32:28Z"
         }
       ]
     },
