@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-13T08:27:13.000Z",
+  "generatedAt": "2026-10-13T08:27:18.000Z",
   "releases": [
     {
       "id": 411452591,
@@ -68,6 +68,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.104/pulsia-sql-studio.zip.sha256",
           "created_at": "2026-10-13T02:31:15Z",
           "updated_at": "2026-10-13T02:31:15Z"
+        }
+      ]
+    },
+    {
+      "id": 411452649,
+      "tag_name": "pulsia.catalog-studio@1.2.137",
+      "name": "Catalog Studio 1.2.137",
+      "body": "프로젝트 선택과 카탈로그 공용 동작을 왼쪽 소메뉴 아래 두 줄 조작 영역으로 이동함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.137",
+      "published_at": "2026-10-13T08:27:18Z",
+      "created_at": "2026-10-13T08:03:28Z",
+      "updated_at": "2026-10-13T08:27:18Z",
+      "assets": [
+        {
+          "id": 636393830,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 287802,
+          "digest": "sha256:be2bfff37344e0feb7a8bb28ebb1ca2089ab72c8242c175d3a402016dd8fd116",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.137/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-13T08:27:17Z",
+          "updated_at": "2026-10-13T08:27:17Z"
+        },
+        {
+          "id": 636393831,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 151,
+          "digest": "sha256:48346c6691c8f48ecee17e6a97550fe680e26cae0223b45d163968dc1e561df4",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.137/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-13T08:27:17Z",
+          "updated_at": "2026-10-13T08:27:17Z"
         }
       ]
     },
