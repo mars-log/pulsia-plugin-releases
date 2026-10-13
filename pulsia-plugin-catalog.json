@@ -2074,40 +2074,6 @@
       ]
     },
     {
-      "id": 404785891,
-      "tag_name": "pulsia-plugin-wingate-seller@0.1.0",
-      "name": "pulsia-plugin-wingate-seller 0.1.0",
-      "body": "Wingate UI shell first release. Includes Pulsia workbench UI, temporary login boundary, Mini ACP integration, public MCP actions, manual, and agent skill.",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-seller%400.1.0",
-      "published_at": "2026-10-06T13:54:00Z",
-      "created_at": "2026-10-06T13:47:40Z",
-      "updated_at": "2026-10-06T13:54:00Z",
-      "assets": [
-        {
-          "id": 615675196,
-          "name": "pulsia-plugin-wingate-seller.zip",
-          "state": "uploaded",
-          "size": 111591,
-          "digest": "sha256:2edbaee770a1ce683c5b73d6cd56925fbaae95ddeb33b0c3190ff1d2460bd100",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.0/pulsia-plugin-wingate-seller.zip",
-          "created_at": "2026-10-06T13:53:59Z",
-          "updated_at": "2026-10-06T13:53:59Z"
-        },
-        {
-          "id": 615675197,
-          "name": "pulsia-plugin-wingate-seller.zip.sha256",
-          "state": "uploaded",
-          "size": 99,
-          "digest": "sha256:1a26f66e5a816eae08a66688945775eaf3a43e9cc03c194589238a3002d2b33d",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.0/pulsia-plugin-wingate-seller.zip.sha256",
-          "created_at": "2026-10-06T13:53:59Z",
-          "updated_at": "2026-10-06T13:53:59Z"
-        }
-      ]
-    },
-    {
       "id": 404872344,
       "tag_name": "pulsia-plugin-wingate-manager@0.1.4",
       "name": "pulsia-plugin-wingate-manager 0.1.4",
@@ -2274,108 +2240,6 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.1/pulsia-plugin-wingate-manager.zip.sha256",
           "created_at": "2026-10-06T13:57:02Z",
           "updated_at": "2026-10-06T13:57:02Z"
-        }
-      ]
-    },
-    {
-      "id": 404785953,
-      "tag_name": "pulsia-plugin-wingate-manager@0.1.0",
-      "name": "pulsia-plugin-wingate-manager 0.1.0",
-      "body": "Wingate UI shell first release. Includes Pulsia workbench UI, temporary login boundary, Mini ACP integration, public MCP actions, manual, and agent skill.",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-manager%400.1.0",
-      "published_at": "2026-10-06T13:54:04Z",
-      "created_at": "2026-10-06T13:47:40Z",
-      "updated_at": "2026-10-06T13:54:04Z",
-      "assets": [
-        {
-          "id": 615675288,
-          "name": "pulsia-plugin-wingate-manager.zip",
-          "state": "uploaded",
-          "size": 112698,
-          "digest": "sha256:be64508b824d720d375eb43b56b7762cdf1fc59a28cf6e2e34f70020dd93bcbe",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.0/pulsia-plugin-wingate-manager.zip",
-          "created_at": "2026-10-06T13:54:03Z",
-          "updated_at": "2026-10-06T13:54:03Z"
-        },
-        {
-          "id": 615675289,
-          "name": "pulsia-plugin-wingate-manager.zip.sha256",
-          "state": "uploaded",
-          "size": 100,
-          "digest": "sha256:98aa597a46f2e1a1cb35b1944784d19bae629ca1a0ffc8ea43ede69c597f8bac",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.0/pulsia-plugin-wingate-manager.zip.sha256",
-          "created_at": "2026-10-06T13:54:03Z",
-          "updated_at": "2026-10-06T13:54:03Z"
-        }
-      ]
-    },
-    {
-      "id": 404872420,
-      "tag_name": "pulsia-plugin-wingate-client@0.1.4",
-      "name": "pulsia-plugin-wingate-client 0.1.4",
-      "body": "Repairs Pulsia workbench mount classes removed by earlier Wingate versions so existing updated tabs recover correct host layout and centered login.",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.4",
-      "published_at": "2026-10-06T15:16:25Z",
-      "created_at": "2026-10-06T15:09:01Z",
-      "updated_at": "2026-10-06T15:16:25Z",
-      "assets": [
-        {
-          "id": 615870116,
-          "name": "pulsia-plugin-wingate-client.zip",
-          "state": "uploaded",
-          "size": 119532,
-          "digest": "sha256:ba715e78bb183c2847667124151ac10a6f667342982282b6b6dbc6c144a0f954",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.4/pulsia-plugin-wingate-client.zip",
-          "created_at": "2026-10-06T15:16:23Z",
-          "updated_at": "2026-10-06T15:16:24Z"
-        },
-        {
-          "id": 615870114,
-          "name": "pulsia-plugin-wingate-client.zip.sha256",
-          "state": "uploaded",
-          "size": 99,
-          "digest": "sha256:f809071867fb0385660bb6017534251e1c1338a24bda098f02274e4f6deabb8e",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.4/pulsia-plugin-wingate-client.zip.sha256",
-          "created_at": "2026-10-06T15:16:23Z",
-          "updated_at": "2026-10-06T15:16:24Z"
-        }
-      ]
-    },
-    {
-      "id": 404864396,
-      "tag_name": "pulsia-plugin-wingate-client@0.1.3",
-      "name": "pulsia-plugin-wingate-client 0.1.3",
-      "body": "Preserves Pulsia host surface classes, centers login, standardizes action button geometry, and adds movable, resizable dialogs with per-dialog geometry restoration.",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.3",
-      "published_at": "2026-10-06T15:08:58Z",
-      "created_at": "2026-10-06T14:37:51Z",
-      "updated_at": "2026-10-06T15:08:58Z",
-      "assets": [
-        {
-          "id": 615852215,
-          "name": "pulsia-plugin-wingate-client.zip",
-          "state": "uploaded",
-          "size": 119510,
-          "digest": "sha256:7c32770b79ec4ab81a93a4f9646f18512c7c971fce27b18414087ca091dc169c",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.3/pulsia-plugin-wingate-client.zip",
-          "created_at": "2026-10-06T15:08:56Z",
-          "updated_at": "2026-10-06T15:08:57Z"
-        },
-        {
-          "id": 615852216,
-          "name": "pulsia-plugin-wingate-client.zip.sha256",
-          "state": "uploaded",
-          "size": 99,
-          "digest": "sha256:d5ca473992391e77edf11464d720b86cdc00051064cfd8664cc3c8e86a29e5b8",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.3/pulsia-plugin-wingate-client.zip.sha256",
-          "created_at": "2026-10-06T15:08:56Z",
-          "updated_at": "2026-10-06T15:08:56Z"
         }
       ]
     },
@@ -5592,40 +5456,6 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.0.1/pulsia-catalog-studio.zip.sha256",
           "created_at": "2026-09-27T07:47:06Z",
           "updated_at": "2026-09-27T07:47:06Z"
-        }
-      ]
-    },
-    {
-      "id": 397496337,
-      "tag_name": "pulsia.catalog-studio@1.0.0",
-      "name": "pulsia.catalog-studio@1.0.0",
-      "body": "신규 프로젝트 문서 골격, 기존 프로젝트 ACP 최초 정리·원문 백업·참고 링크, 별도 동의 소스 헤더, 요청 원문·해석과 doc/docs 동시 갱신, 모든 ACP 작업의 모델·노력치 선택을 제공함.\n\nPulsia 0.2.979 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-catalog-manager/commit/18c7bca14b5f4d7ef41cd1e83b93881119879b5e\n\nSHA-256 (pulsia-catalog-studio.zip): fcb734aab00d477e4002da02aa0577214a093f6d90138a667257c9c9146892fc",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.0.0",
-      "published_at": "2026-09-27T04:24:21Z",
-      "created_at": "2026-09-20T13:57:18Z",
-      "updated_at": "2026-09-27T04:24:21Z",
-      "assets": [
-        {
-          "id": 592106431,
-          "name": "pulsia-catalog-studio.zip",
-          "state": "uploaded",
-          "size": 90329,
-          "digest": "sha256:fcb734aab00d477e4002da02aa0577214a093f6d90138a667257c9c9146892fc",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.0.0/pulsia-catalog-studio.zip",
-          "created_at": "2026-09-27T04:11:00Z",
-          "updated_at": "2026-09-27T04:11:00Z"
-        },
-        {
-          "id": 592106438,
-          "name": "pulsia-catalog-studio.zip.sha256",
-          "state": "uploaded",
-          "size": 92,
-          "digest": "sha256:04ed3ad8aff84c7983e4373d4633edb4b5a38f740fd3541e16c0633655342f81",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.0.0/pulsia-catalog-studio.zip.sha256",
-          "created_at": "2026-09-27T04:11:01Z",
-          "updated_at": "2026-09-27T04:11:01Z"
         }
       ]
     },
