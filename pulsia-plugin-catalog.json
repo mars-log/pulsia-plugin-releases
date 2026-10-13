@@ -1,8 +1,110 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-12T08:44:19.000Z",
+  "generatedAt": "2026-10-13T02:31:16.000Z",
   "releases": [
+    {
+      "id": 411190663,
+      "tag_name": "pulsia.sql-studio@0.0.104",
+      "name": "SQL Studio 0.0.104",
+      "body": "- SQL 결과 화면의 중복 제목줄과 패널 조작 버튼을 제거했습니다.\n- Pulsia 0.3.160 이상의 공용 하단 패널 프레임에서 새로고침, 너비 전환, 최대화, 닫기를 제공합니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.sql-studio%400.0.104",
+      "published_at": "2026-10-13T02:31:16Z",
+      "created_at": "2026-10-13T02:07:08Z",
+      "updated_at": "2026-10-13T02:31:16Z",
+      "assets": [
+        {
+          "id": 635639558,
+          "name": "pulsia-sql-studio.zip",
+          "state": "uploaded",
+          "size": 14999,
+          "digest": "sha256:3edb9f27e0584e3d452ea821b64e3fce7bf5627c35a90b5f6cf2709ee5a4585c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.104/pulsia-sql-studio.zip",
+          "created_at": "2026-10-13T02:31:15Z",
+          "updated_at": "2026-10-13T02:31:15Z"
+        },
+        {
+          "id": 635639557,
+          "name": "pulsia-sql-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:8ea9f0df4279472559293a3626ba2c87407bac6e92f1b7453c773cbf66d814da",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.104/pulsia-sql-studio.zip.sha256",
+          "created_at": "2026-10-13T02:31:15Z",
+          "updated_at": "2026-10-13T02:31:15Z"
+        }
+      ]
+    },
+    {
+      "id": 411190627,
+      "tag_name": "pulsia-plugin-tutorial-pulsia-starter@0.1.104",
+      "name": "Pulsia 시작 안내 0.1.104",
+      "body": "- 튜토리얼 표시를 끄거나 종료하면 남아 있던 시작 예약을 즉시 취소합니다.\n- 저장된 탭 복원과 설정 조회 순서가 달라도 튜토리얼이 다시 열리지 않습니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-tutorial-pulsia-starter%400.1.104",
+      "published_at": "2026-10-13T02:31:13Z",
+      "created_at": "2026-10-13T02:07:08Z",
+      "updated_at": "2026-10-13T02:31:13Z",
+      "assets": [
+        {
+          "id": 635639482,
+          "name": "pulsia-plugin-tutorial-pulsia-starter.zip",
+          "state": "uploaded",
+          "size": 22802,
+          "digest": "sha256:0ead999c848666bcf0b56f3028d4f0ef5ab2df93421a4d51601c3795ad8e7e92",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.104/pulsia-plugin-tutorial-pulsia-starter.zip",
+          "created_at": "2026-10-13T02:31:12Z",
+          "updated_at": "2026-10-13T02:31:12Z"
+        },
+        {
+          "id": 635639485,
+          "name": "pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
+          "state": "uploaded",
+          "size": 108,
+          "digest": "sha256:9f63ccea02b1b09a35129971943927513999b1c4fdef3eccf8d1ad964b468dfe",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.104/pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
+          "created_at": "2026-10-13T02:31:12Z",
+          "updated_at": "2026-10-13T02:31:13Z"
+        }
+      ]
+    },
+    {
+      "id": 411190587,
+      "tag_name": "pulsia-plugin-mini-acp@1.0.113",
+      "name": "Mini ACP 1.0.113",
+      "body": "- 대메뉴별 모델 작업 도우미가 준비된 위치에서만 표시됩니다.\n- 도우미가 길어진 대메뉴 목록을 가리지 않도록 메뉴와 도우미 영역을 분리했습니다.\n- 좁은 높이에서는 메뉴 사용을 우선합니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-mini-acp%401.0.113",
+      "published_at": "2026-10-13T02:31:10Z",
+      "created_at": "2026-10-13T02:07:08Z",
+      "updated_at": "2026-10-13T02:31:10Z",
+      "assets": [
+        {
+          "id": 635639410,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 21654,
+          "digest": "sha256:ef2a39bf3e4962d72f4f336cab7d74aa9f3f5f8143449afcb18384b7ca241a72",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.113/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-10-13T02:31:09Z",
+          "updated_at": "2026-10-13T02:31:09Z"
+        },
+        {
+          "id": 635639412,
+          "name": "pulsia-plugin-mini-acp.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:11a2dfed3bf5f251091e3c0f6a72ea7ff2fe9f8fa108883c02284974f46016ec",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.113/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-10-13T02:31:09Z",
+          "updated_at": "2026-10-13T02:31:09Z"
+        }
+      ]
+    },
     {
       "id": 410387529,
       "tag_name": "pulsia.sql-studio@0.0.103",
