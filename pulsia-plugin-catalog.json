@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-13T05:32:29.000Z",
+  "generatedAt": "2026-10-13T08:03:20.000Z",
   "releases": [
     {
       "id": 411190663,
@@ -34,6 +34,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.104/pulsia-sql-studio.zip.sha256",
           "created_at": "2026-10-13T02:31:15Z",
           "updated_at": "2026-10-13T02:31:15Z"
+        }
+      ]
+    },
+    {
+      "id": 411434021,
+      "tag_name": "pulsia.catalog-studio@1.2.136",
+      "name": "Catalog Studio 1.2.136",
+      "body": "문제 해결 기록 조회를 저부하 증분 갱신 방식으로 개선합니다.\n\n- 문제 기록 파일 변경만 묶어서 반영하고 다른 프로젝트 파일 변경에는 다시 읽지 않음\n- 갱신 중 기존 목록과 문서를 유지해 반복 깜박임 제거\n- 왼쪽 목록 너비 조절과 재시작 복원 지원\n- 폴더별·처리 일자별 보기와 처리 완료 가리기 상태 복원\n- 분류·문제 파일 캐시로 전체 파일 재조회 최소화",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.136",
+      "published_at": "2026-10-13T08:03:20Z",
+      "created_at": "2026-10-13T05:32:36Z",
+      "updated_at": "2026-10-13T08:03:20Z",
+      "assets": [
+        {
+          "id": 636334760,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 285844,
+          "digest": "sha256:0aa08d3d8b16583864cd067dbe2dcef1ebbb4d221af53be995fc986d6d31f9ae",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.136/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-13T08:03:19Z",
+          "updated_at": "2026-10-13T08:03:19Z"
         }
       ]
     },
