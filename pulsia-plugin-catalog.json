@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-13T08:03:20.000Z",
+  "generatedAt": "2026-10-13T08:27:13.000Z",
   "releases": [
+    {
+      "id": 411452591,
+      "tag_name": "pulsia.sql-studio@0.0.105",
+      "name": "SQL Studio 0.0.105",
+      "body": "SQL 결과 세션·데이터·실행 정보 영역의 폭 조절과 저장, 데이터 행 선택 동작을 추가함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.sql-studio%400.0.105",
+      "published_at": "2026-10-13T08:27:13Z",
+      "created_at": "2026-10-13T08:03:28Z",
+      "updated_at": "2026-10-13T08:27:13Z",
+      "assets": [
+        {
+          "id": 636393653,
+          "name": "pulsia-sql-studio.zip",
+          "state": "uploaded",
+          "size": 18305,
+          "digest": "sha256:44b3b1880cc5b88da3e2c819dcfdedc79a5be385bc90ab0d3a89b4d102c0f127",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.105/pulsia-sql-studio.zip",
+          "created_at": "2026-10-13T08:27:12Z",
+          "updated_at": "2026-10-13T08:27:12Z"
+        },
+        {
+          "id": 636393652,
+          "name": "pulsia-sql-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 119,
+          "digest": "sha256:feb308e2dd4e3b6e58b5d2ad0c264381a825bee58c8773b9057bfe9336447ccd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.105/pulsia-sql-studio.zip.sha256",
+          "created_at": "2026-10-13T08:27:12Z",
+          "updated_at": "2026-10-13T08:27:12Z"
+        }
+      ]
+    },
     {
       "id": 411190663,
       "tag_name": "pulsia.sql-studio@0.0.104",
@@ -116,6 +150,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.104/pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
           "created_at": "2026-10-13T02:31:12Z",
           "updated_at": "2026-10-13T02:31:13Z"
+        }
+      ]
+    },
+    {
+      "id": 411452549,
+      "tag_name": "pulsia-plugin-mini-acp@1.0.114",
+      "name": "Mini ACP 1.0.114",
+      "body": "모델 작업 도우미의 소유 메뉴 표시와 공용 리사이저 동작을 바로잡음.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-mini-acp%401.0.114",
+      "published_at": "2026-10-13T08:27:08Z",
+      "created_at": "2026-10-13T08:03:28Z",
+      "updated_at": "2026-10-13T08:27:08Z",
+      "assets": [
+        {
+          "id": 636393535,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 21652,
+          "digest": "sha256:93769d21ab40d973b4c26d7687448e1a7cdb192c7b597f58526a4aa8ce33ec9b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.114/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-10-13T08:27:07Z",
+          "updated_at": "2026-10-13T08:27:07Z"
+        },
+        {
+          "id": 636393536,
+          "name": "pulsia-plugin-mini-acp.zip.sha256",
+          "state": "uploaded",
+          "size": 146,
+          "digest": "sha256:891a18d6aee5e7fec6bc497b5fe6e9483a5fda1e67e7f9da6465df7e613256e9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.114/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-10-13T08:27:07Z",
+          "updated_at": "2026-10-13T08:27:07Z"
         }
       ]
     },
