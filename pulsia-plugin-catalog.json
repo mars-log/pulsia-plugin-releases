@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-13T08:52:01.000Z",
+  "generatedAt": "2026-10-13T08:53:34.000Z",
   "releases": [
     {
       "id": 411452591,
@@ -68,6 +68,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.104/pulsia-sql-studio.zip.sha256",
           "created_at": "2026-10-13T02:31:15Z",
           "updated_at": "2026-10-13T02:31:15Z"
+        }
+      ]
+    },
+    {
+      "id": 411474916,
+      "tag_name": "pulsia.catalog-studio@1.2.139",
+      "name": "Catalog Studio 1.2.139",
+      "body": "문제 해결 기록 화면의 변경 파일 조회 입력을 등록된 동작 형식과 맞추고, Catalog Studio 문제 기록 분류와 재발 방지 근거를 추가함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.139",
+      "published_at": "2026-10-13T08:53:34Z",
+      "created_at": "2026-10-13T08:52:09Z",
+      "updated_at": "2026-10-13T08:53:34Z",
+      "assets": [
+        {
+          "id": 636453633,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 287809,
+          "digest": "sha256:a58aa88b87cae3203e01c7616f6a10c07120f5ce6d59fa79444f66e88c9ec2f8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.139/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-13T08:53:33Z",
+          "updated_at": "2026-10-13T08:53:34Z"
+        },
+        {
+          "id": 636453632,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:56e5c63d3b2dc2a591f51115d41461d48f2fc4a9c1289054f1c0a374dae0a07e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.139/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-13T08:53:33Z",
+          "updated_at": "2026-10-13T08:53:33Z"
         }
       ]
     },
