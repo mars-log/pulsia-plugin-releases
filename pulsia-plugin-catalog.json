@@ -1,8 +1,32 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-14T06:30:51.000Z",
+  "generatedAt": "2026-10-14T06:31:46.000Z",
   "releases": [
+    {
+      "id": 412403599,
+      "tag_name": "pulsia.sql-studio@0.0.110",
+      "name": "pulsia.sql-studio 0.0.110",
+      "body": "공용 너비·높이 조절과 테마 색상·두께를 사용합니다. 드래그·방향키·정착 저장·취소·복원을 Pulsia 공용 모듈에 연결하고 기존 크기 설정을 유지합니다.\n\nPulsia 0.3.172 이상을 먼저 업데이트하고 재시작한 뒤 설치합니다.\n\nSource: e9e251eac21cb0b588cc8d719f6536f22166d641\nSHA-256: b9e0448d3ec37fdadfac00b4a7e8f96bbc6e42c65418177aa3b98846cc70b985\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.sql-studio%400.0.110",
+      "published_at": "2026-10-14T06:31:46Z",
+      "created_at": "2026-10-14T06:30:57Z",
+      "updated_at": "2026-10-14T06:31:46Z",
+      "assets": [
+        {
+          "id": 639478364,
+          "name": "pulsia-sql-studio.zip",
+          "state": "uploaded",
+          "size": 46223,
+          "digest": "sha256:b9e0448d3ec37fdadfac00b4a7e8f96bbc6e42c65418177aa3b98846cc70b985",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.110/pulsia-sql-studio.zip",
+          "created_at": "2026-10-14T06:31:45Z",
+          "updated_at": "2026-10-14T06:31:45Z"
+        }
+      ]
+    },
     {
       "id": 412285198,
       "tag_name": "pulsia.sql-studio@0.0.109",
@@ -34,6 +58,104 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.109/pulsia-sql-studio.zip.sha256",
           "created_at": "2026-10-14T02:36:58Z",
           "updated_at": "2026-10-14T02:36:59Z"
+        }
+      ]
+    },
+    {
+      "id": 412403552,
+      "tag_name": "pulsia.object-model-studio@0.10.118",
+      "name": "pulsia.object-model-studio 0.10.118",
+      "body": "공용 너비·높이 조절과 테마 색상·두께를 사용합니다. 드래그·방향키·정착 저장·취소·복원을 Pulsia 공용 모듈에 연결하고 기존 크기 설정을 유지합니다.\n\nPulsia 0.3.172 이상을 먼저 업데이트하고 재시작한 뒤 설치합니다.\n\nSource: b6b5ebd18431b884b616a2a0046be81d0ff88d8f\nSHA-256: 5b13d1be88939b361a7a066e45b9b98a0b5a025bec730551a4a4931fc2a03a29\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.118",
+      "published_at": "2026-10-14T06:31:41Z",
+      "created_at": "2026-10-14T06:30:57Z",
+      "updated_at": "2026-10-14T06:31:41Z",
+      "assets": [
+        {
+          "id": 639478206,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 359975,
+          "digest": "sha256:5b13d1be88939b361a7a066e45b9b98a0b5a025bec730551a4a4931fc2a03a29",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.118/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-14T06:31:40Z",
+          "updated_at": "2026-10-14T06:31:41Z"
+        }
+      ]
+    },
+    {
+      "id": 412403465,
+      "tag_name": "pulsia.db-connector-v0.2.105",
+      "name": "pulsia.db-connector 0.2.105",
+      "body": "공용 너비·높이 조절과 테마 색상·두께를 사용합니다. 드래그·방향키·정착 저장·취소·복원을 Pulsia 공용 모듈에 연결하고 기존 크기 설정을 유지합니다.\n\nPulsia 0.3.172 이상을 먼저 업데이트하고 재시작한 뒤 설치합니다.\n\nSource: e9e251eac21cb0b588cc8d719f6536f22166d641\nSHA-256: 8ba1714c9311d86946c7e5893c7d09e916501cf8411949dafc171b6a2a8a4438\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.db-connector-v0.2.105",
+      "published_at": "2026-10-14T06:31:37Z",
+      "created_at": "2026-10-14T06:30:57Z",
+      "updated_at": "2026-10-14T06:31:37Z",
+      "assets": [
+        {
+          "id": 639477938,
+          "name": "db-driver-mariadb-3.5.4.zip",
+          "state": "uploaded",
+          "size": 1948237,
+          "digest": "sha256:100be009751355b14371fb727d239a8b9a9e5fb03ec500855ef9ac2e763bd12b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.105/db-driver-mariadb-3.5.4.zip",
+          "created_at": "2026-10-14T06:31:34Z",
+          "updated_at": "2026-10-14T06:31:34Z"
+        },
+        {
+          "id": 639477957,
+          "name": "db-driver-mysql-3.24.4.zip",
+          "state": "uploaded",
+          "size": 577691,
+          "digest": "sha256:0ed23908658073ad4f045c0571f45e65f2bc9102eb7b306ac8e8967d28b6e97c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.105/db-driver-mysql-3.24.4.zip",
+          "created_at": "2026-10-14T06:31:34Z",
+          "updated_at": "2026-10-14T06:31:35Z"
+        },
+        {
+          "id": 639477941,
+          "name": "db-driver-oracle-7.0.1.zip",
+          "state": "uploaded",
+          "size": 371700,
+          "digest": "sha256:a0398bab907048576e7fa1b39c76ca2c99d3ab807057b5cfc9b7ee3cd058d1ef",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.105/db-driver-oracle-7.0.1.zip",
+          "created_at": "2026-10-14T06:31:34Z",
+          "updated_at": "2026-10-14T06:31:34Z"
+        },
+        {
+          "id": 639477939,
+          "name": "db-driver-postgresql-8.23.0.zip",
+          "state": "uploaded",
+          "size": 163639,
+          "digest": "sha256:98462d8dacb016c4576318c7dcb6c455cf2d195dcd7751b790d9409f1632d002",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.105/db-driver-postgresql-8.23.0.zip",
+          "created_at": "2026-10-14T06:31:34Z",
+          "updated_at": "2026-10-14T06:31:34Z"
+        },
+        {
+          "id": 639477963,
+          "name": "db-driver-redis-6.3.0.zip",
+          "state": "uploaded",
+          "size": 2212755,
+          "digest": "sha256:b4cf8c8ecc68e7faa87003d93f15eefd47c3032429a2f99437551bdf2f49130c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.105/db-driver-redis-6.3.0.zip",
+          "created_at": "2026-10-14T06:31:34Z",
+          "updated_at": "2026-10-14T06:31:36Z"
+        },
+        {
+          "id": 639477940,
+          "name": "pulsia-plugin-db-connector.zip",
+          "state": "uploaded",
+          "size": 208396,
+          "digest": "sha256:8ba1714c9311d86946c7e5893c7d09e916501cf8411949dafc171b6a2a8a4438",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.105/pulsia-plugin-db-connector.zip",
+          "created_at": "2026-10-14T06:31:34Z",
+          "updated_at": "2026-10-14T06:31:34Z"
         }
       ]
     },
