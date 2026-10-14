@@ -1,8 +1,76 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-14T01:01:10.000Z",
+  "generatedAt": "2026-10-14T02:00:24.000Z",
   "releases": [
+    {
+      "id": 412266798,
+      "tag_name": "pulsia.ai-harness@0.0.101",
+      "name": "AI Harness 0.0.101",
+      "body": "# AI Harness 0.0.101\n\n현재 프로젝트의 AI 지침·자료 참조·공유 정책을 편집하는 첫 UI 판임.\n\n- 카탈로그와 같은 Workbench 화면 구성, light/dark, 대메뉴 공용 Mini ACP를 연결함.\n- 초안 저장·동시 수정 충돌 검사·변경 취소·재시작 보존을 제공함.\n- 회사·팀·프로젝트·개인 문맥의 공유 범위와 외부 AI 허용·만료를 구분함.\n- Pulsia 0.3.170 패키지에서 ZIP 설치·활성화·화면·저장·자료 보존을 확인함.\n- 조직 인증·실시간 파일 공유·원격 템플릿 발행·자동 파일 이관은 후속 구현 대상임.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-harness%400.0.101",
+      "published_at": "2026-10-14T02:00:21Z",
+      "created_at": "2026-10-14T01:01:15Z",
+      "updated_at": "2026-10-14T02:00:21Z",
+      "assets": [
+        {
+          "id": 638896609,
+          "name": "pulsia-ai-harness.zip",
+          "state": "uploaded",
+          "size": 33983,
+          "digest": "sha256:d95fc07955caad0611ecce7824c0df8c494547deb5bd2be27c89b26a438e9f9b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.101/pulsia-ai-harness.zip",
+          "created_at": "2026-10-14T02:00:20Z",
+          "updated_at": "2026-10-14T02:00:20Z"
+        },
+        {
+          "id": 638896613,
+          "name": "pulsia-ai-harness.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:9fd6bf4842a4461f3fc670f1fb598d1e22e79210a39d52152a389e79d41b2766",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.101/pulsia-ai-harness.zip.sha256",
+          "created_at": "2026-10-14T02:00:20Z",
+          "updated_at": "2026-10-14T02:00:20Z"
+        }
+      ]
+    },
+    {
+      "id": 412266830,
+      "tag_name": "pulsia.ai-harness-maker@0.0.101",
+      "name": "AI Harness Maker 0.0.101",
+      "body": "# AI Harness Maker 0.0.101\n\n조건별 AI 지침 템플릿을 제작·미리보고 배포 준비 정보를 저장하는 첫 UI 판임.\n\n- 카탈로그와 같은 Workbench 화면 구성, light/dark, 대메뉴 공용 Mini ACP를 연결함.\n- 초안 저장·동시 수정 충돌 검사·변경 취소·재시작 보존을 제공함.\n- 회사·팀·프로젝트·개인 문맥의 공유 범위와 외부 AI 허용·만료를 구분함.\n- Pulsia 0.3.170 패키지에서 ZIP 설치·활성화·화면·저장·자료 보존을 확인함.\n- 조직 인증·실시간 파일 공유·원격 템플릿 발행·자동 파일 이관은 후속 구현 대상임.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-harness-maker%400.0.101",
+      "published_at": "2026-10-14T02:00:24Z",
+      "created_at": "2026-10-14T01:01:15Z",
+      "updated_at": "2026-10-14T02:00:24Z",
+      "assets": [
+        {
+          "id": 638896764,
+          "name": "pulsia-ai-harness-maker.zip",
+          "state": "uploaded",
+          "size": 33917,
+          "digest": "sha256:bbc4d9d20273f017fcaca04aa4511b1ec049939216f9b39209ce54f5572b1211",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness-maker%400.0.101/pulsia-ai-harness-maker.zip",
+          "created_at": "2026-10-14T02:00:23Z",
+          "updated_at": "2026-10-14T02:00:23Z"
+        },
+        {
+          "id": 638896762,
+          "name": "pulsia-ai-harness-maker.zip.sha256",
+          "state": "uploaded",
+          "size": 94,
+          "digest": "sha256:2e631a30c7ec12560ac6ff824b84937abbce31aaced1af78edc3f79d96ad096c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness-maker%400.0.101/pulsia-ai-harness-maker.zip.sha256",
+          "created_at": "2026-10-14T02:00:23Z",
+          "updated_at": "2026-10-14T02:00:23Z"
+        }
+      ]
+    },
     {
       "id": 412237600,
       "tag_name": "pulsia.sql-studio@0.0.108",
