@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-14T04:29:21.000Z",
+  "generatedAt": "2026-10-14T04:48:13.000Z",
   "releases": [
     {
       "id": 412285198,
@@ -122,6 +122,30 @@
       ]
     },
     {
+      "id": 412346795,
+      "tag_name": "pulsia.ai-harness@0.0.103",
+      "name": "AI Harness 0.0.103",
+      "body": "지침 편집 분할 영역을 Pulsia Workbench 기본 모양과 입력 흐름으로 수정함. 표시선은 1픽셀, 조작 영역은 투명 7픽셀이며 포인터를 누른 동안만 폭이 바뀜.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-harness%400.0.103",
+      "published_at": "2026-10-14T04:48:10Z",
+      "created_at": "2026-10-14T04:29:26Z",
+      "updated_at": "2026-10-14T04:48:10Z",
+      "assets": [
+        {
+          "id": 639253954,
+          "name": "pulsia-ai-harness.zip",
+          "state": "uploaded",
+          "size": 59378,
+          "digest": "sha256:93c21bde2d60f32ddffc6863bd364e62fcced81fac3b19185763c4c3fccc6dd8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.103/pulsia-ai-harness.zip",
+          "created_at": "2026-10-14T04:48:08Z",
+          "updated_at": "2026-10-14T04:48:09Z"
+        }
+      ]
+    },
+    {
       "id": 412338069,
       "tag_name": "pulsia.ai-harness@0.0.102",
       "name": "AI Harness 0.0.102",
@@ -176,6 +200,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.101/pulsia-ai-harness.zip.sha256",
           "created_at": "2026-10-14T02:00:20Z",
           "updated_at": "2026-10-14T02:00:20Z"
+        }
+      ]
+    },
+    {
+      "id": 412346816,
+      "tag_name": "pulsia.ai-harness-maker@0.0.103",
+      "name": "AI Harness Maker 0.0.103",
+      "body": "AI Harness와 공용 실행 자산을 맞춘 판임. 지침 편집 분할 영역을 Pulsia Workbench 기본 모양과 입력 흐름으로 수정함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-harness-maker%400.0.103",
+      "published_at": "2026-10-14T04:48:13Z",
+      "created_at": "2026-10-14T04:29:26Z",
+      "updated_at": "2026-10-14T04:48:13Z",
+      "assets": [
+        {
+          "id": 639254038,
+          "name": "pulsia-ai-harness-maker.zip",
+          "state": "uploaded",
+          "size": 55648,
+          "digest": "sha256:b8534f88cdddc8fb0ac8a4186f9c3fcf38087bc91ebd89c1753e4dee81381116",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness-maker%400.0.103/pulsia-ai-harness-maker.zip",
+          "created_at": "2026-10-14T04:48:11Z",
+          "updated_at": "2026-10-14T04:48:12Z"
         }
       ]
     },
