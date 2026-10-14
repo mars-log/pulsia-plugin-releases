@@ -1,8 +1,32 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-14T06:31:56.000Z",
+  "generatedAt": "2026-10-14T06:32:09.000Z",
   "releases": [
+    {
+      "id": 412403758,
+      "tag_name": "pulsia.test-pack@1.0.109",
+      "name": "pulsia.test-pack 1.0.109",
+      "body": "공용 너비·높이 조절과 테마 색상·두께를 사용합니다. 드래그·방향키·정착 저장·취소·복원을 Pulsia 공용 모듈에 연결하고 기존 크기 설정을 유지합니다.\n\nPulsia 0.3.172 이상을 먼저 업데이트하고 재시작한 뒤 설치합니다.\n\nSource: b6b5ebd18431b884b616a2a0046be81d0ff88d8f\nSHA-256: 5cabbc1d79e7d54bc5675c3691f58bdfcb98077c0e108711e96cef096a0baba8\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.test-pack%401.0.109",
+      "published_at": "2026-10-14T06:32:00Z",
+      "created_at": "2026-10-14T06:31:48Z",
+      "updated_at": "2026-10-14T06:32:00Z",
+      "assets": [
+        {
+          "id": 639478900,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 84079,
+          "digest": "sha256:5cabbc1d79e7d54bc5675c3691f58bdfcb98077c0e108711e96cef096a0baba8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.109/pulsia-test-pack.zip",
+          "created_at": "2026-10-14T06:31:59Z",
+          "updated_at": "2026-10-14T06:31:59Z"
+        }
+      ]
+    },
     {
       "id": 412403599,
       "tag_name": "pulsia.sql-studio@0.0.110",
@@ -316,6 +340,30 @@
       ]
     },
     {
+      "id": 412403804,
+      "tag_name": "pulsia.ai-harness@0.0.106",
+      "name": "pulsia.ai-harness 0.0.106",
+      "body": "공용 너비·높이 조절과 테마 색상·두께를 사용합니다. 드래그·방향키·정착 저장·취소·복원을 Pulsia 공용 모듈에 연결하고 기존 크기 설정을 유지합니다.\n\nPulsia 0.3.172 이상을 먼저 업데이트하고 재시작한 뒤 설치합니다.\n\nSource: b6b5ebd18431b884b616a2a0046be81d0ff88d8f\nSHA-256: 4a2f21132596b0b56230ebebb699f2f9ddab16764f1e5c5228466002662f6e7f\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-harness%400.0.106",
+      "published_at": "2026-10-14T06:32:05Z",
+      "created_at": "2026-10-14T06:32:01Z",
+      "updated_at": "2026-10-14T06:32:05Z",
+      "assets": [
+        {
+          "id": 639479085,
+          "name": "pulsia-ai-harness.zip",
+          "state": "uploaded",
+          "size": 81730,
+          "digest": "sha256:4a2f21132596b0b56230ebebb699f2f9ddab16764f1e5c5228466002662f6e7f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.106/pulsia-ai-harness.zip",
+          "created_at": "2026-10-14T06:32:04Z",
+          "updated_at": "2026-10-14T06:32:04Z"
+        }
+      ]
+    },
+    {
       "id": 412371815,
       "tag_name": "pulsia.ai-harness@0.0.105",
       "name": "AI Harness 0.0.105",
@@ -462,6 +510,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.101/pulsia-ai-harness.zip.sha256",
           "created_at": "2026-10-14T02:00:20Z",
           "updated_at": "2026-10-14T02:00:20Z"
+        }
+      ]
+    },
+    {
+      "id": 412403839,
+      "tag_name": "pulsia.ai-harness-maker@0.0.106",
+      "name": "pulsia.ai-harness-maker 0.0.106",
+      "body": "공용 너비·높이 조절과 테마 색상·두께를 사용합니다. 드래그·방향키·정착 저장·취소·복원을 Pulsia 공용 모듈에 연결하고 기존 크기 설정을 유지합니다.\n\nPulsia 0.3.172 이상을 먼저 업데이트하고 재시작한 뒤 설치합니다.\n\nSource: b6b5ebd18431b884b616a2a0046be81d0ff88d8f\nSHA-256: b61de0affd5210710834be08ccb37c8444ec71ca797f3edf1ae75a34a6dcd63f\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-harness-maker%400.0.106",
+      "published_at": "2026-10-14T06:32:09Z",
+      "created_at": "2026-10-14T06:32:01Z",
+      "updated_at": "2026-10-14T06:32:09Z",
+      "assets": [
+        {
+          "id": 639479191,
+          "name": "pulsia-ai-harness-maker.zip",
+          "state": "uploaded",
+          "size": 77735,
+          "digest": "sha256:b61de0affd5210710834be08ccb37c8444ec71ca797f3edf1ae75a34a6dcd63f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness-maker%400.0.106/pulsia-ai-harness-maker.zip",
+          "created_at": "2026-10-14T06:32:08Z",
+          "updated_at": "2026-10-14T06:32:08Z"
         }
       ]
     },
