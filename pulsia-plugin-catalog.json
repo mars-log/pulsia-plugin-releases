@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-14T05:20:03.000Z",
+  "generatedAt": "2026-10-14T05:38:42.000Z",
   "releases": [
     {
       "id": 412285198,
@@ -122,6 +122,40 @@
       ]
     },
     {
+      "id": 412371815,
+      "tag_name": "pulsia.ai-harness@0.0.105",
+      "name": "AI Harness 0.0.105",
+      "body": "Plugin CSS 선택자를 AI Harness 화면 아래로 제한하여 Pulsia 기본 편집기와 다른 Workbench 화면을 덮지 않도록 수정함. 기존 프로젝트 문맥과 로컬 저장 형식은 유지함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-harness%400.0.105",
+      "published_at": "2026-10-14T05:38:39Z",
+      "created_at": "2026-10-14T05:20:09Z",
+      "updated_at": "2026-10-14T05:38:39Z",
+      "assets": [
+        {
+          "id": 639362897,
+          "name": "pulsia-ai-harness.zip",
+          "state": "uploaded",
+          "size": 82487,
+          "digest": "sha256:a4da563ed76b82ba959de7e1f4316002672c33feafe41290b2ffb1a40ae71f1a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.105/pulsia-ai-harness.zip",
+          "created_at": "2026-10-14T05:38:38Z",
+          "updated_at": "2026-10-14T05:38:38Z"
+        },
+        {
+          "id": 639362900,
+          "name": "pulsia-ai-harness.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:3a5164506408d8f9d419e15d2fda3f0fb4b3545dc10fa3a7d8ccfd667de34375",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.105/pulsia-ai-harness.zip.sha256",
+          "created_at": "2026-10-14T05:38:38Z",
+          "updated_at": "2026-10-14T05:38:38Z"
+        }
+      ]
+    },
+    {
       "id": 412361876,
       "tag_name": "pulsia.ai-harness@0.0.104",
       "name": "AI Harness 0.0.104",
@@ -234,6 +268,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.101/pulsia-ai-harness.zip.sha256",
           "created_at": "2026-10-14T02:00:20Z",
           "updated_at": "2026-10-14T02:00:20Z"
+        }
+      ]
+    },
+    {
+      "id": 412371850,
+      "tag_name": "pulsia.ai-harness-maker@0.0.105",
+      "name": "AI Harness Maker 0.0.105",
+      "body": "Plugin CSS 선택자를 AI Harness Maker 화면 아래로 제한하여 Pulsia 기본 편집기와 다른 Workbench 화면을 덮지 않도록 수정함. 기존 제작 초안과 로컬 저장 형식은 유지함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-harness-maker%400.0.105",
+      "published_at": "2026-10-14T05:38:42Z",
+      "created_at": "2026-10-14T05:20:09Z",
+      "updated_at": "2026-10-14T05:38:42Z",
+      "assets": [
+        {
+          "id": 639362982,
+          "name": "pulsia-ai-harness-maker.zip",
+          "state": "uploaded",
+          "size": 78490,
+          "digest": "sha256:89bbbd4f82513c157ca335392ecd4fa917520ea37588eccc1261163220a3c970",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness-maker%400.0.105/pulsia-ai-harness-maker.zip",
+          "created_at": "2026-10-14T05:38:41Z",
+          "updated_at": "2026-10-14T05:38:41Z"
+        },
+        {
+          "id": 639362984,
+          "name": "pulsia-ai-harness-maker.zip.sha256",
+          "state": "uploaded",
+          "size": 94,
+          "digest": "sha256:63f9a9d476db668b12ca154d1f41af3052f6b0771565aeb5fbfff563230a46b7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness-maker%400.0.105/pulsia-ai-harness-maker.zip.sha256",
+          "created_at": "2026-10-14T05:38:41Z",
+          "updated_at": "2026-10-14T05:38:41Z"
         }
       ]
     },
