@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-14T04:48:13.000Z",
+  "generatedAt": "2026-10-14T05:20:03.000Z",
   "releases": [
     {
       "id": 412285198,
@@ -122,6 +122,40 @@
       ]
     },
     {
+      "id": 412361876,
+      "tag_name": "pulsia.ai-harness@0.0.104",
+      "name": "AI Harness 0.0.104",
+      "body": "프로젝트 목적·금지·승인·검증 질문과 헌법·사법·행정 미리보기, Catalog 요청 원문·해석 보관과 압축 입력, 공유 대상·자료·변경 검토 화면을 연결함. 신규 외부 AI 조회는 제외로 시작하며 실제 전달 상태를 표시함. 서버 생성·조직 인증·자동 문서 적용은 상세 설계 단계임. 소스: mars-log/pulsia-plugin-studio 0ace6b2.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-harness%400.0.104",
+      "published_at": "2026-10-14T05:20:00Z",
+      "created_at": "2026-10-14T04:48:20Z",
+      "updated_at": "2026-10-14T05:20:00Z",
+      "assets": [
+        {
+          "id": 639322580,
+          "name": "pulsia-ai-harness.zip",
+          "state": "uploaded",
+          "size": 82414,
+          "digest": "sha256:dccfc151f7c295f72da7261242b63c2f0210c9f89fa4eae476934b364517bee0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.104/pulsia-ai-harness.zip",
+          "created_at": "2026-10-14T05:19:59Z",
+          "updated_at": "2026-10-14T05:19:59Z"
+        },
+        {
+          "id": 639322581,
+          "name": "pulsia-ai-harness.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:82940cfbeb48730b19b489c5f0b87c27fc1182335272ab69c25d805c7f24645d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.104/pulsia-ai-harness.zip.sha256",
+          "created_at": "2026-10-14T05:19:59Z",
+          "updated_at": "2026-10-14T05:19:59Z"
+        }
+      ]
+    },
+    {
       "id": 412346795,
       "tag_name": "pulsia.ai-harness@0.0.103",
       "name": "AI Harness 0.0.103",
@@ -200,6 +234,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.101/pulsia-ai-harness.zip.sha256",
           "created_at": "2026-10-14T02:00:20Z",
           "updated_at": "2026-10-14T02:00:20Z"
+        }
+      ]
+    },
+    {
+      "id": 412361902,
+      "tag_name": "pulsia.ai-harness-maker@0.0.104",
+      "name": "AI Harness Maker 0.0.104",
+      "body": "구매자 질문과 답변별 지침 제작, 역할·상황별 결과와 포함 이유, 미응답·빈 지침·명시 배타 규칙 검사, 배포안 검토 화면을 제공함. 판매자 실제 제작 원본은 공개 배포물에 포함하지 않음. 서버 발행·인증·서명은 상세 설계 단계임. 소스: mars-log/pulsia-plugin-studio 0ace6b2.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-harness-maker%400.0.104",
+      "published_at": "2026-10-14T05:20:03Z",
+      "created_at": "2026-10-14T04:48:20Z",
+      "updated_at": "2026-10-14T05:20:03Z",
+      "assets": [
+        {
+          "id": 639322697,
+          "name": "pulsia-ai-harness-maker.zip",
+          "state": "uploaded",
+          "size": 78422,
+          "digest": "sha256:07e569ce8d5a14c02b98e845f1b6b2401f00fc6a1aef65c9daaaced261ba6c42",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness-maker%400.0.104/pulsia-ai-harness-maker.zip",
+          "created_at": "2026-10-14T05:20:02Z",
+          "updated_at": "2026-10-14T05:20:02Z"
+        },
+        {
+          "id": 639322699,
+          "name": "pulsia-ai-harness-maker.zip.sha256",
+          "state": "uploaded",
+          "size": 94,
+          "digest": "sha256:6c33941d88fa2b0bb5dbaa2fe3cc6e66adb6867fcca5b6652450ded075b438ab",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness-maker%400.0.104/pulsia-ai-harness-maker.zip.sha256",
+          "created_at": "2026-10-14T05:20:02Z",
+          "updated_at": "2026-10-14T05:20:02Z"
         }
       ]
     },
