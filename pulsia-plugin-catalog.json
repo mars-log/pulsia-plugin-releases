@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-14T06:31:46.000Z",
+  "generatedAt": "2026-10-14T06:31:56.000Z",
   "releases": [
     {
       "id": 412403599,
@@ -82,6 +82,54 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.118/pulsia-plugin-object-manager.zip",
           "created_at": "2026-10-14T06:31:40Z",
           "updated_at": "2026-10-14T06:31:41Z"
+        }
+      ]
+    },
+    {
+      "id": 412403659,
+      "tag_name": "pulsia.net-manager@0.1.127",
+      "name": "pulsia.net-manager 0.1.127",
+      "body": "공용 너비·높이 조절과 테마 색상·두께를 사용합니다. 드래그·방향키·정착 저장·취소·복원을 Pulsia 공용 모듈에 연결하고 기존 크기 설정을 유지합니다.\n\nPulsia 0.3.172 이상을 먼저 업데이트하고 재시작한 뒤 설치합니다.\n\nSource: e9e251eac21cb0b588cc8d719f6536f22166d641\nSHA-256: 8afd2f656e3010104b5f44108d40b4a4df3436019734019d14ffca229bd4970e\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.net-manager%400.1.127",
+      "published_at": "2026-10-14T06:31:50Z",
+      "created_at": "2026-10-14T06:31:48Z",
+      "updated_at": "2026-10-14T06:31:50Z",
+      "assets": [
+        {
+          "id": 639478532,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 192004,
+          "digest": "sha256:8afd2f656e3010104b5f44108d40b4a4df3436019734019d14ffca229bd4970e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.127/wintera-net-manager.zip",
+          "created_at": "2026-10-14T06:31:49Z",
+          "updated_at": "2026-10-14T06:31:49Z"
+        }
+      ]
+    },
+    {
+      "id": 412403714,
+      "tag_name": "pulsia.java-development-pack@0.1.146",
+      "name": "pulsia.java-development-pack 0.1.146",
+      "body": "공용 너비·높이 조절과 테마 색상·두께를 사용합니다. 드래그·방향키·정착 저장·취소·복원을 Pulsia 공용 모듈에 연결하고 기존 크기 설정을 유지합니다.\n\nPulsia 0.3.172 이상을 먼저 업데이트하고 재시작한 뒤 설치합니다.\n\nSource: b6b5ebd18431b884b616a2a0046be81d0ff88d8f\nSHA-256: 6fe05cedbafb0713bb0740566a118fa4bc41ac4efa1b4bc9afbafcff309f4985\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.java-development-pack%400.1.146",
+      "published_at": "2026-10-14T06:31:56Z",
+      "created_at": "2026-10-14T06:31:48Z",
+      "updated_at": "2026-10-14T06:31:56Z",
+      "assets": [
+        {
+          "id": 639478716,
+          "name": "pulsia-java-development-pack.zip",
+          "state": "uploaded",
+          "size": 4779823,
+          "digest": "sha256:6fe05cedbafb0713bb0740566a118fa4bc41ac4efa1b4bc9afbafcff309f4985",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.146/pulsia-java-development-pack.zip",
+          "created_at": "2026-10-14T06:31:54Z",
+          "updated_at": "2026-10-14T06:31:55Z"
         }
       ]
     },
