@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-14T02:36:50.000Z",
+  "generatedAt": "2026-10-14T02:36:59.000Z",
   "releases": [
+    {
+      "id": 412285198,
+      "tag_name": "pulsia.sql-studio@0.0.109",
+      "name": "SQL Studio 0.0.109",
+      "body": "Plugin Studio source: 1196d04\n\n- Database Explorer shows only the DB Connector sources selected by the user and releases hidden explorer connections.\n- SQL editor actions use an icon-only toolbar with the complete action set in the common overflow menu.\n- Closing an editor tab releases its SQL session, persistent connection, and unused pool.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.sql-studio%400.0.109",
+      "published_at": "2026-10-14T02:36:59Z",
+      "created_at": "2026-10-14T02:00:32Z",
+      "updated_at": "2026-10-14T02:36:59Z",
+      "assets": [
+        {
+          "id": 638975793,
+          "name": "pulsia-sql-studio.zip",
+          "state": "uploaded",
+          "size": 47567,
+          "digest": "sha256:10fddedad98e0f4b891a00a1a62ceee0f73a0e4941745014d7038474157d44c2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.109/pulsia-sql-studio.zip",
+          "created_at": "2026-10-14T02:36:58Z",
+          "updated_at": "2026-10-14T02:36:58Z"
+        },
+        {
+          "id": 638975796,
+          "name": "pulsia-sql-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:bcce83807ec2aeed2e8c3ecd1c75e865968245bf28199dbf7c8922dc53a0ec1c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.109/pulsia-sql-studio.zip.sha256",
+          "created_at": "2026-10-14T02:36:58Z",
+          "updated_at": "2026-10-14T02:36:59Z"
+        }
+      ]
+    },
     {
       "id": 412285107,
       "tag_name": "pulsia.db-connector-v0.2.104",
