@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-14T06:24:05.000Z",
+  "generatedAt": "2026-10-14T06:30:51.000Z",
   "releases": [
     {
       "id": 412285198,
@@ -118,6 +118,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.104/pulsia-plugin-db-connector.zip.sha256",
           "created_at": "2026-10-14T02:36:48Z",
           "updated_at": "2026-10-14T02:36:48Z"
+        }
+      ]
+    },
+    {
+      "id": 412402966,
+      "tag_name": "pulsia.catalog-studio@1.2.140",
+      "name": "pulsia.catalog-studio 1.2.140",
+      "body": "공용 너비·높이 조절과 테마 색상·두께를 사용합니다. 드래그·방향키·정착 저장·취소·복원을 Pulsia 공용 모듈에 연결하고 기존 크기 설정을 유지합니다.\n\nPulsia 0.3.172 이상을 먼저 업데이트하고 재시작한 뒤 설치합니다.\n\nSource: e9e251eac21cb0b588cc8d719f6536f22166d641\nSHA-256: d2db522623d2320a316ce57d155692b1a373d6009d937c17a71e75f0f376270d\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.140",
+      "published_at": "2026-10-14T06:30:51Z",
+      "created_at": "2026-10-14T06:24:13Z",
+      "updated_at": "2026-10-14T06:30:51Z",
+      "assets": [
+        {
+          "id": 639476458,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 283515,
+          "digest": "sha256:d2db522623d2320a316ce57d155692b1a373d6009d937c17a71e75f0f376270d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.140/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-14T06:30:50Z",
+          "updated_at": "2026-10-14T06:30:50Z"
         }
       ]
     },
@@ -418,6 +442,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness-maker%400.0.101/pulsia-ai-harness-maker.zip.sha256",
           "created_at": "2026-10-14T02:00:23Z",
           "updated_at": "2026-10-14T02:00:23Z"
+        }
+      ]
+    },
+    {
+      "id": 412402920,
+      "tag_name": "pulsia-plugin-mini-acp@1.0.115",
+      "name": "pulsia-plugin-mini-acp 1.0.115",
+      "body": "공용 너비·높이 조절과 테마 색상·두께를 사용합니다. 드래그·방향키·정착 저장·취소·복원을 Pulsia 공용 모듈에 연결하고 기존 크기 설정을 유지합니다.\n\nPulsia 0.3.172 이상을 먼저 업데이트하고 재시작한 뒤 설치합니다.\n\nSource: b6b5ebd18431b884b616a2a0046be81d0ff88d8f\nSHA-256: 4535237260b26d18d6f6e44b595c6935f8154614e71e1d0832d708738c46e256\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-mini-acp%401.0.115",
+      "published_at": "2026-10-14T06:30:47Z",
+      "created_at": "2026-10-14T06:24:13Z",
+      "updated_at": "2026-10-14T06:30:47Z",
+      "assets": [
+        {
+          "id": 639476348,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 23042,
+          "digest": "sha256:4535237260b26d18d6f6e44b595c6935f8154614e71e1d0832d708738c46e256",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.115/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-10-14T06:30:46Z",
+          "updated_at": "2026-10-14T06:30:46Z"
         }
       ]
     },
