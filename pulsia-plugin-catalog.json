@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-14T07:48:03.000Z",
+  "generatedAt": "2026-10-14T08:20:20.000Z",
   "releases": [
     {
       "id": 412403758,
@@ -806,6 +806,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.115/pulsia-plugin-mini-acp.zip",
           "created_at": "2026-10-14T06:30:46Z",
           "updated_at": "2026-10-14T06:30:46Z"
+        }
+      ]
+    },
+    {
+      "id": 412484434,
+      "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.102",
+      "name": "AI Agent Collaboration Chat 0.1.102",
+      "body": "협업 대화의 진행 방식과 패널 조작을 개선한 0.1.102임.\n\n- 공용 대화에서 Agent 관리·설정·다시 로그인·로그아웃 메뉴를 숨기고 대화 목록 버튼을 유지함.\n- 세 패널의 두 번째 행은 한 줄 높이를 유지하며 긴 제목·옵션 설명을 먼저 말줄임함.\n- 각자 답변과 서로 대화를 구분하고, 두 답변 완료 뒤 이 답변으로 대화 시작 버튼을 제공함.\n- 본문 중복 타이틀을 제거하고 진행 방식·토론 횟수·중단을 Core 다이나믹 헤더로 이동함.\n- 마지막 패널의 바깥 보더와 좌우 끝 세션 옵션 팝업의 내용 잘림을 수정함.\n- MCP의 mode/rounds/discuss, SDK 헤더 대상, 공개 매뉴얼·기능 목록·두 스킬을 함께 갱신함.\n\n검증: 기능·Backend 시험 22개와 격리된 Electron UI 흐름 15개를 통과함. light/dark·좁은 화면·좌우 끝 옵션 팝업·패널 이동·대화 복원·화면 및 기능 SDK를 포함함. AI 실행은 테스트 Agent 기준임.\n\nSource: pulsia-plugin-studio 198b176770eee887f289d869a0186eb14d034f88\nPublic API: 1\nSHA256: 990bcabc48fe0c238fd795abe27c8e1f68fadbea5a8bdb6e18eafc48cbf9b02e\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-ai-agent-collaboration-chat%400.1.102",
+      "published_at": "2026-10-14T08:20:20Z",
+      "created_at": "2026-10-14T07:48:12Z",
+      "updated_at": "2026-10-14T08:20:20Z",
+      "assets": [
+        {
+          "id": 639725167,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "state": "uploaded",
+          "size": 34885,
+          "digest": "sha256:990bcabc48fe0c238fd795abe27c8e1f68fadbea5a8bdb6e18eafc48cbf9b02e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.102/pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "created_at": "2026-10-14T08:20:19Z",
+          "updated_at": "2026-10-14T08:20:19Z"
+        },
+        {
+          "id": 639725162,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "state": "uploaded",
+          "size": 112,
+          "digest": "sha256:e94e4b782b7d55a507438ddba49fed25fb340b3d46c954f8b3b0f7fa4395105a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.102/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "created_at": "2026-10-14T08:20:19Z",
+          "updated_at": "2026-10-14T08:20:19Z"
         }
       ]
     },
