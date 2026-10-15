@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-15T08:35:50.000Z",
+  "generatedAt": "2026-10-15T08:46:14.000Z",
   "releases": [
     {
       "id": 413539583,
@@ -72,6 +72,40 @@
       ]
     },
     {
+      "id": 413591062,
+      "tag_name": "pulsia-plugin-mini-acp@1.0.118",
+      "name": "pulsia-plugin-mini-acp 1.0.118",
+      "body": "공용 Agent 추가 메뉴에서 누락된 Lucide hat-glasses 아이콘 반영을 위한 OTA 갱신임. Agent 관리 두 위치와 같은 Core 원본 도형을 사용함.\n\nCore 0.3.181 설치·재시작 후 이 Plugin을 업데이트하고 Agent 화면을 다시 열어야 함. Plugin 설치 시 Core 공용 ACP 화면을 다시 컴파일함. Plugin 기능·화면 소스는 변경하지 않음.\n\n사용자 긴급 지시에 따라 테스트·설치본 smoke를 생략함.\n\n소스: 15643473909be1ccda69776f4a77001ef9a661e3\nZIP SHA-256: ac20d78958ff4a32562d3cf75479c276757be62c43ec05298ec9e44d338a39fd\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-mini-acp%401.0.118",
+      "published_at": "2026-10-15T08:46:11Z",
+      "created_at": "2026-10-15T08:35:53Z",
+      "updated_at": "2026-10-15T08:46:11Z",
+      "assets": [
+        {
+          "id": 643266324,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 22117,
+          "digest": "sha256:ac20d78958ff4a32562d3cf75479c276757be62c43ec05298ec9e44d338a39fd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.118/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-10-15T08:46:10Z",
+          "updated_at": "2026-10-15T08:46:10Z"
+        },
+        {
+          "id": 643266323,
+          "name": "pulsia-plugin-mini-acp.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:250316cf2afd4c820d33d46a9457811baea7a34c1ab17f226eebf4c02a8974be",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.118/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-10-15T08:46:10Z",
+          "updated_at": "2026-10-15T08:46:10Z"
+        }
+      ]
+    },
+    {
       "id": 413581996,
       "tag_name": "pulsia-plugin-mini-acp@1.0.117",
       "name": "pulsia-plugin-mini-acp 1.0.117",
@@ -136,6 +170,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.116/pulsia-plugin-mini-acp.zip.sha256",
           "created_at": "2026-10-15T06:24:50Z",
           "updated_at": "2026-10-15T06:24:50Z"
+        }
+      ]
+    },
+    {
+      "id": 413591105,
+      "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.116",
+      "name": "pulsia-plugin-ai-agent-collaboration-chat 0.1.116",
+      "body": "공용 Agent 추가 메뉴에서 누락된 Lucide hat-glasses 아이콘 반영을 위한 OTA 갱신임. Agent 관리 두 위치와 같은 Core 원본 도형을 사용함.\n\nCore 0.3.181 설치·재시작 후 이 Plugin을 업데이트하고 Agent 화면을 다시 열어야 함. Plugin 설치 시 Core 공용 ACP 화면을 다시 컴파일함. Plugin 기능·화면 소스는 변경하지 않음.\n\n사용자 긴급 지시에 따라 테스트·설치본 smoke를 생략함.\n\n소스: 15643473909be1ccda69776f4a77001ef9a661e3\nZIP SHA-256: d492ef388b6abfd30d23deb50b04e30dfbed34d8066db8010b96ab8c62e2149f\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-ai-agent-collaboration-chat%400.1.116",
+      "published_at": "2026-10-15T08:46:14Z",
+      "created_at": "2026-10-15T08:35:53Z",
+      "updated_at": "2026-10-15T08:46:14Z",
+      "assets": [
+        {
+          "id": 643266493,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "state": "uploaded",
+          "size": 79504,
+          "digest": "sha256:d492ef388b6abfd30d23deb50b04e30dfbed34d8066db8010b96ab8c62e2149f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.116/pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "created_at": "2026-10-15T08:46:13Z",
+          "updated_at": "2026-10-15T08:46:13Z"
+        },
+        {
+          "id": 643266491,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "state": "uploaded",
+          "size": 112,
+          "digest": "sha256:3fde750b88d090b2d1fbf9be3a550cb39f5f1559fd71a1a986c4c3514d8db80e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.116/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "created_at": "2026-10-15T08:46:13Z",
+          "updated_at": "2026-10-15T08:46:13Z"
         }
       ]
     },
@@ -510,6 +578,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.105/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
           "created_at": "2026-10-15T00:28:36Z",
           "updated_at": "2026-10-15T00:28:37Z"
+        }
+      ]
+    },
+    {
+      "id": 413591008,
+      "tag_name": "pulsia-plugin-acp-workbench@1.1.119",
+      "name": "pulsia-plugin-acp-workbench 1.1.119",
+      "body": "공용 Agent 추가 메뉴에서 누락된 Lucide hat-glasses 아이콘 반영을 위한 OTA 갱신임. Agent 관리 두 위치와 같은 Core 원본 도형을 사용함.\n\nCore 0.3.181 설치·재시작 후 이 Plugin을 업데이트하고 Agent 화면을 다시 열어야 함. Plugin 설치 시 Core 공용 ACP 화면을 다시 컴파일함. Plugin 기능·화면 소스는 변경하지 않음.\n\n사용자 긴급 지시에 따라 테스트·설치본 smoke를 생략함.\n\n소스: 15643473909be1ccda69776f4a77001ef9a661e3\nZIP SHA-256: e285a070f2b7e6c28f2a5a1cd459f4a1347fba685af969298502202a2dbe868d\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.119",
+      "published_at": "2026-10-15T08:46:08Z",
+      "created_at": "2026-10-15T08:35:53Z",
+      "updated_at": "2026-10-15T08:46:08Z",
+      "assets": [
+        {
+          "id": 643266189,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 10676,
+          "digest": "sha256:e285a070f2b7e6c28f2a5a1cd459f4a1347fba685af969298502202a2dbe868d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.119/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-10-15T08:46:07Z",
+          "updated_at": "2026-10-15T08:46:07Z"
+        },
+        {
+          "id": 643266187,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:c59af79f582a0a751e9428c0ff2cb1294ed3d45aa3e8e23e1a273e01c84ad1b7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.119/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-10-15T08:46:07Z",
+          "updated_at": "2026-10-15T08:46:07Z"
         }
       ]
     },
