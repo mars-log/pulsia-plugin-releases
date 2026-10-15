@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-15T00:24:27.000Z",
+  "generatedAt": "2026-10-15T00:28:38.000Z",
   "releases": [
+    {
+      "id": 413299056,
+      "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.105",
+      "name": "AI Agent Collaboration Chat 0.1.105",
+      "body": "하단 응답 상태 줄을 Pulsia와 같은 22px 높이로 항상 표시함. 중단·실패 상태가 생겨도 채팅 영역 높이가 바뀌지 않음.\n\n오른쪽 위·아래 쉐브론으로 회차별 상태 창을 펼치고 접음. 위쪽 공용 조절선으로 높이를 바꾸며 대화별 높이·펼침 상태를 복원함. square-play 재시도와 결과 확인 동작을 유지함.\n\n검증: 단위·연결 시험 22개, 실제 ZIP 설치·Core ACP 화면의 UI 19개 흐름·light/dark·960×640·소비 Plugin 래핑·공용 높이 조절·취소·파일 복원을 통과함.\n\nSource: bea12c3\nSHA256: c3b41b5318e582f4421ab543e2da47da2594ab8e2814c4b11cf926b6dcdcfed7\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-ai-agent-collaboration-chat%400.1.105",
+      "published_at": "2026-10-15T00:28:38Z",
+      "created_at": "2026-10-15T00:24:36Z",
+      "updated_at": "2026-10-15T00:28:38Z",
+      "assets": [
+        {
+          "id": 642142078,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "state": "uploaded",
+          "size": 41140,
+          "digest": "sha256:c3b41b5318e582f4421ab543e2da47da2594ab8e2814c4b11cf926b6dcdcfed7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.105/pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "created_at": "2026-10-15T00:28:36Z",
+          "updated_at": "2026-10-15T00:28:37Z"
+        },
+        {
+          "id": 642142079,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "state": "uploaded",
+          "size": 112,
+          "digest": "sha256:d6f4d9f3328b24bca45e376cc84a6ee08a42d2751d9e8e7d427a5ecad17169df",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.105/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "created_at": "2026-10-15T00:28:36Z",
+          "updated_at": "2026-10-15T00:28:37Z"
+        }
+      ]
+    },
     {
       "id": 412403758,
       "tag_name": "pulsia.test-pack@1.0.109",
