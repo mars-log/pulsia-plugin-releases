@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-15T06:24:51.000Z",
+  "generatedAt": "2026-10-15T06:25:05.000Z",
   "releases": [
+    {
+      "id": 413481307,
+      "tag_name": "pulsia.model-studio@0.0.102",
+      "name": "Model Studio 0.0.102",
+      "body": "Model Studio의 맵 이름 입력창 크기와 창 이동 오류를 수정함.\n\n- 대메뉴 아이콘을 공식 Lucide blocks로 변경함.\n- 새 모델 맵·이름 변경은 420×188의 작은 입력창으로 표시함.\n- 편집창을 드래그할 때 좌표가 중복 적용되어 창이 튀는 현상을 수정함.\n- 작업 도우미 높이 조절은 함께 배포한 Mini ACP 1.0.116 이상에서 사용할 수 있음. Model Studio와 Mini ACP를 모두 업데이트해야 함.\n- 공개 문서·Mini ACP 영향 시험 16건과 설치 ZIP 기반 light/dark·실제 조작 15개 흐름을 통과함. 공용 Mini ACP 대화 실행 시험은 Workbench fixture임.\n\n제작 원본: https://github.com/mars-log/pulsia-plugin-studio/commit/ae7e47d\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.model-studio%400.0.102",
+      "published_at": "2026-10-15T06:25:05Z",
+      "created_at": "2026-10-15T06:25:00Z",
+      "updated_at": "2026-10-15T06:25:05Z",
+      "assets": [
+        {
+          "id": 642912003,
+          "name": "pulsia-model-studio.zip",
+          "state": "uploaded",
+          "size": 43915,
+          "digest": "sha256:a2f870b55bdc70361321ceb2be7051cc52d4d3207310d07d0e036bb0242073dc",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.102/pulsia-model-studio.zip",
+          "created_at": "2026-10-15T06:25:04Z",
+          "updated_at": "2026-10-15T06:25:04Z"
+        },
+        {
+          "id": 642912005,
+          "name": "pulsia-model-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:d0ce2e1d1327086b98f7f7d947d496ddd783dc9bcd3b87d7af728378ff85211a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.102/pulsia-model-studio.zip.sha256",
+          "created_at": "2026-10-15T06:25:04Z",
+          "updated_at": "2026-10-15T06:25:04Z"
+        }
+      ]
+    },
     {
       "id": 413481169,
       "tag_name": "pulsia-plugin-mini-acp@1.0.116",
