@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-15T07:13:15.000Z",
+  "generatedAt": "2026-10-15T07:44:16.000Z",
   "releases": [
+    {
+      "id": 413539583,
+      "tag_name": "pulsia.test-pack@1.0.110",
+      "name": "pulsia.test-pack 1.0.110",
+      "body": "비트코인 차트와 미국 시장 정보를 좌우로 함께 확인하도록 개선함.\n\n- 왼쪽에 TradingView Lightweight Charts의 BTC/USDT 캔들·거래량을 표시함. 인증 없는 Binance 공개 시세를 사용함.\n- 5분·10분·30분·1시간·4시간·1일·7일봉을 지원함. 10분봉은 5분봉 두 개를 합산하며 7일봉은 UTC 주봉임.\n- 오른쪽 시장 지표를 최대 3열로 배치하고 좁은 화면에서는 2열·1열 및 위아래 배치로 전환함.\n- 제목·버튼·조회 상태를 중립색으로 정리하고 상승·하락 시세의 구분 색상을 유지함.\n- 공개 시세 조회 실패 후 재시도, 마지막 정상 자료 보존, 이전 간격의 늦은 응답 무시와 화면 종료 정리를 보완함.\n\n검증: 변경 영향 시험 40개, 실제 Electron 조작 검사 14개, 관리형 의존성 준비·격리 설치·light/dark·공개 시세 7개 간격을 확인함.\n\nSource: mars-log/pulsia-plugin-studio@da403af1add89858ea8e3106bb94f70102bb730c\nSHA-256: 682ffee8872c8131f96a93cab02ee5b470b490932188281475ab9234c6897e63\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.test-pack%401.0.110",
+      "published_at": "2026-10-15T07:44:16Z",
+      "created_at": "2026-10-15T07:13:27Z",
+      "updated_at": "2026-10-15T07:44:16Z",
+      "assets": [
+        {
+          "id": 643107295,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 99008,
+          "digest": "sha256:682ffee8872c8131f96a93cab02ee5b470b490932188281475ab9234c6897e63",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.110/pulsia-test-pack.zip",
+          "created_at": "2026-10-15T07:44:14Z",
+          "updated_at": "2026-10-15T07:44:15Z"
+        },
+        {
+          "id": 643107294,
+          "name": "pulsia-test-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 87,
+          "digest": "sha256:521c5bcc7b67c04b066c046dd98187ef326a4bf7049cb5d8d95bf2b44bbaa815",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.110/pulsia-test-pack.zip.sha256",
+          "created_at": "2026-10-15T07:44:14Z",
+          "updated_at": "2026-10-15T07:44:15Z"
+        }
+      ]
+    },
     {
       "id": 413481307,
       "tag_name": "pulsia.model-studio@0.0.102",
