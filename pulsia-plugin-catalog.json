@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-14T17:09:43.000Z",
+  "generatedAt": "2026-10-15T00:24:27.000Z",
   "releases": [
     {
       "id": 412403758,
@@ -908,6 +908,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.115/pulsia-plugin-mini-acp.zip",
           "created_at": "2026-10-14T06:30:46Z",
           "updated_at": "2026-10-14T06:30:46Z"
+        }
+      ]
+    },
+    {
+      "id": 413297210,
+      "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.104",
+      "name": "AI Agent Collaboration Chat 0.1.104",
+      "body": "패널 이동을 Lucide square-chevron-left/right 아이콘으로, 다시 시도를 square-play 아이콘으로 변경함. 툴팁·접근성 이름과 기존 이동·재시도 동작을 유지함.\n\n실제 ZIP 설치 및 Core ACP 화면의 17개 흐름·light/dark·소비 Plugin 래핑·공개 자료 시험을 통과함. 하단 고정 상태 줄과 높이 조절은 후속 버전에서 제공 예정임.\n\nSource: 16bafd7\nSHA256: 1f94873fa9d4b3aded0928af28dd65d3e17561b47a6eb7c71434762c3694525b\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-ai-agent-collaboration-chat%400.1.104",
+      "published_at": "2026-10-15T00:24:27Z",
+      "created_at": "2026-10-14T17:09:53Z",
+      "updated_at": "2026-10-15T00:24:27Z",
+      "assets": [
+        {
+          "id": 642133069,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "state": "uploaded",
+          "size": 38230,
+          "digest": "sha256:1f94873fa9d4b3aded0928af28dd65d3e17561b47a6eb7c71434762c3694525b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.104/pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "created_at": "2026-10-15T00:24:26Z",
+          "updated_at": "2026-10-15T00:24:26Z"
+        },
+        {
+          "id": 642133068,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "state": "uploaded",
+          "size": 112,
+          "digest": "sha256:22dd601de9075989937667ed841b1c187279acfac89ea1f768bf6e4b7389f3a2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.104/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "created_at": "2026-10-15T00:24:26Z",
+          "updated_at": "2026-10-15T00:24:26Z"
         }
       ]
     },
