@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-16T07:45:18.000Z",
+  "generatedAt": "2026-10-16T07:48:28.000Z",
   "releases": [
+    {
+      "id": 414681740,
+      "tag_name": "pulsia.test-pack@1.0.114",
+      "name": "Pulsia Test Pack 1.0.114",
+      "body": "# 물결 입력 상자 · pulsia.ui.field.ripple-v1\n\n- UI 기준 예제 `pulsia.ui.layout.field-ripple-v1`을 추가함.\n- 물결 입력 상자 · pulsia.ui.field.ripple-v1\n\nSource: mars-log/pulsia-plugin-studio@2c154415b95482c9628e7353cc5df624c62ec63f\nSHA-256: f6bdcf3919f2f28a02b49a4365dda05df71c0ecefecd6abd50bf96663da78f26\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.test-pack%401.0.114",
+      "published_at": "2026-10-16T07:48:28Z",
+      "created_at": "2026-10-16T07:45:24Z",
+      "updated_at": "2026-10-16T07:48:28Z",
+      "assets": [
+        {
+          "id": 646575823,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 140346,
+          "digest": "sha256:f6bdcf3919f2f28a02b49a4365dda05df71c0ecefecd6abd50bf96663da78f26",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.114/pulsia-test-pack.zip",
+          "created_at": "2026-10-16T07:48:25Z",
+          "updated_at": "2026-10-16T07:48:25Z"
+        },
+        {
+          "id": 646575824,
+          "name": "pulsia-test-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 87,
+          "digest": "sha256:01f29034fc3f6b99d7c35415550c15c7e6fd8f61e39c3333b7346ffd7e61dbba",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.114/pulsia-test-pack.zip.sha256",
+          "created_at": "2026-10-16T07:48:25Z",
+          "updated_at": "2026-10-16T07:48:25Z"
+        }
+      ]
+    },
     {
       "id": 414542706,
       "tag_name": "pulsia.test-pack@1.0.113",
