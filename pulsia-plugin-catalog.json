@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-16T00:35:57.000Z",
+  "generatedAt": "2026-10-16T01:09:50.000Z",
   "releases": [
     {
       "id": 414408137,
@@ -24,6 +24,74 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.119/pulsia-plugin-object-manager.zip",
           "created_at": "2026-10-16T00:35:56Z",
           "updated_at": "2026-10-16T00:35:56Z"
+        }
+      ]
+    },
+    {
+      "id": 414426952,
+      "tag_name": "pulsia.model-studio@0.0.103",
+      "name": "Model Studio 0.0.103",
+      "body": "Source: mars-log/pulsia-plugin-studio@53ae87691a8029c11dddebce523bfe8c70da74a5\n\n실제 Model Studio의 모델 맵 메뉴 아이콘을 scan-box로 변경함. 공개 문서·메뉴 시험 3개와 설치 ZIP light/dark 15개 흐름을 확인함.\n\nCore 변경 없음.\n\nZIP SHA-256: 618c7b91939332c97da1c9492bc19c3b3de693ad7487f9a8075ce0a2daa4167e\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.model-studio%400.0.103",
+      "published_at": "2026-10-16T01:09:50Z",
+      "created_at": "2026-10-16T00:36:08Z",
+      "updated_at": "2026-10-16T01:09:50Z",
+      "assets": [
+        {
+          "id": 645712679,
+          "name": "pulsia-model-studio.zip",
+          "state": "uploaded",
+          "size": 44085,
+          "digest": "sha256:618c7b91939332c97da1c9492bc19c3b3de693ad7487f9a8075ce0a2daa4167e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.103/pulsia-model-studio.zip",
+          "created_at": "2026-10-16T01:09:48Z",
+          "updated_at": "2026-10-16T01:09:49Z"
+        },
+        {
+          "id": 645712680,
+          "name": "pulsia-model-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:108828f6c687766e831a4c00249e1fb6d6ab05564f0de1ecd3b5f4240c3eb5b6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.103/pulsia-model-studio.zip.sha256",
+          "created_at": "2026-10-16T01:09:48Z",
+          "updated_at": "2026-10-16T01:09:49Z"
+        }
+      ]
+    },
+    {
+      "id": 414426903,
+      "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.118",
+      "name": "AI Agent Collaboration Chat 0.1.118",
+      "body": "Source: mars-log/pulsia-plugin-studio@53ae87691a8029c11dddebce523bfe8c70da74a5\n\nGroup Chat·실제 Agent 제목, 같은 Agent의 번호, 입력창 위 단일 대화 실행 버튼과 모드 설명을 반영함. 이동 SVG는 18px·stroke 1임. 업데이트 스타일 준비·가로 배치를 보강함. 영향 시험 33개·설치 ZIP light/dark 40개 흐름을 확인함. 운영 환경의 간헐 현상 전체 발생 경로는 추가 실사용 확인 대상임.\n\nCore 변경 없음.\n\nZIP SHA-256: dcd64158af84deb7df6b81141ca4b6d99b27d5e2b4f4dbd8688eb0db6cd55fed\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-ai-agent-collaboration-chat%400.1.118",
+      "published_at": "2026-10-16T01:09:46Z",
+      "created_at": "2026-10-16T00:36:08Z",
+      "updated_at": "2026-10-16T01:09:46Z",
+      "assets": [
+        {
+          "id": 645712543,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "state": "uploaded",
+          "size": 90706,
+          "digest": "sha256:dcd64158af84deb7df6b81141ca4b6d99b27d5e2b4f4dbd8688eb0db6cd55fed",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.118/pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "created_at": "2026-10-16T01:09:45Z",
+          "updated_at": "2026-10-16T01:09:45Z"
+        },
+        {
+          "id": 645712545,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "state": "uploaded",
+          "size": 112,
+          "digest": "sha256:e90c4e61ab778ef5a478f478241655d262d0707f28c6cf44bb7f4ae5115a60ad",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.118/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "created_at": "2026-10-16T01:09:45Z",
+          "updated_at": "2026-10-16T01:09:45Z"
         }
       ]
     },
