@@ -1,8 +1,32 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-16T00:26:42.000Z",
+  "generatedAt": "2026-10-16T00:35:57.000Z",
   "releases": [
+    {
+      "id": 414408137,
+      "tag_name": "pulsia.object-model-studio@0.10.119",
+      "name": "pulsia.object-model-studio 0.10.119",
+      "body": "사이드 메뉴의 모델 맵 아이콘을 scan-box로 바꿉니다. 화면과 기능은 그대로입니다.\n\nPulsia 0.3.172 이상을 먼저 업데이트하고 재시작한 뒤 설치합니다.\n\nSource: 994be0bd30e319a6f87daa1b86c6846fbf973d51\nSHA-256: ec62bacaff2088286668fb5c319db071ff81f05af2a0933f2216d967a1e47cf8\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.119",
+      "published_at": "2026-10-16T00:35:57Z",
+      "created_at": "2026-10-16T00:26:54Z",
+      "updated_at": "2026-10-16T00:35:57Z",
+      "assets": [
+        {
+          "id": 645639520,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 359970,
+          "digest": "sha256:ec62bacaff2088286668fb5c319db071ff81f05af2a0933f2216d967a1e47cf8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.119/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-16T00:35:56Z",
+          "updated_at": "2026-10-16T00:35:56Z"
+        }
+      ]
+    },
     {
       "id": 413539583,
       "tag_name": "pulsia.test-pack@1.0.110",
