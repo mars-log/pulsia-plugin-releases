@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-16T02:46:03.000Z",
+  "generatedAt": "2026-10-16T03:14:54.000Z",
   "releases": [
     {
       "id": 414408137,
@@ -92,6 +92,74 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.141/pulsia-catalog-studio.zip.sha256",
           "created_at": "2026-10-16T02:46:02Z",
           "updated_at": "2026-10-16T02:46:02Z"
+        }
+      ]
+    },
+    {
+      "id": 414497811,
+      "tag_name": "pulsia.ai-scratchpad@0.0.101",
+      "name": "AI Scratchpad 0.0.101",
+      "body": "AI가 준비 카드부터 HTML/CSS·SVG·이미지·텍스트 결과까지 게시하는 독립 Provider임. 기능·JSON 저장 adapter·MCP list/put/remove·MessagePort 구독과 카드 UI·단일 콘텐츠 렌더러·소비 SDK를 분리함. 협업 대화와 Test Pack 미리보기 캔버스가 영역 ID를 구분해 같은 Provider를 사용함.\n\n접기·새 결과 표시·준비 애니메이션·카드 누적·제거·분리/복귀·공용 높이 조절·light/dark를 제공함. 사용자 결과는 Plugin Data에 보존하며 배포물에 포함하지 않음. 임의 inline JavaScript는 실행을 보장하지 않으며 Core CSP를 유지함.\n\n검증: 실제 Core Backend Host·MCP·MessagePort/판본/영역 시험5개, 실제 Core CSS/CSP 소비 UI11개, 협업 페이지 첫 소비와 키보드 조절·가로 배치·HTML 스타일 격리를 확인함.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/6d4f1d9\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-scratchpad%400.0.101",
+      "published_at": "2026-10-16T03:14:51Z",
+      "created_at": "2026-10-16T02:46:11Z",
+      "updated_at": "2026-10-16T03:14:51Z",
+      "assets": [
+        {
+          "id": 645976186,
+          "name": "pulsia-ai-scratchpad.zip",
+          "state": "uploaded",
+          "size": 19892,
+          "digest": "sha256:17a0012e65b260e5271bf3e50a97f1eedc2e9de1b6488dc8d6cca2ef80ed671d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-scratchpad%400.0.101/pulsia-ai-scratchpad.zip",
+          "created_at": "2026-10-16T03:14:50Z",
+          "updated_at": "2026-10-16T03:14:50Z"
+        },
+        {
+          "id": 645976185,
+          "name": "pulsia-ai-scratchpad.zip.sha256",
+          "state": "uploaded",
+          "size": 91,
+          "digest": "sha256:ebe350f1b6a7042de86d5ad3c6b6b5f453e05ccf9efe3e4c8637a1a64fb814fd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-scratchpad%400.0.101/pulsia-ai-scratchpad.zip.sha256",
+          "created_at": "2026-10-16T03:14:50Z",
+          "updated_at": "2026-10-16T03:14:50Z"
+        }
+      ]
+    },
+    {
+      "id": 414497838,
+      "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.120",
+      "name": "AI Agent Collaboration Chat 0.1.120",
+      "body": "AI Scratchpad 독립 Provider를 협업 페이지 최하단에서 소비함. 준비·완료 카드·새 결과 표시·분리/복귀·제거와 기능/UI SDK를 재사용함. AI Scratchpad 0.0.101을 함께 설치함.\n\n실제 협업 컴포넌트를 표본 client로 보여 주는 mountUiReferenceGallery/collaborationUiReferences를 SDK에 공개하여 Test Pack이 버튼·아이콘·선택기·ACP·협업 도구를 복제하지 않고 표시함.\n\n0.1.119의 실제 숨김 업데이트 배치 수정과 Core0.3.182 공용 정리를 유지함. 기존 설치UI40개와 실제 두 Provider의 협업 MCP 결과 게시·표시·제거·light/dark를 확인함.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/6d4f1d9\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-ai-agent-collaboration-chat%400.1.120",
+      "published_at": "2026-10-16T03:14:54Z",
+      "created_at": "2026-10-16T02:46:11Z",
+      "updated_at": "2026-10-16T03:14:54Z",
+      "assets": [
+        {
+          "id": 645976294,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "state": "uploaded",
+          "size": 100067,
+          "digest": "sha256:6bf047dcc9b73109ab1b674b42438465ad9f242e1faf43a3130a6c57ef61947a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.120/pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "created_at": "2026-10-16T03:14:53Z",
+          "updated_at": "2026-10-16T03:14:53Z"
+        },
+        {
+          "id": 645976295,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "state": "uploaded",
+          "size": 112,
+          "digest": "sha256:9c7e8b1450d7600b6217f8168c73542998e133041838c109131cfa7c06e38a41",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.120/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "created_at": "2026-10-16T03:14:53Z",
+          "updated_at": "2026-10-16T03:14:53Z"
         }
       ]
     },
