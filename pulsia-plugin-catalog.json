@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-16T03:14:54.000Z",
+  "generatedAt": "2026-10-16T03:18:05.000Z",
   "releases": [
+    {
+      "id": 414495089,
+      "tag_name": "pulsia.test-pack@1.0.111",
+      "name": "Pulsia Test Pack 1.0.111",
+      "body": "# UI 제작실과 미리보기 캔버스\n\n- Test Pack → UI 제작실에서 Main ACP의 UI 결과를 미리 보고, 협업 화면의 실제 요소를 그룹별로 확인함.\n- 기준 분류와 예제 ID 추천, 현재 내용 승인, 내용 변경 시 승인 해제와 승인한 예제의 Git·OTA 게시를 제공함.\n- UI 기준 예제의 헤더 여백을 다른 기본 화면과 같은 공용 기준으로 수정함.\n- 미리보기에는 AI Scratchpad 0.0.101, 협업 UI 요소에는 AI Agent Collaboration Chat 0.1.120 이상을 함께 사용함.\n- 릴리즈 버튼은 배포 설정의 Studio 소스·Core 빌더·GitHub 게시 권한을 사용함. 다른 사용자는 Test Pack 업데이트 후 새 기준 예제를 확인함.\n- HTML/CSS/SVG·기본 입력의 외형을 미리 봄. 실제 Vue/JavaScript 동작은 Plugin 원본 컴포넌트가 소유함.\n\n검증: 영향 범위 시험 37개와 실제 Core CSS/CSP의 light/dark 소비 흐름 11개를 통과함.\n\nSource: mars-log/pulsia-plugin-studio@f9fdb1afedbf6f53891c5c6fca2953ea8600b9af\n\nSHA-256: 77df8c2074f3dc22b4897552430b8206621ecc091517760af0217234969107b7\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.test-pack%401.0.111",
+      "published_at": "2026-10-16T03:18:05Z",
+      "created_at": "2026-10-16T03:15:00Z",
+      "updated_at": "2026-10-16T03:18:05Z",
+      "assets": [
+        {
+          "id": 645974603,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 128502,
+          "digest": "sha256:77df8c2074f3dc22b4897552430b8206621ecc091517760af0217234969107b7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.111/pulsia-test-pack.zip",
+          "created_at": "2026-10-16T03:14:04Z",
+          "updated_at": "2026-10-16T03:14:04Z"
+        },
+        {
+          "id": 645974594,
+          "name": "pulsia-test-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 87,
+          "digest": "sha256:21d6d5cf2e3345fee1496f173cdebd8be61e337139b2a1e1fb6b125dfe13f968",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.111/pulsia-test-pack.zip.sha256",
+          "created_at": "2026-10-16T03:14:04Z",
+          "updated_at": "2026-10-16T03:14:04Z"
+        }
+      ]
+    },
     {
       "id": 414408137,
       "tag_name": "pulsia.object-model-studio@0.10.119",
