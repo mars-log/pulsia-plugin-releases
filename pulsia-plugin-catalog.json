@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-16T02:45:12.000Z",
+  "generatedAt": "2026-10-16T02:46:03.000Z",
   "releases": [
     {
       "id": 414408137,
@@ -58,6 +58,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.103/pulsia-model-studio.zip.sha256",
           "created_at": "2026-10-16T01:09:48Z",
           "updated_at": "2026-10-16T01:09:49Z"
+        }
+      ]
+    },
+    {
+      "id": 414481341,
+      "tag_name": "pulsia.catalog-studio@1.2.141",
+      "name": "Catalog Studio 1.2.141",
+      "body": "공용 서브메뉴 목록 아래 프로젝트 조작·작업 진행·Agent 선택을 Pulsia 슬롯 API로 표시함. 패널 DOM 탐색·직접 삽입·배치 polling을 제거함. 탭 전환 시 입력을 보존하고 화면 종료 시 등록을 해제함.\n\nPulsia 0.3.182 이상 필요함. 공용 매뉴얼·MCP navigationSlots.list/setVisible/focus·설치 Agent 스킬을 포함함. 실제 Core 설치 경로의 light/dark·탭 이동·다시 로드와 ZIP·해시 검증을 완료함.\n\n소스: mars-log/pulsia-plugin-studio@17275fd\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.141",
+      "published_at": "2026-10-16T02:46:03Z",
+      "created_at": "2026-10-16T02:45:19Z",
+      "updated_at": "2026-10-16T02:46:03Z",
+      "assets": [
+        {
+          "id": 645914905,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 284991,
+          "digest": "sha256:90bd938a07f470d7212ffa7fad440680ba86a2da2ad7b111c4ad7e22221c86dd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.141/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-16T02:46:02Z",
+          "updated_at": "2026-10-16T02:46:02Z"
+        },
+        {
+          "id": 645914906,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:060004fa39ede799070ac68b1eefa7d88d02b30153c62fff42fc3c4bb92a445f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.141/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-16T02:46:02Z",
+          "updated_at": "2026-10-16T02:46:02Z"
         }
       ]
     },
