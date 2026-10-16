@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-16T05:11:33.000Z",
+  "generatedAt": "2026-10-16T07:45:18.000Z",
   "releases": [
     {
       "id": 414542706,
@@ -232,6 +232,30 @@
       ]
     },
     {
+      "id": 414679224,
+      "tag_name": "pulsia.ai-scratchpad@0.0.103",
+      "name": "AI Scratchpad 0.0.103",
+      "body": "스크래치패드를 분리한 뒤 제목줄을 끌어 이동하고 가장자리·모서리로 크기를 조절할 수 있음. 위치·크기 복원과 작은 창의 화면 밖 보정을 제공함. 왼쪽 슬롯의 확장된 높이는 Pulsia 0.3.186 이상에서 지원함.\n\n검증: light/dark, 공용 조절기·카드·SDK 30개 시험, 실제 Plugin ZIP 설치와 창 축소·재시작 화면 복원을 확인함.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-scratchpad%400.0.103",
+      "published_at": "2026-10-16T07:45:15Z",
+      "created_at": "2026-10-16T05:11:41Z",
+      "updated_at": "2026-10-16T07:45:15Z",
+      "assets": [
+        {
+          "id": 646568505,
+          "name": "pulsia-ai-scratchpad.zip",
+          "state": "uploaded",
+          "size": 24661,
+          "digest": "sha256:3dc95b24026a0ac70c92022a51b20ea7e2b2c3bfe35fb83e0e8e43e338b6947a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-scratchpad%400.0.103/pulsia-ai-scratchpad.zip",
+          "created_at": "2026-10-16T07:45:13Z",
+          "updated_at": "2026-10-16T07:45:14Z"
+        }
+      ]
+    },
+    {
       "id": 414543016,
       "tag_name": "pulsia.ai-scratchpad@0.0.102",
       "name": "AI Scratchpad 0.0.102",
@@ -296,6 +320,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-scratchpad%400.0.101/pulsia-ai-scratchpad.zip.sha256",
           "created_at": "2026-10-16T03:14:50Z",
           "updated_at": "2026-10-16T03:14:50Z"
+        }
+      ]
+    },
+    {
+      "id": 414679272,
+      "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.123",
+      "name": "AI Agent Collaboration Chat 0.1.123",
+      "body": "스크래치패드를 분리한 뒤 제목줄을 끌어 이동하고 가장자리·모서리로 크기를 조절할 수 있음. 위치·크기 복원과 작은 창의 화면 밖 보정을 제공함. 왼쪽 슬롯의 확장된 높이는 Pulsia 0.3.186 이상에서 지원함.\n\n검증: light/dark, 공용 조절기·카드·SDK 30개 시험, 실제 Plugin ZIP 설치와 창 축소·재시작 화면 복원을 확인함.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-ai-agent-collaboration-chat%400.1.123",
+      "published_at": "2026-10-16T07:45:18Z",
+      "created_at": "2026-10-16T05:11:41Z",
+      "updated_at": "2026-10-16T07:45:18Z",
+      "assets": [
+        {
+          "id": 646568686,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "state": "uploaded",
+          "size": 105385,
+          "digest": "sha256:0b3aba299b19c29afe3c47947f5e6b26dcf7042a34dec3719d7f8cec4598cc60",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.123/pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "created_at": "2026-10-16T07:45:17Z",
+          "updated_at": "2026-10-16T07:45:17Z"
         }
       ]
     },
