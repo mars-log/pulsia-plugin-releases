@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-16T03:18:05.000Z",
+  "generatedAt": "2026-10-16T04:07:47.000Z",
   "releases": [
+    {
+      "id": 414527970,
+      "tag_name": "pulsia.test-pack@1.0.112",
+      "name": "Pulsia Test Pack 1.0.112",
+      "body": "UI 기준 예제에 공용 서브메뉴 슬롯 예제를 추가함. 왼쪽 목록 위의 UI 예제 검색창과 아래의 검색·분류 초기화 버튼이 실제 페이지와 연결됨. 공용 서브메뉴 목록을 유지하며 탭 복귀 시 검색어를 보존하고 페이지 종료 시 슬롯을 해제함.\n\n슬롯 등록·해제 코드를 화면에 표시하고 공개 기준 ID pulsia.ui.layout.navigation-slots-v1, 매뉴얼·MCP 화면 검색/초기화·스킬을 함께 제공함. Pulsia 0.3.182 이상 필요함. 관련 검사 19개와 실제 패키지 light/dark 조작을 통과함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.test-pack%401.0.112",
+      "published_at": "2026-10-16T04:07:47Z",
+      "created_at": "2026-10-16T03:18:13Z",
+      "updated_at": "2026-10-16T04:07:47Z",
+      "assets": [
+        {
+          "id": 646088642,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 133324,
+          "digest": "sha256:dc6899c814ddc024f09d52e304460cc587adc088121505d2f2cfada56cd8fab3",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.112/pulsia-test-pack.zip",
+          "created_at": "2026-10-16T04:07:46Z",
+          "updated_at": "2026-10-16T04:07:46Z"
+        },
+        {
+          "id": 646088635,
+          "name": "pulsia-test-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 87,
+          "digest": "sha256:942d776fbdfecbec70c2f8ed79326ea19d48f8330e58ca295c9b6ec5fe53dc8f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.112/pulsia-test-pack.zip.sha256",
+          "created_at": "2026-10-16T04:07:46Z",
+          "updated_at": "2026-10-16T04:07:46Z"
+        }
+      ]
+    },
     {
       "id": 414495089,
       "tag_name": "pulsia.test-pack@1.0.111",
