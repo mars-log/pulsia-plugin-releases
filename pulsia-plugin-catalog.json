@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-16T04:37:05.000Z",
+  "generatedAt": "2026-10-16T04:53:13.000Z",
   "releases": [
     {
       "id": 414542706,
@@ -164,6 +164,40 @@
       ]
     },
     {
+      "id": 414543001,
+      "tag_name": "pulsia.db-connector@0.2.107",
+      "name": "DB Connector 0.2.107",
+      "body": "DB Connector 0.2.107\n\n- Pulsia Core 0.3.183 이상에서 플러그인 관리의 작업 버튼 아래에 대메뉴 표시 스위치를 제공합니다.\n- 둘러보기·설치됨 양쪽에서 사용하며, 꺼진 메뉴는 프로젝트 메뉴 구성에도 나타나지 않습니다. DB 연결 Provider와 저장 데이터는 유지합니다.\n- 공개 getMenuPreference/setMenuPreference, 화면 menu.inspect/menu.set, 매뉴얼과 스킬을 제공합니다.\n- Source: https://github.com/mars-log/pulsia-plugin-studio/commit/105c987\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.db-connector%400.2.107",
+      "published_at": "2026-10-16T04:53:11Z",
+      "created_at": "2026-10-16T04:37:18Z",
+      "updated_at": "2026-10-16T04:53:11Z",
+      "assets": [
+        {
+          "id": 646152737,
+          "name": "pulsia-plugin-db-connector.zip",
+          "state": "uploaded",
+          "size": 210777,
+          "digest": "sha256:1578ba114362fa2aaf564f01df4d50a059c1cfd9b7657bca0404859c33bf0d3c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector%400.2.107/pulsia-plugin-db-connector.zip",
+          "created_at": "2026-10-16T04:37:29Z",
+          "updated_at": "2026-10-16T04:37:30Z"
+        },
+        {
+          "id": 646152746,
+          "name": "pulsia-plugin-db-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 97,
+          "digest": "sha256:d3f6fdf8e2db6c72ac06eecac47b7a5a03653fe0a8cc8e3e84dbc2139c7ba123",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector%400.2.107/pulsia-plugin-db-connector.zip.sha256",
+          "created_at": "2026-10-16T04:37:29Z",
+          "updated_at": "2026-10-16T04:37:30Z"
+        }
+      ]
+    },
+    {
       "id": 414481341,
       "tag_name": "pulsia.catalog-studio@1.2.141",
       "name": "Catalog Studio 1.2.141",
@@ -194,6 +228,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.141/pulsia-catalog-studio.zip.sha256",
           "created_at": "2026-10-16T02:46:02Z",
           "updated_at": "2026-10-16T02:46:02Z"
+        }
+      ]
+    },
+    {
+      "id": 414543016,
+      "tag_name": "pulsia.ai-scratchpad@0.0.102",
+      "name": "AI Scratchpad 0.0.102",
+      "body": "AI Scratchpad 0.0.102\n\n- Pulsia Core 0.3.183 이상에서 플러그인 관리의 작업 버튼 아래에 대메뉴 표시 스위치를 제공합니다.\n- 꺼진 메뉴는 프로젝트 메뉴 구성에서도 제외하며 카드·SDK·협업 화면의 Scratchpad 기능은 유지합니다. 표시 선호는 앱을 다시 켜도 보존합니다.\n- 공개 getMenuPreference/setMenuPreference, 화면 menu.inspect/menu.set, 매뉴얼과 스킬을 제공합니다.\n- Source: https://github.com/mars-log/pulsia-plugin-studio/commit/105c987\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-scratchpad%400.0.102",
+      "published_at": "2026-10-16T04:53:13Z",
+      "created_at": "2026-10-16T04:37:18Z",
+      "updated_at": "2026-10-16T04:53:13Z",
+      "assets": [
+        {
+          "id": 646152854,
+          "name": "pulsia-ai-scratchpad.zip",
+          "state": "uploaded",
+          "size": 23323,
+          "digest": "sha256:92e46e542e9652d579b44e06adf617649cf9cf319a3ac973d59a3d12158f65af",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-scratchpad%400.0.102/pulsia-ai-scratchpad.zip",
+          "created_at": "2026-10-16T04:37:31Z",
+          "updated_at": "2026-10-16T04:37:31Z"
+        },
+        {
+          "id": 646152855,
+          "name": "pulsia-ai-scratchpad.zip.sha256",
+          "state": "uploaded",
+          "size": 91,
+          "digest": "sha256:d367986757311d305bd9e9df4f817e8348f57a686bd23b9c9364e8b9e78f0c23",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-scratchpad%400.0.102/pulsia-ai-scratchpad.zip.sha256",
+          "created_at": "2026-10-16T04:37:31Z",
+          "updated_at": "2026-10-16T04:37:31Z"
         }
       ]
     },
