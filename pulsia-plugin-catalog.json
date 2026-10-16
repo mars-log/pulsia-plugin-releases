@@ -1,8 +1,32 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-16T07:48:28.000Z",
+  "generatedAt": "2026-10-16T08:03:04.000Z",
   "releases": [
+    {
+      "id": 414693586,
+      "tag_name": "pulsia.test-pack@1.0.115",
+      "name": "Pulsia Test Pack 1.0.115",
+      "body": "구현된 변경을 공개함. Core 0.3.187의 공용 작업 탭·탐색 상태·설치 승인 및 요청 처리와 함께 사용함.\n\n- 협업: 방별 작업 식별과 실행 상태 보호, 숨김과 중지 분리\n- SQL Studio: 논리 세션별 작업·초안 유지, 진행 중 작업 보호와 유휴 연결 반환\n- Test Pack: 설정 창 이동, 폴더 선택과 저장 분리, 진행 상태 조회 요청 누락 수정. 기존 1.0.114 예제를 보존함.\n\n추가 조작 테스트는 사용자 지시에 따라 배포 뒤에 진행하며 미확인 흐름을 완료로 판정하지 않음.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.test-pack%401.0.115",
+      "published_at": "2026-10-16T08:03:04Z",
+      "created_at": "2026-10-16T07:48:36Z",
+      "updated_at": "2026-10-16T08:03:04Z",
+      "assets": [
+        {
+          "id": 646612007,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 142448,
+          "digest": "sha256:2d6628f408b83fc7c3cefedfab0aac5b191556c82ae38b0bdea65e43538cd646",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.115/pulsia-test-pack.zip",
+          "created_at": "2026-10-16T08:03:03Z",
+          "updated_at": "2026-10-16T08:03:03Z"
+        }
+      ]
+    },
     {
       "id": 414681740,
       "tag_name": "pulsia.test-pack@1.0.114",
@@ -136,6 +160,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.111/pulsia-test-pack.zip.sha256",
           "created_at": "2026-10-16T03:14:04Z",
           "updated_at": "2026-10-16T03:14:04Z"
+        }
+      ]
+    },
+    {
+      "id": 414693543,
+      "tag_name": "pulsia.sql-studio@0.0.112",
+      "name": "SQL Studio 0.0.112",
+      "body": "구현된 변경을 공개함. Core 0.3.187의 공용 작업 탭·탐색 상태·설치 승인 및 요청 처리와 함께 사용함.\n\n- 협업: 방별 작업 식별과 실행 상태 보호, 숨김과 중지 분리\n- SQL Studio: 논리 세션별 작업·초안 유지, 진행 중 작업 보호와 유휴 연결 반환\n- Test Pack: 설정 창 이동, 폴더 선택과 저장 분리, 진행 상태 조회 요청 누락 수정. 기존 1.0.114 예제를 보존함.\n\n추가 조작 테스트는 사용자 지시에 따라 배포 뒤에 진행하며 미확인 흐름을 완료로 판정하지 않음.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.sql-studio%400.0.112",
+      "published_at": "2026-10-16T08:03:01Z",
+      "created_at": "2026-10-16T07:48:36Z",
+      "updated_at": "2026-10-16T08:03:01Z",
+      "assets": [
+        {
+          "id": 646611905,
+          "name": "pulsia-sql-studio.zip",
+          "state": "uploaded",
+          "size": 53206,
+          "digest": "sha256:ff9abc0dde5ee5ad048671a0d6313c012d6d525e0691e9cd2331769fb8ee426e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.112/pulsia-sql-studio.zip",
+          "created_at": "2026-10-16T08:03:00Z",
+          "updated_at": "2026-10-16T08:03:00Z"
         }
       ]
     },
@@ -354,6 +402,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-scratchpad%400.0.101/pulsia-ai-scratchpad.zip.sha256",
           "created_at": "2026-10-16T03:14:50Z",
           "updated_at": "2026-10-16T03:14:50Z"
+        }
+      ]
+    },
+    {
+      "id": 414693481,
+      "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.124",
+      "name": "AI Agent Collaboration Chat 0.1.124",
+      "body": "구현된 변경을 공개함. Core 0.3.187의 공용 작업 탭·탐색 상태·설치 승인 및 요청 처리와 함께 사용함.\n\n- 협업: 방별 작업 식별과 실행 상태 보호, 숨김과 중지 분리\n- SQL Studio: 논리 세션별 작업·초안 유지, 진행 중 작업 보호와 유휴 연결 반환\n- Test Pack: 설정 창 이동, 폴더 선택과 저장 분리, 진행 상태 조회 요청 누락 수정. 기존 1.0.114 예제를 보존함.\n\n추가 조작 테스트는 사용자 지시에 따라 배포 뒤에 진행하며 미확인 흐름을 완료로 판정하지 않음.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-ai-agent-collaboration-chat%400.1.124",
+      "published_at": "2026-10-16T08:02:58Z",
+      "created_at": "2026-10-16T07:48:36Z",
+      "updated_at": "2026-10-16T08:02:58Z",
+      "assets": [
+        {
+          "id": 646611760,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "state": "uploaded",
+          "size": 107137,
+          "digest": "sha256:9121cc714ff1552688847c728949340ff24bfaaf91a4d8b5c522e7d4467cfd42",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.124/pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "created_at": "2026-10-16T08:02:56Z",
+          "updated_at": "2026-10-16T08:02:56Z"
         }
       ]
     },
