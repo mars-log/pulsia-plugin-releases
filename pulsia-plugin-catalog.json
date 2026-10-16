@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-16T04:33:31.000Z",
+  "generatedAt": "2026-10-16T04:37:05.000Z",
   "releases": [
+    {
+      "id": 414542706,
+      "tag_name": "pulsia.test-pack@1.0.113",
+      "name": "Pulsia Test Pack 1.0.113",
+      "body": "# Pulsia Test Pack 1.0.113\n\n- UI 제작실의 Agent 선택창에 겹쳐 적용되던 입력 스타일을 수정함.\n- 입력 포커스에 공용 1px 중립 표시를 사용함.\n- 배포 설정을 헤더의 설정 아이콘과 작은 대화상자로 제공함. 경로 입력·폴더 선택·저장을 유지함.\n- 협업 플러그인 0.1.121과 함께 업데이트하면 모델·사용량 팝업, 사용량 표본과 대화 선택기의 Escape 닫기 개선을 사용할 수 있음.\n- 실제 Pulsia 0.3.182 Windows 패키지의 light/dark 설치·조작과 공개 Provider 결합 검사를 통과함.\n\nSource: mars-log/pulsia-plugin-studio@099ee1aec4ca9ecdd361b54fd4ab9e376362138f\nSHA-256: 2e06a17dcf0de52dfcd5d047c2f6f9592918332a5b8c2fbb3c89b9d0a3d939f7\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.test-pack%401.0.113",
+      "published_at": "2026-10-16T04:37:05Z",
+      "created_at": "2026-10-16T04:33:38Z",
+      "updated_at": "2026-10-16T04:37:05Z",
+      "assets": [
+        {
+          "id": 646151583,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 135793,
+          "digest": "sha256:2e06a17dcf0de52dfcd5d047c2f6f9592918332a5b8c2fbb3c89b9d0a3d939f7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.113/pulsia-test-pack.zip",
+          "created_at": "2026-10-16T04:36:55Z",
+          "updated_at": "2026-10-16T04:36:56Z"
+        },
+        {
+          "id": 646151582,
+          "name": "pulsia-test-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 87,
+          "digest": "sha256:40d9d746344eb42a9720c82a29e852ddbf5b1de49a27a3f28e2a3bbc353b2e60",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.113/pulsia-test-pack.zip.sha256",
+          "created_at": "2026-10-16T04:36:55Z",
+          "updated_at": "2026-10-16T04:36:56Z"
+        }
+      ]
+    },
     {
       "id": 414527970,
       "tag_name": "pulsia.test-pack@1.0.112",
