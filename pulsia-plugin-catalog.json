@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-17T14:32:07.000Z",
+  "generatedAt": "2026-10-17T14:46:58.000Z",
   "releases": [
+    {
+      "id": 415857904,
+      "tag_name": "pulsia.model-studio@0.0.107",
+      "name": "Model Studio 0.0.107",
+      "body": "- 업데이트 후 왼쪽 모델 탐색기와 모델 작업 도우미가 사라지는 문제를 수정함.\n- 현재 모델 맵·선택 모델·배율·필드·가지 펼침을 유지하여 두 패널을 복원함.\n- 구버전 0.0.105·0.0.106의 실행 상태가 남은 업데이트, 같은 버전 재진입, 미저장 작업 보호를 검증함.\n- 공개 매뉴얼·MCP 화면 확인 안내·Agent 스킬을 함께 갱신함. 업데이트 4개·탐색기 10개·맵 조작 7개 흐름과 light/dark를 확인함.\n\nPulsia 0.3.182 이상과 Mini ACP 1.0.119 이상을 사용함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.model-studio%400.0.107",
+      "published_at": "2026-10-17T14:46:58Z",
+      "created_at": "2026-10-17T14:32:19Z",
+      "updated_at": "2026-10-17T14:46:58Z",
+      "assets": [
+        {
+          "id": 650723008,
+          "name": "pulsia-model-studio.zip",
+          "state": "uploaded",
+          "size": 64495,
+          "digest": "sha256:e61bb1335ea0816077b2c89d15751595c31045be02f7e94fb94ec7ff92cbdcfd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.107/pulsia-model-studio.zip",
+          "created_at": "2026-10-17T14:46:56Z",
+          "updated_at": "2026-10-17T14:46:57Z"
+        },
+        {
+          "id": 650723009,
+          "name": "pulsia-model-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:a9a2d3c698091e44ad07b9bdccf6bbd006142d0949ad8e0f3330f61aa5a6a67b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.107/pulsia-model-studio.zip.sha256",
+          "created_at": "2026-10-17T14:46:56Z",
+          "updated_at": "2026-10-17T14:46:57Z"
+        }
+      ]
+    },
     {
       "id": 415835604,
       "tag_name": "pulsia.model-studio@0.0.106",
