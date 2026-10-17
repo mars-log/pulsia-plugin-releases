@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-17T14:03:49.000Z",
+  "generatedAt": "2026-10-17T14:04:01.000Z",
   "releases": [
+    {
+      "id": 415835604,
+      "tag_name": "pulsia.model-studio@0.0.106",
+      "name": "Model Studio 0.0.106",
+      "body": "- 왼쪽 메뉴 아래·모델 작업 도우미 위에 객체 탐색기를 배치했습니다. 모델 맵 → 모델 → 뿌리 모델 → 자식 모델과 필드·키·연결 폴더를 탐색할 수 있습니다.\n- 탐색기 접기·펼치기, 높이 조절, 창 분리·복귀와 위치·크기·선택·펼침·스크롤 복원을 제공합니다.\n- 우클릭 ‘맵에서 보기’와 상단 타겟 아이콘은 배율과 펼침을 유지하고 선택 모델만 맵 중앙으로 옮깁니다.\n- 공용 Mini ACP와 공간이 겹치지 않도록 높이를 조절하며, 다른 대메뉴에서는 분리 탐색기를 숨깁니다.\n- 공개 매뉴얼·MCP 화면 동작·Agent 스킬을 함께 갱신했습니다. 탐색기 10개·기존 맵 7개 설치 흐름과 light/dark를 확인했습니다.\n\nPulsia 0.3.182 이상이 필요합니다. 탐색기와 도우미의 높이 조절을 위해 Mini ACP 1.0.119도 함께 업데이트하세요.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.model-studio%400.0.106",
+      "published_at": "2026-10-17T14:04:01Z",
+      "created_at": "2026-10-17T14:04:00Z",
+      "updated_at": "2026-10-17T14:04:01Z",
+      "assets": [
+        {
+          "id": 650623555,
+          "name": "pulsia-model-studio.zip",
+          "state": "uploaded",
+          "size": 63953,
+          "digest": "sha256:5f55169f826f93c73f76bceea0ce3b86c1622f8de3be1675d56c6e9345ce483f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.106/pulsia-model-studio.zip",
+          "created_at": "2026-10-17T14:04:00Z",
+          "updated_at": "2026-10-17T14:04:00Z"
+        },
+        {
+          "id": 650623554,
+          "name": "pulsia-model-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:f703e9bcbebd4f5149d205ebe1acdce72823eea3de85038001c0e8ddddd9cdb9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.106/pulsia-model-studio.zip.sha256",
+          "created_at": "2026-10-17T14:04:00Z",
+          "updated_at": "2026-10-17T14:04:00Z"
+        }
+      ]
+    },
     {
       "id": 415806568,
       "tag_name": "pulsia.model-studio@0.0.105",
