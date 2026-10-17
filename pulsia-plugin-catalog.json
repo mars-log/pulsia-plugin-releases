@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-16T08:03:04.000Z",
+  "generatedAt": "2026-10-17T12:34:38.000Z",
   "releases": [
     {
       "id": 414693586,
@@ -208,6 +208,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.119/pulsia-plugin-object-manager.zip",
           "created_at": "2026-10-16T00:35:56Z",
           "updated_at": "2026-10-16T00:35:56Z"
+        }
+      ]
+    },
+    {
+      "id": 415794327,
+      "tag_name": "pulsia.model-studio@0.0.104",
+      "name": "Model Studio 0.0.104",
+      "body": "# Model Studio 0.0.104\n\n- 표시 배율 100%를 이전 크기의 85%로 조정함. 모델·필드·관계 글자는 이전 90% 크기로 표시하여 공간을 줄이면서 읽기 크기를 보완함.\n- 우측 하단 배율 숫자를 클릭하거나 누른 채 위로 움직이면 20~100% 세로 슬라이더가 열림. 슬라이더 드래그·방향키·Home/End·Escape를 지원함. 확대·축소·휠은 20~250%로 유지함.\n- 연결선은 블록 테두리의 작은 원에 붙이고, 원 위의 작은 `1`·`N`·`M` 칩으로 연결 수를 표시함. 같은 면의 연결점을 분산하고 모델 추가·연결 버튼을 블록 안에 배치함. 관계 이름과 진행 방향을 유지함.\n- 기존 모델·필드·관계와 저장된 실제 보기 크기·위치·선택·펼침을 보존함. 모델을 드래그하는 동안 원과 칩도 함께 이동함.\n- 매뉴얼·MCP 화면 배율 조작·모델링 스킬·기능 목록을 함께 갱신함.\n\n영향 시험 9건과 격리 ZIP의 실제 UI 흐름 7건을 통과함. light/dark·좁은 화면·포인터·키보드·200ms 저장·재진입 복원을 확인함.\n\n설치 ID는 `pulsia.model-studio`임. Pulsia `0.3.174` 이상이 필요하며 AI 도우미는 Mini ACP `1.0.116` 이상을 사용함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.model-studio%400.0.104",
+      "published_at": "2026-10-17T12:34:38Z",
+      "created_at": "2026-10-16T08:03:07Z",
+      "updated_at": "2026-10-17T12:34:38Z",
+      "assets": [
+        {
+          "id": 650424338,
+          "name": "pulsia-model-studio.zip",
+          "state": "uploaded",
+          "size": 47957,
+          "digest": "sha256:0e5ae30a111b773adf49fef76a611e4dd5bc79b8524da314f4154f59f3a9c0a2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.104/pulsia-model-studio.zip",
+          "created_at": "2026-10-17T12:34:36Z",
+          "updated_at": "2026-10-17T12:34:37Z"
+        },
+        {
+          "id": 650424341,
+          "name": "pulsia-model-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:10ca549c156db9d0312c0831a10eb76aa1bfc6910399b7363f896693a975ae40",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.104/pulsia-model-studio.zip.sha256",
+          "created_at": "2026-10-17T12:34:37Z",
+          "updated_at": "2026-10-17T12:34:37Z"
         }
       ]
     },
