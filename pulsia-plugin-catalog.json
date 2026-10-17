@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-17T13:02:02.000Z",
+  "generatedAt": "2026-10-17T13:50:16.000Z",
   "releases": [
     {
       "id": 415806568,
@@ -34,6 +34,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.105/pulsia-model-studio.zip.sha256",
           "created_at": "2026-10-17T13:02:01Z",
           "updated_at": "2026-10-17T13:02:01Z"
+        }
+      ]
+    },
+    {
+      "id": 415828771,
+      "tag_name": "pulsia.ai-harness@0.0.108",
+      "name": "AI Harness 0.0.108",
+      "body": "카탈로그가 준비되기 전에도 AI 요청의 원문·첨부·해석을 보관하고 대화를 계속할 수 있습니다.\n\n- 임시 요청을 프로젝트의 `.pulsia/data/ai-harness/request-context/pending/conversations/` 아래에 대화별로 보관합니다.\n- 카탈로그가 준비되면 공용 확인 창에서 기록을 옮길지 묻습니다. `나중에`를 선택하면 `임시 보관` 하단 패널에서 다시 시작할 수 있습니다.\n- 파일별 복사·내용 검증·진행 기록으로 실패하거나 중단한 요청을 이어서 옮깁니다. 검증이 끝나기 전에는 임시 원본을 유지하고, 목적지의 다른 파일을 덮어쓰지 않습니다.\n- 진행과 결과는 Pulsia 공용 작업·알림을 사용합니다.\n\nPulsia 0.3.188의 실제 설치 ZIP으로 두 테마, 카탈로그 준비 전 ACP 전송, 준비 후 확인, 실패 후 재개를 검증했습니다.\n\n소스: [012172b](https://github.com/mars-log/pulsia-plugin-studio/commit/012172be3b42143fbf897bc4206dae290071082f)\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-harness%400.0.108",
+      "published_at": "2026-10-17T13:50:16Z",
+      "created_at": "2026-10-17T13:02:09Z",
+      "updated_at": "2026-10-17T13:50:16Z",
+      "assets": [
+        {
+          "id": 650590892,
+          "name": "pulsia-ai-harness.zip",
+          "state": "uploaded",
+          "size": 117700,
+          "digest": "sha256:801326da4bf3ed6e1eb709e9d40398b395bc728ef8afe4ba5a32e7252c9671ee",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.108/pulsia-ai-harness.zip",
+          "created_at": "2026-10-17T13:50:15Z",
+          "updated_at": "2026-10-17T13:50:15Z"
+        },
+        {
+          "id": 650590894,
+          "name": "pulsia-ai-harness.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:e5682107d47d646f5ea11ee9030c2c2647aa839219a150c4ef4340817e2cf1b3",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.108/pulsia-ai-harness.zip.sha256",
+          "created_at": "2026-10-17T13:50:15Z",
+          "updated_at": "2026-10-17T13:50:15Z"
         }
       ]
     },
@@ -3372,6 +3406,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.112/pulsia-plugin-mini-acp.zip.sha256",
           "created_at": "2026-10-12T07:53:39Z",
           "updated_at": "2026-10-12T07:53:40Z"
+        }
+      ]
+    },
+    {
+      "id": 410254295,
+      "tag_name": "pulsia-plugin-mini-acp@1.0.111",
+      "name": "Mini ACP 1.0.111",
+      "body": "Mini ACP의 문맥 선택과 하단 Agent·세션·사용량 제어를 좁은 패널에 맞춰 정리합니다. 오른쪽 ACP Workbench 표시는 유지합니다.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-mini-acp%401.0.111",
+      "published_at": "2026-10-12T06:24:37Z",
+      "created_at": "2026-10-12T05:28:22Z",
+      "updated_at": "2026-10-12T06:24:37Z",
+      "assets": [
+        {
+          "id": 632887952,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 19760,
+          "digest": "sha256:8ece3b5988c3b8a5ded8003951510f22dc5d69619c38a80057aa712b9f29804a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.111/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-10-12T06:24:36Z",
+          "updated_at": "2026-10-12T06:24:36Z"
+        },
+        {
+          "id": 632887951,
+          "name": "pulsia-plugin-mini-acp.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:29b84bd0e8ce204016f9eedaf7320db61c8368d70f91687f75403a4ea23d5e4b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.111/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-10-12T06:24:36Z",
+          "updated_at": "2026-10-12T06:24:36Z"
         }
       ]
     },
