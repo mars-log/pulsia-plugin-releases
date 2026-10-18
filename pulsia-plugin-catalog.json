@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-18T05:35:55.000Z",
+  "generatedAt": "2026-10-18T05:47:33.000Z",
   "releases": [
+    {
+      "id": 416261475,
+      "tag_name": "pulsia.coin-pilot@0.0.104",
+      "name": "CoinPilot · 코인파일럿 0.0.104",
+      "body": "CoinPilot 0.0.104\n\n- 선물 캔들 WebSocket을 현재 Market 경로로 변경함. 기존 경로에서 과거 조회 뒤 새 틱을 받지 못하던 문제를 수정하고 실제 현물·선물 live 틱을 확인함. 공식 안내: https://developers.binance.com/en/docs/products/derivatives-trading-usds-futures/websocket-market-streams/Important-WebSocket-Change-Notice\n- 이전 precision에 시장 정보가 없으면 저장된 차트·운용·훈련 문맥에서 시장만 보충함. 과거 tick·step·가격·비용을 바꾸거나 precision 부재를 빈 객체로 바꾸지 않음.\n- 작은 선물 모의 잔량의 부분/전체 종료를 허용함. 동일 현물 금액 제한과 수량 step·최소/최대 제한은 유지함.\n- 과거 봉을 받거나 감시를 재개해도 재진입 방지 시각을 낮추지 않도록 수정함.\n- 기존 Number 기록·부분 종료·저장/집계/CSV·직접/운용의 이전 시장 문맥·훈련·실제 주문 연결·시세를 포함한 영향 시험 73개 통과임.\n- 전체 영속 자료 15종의 업데이트/재시작/재설치 비교와 OS 암호화 키 사용 가능성 검사를 보강함. 내부 시험·비밀·인박스는 ZIP에 포함하지 않음.\n- Core 0.3.195 이상이 필요함. 사용자 계좌·Host AI 제공자의 운영 호출은 자격 증명 미제공으로 미검증임. 실제 자금 주문·출금·이체 제출은 0건임.\n\n소스: https://github.com/mars-log/pulsia-plugin-studio/commit/4f0d91c448c4910f72c853f7920d9d1c8b9ca0a4\nSHA-256: fc15ab473c80ed1f32a1246962a413fe47d9fe6f48a8c889602a622472dc928f\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.coin-pilot%400.0.104",
+      "published_at": "2026-10-18T05:47:33Z",
+      "created_at": "2026-10-18T05:36:03Z",
+      "updated_at": "2026-10-18T05:47:33Z",
+      "assets": [
+        {
+          "id": 652610725,
+          "name": "pulsia-coin-pilot.zip",
+          "state": "uploaded",
+          "size": 218011,
+          "digest": "sha256:fc15ab473c80ed1f32a1246962a413fe47d9fe6f48a8c889602a622472dc928f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.104/pulsia-coin-pilot.zip",
+          "created_at": "2026-10-18T05:47:31Z",
+          "updated_at": "2026-10-18T05:47:32Z"
+        },
+        {
+          "id": 652610728,
+          "name": "pulsia-coin-pilot.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:c1e9a7dea5080192fbe8626f7bf55a9317a4f2c52d8d0fec257ffeebbb266daa",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.104/pulsia-coin-pilot.zip.sha256",
+          "created_at": "2026-10-18T05:47:32Z",
+          "updated_at": "2026-10-18T05:47:32Z"
+        }
+      ]
+    },
     {
       "id": 416257903,
       "tag_name": "pulsia.coin-pilot@0.0.103",
