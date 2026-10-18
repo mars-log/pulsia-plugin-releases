@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-18T13:37:26.000Z",
+  "generatedAt": "2026-10-18T14:09:19.000Z",
   "releases": [
     {
       "id": 416470895,
@@ -34,6 +34,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.117/pulsia-test-pack.zip.sha256",
           "created_at": "2026-10-18T13:37:11Z",
           "updated_at": "2026-10-18T13:37:11Z"
+        }
+      ]
+    },
+    {
+      "id": 416486994,
+      "tag_name": "pulsia.model-studio@0.0.109",
+      "name": "Model Studio 0.0.109",
+      "body": "- 모델 작업 도우미 하단의 선택 모델 표시 줄을 제거함.\n- 맵·탐색기의 모델 선택과 배율·필드 펼침을 유지함. 현재 선택은 화면 MCP `inspectModelStudio.selectedModelId`로 확인함.\n- 공개 매뉴얼·MCP 사용 안내·스킬·기능 목록을 갱신함.\n- 관련 문서 검사 4건과 격리 설치 ZIP의 light/dark·선택·입력·전송·0.0.108 업데이트 3개 흐름을 통과함.\n\nPulsia 0.3.182 이상과 Mini ACP 1.0.119 이상을 사용함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.model-studio%400.0.109",
+      "published_at": "2026-10-18T14:09:19Z",
+      "created_at": "2026-10-18T13:37:34Z",
+      "updated_at": "2026-10-18T14:09:19Z",
+      "assets": [
+        {
+          "id": 653634389,
+          "name": "pulsia-model-studio.zip",
+          "state": "uploaded",
+          "size": 66784,
+          "digest": "sha256:18270272768b5683571981db63e5389efafbdf18d96791c07ff8567d06422616",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.109/pulsia-model-studio.zip",
+          "created_at": "2026-10-18T14:09:18Z",
+          "updated_at": "2026-10-18T14:09:18Z"
+        },
+        {
+          "id": 653634391,
+          "name": "pulsia-model-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:0ece7b366616cb40e17c8150121536ce36fb9a28ddfd7bb74d2442ba1380e5be",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.109/pulsia-model-studio.zip.sha256",
+          "created_at": "2026-10-18T14:09:18Z",
+          "updated_at": "2026-10-18T14:09:18Z"
         }
       ]
     },
