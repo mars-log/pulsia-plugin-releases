@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-18T12:56:33.000Z",
+  "generatedAt": "2026-10-18T13:33:23.000Z",
   "releases": [
     {
       "id": 416261475,
@@ -102,6 +102,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.102/pulsia-coin-pilot.zip.sha256",
           "created_at": "2026-10-18T05:13:46Z",
           "updated_at": "2026-10-18T05:13:46Z"
+        }
+      ]
+    },
+    {
+      "id": 416468941,
+      "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.129",
+      "name": "AI Agent Collaboration Chat 0.1.129",
+      "body": "Group Chat에서 처리 중 추가한 요청의 전달 정책을 두 AI에 동일하게 적용합니다.\n\n- 기본은 **현재 작업 후 전송**입니다. Group Chat의 공용 대기열에서 **현재 작업 조정**을 한 번 누르면 두 AI에 같은 추가 요청과 첨부를 전달합니다.\n- 한쪽만 실패하면 하단 **대화 진행** 탭에서 AI별 상태를 확인하고 실패한 AI만 다시 보낼 수 있습니다. 이미 접수한 AI에는 중복 전송하지 않습니다. 접수 여부가 불명확하면 자동 재전송하지 않습니다.\n- 편집·삭제·일시 정지·재개·재시작을 지원하고, AI1만 중지하면 AI2와 다른 대화는 계속 실행됩니다.\n- 전달 상태 버튼은 하단 탭의 최신 요청과 AI별 상태를 바로 보여줍니다.\n\nACP 전체의 텍스트 밝기 흐름은 Pulsia Core **0.3.198** 업데이트로 적용됩니다. 미니 ACP·우측·메인·협업 ACP가 같은 공용 표시를 사용합니다.\n\n변경 영향 시험 52개와 격리 설치 ZIP의 light/dark·좁은 화면·공동 조정·부분 실패·선택 재시도를 검증했습니다.\n\nSource: mars-log/pulsia-plugin-studio@fafb71fca05c52e4d76849da758b4695b10478a2\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-ai-agent-collaboration-chat%400.1.129",
+      "published_at": "2026-10-18T13:33:23Z",
+      "created_at": "2026-10-18T12:56:45Z",
+      "updated_at": "2026-10-18T13:33:23Z",
+      "assets": [
+        {
+          "id": 653563450,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "state": "uploaded",
+          "size": 121605,
+          "digest": "sha256:42dab05b58a6777adde934542edf39fc97d0aa7ae56075658064f2f94c1c2983",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.129/pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "created_at": "2026-10-18T13:33:22Z",
+          "updated_at": "2026-10-18T13:33:22Z"
+        },
+        {
+          "id": 653563449,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "state": "uploaded",
+          "size": 112,
+          "digest": "sha256:603ae4d737ca22e1540b0ba6bec1598b68246765670036310541c8ef3ef47eb7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.129/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "created_at": "2026-10-18T13:33:22Z",
+          "updated_at": "2026-10-18T13:33:22Z"
         }
       ]
     },
