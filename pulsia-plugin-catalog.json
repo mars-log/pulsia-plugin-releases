@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-18T14:09:19.000Z",
+  "generatedAt": "2026-10-18T15:22:36.000Z",
   "releases": [
     {
       "id": 416470895,
@@ -208,6 +208,40 @@
       ]
     },
     {
+      "id": 416524196,
+      "tag_name": "pulsia-plugin-mini-acp@1.0.120",
+      "name": "pulsia-plugin-mini-acp 1.0.120",
+      "body": "기존 설치 화면을 새 공용 ACP 코드로 다시 컴파일하는 업데이트입니다. Pulsia Core 0.3.200 이상에서 텍스트 안의 은은한 밝기 흐름과 이미지·장문 입력 개선을 반영합니다.\n\nCore 0.3.201은 이후 Core 업데이트에서도 기존 설치 화면이 최신 공용 소스를 사용하도록 보완합니다. 대화·첨부·작성 초안과 다른 Agent 실행은 유지합니다.\n\nSource: mars-log/pulsia-plugin-studio@696f3c65ed9d7bd570f8ae2c137d159adfce4123\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-mini-acp%401.0.120",
+      "published_at": "2026-10-18T15:22:36Z",
+      "created_at": "2026-10-18T14:09:28Z",
+      "updated_at": "2026-10-18T15:22:36Z",
+      "assets": [
+        {
+          "id": 653781148,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 23819,
+          "digest": "sha256:44fc629bdf0ce300335809163843dd7d8089792bf9cb7575932565401516575f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.120/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-10-18T15:22:35Z",
+          "updated_at": "2026-10-18T15:22:35Z"
+        },
+        {
+          "id": 653781147,
+          "name": "pulsia-plugin-mini-acp.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:17d1802f46755719b1e44d7124a0f82a9cd350dde17ef12971201caaef5887c9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.120/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-10-18T15:22:35Z",
+          "updated_at": "2026-10-18T15:22:35Z"
+        }
+      ]
+    },
+    {
       "id": 416468941,
       "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.129",
       "name": "AI Agent Collaboration Chat 0.1.129",
@@ -306,6 +340,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.127/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
           "created_at": "2026-10-18T04:20:59Z",
           "updated_at": "2026-10-18T04:21:00Z"
+        }
+      ]
+    },
+    {
+      "id": 416524155,
+      "tag_name": "pulsia-plugin-acp-workbench@1.1.120",
+      "name": "pulsia-plugin-acp-workbench 1.1.120",
+      "body": "기존 설치 화면을 새 공용 ACP 코드로 다시 컴파일하는 업데이트입니다. Pulsia Core 0.3.200 이상에서 텍스트 안의 은은한 밝기 흐름과 이미지·장문 입력 개선을 반영합니다.\n\nCore 0.3.201은 이후 Core 업데이트에서도 기존 설치 화면이 최신 공용 소스를 사용하도록 보완합니다. 대화·첨부·작성 초안과 다른 Agent 실행은 유지합니다.\n\nSource: mars-log/pulsia-plugin-studio@696f3c65ed9d7bd570f8ae2c137d159adfce4123\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.120",
+      "published_at": "2026-10-18T15:22:31Z",
+      "created_at": "2026-10-18T14:09:28Z",
+      "updated_at": "2026-10-18T15:22:31Z",
+      "assets": [
+        {
+          "id": 653780998,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 10674,
+          "digest": "sha256:93190c78f467b39e94570cab7ffc33b7bea1e74199c905b7d5d3ca99be74cd98",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.120/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-10-18T15:22:30Z",
+          "updated_at": "2026-10-18T15:22:31Z"
+        },
+        {
+          "id": 653781000,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:86935c26bbe46381789a7805931e1ab23ce35d16201bcd8b21d726858af59c64",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.120/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-10-18T15:22:30Z",
+          "updated_at": "2026-10-18T15:22:31Z"
         }
       ]
     },
@@ -3208,6 +3276,90 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.144/pulsia-java-development-pack.zip.sha256",
           "created_at": "2026-10-13T14:38:00Z",
           "updated_at": "2026-10-13T14:38:00Z"
+        }
+      ]
+    },
+    {
+      "id": 412237570,
+      "tag_name": "pulsia.db-connector-v0.2.103",
+      "name": "DB Connector 0.2.103",
+      "body": "Plugin Studio source: 5d12cc0\n\n- Apply, OK, and unsaved-change save now pass clone-safe values to the Plugin Host.\n- Transient success and failure messages use Pulsia common notifications.\n- Driver packages are unchanged and included for a complete new-version install.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.db-connector-v0.2.103",
+      "published_at": "2026-10-14T01:01:07Z",
+      "created_at": "2026-10-13T16:21:42Z",
+      "updated_at": "2026-10-14T01:01:07Z",
+      "assets": [
+        {
+          "id": 638754280,
+          "name": "db-driver-mariadb-3.5.4.zip",
+          "state": "uploaded",
+          "size": 1948227,
+          "digest": "sha256:b952a6425a7fcbbd2bebdd71e03de476962db0eba2f02c85d1cca8b9e42cadfc",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.103/db-driver-mariadb-3.5.4.zip",
+          "created_at": "2026-10-14T01:01:05Z",
+          "updated_at": "2026-10-14T01:01:05Z"
+        },
+        {
+          "id": 638754274,
+          "name": "db-driver-mysql-3.24.4.zip",
+          "state": "uploaded",
+          "size": 577682,
+          "digest": "sha256:daff0a915860e873680b3780a778fb1d5a1dd8e8cea8b762d9a78f813009759a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.103/db-driver-mysql-3.24.4.zip",
+          "created_at": "2026-10-14T01:01:05Z",
+          "updated_at": "2026-10-14T01:01:05Z"
+        },
+        {
+          "id": 638754278,
+          "name": "db-driver-oracle-7.0.1.zip",
+          "state": "uploaded",
+          "size": 371694,
+          "digest": "sha256:2490e3f0d3cf33b1aa79d8d304bbda89092deec6efdd5b393cf9e31b49b51f5c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.103/db-driver-oracle-7.0.1.zip",
+          "created_at": "2026-10-14T01:01:05Z",
+          "updated_at": "2026-10-14T01:01:05Z"
+        },
+        {
+          "id": 638754302,
+          "name": "db-driver-postgresql-8.23.0.zip",
+          "state": "uploaded",
+          "size": 163630,
+          "digest": "sha256:ea3cf6f8e52bc3bb411870cf1a35c06d36ae3f8e287e98b2adfd1cd1920b6609",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.103/db-driver-postgresql-8.23.0.zip",
+          "created_at": "2026-10-14T01:01:05Z",
+          "updated_at": "2026-10-14T01:01:06Z"
+        },
+        {
+          "id": 638754313,
+          "name": "db-driver-redis-6.3.0.zip",
+          "state": "uploaded",
+          "size": 2212755,
+          "digest": "sha256:b4cf8c8ecc68e7faa87003d93f15eefd47c3032429a2f99437551bdf2f49130c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.103/db-driver-redis-6.3.0.zip",
+          "created_at": "2026-10-14T01:01:06Z",
+          "updated_at": "2026-10-14T01:01:06Z"
+        },
+        {
+          "id": 638754279,
+          "name": "pulsia-plugin-db-connector.zip",
+          "state": "uploaded",
+          "size": 208315,
+          "digest": "sha256:3ad82891e08b00700981584046781e26655a0cec32c1cf1f24b56f6f27e152ff",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.103/pulsia-plugin-db-connector.zip",
+          "created_at": "2026-10-14T01:01:05Z",
+          "updated_at": "2026-10-14T01:01:05Z"
+        },
+        {
+          "id": 638754276,
+          "name": "pulsia-plugin-db-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 65,
+          "digest": "sha256:c7ca276fca16c90a4796b172fb9d52011b25dc3ce337f202f788115ea52677ee",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.103/pulsia-plugin-db-connector.zip.sha256",
+          "created_at": "2026-10-14T01:01:05Z",
+          "updated_at": "2026-10-14T01:01:05Z"
         }
       ]
     },
