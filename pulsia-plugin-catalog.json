@@ -1,19 +1,19 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-18T05:13:47.000Z",
+  "generatedAt": "2026-10-18T05:19:03.000Z",
   "releases": [
     {
       "id": 416250543,
       "tag_name": "pulsia.coin-pilot@0.0.102",
       "name": "CoinPilot · 코인파일럿 0.0.102",
-      "body": "CoinPilot 0.0.102\n\n- Binance 현물·USDT 선물 차트, RSI·다이버전스·웻지·그린 선 조건, 저장 전략·복수 종목 운용·모의 훈련·뉴스·계좌 장부를 제공함.\n- Pulsia 공용 창·탭·알림·진행 표시·하단 패널을 사용하며 light/dark·좁은 창·긴 목록과 미저장 변경 보호를 지원함.\n- 주문 의도·고유 ID 대조, 선물 지정가 변경·보호 교체·부분 종료, 포지션별 명시 AI 관리와 십진 금액 계산을 포함함.\n- Pulsia Core 0.3.195 이상이 필요함. 계좌 키는 OS 암호화 저장소에 보관함. Core 설치: https://github.com/mars-log/pulsia-releases/releases/tag/v0.3.195\n- 공개 매뉴얼·기능 목록·Agent 스킬·31개 MCP 도구를 설치 ZIP에 포함함.\n\n검증\n\n- 영향 시험 166개, 실제 Core 기본 UI 13흐름·30화면, 거래소 제공자 격리 UI 14흐름·17화면을 통과함.\n- 실제 배포 Core의 외부 MCP 도구 발견·읽기/쓰기·비활성화/재활성화 후 저장 자료 보존을 확인함.\n- 사용자 계좌와 실제 Host AI 제공자 자격 증명이 없어 해당 운영 호출은 미검증임. 실제 자금 주문·출금·이체 제출은 0건임.\n- 앱이 종료되면 로컬 감시·새 보호 등록·AI 관리는 실행되지 않음. 거래소에 접수한 주문의 지속과 구분해야 함.\n- 과거 검증의 펀딩·청산·체결 비용은 결과에 표시한 가정이며 실제 호가·마크 가격·과거 거래소 청산을 재현하지 않음.\n\n소스: https://github.com/mars-log/pulsia-plugin-studio/commit/735c9267c4382f5b5b79655a9def861801d2d7b1\nSHA-256: ab48a1e7f9e29116a3d2ffd17706a6d1194ee5d9cf914c54012d27ab79b224e0\r\n",
+      "body": "CoinPilot 0.0.102\n\n- Binance 현물·USDT 선물 차트, RSI·다이버전스·웻지·그린 선 조건, 저장 전략·복수 종목 운용·모의 훈련·뉴스·계좌 장부를 제공함.\n- Pulsia 공용 창·탭·알림·진행 표시·하단 패널을 사용하며 light/dark·좁은 창·긴 목록과 미저장 변경 보호를 지원함.\n- 주문 의도·고유 ID 대조, 선물 지정가 변경·보호 교체·부분 종료, 포지션별 명시 AI 관리와 십진 금액 계산을 포함함.\n- Pulsia Core 0.3.195 이상이 필요함. 계좌 키는 OS 암호화 저장소에 보관함. Core 설치: https://github.com/mars-log/pulsia-releases/releases/tag/v0.3.195\n- 공개 매뉴얼·기능 목록·Agent 스킬·31개 MCP 도구를 설치 ZIP에 포함함.\n\n검증\n\n- 영향 시험 166개, 실제 Core 기본 UI 13흐름·30화면, 거래소 제공자 격리 UI 14흐름·17화면을 통과함.\n- 실제 배포 Core에서 외부 MCP 도구 발견·읽기/쓰기, 공개 버전 업데이트·앱 재시작·Plugin 제거 뒤 공개 ZIP 재설치와 전략/훈련/모의 장부 보존을 확인함.\n- 사용자 계좌와 실제 Host AI 제공자 자격 증명이 없어 해당 운영 호출은 미검증임. 실제 자금 주문·출금·이체 제출은 0건임.\n- 앱이 종료되면 로컬 감시·새 보호 등록·AI 관리는 실행되지 않음. 거래소에 접수한 주문의 지속과 구분해야 함.\n- 과거 검증의 펀딩·청산·체결 비용은 결과에 표시한 가정이며 실제 호가·마크 가격·과거 거래소 청산을 재현하지 않음.\n\n소스: https://github.com/mars-log/pulsia-plugin-studio/commit/735c9267c4382f5b5b79655a9def861801d2d7b1\nSHA-256: ab48a1e7f9e29116a3d2ffd17706a6d1194ee5d9cf914c54012d27ab79b224e0\r\n",
       "draft": false,
       "prerelease": false,
       "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.coin-pilot%400.0.102",
       "published_at": "2026-10-18T05:13:47Z",
       "created_at": "2026-10-18T04:21:09Z",
-      "updated_at": "2026-10-18T05:13:47Z",
+      "updated_at": "2026-10-18T05:19:03Z",
       "assets": [
         {
           "id": 652552045,
