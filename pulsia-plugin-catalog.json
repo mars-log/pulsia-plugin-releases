@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-17T16:03:16.000Z",
+  "generatedAt": "2026-10-18T03:25:35.000Z",
   "releases": [
     {
       "id": 415910018,
@@ -24,6 +24,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.128/wintera-net-manager.zip",
           "created_at": "2026-10-17T16:03:15Z",
           "updated_at": "2026-10-17T16:03:15Z"
+        }
+      ]
+    },
+    {
+      "id": 416210063,
+      "tag_name": "pulsia.model-studio@0.0.108",
+      "name": "Model Studio 0.0.108",
+      "body": "- 연속 드래그 중 이전 저장 타이머가 실행되어 상단 버튼이 깜빡이고 블록·연결선이 어긋나는 문제를 수정함.\n- 위치 자동 저장 중 상단 조작을 유지하며 느린 저장 응답·취소·저장 실패의 재시도와 원본 복구를 처리함.\n- 탐색기 제목 아래 같은 도구줄에 맵에서 보기와 선택 모델 추적을 배치함. 추적 토글을 끄면 트리의 선택·펼침·스크롤을 유지하며 토글 상태를 재시작 뒤 복원함.\n- 최상위 모델 맵 아이콘을 Lucide boxes로 교체함. 공개 매뉴얼·MCP 화면 동작·스킬·기능 목록을 함께 갱신함.\n- 격리 설치 ZIP으로 UI 28개 흐름과 관련 시험 13건, light/dark를 확인함. 0.0.105·0.0.106·0.0.107 실행 상태에서 업데이트 뒤 두 패널과 보기를 유지함.\n\nPulsia 0.3.182 이상과 Mini ACP 1.0.119 이상을 사용함.",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.model-studio%400.0.108",
+      "published_at": "2026-10-18T03:25:35Z",
+      "created_at": "2026-10-17T16:03:25Z",
+      "updated_at": "2026-10-18T03:25:35Z",
+      "assets": [
+        {
+          "id": 652348239,
+          "name": "pulsia-model-studio.zip",
+          "state": "uploaded",
+          "size": 66638,
+          "digest": "sha256:aa29dc0ae092a112023f377405ee6979de0161582a328bc6dbb0e782c78a8f54",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.108/pulsia-model-studio.zip",
+          "created_at": "2026-10-18T03:25:34Z",
+          "updated_at": "2026-10-18T03:25:34Z"
+        },
+        {
+          "id": 652348242,
+          "name": "pulsia-model-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:1bb3359d0fce61d54140e83e2af4368a27512caa3edc155ec9a47f542afa8319",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.108/pulsia-model-studio.zip.sha256",
+          "created_at": "2026-10-18T03:25:34Z",
+          "updated_at": "2026-10-18T03:25:34Z"
         }
       ]
     },
