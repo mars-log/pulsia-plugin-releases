@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-18T05:57:18.000Z",
+  "generatedAt": "2026-10-18T12:54:12.000Z",
   "releases": [
     {
       "id": 416261475,
@@ -102,6 +102,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.102/pulsia-coin-pilot.zip.sha256",
           "created_at": "2026-10-18T05:13:46Z",
           "updated_at": "2026-10-18T05:13:46Z"
+        }
+      ]
+    },
+    {
+      "id": 416449720,
+      "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.128",
+      "name": "AI Agent Collaboration Chat 0.1.128 · AI별 강제 종료",
+      "body": "# AI1·AI2 개별 강제 종료\n\n- 업데이트·종료 작업 확인 창에서 AI1 또는 AI2를 골라 강제 종료함. 상대 AI·다른 대화는 계속 실행됨.\n- 선택한 AI의 대기 요청·자동 반응도 중지함. 새 요청·대화 이어가기·상대 의견 요청·명시적 재시도로 다시 실행함.\n- Group Chat 대화 목록의 위·아래 외곽 테두리를 제거함. 최대 98%·너비 조절·두 진입 방향을 유지함.\n- Pulsia Core 0.3.197 이상이 필요함. 저장된 기록을 보존함.\n\n영향 범위 시험 41개·설치 ZIP light/dark·독립 ACP 유지 검사를 통과함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-ai-agent-collaboration-chat%400.1.128",
+      "published_at": "2026-10-18T12:54:12Z",
+      "created_at": "2026-10-18T05:57:27Z",
+      "updated_at": "2026-10-18T12:54:12Z",
+      "assets": [
+        {
+          "id": 653490104,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "state": "uploaded",
+          "size": 112500,
+          "digest": "sha256:11f561c4fd37e27d9e5c425895e6cbe15e8c2a2009a5a0f24785eb116dff74e0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.128/pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "created_at": "2026-10-18T12:54:10Z",
+          "updated_at": "2026-10-18T12:54:11Z"
+        },
+        {
+          "id": 653490103,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "state": "uploaded",
+          "size": 112,
+          "digest": "sha256:5b46359cce85f8ef026dbb8b7af77aa8f184165ac2443cf32b1e4a2f3bbdae7d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.128/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "created_at": "2026-10-18T12:54:10Z",
+          "updated_at": "2026-10-18T12:54:11Z"
         }
       ]
     },
