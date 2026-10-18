@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-18T13:33:40.000Z",
+  "generatedAt": "2026-10-18T13:37:26.000Z",
   "releases": [
+    {
+      "id": 416470895,
+      "tag_name": "pulsia.test-pack@1.0.117",
+      "name": "Pulsia Test Pack 1.0.117",
+      "body": "# Pulsia Test Pack 1.0.117\n\n- UI 기준 예제에 텍스트 흐름·짧은 선·점 흐름을 각각 추가함.\n- 기존 물결 입력 바로 아래에 550ms 퍼지는 입력 상자를 추가함.\n- 하나의 표본에서 라이트·다크를 전환하며 일시정지·동작 줄이기와 입력값 보존을 지원함.\n- ACP 기본 텍스트 흐름과 선택형 점 흐름의 재사용 지시문을 공개 매뉴얼·스킬·MCP 조회로 제공함.\n- 기존 ACP 화면을 자동 교체하지 않으며 각 소비 화면에서 기준 ID를 지정해 적용함.\n\nSource: mars-log/pulsia-plugin-studio@2ec5d04d583fd004a79da7dabc5ff10d905184e0\n\nSHA-256: 36767391fe3a004ad7c6178a4be8d3282b5621743045b225daffc8b776974bac\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.test-pack%401.0.117",
+      "published_at": "2026-10-18T13:37:26Z",
+      "created_at": "2026-10-18T13:33:45Z",
+      "updated_at": "2026-10-18T13:37:26Z",
+      "assets": [
+        {
+          "id": 653571888,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 163321,
+          "digest": "sha256:36767391fe3a004ad7c6178a4be8d3282b5621743045b225daffc8b776974bac",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.117/pulsia-test-pack.zip",
+          "created_at": "2026-10-18T13:37:11Z",
+          "updated_at": "2026-10-18T13:37:11Z"
+        },
+        {
+          "id": 653571903,
+          "name": "pulsia-test-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 87,
+          "digest": "sha256:387900328c31dbb964a63714a212014ebdb2f44af070e1dcd03a6dbfc92575d8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.117/pulsia-test-pack.zip.sha256",
+          "created_at": "2026-10-18T13:37:11Z",
+          "updated_at": "2026-10-18T13:37:11Z"
+        }
+      ]
+    },
     {
       "id": 416469093,
       "tag_name": "pulsia.coin-pilot@0.0.105",
