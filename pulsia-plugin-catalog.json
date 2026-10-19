@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-19T04:39:06.000Z",
+  "generatedAt": "2026-10-19T06:14:34.000Z",
   "releases": [
+    {
+      "id": 416962396,
+      "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.132",
+      "name": "AI Agent Collaboration Chat 0.1.132 — AI 작업팀 화면",
+      "body": "AI Collaboration에 AI 작업팀 메뉴를 추가함. 업무별 메인·서브 Agent와 모델, 역할·동시 실행 수·메모를 저장하고 채팅 배치를 검토할 수 있음.\n\n서브 추가·제거, 설정 저장·취소, 업무 전환 중 미저장 설정 보존, 공용 ACP 입력 초안과 화면 너비 복원을 제공함. 이번 버전은 화면 미리보기이며 실제 AI 자동 실행·작업 배정은 후속 단계임. 기존 협업 대화는 유지함.\n\n검증: 변경 영향 단위 시험 11개, 설치 ZIP의 light/dark·좁은 화면·설정 저장·재열기·기존 협업 작업 보호 통과.\n소스: mars-log/pulsia-plugin-studio commit 2901d58\nSHA-256: 78541bd5d3ab72b3578ce3d81c1e83e850cfbf168b0de19460ccec972d91f5a4\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-ai-agent-collaboration-chat%400.1.132",
+      "published_at": "2026-10-19T06:14:34Z",
+      "created_at": "2026-10-19T04:39:15Z",
+      "updated_at": "2026-10-19T06:14:34Z",
+      "assets": [
+        {
+          "id": 655412711,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "state": "uploaded",
+          "size": 142880,
+          "digest": "sha256:78541bd5d3ab72b3578ce3d81c1e83e850cfbf168b0de19460ccec972d91f5a4",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.132/pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "created_at": "2026-10-19T06:14:33Z",
+          "updated_at": "2026-10-19T06:14:33Z"
+        },
+        {
+          "id": 655412713,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "state": "uploaded",
+          "size": 112,
+          "digest": "sha256:c6a085d402a6fa072aabf22765ff316d0236d9a57d96bfe5dd10085565ad3deb",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.132/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "created_at": "2026-10-19T06:14:33Z",
+          "updated_at": "2026-10-19T06:14:33Z"
+        }
+      ]
+    },
     {
       "id": 416470895,
       "tag_name": "pulsia.test-pack@1.0.117",
