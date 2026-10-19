@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-19T06:14:34.000Z",
+  "generatedAt": "2026-10-19T06:58:58.000Z",
   "releases": [
+    {
+      "id": 416993776,
+      "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.133",
+      "name": "AI 협업 대화 0.1.133 · 작업팀 화면 개선",
+      "body": "AI 작업팀 화면 사용성을 개선했습니다.\r\n\r\n- 업무 목록 접기와 펼치기를 지원합니다.\r\n- 업무 메모와 확인할 항목의 접힘 높이를 맞추고 함께 높이를 조절합니다.\r\n- AI Collaboration 서브메뉴 아래 스크래치패드를 작업팀에서도 표시합니다.\r\n- 메인 Agent·모델·더보기를 채팅 상단에 모으고 서브 추가 버튼을 오른쪽 헤더에 고정합니다.\r\n- 업무별 설정과 입력 초안을 유지합니다. AI 자동 실행은 후속 단계입니다.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-ai-agent-collaboration-chat%400.1.133",
+      "published_at": "2026-10-19T06:58:58Z",
+      "created_at": "2026-10-19T06:14:44Z",
+      "updated_at": "2026-10-19T06:58:58Z",
+      "assets": [
+        {
+          "id": 655497459,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "state": "uploaded",
+          "size": 145278,
+          "digest": "sha256:d48eb30c3cecc344984ef03c0a5aaabff568511fbed19c7756dfbbbbda8e085f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.133/pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "created_at": "2026-10-19T06:58:57Z",
+          "updated_at": "2026-10-19T06:58:57Z"
+        },
+        {
+          "id": 655497460,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "state": "uploaded",
+          "size": 112,
+          "digest": "sha256:e153f342b5f9ccda89100984b61bdfad649dc43a5f7105b45e27e4a7327df31c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.133/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "created_at": "2026-10-19T06:58:57Z",
+          "updated_at": "2026-10-19T06:58:57Z"
+        }
+      ]
+    },
     {
       "id": 416962396,
       "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.132",
