@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-20T14:51:01.000Z",
+  "generatedAt": "2026-10-20T15:12:16.000Z",
   "releases": [
     {
       "id": 418508676,
@@ -652,6 +652,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.107/pulsia-coin-pilot.zip.sha256",
           "created_at": "2026-10-20T14:39:37Z",
           "updated_at": "2026-10-20T14:39:37Z"
+        }
+      ]
+    },
+    {
+      "id": 418542157,
+      "tag_name": "pulsia.catalog-studio@1.2.145",
+      "name": "Catalog Studio 1.2.145",
+      "body": "# Catalog Studio 1.2.145\n\nLucide 공용 아이콘과 문자 쉐브론 정리를 포함합니다. 내부 패키지·기능 정보·백엔드 응답 버전을 배포 manifest에 맞추고 게시 전 버전 검사를 추가했습니다.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.catalog-studio\",\"version\":\"1.2.145\",\"title\":\"Catalog Studio\",\"description\":\"Lucide 공용 아이콘과 문자 쉐브론 정리를 포함합니다. 내부 패키지·기능 정보·백엔드 응답 버전을 배포 manifest에 맞추고 게시 전 버전 검사를 추가했습니다.\",\"kind\":\"composite\",\"tags\":[\"프로젝트\",\"카탈로그\",\"요구 사항\",\"설계\",\"구현\",\"검증\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia.object-model-studio\",\"version\":\"^0.10.119\",\"reason\":\"프로젝트 문서로 모델 정리안을 만들고 모델과 연결할 수 있습니다.\"}]}} -->\n\nSource: mars-log/pulsia-plugin-studio@f3c5a761a9f465f8a15af1689d496544569f272a\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.145",
+      "published_at": "2026-10-20T15:12:16Z",
+      "created_at": "2026-10-20T14:51:13Z",
+      "updated_at": "2026-10-20T15:12:16Z",
+      "assets": [
+        {
+          "id": 659662429,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 296350,
+          "digest": "sha256:a5ceddcbaa93c32efde4cbef0edb1fc6dd4f90f097c617e7af765f3e5bc47bc9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.145/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-20T15:12:15Z",
+          "updated_at": "2026-10-20T15:12:15Z"
+        },
+        {
+          "id": 659662428,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:32cb3d07e925790020b1d80425d76f174f3945a2795476a12c2e2849d8246c60",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.145/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-20T15:12:15Z",
+          "updated_at": "2026-10-20T15:12:15Z"
         }
       ]
     },
@@ -3252,6 +3286,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.112/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
           "created_at": "2026-10-15T06:26:15Z",
           "updated_at": "2026-10-15T06:26:15Z"
+        }
+      ]
+    },
+    {
+      "id": 413443495,
+      "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.111",
+      "name": "AI Agent Collaboration Chat 0.1.111",
+      "body": "Codex의 공용 발언 도구 시작 실패를 감지하고, 실패한 AI의 자동 후속 실행을 차단함.\n\n- 원문이 끝난 실행은 도구 연결 복구 후 저장된 결과의 공용 발언만 다시 게시함. 원래 작업을 반복하지 않음.\n- 협업 요청 원문·표시 문구·전송 안내를 분리하고 개인 입력을 유지함.\n- 패널 너비 변수의 단위를 %로 통일하여 집중 화면 너비 변경·대화 갱신 뒤 비율과 조절선 위치를 유지함.\n- 원인·재발 방지·매뉴얼·기능 정보·MCP 연동 스킬을 갱신함.\n\nPulsia Core 0.3.177 이상을 함께 사용해야 기존 세션의 MCP 연결 복구와 중첩 탭 집중 화면 수정이 적용됨.\n검증: Plugin 회귀 47개, 실제 Core ACP UI 29개, 실제 Claude+Codex 신규·중단·재개·peer 게시 및 다른 세션 보존 시험 통과함.\n소스: mars-log/pulsia-plugin-studio@4faacc6\nSHA256: ab772113438ce783eca3113278d31ee3b54237920558d6685f4307464773e888\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-ai-agent-collaboration-chat%400.1.111",
+      "published_at": "2026-10-15T05:19:27Z",
+      "created_at": "2026-10-15T04:48:39Z",
+      "updated_at": "2026-10-15T05:19:27Z",
+      "assets": [
+        {
+          "id": 642770628,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "state": "uploaded",
+          "size": 72447,
+          "digest": "sha256:ab772113438ce783eca3113278d31ee3b54237920558d6685f4307464773e888",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.111/pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "created_at": "2026-10-15T05:19:26Z",
+          "updated_at": "2026-10-15T05:19:26Z"
+        },
+        {
+          "id": 642770625,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "state": "uploaded",
+          "size": 112,
+          "digest": "sha256:1f8631bb05df5f8e000341491645bbffd94f977e188540b8222b26b1318fec7c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.111/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "created_at": "2026-10-15T05:19:26Z",
+          "updated_at": "2026-10-15T05:19:26Z"
         }
       ]
     },
