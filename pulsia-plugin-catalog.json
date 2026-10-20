@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-20T05:12:35.000Z",
+  "generatedAt": "2026-10-20T06:40:08.000Z",
   "releases": [
     {
       "id": 418025841,
@@ -34,6 +34,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.110/pulsia-model-studio.zip.sha256",
           "created_at": "2026-10-20T05:12:34Z",
           "updated_at": "2026-10-20T05:12:34Z"
+        }
+      ]
+    },
+    {
+      "id": 418081350,
+      "tag_name": "pulsia.java-development-pack@0.1.148",
+      "name": "Java 개발 팩 0.1.148 · JDK 다운로드·설치",
+      "body": "Java 프로젝트 구조에서 `host is not defined` 오류로 설정 내용을 열지 못하던 문제를 복구함. JDK 추가 메뉴에 실제 다운로드·설치 기능을 제공함.\n\n- IntelliJ 공개 소스에 맞춘 Version·Vendor·Location·Archive size·Download·Cancel 구성과 버전별 배포자 선택을 제공함. 화면은 Pulsia 테마를 적용함.\n- 공식 JetBrains JDK 목록에서 현재 OS·CPU의 패키지를 선택함. 파일 크기·SHA-256 검사, ZIP/TAR.GZ 해제, 실제 JDK 홈 검사와 기존 설치 재사용을 수행함.\n- SDK 화면과 공용 작업 목록에서 설치 진행·취소를 제공함. 기존 폴더·SDK·미저장 초안을 보호하고 실패 후 다시 시도할 수 있음.\n- 설치 후 SDK 초안을 확인·적용함. 공개 Agent 목록 조회·다운로드 도구와 기존 SDK 등록·Project/Module SDK 지정 도구를 연결함.\n\n검증: 변경 영향 시험 45건, Windows x64의 실제 Microsoft OpenJDK 25.0.4.1 다운로드·설치·컴파일·실행·Project SDK 저장, Core의 실제 의존성 준비·Vue 빌드·격리 설치·Electron Host, 운영 frontend의 light/dark 여덟 구성 화면을 통과함. macOS/Linux 실제 설치는 미확인임.\n\nIntelliJ 참조: https://github.com/JetBrains/intellij-community/tree/423448e1a44c7c0309147bc47ebd51dae09fc7f4/platform/lang-impl/src/com/intellij/openapi/projectRoots/impl/jdkDownloader\n\nPlugin Studio 소스: `8496b8b096399498b53d2311a19de32d75903c7b`\n\nZIP SHA-256: `819ff0705ead95c06cdda6369037e37961dc204f0f53acbdf3767b17c2ca8143`\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.java-development-pack%400.1.148",
+      "published_at": "2026-10-20T06:40:08Z",
+      "created_at": "2026-10-20T05:12:43Z",
+      "updated_at": "2026-10-20T06:40:08Z",
+      "assets": [
+        {
+          "id": 658501636,
+          "name": "pulsia-java-development-pack.zip",
+          "state": "uploaded",
+          "size": 4802558,
+          "digest": "sha256:819ff0705ead95c06cdda6369037e37961dc204f0f53acbdf3767b17c2ca8143",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.148/pulsia-java-development-pack.zip",
+          "created_at": "2026-10-20T06:40:04Z",
+          "updated_at": "2026-10-20T06:40:07Z"
+        },
+        {
+          "id": 658501638,
+          "name": "pulsia-java-development-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:532eb48d8dafadb0d6aef8029f4fd3b4fd6a0a30b38a35abf8f2040c69608410",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.148/pulsia-java-development-pack.zip.sha256",
+          "created_at": "2026-10-20T06:40:04Z",
+          "updated_at": "2026-10-20T06:40:04Z"
         }
       ]
     },
