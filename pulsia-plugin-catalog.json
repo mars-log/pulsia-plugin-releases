@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-20T13:09:39.000Z",
+  "generatedAt": "2026-10-20T13:09:55.000Z",
   "releases": [
     {
       "id": 418413927,
@@ -34,6 +34,74 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.115/pulsia-sql-studio.zip.sha256",
           "created_at": "2026-10-20T13:09:38Z",
           "updated_at": "2026-10-20T13:09:38Z"
+        }
+      ]
+    },
+    {
+      "id": 418414189,
+      "tag_name": "pulsia.object-model-studio@0.10.120",
+      "name": "객체 모델 매니저 0.10.120",
+      "body": "# 객체 모델 매니저 0.10.120\n\n업무 객체의 모델·속성·구성요소·관계를 정의할 때 사용함\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.object-model-studio\",\"version\":\"0.10.120\",\"title\":\"객체 모델 매니저\",\"description\":\"업무 객체의 모델·속성·구성요소·관계를 정의할 때 사용함\",\"kind\":\"composite\",\"tags\":[\"객체 매니저\",\"객체 모델\",\"관계\",\"AI\",\"로컬 저장\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.120",
+      "published_at": "2026-10-20T13:09:55Z",
+      "created_at": "2026-10-20T13:09:48Z",
+      "updated_at": "2026-10-20T13:09:55Z",
+      "assets": [
+        {
+          "id": 659366440,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 361391,
+          "digest": "sha256:e36b42b171fdeba38a885190f041c41d617dedab8b15a73bf0255f0269f547ac",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.120/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-20T13:09:53Z",
+          "updated_at": "2026-10-20T13:09:54Z"
+        },
+        {
+          "id": 659366441,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:1e8aadd40d23ce80e1a1deecd2cafc24b625a3d73fb15c6012d26c2a8f4a86ce",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.120/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-20T13:09:53Z",
+          "updated_at": "2026-10-20T13:09:54Z"
+        }
+      ]
+    },
+    {
+      "id": 418414044,
+      "tag_name": "pulsia.model-studio@0.0.113",
+      "name": "Model Studio 0.0.113",
+      "body": "# Model Studio 0.0.113\n\n모델·업무 흐름·DB 구조를 그리고 AI와 수정하며 JSON·UML·마인드맵·DDL로 다른 Plugin과 도구에 제공함\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.model-studio\",\"version\":\"0.0.113\",\"title\":\"Model Studio\",\"description\":\"모델·업무 흐름·DB 구조를 그리고 AI와 수정하며 JSON·UML·마인드맵·DDL로 다른 Plugin과 도구에 제공함\",\"kind\":\"composite\",\"tags\":[\"Model\",\"Mind Map\",\"ERD\",\"AI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.model-studio%400.0.113",
+      "published_at": "2026-10-20T13:09:47Z",
+      "created_at": "2026-10-20T12:59:21Z",
+      "updated_at": "2026-10-20T13:09:47Z",
+      "assets": [
+        {
+          "id": 659366202,
+          "name": "pulsia-model-studio.zip",
+          "state": "uploaded",
+          "size": 87486,
+          "digest": "sha256:27bb64c9f58ba42cae602bb2e75e8250aa46a9da9761afd15a94a8bc3ace963e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.113/pulsia-model-studio.zip",
+          "created_at": "2026-10-20T13:09:45Z",
+          "updated_at": "2026-10-20T13:09:45Z"
+        },
+        {
+          "id": 659366203,
+          "name": "pulsia-model-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:da552ac7f0cd6f3b63138ce3e1a438a5551eba69a64903b6bd34590b0cb1c1cb",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.113/pulsia-model-studio.zip.sha256",
+          "created_at": "2026-10-20T13:09:45Z",
+          "updated_at": "2026-10-20T13:09:45Z"
         }
       ]
     },
