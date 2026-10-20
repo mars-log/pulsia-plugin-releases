@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-20T14:40:26.000Z",
+  "generatedAt": "2026-10-20T14:40:35.000Z",
   "releases": [
     {
       "id": 418508069,
@@ -306,6 +306,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.110/pulsia-model-studio.zip.sha256",
           "created_at": "2026-10-20T05:12:34Z",
           "updated_at": "2026-10-20T05:12:34Z"
+        }
+      ]
+    },
+    {
+      "id": 418508525,
+      "tag_name": "pulsia.java-development-pack@0.1.151",
+      "name": "Java Development Pack 0.1.151",
+      "body": "# Java Development Pack 0.1.151\n\nLucide 공용 아이콘을 적용하고 문자 펼침 표시와 작업 버튼을 정리했습니다. 아이콘 출처와 패키지 검사를 추가했습니다.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.java-development-pack\",\"version\":\"0.1.151\",\"title\":\"Java Development Pack\",\"description\":\"Lucide 공용 아이콘을 적용하고 문자 펼침 표시와 작업 버튼을 정리했습니다. 아이콘 출처와 패키지 검사를 추가했습니다.\",\"kind\":\"composite\",\"tags\":[\"Java\",\"Maven\",\"Gradle\",\"Spring Boot\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]}} -->\n\nSource: mars-log/pulsia-plugin-studio@115bc379da71dc0d88e051adb550c56cfdf0ff6f\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.java-development-pack%400.1.151",
+      "published_at": "2026-10-20T14:40:35Z",
+      "created_at": "2026-10-20T14:40:30Z",
+      "updated_at": "2026-10-20T14:40:35Z",
+      "assets": [
+        {
+          "id": 659581929,
+          "name": "pulsia-java-development-pack.zip",
+          "state": "uploaded",
+          "size": 4790176,
+          "digest": "sha256:42c65282ca3d38dea1aeee0ca9884797ed4e92176f6d7eef4c1fe14686ab19d0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.151/pulsia-java-development-pack.zip",
+          "created_at": "2026-10-20T14:40:33Z",
+          "updated_at": "2026-10-20T14:40:34Z"
+        },
+        {
+          "id": 659581928,
+          "name": "pulsia-java-development-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:8a81e28686c7ab8f809cee723c7b9d50dbd6d5616b7b788d09fc5f3d6658e451",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.151/pulsia-java-development-pack.zip.sha256",
+          "created_at": "2026-10-20T14:40:33Z",
+          "updated_at": "2026-10-20T14:40:34Z"
         }
       ]
     },
@@ -3252,6 +3286,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.109/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
           "created_at": "2026-10-15T04:17:22Z",
           "updated_at": "2026-10-15T04:17:23Z"
+        }
+      ]
+    },
+    {
+      "id": 413406948,
+      "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.108",
+      "name": "AI Agent Collaboration Chat 0.1.108",
+      "body": "공용 발언 수신 주소가 Core renderer CSP에 차단되어 협업 화면이 비던 오류를 수정함.\n\n- loopback 서버 주소를 현재 CSP가 허용하는 localhost로 반환함. Core와 CSP는 변경하지 않음.\n- 발언 연결 실패에도 기존 대화·두 세션·세 패널을 표시함. 연결이 없는 동안 새 요청·자동 후속·재시도를 차단함. 화면 재열기로 복구함.\n- 실제 Core CSP를 그대로 적용한 UI 시험에 기존 주소 차단 재현·기록 보존·오류 1회·재열기 후 게시 성공을 추가함.\n- 오류 원문·원인·재발 방지·공개 매뉴얼·features·두 스킬을 갱신함.\n\n검증: 단위·연결 43개, 실제 ZIP 설치·Core ACP 구성 요소의 light/dark UI 26개 흐름 통과함. 사용자 운영 앱에 자동 설치한 결과는 아님.\n지원: Core 0.3.175 이상. Plugin 0.1.108 업데이트 후 협업 탭을 닫았다가 다시 열어 사용함.\n소스: mars-log/pulsia-plugin-studio@7d8cd94\nSHA256: 96c441b6ae67c4d8d9a93c6e76c1ce7ccdc20fda86de659e276fcdf24664274a",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-ai-agent-collaboration-chat%400.1.108",
+      "published_at": "2026-10-15T04:05:45Z",
+      "created_at": "2026-10-15T03:09:24Z",
+      "updated_at": "2026-10-15T04:05:45Z",
+      "assets": [
+        {
+          "id": 642613083,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "state": "uploaded",
+          "size": 69424,
+          "digest": "sha256:96c441b6ae67c4d8d9a93c6e76c1ce7ccdc20fda86de659e276fcdf24664274a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.108/pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "created_at": "2026-10-15T04:05:44Z",
+          "updated_at": "2026-10-15T04:05:44Z"
+        },
+        {
+          "id": 642613084,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "state": "uploaded",
+          "size": 112,
+          "digest": "sha256:3db882c3083e04e715f7a664e6f4444c51c77c4c0eeacd0f28852f887720b859",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.108/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "created_at": "2026-10-15T04:05:44Z",
+          "updated_at": "2026-10-15T04:05:44Z"
         }
       ]
     },
