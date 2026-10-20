@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-20T14:40:43.000Z",
+  "generatedAt": "2026-10-20T14:51:01.000Z",
   "releases": [
     {
       "id": 418508676,
@@ -170,6 +170,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.120/pulsia-plugin-object-manager.zip.sha256",
           "created_at": "2026-10-20T13:09:53Z",
           "updated_at": "2026-10-20T13:09:54Z"
+        }
+      ]
+    },
+    {
+      "id": 418519670,
+      "tag_name": "pulsia.net-manager@0.1.131",
+      "name": "Net Manager 0.1.131",
+      "body": "# Net Manager 0.1.131\n\n장비 연결 상태의 확인 표시를 Lucide 아이콘으로 통일했습니다.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.net-manager\",\"version\":\"0.1.131\",\"title\":\"Net Manager\",\"description\":\"장비 연결 상태의 확인 표시를 Lucide 아이콘으로 통일했습니다.\",\"kind\":\"composite\",\"tags\":[\"네트워크\",\"장비\",\"토폴로지\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.net-manager%400.1.131",
+      "published_at": "2026-10-20T14:51:01Z",
+      "created_at": "2026-10-20T14:40:57Z",
+      "updated_at": "2026-10-20T14:51:01Z",
+      "assets": [
+        {
+          "id": 659608371,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 209999,
+          "digest": "sha256:95b6e061267756284f996dcde7ec6f46e057bbd33b2581d7efe092f07865bba0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.131/wintera-net-manager.zip",
+          "created_at": "2026-10-20T14:51:00Z",
+          "updated_at": "2026-10-20T14:51:00Z"
+        },
+        {
+          "id": 659608373,
+          "name": "wintera-net-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:9f721fefba58dce2585964d8293056a2e450a27152ebd711394a09497f62c7c6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.131/wintera-net-manager.zip.sha256",
+          "created_at": "2026-10-20T14:51:00Z",
+          "updated_at": "2026-10-20T14:51:00Z"
         }
       ]
     },
