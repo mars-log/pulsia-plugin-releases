@@ -1,42 +1,8 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-20T13:10:19.000Z",
+  "generatedAt": "2026-10-20T13:10:26.000Z",
   "releases": [
-    {
-      "id": 418414597,
-      "tag_name": "pulsia.ai-harness-maker@0.0.108",
-      "name": "AI Harness Maker 0.0.108",
-      "body": "# AI Harness Maker 0.0.108\n\n판매자 조건별 템플릿 제작·생성 미리보기·배포 준비에 사용함\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.ai-harness-maker\",\"version\":\"0.0.108\",\"title\":\"AI Harness Maker\",\"description\":\"판매자 조건별 템플릿 제작·생성 미리보기·배포 준비에 사용함\",\"kind\":\"composite\",\"tags\":[\"AI\",\"문맥\",\"템플릿\",\"제작\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia.catalog-studio\",\"version\":\"^1.2.141\",\"reason\":\"프로젝트 카탈로그에 요청과 작업 문맥을 기록할 수 있습니다.\"}]}} -->\n",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-harness-maker%400.0.108",
-      "published_at": "2026-10-20T13:10:19Z",
-      "created_at": "2026-10-20T13:10:09Z",
-      "updated_at": "2026-10-20T13:10:19Z",
-      "assets": [
-        {
-          "id": 659367295,
-          "name": "pulsia-ai-harness-maker.zip",
-          "state": "uploaded",
-          "size": 110828,
-          "digest": "sha256:1b7cc4612667243b0993130ed86043e983b022efd1979f17f507853a8ca8966c",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness-maker%400.0.108/pulsia-ai-harness-maker.zip",
-          "created_at": "2026-10-20T13:10:17Z",
-          "updated_at": "2026-10-20T13:10:17Z"
-        },
-        {
-          "id": 659367297,
-          "name": "pulsia-ai-harness-maker.zip.sha256",
-          "state": "uploaded",
-          "size": 94,
-          "digest": "sha256:ce1432dd7ba7d70bf0079d7cd55b37122803246dc4f104e6c9c70f24f78fcbb1",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness-maker%400.0.108/pulsia-ai-harness-maker.zip.sha256",
-          "created_at": "2026-10-20T13:10:17Z",
-          "updated_at": "2026-10-20T13:10:17Z"
-        }
-      ]
-    },
     {
       "id": 418413927,
       "tag_name": "pulsia.sql-studio@0.0.115",
@@ -466,6 +432,74 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.109/pulsia-ai-harness.zip.sha256",
           "created_at": "2026-10-20T13:10:10Z",
           "updated_at": "2026-10-20T13:10:10Z"
+        }
+      ]
+    },
+    {
+      "id": 418414597,
+      "tag_name": "pulsia.ai-harness-maker@0.0.108",
+      "name": "AI Harness Maker 0.0.108",
+      "body": "# AI Harness Maker 0.0.108\n\n판매자 조건별 템플릿 제작·생성 미리보기·배포 준비에 사용함\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.ai-harness-maker\",\"version\":\"0.0.108\",\"title\":\"AI Harness Maker\",\"description\":\"판매자 조건별 템플릿 제작·생성 미리보기·배포 준비에 사용함\",\"kind\":\"composite\",\"tags\":[\"AI\",\"문맥\",\"템플릿\",\"제작\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia.catalog-studio\",\"version\":\"^1.2.141\",\"reason\":\"프로젝트 카탈로그에 요청과 작업 문맥을 기록할 수 있습니다.\"}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-harness-maker%400.0.108",
+      "published_at": "2026-10-20T13:10:19Z",
+      "created_at": "2026-10-20T13:10:09Z",
+      "updated_at": "2026-10-20T13:10:19Z",
+      "assets": [
+        {
+          "id": 659367295,
+          "name": "pulsia-ai-harness-maker.zip",
+          "state": "uploaded",
+          "size": 110828,
+          "digest": "sha256:1b7cc4612667243b0993130ed86043e983b022efd1979f17f507853a8ca8966c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness-maker%400.0.108/pulsia-ai-harness-maker.zip",
+          "created_at": "2026-10-20T13:10:17Z",
+          "updated_at": "2026-10-20T13:10:17Z"
+        },
+        {
+          "id": 659367297,
+          "name": "pulsia-ai-harness-maker.zip.sha256",
+          "state": "uploaded",
+          "size": 94,
+          "digest": "sha256:ce1432dd7ba7d70bf0079d7cd55b37122803246dc4f104e6c9c70f24f78fcbb1",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness-maker%400.0.108/pulsia-ai-harness-maker.zip.sha256",
+          "created_at": "2026-10-20T13:10:17Z",
+          "updated_at": "2026-10-20T13:10:17Z"
+        }
+      ]
+    },
+    {
+      "id": 418414736,
+      "tag_name": "pulsia-plugin-wingate-client@0.1.112",
+      "name": "Wingate Client 0.1.112",
+      "body": "# Wingate Client 0.1.112\n\n사용자가 Manager가 준비한 조직 서버와 자신이 등록한 개인 SSH 접속 대상을 선택해 터미널로 연결할 때 사용함\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-wingate-client\",\"version\":\"0.1.112\",\"title\":\"Wingate Client\",\"description\":\"사용자가 Manager가 준비한 조직 서버와 자신이 등록한 개인 SSH 접속 대상을 선택해 터미널로 연결할 때 사용함\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"접속\",\"서버\",\"Client\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-manager\",\"version\":\"^0.1.108\",\"reason\":\"Manager가 준비한 조직 서버 목록과 SSH 접속 준비를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-client-addon-ssh-client\",\"version\":\"^0.0.105\",\"reason\":\"개인 SSH 접속 대상을 저장하고 사용할 수 있습니다.\"}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.112",
+      "published_at": "2026-10-20T13:10:26Z",
+      "created_at": "2026-10-20T13:10:21Z",
+      "updated_at": "2026-10-20T13:10:26Z",
+      "assets": [
+        {
+          "id": 659367616,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 154109,
+          "digest": "sha256:3daf18dff180429df76e6fd9ca9464544db74da1b912c0d38a3c1107e5ec123b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.112/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-10-20T13:10:25Z",
+          "updated_at": "2026-10-20T13:10:26Z"
+        },
+        {
+          "id": 659367615,
+          "name": "pulsia-plugin-wingate-client.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:6dd9c01620d34b0d12dd43c083474c882455ebc57da9c0adcbfb6fed82b1d300",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.112/pulsia-plugin-wingate-client.zip.sha256",
+          "created_at": "2026-10-20T13:10:25Z",
+          "updated_at": "2026-10-20T13:10:26Z"
         }
       ]
     },
