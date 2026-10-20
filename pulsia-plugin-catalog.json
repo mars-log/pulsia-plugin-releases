@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-20T14:39:38.000Z",
+  "generatedAt": "2026-10-20T14:39:53.000Z",
   "releases": [
     {
       "id": 418413927,
@@ -38,6 +38,40 @@
       ]
     },
     {
+      "id": 418507608,
+      "tag_name": "pulsia.object-model-studio@0.10.121",
+      "name": "객체 모델 매니저 0.10.121",
+      "body": "# 객체 모델 매니저 0.10.121\n\nLucide 공용 아이콘을 적용하고 문자 펼침 표시와 작업 버튼을 정리했습니다. 아이콘 출처와 패키지 검사를 추가했습니다.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.object-model-studio\",\"version\":\"0.10.121\",\"title\":\"객체 모델 매니저\",\"description\":\"Lucide 공용 아이콘을 적용하고 문자 펼침 표시와 작업 버튼을 정리했습니다. 아이콘 출처와 패키지 검사를 추가했습니다.\",\"kind\":\"composite\",\"tags\":[\"객체 매니저\",\"객체 모델\",\"관계\",\"AI\",\"로컬 저장\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"}]}} -->\n\nSource: mars-log/pulsia-plugin-studio@115bc379da71dc0d88e051adb550c56cfdf0ff6f\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.121",
+      "published_at": "2026-10-20T14:39:45Z",
+      "created_at": "2026-10-20T14:39:27Z",
+      "updated_at": "2026-10-20T14:39:45Z",
+      "assets": [
+        {
+          "id": 659579853,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 365758,
+          "digest": "sha256:5835d0cb573b46451e95d24681df5b418e723c27c87121bcf5039d652b340961",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.121/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-20T14:39:44Z",
+          "updated_at": "2026-10-20T14:39:44Z"
+        },
+        {
+          "id": 659579856,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:586c85781400c0cfba62eac0c7265df343d8834efd584076dcc5884bab007802",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.121/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-20T14:39:44Z",
+          "updated_at": "2026-10-20T14:39:44Z"
+        }
+      ]
+    },
+    {
       "id": 418414189,
       "tag_name": "pulsia.object-model-studio@0.10.120",
       "name": "객체 모델 매니저 0.10.120",
@@ -68,6 +102,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.120/pulsia-plugin-object-manager.zip.sha256",
           "created_at": "2026-10-20T13:09:53Z",
           "updated_at": "2026-10-20T13:09:54Z"
+        }
+      ]
+    },
+    {
+      "id": 418507749,
+      "tag_name": "pulsia.net-manager@0.1.130",
+      "name": "네트워크 매니저 0.1.130",
+      "body": "# 네트워크 매니저 0.1.130\n\nLucide 공용 아이콘을 적용하고 문자 펼침 표시와 작업 버튼을 정리했습니다. 아이콘 출처와 패키지 검사를 추가했습니다.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.net-manager\",\"version\":\"0.1.130\",\"title\":\"네트워크 매니저\",\"description\":\"Lucide 공용 아이콘을 적용하고 문자 펼침 표시와 작업 버튼을 정리했습니다. 아이콘 출처와 패키지 검사를 추가했습니다.\",\"kind\":\"composite\",\"tags\":[\"네트워크\",\"장비\",\"토폴로지\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]}} -->\n\nSource: mars-log/pulsia-plugin-studio@115bc379da71dc0d88e051adb550c56cfdf0ff6f\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.net-manager%400.1.130",
+      "published_at": "2026-10-20T14:39:53Z",
+      "created_at": "2026-10-20T14:39:27Z",
+      "updated_at": "2026-10-20T14:39:53Z",
+      "assets": [
+        {
+          "id": 659580219,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 209994,
+          "digest": "sha256:1b266f3580290e2db6a6516ad92c2be30de262b99ed449f7feda579ca6320308",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.130/wintera-net-manager.zip",
+          "created_at": "2026-10-20T14:39:51Z",
+          "updated_at": "2026-10-20T14:39:52Z"
+        },
+        {
+          "id": 659580223,
+          "name": "wintera-net-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:2f585093c3fa3a33c548a73a4a74539996059facab8fd92dca1a79f6ebfd7d03",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.130/wintera-net-manager.zip.sha256",
+          "created_at": "2026-10-20T14:39:51Z",
+          "updated_at": "2026-10-20T14:39:52Z"
         }
       ]
     },
