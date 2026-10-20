@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-20T02:09:39.000Z",
+  "generatedAt": "2026-10-20T05:12:35.000Z",
   "releases": [
+    {
+      "id": 418025841,
+      "tag_name": "pulsia.model-studio@0.0.110",
+      "name": "Model Studio 0.0.110 · 모델 내보내기와 Plugin API",
+      "body": "Model Studio에서 만든 모델을 다른 Plugin과 도구에 제공할 수 있습니다.\n\n- 모델 맵의 내보내기에서 JSON, UML XMI, FreeMind 마인드맵, SQL DDL을 미리 보고 원하는 이름의 파일로 저장합니다.\n- 전체 또는 선택한 모델을 내보내며, SQL DDL은 SQLite·PostgreSQL·MySQL·Oracle과 명시적인 외래키 필드 연결을 지원합니다.\n- 다른 Plugin은 listExportFormats·exportDiagram 공개 API와 포함된 SDK로 같은 변환 결과를 가져와 화면·코드·DB 구조 생성에 사용할 수 있습니다.\n- API·MCP·공개 매뉴얼·모델 내보내기 스킬·형식 일치 검사를 함께 제공합니다.\n- 모델 원본은 유지됩니다. DB 적용은 소비 도구가 별도로 수행합니다. UML 도구별 배치와 FreeMind의 관계 상세 등 변환 범위는 미리보기 경고와 매뉴얼에서 확인할 수 있습니다.\n\n파일 저장은 사용자가 선택한 위치에 쓰는 권한을 사용합니다. 기존 설치본의 권한 확인이 표시되면 변경 내용을 확인해 주세요.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.model-studio%400.0.110",
+      "published_at": "2026-10-20T05:12:35Z",
+      "created_at": "2026-10-20T02:09:48Z",
+      "updated_at": "2026-10-20T05:12:35Z",
+      "assets": [
+        {
+          "id": 658340125,
+          "name": "pulsia-model-studio.zip",
+          "state": "uploaded",
+          "size": 85115,
+          "digest": "sha256:a9756aca7edb40c6e532fab412285abb9f506b61c5450a212b9f3b813fd7f2fe",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.110/pulsia-model-studio.zip",
+          "created_at": "2026-10-20T05:12:34Z",
+          "updated_at": "2026-10-20T05:12:34Z"
+        },
+        {
+          "id": 658340126,
+          "name": "pulsia-model-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:3f5989d636ef1ecda30a4afcacf93e095abe7d35ed1f96c9a85dee57a0bc6497",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.110/pulsia-model-studio.zip.sha256",
+          "created_at": "2026-10-20T05:12:34Z",
+          "updated_at": "2026-10-20T05:12:34Z"
+        }
+      ]
+    },
     {
       "id": 417930073,
       "tag_name": "pulsia.java-development-pack@0.1.147",
