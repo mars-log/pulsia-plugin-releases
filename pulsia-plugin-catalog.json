@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-20T13:10:42.000Z",
+  "generatedAt": "2026-10-20T13:15:24.000Z",
   "releases": [
     {
       "id": 418413927,
@@ -330,6 +330,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.147/pulsia-java-development-pack.zip",
           "created_at": "2026-10-20T02:09:36Z",
           "updated_at": "2026-10-20T02:09:38Z"
+        }
+      ]
+    },
+    {
+      "id": 418419625,
+      "tag_name": "pulsia.catalog-studio@1.2.143",
+      "name": "Catalog Studio 1.2.143",
+      "body": "# Catalog Studio 1.2.143\n\n- 템플릿 선택 정보가 달라져도 기존 문서를 계속 열고 편집할 수 있도록 수정함.\n- 정상 템플릿의 선택 정보 자동 복구와 누락·손상 파일의 검증 사본 복구를 추가함. 기존 사용자 문서와 완료한 결과를 보존함.\n- 지원하지 않는 새 형식을 이전 형식으로 덮어쓰지 않으며, 이전 작업 상태를 다른 템플릿에서 자동 재개하지 않음.\n- 본문 중앙의 원시 오류·붉은 메시지를 제거하고 공통 알림·진단과 실제 다시 불러오기를 제공함. 여러 탭의 같은 오류 알림을 한 번으로 제한함.\n- 저장 전 확인창의 버튼 높이·안쪽 여백·버튼 사이 간격을 공용 기준으로 수정함. 긴 내용은 스크롤하고 하단 버튼을 유지함.\n\n소스: [7532160](https://github.com/mars-log/pulsia-plugin-studio/commit/7532160)\n\n검증: 변경 영향 시험 45개 통과, 기존 공개 버전→새 ZIP 업데이트·원문 보존·실제 편집 저장·진단 열기·재시도와 light/dark·좁은 창 확인함.\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.catalog-studio\",\"version\":\"1.2.143\",\"title\":\"Catalog Studio\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"프로젝트\",\"카탈로그\",\"요구 사항\",\"설계\",\"구현\",\"검증\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia.object-model-studio\",\"version\":\"^0.10.119\",\"reason\":\"프로젝트 문서로 모델 정리안을 만들고 모델과 연결할 수 있습니다.\"}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.143",
+      "published_at": "2026-10-20T13:15:24Z",
+      "created_at": "2026-10-20T13:10:45Z",
+      "updated_at": "2026-10-20T13:15:24Z",
+      "assets": [
+        {
+          "id": 659377890,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 291860,
+          "digest": "sha256:cbda3e4363422d286a4ba45519a2f8d15b49d9cd1f863e439c6e7db385b02a0e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.143/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-20T13:15:22Z",
+          "updated_at": "2026-10-20T13:15:22Z"
+        },
+        {
+          "id": 659377892,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:603d3bd12cf2154dfa54b53fdfa4e881dc6dbe53412a947c1c5f2f5f767af649",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.143/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-20T13:15:22Z",
+          "updated_at": "2026-10-20T13:15:22Z"
         }
       ]
     },
