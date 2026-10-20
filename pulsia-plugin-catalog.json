@@ -1,29 +1,29 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-20T02:09:34.000Z",
+  "generatedAt": "2026-10-20T02:09:39.000Z",
   "releases": [
     {
-      "id": 417930054,
-      "tag_name": "pulsia.net-manager@0.1.129",
-      "name": "pulsia.net-manager 0.1.129",
-      "body": "동시 Agent 저장의 변경 유실과 AI 분석 시작 중복을 방지함. Windows 장비 응답 확인에 맞는 ping 인자를 적용함.\n\n변경 경로의 정상·실패·취소 집중 시험과 설치 후보 준비·ZIP 내용을 확인함. 실제 운영 서버·거래소·DB 변경과 사용자 앱 설치 적용은 별도임.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/a4455c227381e9a429d0f06c18d03955dc7304bf\n\nSHA-256: `4b9b26e1aa52a723563668ea78a40b06cd633fecd0366b20e9181cac0c54d340`\n",
+      "id": 417930073,
+      "tag_name": "pulsia.java-development-pack@0.1.147",
+      "name": "pulsia.java-development-pack 0.1.147",
+      "body": "Windows Gradle 배치 실행 파일의 daemon 상태 조회·중지를 기존 공용 프로세스 실행 방식으로 처리하도록 보완함.\n\n변경 경로의 정상·실패·취소 집중 시험과 설치 후보 준비·ZIP 내용을 확인함. 실제 운영 서버·거래소·DB 변경과 사용자 앱 설치 적용은 별도임.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/a4455c227381e9a429d0f06c18d03955dc7304bf\n\nSHA-256: `d5a30b88d4b26038e2d1d6e4a11e26f3caec42ef117057014791ec453e9ca04b`\n",
       "draft": false,
       "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.net-manager%400.1.129",
-      "published_at": "2026-10-20T02:09:34Z",
-      "created_at": "2026-10-19T14:54:12Z",
-      "updated_at": "2026-10-20T02:09:34Z",
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.java-development-pack%400.1.147",
+      "published_at": "2026-10-20T02:09:39Z",
+      "created_at": "2026-10-20T02:09:36Z",
+      "updated_at": "2026-10-20T02:09:39Z",
       "assets": [
         {
-          "id": 658012425,
-          "name": "wintera-net-manager.zip",
+          "id": 658012501,
+          "name": "pulsia-java-development-pack.zip",
           "state": "uploaded",
-          "size": 206529,
-          "digest": "sha256:4b9b26e1aa52a723563668ea78a40b06cd633fecd0366b20e9181cac0c54d340",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.129/wintera-net-manager.zip",
-          "created_at": "2026-10-20T02:09:33Z",
-          "updated_at": "2026-10-20T02:09:33Z"
+          "size": 4780087,
+          "digest": "sha256:d5a30b88d4b26038e2d1d6e4a11e26f3caec42ef117057014791ec453e9ca04b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.147/pulsia-java-development-pack.zip",
+          "created_at": "2026-10-20T02:09:36Z",
+          "updated_at": "2026-10-20T02:09:38Z"
         }
       ]
     },
@@ -48,6 +48,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.114/pulsia-sql-studio.zip",
           "created_at": "2026-10-20T02:09:26Z",
           "updated_at": "2026-10-20T02:09:27Z"
+        }
+      ]
+    },
+    {
+      "id": 417930054,
+      "tag_name": "pulsia.net-manager@0.1.129",
+      "name": "pulsia.net-manager 0.1.129",
+      "body": "동시 Agent 저장의 변경 유실과 AI 분석 시작 중복을 방지함. Windows 장비 응답 확인에 맞는 ping 인자를 적용함.\n\n변경 경로의 정상·실패·취소 집중 시험과 설치 후보 준비·ZIP 내용을 확인함. 실제 운영 서버·거래소·DB 변경과 사용자 앱 설치 적용은 별도임.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/a4455c227381e9a429d0f06c18d03955dc7304bf\n\nSHA-256: `4b9b26e1aa52a723563668ea78a40b06cd633fecd0366b20e9181cac0c54d340`\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.net-manager%400.1.129",
+      "published_at": "2026-10-20T02:09:34Z",
+      "created_at": "2026-10-19T14:54:12Z",
+      "updated_at": "2026-10-20T02:09:34Z",
+      "assets": [
+        {
+          "id": 658012425,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 206529,
+          "digest": "sha256:4b9b26e1aa52a723563668ea78a40b06cd633fecd0366b20e9181cac0c54d340",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.129/wintera-net-manager.zip",
+          "created_at": "2026-10-20T02:09:33Z",
+          "updated_at": "2026-10-20T02:09:33Z"
         }
       ]
     },
