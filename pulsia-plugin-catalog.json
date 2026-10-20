@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-20T13:10:26.000Z",
+  "generatedAt": "2026-10-20T13:10:42.000Z",
   "releases": [
     {
       "id": 418413927,
@@ -470,6 +470,40 @@
       ]
     },
     {
+      "id": 418414856,
+      "tag_name": "pulsia-plugin-wingate-seller@0.1.104",
+      "name": "Wingate Seller 0.1.104",
+      "body": "# Wingate Seller 0.1.104\n\n판매자가 고객의 구매 카피·설치 현황·제품 배포 UI를 확인할 때 사용함\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-wingate-seller\",\"version\":\"0.1.104\",\"title\":\"Wingate Seller\",\"description\":\"판매자가 고객의 구매 카피·설치 현황·제품 배포 UI를 확인할 때 사용함\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"판매자\",\"고객\",\"설치\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-seller%400.1.104",
+      "published_at": "2026-10-20T13:10:34Z",
+      "created_at": "2026-10-20T13:10:32Z",
+      "updated_at": "2026-10-20T13:10:34Z",
+      "assets": [
+        {
+          "id": 659367868,
+          "name": "pulsia-plugin-wingate-seller.zip",
+          "state": "uploaded",
+          "size": 116250,
+          "digest": "sha256:f52dae286bfe300d4ef836b41bddced1fcd5c209f3da46df67f0947872792b61",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.104/pulsia-plugin-wingate-seller.zip",
+          "created_at": "2026-10-20T13:10:32Z",
+          "updated_at": "2026-10-20T13:10:33Z"
+        },
+        {
+          "id": 659367867,
+          "name": "pulsia-plugin-wingate-seller.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:159a9b62b0d0f79f9c0bf452d3e41206d23eba6c7562c90051a4cdcaa2132e6f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.104/pulsia-plugin-wingate-seller.zip.sha256",
+          "created_at": "2026-10-20T13:10:32Z",
+          "updated_at": "2026-10-20T13:10:33Z"
+        }
+      ]
+    },
+    {
       "id": 418414736,
       "tag_name": "pulsia-plugin-wingate-client@0.1.112",
       "name": "Wingate Client 0.1.112",
@@ -568,6 +602,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client-addon-ssh-client%400.0.105/pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
           "created_at": "2026-10-20T06:55:57Z",
           "updated_at": "2026-10-20T06:55:58Z"
+        }
+      ]
+    },
+    {
+      "id": 418414968,
+      "tag_name": "pulsia-plugin-tutorial-pulsia-starter@0.1.106",
+      "name": "Pulsia 시작 튜토리얼 0.1.106",
+      "body": "# Pulsia 시작 튜토리얼 0.1.106\n\n처음 쓰는 사용자가 Agent 설치·프로젝트 파일 작업·Plugin 설치 승인을 실제 화면에서 익힐 때 사용함\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-tutorial-pulsia-starter\",\"version\":\"0.1.106\",\"title\":\"Pulsia 시작 튜토리얼\",\"description\":\"처음 쓰는 사용자가 Agent 설치·프로젝트 파일 작업·Plugin 설치 승인을 실제 화면에서 익힐 때 사용함\",\"kind\":\"frontend\",\"tags\":[\"튜토리얼\",\"온보딩\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia-plugin-acp-workbench\",\"version\":\"^1.1.120\",\"reason\":\"튜토리얼의 Agent 대화와 플러그인 제작 단계를 진행합니다.\"}],\"recommended\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-tutorial-pulsia-starter%400.1.106",
+      "published_at": "2026-10-20T13:10:42Z",
+      "created_at": "2026-10-20T13:10:32Z",
+      "updated_at": "2026-10-20T13:10:42Z",
+      "assets": [
+        {
+          "id": 659368076,
+          "name": "pulsia-plugin-tutorial-pulsia-starter.zip",
+          "state": "uploaded",
+          "size": 23710,
+          "digest": "sha256:5b543eef2b758c9696a22c561bc5ed1dc2a4412ae6bc819177985329d386d69a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.106/pulsia-plugin-tutorial-pulsia-starter.zip",
+          "created_at": "2026-10-20T13:10:40Z",
+          "updated_at": "2026-10-20T13:10:41Z"
+        },
+        {
+          "id": 659368075,
+          "name": "pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
+          "state": "uploaded",
+          "size": 108,
+          "digest": "sha256:5311c1da67b8d0f260f389ef928e855214c61ad584672af8ab9a5e23346c29e2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.106/pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
+          "created_at": "2026-10-20T13:10:40Z",
+          "updated_at": "2026-10-20T13:10:40Z"
         }
       ]
     },
