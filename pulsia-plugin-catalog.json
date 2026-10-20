@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-20T06:55:58.000Z",
+  "generatedAt": "2026-10-20T06:56:03.000Z",
   "releases": [
     {
       "id": 418025841,
@@ -92,6 +92,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.147/pulsia-java-development-pack.zip",
           "created_at": "2026-10-20T02:09:36Z",
           "updated_at": "2026-10-20T02:09:38Z"
+        }
+      ]
+    },
+    {
+      "id": 418091487,
+      "tag_name": "pulsia.ai-scratchpad@0.0.104",
+      "name": "AI Scratchpad 0.0.104",
+      "body": "카드 조회·저장 요청에 원래 호출 식별자를 전달하고 실패 응답의 진단 정보를 보존하도록 수정함.\n\n- 여러 프로젝트의 직렬 카드 저장에서도 원래 창·프로젝트 문맥을 유지함.\n- 실패 응답의 원본 stack·상세·원인·요청 및 진단 식별자를 보존함.\n- 실제 backend와 Core Host의 동시 호출, ZIP 무결성·격리 새 설치·0.0.103 업데이트·기존 카드 보존을 검증함.\n- 구독은 별도 문맥으로 유지되며 단발 저장 호출이 끝난 뒤에도 이벤트 수신과 취소·정리가 정상임을 확인함. 사용자 설치본 적용은 별도 확인 대상임.\n\nSource commit: `25e87177bb0039ad8243b12562117190c40afa99` (Pulsia Plugin Studio)\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-scratchpad%400.0.104",
+      "published_at": "2026-10-20T06:56:03Z",
+      "created_at": "2026-10-20T06:40:20Z",
+      "updated_at": "2026-10-20T06:56:03Z",
+      "assets": [
+        {
+          "id": 658533755,
+          "name": "pulsia-ai-scratchpad.zip",
+          "state": "uploaded",
+          "size": 25665,
+          "digest": "sha256:bb0fccc79c7e55a7d1fd070cc7943cd3c30d4ed8d5fe1ad7194abdc1290ba55d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-scratchpad%400.0.104/pulsia-ai-scratchpad.zip",
+          "created_at": "2026-10-20T06:56:02Z",
+          "updated_at": "2026-10-20T06:56:03Z"
+        },
+        {
+          "id": 658533754,
+          "name": "pulsia-ai-scratchpad.zip.sha256",
+          "state": "uploaded",
+          "size": 91,
+          "digest": "sha256:e97a33b35ae65f3580a66b715f10a49144934d95a6d2c9a1dd2be9c73abfff96",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-scratchpad%400.0.104/pulsia-ai-scratchpad.zip.sha256",
+          "created_at": "2026-10-20T06:56:02Z",
+          "updated_at": "2026-10-20T06:56:02Z"
         }
       ]
     },
