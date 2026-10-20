@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-20T06:57:16.000Z",
+  "generatedAt": "2026-10-20T06:59:23.000Z",
   "releases": [
+    {
+      "id": 418093659,
+      "tag_name": "pulsia.model-studio@0.0.111",
+      "name": "Model Studio 0.0.111",
+      "body": "재시작 시 도우미·맵의 동시 조회와 여러 프로젝트 창의 모델 작업에서 원래 요청 문맥을 유지하도록 수정함.\n\n- Plugin Data 읽기·쓰기와 모델 내보내기 파일 선택까지 Host가 발급한 contextId·parentRequestId를 전달함.\n- 권한 실패의 원인·stack·재시도 정보·요청 식별자를 공용 진단에 보존함.\n- 기존 모델·필드·관계·revision·공개 MCP 입력·응답과 저장 파일 형식을 유지함.\n- 실제 Core Host에 backend를 연결한 요청 분리·저장·파일 선택·오류 복구 시험과 관련 집중 시험 28건을 통과함.\n- 정식 ACP Runtime 1.0.110에서 설치 ZIP의 도우미 light/dark·대화 전송·0.0.108에서 업데이트 후 선택·배율·펼침 보존을 확인함. 대화 실행 검사는 Core Workbench fixture임.\n\n제작 원본: https://github.com/mars-log/pulsia-plugin-studio/commit/15ca8bfc\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.model-studio%400.0.111",
+      "published_at": "2026-10-20T06:59:23Z",
+      "created_at": "2026-10-20T06:57:26Z",
+      "updated_at": "2026-10-20T06:59:23Z",
+      "assets": [
+        {
+          "id": 658540395,
+          "name": "pulsia-model-studio.zip",
+          "state": "uploaded",
+          "size": 85887,
+          "digest": "sha256:c62b33030fe18bd8352d0f14562134c115c218ab3cc2d33b1ccf65bcd259e7d4",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.111/pulsia-model-studio.zip",
+          "created_at": "2026-10-20T06:59:21Z",
+          "updated_at": "2026-10-20T06:59:22Z"
+        },
+        {
+          "id": 658540396,
+          "name": "pulsia-model-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:890812c8132608fc1bdec55482bcafd7cb3b95918de5083900db2a79ca867cd5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.111/pulsia-model-studio.zip.sha256",
+          "created_at": "2026-10-20T06:59:22Z",
+          "updated_at": "2026-10-20T06:59:22Z"
+        }
+      ]
+    },
     {
       "id": 418025841,
       "tag_name": "pulsia.model-studio@0.0.110",
