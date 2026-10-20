@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-20T08:40:45.000Z",
+  "generatedAt": "2026-10-20T12:42:32.000Z",
   "releases": [
     {
       "id": 418173502,
@@ -330,6 +330,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client-addon-ssh-client%400.0.105/pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
           "created_at": "2026-10-20T06:55:57Z",
           "updated_at": "2026-10-20T06:55:58Z"
+        }
+      ]
+    },
+    {
+      "id": 418387058,
+      "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.138",
+      "name": "AI Collaboration 0.1.138 · 업무 추가·삭제 공용 아이콘 정리",
+      "body": "AI Collaboration 0.1.138\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-ai-agent-collaboration-chat\",\"version\":\"0.1.138\",\"title\":\"AI Collaboration\",\"kind\":\"composite\",\"tags\":[\"AI\",\"ACP\",\"협업\",\"대화\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-ai-agent-collaboration-chat%400.1.138",
+      "published_at": "2026-10-20T12:42:32Z",
+      "created_at": "2026-10-20T08:40:54Z",
+      "updated_at": "2026-10-20T12:42:32Z",
+      "assets": [
+        {
+          "id": 659305511,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "state": "uploaded",
+          "size": 203601,
+          "digest": "sha256:88dd8042733b3b98d9fdb0fca08144538b8b20bb86dfe584841d73fc3805caf4",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.138/pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "created_at": "2026-10-20T12:42:31Z",
+          "updated_at": "2026-10-20T12:42:31Z"
         }
       ]
     },
