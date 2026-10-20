@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-20T14:40:10.000Z",
+  "generatedAt": "2026-10-20T14:40:26.000Z",
   "releases": [
     {
       "id": 418508069,
@@ -758,6 +758,40 @@
       ]
     },
     {
+      "id": 418508369,
+      "tag_name": "pulsia-plugin-wingate-seller@0.1.105",
+      "name": "Wingate Seller 0.1.105",
+      "body": "# Wingate Seller 0.1.105\n\nLucide 공용 아이콘을 적용하고 문자 펼침 표시와 작업 버튼을 정리했습니다. 아이콘 출처와 패키지 검사를 추가했습니다.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-wingate-seller\",\"version\":\"0.1.105\",\"title\":\"Wingate Seller\",\"description\":\"Lucide 공용 아이콘을 적용하고 문자 펼침 표시와 작업 버튼을 정리했습니다. 아이콘 출처와 패키지 검사를 추가했습니다.\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"판매자\",\"고객\",\"설치\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"}]}} -->\n\nSource: mars-log/pulsia-plugin-studio@115bc379da71dc0d88e051adb550c56cfdf0ff6f\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-seller%400.1.105",
+      "published_at": "2026-10-20T14:40:26Z",
+      "created_at": "2026-10-20T14:40:15Z",
+      "updated_at": "2026-10-20T14:40:26Z",
+      "assets": [
+        {
+          "id": 659581653,
+          "name": "pulsia-plugin-wingate-seller.zip",
+          "state": "uploaded",
+          "size": 119879,
+          "digest": "sha256:c13972f7a2623fc10c6dfd6a1a5ca302fb7ef9fd738f61cac44bbdc094fc7704",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.105/pulsia-plugin-wingate-seller.zip",
+          "created_at": "2026-10-20T14:40:25Z",
+          "updated_at": "2026-10-20T14:40:25Z"
+        },
+        {
+          "id": 659581655,
+          "name": "pulsia-plugin-wingate-seller.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:b93620d1ea5912893533026636dd627cc6ef8dacae14772641687309cd0baac6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.105/pulsia-plugin-wingate-seller.zip.sha256",
+          "created_at": "2026-10-20T14:40:25Z",
+          "updated_at": "2026-10-20T14:40:25Z"
+        }
+      ]
+    },
+    {
       "id": 418414856,
       "tag_name": "pulsia-plugin-wingate-seller@0.1.104",
       "name": "Wingate Seller 0.1.104",
@@ -788,6 +822,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.104/pulsia-plugin-wingate-seller.zip.sha256",
           "created_at": "2026-10-20T13:10:32Z",
           "updated_at": "2026-10-20T13:10:33Z"
+        }
+      ]
+    },
+    {
+      "id": 418508211,
+      "tag_name": "pulsia-plugin-wingate-client@0.1.113",
+      "name": "Wingate Client 0.1.113",
+      "body": "# Wingate Client 0.1.113\n\nLucide 공용 아이콘을 적용하고 문자 펼침 표시와 작업 버튼을 정리했습니다. 아이콘 출처와 패키지 검사를 추가했습니다.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-wingate-client\",\"version\":\"0.1.113\",\"title\":\"Wingate Client\",\"description\":\"Lucide 공용 아이콘을 적용하고 문자 펼침 표시와 작업 버튼을 정리했습니다. 아이콘 출처와 패키지 검사를 추가했습니다.\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"접속\",\"서버\",\"Client\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-manager\",\"version\":\"^0.1.108\",\"reason\":\"Manager가 준비한 조직 서버 목록과 SSH 접속 준비를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-client-addon-ssh-client\",\"version\":\"^0.0.105\",\"reason\":\"개인 SSH 접속 대상을 저장하고 사용할 수 있습니다.\"}]}} -->\n\nSource: mars-log/pulsia-plugin-studio@115bc379da71dc0d88e051adb550c56cfdf0ff6f\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.113",
+      "published_at": "2026-10-20T14:40:18Z",
+      "created_at": "2026-10-20T14:40:15Z",
+      "updated_at": "2026-10-20T14:40:18Z",
+      "assets": [
+        {
+          "id": 659581293,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 157907,
+          "digest": "sha256:c95afaa3e931c660c34abbac46b2a6ad816991a0c6879a529cdaca1e156044b6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.113/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-10-20T14:40:17Z",
+          "updated_at": "2026-10-20T14:40:17Z"
+        },
+        {
+          "id": 659581304,
+          "name": "pulsia-plugin-wingate-client.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:facb1a09f0570c3f7cfaa8e05e9de2008fd0b8acb3e4ce197b1c268eb9eb2dfe",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.113/pulsia-plugin-wingate-client.zip.sha256",
+          "created_at": "2026-10-20T14:40:17Z",
+          "updated_at": "2026-10-20T14:40:17Z"
         }
       ]
     },
