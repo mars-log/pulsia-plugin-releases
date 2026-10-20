@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-20T06:40:08.000Z",
+  "generatedAt": "2026-10-20T06:55:58.000Z",
   "releases": [
     {
       "id": 418025841,
@@ -92,6 +92,74 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.147/pulsia-java-development-pack.zip",
           "created_at": "2026-10-20T02:09:36Z",
           "updated_at": "2026-10-20T02:09:38Z"
+        }
+      ]
+    },
+    {
+      "id": 418091378,
+      "tag_name": "pulsia-plugin-wingate-client@0.1.111",
+      "name": "Wingate Client 0.1.111",
+      "body": "여러 프로젝트 창에서 조직 서버 목록·접속 준비·SSH 애드온 호출이 겹칠 때 원래 호출의 창·프로젝트 문맥을 유지하도록 수정함.\n\n- 비동기 Host 요청에 원래 호출 식별자를 전달하고 만료된 호출의 후속 권한 요청은 Core가 거부할 수 있게 함.\n- 실패 응답의 원본 stack·상세·원인·요청 및 진단 식별자를 보존함.\n- 공개 0.1.108에서 업데이트하면 설치 화면에서 변경된 권한 범위 확인이 필요함.\n- 실제 backend와 Core Host의 동시 호출·원본 오류 전달, ZIP 무결성·격리 새 설치·이전 버전 업데이트를 검증함. 실제 SSH 서버 접속과 사용자 설치본 적용은 별도 확인 대상임.\n\nSource commit: `25e87177bb0039ad8243b12562117190c40afa99` (Pulsia Plugin Studio)\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.111",
+      "published_at": "2026-10-20T06:55:55Z",
+      "created_at": "2026-10-20T06:40:20Z",
+      "updated_at": "2026-10-20T06:55:55Z",
+      "assets": [
+        {
+          "id": 658533418,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 152094,
+          "digest": "sha256:4193d5ae8d7a79d82e7b2dc0e7107efd73e96dc800a43064a1c50199c7ff0bca",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.111/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-10-20T06:55:53Z",
+          "updated_at": "2026-10-20T06:55:54Z"
+        },
+        {
+          "id": 658533420,
+          "name": "pulsia-plugin-wingate-client.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:73489f6869b1524e35f68b4ab99a9288c8270695082ad6bab8b2bb36a7cd56e6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.111/pulsia-plugin-wingate-client.zip.sha256",
+          "created_at": "2026-10-20T06:55:53Z",
+          "updated_at": "2026-10-20T06:55:53Z"
+        }
+      ]
+    },
+    {
+      "id": 418091428,
+      "tag_name": "pulsia-plugin-wingate-client-addon-ssh-client@0.0.105",
+      "name": "Wingate Client Add-on · SSH Client 0.0.105",
+      "body": "여러 프로젝트 창에서 SSH 접속 대상 보관함을 함께 조회·저장할 때 원래 호출의 창·프로젝트 문맥을 유지하도록 수정함.\n\n- 비동기 저장·백업 복구에서도 원래 호출 식별자를 전달하며 만료된 호출의 후속 권한 요청은 Core가 거부할 수 있게 함.\n- 실패 응답의 원본 stack·상세·원인·요청 및 진단 식별자를 보존함.\n- 실제 backend와 Core Host의 동시 호출·원본 오류 전달, ZIP 무결성·격리 새 설치·0.0.104 업데이트·기존 보관함 보존을 검증함. 실제 SSH 서버 접속과 사용자 설치본 적용은 별도 확인 대상임.\n\nSource commit: `25e87177bb0039ad8243b12562117190c40afa99` (Pulsia Plugin Studio)\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client-addon-ssh-client%400.0.105",
+      "published_at": "2026-10-20T06:55:58Z",
+      "created_at": "2026-10-20T06:40:20Z",
+      "updated_at": "2026-10-20T06:55:58Z",
+      "assets": [
+        {
+          "id": 658533625,
+          "name": "pulsia-plugin-wingate-client-addon-ssh-client.zip",
+          "state": "uploaded",
+          "size": 30096,
+          "digest": "sha256:8d1502bf67f4d7a70d971636429160689e389a660202dca63660af7dcb75d4bd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client-addon-ssh-client%400.0.105/pulsia-plugin-wingate-client-addon-ssh-client.zip",
+          "created_at": "2026-10-20T06:55:57Z",
+          "updated_at": "2026-10-20T06:55:58Z"
+        },
+        {
+          "id": 658533624,
+          "name": "pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
+          "state": "uploaded",
+          "size": 116,
+          "digest": "sha256:43e28d3441db749a87943ce7266f261adc90177b67afaf6dfc11dda981abdfb2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client-addon-ssh-client%400.0.105/pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
+          "created_at": "2026-10-20T06:55:57Z",
+          "updated_at": "2026-10-20T06:55:58Z"
         }
       ]
     },
