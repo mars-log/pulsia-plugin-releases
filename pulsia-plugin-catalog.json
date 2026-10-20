@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-20T06:59:23.000Z",
+  "generatedAt": "2026-10-20T07:14:56.000Z",
   "releases": [
     {
       "id": 418093659,
@@ -68,6 +68,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.110/pulsia-model-studio.zip.sha256",
           "created_at": "2026-10-20T05:12:34Z",
           "updated_at": "2026-10-20T05:12:34Z"
+        }
+      ]
+    },
+    {
+      "id": 418104437,
+      "tag_name": "pulsia.java-development-pack@0.1.150",
+      "name": "Java 개발 팩 0.1.150 · 프로젝트 구조 빈 화면 보완",
+      "body": "Libraries·Facets·Artifacts 등 항목이 없는 화면에 현재 상태와 대상별 추가 버튼을 표시함. 항목을 추가하면 기존 편집·저장 흐름으로 이어짐.\n\n산출물 유형·모듈 선택을 본문에 표시하고 추가 취소 시 기존 구성을 보존함. 다시 읽은 뒤 삭제된 항목을 선택해 본문이 비는 문제를 수정함. 설치 중인 JDK 선택을 유지함.\n\n프로젝트 구조 구분선·+ 아이콘 수정을 포함함. 실제 JAR 등록, Web 배포 서술자 생성, JAR 산출물 설정의 저장·재조회와 light/dark 화면, 관련 시험 30건을 확인함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.java-development-pack%400.1.150",
+      "published_at": "2026-10-20T07:14:56Z",
+      "created_at": "2026-10-20T06:59:35Z",
+      "updated_at": "2026-10-20T07:14:56Z",
+      "assets": [
+        {
+          "id": 658571835,
+          "name": "pulsia-java-development-pack.zip",
+          "state": "uploaded",
+          "size": 4803696,
+          "digest": "sha256:96caa3c989926a9642ceabafa82de0c2fdd35f52ffa1f6a3bfaae32cefec9aac",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.150/pulsia-java-development-pack.zip",
+          "created_at": "2026-10-20T07:14:54Z",
+          "updated_at": "2026-10-20T07:14:55Z"
+        },
+        {
+          "id": 658571834,
+          "name": "pulsia-java-development-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:ff452f34b95c10f0b8290c871b9ba9c9c64cc30bc818ddc17036ba1dc1c39c35",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.150/pulsia-java-development-pack.zip.sha256",
+          "created_at": "2026-10-20T07:14:54Z",
+          "updated_at": "2026-10-20T07:14:55Z"
         }
       ]
     },
