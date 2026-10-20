@@ -1,8 +1,80 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-19T14:54:03.000Z",
+  "generatedAt": "2026-10-20T02:09:34.000Z",
   "releases": [
+    {
+      "id": 417930054,
+      "tag_name": "pulsia.net-manager@0.1.129",
+      "name": "pulsia.net-manager 0.1.129",
+      "body": "동시 Agent 저장의 변경 유실과 AI 분석 시작 중복을 방지함. Windows 장비 응답 확인에 맞는 ping 인자를 적용함.\n\n변경 경로의 정상·실패·취소 집중 시험과 설치 후보 준비·ZIP 내용을 확인함. 실제 운영 서버·거래소·DB 변경과 사용자 앱 설치 적용은 별도임.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/a4455c227381e9a429d0f06c18d03955dc7304bf\n\nSHA-256: `4b9b26e1aa52a723563668ea78a40b06cd633fecd0366b20e9181cac0c54d340`\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.net-manager%400.1.129",
+      "published_at": "2026-10-20T02:09:34Z",
+      "created_at": "2026-10-19T14:54:12Z",
+      "updated_at": "2026-10-20T02:09:34Z",
+      "assets": [
+        {
+          "id": 658012425,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 206529,
+          "digest": "sha256:4b9b26e1aa52a723563668ea78a40b06cd633fecd0366b20e9181cac0c54d340",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.129/wintera-net-manager.zip",
+          "created_at": "2026-10-20T02:09:33Z",
+          "updated_at": "2026-10-20T02:09:33Z"
+        }
+      ]
+    },
+    {
+      "id": 417930005,
+      "tag_name": "pulsia.sql-studio@0.0.114",
+      "name": "pulsia.sql-studio 0.0.114",
+      "body": "동시에 SQL 작업을 열 때 연결 풀을 중복 생성하지 않도록 보완함. 쿼리 중단 후 연결을 반환하고 탐색기 조회를 순서대로 처리하여 반복 사용 시 연결 한도 소진을 방지함.\n\n변경 경로의 정상·실패·취소 집중 시험과 설치 후보 준비·ZIP 내용을 확인함. 실제 운영 서버·거래소·DB 변경과 사용자 앱 설치 적용은 별도임.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/a4455c227381e9a429d0f06c18d03955dc7304bf\n\nSHA-256: `9a465ee77588673c99e64e9bb3dde5e038e3acbfda68495975d27e6cb36d6059`\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.sql-studio%400.0.114",
+      "published_at": "2026-10-20T02:09:27Z",
+      "created_at": "2026-10-19T14:54:12Z",
+      "updated_at": "2026-10-20T02:09:27Z",
+      "assets": [
+        {
+          "id": 658012242,
+          "name": "pulsia-sql-studio.zip",
+          "state": "uploaded",
+          "size": 57161,
+          "digest": "sha256:9a465ee77588673c99e64e9bb3dde5e038e3acbfda68495975d27e6cb36d6059",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.114/pulsia-sql-studio.zip",
+          "created_at": "2026-10-20T02:09:26Z",
+          "updated_at": "2026-10-20T02:09:27Z"
+        }
+      ]
+    },
+    {
+      "id": 417930034,
+      "tag_name": "pulsia.coin-pilot@0.0.106",
+      "name": "pulsia.coin-pilot 0.0.106",
+      "body": "작업 취소를 대기 중인 Host 요청에도 전달하도록 보완함. 전체 종료 시 진행 중 작업의 취소 상태를 유지함.\n\n변경 경로의 정상·실패·취소 집중 시험과 설치 후보 준비·ZIP 내용을 확인함. 실제 운영 서버·거래소·DB 변경과 사용자 앱 설치 적용은 별도임.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/a4455c227381e9a429d0f06c18d03955dc7304bf\n\nSHA-256: `7bd2ecd675d13ed2ca4e4c9f1762360efeb5943b92e70f2557640d8119fdba49`\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.coin-pilot%400.0.106",
+      "published_at": "2026-10-20T02:09:31Z",
+      "created_at": "2026-10-19T14:54:12Z",
+      "updated_at": "2026-10-20T02:09:31Z",
+      "assets": [
+        {
+          "id": 658012335,
+          "name": "pulsia-coin-pilot.zip",
+          "state": "uploaded",
+          "size": 221657,
+          "digest": "sha256:7bd2ecd675d13ed2ca4e4c9f1762360efeb5943b92e70f2557640d8119fdba49",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.106/pulsia-coin-pilot.zip",
+          "created_at": "2026-10-20T02:09:29Z",
+          "updated_at": "2026-10-20T02:09:30Z"
+        }
+      ]
+    },
     {
       "id": 417421259,
       "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.137",
