@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-21T04:37:14.000Z",
+  "generatedAt": "2026-10-21T04:40:51.000Z",
   "releases": [
     {
       "id": 419164537,
@@ -68,6 +68,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.123/pulsia-plugin-object-manager.zip.sha256",
           "created_at": "2026-10-21T03:07:59Z",
           "updated_at": "2026-10-21T03:07:59Z"
+        }
+      ]
+    },
+    {
+      "id": 419166223,
+      "tag_name": "pulsia.model-studio@0.0.114",
+      "name": "Model Studio 0.0.114",
+      "body": "# Model Studio 0.0.114\n\n- 모델 맵의 관계선·방향·연결점을 공용 UI Runtime GPU로 표시합니다. 카드·필드·선택·편집·자동 저장과 실행 취소는 기존 흐름을 유지합니다.\n- WebGL 장치 손실은 Canvas2D로 전환하며 Runtime이 없는 Core에서는 기존 SVG로 표시합니다. 숨긴 화면은 프레임을 중단하고 화면 종료 시 자원을 회수합니다.\n- 현재 화면의 실제 표시 backend·카메라·도형 수는 inspectModelStudio.rendering에서 확인할 수 있습니다.\n- 기존 0.0.113의 맵·좌표·배율·선택·필드 펼침·도우미를 유지하는 업데이트와 실제 입력 저장을 검증했습니다.\n\nGPU 표시에는 UI Runtime 1.0.101의 graphics.scene2d@1이 필요하며, 지원 API가 없으면 기존 수동 편집·SVG 표시를 유지합니다. 필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.model-studio\",\"version\":\"0.0.114\",\"title\":\"Model Studio\",\"description\":\"모델 맵 관계선·방향·연결점을 공용 UI Runtime GPU로 표시하며 기존 카드·편집·저장과 장치 실패 시 대체 표시를 유지합니다.\",\"kind\":\"composite\",\"tags\":[\"Model\",\"Mind Map\",\"ERD\",\"AI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"}]}} -->\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.model-studio%400.0.114",
+      "published_at": "2026-10-21T04:40:51Z",
+      "created_at": "2026-10-21T04:37:24Z",
+      "updated_at": "2026-10-21T04:40:51Z",
+      "assets": [
+        {
+          "id": 661366455,
+          "name": "pulsia-model-studio.zip",
+          "state": "uploaded",
+          "size": 93005,
+          "digest": "sha256:711e537878e30aa49a0c5eb0edf22da62b6daa85379e9723da97bb0e8abfc00d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.114/pulsia-model-studio.zip",
+          "created_at": "2026-10-21T04:40:50Z",
+          "updated_at": "2026-10-21T04:40:50Z"
+        },
+        {
+          "id": 661366454,
+          "name": "pulsia-model-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:5e630e1aee21b51622ceb42c23f63eab64ee0f7fd915fd7ec190199d1e5bbbc9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.114/pulsia-model-studio.zip.sha256",
+          "created_at": "2026-10-21T04:40:50Z",
+          "updated_at": "2026-10-21T04:40:50Z"
         }
       ]
     },
