@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-20T15:13:16.000Z",
+  "generatedAt": "2026-10-21T01:54:27.000Z",
   "releases": [
     {
       "id": 418508676,
@@ -1178,6 +1178,60 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.104/pulsia-plugin-wingate-seller.zip.sha256",
           "created_at": "2026-10-20T13:10:32Z",
           "updated_at": "2026-10-20T13:10:33Z"
+        }
+      ]
+    },
+    {
+      "id": 419059481,
+      "tag_name": "pulsia-plugin-wingate-manager@0.1.110",
+      "name": "Wingate Manager 0.1.110 · 관리형 SSH 배포 입력 복원",
+      "body": "고정 PuTTY 0.85·MIT krb5 1.22.2 소스와 기존 Wingate patch에서 관리형 SSH 파일을 다시 빌드함. 검토한 MSVC 19.44.35228의 서로 다른 작업 폴더 두 곳에서 6개 파일의 크기·SHA-256 일치를 확인함.\n\n다른 Pulsia Plugin과 같은 GitHub 저장소 신뢰·SHA-256 업데이트 경로를 사용함. 별도 제작자 서명키를 요구하지 않으며 SSH 서버 호스트 검증과 파일 무결성 검사를 유지함.\n\n실제 파일 검사·PE 의존성·kinit 적재·Plink 실행과 패키지 Backend의 실행 준비 조회를 확인함. 관련 시험 63건 통과함. 대응 소스 ZIP과 upstream 라이선스·고지를 제공함. 서명 없는 직접 빌드이며 공식 PuTTY·MIT 바이너리가 아님.\n\n새 wingate.3의 실제 GSSAPI 원격 인증과 전체 설치 화면 조작은 미확인임.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-manager%400.1.110",
+      "published_at": "2026-10-21T01:54:27Z",
+      "created_at": "2026-10-20T15:13:29Z",
+      "updated_at": "2026-10-21T01:54:27Z",
+      "assets": [
+        {
+          "id": 661056285,
+          "name": "pulsia-plugin-wingate-manager.zip",
+          "state": "uploaded",
+          "size": 1810710,
+          "digest": "sha256:e332d386084726c1387928f4fb2d278bbf4868bdeef26c6007b49f423076304e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.110/pulsia-plugin-wingate-manager.zip",
+          "created_at": "2026-10-21T01:54:24Z",
+          "updated_at": "2026-10-21T01:54:25Z"
+        },
+        {
+          "id": 661056290,
+          "name": "pulsia-plugin-wingate-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 100,
+          "digest": "sha256:4f5418dd9145d99969a3297d42717655472211495541afbaea1e75f12f625196",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.110/pulsia-plugin-wingate-manager.zip.sha256",
+          "created_at": "2026-10-21T01:54:24Z",
+          "updated_at": "2026-10-21T01:54:24Z"
+        },
+        {
+          "id": 661056289,
+          "name": "wingate-managed-ssh-runtime-source-0.85.0-wingate.3.zip",
+          "state": "uploaded",
+          "size": 11962681,
+          "digest": "sha256:c62e3bdf4fa84a8affbb298e5e800a178f0c59a5e7a5bb053f27db1ed8ba9594",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.110/wingate-managed-ssh-runtime-source-0.85.0-wingate.3.zip",
+          "created_at": "2026-10-21T01:54:24Z",
+          "updated_at": "2026-10-21T01:54:26Z"
+        },
+        {
+          "id": 661056287,
+          "name": "wingate-managed-ssh-runtime-source-0.85.0-wingate.3.zip.sha256",
+          "state": "uploaded",
+          "size": 122,
+          "digest": "sha256:181695f0e8d17c940fcf0c6f3468cf85e9979661490568ba62283648af5950ea",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.110/wingate-managed-ssh-runtime-source-0.85.0-wingate.3.zip.sha256",
+          "created_at": "2026-10-21T01:54:24Z",
+          "updated_at": "2026-10-21T01:54:24Z"
         }
       ]
     },
