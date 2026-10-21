@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-21T04:40:51.000Z",
+  "generatedAt": "2026-10-21T05:54:05.000Z",
   "releases": [
     {
       "id": 419164537,
@@ -68,6 +68,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.123/pulsia-plugin-object-manager.zip.sha256",
           "created_at": "2026-10-21T03:07:59Z",
           "updated_at": "2026-10-21T03:07:59Z"
+        }
+      ]
+    },
+    {
+      "id": 419204664,
+      "tag_name": "pulsia.model-studio@0.0.115",
+      "name": "Model Studio 0.0.115",
+      "body": "# Model Studio 0.0.115\n\n- 모델 이름 영역도 드래그로 이동할 수 있습니다.\n- FK 컬럼 매핑·복합키 순서·ON DELETE/UPDATE, UNIQUE·CHECK·복합 인덱스·정렬·조건·DEFAULT·identity를 모델에 선택 저장하고 DDL 재내보내기에 사용합니다. DB 지정은 필수가 아니며 내보낼 DB는 나중에 바꿀 수 있습니다.\n- DB별 내보내기 설정·경로 메모·성공한 revision 이력을 선택 저장하며, 지원하지 않는 DB 속성은 경고합니다. 실제 파일 쓰기는 기존 파일 선택창을 사용합니다.\n- 기존 GPU 표시를 유지하고 연결된 관계만 부분 갱신합니다. 좌표 CSS 변수 상속과 휠 처리 비용을 줄여 화면 이동을 최적화했습니다. 같은 17모델·27관계·204필드 검사에서 p95 프레임 간격은 20.1ms에서 10.4ms로 줄었습니다.\n- 대메뉴 활성화 시 모델 맵을 바로 열고 탐색기 높이 조절선을 메뉴 슬롯 위쪽 경계에 맞췄습니다. 화면 제어는 실제 상태와 완료 결과를 반환합니다.\n\n검증: 집중 검사 35건·설치 ZIP 화면 검사 19건, 실제 SQLite DDL 실행, GPU/Canvas2D/SVG 편집·저장·복구, light/dark·작은 화면. Core 설치 파일 변경은 없습니다.\n\nGPU는 UI Runtime graphics.scene2d@1에서 사용하며 API가 없는 Core는 기존 SVG로 표시합니다. 사용자 실행 앱의 업데이트 적용과 SQLite 외 DB 서버 실행은 별도 확인이 필요합니다.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.model-studio\",\"version\":\"0.0.115\",\"title\":\"Model Studio\",\"description\":\"모델 타이틀 이동·화면 이동 최적화와 선택적 FK·제약·인덱스·기본값·자동 번호 보존, 대메뉴 맵 바로 열기와 탐색기 조절선 정렬\",\"kind\":\"composite\",\"tags\":[\"Model\",\"Mind Map\",\"ERD\",\"AI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.model-studio%400.0.115",
+      "published_at": "2026-10-21T05:54:05Z",
+      "created_at": "2026-10-21T04:41:04Z",
+      "updated_at": "2026-10-21T05:54:05Z",
+      "assets": [
+        {
+          "id": 661510197,
+          "name": "pulsia-model-studio.zip",
+          "state": "uploaded",
+          "size": 112451,
+          "digest": "sha256:c131e348be680d028d414dc3c7b719633a7e30339bd6fd011fb6c16da394cf57",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.115/pulsia-model-studio.zip",
+          "created_at": "2026-10-21T05:54:04Z",
+          "updated_at": "2026-10-21T05:54:04Z"
+        },
+        {
+          "id": 661510195,
+          "name": "pulsia-model-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:5a12ed9aad72e589816a9693f4d3f63acedffb300038a3cdd6c9789fe094a066",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.115/pulsia-model-studio.zip.sha256",
+          "created_at": "2026-10-21T05:54:04Z",
+          "updated_at": "2026-10-21T05:54:04Z"
         }
       ]
     },
