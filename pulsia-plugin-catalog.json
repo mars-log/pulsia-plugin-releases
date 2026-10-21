@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-21T03:08:00.000Z",
+  "generatedAt": "2026-10-21T04:37:14.000Z",
   "releases": [
+    {
+      "id": 419164537,
+      "tag_name": "pulsia.object-model-studio@0.10.124",
+      "name": "객체 모델 매니저 - legacy",
+      "body": "# 객체 모델 매니저 - legacy 0.10.124\n\n모델 스튜디오(pulsia.model-studio)로 대체된 기존 제품임을 표시함. 기존 Plugin ID·보관함·모델·공개 API와 업데이트 경로를 유지함.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.object-model-studio\",\"version\":\"0.10.124\",\"title\":\"객체 모델 매니저 - legacy\",\"description\":\"모델 스튜디오(pulsia.model-studio)로 대체된 기존 제품임을 표시함. 기존 Plugin ID·보관함·모델·공개 API와 업데이트 경로를 유지함.\",\"kind\":\"composite\",\"tags\":[\"객체 매니저\",\"객체 모델\",\"관계\",\"AI\",\"로컬 저장\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.124",
+      "published_at": "2026-10-21T04:37:14Z",
+      "created_at": "2026-10-21T03:08:10Z",
+      "updated_at": "2026-10-21T04:37:14Z",
+      "assets": [
+        {
+          "id": 661360538,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 369028,
+          "digest": "sha256:64669e659f0c1d114d7a704f20c5634b25dd35af4082acf1cc328184081b861a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.124/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-21T04:37:13Z",
+          "updated_at": "2026-10-21T04:37:13Z"
+        },
+        {
+          "id": 661360539,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:b1c4bb20afb5a285c397f725962c2bf52a8262a1bddb651edbb596a89237ae2a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.124/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-21T04:37:13Z",
+          "updated_at": "2026-10-21T04:37:13Z"
+        }
+      ]
+    },
     {
       "id": 419100806,
       "tag_name": "pulsia.object-model-studio@0.10.123",
