@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-22T04:08:43.000Z",
+  "generatedAt": "2026-10-22T04:31:41.000Z",
   "releases": [
+    {
+      "id": 420298217,
+      "tag_name": "pulsia.sql-studio@0.0.119",
+      "name": "SQL Studio 0.0.119",
+      "body": "# SQL Studio 0.0.119\r\n\r\n\r\n\r\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\r\n\r\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.sql-studio\",\"version\":\"0.0.119\",\"title\":\"SQL Studio\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Database\",\"SQL\",\"PLSQL\",\"Editor\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.db-connector\",\"version\":\"^0.2.111\",\"reason\":\"DB 접속과 SQL 실행에 사용합니다.\"}],\"recommended\":[]}} -->\r\n\r\n- SQL 원문 파일 저장 버튼·Ctrl+S·Cmd+S·다른 이름으로 저장을 제공함. 취소·실패는 초안을 보존하고 실제 파일 기록 후 미저장 상태를 해제함.\r\n- 탐색기 테이블명을 편집기의 놓은 위치에 삽입하고 undo·redo를 지원함. 객체 상세 헤더·탭을 Pulsia 공용 표시로 맞춤.\r\n- 테이블 드래그에는 Core 0.3.226 이상이 필요함. DB Connector 0.2.111 이상을 먼저 설치·업데이트함.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.sql-studio%400.0.119",
+      "published_at": "2026-10-22T04:31:41Z",
+      "created_at": "2026-10-22T04:08:52Z",
+      "updated_at": "2026-10-22T04:31:41Z",
+      "assets": [
+        {
+          "id": 664631999,
+          "name": "pulsia-sql-studio.zip",
+          "state": "uploaded",
+          "size": 63409,
+          "digest": "sha256:fe6488afa1751c8baca91ba6168d82af7e711277386ac78a014c27f65580fdde",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.119/pulsia-sql-studio.zip",
+          "created_at": "2026-10-22T04:09:37Z",
+          "updated_at": "2026-10-22T04:09:37Z"
+        },
+        {
+          "id": 664632002,
+          "name": "pulsia-sql-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:cb10483da665f2e3d543e51bdda1ce1d6ee06f8b43ea0438900e23d7c988f8ac",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.119/pulsia-sql-studio.zip.sha256",
+          "created_at": "2026-10-22T04:09:37Z",
+          "updated_at": "2026-10-22T04:09:37Z"
+        }
+      ]
+    },
     {
       "id": 420297662,
       "tag_name": "pulsia.db-connector-v0.2.111",
