@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-22T08:35:42.000Z",
+  "generatedAt": "2026-10-22T08:39:38.000Z",
   "releases": [
     {
       "id": 420298217,
@@ -288,6 +288,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.111/pulsia-plugin-db-connector.zip.sha256",
           "created_at": "2026-10-22T04:08:39Z",
           "updated_at": "2026-10-22T04:08:39Z"
+        }
+      ]
+    },
+    {
+      "id": 420483157,
+      "tag_name": "pulsia.acp-common@1.0.2",
+      "name": "pulsia.acp-common 1.0.2",
+      "body": "# pulsia.acp-common 1.0.2\n\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.acp-common\",\"version\":\"1.0.2\",\"title\":\"pulsia.acp-common\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.acp-common%401.0.2",
+      "published_at": "2026-10-22T08:39:38Z",
+      "created_at": "2026-10-22T08:35:49Z",
+      "updated_at": "2026-10-22T08:39:38Z",
+      "assets": [
+        {
+          "id": 665213342,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 2831906,
+          "digest": "sha256:e2db7d9364bb2d8fdbfb836d11f69cb76c16dbee0fa8286fab89a2d40b004cca",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.2/pulsia-acp-common.zip",
+          "created_at": "2026-10-22T08:39:36Z",
+          "updated_at": "2026-10-22T08:39:37Z"
+        },
+        {
+          "id": 665213340,
+          "name": "pulsia-acp-common.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:4598fd4cb00d5ed6ed24dbc97d01a10de7bbf77d56299125ba499d7261d932b2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.2/pulsia-acp-common.zip.sha256",
+          "created_at": "2026-10-22T08:39:36Z",
+          "updated_at": "2026-10-22T08:39:36Z"
         }
       ]
     },
