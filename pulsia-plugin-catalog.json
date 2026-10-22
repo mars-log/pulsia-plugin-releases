@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-22T08:05:05.000Z",
+  "generatedAt": "2026-10-22T08:35:32.000Z",
   "releases": [
+    {
+      "id": 420479348,
+      "tag_name": "pulsia.markdown-runtime@1.0.101",
+      "name": "Markdown 렌더러 1.0.101",
+      "body": "# Markdown 렌더러 1.0.101\n\n- Markdown 정화와 미리 보기, 문법·위젯 확장을 제공함.\n- Core 0.3.229의 공용 frontend module Host와 함께 사용하는 최초 분리 배포임.\n- 업데이트는 모듈 사용을 종료한 뒤 앱을 다시 시작하여 적용함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.markdown-runtime\",\"version\":\"1.0.101\",\"title\":\"pulsia.markdown-runtime\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[],\"recommended\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.markdown-runtime%401.0.101",
+      "published_at": "2026-10-22T08:35:32Z",
+      "created_at": "2026-10-22T08:05:18Z",
+      "updated_at": "2026-10-22T08:35:32Z",
+      "assets": [
+        {
+          "id": 665202121,
+          "name": "pulsia-markdown-runtime.zip",
+          "state": "uploaded",
+          "size": 44249,
+          "digest": "sha256:eea091e051c1a54f73d43f6653135672ceae7fa05bbbbd2e1e44a7ec068eed9d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.markdown-runtime%401.0.101/pulsia-markdown-runtime.zip",
+          "created_at": "2026-10-22T08:35:31Z",
+          "updated_at": "2026-10-22T08:35:31Z"
+        },
+        {
+          "id": 665202123,
+          "name": "pulsia-markdown-runtime.zip.sha256",
+          "state": "uploaded",
+          "size": 94,
+          "digest": "sha256:d7aba0b842da80f29736c57e859a18a55ca30c1bcf919acabebdf5104790ea07",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.markdown-runtime%401.0.101/pulsia-markdown-runtime.zip.sha256",
+          "created_at": "2026-10-22T08:35:31Z",
+          "updated_at": "2026-10-22T08:35:31Z"
+        }
+      ]
+    },
     {
       "id": 420298217,
       "tag_name": "pulsia.sql-studio@0.0.119",
@@ -68,6 +102,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.protea%400.0.103/pulsia-protea.zip.sha256",
           "created_at": "2026-10-22T06:50:20Z",
           "updated_at": "2026-10-22T06:50:20Z"
+        }
+      ]
+    },
+    {
+      "id": 420479255,
+      "tag_name": "pulsia.editor-runtime@1.0.101",
+      "name": "공용 편집 엔진 1.0.101",
+      "body": "# 공용 편집 엔진 1.0.101\n\n- 문서와 편집 기능 등록, 기존 Plugin 편집 API를 제공함.\n- Core 0.3.229의 공용 frontend module Host와 함께 사용하는 최초 분리 배포임.\n- 업데이트는 모듈 사용을 종료한 뒤 앱을 다시 시작하여 적용함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.editor-runtime\",\"version\":\"1.0.101\",\"title\":\"pulsia.editor-runtime\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[],\"recommended\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.editor-runtime%401.0.101",
+      "published_at": "2026-10-22T08:35:25Z",
+      "created_at": "2026-10-22T08:05:18Z",
+      "updated_at": "2026-10-22T08:35:25Z",
+      "assets": [
+        {
+          "id": 665201790,
+          "name": "pulsia-editor-runtime.zip",
+          "state": "uploaded",
+          "size": 1700044,
+          "digest": "sha256:60928dc795cfb41d49e40df9e169b4aa59014a3a7e6fe10399600a3ea240b620",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.101/pulsia-editor-runtime.zip",
+          "created_at": "2026-10-22T08:35:23Z",
+          "updated_at": "2026-10-22T08:35:24Z"
+        },
+        {
+          "id": 665201793,
+          "name": "pulsia-editor-runtime.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:5a10629060a1aeb17376d9bab8e7f03d5a895b310e1b41bd0e7543890379c784",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.101/pulsia-editor-runtime.zip.sha256",
+          "created_at": "2026-10-22T08:35:23Z",
+          "updated_at": "2026-10-22T08:35:24Z"
         }
       ]
     },
