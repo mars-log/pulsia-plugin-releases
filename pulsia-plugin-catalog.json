@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-22T08:39:38.000Z",
+  "generatedAt": "2026-10-22T08:41:35.000Z",
   "releases": [
+    {
+      "id": 420484967,
+      "tag_name": "pulsia.sql-studio@0.0.120",
+      "name": "pulsia.sql-studio 0.0.120",
+      "body": "# SQL Studio 0.0.120\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.sql-studio\",\"version\":\"0.0.120\",\"title\":\"SQL Studio\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Database\",\"SQL\",\"PLSQL\",\"Editor\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.db-connector\",\"version\":\"^0.2.111\",\"reason\":\"DB 접속과 SQL 실행에 사용합니다.\"}],\"recommended\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.sql-studio%400.0.120",
+      "published_at": "2026-10-22T08:41:35Z",
+      "created_at": "2026-10-22T08:39:47Z",
+      "updated_at": "2026-10-22T08:41:35Z",
+      "assets": [
+        {
+          "id": 665218270,
+          "name": "pulsia-sql-studio.zip",
+          "state": "uploaded",
+          "size": 11373264,
+          "digest": "sha256:6a297d4fce634d7808038a2dfd31db017e748caeaa69b974684b5cbd05d7c3e9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.120/pulsia-sql-studio.zip",
+          "created_at": "2026-10-22T08:41:33Z",
+          "updated_at": "2026-10-22T08:41:35Z"
+        },
+        {
+          "id": 665218271,
+          "name": "pulsia-sql-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:6bbce6caf712ca39194b987971f623459c4ffd01237c359d3b6562b66ee9785e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.120/pulsia-sql-studio.zip.sha256",
+          "created_at": "2026-10-22T08:41:33Z",
+          "updated_at": "2026-10-22T08:41:33Z"
+        }
+      ]
+    },
     {
       "id": 420298217,
       "tag_name": "pulsia.sql-studio@0.0.119",
