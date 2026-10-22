@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-22T07:53:00.000Z",
+  "generatedAt": "2026-10-22T07:57:33.000Z",
   "releases": [
     {
       "id": 420298217,
@@ -186,6 +186,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.0/pulsia-acp-common.zip.sha256",
           "created_at": "2026-10-22T07:52:58Z",
           "updated_at": "2026-10-22T07:52:58Z"
+        }
+      ]
+    },
+    {
+      "id": 420443330,
+      "tag_name": "pulsia-plugin-acp-workbench@1.1.121",
+      "name": "pulsia-plugin-acp-workbench 1.1.121",
+      "body": "# Agent 1.1.121\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-acp-workbench\",\"version\":\"1.1.121\",\"title\":\"Agent\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[\"ACP\",\"Agent\",\"오른쪽 패널\",\"Workbench\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.0\",\"reason\":\"AI 대화 화면과 Agent 실행을 제공함\"}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.121",
+      "published_at": "2026-10-22T07:57:33Z",
+      "created_at": "2026-10-22T07:53:09Z",
+      "updated_at": "2026-10-22T07:57:33Z",
+      "assets": [
+        {
+          "id": 665111704,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 13008,
+          "digest": "sha256:506d0b461c9f7f781ab2089a498a175422b2d077c3066e49974121e28dba0b63",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.121/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-10-22T07:57:32Z",
+          "updated_at": "2026-10-22T07:57:32Z"
+        },
+        {
+          "id": 665111709,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:04e412a6b062fe3b7a2c4fad5382289b6982db09a4f68d4403ed4db3f9d3ee1b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.121/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-10-22T07:57:32Z",
+          "updated_at": "2026-10-22T07:57:32Z"
         }
       ]
     },
@@ -3442,6 +3476,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-scratchpad%400.0.101/pulsia-ai-scratchpad.zip.sha256",
           "created_at": "2026-10-16T03:14:50Z",
           "updated_at": "2026-10-16T03:14:50Z"
+        }
+      ]
+    },
+    {
+      "id": 414693481,
+      "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.124",
+      "name": "AI Agent Collaboration Chat 0.1.124",
+      "body": "구현된 변경을 공개함. Core 0.3.187의 공용 작업 탭·탐색 상태·설치 승인 및 요청 처리와 함께 사용함.\n\n- 협업: 방별 작업 식별과 실행 상태 보호, 숨김과 중지 분리\n- SQL Studio: 논리 세션별 작업·초안 유지, 진행 중 작업 보호와 유휴 연결 반환\n- Test Pack: 설정 창 이동, 폴더 선택과 저장 분리, 진행 상태 조회 요청 누락 수정. 기존 1.0.114 예제를 보존함.\n\n추가 조작 테스트는 사용자 지시에 따라 배포 뒤에 진행하며 미확인 흐름을 완료로 판정하지 않음.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-ai-agent-collaboration-chat%400.1.124",
+      "published_at": "2026-10-16T08:02:58Z",
+      "created_at": "2026-10-16T07:48:36Z",
+      "updated_at": "2026-10-16T08:02:58Z",
+      "assets": [
+        {
+          "id": 646611760,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "state": "uploaded",
+          "size": 107137,
+          "digest": "sha256:9121cc714ff1552688847c728949340ff24bfaaf91a4d8b5c522e7d4467cfd42",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.124/pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "created_at": "2026-10-16T08:02:56Z",
+          "updated_at": "2026-10-16T08:02:56Z"
         }
       ]
     },
