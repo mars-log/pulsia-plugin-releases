@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-23T06:03:45.000Z",
+  "generatedAt": "2026-10-23T06:32:41.000Z",
   "releases": [
     {
       "id": 421500184,
@@ -140,6 +140,40 @@
       ]
     },
     {
+      "id": 421518253,
+      "tag_name": "pulsia.git-comparison@1.0.106",
+      "name": "Git 비교·병합 1.0.106",
+      "body": "# Git 비교·병합 1.0.106\n\n비교 양쪽의 얇은 세로 스크롤바 유지\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.git-comparison\",\"version\":\"1.0.106\",\"title\":\"Git 비교·병합\",\"description\":\"비교 양쪽의 얇은 세로 스크롤바 유지\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.editor-runtime\",\"version\":\"^1.0.106\",\"reason\":\"공용 문서 모델·편집기와 Worker 수명을 재사용함\"}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.git-comparison%401.0.106",
+      "published_at": "2026-10-23T06:32:41Z",
+      "created_at": "2026-10-23T06:03:59Z",
+      "updated_at": "2026-10-23T06:32:41Z",
+      "assets": [
+        {
+          "id": 668209428,
+          "name": "pulsia-git-comparison.zip",
+          "state": "uploaded",
+          "size": 256594,
+          "digest": "sha256:bb0d11856439c347abc420f206717e65d210359ac72b1a555be64f25255e56f9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.git-comparison%401.0.106/pulsia-git-comparison.zip",
+          "created_at": "2026-10-23T06:32:40Z",
+          "updated_at": "2026-10-23T06:32:40Z"
+        },
+        {
+          "id": 668209424,
+          "name": "pulsia-git-comparison.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:205d93c7d6a4674d73d8814df17ce4dd4b78cd266bb75d3f7c9643c3bf251658",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.git-comparison%401.0.106/pulsia-git-comparison.zip.sha256",
+          "created_at": "2026-10-23T06:32:40Z",
+          "updated_at": "2026-10-23T06:32:40Z"
+        }
+      ]
+    },
+    {
       "id": 421431782,
       "tag_name": "pulsia.git-comparison@1.0.105",
       "name": "Git 비교 1.0.105",
@@ -204,6 +238,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor%401.0.107/pulsia-editor.zip.sha256",
           "created_at": "2026-10-23T03:41:39Z",
           "updated_at": "2026-10-23T03:41:39Z"
+        }
+      ]
+    },
+    {
+      "id": 421518216,
+      "tag_name": "pulsia.editor-runtime@1.0.111",
+      "name": "공용 편집 엔진 1.0.111",
+      "body": "# 공용 편집 엔진 1.0.111\n\n완료한 소스 위치의 뒤로·앞으로 탐색과 닫힌 원본 파일 복원\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.editor-runtime\",\"version\":\"1.0.111\",\"title\":\"공용 편집 엔진\",\"description\":\"완료한 소스 위치의 뒤로·앞으로 탐색과 닫힌 원본 파일 복원\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[],\"recommended\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.editor-runtime%401.0.111",
+      "published_at": "2026-10-23T06:32:38Z",
+      "created_at": "2026-10-23T06:03:59Z",
+      "updated_at": "2026-10-23T06:32:38Z",
+      "assets": [
+        {
+          "id": 668209322,
+          "name": "pulsia-editor-runtime.zip",
+          "state": "uploaded",
+          "size": 1720824,
+          "digest": "sha256:f51f68c85b5ea99033ae3f432df324a24f5f556e3ccc7502bffa353cbbed2c9c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.111/pulsia-editor-runtime.zip",
+          "created_at": "2026-10-23T06:32:37Z",
+          "updated_at": "2026-10-23T06:32:37Z"
+        },
+        {
+          "id": 668209321,
+          "name": "pulsia-editor-runtime.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:c983a88363e851fc20603d76502b6ff6d5f5c0d29be447f04d458d32dd6c714a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.111/pulsia-editor-runtime.zip.sha256",
+          "created_at": "2026-10-23T06:32:37Z",
+          "updated_at": "2026-10-23T06:32:37Z"
         }
       ]
     },
