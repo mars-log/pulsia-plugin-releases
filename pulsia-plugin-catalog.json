@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-23T03:06:41.000Z",
+  "generatedAt": "2026-10-23T03:17:21.000Z",
   "releases": [
     {
       "id": 421327052,
@@ -68,6 +68,90 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.109/pulsia-editor-runtime.zip.sha256",
           "created_at": "2026-10-23T03:06:40Z",
           "updated_at": "2026-10-23T03:06:40Z"
+        }
+      ]
+    },
+    {
+      "id": 421415092,
+      "tag_name": "pulsia.db-connector-v0.2.112",
+      "name": "DB Connector 0.2.112",
+      "body": "# DB Connector 0.2.112\n\nSQLite 자동 커밋 조회 뒤 SQL 탭이 닫히지 않던 문제를 수정함. 실제 트랜잭션 상태를 전달하고 Commit 실패 시 작업 보호와 같은 세션의 복구를 유지함. SQL Studio 0.0.123과 함께 사용함. 기존 데이터 소스와 설정을 보존함. SQLite는 내장 드라이버이며 다른 DB 드라이버 5개를 함께 제공함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.db-connector\",\"version\":\"0.2.112\",\"title\":\"DB Connector\",\"description\":\"SQLite 자동 커밋 조회 뒤 SQL 탭이 닫히지 않던 문제를 수정함. 실제 트랜잭션 상태를 전달하고 Commit 실패 시 작업 보호와 같은 세션의 복구를 유지함. SQL Studio 0.0.123과 함께 사용함. 기존 데이터 소스와 설정을 보존함. SQLite는 내장 드라이버이며 다른 DB 드라이버 5개를 함께 제공함.\",\"kind\":\"composite\",\"tags\":[\"Database\",\"Oracle\",\"PostgreSQL\",\"MySQL\",\"MariaDB\",\"Redis\",\"SQLite\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.db-connector-v0.2.112",
+      "published_at": "2026-10-23T03:17:21Z",
+      "created_at": "2026-10-23T03:06:50Z",
+      "updated_at": "2026-10-23T03:17:21Z",
+      "assets": [
+        {
+          "id": 667821828,
+          "name": "db-driver-mariadb-3.5.4.zip",
+          "state": "uploaded",
+          "size": 1948318,
+          "digest": "sha256:a637d50ef1099f80717b88304bef1b0be5db4b04f79ca372d958875e95bf5362",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.112/db-driver-mariadb-3.5.4.zip",
+          "created_at": "2026-10-23T03:17:19Z",
+          "updated_at": "2026-10-23T03:17:19Z"
+        },
+        {
+          "id": 667821824,
+          "name": "db-driver-mysql-3.24.4.zip",
+          "state": "uploaded",
+          "size": 577774,
+          "digest": "sha256:594ac1752b8c9d4adbd3bb4a0d691ec1d139ce323fe9125e960df7a2eed8cfb5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.112/db-driver-mysql-3.24.4.zip",
+          "created_at": "2026-10-23T03:17:19Z",
+          "updated_at": "2026-10-23T03:17:19Z"
+        },
+        {
+          "id": 667821829,
+          "name": "db-driver-oracle-7.0.1.zip",
+          "state": "uploaded",
+          "size": 371858,
+          "digest": "sha256:05162d2798c4d2b81348972465e73cc66b124c5ac86faaa240930008b5f0869b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.112/db-driver-oracle-7.0.1.zip",
+          "created_at": "2026-10-23T03:17:19Z",
+          "updated_at": "2026-10-23T03:17:19Z"
+        },
+        {
+          "id": 667821852,
+          "name": "db-driver-postgresql-8.23.0.zip",
+          "state": "uploaded",
+          "size": 163722,
+          "digest": "sha256:53992844827a4df07a8609ffcb364cc5d154b40949b5ce24eabd95664f310c77",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.112/db-driver-postgresql-8.23.0.zip",
+          "created_at": "2026-10-23T03:17:19Z",
+          "updated_at": "2026-10-23T03:17:20Z"
+        },
+        {
+          "id": 667821856,
+          "name": "db-driver-redis-6.3.0.zip",
+          "state": "uploaded",
+          "size": 2212755,
+          "digest": "sha256:241d6a07c433e885c138557fe900eb92a5ef3792e96401dff1b5f55e3ad165be",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.112/db-driver-redis-6.3.0.zip",
+          "created_at": "2026-10-23T03:17:20Z",
+          "updated_at": "2026-10-23T03:17:20Z"
+        },
+        {
+          "id": 667821826,
+          "name": "pulsia-plugin-db-connector.zip",
+          "state": "uploaded",
+          "size": 214370,
+          "digest": "sha256:114dab159f1d1289712096b9b174af167e172346f4fc0a8401dc4626495cf623",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.112/pulsia-plugin-db-connector.zip",
+          "created_at": "2026-10-23T03:17:19Z",
+          "updated_at": "2026-10-23T03:17:19Z"
+        },
+        {
+          "id": 667821830,
+          "name": "pulsia-plugin-db-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 65,
+          "digest": "sha256:e6706aadfeba4abc2f3d78f16816a55f7f7f38f5e1c955542827d2180519ef3b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.112/pulsia-plugin-db-connector.zip.sha256",
+          "created_at": "2026-10-23T03:17:19Z",
+          "updated_at": "2026-10-23T03:17:19Z"
         }
       ]
     },
