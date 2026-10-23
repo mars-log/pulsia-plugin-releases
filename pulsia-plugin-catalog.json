@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-23T08:42:19.000Z",
+  "generatedAt": "2026-10-23T08:42:29.000Z",
   "releases": [
     {
       "id": 421500184,
@@ -50,22 +50,22 @@
       "updated_at": "2026-10-23T03:38:23Z",
       "assets": [
         {
-          "id": 667861051,
-          "name": "pulsia-sql-studio.zip",
-          "state": "uploaded",
-          "size": 68458,
-          "digest": "sha256:693d61b3975bba386de9e47c25a551c7e376decadd08f3d10c377996bbf7a487",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.124/pulsia-sql-studio.zip",
-          "created_at": "2026-10-23T03:38:22Z",
-          "updated_at": "2026-10-23T03:38:22Z"
-        },
-        {
           "id": 667861047,
           "name": "pulsia-sql-studio.zip.sha256",
           "state": "uploaded",
           "size": 88,
           "digest": "sha256:d61401486711407a6bbebe31e92fafe4c5f95b432c47887f8e51bccf9d707997",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.124/pulsia-sql-studio.zip.sha256",
+          "created_at": "2026-10-23T03:38:22Z",
+          "updated_at": "2026-10-23T03:38:22Z"
+        },
+        {
+          "id": 667861051,
+          "name": "pulsia-sql-studio.zip",
+          "state": "uploaded",
+          "size": 68458,
+          "digest": "sha256:693d61b3975bba386de9e47c25a551c7e376decadd08f3d10c377996bbf7a487",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.124/pulsia-sql-studio.zip",
           "created_at": "2026-10-23T03:38:22Z",
           "updated_at": "2026-10-23T03:38:22Z"
         }
@@ -106,6 +106,40 @@
       ]
     },
     {
+      "id": 421619490,
+      "tag_name": "pulsia.net-manager@0.1.133",
+      "name": "net-manager 0.1.133",
+      "body": "# Net Manager 0.1.133\n\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.net-manager\",\"version\":\"0.1.133\",\"title\":\"Net Manager\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"네트워크\",\"장비\",\"토폴로지\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null} -->\n\n사용자에게 필요한 상태와 조작을 중심으로 안내 문구를 정리했습니다.\n\n소스: [pulsia-plugin-studio 5fafbc6a3c9e7b9263464a178b9386d92af5bba1](https://github.com/mars-log/pulsia-plugin-studio/commit/5fafbc6a3c9e7b9263464a178b9386d92af5bba1)\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.net-manager%400.1.133",
+      "published_at": "2026-10-23T08:42:29Z",
+      "created_at": "2026-10-23T08:42:25Z",
+      "updated_at": "2026-10-23T08:42:29Z",
+      "assets": [
+        {
+          "id": 668516754,
+          "name": "wintera-net-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:81c66d59fa462c626862022ef55998efc38840a1420cea07c77e1d24566e2cc1",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.133/wintera-net-manager.zip.sha256",
+          "created_at": "2026-10-23T08:42:28Z",
+          "updated_at": "2026-10-23T08:42:28Z"
+        },
+        {
+          "id": 668516755,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 207512,
+          "digest": "sha256:858824afe934cd12c92a1c35a458afa4aab4c3410d28aaa3ced0d714676dab76",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.133/wintera-net-manager.zip",
+          "created_at": "2026-10-23T08:42:28Z",
+          "updated_at": "2026-10-23T08:42:28Z"
+        }
+      ]
+    },
+    {
       "id": 421327052,
       "tag_name": "pulsia.markdown-runtime@1.0.102",
       "name": "공용 Markdown 표시 1.0.102",
@@ -118,16 +152,6 @@
       "updated_at": "2026-10-23T00:22:07Z",
       "assets": [
         {
-          "id": 667488163,
-          "name": "pulsia-markdown-runtime.zip",
-          "state": "uploaded",
-          "size": 46364,
-          "digest": "sha256:0e283d7c658faeeb7686291b4bbf712692146f918c493b0f921c009e4f87bc24",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.markdown-runtime%401.0.102/pulsia-markdown-runtime.zip",
-          "created_at": "2026-10-23T00:20:52Z",
-          "updated_at": "2026-10-23T00:20:52Z"
-        },
-        {
           "id": 667488160,
           "name": "pulsia-markdown-runtime.zip.sha256",
           "state": "uploaded",
@@ -135,6 +159,16 @@
           "digest": "sha256:7e73d251d1fb071ed38bcd0ca418f33a6abe6098089f0648b1ceb1da0a8c61c8",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.markdown-runtime%401.0.102/pulsia-markdown-runtime.zip.sha256",
           "created_at": "2026-10-23T00:20:51Z",
+          "updated_at": "2026-10-23T00:20:52Z"
+        },
+        {
+          "id": 667488163,
+          "name": "pulsia-markdown-runtime.zip",
+          "state": "uploaded",
+          "size": 46364,
+          "digest": "sha256:0e283d7c658faeeb7686291b4bbf712692146f918c493b0f921c009e4f87bc24",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.markdown-runtime%401.0.102/pulsia-markdown-runtime.zip",
+          "created_at": "2026-10-23T00:20:52Z",
           "updated_at": "2026-10-23T00:20:52Z"
         }
       ]
@@ -220,22 +254,22 @@
       "updated_at": "2026-10-23T06:32:41Z",
       "assets": [
         {
-          "id": 668209428,
-          "name": "pulsia-git-comparison.zip",
-          "state": "uploaded",
-          "size": 256594,
-          "digest": "sha256:bb0d11856439c347abc420f206717e65d210359ac72b1a555be64f25255e56f9",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.git-comparison%401.0.106/pulsia-git-comparison.zip",
-          "created_at": "2026-10-23T06:32:40Z",
-          "updated_at": "2026-10-23T06:32:40Z"
-        },
-        {
           "id": 668209424,
           "name": "pulsia-git-comparison.zip.sha256",
           "state": "uploaded",
           "size": 92,
           "digest": "sha256:205d93c7d6a4674d73d8814df17ce4dd4b78cd266bb75d3f7c9643c3bf251658",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.git-comparison%401.0.106/pulsia-git-comparison.zip.sha256",
+          "created_at": "2026-10-23T06:32:40Z",
+          "updated_at": "2026-10-23T06:32:40Z"
+        },
+        {
+          "id": 668209428,
+          "name": "pulsia-git-comparison.zip",
+          "state": "uploaded",
+          "size": 256594,
+          "digest": "sha256:bb0d11856439c347abc420f206717e65d210359ac72b1a555be64f25255e56f9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.git-comparison%401.0.106/pulsia-git-comparison.zip",
           "created_at": "2026-10-23T06:32:40Z",
           "updated_at": "2026-10-23T06:32:40Z"
         }
@@ -288,22 +322,22 @@
       "updated_at": "2026-10-23T03:41:40Z",
       "assets": [
         {
-          "id": 667867418,
-          "name": "pulsia-editor.zip",
-          "state": "uploaded",
-          "size": 97617,
-          "digest": "sha256:269c5f533848395c3b3791d2824907220a2292fb23b5a23f594494b0e5c93223",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor%401.0.107/pulsia-editor.zip",
-          "created_at": "2026-10-23T03:41:39Z",
-          "updated_at": "2026-10-23T03:41:39Z"
-        },
-        {
           "id": 667867417,
           "name": "pulsia-editor.zip.sha256",
           "state": "uploaded",
           "size": 84,
           "digest": "sha256:281db79eddbf6033065e871c62a2a06d71f2e940b9405585ca356cde95467067",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor%401.0.107/pulsia-editor.zip.sha256",
+          "created_at": "2026-10-23T03:41:39Z",
+          "updated_at": "2026-10-23T03:41:39Z"
+        },
+        {
+          "id": 667867418,
+          "name": "pulsia-editor.zip",
+          "state": "uploaded",
+          "size": 97617,
+          "digest": "sha256:269c5f533848395c3b3791d2824907220a2292fb23b5a23f594494b0e5c93223",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor%401.0.107/pulsia-editor.zip",
           "created_at": "2026-10-23T03:41:39Z",
           "updated_at": "2026-10-23T03:41:39Z"
         }
@@ -322,22 +356,22 @@
       "updated_at": "2026-10-23T06:32:38Z",
       "assets": [
         {
-          "id": 668209322,
-          "name": "pulsia-editor-runtime.zip",
-          "state": "uploaded",
-          "size": 1720824,
-          "digest": "sha256:f51f68c85b5ea99033ae3f432df324a24f5f556e3ccc7502bffa353cbbed2c9c",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.111/pulsia-editor-runtime.zip",
-          "created_at": "2026-10-23T06:32:37Z",
-          "updated_at": "2026-10-23T06:32:37Z"
-        },
-        {
           "id": 668209321,
           "name": "pulsia-editor-runtime.zip.sha256",
           "state": "uploaded",
           "size": 92,
           "digest": "sha256:c983a88363e851fc20603d76502b6ff6d5f5c0d29be447f04d458d32dd6c714a",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.111/pulsia-editor-runtime.zip.sha256",
+          "created_at": "2026-10-23T06:32:37Z",
+          "updated_at": "2026-10-23T06:32:37Z"
+        },
+        {
+          "id": 668209322,
+          "name": "pulsia-editor-runtime.zip",
+          "state": "uploaded",
+          "size": 1720824,
+          "digest": "sha256:f51f68c85b5ea99033ae3f432df324a24f5f556e3ccc7502bffa353cbbed2c9c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.111/pulsia-editor-runtime.zip",
           "created_at": "2026-10-23T06:32:37Z",
           "updated_at": "2026-10-23T06:32:37Z"
         }
@@ -390,22 +424,22 @@
       "updated_at": "2026-10-23T03:06:41Z",
       "assets": [
         {
-          "id": 667802136,
-          "name": "pulsia-editor-runtime.zip",
-          "state": "uploaded",
-          "size": 1714410,
-          "digest": "sha256:9a776cf2a9cb4de79455966b8b49be437b9e37440ba7b4de9916ba27f2a524cb",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.109/pulsia-editor-runtime.zip",
-          "created_at": "2026-10-23T03:06:40Z",
-          "updated_at": "2026-10-23T03:06:40Z"
-        },
-        {
           "id": 667802134,
           "name": "pulsia-editor-runtime.zip.sha256",
           "state": "uploaded",
           "size": 92,
           "digest": "sha256:054fa9668d843dffaa6203fccb0ed3cf4e0fd6f39c305a989c20042d2bf50b6d",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.109/pulsia-editor-runtime.zip.sha256",
+          "created_at": "2026-10-23T03:06:40Z",
+          "updated_at": "2026-10-23T03:06:40Z"
+        },
+        {
+          "id": 667802136,
+          "name": "pulsia-editor-runtime.zip",
+          "state": "uploaded",
+          "size": 1714410,
+          "digest": "sha256:9a776cf2a9cb4de79455966b8b49be437b9e37440ba7b4de9916ba27f2a524cb",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.109/pulsia-editor-runtime.zip",
           "created_at": "2026-10-23T03:06:40Z",
           "updated_at": "2026-10-23T03:06:40Z"
         }
@@ -424,16 +458,6 @@
       "updated_at": "2026-10-23T03:17:21Z",
       "assets": [
         {
-          "id": 667821828,
-          "name": "db-driver-mariadb-3.5.4.zip",
-          "state": "uploaded",
-          "size": 1948318,
-          "digest": "sha256:a637d50ef1099f80717b88304bef1b0be5db4b04f79ca372d958875e95bf5362",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.112/db-driver-mariadb-3.5.4.zip",
-          "created_at": "2026-10-23T03:17:19Z",
-          "updated_at": "2026-10-23T03:17:19Z"
-        },
-        {
           "id": 667821824,
           "name": "db-driver-mysql-3.24.4.zip",
           "state": "uploaded",
@@ -444,12 +468,42 @@
           "updated_at": "2026-10-23T03:17:19Z"
         },
         {
+          "id": 667821826,
+          "name": "pulsia-plugin-db-connector.zip",
+          "state": "uploaded",
+          "size": 214370,
+          "digest": "sha256:114dab159f1d1289712096b9b174af167e172346f4fc0a8401dc4626495cf623",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.112/pulsia-plugin-db-connector.zip",
+          "created_at": "2026-10-23T03:17:19Z",
+          "updated_at": "2026-10-23T03:17:19Z"
+        },
+        {
+          "id": 667821828,
+          "name": "db-driver-mariadb-3.5.4.zip",
+          "state": "uploaded",
+          "size": 1948318,
+          "digest": "sha256:a637d50ef1099f80717b88304bef1b0be5db4b04f79ca372d958875e95bf5362",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.112/db-driver-mariadb-3.5.4.zip",
+          "created_at": "2026-10-23T03:17:19Z",
+          "updated_at": "2026-10-23T03:17:19Z"
+        },
+        {
           "id": 667821829,
           "name": "db-driver-oracle-7.0.1.zip",
           "state": "uploaded",
           "size": 371858,
           "digest": "sha256:05162d2798c4d2b81348972465e73cc66b124c5ac86faaa240930008b5f0869b",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.112/db-driver-oracle-7.0.1.zip",
+          "created_at": "2026-10-23T03:17:19Z",
+          "updated_at": "2026-10-23T03:17:19Z"
+        },
+        {
+          "id": 667821830,
+          "name": "pulsia-plugin-db-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 65,
+          "digest": "sha256:e6706aadfeba4abc2f3d78f16816a55f7f7f38f5e1c955542827d2180519ef3b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.112/pulsia-plugin-db-connector.zip.sha256",
           "created_at": "2026-10-23T03:17:19Z",
           "updated_at": "2026-10-23T03:17:19Z"
         },
@@ -472,26 +526,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.112/db-driver-redis-6.3.0.zip",
           "created_at": "2026-10-23T03:17:20Z",
           "updated_at": "2026-10-23T03:17:20Z"
+        }
+      ]
+    },
+    {
+      "id": 421619409,
+      "tag_name": "pulsia.catalog-studio@1.2.146",
+      "name": "catalog-studio 1.2.146",
+      "body": "# Catalog Studio 1.2.146\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.catalog-studio\",\"version\":\"1.2.146\",\"title\":\"Catalog Studio\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"프로젝트\",\"카탈로그\",\"요구 사항\",\"설계\",\"구현\",\"검증\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia.object-model-studio\",\"version\":\"^0.10.119\",\"reason\":\"프로젝트 문서로 모델 정리안을 만들고 모델과 연결할 수 있습니다.\"}]},\"pluginPack\":null} -->\n\n사용자에게 필요한 상태와 조작을 중심으로 안내 문구를 정리했습니다.\n\n소스: [pulsia-plugin-studio 5fafbc6a3c9e7b9263464a178b9386d92af5bba1](https://github.com/mars-log/pulsia-plugin-studio/commit/5fafbc6a3c9e7b9263464a178b9386d92af5bba1)\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.146",
+      "published_at": "2026-10-23T08:42:24Z",
+      "created_at": "2026-10-23T08:42:11Z",
+      "updated_at": "2026-10-23T08:42:24Z",
+      "assets": [
+        {
+          "id": 668516566,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 295438,
+          "digest": "sha256:8d2d28564b474909b2f183d31c5e2468dc20b95fde0999bad5809017c1f122b5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.146/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-23T08:42:23Z",
+          "updated_at": "2026-10-23T08:42:23Z"
         },
         {
-          "id": 667821826,
-          "name": "pulsia-plugin-db-connector.zip",
+          "id": 668516567,
+          "name": "pulsia-catalog-studio.zip.sha256",
           "state": "uploaded",
-          "size": 214370,
-          "digest": "sha256:114dab159f1d1289712096b9b174af167e172346f4fc0a8401dc4626495cf623",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.112/pulsia-plugin-db-connector.zip",
-          "created_at": "2026-10-23T03:17:19Z",
-          "updated_at": "2026-10-23T03:17:19Z"
-        },
-        {
-          "id": 667821830,
-          "name": "pulsia-plugin-db-connector.zip.sha256",
-          "state": "uploaded",
-          "size": 65,
-          "digest": "sha256:e6706aadfeba4abc2f3d78f16816a55f7f7f38f5e1c955542827d2180519ef3b",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.112/pulsia-plugin-db-connector.zip.sha256",
-          "created_at": "2026-10-23T03:17:19Z",
-          "updated_at": "2026-10-23T03:17:19Z"
+          "size": 92,
+          "digest": "sha256:68971d0380a6223aed83ccde7172a920c7c093449a70efff7dbff9c26336f2bb",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.146/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-23T08:42:23Z",
+          "updated_at": "2026-10-23T08:42:23Z"
         }
       ]
     },
@@ -508,22 +576,22 @@
       "updated_at": "2026-10-23T08:42:12Z",
       "assets": [
         {
-          "id": 668515893,
-          "name": "pulsia-ai-harness.zip",
-          "state": "uploaded",
-          "size": 119763,
-          "digest": "sha256:5f3a9552244107ad1529dbaeebec9eec3eeb27c4be587746f4280d946a72f6a8",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.110/pulsia-ai-harness.zip",
-          "created_at": "2026-10-23T08:42:11Z",
-          "updated_at": "2026-10-23T08:42:11Z"
-        },
-        {
           "id": 668515892,
           "name": "pulsia-ai-harness.zip.sha256",
           "state": "uploaded",
           "size": 88,
           "digest": "sha256:1edd87dc2baa29d3d42cee8b90d4c7082036fe062286ae51df8dbb9cb6a2ede4",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.110/pulsia-ai-harness.zip.sha256",
+          "created_at": "2026-10-23T08:42:11Z",
+          "updated_at": "2026-10-23T08:42:11Z"
+        },
+        {
+          "id": 668515893,
+          "name": "pulsia-ai-harness.zip",
+          "state": "uploaded",
+          "size": 119763,
+          "digest": "sha256:5f3a9552244107ad1529dbaeebec9eec3eeb27c4be587746f4280d946a72f6a8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.110/pulsia-ai-harness.zip",
           "created_at": "2026-10-23T08:42:11Z",
           "updated_at": "2026-10-23T08:42:11Z"
         }
@@ -746,22 +814,22 @@
       "updated_at": "2026-10-22T06:50:21Z",
       "assets": [
         {
-          "id": 664956796,
-          "name": "pulsia-protea.zip",
-          "state": "uploaded",
-          "size": 153914,
-          "digest": "sha256:a1874303392cf8aac33250b159c1542aa214c6084a238d62c0ed4bbf77d282e5",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.protea%400.0.103/pulsia-protea.zip",
-          "created_at": "2026-10-22T06:50:20Z",
-          "updated_at": "2026-10-22T06:50:20Z"
-        },
-        {
           "id": 664956795,
           "name": "pulsia-protea.zip.sha256",
           "state": "uploaded",
           "size": 84,
           "digest": "sha256:75ab8c1093967daaa70b5052af297244950e33c934c3b9ddd4148f6f7ec77881",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.protea%400.0.103/pulsia-protea.zip.sha256",
+          "created_at": "2026-10-22T06:50:20Z",
+          "updated_at": "2026-10-22T06:50:20Z"
+        },
+        {
+          "id": 664956796,
+          "name": "pulsia-protea.zip",
+          "state": "uploaded",
+          "size": 153914,
+          "digest": "sha256:a1874303392cf8aac33250b159c1542aa214c6084a238d62c0ed4bbf77d282e5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.protea%400.0.103/pulsia-protea.zip",
           "created_at": "2026-10-22T06:50:20Z",
           "updated_at": "2026-10-22T06:50:20Z"
         }
@@ -814,22 +882,22 @@
       "updated_at": "2026-10-22T08:35:42Z",
       "assets": [
         {
-          "id": 665202524,
-          "name": "pulsia-git-comparison.zip",
-          "state": "uploaded",
-          "size": 243400,
-          "digest": "sha256:29125f370f0fb42243ca034f1cf3e9487694406d48c25fdfadde8b8ecce9cfed",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.git-comparison%401.0.101/pulsia-git-comparison.zip",
-          "created_at": "2026-10-22T08:35:41Z",
-          "updated_at": "2026-10-22T08:35:41Z"
-        },
-        {
           "id": 665202522,
           "name": "pulsia-git-comparison.zip.sha256",
           "state": "uploaded",
           "size": 92,
           "digest": "sha256:c1217d77dd3dd4cc0f3f020b1828a7cff022aae999b7cf6f233b8dd81a6d5f41",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.git-comparison%401.0.101/pulsia-git-comparison.zip.sha256",
+          "created_at": "2026-10-22T08:35:41Z",
+          "updated_at": "2026-10-22T08:35:41Z"
+        },
+        {
+          "id": 665202524,
+          "name": "pulsia-git-comparison.zip",
+          "state": "uploaded",
+          "size": 243400,
+          "digest": "sha256:29125f370f0fb42243ca034f1cf3e9487694406d48c25fdfadde8b8ecce9cfed",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.git-comparison%401.0.101/pulsia-git-comparison.zip",
           "created_at": "2026-10-22T08:35:41Z",
           "updated_at": "2026-10-22T08:35:41Z"
         }
@@ -916,6 +984,26 @@
       "updated_at": "2026-10-22T04:08:43Z",
       "assets": [
         {
+          "id": 664630351,
+          "name": "db-driver-oracle-7.0.1.zip",
+          "state": "uploaded",
+          "size": 371873,
+          "digest": "sha256:0b91d40dec6b8aa1198b68b830a51d41dbd85729a55e63140152f85dae81679c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.111/db-driver-oracle-7.0.1.zip",
+          "created_at": "2026-10-22T04:08:39Z",
+          "updated_at": "2026-10-22T04:08:39Z"
+        },
+        {
+          "id": 664630352,
+          "name": "pulsia-plugin-db-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 65,
+          "digest": "sha256:105bc52b3cebcf4517d005dafb915ce9d0bf59dd509c5edc5062a0c245d8b1d8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.111/pulsia-plugin-db-connector.zip.sha256",
+          "created_at": "2026-10-22T04:08:39Z",
+          "updated_at": "2026-10-22T04:08:39Z"
+        },
+        {
           "id": 664630353,
           "name": "db-driver-mariadb-3.5.4.zip",
           "state": "uploaded",
@@ -926,22 +1014,22 @@
           "updated_at": "2026-10-22T04:08:39Z"
         },
         {
+          "id": 664630354,
+          "name": "pulsia-plugin-db-connector.zip",
+          "state": "uploaded",
+          "size": 212237,
+          "digest": "sha256:396b8416213de91b886c37a73d921d0fb9ee5131fdc6e88c0d9f6cea74e95c2f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.111/pulsia-plugin-db-connector.zip",
+          "created_at": "2026-10-22T04:08:39Z",
+          "updated_at": "2026-10-22T04:08:39Z"
+        },
+        {
           "id": 664630361,
           "name": "db-driver-mysql-3.24.4.zip",
           "state": "uploaded",
           "size": 577788,
           "digest": "sha256:1e6c3f8bc2894ea1dcca94363eebd9e0903883276a77d971f64830a65bed8914",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.111/db-driver-mysql-3.24.4.zip",
-          "created_at": "2026-10-22T04:08:39Z",
-          "updated_at": "2026-10-22T04:08:39Z"
-        },
-        {
-          "id": 664630351,
-          "name": "db-driver-oracle-7.0.1.zip",
-          "state": "uploaded",
-          "size": 371873,
-          "digest": "sha256:0b91d40dec6b8aa1198b68b830a51d41dbd85729a55e63140152f85dae81679c",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.111/db-driver-oracle-7.0.1.zip",
           "created_at": "2026-10-22T04:08:39Z",
           "updated_at": "2026-10-22T04:08:39Z"
         },
@@ -964,26 +1052,6 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.111/db-driver-redis-6.3.0.zip",
           "created_at": "2026-10-22T04:08:40Z",
           "updated_at": "2026-10-22T04:08:40Z"
-        },
-        {
-          "id": 664630354,
-          "name": "pulsia-plugin-db-connector.zip",
-          "state": "uploaded",
-          "size": 212237,
-          "digest": "sha256:396b8416213de91b886c37a73d921d0fb9ee5131fdc6e88c0d9f6cea74e95c2f",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.111/pulsia-plugin-db-connector.zip",
-          "created_at": "2026-10-22T04:08:39Z",
-          "updated_at": "2026-10-22T04:08:39Z"
-        },
-        {
-          "id": 664630352,
-          "name": "pulsia-plugin-db-connector.zip.sha256",
-          "state": "uploaded",
-          "size": 65,
-          "digest": "sha256:105bc52b3cebcf4517d005dafb915ce9d0bf59dd509c5edc5062a0c245d8b1d8",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.111/pulsia-plugin-db-connector.zip.sha256",
-          "created_at": "2026-10-22T04:08:39Z",
-          "updated_at": "2026-10-22T04:08:39Z"
         }
       ]
     },
@@ -1000,16 +1068,6 @@
       "updated_at": "2026-10-22T08:39:38Z",
       "assets": [
         {
-          "id": 665213342,
-          "name": "pulsia-acp-common.zip",
-          "state": "uploaded",
-          "size": 2831906,
-          "digest": "sha256:e2db7d9364bb2d8fdbfb836d11f69cb76c16dbee0fa8286fab89a2d40b004cca",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.2/pulsia-acp-common.zip",
-          "created_at": "2026-10-22T08:39:36Z",
-          "updated_at": "2026-10-22T08:39:37Z"
-        },
-        {
           "id": 665213340,
           "name": "pulsia-acp-common.zip.sha256",
           "state": "uploaded",
@@ -1018,6 +1076,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.2/pulsia-acp-common.zip.sha256",
           "created_at": "2026-10-22T08:39:36Z",
           "updated_at": "2026-10-22T08:39:36Z"
+        },
+        {
+          "id": 665213342,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 2831906,
+          "digest": "sha256:e2db7d9364bb2d8fdbfb836d11f69cb76c16dbee0fa8286fab89a2d40b004cca",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.2/pulsia-acp-common.zip",
+          "created_at": "2026-10-22T08:39:36Z",
+          "updated_at": "2026-10-22T08:39:37Z"
         }
       ]
     },
@@ -1068,22 +1136,22 @@
       "updated_at": "2026-10-22T08:05:05Z",
       "assets": [
         {
-          "id": 665128949,
-          "name": "pulsia-acp-common.zip",
-          "state": "uploaded",
-          "size": 4549377,
-          "digest": "sha256:e30b4e71940bb91574c4205adec664c541d7316bf4e10b56ee33c44bf24e5d16",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.1/pulsia-acp-common.zip",
-          "created_at": "2026-10-22T08:05:04Z",
-          "updated_at": "2026-10-22T08:05:04Z"
-        },
-        {
           "id": 665128948,
           "name": "pulsia-acp-common.zip.sha256",
           "state": "uploaded",
           "size": 88,
           "digest": "sha256:9ac9b9b9e1f35bff3dbb462d1ccea702ca5fa7cc2cf9b86718a7f9f83295880c",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.1/pulsia-acp-common.zip.sha256",
+          "created_at": "2026-10-22T08:05:04Z",
+          "updated_at": "2026-10-22T08:05:04Z"
+        },
+        {
+          "id": 665128949,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 4549377,
+          "digest": "sha256:e30b4e71940bb91574c4205adec664c541d7316bf4e10b56ee33c44bf24e5d16",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.1/pulsia-acp-common.zip",
           "created_at": "2026-10-22T08:05:04Z",
           "updated_at": "2026-10-22T08:05:04Z"
         }
@@ -1136,22 +1204,22 @@
       "updated_at": "2026-10-22T07:57:42Z",
       "assets": [
         {
-          "id": 665112017,
-          "name": "pulsia-plugin-mini-acp.zip",
-          "state": "uploaded",
-          "size": 266373,
-          "digest": "sha256:18ee60dcfdac69d2bb9333e02af306533047148da612245bf50ea79ae5c20a79",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.122/pulsia-plugin-mini-acp.zip",
-          "created_at": "2026-10-22T07:57:41Z",
-          "updated_at": "2026-10-22T07:57:41Z"
-        },
-        {
           "id": 665112016,
           "name": "pulsia-plugin-mini-acp.zip.sha256",
           "state": "uploaded",
           "size": 93,
           "digest": "sha256:941a0b508f5c18eb56005e8a9c6f2395855cc29e0914d18b4c472481532e8ec0",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.122/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-10-22T07:57:41Z",
+          "updated_at": "2026-10-22T07:57:41Z"
+        },
+        {
+          "id": 665112017,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 266373,
+          "digest": "sha256:18ee60dcfdac69d2bb9333e02af306533047148da612245bf50ea79ae5c20a79",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.122/pulsia-plugin-mini-acp.zip",
           "created_at": "2026-10-22T07:57:41Z",
           "updated_at": "2026-10-22T07:57:41Z"
         }
@@ -1170,16 +1238,6 @@
       "updated_at": "2026-10-22T07:57:55Z",
       "assets": [
         {
-          "id": 665112395,
-          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
-          "state": "uploaded",
-          "size": 1504112,
-          "digest": "sha256:ee19307ec549ec60f25eb389766f6296033d7a3e1868429a869a84857debb3b0",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.141/pulsia-plugin-ai-agent-collaboration-chat.zip",
-          "created_at": "2026-10-22T07:57:52Z",
-          "updated_at": "2026-10-22T07:57:54Z"
-        },
-        {
           "id": 665112333,
           "name": "pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
           "state": "uploaded",
@@ -1188,6 +1246,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.141/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
           "created_at": "2026-10-22T07:57:50Z",
           "updated_at": "2026-10-22T07:57:50Z"
+        },
+        {
+          "id": 665112395,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "state": "uploaded",
+          "size": 1504112,
+          "digest": "sha256:ee19307ec549ec60f25eb389766f6296033d7a3e1868429a869a84857debb3b0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.141/pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "created_at": "2026-10-22T07:57:52Z",
+          "updated_at": "2026-10-22T07:57:54Z"
         }
       ]
     },
@@ -1340,22 +1408,22 @@
       "updated_at": "2026-10-21T05:54:05Z",
       "assets": [
         {
-          "id": 661510197,
-          "name": "pulsia-model-studio.zip",
-          "state": "uploaded",
-          "size": 112451,
-          "digest": "sha256:c131e348be680d028d414dc3c7b719633a7e30339bd6fd011fb6c16da394cf57",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.115/pulsia-model-studio.zip",
-          "created_at": "2026-10-21T05:54:04Z",
-          "updated_at": "2026-10-21T05:54:04Z"
-        },
-        {
           "id": 661510195,
           "name": "pulsia-model-studio.zip.sha256",
           "state": "uploaded",
           "size": 90,
           "digest": "sha256:5a12ed9aad72e589816a9693f4d3f63acedffb300038a3cdd6c9789fe094a066",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.115/pulsia-model-studio.zip.sha256",
+          "created_at": "2026-10-21T05:54:04Z",
+          "updated_at": "2026-10-21T05:54:04Z"
+        },
+        {
+          "id": 661510197,
+          "name": "pulsia-model-studio.zip",
+          "state": "uploaded",
+          "size": 112451,
+          "digest": "sha256:c131e348be680d028d414dc3c7b719633a7e30339bd6fd011fb6c16da394cf57",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.115/pulsia-model-studio.zip",
           "created_at": "2026-10-21T05:54:04Z",
           "updated_at": "2026-10-21T05:54:04Z"
         }
@@ -1374,22 +1442,22 @@
       "updated_at": "2026-10-21T04:40:51Z",
       "assets": [
         {
-          "id": 661366455,
-          "name": "pulsia-model-studio.zip",
-          "state": "uploaded",
-          "size": 93005,
-          "digest": "sha256:711e537878e30aa49a0c5eb0edf22da62b6daa85379e9723da97bb0e8abfc00d",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.114/pulsia-model-studio.zip",
-          "created_at": "2026-10-21T04:40:50Z",
-          "updated_at": "2026-10-21T04:40:50Z"
-        },
-        {
           "id": 661366454,
           "name": "pulsia-model-studio.zip.sha256",
           "state": "uploaded",
           "size": 90,
           "digest": "sha256:5e630e1aee21b51622ceb42c23f63eab64ee0f7fd915fd7ec190199d1e5bbbc9",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.114/pulsia-model-studio.zip.sha256",
+          "created_at": "2026-10-21T04:40:50Z",
+          "updated_at": "2026-10-21T04:40:50Z"
+        },
+        {
+          "id": 661366455,
+          "name": "pulsia-model-studio.zip",
+          "state": "uploaded",
+          "size": 93005,
+          "digest": "sha256:711e537878e30aa49a0c5eb0edf22da62b6daa85379e9723da97bb0e8abfc00d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.114/pulsia-model-studio.zip",
           "created_at": "2026-10-21T04:40:50Z",
           "updated_at": "2026-10-21T04:40:50Z"
         }
@@ -1407,6 +1475,36 @@
       "created_at": "2026-10-21T12:43:57Z",
       "updated_at": "2026-10-22T01:40:35Z",
       "assets": [
+        {
+          "id": 664345210,
+          "name": "pulsia-plugin-db-connector.zip",
+          "state": "uploaded",
+          "size": 212237,
+          "digest": "sha256:40fad8401ae031d5cff2d90fe010b4efdcd85a99c5c0efb2cad6e804b7e19222",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.110/pulsia-plugin-db-connector.zip",
+          "created_at": "2026-10-22T01:40:33Z",
+          "updated_at": "2026-10-22T01:40:33Z"
+        },
+        {
+          "id": 664345213,
+          "name": "pulsia-plugin-db-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 65,
+          "digest": "sha256:254728f989da42bd11b032c6b547bf18879f958534f67277b45f03b5c302e879",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.110/pulsia-plugin-db-connector.zip.sha256",
+          "created_at": "2026-10-22T01:40:33Z",
+          "updated_at": "2026-10-22T01:40:33Z"
+        },
+        {
+          "id": 664345214,
+          "name": "db-driver-oracle-7.0.1.zip",
+          "state": "uploaded",
+          "size": 371793,
+          "digest": "sha256:f60656fd69264bcad5cf19e74985d5178ad37ca980b97db0ccef441948ab94db",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.110/db-driver-oracle-7.0.1.zip",
+          "created_at": "2026-10-22T01:40:33Z",
+          "updated_at": "2026-10-22T01:40:33Z"
+        },
         {
           "id": 664345215,
           "name": "db-driver-mariadb-3.5.4.zip",
@@ -1428,26 +1526,6 @@
           "updated_at": "2026-10-22T01:40:33Z"
         },
         {
-          "id": 664345214,
-          "name": "db-driver-oracle-7.0.1.zip",
-          "state": "uploaded",
-          "size": 371793,
-          "digest": "sha256:f60656fd69264bcad5cf19e74985d5178ad37ca980b97db0ccef441948ab94db",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.110/db-driver-oracle-7.0.1.zip",
-          "created_at": "2026-10-22T01:40:33Z",
-          "updated_at": "2026-10-22T01:40:33Z"
-        },
-        {
-          "id": 664345236,
-          "name": "db-driver-postgresql-8.23.0.zip",
-          "state": "uploaded",
-          "size": 163736,
-          "digest": "sha256:aff7c2b9b4c454ddc9b6bf137a0cf866ad2434838813e7799941a80f34bf364b",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.110/db-driver-postgresql-8.23.0.zip",
-          "created_at": "2026-10-22T01:40:33Z",
-          "updated_at": "2026-10-22T01:40:34Z"
-        },
-        {
           "id": 664345233,
           "name": "db-driver-redis-6.3.0.zip",
           "state": "uploaded",
@@ -1458,24 +1536,14 @@
           "updated_at": "2026-10-22T01:40:34Z"
         },
         {
-          "id": 664345210,
-          "name": "pulsia-plugin-db-connector.zip",
+          "id": 664345236,
+          "name": "db-driver-postgresql-8.23.0.zip",
           "state": "uploaded",
-          "size": 212237,
-          "digest": "sha256:40fad8401ae031d5cff2d90fe010b4efdcd85a99c5c0efb2cad6e804b7e19222",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.110/pulsia-plugin-db-connector.zip",
+          "size": 163736,
+          "digest": "sha256:aff7c2b9b4c454ddc9b6bf137a0cf866ad2434838813e7799941a80f34bf364b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.110/db-driver-postgresql-8.23.0.zip",
           "created_at": "2026-10-22T01:40:33Z",
-          "updated_at": "2026-10-22T01:40:33Z"
-        },
-        {
-          "id": 664345213,
-          "name": "pulsia-plugin-db-connector.zip.sha256",
-          "state": "uploaded",
-          "size": 65,
-          "digest": "sha256:254728f989da42bd11b032c6b547bf18879f958534f67277b45f03b5c302e879",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.110/pulsia-plugin-db-connector.zip.sha256",
-          "created_at": "2026-10-22T01:40:33Z",
-          "updated_at": "2026-10-22T01:40:33Z"
+          "updated_at": "2026-10-22T01:40:34Z"
         }
       ]
     },
@@ -1492,22 +1560,22 @@
       "updated_at": "2026-10-20T14:40:43Z",
       "assets": [
         {
-          "id": 659582304,
-          "name": "pulsia-test-pack.zip",
-          "state": "uploaded",
-          "size": 161496,
-          "digest": "sha256:b4fc56f21a44f875c6195f5c0c0bab46c975dca9f020bad70d01c31e70584b11",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.118/pulsia-test-pack.zip",
-          "created_at": "2026-10-20T14:40:41Z",
-          "updated_at": "2026-10-20T14:40:42Z"
-        },
-        {
           "id": 659582301,
           "name": "pulsia-test-pack.zip.sha256",
           "state": "uploaded",
           "size": 87,
           "digest": "sha256:2fafa26b417d791b89d8f5f85db390d0b1335f590d022f709331b9f038c87392",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.118/pulsia-test-pack.zip.sha256",
+          "created_at": "2026-10-20T14:40:41Z",
+          "updated_at": "2026-10-20T14:40:42Z"
+        },
+        {
+          "id": 659582304,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 161496,
+          "digest": "sha256:b4fc56f21a44f875c6195f5c0c0bab46c975dca9f020bad70d01c31e70584b11",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.118/pulsia-test-pack.zip",
           "created_at": "2026-10-20T14:40:41Z",
           "updated_at": "2026-10-20T14:40:42Z"
         }
@@ -1560,22 +1628,22 @@
       "updated_at": "2026-10-20T14:40:10Z",
       "assets": [
         {
-          "id": 659580944,
-          "name": "pulsia-sql-studio.zip",
-          "state": "uploaded",
-          "size": 59829,
-          "digest": "sha256:298cc3460051e05a9d4d555ed4991bbc89018f598f5e20ece4ab12b6fb5de27a",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.116/pulsia-sql-studio.zip",
-          "created_at": "2026-10-20T14:40:09Z",
-          "updated_at": "2026-10-20T14:40:09Z"
-        },
-        {
           "id": 659580941,
           "name": "pulsia-sql-studio.zip.sha256",
           "state": "uploaded",
           "size": 88,
           "digest": "sha256:6043fe050dc7a00e119c4c181562d04de008118c0035ec910ca06e451184d6c5",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.116/pulsia-sql-studio.zip.sha256",
+          "created_at": "2026-10-20T14:40:09Z",
+          "updated_at": "2026-10-20T14:40:09Z"
+        },
+        {
+          "id": 659580944,
+          "name": "pulsia-sql-studio.zip",
+          "state": "uploaded",
+          "size": 59829,
+          "digest": "sha256:298cc3460051e05a9d4d555ed4991bbc89018f598f5e20ece4ab12b6fb5de27a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.116/pulsia-sql-studio.zip",
           "created_at": "2026-10-20T14:40:09Z",
           "updated_at": "2026-10-20T14:40:09Z"
         }
@@ -1594,22 +1662,22 @@
       "updated_at": "2026-10-20T13:09:39Z",
       "assets": [
         {
-          "id": 659365969,
-          "name": "pulsia-sql-studio.zip",
-          "state": "uploaded",
-          "size": 58360,
-          "digest": "sha256:867cfa2726639dedce5d1a46d75e98a8444debddbbf8edc52d4a149858e3fb81",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.115/pulsia-sql-studio.zip",
-          "created_at": "2026-10-20T13:09:38Z",
-          "updated_at": "2026-10-20T13:09:38Z"
-        },
-        {
           "id": 659365965,
           "name": "pulsia-sql-studio.zip.sha256",
           "state": "uploaded",
           "size": 88,
           "digest": "sha256:a077408d6eaf1c8248e1f74f2d235a4e4f27ee549df7689b326f2e18912c7f2c",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.115/pulsia-sql-studio.zip.sha256",
+          "created_at": "2026-10-20T13:09:38Z",
+          "updated_at": "2026-10-20T13:09:38Z"
+        },
+        {
+          "id": 659365969,
+          "name": "pulsia-sql-studio.zip",
+          "state": "uploaded",
+          "size": 58360,
+          "digest": "sha256:867cfa2726639dedce5d1a46d75e98a8444debddbbf8edc52d4a149858e3fb81",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.115/pulsia-sql-studio.zip",
           "created_at": "2026-10-20T13:09:38Z",
           "updated_at": "2026-10-20T13:09:38Z"
         }
@@ -1628,16 +1696,6 @@
       "updated_at": "2026-10-20T15:12:26Z",
       "assets": [
         {
-          "id": 659662777,
-          "name": "pulsia-plugin-object-manager.zip",
-          "state": "uploaded",
-          "size": 365757,
-          "digest": "sha256:2affbc8d87231c1b82778840a88b1fd35ef12c5009b4fbf59422f05ffe0ffa8e",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.122/pulsia-plugin-object-manager.zip",
-          "created_at": "2026-10-20T15:12:24Z",
-          "updated_at": "2026-10-20T15:12:25Z"
-        },
-        {
           "id": 659662775,
           "name": "pulsia-plugin-object-manager.zip.sha256",
           "state": "uploaded",
@@ -1646,6 +1704,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.122/pulsia-plugin-object-manager.zip.sha256",
           "created_at": "2026-10-20T15:12:24Z",
           "updated_at": "2026-10-20T15:12:24Z"
+        },
+        {
+          "id": 659662777,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 365757,
+          "digest": "sha256:2affbc8d87231c1b82778840a88b1fd35ef12c5009b4fbf59422f05ffe0ffa8e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.122/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-20T15:12:24Z",
+          "updated_at": "2026-10-20T15:12:25Z"
         }
       ]
     },
@@ -1730,22 +1798,22 @@
       "updated_at": "2026-10-20T15:12:35Z",
       "assets": [
         {
-          "id": 659663074,
-          "name": "wintera-net-manager.zip",
-          "state": "uploaded",
-          "size": 210023,
-          "digest": "sha256:58897c259956612895b5b277a861b0efa3d61c2e7977ff66a7c30490e6bda07f",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.132/wintera-net-manager.zip",
-          "created_at": "2026-10-20T15:12:33Z",
-          "updated_at": "2026-10-20T15:12:33Z"
-        },
-        {
           "id": 659663070,
           "name": "wintera-net-manager.zip.sha256",
           "state": "uploaded",
           "size": 90,
           "digest": "sha256:0ce25ce3044707d12194af2159f12bb9e00e91e7ae3901a784ba771e93ac457c",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.132/wintera-net-manager.zip.sha256",
+          "created_at": "2026-10-20T15:12:33Z",
+          "updated_at": "2026-10-20T15:12:33Z"
+        },
+        {
+          "id": 659663074,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 210023,
+          "digest": "sha256:58897c259956612895b5b277a861b0efa3d61c2e7977ff66a7c30490e6bda07f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.132/wintera-net-manager.zip",
           "created_at": "2026-10-20T15:12:33Z",
           "updated_at": "2026-10-20T15:12:33Z"
         }
@@ -1866,16 +1934,6 @@
       "updated_at": "2026-10-20T08:40:45Z",
       "assets": [
         {
-          "id": 658756397,
-          "name": "pulsia-model-studio.zip",
-          "state": "uploaded",
-          "size": 86144,
-          "digest": "sha256:0c173d46476cd5cf7d536c07ec5869a6c7a34a5dd4855ea0c81f7ce02fc0481c",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.112/pulsia-model-studio.zip",
-          "created_at": "2026-10-20T08:40:43Z",
-          "updated_at": "2026-10-20T08:40:44Z"
-        },
-        {
           "id": 658756380,
           "name": "pulsia-model-studio.zip.sha256",
           "state": "uploaded",
@@ -1884,6 +1942,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.112/pulsia-model-studio.zip.sha256",
           "created_at": "2026-10-20T08:40:43Z",
           "updated_at": "2026-10-20T08:40:43Z"
+        },
+        {
+          "id": 658756397,
+          "name": "pulsia-model-studio.zip",
+          "state": "uploaded",
+          "size": 86144,
+          "digest": "sha256:0c173d46476cd5cf7d536c07ec5869a6c7a34a5dd4855ea0c81f7ce02fc0481c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.112/pulsia-model-studio.zip",
+          "created_at": "2026-10-20T08:40:43Z",
+          "updated_at": "2026-10-20T08:40:44Z"
         }
       ]
     },
@@ -1968,22 +2036,22 @@
       "updated_at": "2026-10-20T14:40:35Z",
       "assets": [
         {
-          "id": 659581929,
-          "name": "pulsia-java-development-pack.zip",
-          "state": "uploaded",
-          "size": 4790176,
-          "digest": "sha256:42c65282ca3d38dea1aeee0ca9884797ed4e92176f6d7eef4c1fe14686ab19d0",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.151/pulsia-java-development-pack.zip",
-          "created_at": "2026-10-20T14:40:33Z",
-          "updated_at": "2026-10-20T14:40:34Z"
-        },
-        {
           "id": 659581928,
           "name": "pulsia-java-development-pack.zip.sha256",
           "state": "uploaded",
           "size": 99,
           "digest": "sha256:8a81e28686c7ab8f809cee723c7b9d50dbd6d5616b7b788d09fc5f3d6658e451",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.151/pulsia-java-development-pack.zip.sha256",
+          "created_at": "2026-10-20T14:40:33Z",
+          "updated_at": "2026-10-20T14:40:34Z"
+        },
+        {
+          "id": 659581929,
+          "name": "pulsia-java-development-pack.zip",
+          "state": "uploaded",
+          "size": 4790176,
+          "digest": "sha256:42c65282ca3d38dea1aeee0ca9884797ed4e92176f6d7eef4c1fe14686ab19d0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.151/pulsia-java-development-pack.zip",
           "created_at": "2026-10-20T14:40:33Z",
           "updated_at": "2026-10-20T14:40:34Z"
         }
@@ -2002,22 +2070,22 @@
       "updated_at": "2026-10-20T07:14:56Z",
       "assets": [
         {
-          "id": 658571835,
-          "name": "pulsia-java-development-pack.zip",
-          "state": "uploaded",
-          "size": 4803696,
-          "digest": "sha256:96caa3c989926a9642ceabafa82de0c2fdd35f52ffa1f6a3bfaae32cefec9aac",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.150/pulsia-java-development-pack.zip",
-          "created_at": "2026-10-20T07:14:54Z",
-          "updated_at": "2026-10-20T07:14:55Z"
-        },
-        {
           "id": 658571834,
           "name": "pulsia-java-development-pack.zip.sha256",
           "state": "uploaded",
           "size": 99,
           "digest": "sha256:ff452f34b95c10f0b8290c871b9ba9c9c64cc30bc818ddc17036ba1dc1c39c35",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.150/pulsia-java-development-pack.zip.sha256",
+          "created_at": "2026-10-20T07:14:54Z",
+          "updated_at": "2026-10-20T07:14:55Z"
+        },
+        {
+          "id": 658571835,
+          "name": "pulsia-java-development-pack.zip",
+          "state": "uploaded",
+          "size": 4803696,
+          "digest": "sha256:96caa3c989926a9642ceabafa82de0c2fdd35f52ffa1f6a3bfaae32cefec9aac",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.150/pulsia-java-development-pack.zip",
           "created_at": "2026-10-20T07:14:54Z",
           "updated_at": "2026-10-20T07:14:55Z"
         }
@@ -2128,16 +2196,6 @@
       "updated_at": "2026-10-20T15:13:16Z",
       "assets": [
         {
-          "id": 659664642,
-          "name": "db-driver-mariadb-3.5.4.zip",
-          "state": "uploaded",
-          "size": 1948315,
-          "digest": "sha256:d285088de6d8ecfa12420bd7d51ab29c9227d073c63388c7415a8aae6e4ac866",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.109/db-driver-mariadb-3.5.4.zip",
-          "created_at": "2026-10-20T15:13:14Z",
-          "updated_at": "2026-10-20T15:13:14Z"
-        },
-        {
           "id": 659664641,
           "name": "db-driver-mysql-3.24.4.zip",
           "state": "uploaded",
@@ -2148,12 +2206,42 @@
           "updated_at": "2026-10-20T15:13:14Z"
         },
         {
+          "id": 659664642,
+          "name": "db-driver-mariadb-3.5.4.zip",
+          "state": "uploaded",
+          "size": 1948315,
+          "digest": "sha256:d285088de6d8ecfa12420bd7d51ab29c9227d073c63388c7415a8aae6e4ac866",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.109/db-driver-mariadb-3.5.4.zip",
+          "created_at": "2026-10-20T15:13:14Z",
+          "updated_at": "2026-10-20T15:13:14Z"
+        },
+        {
+          "id": 659664643,
+          "name": "pulsia-plugin-db-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 97,
+          "digest": "sha256:8bc21a034f6d03c4dac42403d99650c2644c1b6b3e619589f49196f16b198fab",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.109/pulsia-plugin-db-connector.zip.sha256",
+          "created_at": "2026-10-20T15:13:14Z",
+          "updated_at": "2026-10-20T15:13:14Z"
+        },
+        {
           "id": 659664644,
           "name": "db-driver-oracle-7.0.1.zip",
           "state": "uploaded",
           "size": 371775,
           "digest": "sha256:e4471082fd14b584caa272701c19170627bcadacb10e4a4e9a6abc55124d41bb",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.109/db-driver-oracle-7.0.1.zip",
+          "created_at": "2026-10-20T15:13:14Z",
+          "updated_at": "2026-10-20T15:13:14Z"
+        },
+        {
+          "id": 659664646,
+          "name": "pulsia-plugin-db-connector.zip",
+          "state": "uploaded",
+          "size": 210699,
+          "digest": "sha256:03f528b067796ea43207cbcea15e163870835d28478f6d28d10c0a7c6970bd6b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.109/pulsia-plugin-db-connector.zip",
           "created_at": "2026-10-20T15:13:14Z",
           "updated_at": "2026-10-20T15:13:14Z"
         },
@@ -2176,26 +2264,6 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.109/db-driver-redis-6.3.0.zip",
           "created_at": "2026-10-20T15:13:14Z",
           "updated_at": "2026-10-20T15:13:15Z"
-        },
-        {
-          "id": 659664646,
-          "name": "pulsia-plugin-db-connector.zip",
-          "state": "uploaded",
-          "size": 210699,
-          "digest": "sha256:03f528b067796ea43207cbcea15e163870835d28478f6d28d10c0a7c6970bd6b",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.109/pulsia-plugin-db-connector.zip",
-          "created_at": "2026-10-20T15:13:14Z",
-          "updated_at": "2026-10-20T15:13:14Z"
-        },
-        {
-          "id": 659664643,
-          "name": "pulsia-plugin-db-connector.zip.sha256",
-          "state": "uploaded",
-          "size": 97,
-          "digest": "sha256:8bc21a034f6d03c4dac42403d99650c2644c1b6b3e619589f49196f16b198fab",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.109/pulsia-plugin-db-connector.zip.sha256",
-          "created_at": "2026-10-20T15:13:14Z",
-          "updated_at": "2026-10-20T15:13:14Z"
         }
       ]
     },
@@ -2212,12 +2280,12 @@
       "updated_at": "2026-10-20T14:40:03Z",
       "assets": [
         {
-          "id": 659580599,
-          "name": "db-driver-mariadb-3.5.4.zip",
+          "id": 659580584,
+          "name": "pulsia-plugin-db-connector.zip.sha256",
           "state": "uploaded",
-          "size": 1948315,
-          "digest": "sha256:d285088de6d8ecfa12420bd7d51ab29c9227d073c63388c7415a8aae6e4ac866",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.108/db-driver-mariadb-3.5.4.zip",
+          "size": 97,
+          "digest": "sha256:51c06d39f52ad34a14bb743e67eab724ffbf02f16d93b8459800fde69a5b6537",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.108/pulsia-plugin-db-connector.zip.sha256",
           "created_at": "2026-10-20T14:40:00Z",
           "updated_at": "2026-10-20T14:40:01Z"
         },
@@ -2242,6 +2310,26 @@
           "updated_at": "2026-10-20T14:40:01Z"
         },
         {
+          "id": 659580595,
+          "name": "pulsia-plugin-db-connector.zip",
+          "state": "uploaded",
+          "size": 210669,
+          "digest": "sha256:6ba2b5e599e4ba45ca15a5638507b19242ad0b36b75c5afd95743eacf318a58b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.108/pulsia-plugin-db-connector.zip",
+          "created_at": "2026-10-20T14:40:00Z",
+          "updated_at": "2026-10-20T14:40:01Z"
+        },
+        {
+          "id": 659580599,
+          "name": "db-driver-mariadb-3.5.4.zip",
+          "state": "uploaded",
+          "size": 1948315,
+          "digest": "sha256:d285088de6d8ecfa12420bd7d51ab29c9227d073c63388c7415a8aae6e4ac866",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.108/db-driver-mariadb-3.5.4.zip",
+          "created_at": "2026-10-20T14:40:00Z",
+          "updated_at": "2026-10-20T14:40:01Z"
+        },
+        {
           "id": 659580630,
           "name": "db-driver-postgresql-8.23.0.zip",
           "state": "uploaded",
@@ -2260,26 +2348,6 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.108/db-driver-redis-6.3.0.zip",
           "created_at": "2026-10-20T14:40:01Z",
           "updated_at": "2026-10-20T14:40:02Z"
-        },
-        {
-          "id": 659580595,
-          "name": "pulsia-plugin-db-connector.zip",
-          "state": "uploaded",
-          "size": 210669,
-          "digest": "sha256:6ba2b5e599e4ba45ca15a5638507b19242ad0b36b75c5afd95743eacf318a58b",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.108/pulsia-plugin-db-connector.zip",
-          "created_at": "2026-10-20T14:40:00Z",
-          "updated_at": "2026-10-20T14:40:01Z"
-        },
-        {
-          "id": 659580584,
-          "name": "pulsia-plugin-db-connector.zip.sha256",
-          "state": "uploaded",
-          "size": 97,
-          "digest": "sha256:51c06d39f52ad34a14bb743e67eab724ffbf02f16d93b8459800fde69a5b6537",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.108/pulsia-plugin-db-connector.zip.sha256",
-          "created_at": "2026-10-20T14:40:00Z",
-          "updated_at": "2026-10-20T14:40:01Z"
         }
       ]
     },
@@ -2296,22 +2364,22 @@
       "updated_at": "2026-10-20T14:39:38Z",
       "assets": [
         {
-          "id": 659579586,
-          "name": "pulsia-coin-pilot.zip",
-          "state": "uploaded",
-          "size": 225214,
-          "digest": "sha256:0e8cdbc6cbfeb627d3faf88aac265a000b848972a12d36ef42c5b52b9cdd9d34",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.107/pulsia-coin-pilot.zip",
-          "created_at": "2026-10-20T14:39:37Z",
-          "updated_at": "2026-10-20T14:39:37Z"
-        },
-        {
           "id": 659579585,
           "name": "pulsia-coin-pilot.zip.sha256",
           "state": "uploaded",
           "size": 88,
           "digest": "sha256:335b3c9e38da6eb20972d4c66a55496dcc3689b43229647689e1f2b72d502e93",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.107/pulsia-coin-pilot.zip.sha256",
+          "created_at": "2026-10-20T14:39:37Z",
+          "updated_at": "2026-10-20T14:39:37Z"
+        },
+        {
+          "id": 659579586,
+          "name": "pulsia-coin-pilot.zip",
+          "state": "uploaded",
+          "size": 225214,
+          "digest": "sha256:0e8cdbc6cbfeb627d3faf88aac265a000b848972a12d36ef42c5b52b9cdd9d34",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.107/pulsia-coin-pilot.zip",
           "created_at": "2026-10-20T14:39:37Z",
           "updated_at": "2026-10-20T14:39:37Z"
         }
@@ -2330,22 +2398,22 @@
       "updated_at": "2026-10-20T15:12:16Z",
       "assets": [
         {
-          "id": 659662429,
-          "name": "pulsia-catalog-studio.zip",
-          "state": "uploaded",
-          "size": 296350,
-          "digest": "sha256:a5ceddcbaa93c32efde4cbef0edb1fc6dd4f90f097c617e7af765f3e5bc47bc9",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.145/pulsia-catalog-studio.zip",
-          "created_at": "2026-10-20T15:12:15Z",
-          "updated_at": "2026-10-20T15:12:15Z"
-        },
-        {
           "id": 659662428,
           "name": "pulsia-catalog-studio.zip.sha256",
           "state": "uploaded",
           "size": 92,
           "digest": "sha256:32cb3d07e925790020b1d80425d76f174f3945a2795476a12c2e2849d8246c60",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.145/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-20T15:12:15Z",
+          "updated_at": "2026-10-20T15:12:15Z"
+        },
+        {
+          "id": 659662429,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 296350,
+          "digest": "sha256:a5ceddcbaa93c32efde4cbef0edb1fc6dd4f90f097c617e7af765f3e5bc47bc9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.145/pulsia-catalog-studio.zip",
           "created_at": "2026-10-20T15:12:15Z",
           "updated_at": "2026-10-20T15:12:15Z"
         }
@@ -2364,22 +2432,22 @@
       "updated_at": "2026-10-20T14:39:27Z",
       "assets": [
         {
-          "id": 659579091,
-          "name": "pulsia-catalog-studio.zip",
-          "state": "uploaded",
-          "size": 296350,
-          "digest": "sha256:6d814fc6b423eb1bf5ff0ba8fd645361cf8dcb6298ddde469f6aa6f5d8b8dcbb",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.144/pulsia-catalog-studio.zip",
-          "created_at": "2026-10-20T14:39:24Z",
-          "updated_at": "2026-10-20T14:39:24Z"
-        },
-        {
           "id": 659579087,
           "name": "pulsia-catalog-studio.zip.sha256",
           "state": "uploaded",
           "size": 92,
           "digest": "sha256:c46aa7ea954332a841ec1bad172ac03ebec146250036f1de32fc09f4a742607e",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.144/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-20T14:39:24Z",
+          "updated_at": "2026-10-20T14:39:24Z"
+        },
+        {
+          "id": 659579091,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 296350,
+          "digest": "sha256:6d814fc6b423eb1bf5ff0ba8fd645361cf8dcb6298ddde469f6aa6f5d8b8dcbb",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.144/pulsia-catalog-studio.zip",
           "created_at": "2026-10-20T14:39:24Z",
           "updated_at": "2026-10-20T14:39:24Z"
         }
@@ -2432,22 +2500,22 @@
       "updated_at": "2026-10-20T13:10:03Z",
       "assets": [
         {
-          "id": 659366803,
-          "name": "pulsia-catalog-studio.zip",
-          "state": "uploaded",
-          "size": 287305,
-          "digest": "sha256:e748ff5c34cea0da378ad8d14e36063f2240e682d9b984f761d3dcb23ae2c4ea",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.142/pulsia-catalog-studio.zip",
-          "created_at": "2026-10-20T13:10:01Z",
-          "updated_at": "2026-10-20T13:10:02Z"
-        },
-        {
           "id": 659366799,
           "name": "pulsia-catalog-studio.zip.sha256",
           "state": "uploaded",
           "size": 92,
           "digest": "sha256:20b6a2122c9f2e18a0eb1c310f983b3527a5f503b3e2e5ef82235be7bd3875d5",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.142/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-20T13:10:01Z",
+          "updated_at": "2026-10-20T13:10:02Z"
+        },
+        {
+          "id": 659366803,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 287305,
+          "digest": "sha256:e748ff5c34cea0da378ad8d14e36063f2240e682d9b984f761d3dcb23ae2c4ea",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.142/pulsia-catalog-studio.zip",
           "created_at": "2026-10-20T13:10:01Z",
           "updated_at": "2026-10-20T13:10:02Z"
         }
@@ -2466,16 +2534,6 @@
       "updated_at": "2026-10-20T06:56:03Z",
       "assets": [
         {
-          "id": 658533755,
-          "name": "pulsia-ai-scratchpad.zip",
-          "state": "uploaded",
-          "size": 25665,
-          "digest": "sha256:bb0fccc79c7e55a7d1fd070cc7943cd3c30d4ed8d5fe1ad7194abdc1290ba55d",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-scratchpad%400.0.104/pulsia-ai-scratchpad.zip",
-          "created_at": "2026-10-20T06:56:02Z",
-          "updated_at": "2026-10-20T06:56:03Z"
-        },
-        {
           "id": 658533754,
           "name": "pulsia-ai-scratchpad.zip.sha256",
           "state": "uploaded",
@@ -2484,6 +2542,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-scratchpad%400.0.104/pulsia-ai-scratchpad.zip.sha256",
           "created_at": "2026-10-20T06:56:02Z",
           "updated_at": "2026-10-20T06:56:02Z"
+        },
+        {
+          "id": 658533755,
+          "name": "pulsia-ai-scratchpad.zip",
+          "state": "uploaded",
+          "size": 25665,
+          "digest": "sha256:bb0fccc79c7e55a7d1fd070cc7943cd3c30d4ed8d5fe1ad7194abdc1290ba55d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-scratchpad%400.0.104/pulsia-ai-scratchpad.zip",
+          "created_at": "2026-10-20T06:56:02Z",
+          "updated_at": "2026-10-20T06:56:03Z"
         }
       ]
     },
@@ -2500,22 +2568,22 @@
       "updated_at": "2026-10-20T13:10:11Z",
       "assets": [
         {
-          "id": 659367024,
-          "name": "pulsia-ai-harness.zip",
-          "state": "uploaded",
-          "size": 119009,
-          "digest": "sha256:ec5f6d1301534759585702de0e06b3ab794c3990f749d09a3fdbb2b61575334a",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.109/pulsia-ai-harness.zip",
-          "created_at": "2026-10-20T13:10:10Z",
-          "updated_at": "2026-10-20T13:10:10Z"
-        },
-        {
           "id": 659367021,
           "name": "pulsia-ai-harness.zip.sha256",
           "state": "uploaded",
           "size": 88,
           "digest": "sha256:4d91ff51c2373b2630899fcc3588d29283bb3a6c7def98cb323d328a59d7a74d",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.109/pulsia-ai-harness.zip.sha256",
+          "created_at": "2026-10-20T13:10:10Z",
+          "updated_at": "2026-10-20T13:10:10Z"
+        },
+        {
+          "id": 659367024,
+          "name": "pulsia-ai-harness.zip",
+          "state": "uploaded",
+          "size": 119009,
+          "digest": "sha256:ec5f6d1301534759585702de0e06b3ab794c3990f749d09a3fdbb2b61575334a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.109/pulsia-ai-harness.zip",
           "created_at": "2026-10-20T13:10:10Z",
           "updated_at": "2026-10-20T13:10:10Z"
         }
@@ -2636,22 +2704,22 @@
       "updated_at": "2026-10-20T13:10:34Z",
       "assets": [
         {
-          "id": 659367868,
-          "name": "pulsia-plugin-wingate-seller.zip",
-          "state": "uploaded",
-          "size": 116250,
-          "digest": "sha256:f52dae286bfe300d4ef836b41bddced1fcd5c209f3da46df67f0947872792b61",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.104/pulsia-plugin-wingate-seller.zip",
-          "created_at": "2026-10-20T13:10:32Z",
-          "updated_at": "2026-10-20T13:10:33Z"
-        },
-        {
           "id": 659367867,
           "name": "pulsia-plugin-wingate-seller.zip.sha256",
           "state": "uploaded",
           "size": 99,
           "digest": "sha256:159a9b62b0d0f79f9c0bf452d3e41206d23eba6c7562c90051a4cdcaa2132e6f",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.104/pulsia-plugin-wingate-seller.zip.sha256",
+          "created_at": "2026-10-20T13:10:32Z",
+          "updated_at": "2026-10-20T13:10:33Z"
+        },
+        {
+          "id": 659367868,
+          "name": "pulsia-plugin-wingate-seller.zip",
+          "state": "uploaded",
+          "size": 116250,
+          "digest": "sha256:f52dae286bfe300d4ef836b41bddced1fcd5c209f3da46df67f0947872792b61",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.104/pulsia-plugin-wingate-seller.zip",
           "created_at": "2026-10-20T13:10:32Z",
           "updated_at": "2026-10-20T13:10:33Z"
         }
@@ -2680,12 +2748,12 @@
           "updated_at": "2026-10-21T01:54:25Z"
         },
         {
-          "id": 661056290,
-          "name": "pulsia-plugin-wingate-manager.zip.sha256",
+          "id": 661056287,
+          "name": "wingate-managed-ssh-runtime-source-0.85.0-wingate.3.zip.sha256",
           "state": "uploaded",
-          "size": 100,
-          "digest": "sha256:4f5418dd9145d99969a3297d42717655472211495541afbaea1e75f12f625196",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.110/pulsia-plugin-wingate-manager.zip.sha256",
+          "size": 122,
+          "digest": "sha256:181695f0e8d17c940fcf0c6f3468cf85e9979661490568ba62283648af5950ea",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.110/wingate-managed-ssh-runtime-source-0.85.0-wingate.3.zip.sha256",
           "created_at": "2026-10-21T01:54:24Z",
           "updated_at": "2026-10-21T01:54:24Z"
         },
@@ -2700,12 +2768,12 @@
           "updated_at": "2026-10-21T01:54:26Z"
         },
         {
-          "id": 661056287,
-          "name": "wingate-managed-ssh-runtime-source-0.85.0-wingate.3.zip.sha256",
+          "id": 661056290,
+          "name": "pulsia-plugin-wingate-manager.zip.sha256",
           "state": "uploaded",
-          "size": 122,
-          "digest": "sha256:181695f0e8d17c940fcf0c6f3468cf85e9979661490568ba62283648af5950ea",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.110/wingate-managed-ssh-runtime-source-0.85.0-wingate.3.zip.sha256",
+          "size": 100,
+          "digest": "sha256:4f5418dd9145d99969a3297d42717655472211495541afbaea1e75f12f625196",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.110/pulsia-plugin-wingate-manager.zip.sha256",
           "created_at": "2026-10-21T01:54:24Z",
           "updated_at": "2026-10-21T01:54:24Z"
         }
@@ -2792,22 +2860,22 @@
       "updated_at": "2026-10-20T13:10:26Z",
       "assets": [
         {
-          "id": 659367616,
-          "name": "pulsia-plugin-wingate-client.zip",
-          "state": "uploaded",
-          "size": 154109,
-          "digest": "sha256:3daf18dff180429df76e6fd9ca9464544db74da1b912c0d38a3c1107e5ec123b",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.112/pulsia-plugin-wingate-client.zip",
-          "created_at": "2026-10-20T13:10:25Z",
-          "updated_at": "2026-10-20T13:10:26Z"
-        },
-        {
           "id": 659367615,
           "name": "pulsia-plugin-wingate-client.zip.sha256",
           "state": "uploaded",
           "size": 99,
           "digest": "sha256:6dd9c01620d34b0d12dd43c083474c882455ebc57da9c0adcbfb6fed82b1d300",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.112/pulsia-plugin-wingate-client.zip.sha256",
+          "created_at": "2026-10-20T13:10:25Z",
+          "updated_at": "2026-10-20T13:10:26Z"
+        },
+        {
+          "id": 659367616,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 154109,
+          "digest": "sha256:3daf18dff180429df76e6fd9ca9464544db74da1b912c0d38a3c1107e5ec123b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.112/pulsia-plugin-wingate-client.zip",
           "created_at": "2026-10-20T13:10:25Z",
           "updated_at": "2026-10-20T13:10:26Z"
         }
@@ -2860,22 +2928,22 @@
       "updated_at": "2026-10-20T06:55:58Z",
       "assets": [
         {
-          "id": 658533625,
-          "name": "pulsia-plugin-wingate-client-addon-ssh-client.zip",
-          "state": "uploaded",
-          "size": 30096,
-          "digest": "sha256:8d1502bf67f4d7a70d971636429160689e389a660202dca63660af7dcb75d4bd",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client-addon-ssh-client%400.0.105/pulsia-plugin-wingate-client-addon-ssh-client.zip",
-          "created_at": "2026-10-20T06:55:57Z",
-          "updated_at": "2026-10-20T06:55:58Z"
-        },
-        {
           "id": 658533624,
           "name": "pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
           "state": "uploaded",
           "size": 116,
           "digest": "sha256:43e28d3441db749a87943ce7266f261adc90177b67afaf6dfc11dda981abdfb2",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client-addon-ssh-client%400.0.105/pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
+          "created_at": "2026-10-20T06:55:57Z",
+          "updated_at": "2026-10-20T06:55:58Z"
+        },
+        {
+          "id": 658533625,
+          "name": "pulsia-plugin-wingate-client-addon-ssh-client.zip",
+          "state": "uploaded",
+          "size": 30096,
+          "digest": "sha256:8d1502bf67f4d7a70d971636429160689e389a660202dca63660af7dcb75d4bd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client-addon-ssh-client%400.0.105/pulsia-plugin-wingate-client-addon-ssh-client.zip",
           "created_at": "2026-10-20T06:55:57Z",
           "updated_at": "2026-10-20T06:55:58Z"
         }
@@ -2894,16 +2962,6 @@
       "updated_at": "2026-10-20T13:10:42Z",
       "assets": [
         {
-          "id": 659368076,
-          "name": "pulsia-plugin-tutorial-pulsia-starter.zip",
-          "state": "uploaded",
-          "size": 23710,
-          "digest": "sha256:5b543eef2b758c9696a22c561bc5ed1dc2a4412ae6bc819177985329d386d69a",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.106/pulsia-plugin-tutorial-pulsia-starter.zip",
-          "created_at": "2026-10-20T13:10:40Z",
-          "updated_at": "2026-10-20T13:10:41Z"
-        },
-        {
           "id": 659368075,
           "name": "pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
           "state": "uploaded",
@@ -2912,6 +2970,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.106/pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
           "created_at": "2026-10-20T13:10:40Z",
           "updated_at": "2026-10-20T13:10:40Z"
+        },
+        {
+          "id": 659368076,
+          "name": "pulsia-plugin-tutorial-pulsia-starter.zip",
+          "state": "uploaded",
+          "size": 23710,
+          "digest": "sha256:5b543eef2b758c9696a22c561bc5ed1dc2a4412ae6bc819177985329d386d69a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.106/pulsia-plugin-tutorial-pulsia-starter.zip",
+          "created_at": "2026-10-20T13:10:40Z",
+          "updated_at": "2026-10-20T13:10:41Z"
         }
       ]
     },
@@ -3218,22 +3286,22 @@
       "updated_at": "2026-10-19T07:47:50Z",
       "assets": [
         {
-          "id": 655596955,
-          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
-          "state": "uploaded",
-          "size": 147155,
-          "digest": "sha256:7441928edeb64f8690b08a505a4168b6d5dc69ca4dc76bfa725612b3bcb7f9fc",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.134/pulsia-plugin-ai-agent-collaboration-chat.zip",
-          "created_at": "2026-10-19T07:47:49Z",
-          "updated_at": "2026-10-19T07:47:49Z"
-        },
-        {
           "id": 655596952,
           "name": "pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
           "state": "uploaded",
           "size": 112,
           "digest": "sha256:d789d7d0ff8b5eb7f0ed5a2671aa03c094d8eebfa8bf8f85ba9e7a89de3ecfbd",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.134/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "created_at": "2026-10-19T07:47:49Z",
+          "updated_at": "2026-10-19T07:47:49Z"
+        },
+        {
+          "id": 655596955,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "state": "uploaded",
+          "size": 147155,
+          "digest": "sha256:7441928edeb64f8690b08a505a4168b6d5dc69ca4dc76bfa725612b3bcb7f9fc",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.134/pulsia-plugin-ai-agent-collaboration-chat.zip",
           "created_at": "2026-10-19T07:47:49Z",
           "updated_at": "2026-10-19T07:47:49Z"
         }
@@ -3456,16 +3524,6 @@
       "updated_at": "2026-10-18T05:35:55Z",
       "assets": [
         {
-          "id": 652591185,
-          "name": "pulsia-coin-pilot.zip",
-          "state": "uploaded",
-          "size": 217867,
-          "digest": "sha256:b3278d4ca74d6938e92d36ed6c626950e4979170970d49849221f5e27a335882",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.103/pulsia-coin-pilot.zip",
-          "created_at": "2026-10-18T05:35:53Z",
-          "updated_at": "2026-10-18T05:35:54Z"
-        },
-        {
           "id": 652591182,
           "name": "pulsia-coin-pilot.zip.sha256",
           "state": "uploaded",
@@ -3474,6 +3532,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.103/pulsia-coin-pilot.zip.sha256",
           "created_at": "2026-10-18T05:35:53Z",
           "updated_at": "2026-10-18T05:35:53Z"
+        },
+        {
+          "id": 652591185,
+          "name": "pulsia-coin-pilot.zip",
+          "state": "uploaded",
+          "size": 217867,
+          "digest": "sha256:b3278d4ca74d6938e92d36ed6c626950e4979170970d49849221f5e27a335882",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.103/pulsia-coin-pilot.zip",
+          "created_at": "2026-10-18T05:35:53Z",
+          "updated_at": "2026-10-18T05:35:54Z"
         }
       ]
     },
@@ -3490,22 +3558,22 @@
       "updated_at": "2026-10-18T05:19:03Z",
       "assets": [
         {
-          "id": 652552045,
-          "name": "pulsia-coin-pilot.zip",
-          "state": "uploaded",
-          "size": 217807,
-          "digest": "sha256:ab48a1e7f9e29116a3d2ffd17706a6d1194ee5d9cf914c54012d27ab79b224e0",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.102/pulsia-coin-pilot.zip",
-          "created_at": "2026-10-18T05:13:46Z",
-          "updated_at": "2026-10-18T05:13:46Z"
-        },
-        {
           "id": 652552044,
           "name": "pulsia-coin-pilot.zip.sha256",
           "state": "uploaded",
           "size": 88,
           "digest": "sha256:1c34610c2a1053ace9deacb8b3305194cd46bdd3bf4a62c2cb921d83a27a0397",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.102/pulsia-coin-pilot.zip.sha256",
+          "created_at": "2026-10-18T05:13:46Z",
+          "updated_at": "2026-10-18T05:13:46Z"
+        },
+        {
+          "id": 652552045,
+          "name": "pulsia-coin-pilot.zip",
+          "state": "uploaded",
+          "size": 217807,
+          "digest": "sha256:ab48a1e7f9e29116a3d2ffd17706a6d1194ee5d9cf914c54012d27ab79b224e0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.102/pulsia-coin-pilot.zip",
           "created_at": "2026-10-18T05:13:46Z",
           "updated_at": "2026-10-18T05:13:46Z"
         }
@@ -7026,30 +7094,6 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.136/pulsia-catalog-studio.zip",
           "created_at": "2026-10-13T08:03:19Z",
           "updated_at": "2026-10-13T08:03:19Z"
-        }
-      ]
-    },
-    {
-      "id": 411315623,
-      "tag_name": "pulsia.catalog-studio@1.2.135",
-      "name": "Catalog Studio 1.2.135",
-      "body": "Catalog Studio가 설치된 프로젝트에 파일 기반 문제 해결 기록을 추가합니다.\n\n- 프로젝트별 AI 문서 루트에 config와 records를 분리해 생성\n- categories.json 계층을 화면 트리에 즉시 반영\n- 분류·모듈·요청 트리와 Markdown 읽기 화면 제공\n- 데이터베이스 없이 프로젝트 파일과 Git 이력으로 관리\n- light/dark 실제 설치 화면 검증\r\n",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.135",
-      "published_at": "2026-10-13T05:32:29Z",
-      "created_at": "2026-10-13T02:31:21Z",
-      "updated_at": "2026-10-13T05:32:29Z",
-      "assets": [
-        {
-          "id": 636007047,
-          "name": "pulsia-catalog-studio.zip",
-          "state": "uploaded",
-          "size": 281849,
-          "digest": "sha256:ee0ba952d4eb4b6ec5fb396af4f25271261c09be799f5d12d810c1495fbc8dc5",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.135/pulsia-catalog-studio.zip",
-          "created_at": "2026-10-13T05:32:27Z",
-          "updated_at": "2026-10-13T05:32:28Z"
         }
       ]
     },
