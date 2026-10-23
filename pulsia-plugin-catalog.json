@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-23T08:42:36.000Z",
+  "generatedAt": "2026-10-23T13:12:09.000Z",
   "releases": [
     {
       "id": 421500184,
@@ -170,6 +170,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.markdown-runtime%401.0.102/pulsia-markdown-runtime.zip.sha256",
           "created_at": "2026-10-23T00:20:51Z",
           "updated_at": "2026-10-23T00:20:52Z"
+        }
+      ]
+    },
+    {
+      "id": 421850218,
+      "tag_name": "pulsia.java-development-pack@0.1.152",
+      "name": "Java Development Pack 0.1.152",
+      "body": "# Java Development Pack 0.1.152\n\nJava 구현 선택, 소스 파일명 표시와 Maven 임시 파일 정리를 개선했습니다. 여러 구현 선택과 독립 파일 중단점 개선은 Core 0.3.236에서 사용할 수 있습니다.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.java-development-pack\",\"version\":\"0.1.152\",\"title\":\"Java Development Pack\",\"description\":\"Java 구현 선택, 소스 파일명 표시와 Maven 임시 파일 정리를 개선했습니다. 여러 구현 선택과 독립 파일 중단점 개선은 Core 0.3.236에서 사용할 수 있습니다.\",\"kind\":\"composite\",\"tags\":[\"Java\",\"Maven\",\"Gradle\",\"Spring Boot\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.java-development-pack%400.1.152",
+      "published_at": "2026-10-23T13:12:09Z",
+      "created_at": "2026-10-23T08:42:54Z",
+      "updated_at": "2026-10-23T13:12:09Z",
+      "assets": [
+        {
+          "id": 669147975,
+          "name": "pulsia-java-development-pack.zip",
+          "state": "uploaded",
+          "size": 4812065,
+          "digest": "sha256:19b26725580a43a04fc1a45031021363c863688cf2517caf1a1de185869d4abd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.152/pulsia-java-development-pack.zip",
+          "created_at": "2026-10-23T13:02:57Z",
+          "updated_at": "2026-10-23T13:02:57Z"
+        },
+        {
+          "id": 669147973,
+          "name": "pulsia-java-development-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:8b6a3a17161de68f38459699c86833a95553ac8c5e38469c6965cc375ebe5cf2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.152/pulsia-java-development-pack.zip.sha256",
+          "created_at": "2026-10-23T13:02:57Z",
+          "updated_at": "2026-10-23T13:02:57Z"
         }
       ]
     },
