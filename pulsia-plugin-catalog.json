@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-23T00:08:47.000Z",
+  "generatedAt": "2026-10-23T00:22:07.000Z",
   "releases": [
+    {
+      "id": 421327052,
+      "tag_name": "pulsia.markdown-runtime@1.0.102",
+      "name": "공용 Markdown 표시 1.0.102",
+      "body": "# 공용 Markdown 표시 1.0.102\n\n- Markdown 표시·미리 보기·파일 링크를 독립 공용 플러그인으로 제공함.\n- 공용 편집기와 ACP 대화 화면이 같은 표시 기능을 사용함.\n- 기존 문법 처리와 안전한 HTML 표시 방식을 유지함.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/af4620b7232ac2764a03ef2b48698f8831c15556\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.markdown-runtime\",\"version\":\"1.0.102\",\"title\":\"공용 Markdown 표시\",\"description\":\"- Markdown 표시·미리 보기·파일 링크를 독립 공용 플러그인으로 제공함.\\n- 공용 편집기와 ACP 대화 화면이 같은 표시 기능을 사용함.\\n- 기존 문법 처리와 안전한 HTML 표시 방식을 유지함.\\n\\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/af4620b7232ac2764a03ef2b48698f8831c15556\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[],\"recommended\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.markdown-runtime%401.0.102",
+      "published_at": "2026-10-23T00:22:07Z",
+      "created_at": "2026-10-23T00:08:59Z",
+      "updated_at": "2026-10-23T00:22:07Z",
+      "assets": [
+        {
+          "id": 667488163,
+          "name": "pulsia-markdown-runtime.zip",
+          "state": "uploaded",
+          "size": 46364,
+          "digest": "sha256:0e283d7c658faeeb7686291b4bbf712692146f918c493b0f921c009e4f87bc24",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.markdown-runtime%401.0.102/pulsia-markdown-runtime.zip",
+          "created_at": "2026-10-23T00:20:52Z",
+          "updated_at": "2026-10-23T00:20:52Z"
+        },
+        {
+          "id": 667488160,
+          "name": "pulsia-markdown-runtime.zip.sha256",
+          "state": "uploaded",
+          "size": 94,
+          "digest": "sha256:7e73d251d1fb071ed38bcd0ca418f33a6abe6098089f0648b1ceb1da0a8c61c8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.markdown-runtime%401.0.102/pulsia-markdown-runtime.zip.sha256",
+          "created_at": "2026-10-23T00:20:51Z",
+          "updated_at": "2026-10-23T00:20:52Z"
+        }
+      ]
+    },
     {
       "id": 420484967,
       "tag_name": "pulsia.sql-studio@0.0.120",
