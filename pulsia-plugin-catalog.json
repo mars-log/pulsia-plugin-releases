@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-23T00:22:07.000Z",
+  "generatedAt": "2026-10-23T03:06:41.000Z",
   "releases": [
     {
       "id": 421327052,
@@ -34,6 +34,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.markdown-runtime%401.0.102/pulsia-markdown-runtime.zip.sha256",
           "created_at": "2026-10-23T00:20:51Z",
           "updated_at": "2026-10-23T00:20:52Z"
+        }
+      ]
+    },
+    {
+      "id": 421409618,
+      "tag_name": "pulsia.editor-runtime@1.0.109",
+      "name": "공용 편집 엔진 1.0.109",
+      "body": "# 공용 편집 엔진 1.0.109\n\n등록된 SQL 자동완성 후보의 팝업 표시·키보드 선택·치환과 실행 취소를 복구함. 기존 문서·제공자별 자원 회수를 유지함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.editor-runtime\",\"version\":\"1.0.109\",\"title\":\"공용 편집 엔진\",\"description\":\"등록된 SQL 자동완성 후보의 팝업 표시·키보드 선택·치환과 실행 취소를 복구함. 기존 문서·제공자별 자원 회수를 유지함.\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[],\"recommended\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.editor-runtime%401.0.109",
+      "published_at": "2026-10-23T03:06:41Z",
+      "created_at": "2026-10-23T00:22:21Z",
+      "updated_at": "2026-10-23T03:06:41Z",
+      "assets": [
+        {
+          "id": 667802136,
+          "name": "pulsia-editor-runtime.zip",
+          "state": "uploaded",
+          "size": 1714410,
+          "digest": "sha256:9a776cf2a9cb4de79455966b8b49be437b9e37440ba7b4de9916ba27f2a524cb",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.109/pulsia-editor-runtime.zip",
+          "created_at": "2026-10-23T03:06:40Z",
+          "updated_at": "2026-10-23T03:06:40Z"
+        },
+        {
+          "id": 667802134,
+          "name": "pulsia-editor-runtime.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:054fa9668d843dffaa6203fccb0ed3cf4e0fd6f39c305a989c20042d2bf50b6d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.109/pulsia-editor-runtime.zip.sha256",
+          "created_at": "2026-10-23T03:06:40Z",
+          "updated_at": "2026-10-23T03:06:40Z"
         }
       ]
     },
