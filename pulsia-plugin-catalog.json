@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-23T08:37:59.000Z",
+  "generatedAt": "2026-10-23T08:42:07.000Z",
   "releases": [
     {
       "id": 421500184,
@@ -496,6 +496,40 @@
       ]
     },
     {
+      "id": 421619053,
+      "tag_name": "pulsia.acp-common@1.0.108",
+      "name": "ACP 공용 플러그인 1.0.108",
+      "body": "# pulsia.acp-common 1.0.108\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.acp-common\",\"version\":\"1.0.108\",\"title\":\"pulsia.acp-common\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.markdown-runtime\",\"version\":\"^1.0.101\",\"reason\":\"ACP 응답과 파일 링크를 표시함.\"}]},\"pluginPack\":null} -->\n\n사용자에게 필요한 상태와 조작을 중심으로 안내 문구를 정리했습니다.\n\n소스: [pulsia-plugin-studio 5fafbc6a3c9e7b9263464a178b9386d92af5bba1](https://github.com/mars-log/pulsia-plugin-studio/commit/5fafbc6a3c9e7b9263464a178b9386d92af5bba1)\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.acp-common%401.0.108",
+      "published_at": "2026-10-23T08:42:02Z",
+      "created_at": "2026-10-23T08:38:08Z",
+      "updated_at": "2026-10-23T08:42:02Z",
+      "assets": [
+        {
+          "id": 668515349,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 2753722,
+          "digest": "sha256:507b0dc2ae025308487b1e1f9145de1a5eb7afeed0a875fbebf3d6774fd11709",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.108/pulsia-acp-common.zip",
+          "created_at": "2026-10-23T08:41:59Z",
+          "updated_at": "2026-10-23T08:42:01Z"
+        },
+        {
+          "id": 668515351,
+          "name": "pulsia-acp-common.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:e7b628539f424d056892ee8346941c68c280fd958f7fe5601e4e5cddf0f1ec2c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.108/pulsia-acp-common.zip.sha256",
+          "created_at": "2026-10-23T08:41:59Z",
+          "updated_at": "2026-10-23T08:42:00Z"
+        }
+      ]
+    },
+    {
       "id": 421430576,
       "tag_name": "pulsia.acp-common@1.0.107",
       "name": "ACP 공용 대화 1.0.107",
@@ -526,6 +560,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.107/pulsia-acp-common.zip.sha256",
           "created_at": "2026-10-23T03:49:08Z",
           "updated_at": "2026-10-23T03:49:08Z"
+        }
+      ]
+    },
+    {
+      "id": 421619144,
+      "tag_name": "pulsia-plugin-ai-agent-collaboration-chat@0.1.143",
+      "name": "ai-agent-collaboration-chat 0.1.143",
+      "body": "# AI Collaboration 0.1.143\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-ai-agent-collaboration-chat\",\"version\":\"0.1.143\",\"title\":\"AI Collaboration\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"AI\",\"ACP\",\"협업\",\"대화\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.0\",\"reason\":\"AI 대화 화면과 Agent 실행을 제공함\"}]},\"pluginPack\":null} -->\n\n사용자에게 필요한 상태와 조작을 중심으로 안내 문구를 정리했습니다.\n\n소스: [pulsia-plugin-studio 5fafbc6a3c9e7b9263464a178b9386d92af5bba1](https://github.com/mars-log/pulsia-plugin-studio/commit/5fafbc6a3c9e7b9263464a178b9386d92af5bba1)\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-ai-agent-collaboration-chat%400.1.143",
+      "published_at": "2026-10-23T08:42:07Z",
+      "created_at": "2026-10-23T08:38:08Z",
+      "updated_at": "2026-10-23T08:42:07Z",
+      "assets": [
+        {
+          "id": 668515701,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "state": "uploaded",
+          "size": 217840,
+          "digest": "sha256:09453b9dc25a43fee6213c9c10bb4f7563fee643d1019ec47f377c241187b34f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.143/pulsia-plugin-ai-agent-collaboration-chat.zip",
+          "created_at": "2026-10-23T08:42:06Z",
+          "updated_at": "2026-10-23T08:42:07Z"
+        },
+        {
+          "id": 668515704,
+          "name": "pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "state": "uploaded",
+          "size": 112,
+          "digest": "sha256:e4b64809ae04763ed6a9510582c203de53438cc421b7fb9ff948634851f1de2d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.143/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
+          "created_at": "2026-10-23T08:42:06Z",
+          "updated_at": "2026-10-23T08:42:07Z"
         }
       ]
     },
