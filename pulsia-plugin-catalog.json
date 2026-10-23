@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-23T13:48:02.000Z",
+  "generatedAt": "2026-10-23T14:04:37.000Z",
   "releases": [
     {
       "id": 421500184,
@@ -374,6 +374,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor%401.0.107/pulsia-editor.zip.sha256",
           "created_at": "2026-10-23T03:41:39Z",
           "updated_at": "2026-10-23T03:41:39Z"
+        }
+      ]
+    },
+    {
+      "id": 421879543,
+      "tag_name": "pulsia.editor-runtime@1.0.112",
+      "name": "공용 편집 엔진 1.0.112",
+      "body": "# 공용 편집 엔진 1.0.112\n\n파일 열기로 연 Java 파일에서 선언이나 JDK 원본으로 이동한 뒤 원래 위치로 돌아갈 수 있습니다. 독립 파일과 JDK 원본 사이의 앞뒤 탐색은 Core 0.3.237에서 지원합니다.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.editor-runtime\",\"version\":\"1.0.112\",\"title\":\"공용 편집 엔진\",\"description\":\"파일 열기로 연 Java 파일에서 선언이나 JDK 원본으로 이동한 뒤 원래 위치로 돌아갈 수 있습니다. 독립 파일과 JDK 원본 사이의 앞뒤 탐색은 Core 0.3.237에서 지원합니다.\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.editor-runtime%401.0.112",
+      "published_at": "2026-10-23T14:04:37Z",
+      "created_at": "2026-10-23T13:48:12Z",
+      "updated_at": "2026-10-23T14:04:37Z",
+      "assets": [
+        {
+          "id": 669223175,
+          "name": "pulsia-editor-runtime.zip",
+          "state": "uploaded",
+          "size": 1720653,
+          "digest": "sha256:f214a65b654cb65ad8be96cd44487779ef947c7094f925efeb8ae56080f198a6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.112/pulsia-editor-runtime.zip",
+          "created_at": "2026-10-23T13:31:32Z",
+          "updated_at": "2026-10-23T13:31:33Z"
+        },
+        {
+          "id": 669223172,
+          "name": "pulsia-editor-runtime.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:188af8d18b86bf943109aa2581b60ebfca28ed454d22d2e246cd8abecc141dc7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.112/pulsia-editor-runtime.zip.sha256",
+          "created_at": "2026-10-23T13:31:32Z",
+          "updated_at": "2026-10-23T13:31:33Z"
         }
       ]
     },
