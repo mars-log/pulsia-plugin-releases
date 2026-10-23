@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-23T03:38:23.000Z",
+  "generatedAt": "2026-10-23T03:41:40.000Z",
   "releases": [
     {
       "id": 421425521,
@@ -102,6 +102,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.markdown-runtime%401.0.102/pulsia-markdown-runtime.zip.sha256",
           "created_at": "2026-10-23T00:20:51Z",
           "updated_at": "2026-10-23T00:20:52Z"
+        }
+      ]
+    },
+    {
+      "id": 421427013,
+      "tag_name": "pulsia.editor@1.0.107",
+      "name": "기본 편집기 1.0.107",
+      "body": "# 기본 편집기 1.0.107\n\n파일 저장 직후 표시하는 인코딩과 BOM 상태를 실제 저장 결과에 맞춤. 공용 편집 명령·문서와 저장·닫기 흐름을 유지함. Core 0.3.231의 동봉본과 같은 실행 파일을 개별 업데이트로 제공함. 공용 편집 엔진 1.0.106 이상과 Markdown 렌더러 1.0.101 이상이 필요함.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.editor\",\"version\":\"1.0.107\",\"title\":\"기본 편집기\",\"description\":\"파일 저장 직후 표시하는 인코딩과 BOM 상태를 실제 저장 결과에 맞춤. 공용 편집 명령·문서와 저장·닫기 흐름을 유지함. Core 0.3.231의 동봉본과 같은 실행 파일을 개별 업데이트로 제공함. 공용 편집 엔진 1.0.106 이상과 Markdown 렌더러 1.0.101 이상이 필요함.\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.editor-runtime\",\"version\":\"^1.0.106\",\"reason\":\"공용 문서와 편집 엔진을 사용함.\"},{\"pluginId\":\"pulsia.markdown-runtime\",\"version\":\"^1.0.101\",\"reason\":\"Markdown 표시와 미리 보기를 사용함.\"}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.editor%401.0.107",
+      "published_at": "2026-10-23T03:41:40Z",
+      "created_at": "2026-10-23T03:38:33Z",
+      "updated_at": "2026-10-23T03:41:40Z",
+      "assets": [
+        {
+          "id": 667867418,
+          "name": "pulsia-editor.zip",
+          "state": "uploaded",
+          "size": 97617,
+          "digest": "sha256:269c5f533848395c3b3791d2824907220a2292fb23b5a23f594494b0e5c93223",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor%401.0.107/pulsia-editor.zip",
+          "created_at": "2026-10-23T03:41:39Z",
+          "updated_at": "2026-10-23T03:41:39Z"
+        },
+        {
+          "id": 667867417,
+          "name": "pulsia-editor.zip.sha256",
+          "state": "uploaded",
+          "size": 84,
+          "digest": "sha256:281db79eddbf6033065e871c62a2a06d71f2e940b9405585ca356cde95467067",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor%401.0.107/pulsia-editor.zip.sha256",
+          "created_at": "2026-10-23T03:41:39Z",
+          "updated_at": "2026-10-23T03:41:39Z"
         }
       ]
     },
