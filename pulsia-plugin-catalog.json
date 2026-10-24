@@ -1,8 +1,76 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-24T03:54:26.000Z",
+  "generatedAt": "2026-10-24T14:50:02.000Z",
   "releases": [
+    {
+      "id": 422791554,
+      "tag_name": "com.naver.mars-_-.acp.ai-chat.workbench@1.1.123",
+      "name": "ACP Workbench 1.1.123",
+      "body": "# ACP Workbench 1.1.123\n\n작업실에서 AI와 대화합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.acp.ai-chat.workbench\",\"version\":\"1.1.123\",\"title\":\"ACP Workbench\",\"description\":\"작업실에서 AI와 대화합니다.\",\"kind\":\"frontend\",\"tags\":[\"ACP\",\"Agent\",\"오른쪽 패널\",\"Workbench\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.0\",\"reason\":\"AI 대화 화면과 Agent 실행을 제공함\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.acp.ai-chat.workbench%401.1.123",
+      "published_at": "2026-10-24T14:49:58Z",
+      "created_at": "2026-10-24T03:54:32Z",
+      "updated_at": "2026-10-24T14:49:58Z",
+      "assets": [
+        {
+          "id": 672521858,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 15941,
+          "digest": "sha256:02562631baf2f6a6b89bd5a914704bfafb5c0bb6f14bc3af121060dbb1b4996c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.workbench%401.1.123/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-10-24T14:49:56Z",
+          "updated_at": "2026-10-24T14:49:57Z"
+        },
+        {
+          "id": 672521857,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:a1b7aa33906ba20daeefb72ccfb6908af4834bec69c509e5ba36796120761635",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.workbench%401.1.123/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-10-24T14:49:56Z",
+          "updated_at": "2026-10-24T14:49:57Z"
+        }
+      ]
+    },
+    {
+      "id": 422791588,
+      "tag_name": "com.naver.mars-_-.acp.ai-chat.mini-acp@1.0.124",
+      "name": "Mini ACP 1.0.124",
+      "body": "# Mini ACP 1.0.124\n\n사이드 패널에서 AI 도우미를 사용합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"1.0.124\",\"title\":\"Mini ACP\",\"description\":\"사이드 패널에서 AI 도우미를 사용합니다.\",\"kind\":\"frontend\",\"tags\":[\"ACP\",\"Agent\",\"좌측 패널\",\"공용 UI\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.0\",\"reason\":\"AI 대화 화면과 Agent 실행을 제공함\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.124",
+      "published_at": "2026-10-24T14:50:02Z",
+      "created_at": "2026-10-24T03:54:32Z",
+      "updated_at": "2026-10-24T14:50:02Z",
+      "assets": [
+        {
+          "id": 672522009,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 29919,
+          "digest": "sha256:93a3c27b7d708b0e9ac4ffd39ba1a0987ed62769f126c944675638c76c2f3d32",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.124/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-10-24T14:50:01Z",
+          "updated_at": "2026-10-24T14:50:01Z"
+        },
+        {
+          "id": 672522008,
+          "name": "pulsia-plugin-mini-acp.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:0bb41bbbe3ab97221c31551a62740f895dc6fb8cbbbe0ce53436bf8540b376eb",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.124/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-10-24T14:50:01Z",
+          "updated_at": "2026-10-24T14:50:01Z"
+        }
+      ]
+    },
     {
       "id": 421500184,
       "tag_name": "pulsia.test-pack@1.0.119",
