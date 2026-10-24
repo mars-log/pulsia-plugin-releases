@@ -1,19 +1,19 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-24T15:31:15.000Z",
+  "generatedAt": "2026-10-24T15:55:57.000Z",
   "releases": [
     {
       "id": 422815536,
       "tag_name": "pulsia.git-comparison@1.0.109",
       "name": "Git Comparison 1.0.109",
-      "body": "# pulsia.git-comparison 1.0.109\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.git-comparison\",\"version\":\"1.0.109\",\"title\":\"pulsia.git-comparison\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.editor-runtime\",\"version\":\"^1.0.106\",\"reason\":\"공용 문서 모델·편집기와 Worker 수명을 재사용함\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "body": "# pulsia.git-comparison 1.0.109\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.git-comparison\",\"version\":\"1.0.109\",\"title\":\"pulsia.git-comparison\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.editor-runtime\",\"version\":\"^1.0.106\",\"reason\":\"공용 문서 모델·편집기와 Worker 수명을 재사용함\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n\n### 변경 내용\n추가·삭제의 빈 반대쪽에도 변경 위치를 표시합니다. 문서 원문과 줄 번호는 유지합니다.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/7fc1639c625c4df1b4c16d16f12b0b66d2b3e5a0\n",
       "draft": false,
       "prerelease": false,
       "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.git-comparison%401.0.109",
       "published_at": "2026-10-24T15:31:15Z",
       "created_at": "2026-10-24T14:50:19Z",
-      "updated_at": "2026-10-24T15:31:15Z",
+      "updated_at": "2026-10-24T15:55:57Z",
       "assets": [
         {
           "id": 672617335,
