@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-23T14:17:23.000Z",
+  "generatedAt": "2026-10-24T03:54:26.000Z",
   "releases": [
     {
       "id": 421500184,
@@ -34,6 +34,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.119/pulsia-test-pack.zip.sha256",
           "created_at": "2026-10-23T06:03:07Z",
           "updated_at": "2026-10-23T06:03:07Z"
+        }
+      ]
+    },
+    {
+      "id": 422502635,
+      "tag_name": "pulsia.sql-studio@0.0.125",
+      "name": "SQL Studio 0.0.125",
+      "body": "# SQL Studio 0.0.125\n\nDatabase Explorer의 객체 변경 확정·취소·연결 재시작 복구를 수정함. 빈 스키마와 함수·트리거 식별, 객체 검색·키보드 열기·이름 변경·DDL의 SQL 콘솔 열기와 MCP·스킬·매뉴얼을 함께 제공함. 기존 모델 불러오기와 다른 SQL 콘솔의 작업을 보존함. DB Connector 0.2.113 이상이 필요함.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.sql-studio\",\"version\":\"0.0.125\",\"title\":\"SQL Studio\",\"description\":\"Database Explorer의 객체 변경 확정·취소·연결 재시작 복구를 수정함. 빈 스키마와 함수·트리거 식별, 객체 검색·키보드 열기·이름 변경·DDL의 SQL 콘솔 열기와 MCP·스킬·매뉴얼을 함께 제공함. 기존 모델 불러오기와 다른 SQL 콘솔의 작업을 보존함. DB Connector 0.2.113 이상이 필요함.\",\"kind\":\"composite\",\"tags\":[\"Database\",\"SQL\",\"PLSQL\",\"Editor\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.db-connector\",\"version\":\"^0.2.113\",\"reason\":\"DB 접속과 SQL 실행에 사용합니다.\"},{\"pluginId\":\"pulsia.editor-runtime\",\"version\":\"^1.0.109\",\"reason\":\"SQL 편집과 테이블 자동완성 팝업·후보 선택에 사용합니다.\"}],\"recommended\":[]},\"pluginPack\":null} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.sql-studio%400.0.125",
+      "published_at": "2026-10-24T03:54:26Z",
+      "created_at": "2026-10-23T14:17:33Z",
+      "updated_at": "2026-10-24T03:54:26Z",
+      "assets": [
+        {
+          "id": 671197158,
+          "name": "pulsia-sql-studio.zip",
+          "state": "uploaded",
+          "size": 75302,
+          "digest": "sha256:e10375123d5970d4462396d8f6246e70fc5e49858cbf8f339092d5f9dfad9f5b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.125/pulsia-sql-studio.zip",
+          "created_at": "2026-10-24T03:54:25Z",
+          "updated_at": "2026-10-24T03:54:25Z"
+        },
+        {
+          "id": 671197157,
+          "name": "pulsia-sql-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:9212a6974b90f7b4a94569172f29b0a65dfcea3df9b35c93a4cf02062de7158e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.125/pulsia-sql-studio.zip.sha256",
+          "created_at": "2026-10-24T03:54:25Z",
+          "updated_at": "2026-10-24T03:54:25Z"
         }
       ]
     },
@@ -544,6 +578,90 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.109/pulsia-editor-runtime.zip.sha256",
           "created_at": "2026-10-23T03:06:40Z",
           "updated_at": "2026-10-23T03:06:40Z"
+        }
+      ]
+    },
+    {
+      "id": 422502584,
+      "tag_name": "pulsia.db-connector-v0.2.113",
+      "name": "DB Connector 0.2.113",
+      "body": "# DB Connector 0.2.113\n\nSupabase SSL 인증서 검증과 PostgreSQL 빈 스키마·객체 식별을 보완함. 저장된 연결 설정을 유지하며 화면 Agent의 선택·시험·저장·취소와 항상 보이는 분할 경계선을 제공함. 공식 CA는 제한된 Supabase DB 호스트에만 적용하며 인증서 검증을 유지함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.db-connector\",\"version\":\"0.2.113\",\"title\":\"DB Connector\",\"description\":\"Supabase SSL 인증서 검증과 PostgreSQL 빈 스키마·객체 식별을 보완함. 저장된 연결 설정을 유지하며 화면 Agent의 선택·시험·저장·취소와 항상 보이는 분할 경계선을 제공함. 공식 CA는 제한된 Supabase DB 호스트에만 적용하며 인증서 검증을 유지함.\",\"kind\":\"composite\",\"tags\":[\"Database\",\"Oracle\",\"PostgreSQL\",\"MySQL\",\"MariaDB\",\"Redis\",\"SQLite\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.db-connector-v0.2.113",
+      "published_at": "2026-10-24T03:54:19Z",
+      "created_at": "2026-10-23T14:17:33Z",
+      "updated_at": "2026-10-24T03:54:19Z",
+      "assets": [
+        {
+          "id": 671196749,
+          "name": "db-driver-mariadb-3.5.4.zip",
+          "state": "uploaded",
+          "size": 1951026,
+          "digest": "sha256:873b0b9359f37bfc5ca67af1c0cd7ebab6b3e1f11f84d3752981ec81a86d22d9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.113/db-driver-mariadb-3.5.4.zip",
+          "created_at": "2026-10-24T03:54:17Z",
+          "updated_at": "2026-10-24T03:54:18Z"
+        },
+        {
+          "id": 671196747,
+          "name": "db-driver-mysql-3.24.4.zip",
+          "state": "uploaded",
+          "size": 580480,
+          "digest": "sha256:180e641eb54d89335e9744ef2004469281694259b2fd5e52e48fa828cb8e117e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.113/db-driver-mysql-3.24.4.zip",
+          "created_at": "2026-10-24T03:54:17Z",
+          "updated_at": "2026-10-24T03:54:17Z"
+        },
+        {
+          "id": 671196750,
+          "name": "db-driver-oracle-7.0.1.zip",
+          "state": "uploaded",
+          "size": 374585,
+          "digest": "sha256:5aabd4a524c427ae531855ec113196cc3e329b512d398e60ae5caa10584bfdb9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.113/db-driver-oracle-7.0.1.zip",
+          "created_at": "2026-10-24T03:54:17Z",
+          "updated_at": "2026-10-24T03:54:18Z"
+        },
+        {
+          "id": 671196767,
+          "name": "db-driver-postgresql-8.23.0.zip",
+          "state": "uploaded",
+          "size": 168105,
+          "digest": "sha256:c7fbfddf12a33b3dce7583f5191ccc7cac9f596e4996b61d05bd3a2f279c9815",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.113/db-driver-postgresql-8.23.0.zip",
+          "created_at": "2026-10-24T03:54:18Z",
+          "updated_at": "2026-10-24T03:54:18Z"
+        },
+        {
+          "id": 671196772,
+          "name": "db-driver-redis-6.3.0.zip",
+          "state": "uploaded",
+          "size": 2212755,
+          "digest": "sha256:b4cf8c8ecc68e7faa87003d93f15eefd47c3032429a2f99437551bdf2f49130c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.113/db-driver-redis-6.3.0.zip",
+          "created_at": "2026-10-24T03:54:18Z",
+          "updated_at": "2026-10-24T03:54:18Z"
+        },
+        {
+          "id": 671196746,
+          "name": "pulsia-plugin-db-connector.zip",
+          "state": "uploaded",
+          "size": 217429,
+          "digest": "sha256:5ee26d8e3bc4b470062307f9682cb3d612d5a6fc66ec3856bd6b2d0d2e37c569",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.113/pulsia-plugin-db-connector.zip",
+          "created_at": "2026-10-24T03:54:17Z",
+          "updated_at": "2026-10-24T03:54:18Z"
+        },
+        {
+          "id": 671196748,
+          "name": "pulsia-plugin-db-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 65,
+          "digest": "sha256:d9dc60d156bf0cc4a0f51927c069f49756ec6a9089326ecd6b4f793d2e52b849",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.113/pulsia-plugin-db-connector.zip.sha256",
+          "created_at": "2026-10-24T03:54:17Z",
+          "updated_at": "2026-10-24T03:54:17Z"
         }
       ]
     },
