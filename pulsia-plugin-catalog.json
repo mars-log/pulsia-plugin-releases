@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-24T14:50:06.000Z",
+  "generatedAt": "2026-10-24T15:31:15.000Z",
   "releases": [
+    {
+      "id": 422815536,
+      "tag_name": "pulsia.git-comparison@1.0.109",
+      "name": "Git Comparison 1.0.109",
+      "body": "# pulsia.git-comparison 1.0.109\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.git-comparison\",\"version\":\"1.0.109\",\"title\":\"pulsia.git-comparison\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.editor-runtime\",\"version\":\"^1.0.106\",\"reason\":\"공용 문서 모델·편집기와 Worker 수명을 재사용함\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.git-comparison%401.0.109",
+      "published_at": "2026-10-24T15:31:15Z",
+      "created_at": "2026-10-24T14:50:19Z",
+      "updated_at": "2026-10-24T15:31:15Z",
+      "assets": [
+        {
+          "id": 672617335,
+          "name": "pulsia-git-comparison.zip",
+          "state": "uploaded",
+          "size": 258610,
+          "digest": "sha256:9e039a5e08084d64d96d6c42bad2ce3dcee0a48d39804a645d89ccfc07d67875",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.git-comparison%401.0.109/pulsia-git-comparison.zip",
+          "created_at": "2026-10-24T15:31:14Z",
+          "updated_at": "2026-10-24T15:31:14Z"
+        },
+        {
+          "id": 672617334,
+          "name": "pulsia-git-comparison.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:b8171a65400981ab763eb21e97ea1d8f73d55d3bb7414d895bc59841b1026d59",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.git-comparison%401.0.109/pulsia-git-comparison.zip.sha256",
+          "created_at": "2026-10-24T15:31:14Z",
+          "updated_at": "2026-10-24T15:31:14Z"
+        }
+      ]
+    },
     {
       "id": 422791622,
       "tag_name": "com.naver.mars-_-.acp.ai-chat@1.0.102",
