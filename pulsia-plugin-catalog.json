@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-25T01:42:39.000Z",
+  "generatedAt": "2026-10-25T02:08:37.000Z",
   "releases": [
+    {
+      "id": 423097626,
+      "tag_name": "pulsia.editor-runtime@1.0.114",
+      "name": "Editor Runtime 1.0.114",
+      "body": "# pulsia.editor-runtime 1.0.114\n\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.editor-runtime\",\"version\":\"1.0.114\",\"title\":\"pulsia.editor-runtime\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n상단 고정 줄의 굵은 검은 선을 테마별1px 배경 경계와 짧은 감쇠 그림자로 수정함. 고정 줄 이동과 편집 기능을 유지함.\n\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.editor-runtime%401.0.114",
+      "published_at": "2026-10-25T02:08:37Z",
+      "created_at": "2026-10-25T01:42:51Z",
+      "updated_at": "2026-10-25T02:08:37Z",
+      "assets": [
+        {
+          "id": 673854920,
+          "name": "pulsia-editor-runtime.zip",
+          "state": "uploaded",
+          "size": 1722788,
+          "digest": "sha256:d488a41c8a6ef3d6adeffa0a7e82f2561e6ffe56827332336281c849f3c6c7f5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.114/pulsia-editor-runtime.zip",
+          "created_at": "2026-10-25T02:08:35Z",
+          "updated_at": "2026-10-25T02:08:36Z"
+        },
+        {
+          "id": 673854919,
+          "name": "pulsia-editor-runtime.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:54928d48ea96d581e1b6b09c5c6e807e3825addeceb2c25ef9b1ab264f70e1d2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.114/pulsia-editor-runtime.zip.sha256",
+          "created_at": "2026-10-25T02:08:35Z",
+          "updated_at": "2026-10-25T02:08:36Z"
+        }
+      ]
+    },
     {
       "id": 423088875,
       "tag_name": "pulsia.git-comparison@1.0.110",
