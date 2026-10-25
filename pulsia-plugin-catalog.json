@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-25T03:00:06.000Z",
+  "generatedAt": "2026-10-25T03:18:46.000Z",
   "releases": [
+    {
+      "id": 423122014,
+      "tag_name": "pulsia.sql-studio@0.0.127",
+      "name": "SQL Studio 0.0.127",
+      "body": "# SQL Studio 0.0.127\n\nDatabase Explorer 푸터 높이를 테두리 포함 25px에서 24px로 맞췄습니다. Core 0.3.244 이상에서 적용합니다.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.sql-studio\",\"version\":\"0.0.127\",\"title\":\"SQL Studio\",\"description\":\"Database Explorer 푸터 높이를 테두리 포함 25px에서 24px로 맞췄습니다. Core 0.3.244 이상에서 적용합니다.\",\"kind\":\"composite\",\"tags\":[\"Database\",\"SQL\",\"PLSQL\",\"Editor\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.db-connector\",\"version\":\"^0.2.114\",\"reason\":\"DB 접속과 SQL 실행에 사용합니다.\"},{\"pluginId\":\"pulsia.editor-runtime\",\"version\":\"^1.0.109\",\"reason\":\"SQL 편집과 테이블 자동완성 팝업·후보 선택에 사용합니다.\"}],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.sql-studio%400.0.127",
+      "published_at": "2026-10-25T03:18:46Z",
+      "created_at": "2026-10-25T03:00:15Z",
+      "updated_at": "2026-10-25T03:18:46Z",
+      "assets": [
+        {
+          "id": 673966379,
+          "name": "pulsia-sql-studio.zip",
+          "state": "uploaded",
+          "size": 88911,
+          "digest": "sha256:1791b2061518dc31d6b978bafee5e3980ae1d7b5ed620ea5e2f8d230f93920a7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.127/pulsia-sql-studio.zip",
+          "created_at": "2026-10-25T03:18:45Z",
+          "updated_at": "2026-10-25T03:18:45Z"
+        },
+        {
+          "id": 673966378,
+          "name": "pulsia-sql-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:10b4b9977f98e6795827d5a04408ff08411f58c09533c799c16ecd8be6ad8b98",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.127/pulsia-sql-studio.zip.sha256",
+          "created_at": "2026-10-25T03:18:45Z",
+          "updated_at": "2026-10-25T03:18:45Z"
+        }
+      ]
+    },
     {
       "id": 423115364,
       "tag_name": "pulsia.sql-studio@0.0.126",
