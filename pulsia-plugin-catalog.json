@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-25T03:22:58.000Z",
+  "generatedAt": "2026-10-25T03:24:03.000Z",
   "releases": [
     {
       "id": 423123438,
@@ -136,6 +136,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.126/pulsia-sql-studio.zip.sha256",
           "created_at": "2026-10-25T03:00:04Z",
           "updated_at": "2026-10-25T03:00:04Z"
+        }
+      ]
+    },
+    {
+      "id": 423123792,
+      "tag_name": "pulsia.git-comparison@1.0.111",
+      "name": "Git Comparison 1.0.111",
+      "body": "# pulsia.git-comparison 1.0.111\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.git-comparison\",\"version\":\"1.0.111\",\"title\":\"pulsia.git-comparison\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.editor-runtime\",\"version\":\"^1.0.106\",\"reason\":\"공용 문서 모델·편집기와 Worker 수명을 재사용함\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n\n- 같은 줄 접기를 최소 두 줄 기준으로 적용하고 양쪽 동일 구간의 펼침 상태를 함께 유지합니다.\n- 새로고침·같은 내용의 HEAD 변경·표시 옵션 변경 뒤 불필요하게 펼쳐졌다 접히던 동작을 수정했습니다.\n- 본문 경계선과 곡선 연결부를 같은 좌표로 표시하고 접기 직후 다시 배치합니다.\n- 관련 단위 검사 52개와 Windows 격리 앱의 새로고침·HEAD 변경·light/dark 접점 픽셀 검증을 통과했습니다.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.git-comparison%401.0.111",
+      "published_at": "2026-10-25T03:24:03Z",
+      "created_at": "2026-10-25T03:23:10Z",
+      "updated_at": "2026-10-25T03:24:03Z",
+      "assets": [
+        {
+          "id": 673974680,
+          "name": "pulsia-git-comparison.zip",
+          "state": "uploaded",
+          "size": 263901,
+          "digest": "sha256:84928fc17a9dc56fa7564428d719b4f536f71993175f0cd4f89658ed0b896e10",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.git-comparison%401.0.111/pulsia-git-comparison.zip",
+          "created_at": "2026-10-25T03:24:02Z",
+          "updated_at": "2026-10-25T03:24:02Z"
+        },
+        {
+          "id": 673974679,
+          "name": "pulsia-git-comparison.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:4b9bfb58474ccf663d09a9b1122c34e6ea01e4a51e46f8b7452e55f132eed867",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.git-comparison%401.0.111/pulsia-git-comparison.zip.sha256",
+          "created_at": "2026-10-25T03:24:02Z",
+          "updated_at": "2026-10-25T03:24:02Z"
         }
       ]
     },
