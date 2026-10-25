@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-24T15:55:57.000Z",
+  "generatedAt": "2026-10-25T01:42:39.000Z",
   "releases": [
+    {
+      "id": 423088875,
+      "tag_name": "pulsia.git-comparison@1.0.110",
+      "name": "Git Comparison 1.0.110",
+      "body": "# pulsia.git-comparison 1.0.110\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.git-comparison\",\"version\":\"1.0.110\",\"title\":\"pulsia.git-comparison\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.editor-runtime\",\"version\":\"^1.0.106\",\"reason\":\"공용 문서 모델·편집기와 Worker 수명을 재사용함\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\nIntelliJ 원본에 맞춰 곡선 연결 면, 빈 변경 경계, 줄바꿈과 gutter 접합 색상을 수정함. Git 패널 안내의 위치 표현을 제거함.\n\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.git-comparison%401.0.110",
+      "published_at": "2026-10-25T01:42:39Z",
+      "created_at": "2026-10-24T15:56:06Z",
+      "updated_at": "2026-10-25T01:42:39Z",
+      "assets": [
+        {
+          "id": 673811209,
+          "name": "pulsia-git-comparison.zip",
+          "state": "uploaded",
+          "size": 261511,
+          "digest": "sha256:f627d175a92c219519606c001208554f102e4a84905d90e132d35c8db297fb91",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.git-comparison%401.0.110/pulsia-git-comparison.zip",
+          "created_at": "2026-10-25T01:42:38Z",
+          "updated_at": "2026-10-25T01:42:38Z"
+        },
+        {
+          "id": 673811208,
+          "name": "pulsia-git-comparison.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:a6f51997793f9792b4022e4f1dde359c4e46110f4ce60e008d06151c8f0578d2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.git-comparison%401.0.110/pulsia-git-comparison.zip.sha256",
+          "created_at": "2026-10-25T01:42:38Z",
+          "updated_at": "2026-10-25T01:42:38Z"
+        }
+      ]
+    },
     {
       "id": 422815536,
       "tag_name": "pulsia.git-comparison@1.0.109",
