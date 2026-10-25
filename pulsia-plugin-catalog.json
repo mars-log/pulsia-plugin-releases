@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-25T14:28:18.000Z",
+  "generatedAt": "2026-10-25T14:30:38.000Z",
   "releases": [
     {
       "id": 423123438,
@@ -322,6 +322,108 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.114/pulsia-plugin-db-connector.zip.sha256",
           "created_at": "2026-10-25T03:00:01Z",
           "updated_at": "2026-10-25T03:00:02Z"
+        }
+      ]
+    },
+    {
+      "id": 423454785,
+      "tag_name": "pulsia.catalog-studio@1.2.147",
+      "name": "Catalog Studio · Legacy 1.2.147",
+      "body": "# Catalog Studio · Legacy 1.2.147\n\nCatalog Studio 기존 제품입니다.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.catalog-studio\",\"version\":\"1.2.147\",\"title\":\"Catalog Studio · Legacy\",\"description\":\"Catalog Studio 기존 제품입니다.\",\"kind\":\"composite\",\"tags\":[\"프로젝트\",\"카탈로그\",\"요구 사항\",\"설계\",\"구현\",\"검증\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia.object-model-studio\",\"version\":\"^0.10.119\",\"reason\":\"프로젝트 문서로 모델 정리안을 만들고 모델과 연결할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.147",
+      "published_at": "2026-10-25T14:30:38Z",
+      "created_at": "2026-10-25T14:28:27Z",
+      "updated_at": "2026-10-25T14:30:38Z",
+      "assets": [
+        {
+          "id": 675258877,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 296231,
+          "digest": "sha256:eaa542b689dab9205931f3349c92046b02b7eafa150ebb1423077421205ea81b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.147/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-25T14:30:37Z",
+          "updated_at": "2026-10-25T14:30:37Z"
+        },
+        {
+          "id": 675258879,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:80299b945e96db76d80c241d3fe841c71585227604381e6508edbe09010e67b9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.147/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-25T14:30:37Z",
+          "updated_at": "2026-10-25T14:30:37Z"
+        }
+      ]
+    },
+    {
+      "id": 423454786,
+      "tag_name": "pulsia.ai-harness@0.0.111",
+      "name": "AI Harness · Legacy 0.0.111",
+      "body": "# AI Harness · Legacy 0.0.111\n\nAI Harness 기존 제품입니다.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.ai-harness\",\"version\":\"0.0.111\",\"title\":\"AI Harness · Legacy\",\"description\":\"AI Harness 기존 제품입니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"문맥\",\"프로젝트\",\"공유\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia.catalog-studio\",\"version\":\"^1.2.141\",\"reason\":\"프로젝트 카탈로그에 요청과 작업 문맥을 기록할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-harness%400.0.111",
+      "published_at": "2026-10-25T14:30:38Z",
+      "created_at": "2026-10-25T14:28:27Z",
+      "updated_at": "2026-10-25T14:30:38Z",
+      "assets": [
+        {
+          "id": 675258888,
+          "name": "pulsia-ai-harness.zip",
+          "state": "uploaded",
+          "size": 119850,
+          "digest": "sha256:76f061143ef35a510b2b45edc391e60218c7025436124225190c1ed6ee1f359d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.111/pulsia-ai-harness.zip",
+          "created_at": "2026-10-25T14:30:37Z",
+          "updated_at": "2026-10-25T14:30:37Z"
+        },
+        {
+          "id": 675258890,
+          "name": "pulsia-ai-harness.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:c593023dce9d9d9e043387490bd0ae92693d70bffac634ee0a43ba8df7ad4da1",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.111/pulsia-ai-harness.zip.sha256",
+          "created_at": "2026-10-25T14:30:37Z",
+          "updated_at": "2026-10-25T14:30:37Z"
+        }
+      ]
+    },
+    {
+      "id": 423454783,
+      "tag_name": "pulsia.ai-harness-maker@0.0.110",
+      "name": "AI Harness Maker · Legacy 0.0.110",
+      "body": "# AI Harness Maker · Legacy 0.0.110\n\nAI Harness Maker 기존 제품입니다.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.ai-harness-maker\",\"version\":\"0.0.110\",\"title\":\"AI Harness Maker · Legacy\",\"description\":\"AI Harness Maker 기존 제품입니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"문맥\",\"템플릿\",\"제작\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia.catalog-studio\",\"version\":\"^1.2.141\",\"reason\":\"프로젝트 카탈로그에 요청과 작업 문맥을 기록할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-harness-maker%400.0.110",
+      "published_at": "2026-10-25T14:30:38Z",
+      "created_at": "2026-10-25T14:28:27Z",
+      "updated_at": "2026-10-25T14:30:38Z",
+      "assets": [
+        {
+          "id": 675258873,
+          "name": "pulsia-ai-harness-maker.zip",
+          "state": "uploaded",
+          "size": 111671,
+          "digest": "sha256:f0bcc8bfaaa3259b8c93ebc1b20d390dca68e3b49a78f1be0ca7a626bad3b67a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness-maker%400.0.110/pulsia-ai-harness-maker.zip",
+          "created_at": "2026-10-25T14:30:36Z",
+          "updated_at": "2026-10-25T14:30:37Z"
+        },
+        {
+          "id": 675258872,
+          "name": "pulsia-ai-harness-maker.zip.sha256",
+          "state": "uploaded",
+          "size": 94,
+          "digest": "sha256:6593a2155ccdcbcd86613efbf09a825f4a523e8b672727c616fae07f98e7a0e7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness-maker%400.0.110/pulsia-ai-harness-maker.zip.sha256",
+          "created_at": "2026-10-25T14:30:36Z",
+          "updated_at": "2026-10-25T14:30:37Z"
         }
       ]
     },
