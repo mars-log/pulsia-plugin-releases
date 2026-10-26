@@ -1,42 +1,8 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-26T13:13:01.000Z",
+  "generatedAt": "2026-10-26T13:13:04.000Z",
   "releases": [
-    {
-      "id": 424268428,
-      "tag_name": "com.naver.mars-_-.ai.harness.maker@0.1.108",
-      "name": "AI Harness Maker 0.1.108",
-      "body": "# AI Harness Maker 0.1.108\n\nPulsia Core 0.3.248 이상이 필요함.\n\n- 데이터를 불러오기 전부터 목록과 작업 영역을 표시하고 준비·첫 작성·조회 재시도로 이어짐.\n- 새 제품에 편집 가능한 실제 기본 규칙을 제공함.\n- 본문의 공개 범위·권리자·사용 조건과 요청별 규칙 갱신 정책을 편집함.\n- 고객용 v2 정의에는 허용 자료만 포함하며 제작자 전용 참조·미분류를 검사함. 기존 v1 배포와 중단 복구는 보존함.\n- 서비스·파일·공개 ZIP 검사를 적용함. Pulsia ACP의 첫 답변과 최종 설치 화면 검증은 추가 확인이 필요함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.ai.harness.maker\",\"version\":\"0.1.108\",\"title\":\"AI Harness Maker\",\"description\":\"Harness 제품의 분류·문서 틀·규칙·OS별 소스와 배포 버전을 제작합니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"Harness\",\"문서\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n구현 소스: mars-log/pulsia-plugin-studio `f07b2ac0`임.\n",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.ai.harness.maker%400.1.108",
-      "published_at": "2026-10-26T13:13:01Z",
-      "created_at": "2026-10-26T11:09:13Z",
-      "updated_at": "2026-10-26T13:13:01Z",
-      "assets": [
-        {
-          "id": 678212866,
-          "name": "harness-maker.zip",
-          "state": "uploaded",
-          "size": 138306,
-          "digest": "sha256:a7b8cccdd81b219213f0c83fe03805c636e42d3543019dcfdf4cccb071918001",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.maker%400.1.108/harness-maker.zip",
-          "created_at": "2026-10-26T13:12:59Z",
-          "updated_at": "2026-10-26T13:13:00Z"
-        },
-        {
-          "id": 678212865,
-          "name": "harness-maker.zip.sha256",
-          "state": "uploaded",
-          "size": 84,
-          "digest": "sha256:18628a6b04efc7d8b9f707483e12464001acbc2d720b943da70da7397ff77d9b",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.maker%400.1.108/harness-maker.zip.sha256",
-          "created_at": "2026-10-26T13:12:59Z",
-          "updated_at": "2026-10-26T13:12:59Z"
-        }
-      ]
-    },
     {
       "id": 423751556,
       "tag_name": "pulsia.object-model-studio@0.10.125",
@@ -232,6 +198,40 @@
       ]
     },
     {
+      "id": 424268487,
+      "tag_name": "com.naver.mars-_-.ai.harness@0.1.108",
+      "name": "Harness 팩 0.1.108",
+      "body": "# Harness 팩 0.1.108\n\nPulsia Core 0.3.249 이상이 필요함.\n\n- AI Harness와 Catalog Studio를 함께 설치함.\n- 제작자용 AI Harness Maker는 별도로 설치함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.ai.harness\",\"version\":\"0.1.108\",\"title\":\"Harness 팩\",\"description\":\"AI Harness와 Catalog Studio를 함께 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"AI\",\"Harness\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.ai.harness.app\",\"version\":\"^0.1.108\",\"reason\":\"AI Harness를 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.ai.harness.catalog-studio\",\"version\":\"^0.1.109\",\"reason\":\"Catalog Studio를 사용합니다.\"}],\"pluginMigrations\":[]} -->\n\n구현 소스: mars-log/pulsia-plugin-studio `f07b2ac0`임.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.ai.harness%400.1.108",
+      "published_at": "2026-10-26T13:13:04Z",
+      "created_at": "2026-10-26T11:09:13Z",
+      "updated_at": "2026-10-26T13:13:04Z",
+      "assets": [
+        {
+          "id": 678212984,
+          "name": "harness-pack.zip",
+          "state": "uploaded",
+          "size": 550,
+          "digest": "sha256:b547233f55947c6d9b39252fe72ec2b1a7320b9b5874e9ab558dd4ff97f57531",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness%400.1.108/harness-pack.zip",
+          "created_at": "2026-10-26T13:13:02Z",
+          "updated_at": "2026-10-26T13:13:03Z"
+        },
+        {
+          "id": 678212987,
+          "name": "harness-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 83,
+          "digest": "sha256:f6cc79d9838f995278ae57e0997832f7a9544dcfaf67038ad8ac42364be04486",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness%400.1.108/harness-pack.zip.sha256",
+          "created_at": "2026-10-26T13:13:02Z",
+          "updated_at": "2026-10-26T13:13:03Z"
+        }
+      ]
+    },
+    {
       "id": 424135874,
       "tag_name": "com.naver.mars-_-.ai.harness@0.1.107",
       "name": "Harness 팩 0.1.107",
@@ -330,6 +330,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness%400.1.105/harness-pack.zip.sha256",
           "created_at": "2026-10-26T06:33:21Z",
           "updated_at": "2026-10-26T06:33:21Z"
+        }
+      ]
+    },
+    {
+      "id": 424268428,
+      "tag_name": "com.naver.mars-_-.ai.harness.maker@0.1.108",
+      "name": "AI Harness Maker 0.1.108",
+      "body": "# AI Harness Maker 0.1.108\n\nPulsia Core 0.3.248 이상이 필요함.\n\n- 데이터를 불러오기 전부터 목록과 작업 영역을 표시하고 준비·첫 작성·조회 재시도로 이어짐.\n- 새 제품에 편집 가능한 실제 기본 규칙을 제공함.\n- 본문의 공개 범위·권리자·사용 조건과 요청별 규칙 갱신 정책을 편집함.\n- 고객용 v2 정의에는 허용 자료만 포함하며 제작자 전용 참조·미분류를 검사함. 기존 v1 배포와 중단 복구는 보존함.\n- 서비스·파일·공개 ZIP 검사를 적용함. Pulsia ACP의 첫 답변과 최종 설치 화면 검증은 추가 확인이 필요함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.ai.harness.maker\",\"version\":\"0.1.108\",\"title\":\"AI Harness Maker\",\"description\":\"Harness 제품의 분류·문서 틀·규칙·OS별 소스와 배포 버전을 제작합니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"Harness\",\"문서\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n구현 소스: mars-log/pulsia-plugin-studio `f07b2ac0`임.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.ai.harness.maker%400.1.108",
+      "published_at": "2026-10-26T13:13:01Z",
+      "created_at": "2026-10-26T11:09:13Z",
+      "updated_at": "2026-10-26T13:13:01Z",
+      "assets": [
+        {
+          "id": 678212866,
+          "name": "harness-maker.zip",
+          "state": "uploaded",
+          "size": 138306,
+          "digest": "sha256:a7b8cccdd81b219213f0c83fe03805c636e42d3543019dcfdf4cccb071918001",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.maker%400.1.108/harness-maker.zip",
+          "created_at": "2026-10-26T13:12:59Z",
+          "updated_at": "2026-10-26T13:13:00Z"
+        },
+        {
+          "id": 678212865,
+          "name": "harness-maker.zip.sha256",
+          "state": "uploaded",
+          "size": 84,
+          "digest": "sha256:18628a6b04efc7d8b9f707483e12464001acbc2d720b943da70da7397ff77d9b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.maker%400.1.108/harness-maker.zip.sha256",
+          "created_at": "2026-10-26T13:12:59Z",
+          "updated_at": "2026-10-26T13:12:59Z"
         }
       ]
     },
@@ -10446,40 +10480,6 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.102/pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
           "created_at": "2026-10-10T03:49:05Z",
           "updated_at": "2026-10-10T03:49:05Z"
-        }
-      ]
-    },
-    {
-      "id": 407572509,
-      "tag_name": "pulsia-plugin-tutorial-pulsia-starter@0.1.101",
-      "name": "Pulsia 시작 튜토리얼 0.1.101",
-      "body": "- Pulsia 첫 사용자가 Agent 설치, 관리 프로젝트 생성, 파일 정리 요청과 Plugin 설치 승인을 실제 화면에서 연습하는 흐름을 추가함.\n- 전용 화면 대신 기존 Workbench 조작과 공용 화면 안내 기능을 사용함.\n- Core 0.3.135 이상과 ACP Workbench 1.1.110 이상이 필요함.\n- Plugin Studio 소스: mars-log/pulsia-plugin-studio@dceb09fa4a91bcf0371f1e570f45553f6b7fe161\n- SHA-256: 4f6b90b0828d843147416262ed17b02f25daa6b6577a1949d8c0bc11597da85e",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-tutorial-pulsia-starter%400.1.101",
-      "published_at": "2026-10-09T06:00:56Z",
-      "created_at": "2026-10-09T06:00:47Z",
-      "updated_at": "2026-10-09T06:00:56Z",
-      "assets": [
-        {
-          "id": 624056703,
-          "name": "pulsia-plugin-tutorial-pulsia-starter.zip",
-          "state": "uploaded",
-          "size": 19349,
-          "digest": "sha256:4f6b90b0828d843147416262ed17b02f25daa6b6577a1949d8c0bc11597da85e",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.101/pulsia-plugin-tutorial-pulsia-starter.zip",
-          "created_at": "2026-10-09T06:00:54Z",
-          "updated_at": "2026-10-09T06:00:55Z"
-        },
-        {
-          "id": 624056704,
-          "name": "pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
-          "state": "uploaded",
-          "size": 108,
-          "digest": "sha256:f9bac8eb26185366901e1d358881122730e0fee328ab5c4ed29264284d04da31",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.101/pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
-          "created_at": "2026-10-09T06:00:54Z",
-          "updated_at": "2026-10-09T06:00:54Z"
         }
       ]
     },
