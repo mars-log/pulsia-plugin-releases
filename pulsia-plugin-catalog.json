@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-26T08:54:24.000Z",
+  "generatedAt": "2026-10-26T10:54:49.000Z",
   "releases": [
     {
       "id": 423751556,
@@ -266,6 +266,40 @@
       ]
     },
     {
+      "id": 424135832,
+      "tag_name": "com.naver.mars-_-.ai.harness.maker@0.1.107",
+      "name": "AI Harness Maker 0.1.107",
+      "body": "# AI Harness Maker 0.1.107\n\nPulsia Core 0.3.248 이상이 필요함.\n\n- 데이터를 불러오기 전부터 목록과 작업 영역을 표시하고 준비·첫 작성·조회 재시도로 이어짐.\n- 제품·버전·표시명·폴더명·문서 틀·규칙·OS별 스크립트 본문을 편집함.\n- 검증한 제품 배포 파일을 생성하고 Harness에서 선택해 Catalog에 적용함. OS 스크립트 자동 실행은 후속 기능임.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.ai.harness.maker\",\"version\":\"0.1.107\",\"title\":\"AI Harness Maker\",\"description\":\"Harness 제품의 분류·문서 틀·규칙·OS별 소스와 배포 버전을 제작합니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"Harness\",\"문서\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.ai.harness.maker%400.1.107",
+      "published_at": "2026-10-26T10:54:49Z",
+      "created_at": "2026-10-26T08:54:38Z",
+      "updated_at": "2026-10-26T10:54:49Z",
+      "assets": [
+        {
+          "id": 677871650,
+          "name": "harness-maker.zip",
+          "state": "uploaded",
+          "size": 125848,
+          "digest": "sha256:1260035c38e960910a3faf9db766a5a149adb571e764ac7adeb5dc053f4bc48a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.maker%400.1.107/harness-maker.zip",
+          "created_at": "2026-10-26T10:54:48Z",
+          "updated_at": "2026-10-26T10:54:48Z"
+        },
+        {
+          "id": 677871647,
+          "name": "harness-maker.zip.sha256",
+          "state": "uploaded",
+          "size": 84,
+          "digest": "sha256:e8e5b86828c72019218c0d3f0c4e0449b8971e5a9c626fc43c15c89107151d6e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.maker%400.1.107/harness-maker.zip.sha256",
+          "created_at": "2026-10-26T10:54:48Z",
+          "updated_at": "2026-10-26T10:54:48Z"
+        }
+      ]
+    },
+    {
       "id": 423939951,
       "tag_name": "com.naver.mars-_-.ai.harness.maker@0.1.106",
       "name": "com.naver.mars-_-.ai.harness.maker 0.1.106",
@@ -334,6 +368,40 @@
       ]
     },
     {
+      "id": 424135751,
+      "tag_name": "com.naver.mars-_-.ai.harness.catalog-studio@0.1.107",
+      "name": "Catalog Studio 0.1.107",
+      "body": "# Catalog Studio 0.1.107\n\nPulsia Core 0.3.248 이상이 필요함.\n\n- 데이터를 불러오기 전부터 목록과 작업 영역을 표시하고 준비·첫 작성·조회 재시도로 이어짐.\n- 업무 분류에서 문서를 작성·저장·이동하고 이전 내용을 복구함.\n- 새 제품 기본값과 고객 수정이 충돌하면 선택한 내용으로 같은 문서를 이어감.\n- 검사와 문서 목록을 각각 도착하는 대로 표시하고 조회별 실패 뒤 같은 프로젝트를 다시 불러옴.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.ai.harness.catalog-studio\",\"version\":\"0.1.107\",\"title\":\"Catalog Studio\",\"description\":\"업무 분류에서 문서를 찾고 편집·이동·이전 내용 복구를 수행합니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"Harness\",\"문서\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.ai.harness.catalog-studio%400.1.107",
+      "published_at": "2026-10-26T10:54:44Z",
+      "created_at": "2026-10-26T08:54:38Z",
+      "updated_at": "2026-10-26T10:54:44Z",
+      "assets": [
+        {
+          "id": 677871466,
+          "name": "harness-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 151013,
+          "digest": "sha256:3340f9d80e846cb5e71604364e2a3c4cb965184640f1836dd3a6aa6814b6edcd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.catalog-studio%400.1.107/harness-catalog-studio.zip",
+          "created_at": "2026-10-26T10:54:42Z",
+          "updated_at": "2026-10-26T10:54:43Z"
+        },
+        {
+          "id": 677871465,
+          "name": "harness-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:44c2b66cd3799235c1eb46c29011bc16e662ae457957ca304383992e5839c3b0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.catalog-studio%400.1.107/harness-catalog-studio.zip.sha256",
+          "created_at": "2026-10-26T10:54:42Z",
+          "updated_at": "2026-10-26T10:54:43Z"
+        }
+      ]
+    },
+    {
       "id": 423939878,
       "tag_name": "com.naver.mars-_-.ai.harness.catalog-studio@0.1.106",
       "name": "com.naver.mars-_-.ai.harness.catalog-studio 0.1.106",
@@ -398,6 +466,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.catalog-studio%400.1.105/harness-catalog-studio.zip.sha256",
           "created_at": "2026-10-26T06:33:12Z",
           "updated_at": "2026-10-26T06:33:12Z"
+        }
+      ]
+    },
+    {
+      "id": 424135791,
+      "tag_name": "com.naver.mars-_-.ai.harness.app@0.1.107",
+      "name": "AI Harness 0.1.107",
+      "body": "# AI Harness 0.1.107\n\nPulsia Core 0.3.249 이상이 필요함.\n\n- 데이터를 불러오기 전부터 목록과 작업 영역을 표시하고 준비·첫 작성·조회 재시도로 이어짐.\n- 요청 원문·해석·할 일과 작업 기준을 저장하고 다시 열 수 있음.\n- Maker 제품 배포를 선택하고 변경 내용을 확인한 뒤 Catalog 문서에 적용함.\n- 새 프로젝트에서 첫 요청 입력과 프로젝트 준비·요청 기록을 한 흐름으로 실행함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.ai.harness.app\",\"version\":\"0.1.107\",\"title\":\"AI Harness\",\"description\":\"요청 원문과 해석·할 일·작업 기준을 관리하고 제품 버전을 적용합니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"Harness\",\"문서\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.ai.harness.catalog-studio\",\"version\":\"^0.1.107\",\"reason\":\"문서 분류·저장·제품 버전 적용에 사용합니다.\"}],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.ai.harness.app%400.1.107",
+      "published_at": "2026-10-26T10:54:46Z",
+      "created_at": "2026-10-26T08:54:38Z",
+      "updated_at": "2026-10-26T10:54:46Z",
+      "assets": [
+        {
+          "id": 677871553,
+          "name": "harness-app.zip",
+          "state": "uploaded",
+          "size": 141321,
+          "digest": "sha256:44454f4d807e379384700726a8ed78884d89d72dfc164cc983df8edbe89ce4ba",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.app%400.1.107/harness-app.zip",
+          "created_at": "2026-10-26T10:54:45Z",
+          "updated_at": "2026-10-26T10:54:45Z"
+        },
+        {
+          "id": 677871552,
+          "name": "harness-app.zip.sha256",
+          "state": "uploaded",
+          "size": 82,
+          "digest": "sha256:e115e820f167598a172f2fe72dd75795c6ac38225a358bb7aef54fb76371a304",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.app%400.1.107/harness-app.zip.sha256",
+          "created_at": "2026-10-26T10:54:45Z",
+          "updated_at": "2026-10-26T10:54:46Z"
         }
       ]
     },
@@ -3524,6 +3626,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.111/pulsia-model-studio.zip.sha256",
           "created_at": "2026-10-20T06:59:22Z",
           "updated_at": "2026-10-20T06:59:22Z"
+        }
+      ]
+    },
+    {
+      "id": 418025841,
+      "tag_name": "pulsia.model-studio@0.0.110",
+      "name": "Model Studio 0.0.110 · 모델 내보내기와 Plugin API",
+      "body": "Model Studio에서 만든 모델을 다른 Plugin과 도구에 제공할 수 있습니다.\n\n- 모델 맵의 내보내기에서 JSON, UML XMI, FreeMind 마인드맵, SQL DDL을 미리 보고 원하는 이름의 파일로 저장합니다.\n- 전체 또는 선택한 모델을 내보내며, SQL DDL은 SQLite·PostgreSQL·MySQL·Oracle과 명시적인 외래키 필드 연결을 지원합니다.\n- 다른 Plugin은 listExportFormats·exportDiagram 공개 API와 포함된 SDK로 같은 변환 결과를 가져와 화면·코드·DB 구조 생성에 사용할 수 있습니다.\n- API·MCP·공개 매뉴얼·모델 내보내기 스킬·형식 일치 검사를 함께 제공합니다.\n- 모델 원본은 유지됩니다. DB 적용은 소비 도구가 별도로 수행합니다. UML 도구별 배치와 FreeMind의 관계 상세 등 변환 범위는 미리보기 경고와 매뉴얼에서 확인할 수 있습니다.\n\n파일 저장은 사용자가 선택한 위치에 쓰는 권한을 사용합니다. 기존 설치본의 권한 확인이 표시되면 변경 내용을 확인해 주세요.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.model-studio%400.0.110",
+      "published_at": "2026-10-20T05:12:35Z",
+      "created_at": "2026-10-20T02:09:48Z",
+      "updated_at": "2026-10-20T05:12:35Z",
+      "assets": [
+        {
+          "id": 658340125,
+          "name": "pulsia-model-studio.zip",
+          "state": "uploaded",
+          "size": 85115,
+          "digest": "sha256:a9756aca7edb40c6e532fab412285abb9f506b61c5450a212b9f3b813fd7f2fe",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.110/pulsia-model-studio.zip",
+          "created_at": "2026-10-20T05:12:34Z",
+          "updated_at": "2026-10-20T05:12:34Z"
+        },
+        {
+          "id": 658340126,
+          "name": "pulsia-model-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:3f5989d636ef1ecda30a4afcacf93e095abe7d35ed1f96c9a85dee57a0bc6497",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.110/pulsia-model-studio.zip.sha256",
+          "created_at": "2026-10-20T05:12:34Z",
+          "updated_at": "2026-10-20T05:12:34Z"
         }
       ]
     },
