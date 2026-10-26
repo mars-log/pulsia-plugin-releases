@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-26T08:25:54.000Z",
+  "generatedAt": "2026-10-26T08:29:47.000Z",
   "releases": [
     {
       "id": 423751556,
@@ -34,6 +34,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.125/pulsia-plugin-object-manager.zip.sha256",
           "created_at": "2026-10-26T00:30:02Z",
           "updated_at": "2026-10-26T00:30:02Z"
+        }
+      ]
+    },
+    {
+      "id": 424002167,
+      "tag_name": "pulsia.java-development-pack@0.1.153",
+      "name": "Java 개발 팩 0.1.153 — WAR 선택과 프로젝트 설정 보완",
+      "body": "# 프로젝트 설정 0.1.153\n\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.java-development-pack\",\"version\":\"0.1.153\",\"title\":\"프로젝트 설정\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Java\",\"Maven\",\"Gradle\",\"Spring Boot\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.java-development-pack%400.1.153",
+      "published_at": "2026-10-26T08:29:47Z",
+      "created_at": "2026-10-26T08:26:04Z",
+      "updated_at": "2026-10-26T08:29:47Z",
+      "assets": [
+        {
+          "id": 677514151,
+          "name": "pulsia-java-development-pack.zip",
+          "state": "uploaded",
+          "size": 4818758,
+          "digest": "sha256:7b964091619f17b32df9bd36ffd4a77298dbb1007c53a190971862a94a4d7c46",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.153/pulsia-java-development-pack.zip",
+          "created_at": "2026-10-26T08:29:45Z",
+          "updated_at": "2026-10-26T08:29:46Z"
+        },
+        {
+          "id": 677514152,
+          "name": "pulsia-java-development-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:5a190a96d2b2b7de654e2fa265fe59ef9d5258fad854f6ca355428ed2fc80d9e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.153/pulsia-java-development-pack.zip.sha256",
+          "created_at": "2026-10-26T08:29:45Z",
+          "updated_at": "2026-10-26T08:29:45Z"
         }
       ]
     },
