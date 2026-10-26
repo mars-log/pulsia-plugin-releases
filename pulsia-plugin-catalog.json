@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-26T08:29:47.000Z",
+  "generatedAt": "2026-10-26T08:38:52.000Z",
   "releases": [
     {
       "id": 423751556,
@@ -68,6 +68,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.153/pulsia-java-development-pack.zip.sha256",
           "created_at": "2026-10-26T08:29:45Z",
           "updated_at": "2026-10-26T08:29:45Z"
+        }
+      ]
+    },
+    {
+      "id": 424009777,
+      "tag_name": "pulsia.editor@1.0.109",
+      "name": "기본 편집기 1.0.109 — Markdown 직접 편집과 커서 복원",
+      "body": "# Markdown 문서 직접 편집 1.0.109\n\n미리보기에서 Markdown을 직접 편집하고 같은 문서의 원문·Undo/Redo·Ctrl+S 저장과 커서 위치 복원을 사용합니다.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.editor\",\"version\":\"1.0.109\",\"title\":\"Markdown 문서 직접 편집\",\"description\":\"미리보기에서 Markdown을 직접 편집하고 같은 문서의 원문·Undo/Redo·Ctrl+S 저장과 커서 위치 복원을 사용합니다.\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.editor-runtime\",\"version\":\"^1.0.106\",\"reason\":\"공용 문서와 편집 엔진을 사용함.\"},{\"pluginId\":\"pulsia.markdown-runtime\",\"version\":\"^1.0.101\",\"reason\":\"Markdown 표시와 미리 보기를 사용함.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.editor%401.0.109",
+      "published_at": "2026-10-26T08:38:52Z",
+      "created_at": "2026-10-26T08:29:58Z",
+      "updated_at": "2026-10-26T08:38:52Z",
+      "assets": [
+        {
+          "id": 677536085,
+          "name": "pulsia-editor.zip",
+          "state": "uploaded",
+          "size": 296754,
+          "digest": "sha256:b62a715d62d4939af67d75c7c8d6c866c2c038a815e7248477ec77b1b1ab4185",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor%401.0.109/pulsia-editor.zip",
+          "created_at": "2026-10-26T08:38:50Z",
+          "updated_at": "2026-10-26T08:38:51Z"
+        },
+        {
+          "id": 677536082,
+          "name": "pulsia-editor.zip.sha256",
+          "state": "uploaded",
+          "size": 84,
+          "digest": "sha256:d96946e0d6b68e160eee58011caa599ce5a6598203f6af33653b90e4bcb94fe2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor%401.0.109/pulsia-editor.zip.sha256",
+          "created_at": "2026-10-26T08:38:50Z",
+          "updated_at": "2026-10-26T08:38:50Z"
         }
       ]
     },
