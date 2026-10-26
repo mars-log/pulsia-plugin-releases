@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-26T06:33:22.000Z",
+  "generatedAt": "2026-10-26T07:04:57.000Z",
   "releases": [
     {
       "id": 423751556,
@@ -96,6 +96,40 @@
       ]
     },
     {
+      "id": 423939951,
+      "tag_name": "com.naver.mars-_-.ai.harness.maker@0.1.106",
+      "name": "com.naver.mars-_-.ai.harness.maker 0.1.106",
+      "body": "# AI Harness Maker 0.1.106\n\nPulsia Core 0.3.248 이상이 필요함.\n\n- 제품·버전·표시명·폴더명·문서 틀·규칙·OS별 스크립트 본문을 편집함.\n- 검증한 제품 배포 파일을 생성하고 Harness에서 선택해 Catalog에 적용함. OS 스크립트 자동 실행은 후속 기능임.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.ai.harness.maker\",\"version\":\"0.1.106\",\"title\":\"AI Harness Maker\",\"description\":\"Harness 제품의 분류·문서 틀·규칙·OS별 소스와 배포 버전을 제작합니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"Harness\",\"문서\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.ai.harness.maker%400.1.106",
+      "published_at": "2026-10-26T07:04:57Z",
+      "created_at": "2026-10-26T06:37:39Z",
+      "updated_at": "2026-10-26T07:04:57Z",
+      "assets": [
+        {
+          "id": 677313449,
+          "name": "harness-maker.zip",
+          "state": "uploaded",
+          "size": 123025,
+          "digest": "sha256:20237600014a3a82e7312d34d9102057d16a7bc8c859b648218a747cabf3d70d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.maker%400.1.106/harness-maker.zip",
+          "created_at": "2026-10-26T07:04:56Z",
+          "updated_at": "2026-10-26T07:04:56Z"
+        },
+        {
+          "id": 677313451,
+          "name": "harness-maker.zip.sha256",
+          "state": "uploaded",
+          "size": 84,
+          "digest": "sha256:164207bdf9a38091be0d6c366a0bed55e696356c5dc889104aff77544c10ee4d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.maker%400.1.106/harness-maker.zip.sha256",
+          "created_at": "2026-10-26T07:04:56Z",
+          "updated_at": "2026-10-26T07:04:56Z"
+        }
+      ]
+    },
+    {
       "id": 423921052,
       "tag_name": "com.naver.mars-_-.ai.harness.maker@0.1.105",
       "name": "com.naver.mars-_-.ai.harness.maker 0.1.105",
@@ -130,6 +164,40 @@
       ]
     },
     {
+      "id": 423939878,
+      "tag_name": "com.naver.mars-_-.ai.harness.catalog-studio@0.1.106",
+      "name": "com.naver.mars-_-.ai.harness.catalog-studio 0.1.106",
+      "body": "# Catalog Studio 0.1.106\n\nPulsia Core 0.3.248 이상이 필요함.\n\n- 업무 분류에서 문서를 작성·저장·이동하고 이전 내용을 복구함.\n- 새 제품 기본값과 고객 수정이 충돌하면 선택한 내용으로 같은 문서를 이어감.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.ai.harness.catalog-studio\",\"version\":\"0.1.106\",\"title\":\"Catalog Studio\",\"description\":\"업무 분류에서 문서를 찾고 편집·이동·이전 내용 복구를 수행합니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"Harness\",\"문서\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.ai.harness.catalog-studio%400.1.106",
+      "published_at": "2026-10-26T07:04:51Z",
+      "created_at": "2026-10-26T06:37:39Z",
+      "updated_at": "2026-10-26T07:04:51Z",
+      "assets": [
+        {
+          "id": 677313171,
+          "name": "harness-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 146776,
+          "digest": "sha256:3e9ea57456f466dc284caa89b05519cf46034aad1a8348b6ff652b25ae535c19",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.catalog-studio%400.1.106/harness-catalog-studio.zip",
+          "created_at": "2026-10-26T07:04:50Z",
+          "updated_at": "2026-10-26T07:04:50Z"
+        },
+        {
+          "id": 677313169,
+          "name": "harness-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:e12f00988fa308d5bbe8af3cf3d9c0bdb6a52710f8dc86aed9e7d8bacf7afc01",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.catalog-studio%400.1.106/harness-catalog-studio.zip.sha256",
+          "created_at": "2026-10-26T07:04:49Z",
+          "updated_at": "2026-10-26T07:04:50Z"
+        }
+      ]
+    },
+    {
       "id": 423920991,
       "tag_name": "com.naver.mars-_-.ai.harness.catalog-studio@0.1.105",
       "name": "com.naver.mars-_-.ai.harness.catalog-studio 0.1.105",
@@ -160,6 +228,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.catalog-studio%400.1.105/harness-catalog-studio.zip.sha256",
           "created_at": "2026-10-26T06:33:12Z",
           "updated_at": "2026-10-26T06:33:12Z"
+        }
+      ]
+    },
+    {
+      "id": 423939918,
+      "tag_name": "com.naver.mars-_-.ai.harness.app@0.1.106",
+      "name": "com.naver.mars-_-.ai.harness.app 0.1.106",
+      "body": "# AI Harness 0.1.106\n\nPulsia Core 0.3.249 이상이 필요함.\n\n- 요청 원문·해석·할 일과 작업 기준을 저장하고 다시 열 수 있음.\n- Maker 제품 배포를 선택하고 변경 내용을 확인한 뒤 Catalog 문서에 적용함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.ai.harness.app\",\"version\":\"0.1.106\",\"title\":\"AI Harness\",\"description\":\"요청 원문과 해석·할 일·작업 기준을 관리하고 제품 버전을 적용합니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"Harness\",\"문서\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.ai.harness.catalog-studio\",\"version\":\"^0.1.106\",\"reason\":\"문서 분류·저장·제품 버전 적용에 사용합니다.\"}],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.ai.harness.app%400.1.106",
+      "published_at": "2026-10-26T07:04:54Z",
+      "created_at": "2026-10-26T06:37:39Z",
+      "updated_at": "2026-10-26T07:04:54Z",
+      "assets": [
+        {
+          "id": 677313322,
+          "name": "harness-app.zip",
+          "state": "uploaded",
+          "size": 138262,
+          "digest": "sha256:eecac3cc1dabf5c6b0741d443adfd40cad638d66bce016038cf9b692a009ee1b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.app%400.1.106/harness-app.zip",
+          "created_at": "2026-10-26T07:04:52Z",
+          "updated_at": "2026-10-26T07:04:53Z"
+        },
+        {
+          "id": 677313324,
+          "name": "harness-app.zip.sha256",
+          "state": "uploaded",
+          "size": 82,
+          "digest": "sha256:5c738f96eaa49b6a28af3afa00313580236a04e9f1642841170af993f551be9d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.app%400.1.106/harness-app.zip.sha256",
+          "created_at": "2026-10-26T07:04:53Z",
+          "updated_at": "2026-10-26T07:04:53Z"
         }
       ]
     },
@@ -3614,6 +3716,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.108/pulsia-plugin-db-connector.zip.sha256",
           "created_at": "2026-10-20T14:40:00Z",
           "updated_at": "2026-10-20T14:40:01Z"
+        }
+      ]
+    },
+    {
+      "id": 418507465,
+      "tag_name": "pulsia.coin-pilot@0.0.107",
+      "name": "CoinPilot · 코인파일럿 0.0.107",
+      "body": "# CoinPilot · 코인파일럿 0.0.107\n\nLucide 공용 아이콘을 적용하고 문자 펼침 표시와 작업 버튼을 정리했습니다. 아이콘 출처와 패키지 검사를 추가했습니다.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.coin-pilot\",\"version\":\"0.0.107\",\"title\":\"CoinPilot · 코인파일럿\",\"description\":\"Lucide 공용 아이콘을 적용하고 문자 펼침 표시와 작업 버튼을 정리했습니다. 아이콘 출처와 패키지 검사를 추가했습니다.\",\"kind\":\"composite\",\"tags\":[\"투자\",\"Binance\",\"차트\",\"모의매매\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]}} -->\n\nSource: mars-log/pulsia-plugin-studio@115bc379da71dc0d88e051adb550c56cfdf0ff6f\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.coin-pilot%400.0.107",
+      "published_at": "2026-10-20T14:39:38Z",
+      "created_at": "2026-10-20T14:39:27Z",
+      "updated_at": "2026-10-20T14:39:38Z",
+      "assets": [
+        {
+          "id": 659579586,
+          "name": "pulsia-coin-pilot.zip",
+          "state": "uploaded",
+          "size": 225214,
+          "digest": "sha256:0e8cdbc6cbfeb627d3faf88aac265a000b848972a12d36ef42c5b52b9cdd9d34",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.107/pulsia-coin-pilot.zip",
+          "created_at": "2026-10-20T14:39:37Z",
+          "updated_at": "2026-10-20T14:39:37Z"
+        },
+        {
+          "id": 659579585,
+          "name": "pulsia-coin-pilot.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:335b3c9e38da6eb20972d4c66a55496dcc3689b43229647689e1f2b72d502e93",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.107/pulsia-coin-pilot.zip.sha256",
+          "created_at": "2026-10-20T14:39:37Z",
+          "updated_at": "2026-10-20T14:39:37Z"
         }
       ]
     },
