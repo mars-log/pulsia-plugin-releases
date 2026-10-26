@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-26T14:29:12.000Z",
+  "generatedAt": "2026-10-26T14:44:49.000Z",
   "releases": [
     {
       "id": 423751556,
@@ -34,6 +34,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.125/pulsia-plugin-object-manager.zip.sha256",
           "created_at": "2026-10-26T00:30:02Z",
           "updated_at": "2026-10-26T00:30:02Z"
+        }
+      ]
+    },
+    {
+      "id": 424372206,
+      "tag_name": "pulsia.java-development-pack@0.1.156",
+      "name": "Java 개발 팩 0.1.156",
+      "body": "# 프로젝트 설정 0.1.156\n\nLibraries와 Global Libraries에서 모듈·중첩 Artifact 참조를 확인하고 함께 제거하거나 취소할 수 있습니다. 다른 프로젝트가 사용하는 공용 Library와 원본 JAR를 보호합니다. 공개 agentRemoveLibrary 도구를 추가했습니다. 소스 dbeebbdd·아이콘 감사 6b10ff3b. 전체165건 중161통과·실패0·Windows signal4건 제외. 설치 화면 시각 검증은 미확인입니다.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.java-development-pack\",\"version\":\"0.1.156\",\"title\":\"프로젝트 설정\",\"description\":\"Libraries와 Global Libraries에서 모듈·중첩 Artifact 참조를 확인하고 함께 제거하거나 취소할 수 있습니다. 다른 프로젝트가 사용하는 공용 Library와 원본 JAR를 보호합니다. 공개 agentRemoveLibrary 도구를 추가했습니다. 소스 dbeebbdd·아이콘 감사 6b10ff3b. 전체165건 중161통과·실패0·Windows signal4건 제외. 설치 화면 시각 검증은 미확인입니다.\",\"kind\":\"composite\",\"tags\":[\"Java\",\"Maven\",\"Gradle\",\"Spring Boot\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.java-development-pack%400.1.156",
+      "published_at": "2026-10-26T14:44:49Z",
+      "created_at": "2026-10-26T14:29:27Z",
+      "updated_at": "2026-10-26T14:44:49Z",
+      "assets": [
+        {
+          "id": 678458889,
+          "name": "pulsia-java-development-pack.zip",
+          "state": "uploaded",
+          "size": 4832045,
+          "digest": "sha256:629dc9478469c3f1a022e3a0f6989daa356397ad7ed65081588dd6981c0af281",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.156/pulsia-java-development-pack.zip",
+          "created_at": "2026-10-26T14:44:47Z",
+          "updated_at": "2026-10-26T14:44:48Z"
+        },
+        {
+          "id": 678458892,
+          "name": "pulsia-java-development-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:33e6c9b2fed9d47994633a374d93aa4edb26b9fe002901ef30f2f6a3a81b6acd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.156/pulsia-java-development-pack.zip.sha256",
+          "created_at": "2026-10-26T14:44:47Z",
+          "updated_at": "2026-10-26T14:44:47Z"
         }
       ]
     },
