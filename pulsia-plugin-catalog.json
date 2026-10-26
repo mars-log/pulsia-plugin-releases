@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-26T14:22:28.000Z",
+  "generatedAt": "2026-10-26T14:29:12.000Z",
   "releases": [
     {
       "id": 423751556,
@@ -34,6 +34,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.125/pulsia-plugin-object-manager.zip.sha256",
           "created_at": "2026-10-26T00:30:02Z",
           "updated_at": "2026-10-26T00:30:02Z"
+        }
+      ]
+    },
+    {
+      "id": 424352186,
+      "tag_name": "pulsia.java-development-pack@0.1.155",
+      "name": "Java 개발 팩 0.1.155",
+      "body": "# 프로젝트 설정 0.1.155\n\nStep 도중 중단점에서 Continue할 때 남아 있던 Step 요청을 정리합니다. DAP 명시 target 종료와 attach 분리를 구분합니다. 소스: mars-log/pulsia-plugin-studio 7bf9b2c6. JDK 21·23 실제 Debug 각각 4건 통과. Core 실행 화면·Spring Boot 전체 흐름은 별도 미확인입니다.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.java-development-pack\",\"version\":\"0.1.155\",\"title\":\"프로젝트 설정\",\"description\":\"Step 도중 중단점에서 Continue할 때 남아 있던 Step 요청을 정리합니다. DAP 명시 target 종료와 attach 분리를 구분합니다. 소스: mars-log/pulsia-plugin-studio 7bf9b2c6. JDK 21·23 실제 Debug 각각 4건 통과. Core 실행 화면·Spring Boot 전체 흐름은 별도 미확인입니다.\",\"kind\":\"composite\",\"tags\":[\"Java\",\"Maven\",\"Gradle\",\"Spring Boot\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.java-development-pack%400.1.155",
+      "published_at": "2026-10-26T14:29:12Z",
+      "created_at": "2026-10-26T14:22:58Z",
+      "updated_at": "2026-10-26T14:29:12Z",
+      "assets": [
+        {
+          "id": 678415866,
+          "name": "pulsia-java-development-pack.zip",
+          "state": "uploaded",
+          "size": 4827505,
+          "digest": "sha256:4ffcd5b7ba770759b925dccd19dc685323502a493ba88fc6c9fa4f3ef5325bd5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.155/pulsia-java-development-pack.zip",
+          "created_at": "2026-10-26T14:29:09Z",
+          "updated_at": "2026-10-26T14:29:10Z"
+        },
+        {
+          "id": 678415797,
+          "name": "pulsia-java-development-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:fb277fc456dcec40a583c2d8129e6ee6ec4f0bd807689fda17afbb1763fc7ba3",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.155/pulsia-java-development-pack.zip.sha256",
+          "created_at": "2026-10-26T14:29:06Z",
+          "updated_at": "2026-10-26T14:29:07Z"
         }
       ]
     },
