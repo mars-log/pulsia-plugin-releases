@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-26T10:54:49.000Z",
+  "generatedAt": "2026-10-26T10:54:52.000Z",
   "releases": [
     {
       "id": 423751556,
@@ -194,6 +194,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.112/pulsia-acp-common.zip",
           "created_at": "2026-10-26T06:10:04Z",
           "updated_at": "2026-10-26T06:10:05Z"
+        }
+      ]
+    },
+    {
+      "id": 424135874,
+      "tag_name": "com.naver.mars-_-.ai.harness@0.1.107",
+      "name": "Harness 팩 0.1.107",
+      "body": "# Harness 팩 0.1.107\n\nPulsia Core 0.3.249 이상이 필요함.\n\n- AI Harness와 Catalog Studio를 함께 설치함.\n- 제작자용 AI Harness Maker는 별도로 설치함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.ai.harness\",\"version\":\"0.1.107\",\"title\":\"Harness 팩\",\"description\":\"AI Harness와 Catalog Studio를 함께 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"AI\",\"Harness\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.ai.harness.app\",\"version\":\"^0.1.107\",\"reason\":\"AI Harness를 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.ai.harness.catalog-studio\",\"version\":\"^0.1.107\",\"reason\":\"Catalog Studio를 사용합니다.\"}],\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.ai.harness%400.1.107",
+      "published_at": "2026-10-26T10:54:52Z",
+      "created_at": "2026-10-26T08:54:38Z",
+      "updated_at": "2026-10-26T10:54:52Z",
+      "assets": [
+        {
+          "id": 677871736,
+          "name": "harness-pack.zip",
+          "state": "uploaded",
+          "size": 546,
+          "digest": "sha256:92ebdef8d54580c414076110e01c382539bd6483bec34b9e35c13edfe3d7fb24",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness%400.1.107/harness-pack.zip",
+          "created_at": "2026-10-26T10:54:51Z",
+          "updated_at": "2026-10-26T10:54:51Z"
+        },
+        {
+          "id": 677871740,
+          "name": "harness-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 83,
+          "digest": "sha256:b181986fe6c7b2a09c02a6fbc869fbab8b31a0bd6a3f998d28eec72f9ae1cb22",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness%400.1.107/harness-pack.zip.sha256",
+          "created_at": "2026-10-26T10:54:51Z",
+          "updated_at": "2026-10-26T10:54:51Z"
         }
       ]
     },
@@ -3626,40 +3660,6 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.111/pulsia-model-studio.zip.sha256",
           "created_at": "2026-10-20T06:59:22Z",
           "updated_at": "2026-10-20T06:59:22Z"
-        }
-      ]
-    },
-    {
-      "id": 418025841,
-      "tag_name": "pulsia.model-studio@0.0.110",
-      "name": "Model Studio 0.0.110 · 모델 내보내기와 Plugin API",
-      "body": "Model Studio에서 만든 모델을 다른 Plugin과 도구에 제공할 수 있습니다.\n\n- 모델 맵의 내보내기에서 JSON, UML XMI, FreeMind 마인드맵, SQL DDL을 미리 보고 원하는 이름의 파일로 저장합니다.\n- 전체 또는 선택한 모델을 내보내며, SQL DDL은 SQLite·PostgreSQL·MySQL·Oracle과 명시적인 외래키 필드 연결을 지원합니다.\n- 다른 Plugin은 listExportFormats·exportDiagram 공개 API와 포함된 SDK로 같은 변환 결과를 가져와 화면·코드·DB 구조 생성에 사용할 수 있습니다.\n- API·MCP·공개 매뉴얼·모델 내보내기 스킬·형식 일치 검사를 함께 제공합니다.\n- 모델 원본은 유지됩니다. DB 적용은 소비 도구가 별도로 수행합니다. UML 도구별 배치와 FreeMind의 관계 상세 등 변환 범위는 미리보기 경고와 매뉴얼에서 확인할 수 있습니다.\n\n파일 저장은 사용자가 선택한 위치에 쓰는 권한을 사용합니다. 기존 설치본의 권한 확인이 표시되면 변경 내용을 확인해 주세요.\n",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.model-studio%400.0.110",
-      "published_at": "2026-10-20T05:12:35Z",
-      "created_at": "2026-10-20T02:09:48Z",
-      "updated_at": "2026-10-20T05:12:35Z",
-      "assets": [
-        {
-          "id": 658340125,
-          "name": "pulsia-model-studio.zip",
-          "state": "uploaded",
-          "size": 85115,
-          "digest": "sha256:a9756aca7edb40c6e532fab412285abb9f506b61c5450a212b9f3b813fd7f2fe",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.110/pulsia-model-studio.zip",
-          "created_at": "2026-10-20T05:12:34Z",
-          "updated_at": "2026-10-20T05:12:34Z"
-        },
-        {
-          "id": 658340126,
-          "name": "pulsia-model-studio.zip.sha256",
-          "state": "uploaded",
-          "size": 90,
-          "digest": "sha256:3f5989d636ef1ecda30a4afcacf93e095abe7d35ed1f96c9a85dee57a0bc6497",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.110/pulsia-model-studio.zip.sha256",
-          "created_at": "2026-10-20T05:12:34Z",
-          "updated_at": "2026-10-20T05:12:34Z"
         }
       ]
     },
