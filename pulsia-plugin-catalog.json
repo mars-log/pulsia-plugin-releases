@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-26T14:49:06.000Z",
+  "generatedAt": "2026-10-26T14:49:14.000Z",
   "releases": [
     {
       "id": 423751556,
@@ -364,6 +364,74 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.112/pulsia-acp-common.zip",
           "created_at": "2026-10-26T06:10:04Z",
           "updated_at": "2026-10-26T06:10:05Z"
+        }
+      ]
+    },
+    {
+      "id": 424377766,
+      "tag_name": "com.naver.mars-_-.editor.tools@0.1.101",
+      "name": "에디터 도구 팩 0.1.101",
+      "body": "# 에디터 도구 팩 0.1.101\n\n파일 형식별 구문 강조와 편집 도구를 모아 설치합니다.\n\n\n파일 인코딩 설정과 최근 설치한 구문 도구 우선 적용에는 Pulsia Core 0.3.252 이상을 사용하세요.\n\n- Properties·INI/CFG/CONF·ENV/ENV.LOCAL·TOML·YAML 구문 도구와 앱·프로젝트 파일 인코딩 설정을 추가함.\n- 경로별 인코딩·CP949/EUC-KR·Properties 유니코드 표시·새 UTF-8 BOM과 명시적 URL 해제를 지원함.\n- 미저장 내용·원본 바이트 보호와 설치 취소·첫 실행 실패 후 같은 팩 재시도·재시작을 검증함.\n- 소스: https://github.com/mars-log/pulsia-plugin-studio/commit/451baf3a67ccd4184cfb91e0bdcbabd06e67b289\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.editor.tools\",\"version\":\"0.1.101\",\"title\":\"에디터 도구 팩\",\"description\":\"파일 형식별 구문 강조와 편집 도구를 모아 설치합니다.\",\"kind\":\"pack\",\"tags\":[],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.editor.tools.properties\",\"version\":\"^0.1.101\",\"reason\":\"설정 파일 구문 강조와 선택한 텍스트의 인코딩 해제를 제공합니다.\"}],\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.editor.tools%400.1.101",
+      "published_at": "2026-10-26T14:49:14Z",
+      "created_at": "2026-10-26T14:45:00Z",
+      "updated_at": "2026-10-26T14:49:14Z",
+      "assets": [
+        {
+          "id": 678470755,
+          "name": "pulsia-editor-tools-pack.zip",
+          "state": "uploaded",
+          "size": 1240,
+          "digest": "sha256:91ce1c33fdafac13530669a45eb37193f5ca6e0006081260577154a6f7e44dd3",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.editor.tools%400.1.101/pulsia-editor-tools-pack.zip",
+          "created_at": "2026-10-26T14:49:12Z",
+          "updated_at": "2026-10-26T14:49:13Z"
+        },
+        {
+          "id": 678470759,
+          "name": "pulsia-editor-tools-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 95,
+          "digest": "sha256:f2deb6471ae815357d4fda50b22589b82eced2f304736bd5e903ec9b36fd686c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.editor.tools%400.1.101/pulsia-editor-tools-pack.zip.sha256",
+          "created_at": "2026-10-26T14:49:12Z",
+          "updated_at": "2026-10-26T14:49:13Z"
+        }
+      ]
+    },
+    {
+      "id": 424377680,
+      "tag_name": "com.naver.mars-_-.editor.tools.properties@0.1.101",
+      "name": "Properties 기본 구문 강조 도구 0.1.101",
+      "body": "# Properties 기본 구문 강조 도구 0.1.101\n\nProperties·INI·CFG·ENV·TOML·YAML 구문을 구분하고 선택한 텍스트의 URL·유니코드 인코딩을 해제합니다.\n\n\n파일 인코딩 설정과 최근 설치한 구문 도구 우선 적용에는 Pulsia Core 0.3.252 이상을 사용하세요.\n\n- Properties·INI/CFG/CONF·ENV/ENV.LOCAL·TOML·YAML 구문 도구와 앱·프로젝트 파일 인코딩 설정을 추가함.\n- 경로별 인코딩·CP949/EUC-KR·Properties 유니코드 표시·새 UTF-8 BOM과 명시적 URL 해제를 지원함.\n- 미저장 내용·원본 바이트 보호와 설치 취소·첫 실행 실패 후 같은 팩 재시도·재시작을 검증함.\n- 소스: https://github.com/mars-log/pulsia-plugin-studio/commit/451baf3a67ccd4184cfb91e0bdcbabd06e67b289\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.editor.tools.properties\",\"version\":\"0.1.101\",\"title\":\"Properties 기본 구문 강조 도구\",\"description\":\"Properties·INI·CFG·ENV·TOML·YAML 구문을 구분하고 선택한 텍스트의 URL·유니코드 인코딩을 해제합니다.\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.editor\",\"version\":\"^1.0.111\",\"reason\":\"파일 인코딩 설정과 텍스트 선택 변환을 사용합니다.\"},{\"pluginId\":\"pulsia.editor-runtime\",\"version\":\"^1.0.115\",\"reason\":\"최근 설치한 구문 제공자를 선택합니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.editor.tools.properties%400.1.101",
+      "published_at": "2026-10-26T14:49:10Z",
+      "created_at": "2026-10-26T14:45:00Z",
+      "updated_at": "2026-10-26T14:49:10Z",
+      "assets": [
+        {
+          "id": 678470574,
+          "name": "pulsia-properties-basic-tools.zip",
+          "state": "uploaded",
+          "size": 8579,
+          "digest": "sha256:8f2dd08422ffa87174b2b1c180e942ae5beb6d852d9546f0f45ab9204a3a4012",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.editor.tools.properties%400.1.101/pulsia-properties-basic-tools.zip",
+          "created_at": "2026-10-26T14:49:08Z",
+          "updated_at": "2026-10-26T14:49:09Z"
+        },
+        {
+          "id": 678470610,
+          "name": "pulsia-properties-basic-tools.zip.sha256",
+          "state": "uploaded",
+          "size": 100,
+          "digest": "sha256:c66560fd4a496ea7fdf1c247483ff2cec8c336ef3abad542d98293a67cefac60",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.editor.tools.properties%400.1.101/pulsia-properties-basic-tools.zip.sha256",
+          "created_at": "2026-10-26T14:49:09Z",
+          "updated_at": "2026-10-26T14:49:09Z"
         }
       ]
     },
