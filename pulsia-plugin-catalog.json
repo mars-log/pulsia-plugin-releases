@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-26T08:38:52.000Z",
+  "generatedAt": "2026-10-26T08:54:24.000Z",
   "releases": [
     {
       "id": 423751556,
@@ -68,6 +68,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.153/pulsia-java-development-pack.zip.sha256",
           "created_at": "2026-10-26T08:29:45Z",
           "updated_at": "2026-10-26T08:29:45Z"
+        }
+      ]
+    },
+    {
+      "id": 424022809,
+      "tag_name": "pulsia.editor@1.0.110",
+      "name": "기본 편집기 1.0.110 — 업데이트 설치 오류 수정",
+      "body": "# Markdown 문서 직접 편집 1.0.110\n\n빌드 전용 라이브러리 선언을 바로잡아 기본 편집기 업데이트 설치 실패를 수정합니다.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.editor\",\"version\":\"1.0.110\",\"title\":\"Markdown 문서 직접 편집\",\"description\":\"빌드 전용 라이브러리 선언을 바로잡아 기본 편집기 업데이트 설치 실패를 수정합니다.\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.editor-runtime\",\"version\":\"^1.0.106\",\"reason\":\"공용 문서와 편집 엔진을 사용함.\"},{\"pluginId\":\"pulsia.markdown-runtime\",\"version\":\"^1.0.101\",\"reason\":\"Markdown 표시와 미리 보기를 사용함.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.editor%401.0.110",
+      "published_at": "2026-10-26T08:54:24Z",
+      "created_at": "2026-10-26T08:39:02Z",
+      "updated_at": "2026-10-26T08:54:24Z",
+      "assets": [
+        {
+          "id": 677574017,
+          "name": "pulsia-editor.zip",
+          "state": "uploaded",
+          "size": 296755,
+          "digest": "sha256:e98d59c27948bc844037500c464b403ef7ed80404cbc65a95868b9eae6216c09",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor%401.0.110/pulsia-editor.zip",
+          "created_at": "2026-10-26T08:54:23Z",
+          "updated_at": "2026-10-26T08:54:23Z"
+        },
+        {
+          "id": 677574016,
+          "name": "pulsia-editor.zip.sha256",
+          "state": "uploaded",
+          "size": 84,
+          "digest": "sha256:b81290ea17ed9876be9ec1930669d194d107a2ed4542b368ffe43586aed3137b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor%401.0.110/pulsia-editor.zip.sha256",
+          "created_at": "2026-10-26T08:54:23Z",
+          "updated_at": "2026-10-26T08:54:23Z"
         }
       ]
     },
