@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-26T14:44:49.000Z",
+  "generatedAt": "2026-10-26T14:49:06.000Z",
   "releases": [
     {
       "id": 423751556,
@@ -174,6 +174,40 @@
       ]
     },
     {
+      "id": 424377593,
+      "tag_name": "pulsia.editor@1.0.111",
+      "name": "기본 편집기 1.0.111",
+      "body": "# pulsia.editor 1.0.111\n\n\n\n\n파일 인코딩 설정과 최근 설치한 구문 도구 우선 적용에는 Pulsia Core 0.3.252 이상을 사용하세요.\n\n- Properties·INI/CFG/CONF·ENV/ENV.LOCAL·TOML·YAML 구문 도구와 앱·프로젝트 파일 인코딩 설정을 추가함.\n- 경로별 인코딩·CP949/EUC-KR·Properties 유니코드 표시·새 UTF-8 BOM과 명시적 URL 해제를 지원함.\n- 미저장 내용·원본 바이트 보호와 설치 취소·첫 실행 실패 후 같은 팩 재시도·재시작을 검증함.\n- 소스: https://github.com/mars-log/pulsia-plugin-studio/commit/451baf3a67ccd4184cfb91e0bdcbabd06e67b289\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.editor\",\"version\":\"1.0.111\",\"title\":\"pulsia.editor\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.editor-runtime\",\"version\":\"^1.0.106\",\"reason\":\"공용 문서와 편집 엔진을 사용함.\"},{\"pluginId\":\"pulsia.markdown-runtime\",\"version\":\"^1.0.101\",\"reason\":\"Markdown 표시와 미리 보기를 사용함.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.editor%401.0.111",
+      "published_at": "2026-10-26T14:49:06Z",
+      "created_at": "2026-10-26T14:45:00Z",
+      "updated_at": "2026-10-26T14:49:06Z",
+      "assets": [
+        {
+          "id": 678470398,
+          "name": "pulsia-editor.zip",
+          "state": "uploaded",
+          "size": 307337,
+          "digest": "sha256:171bceb3bf360c46cc8e599f57624bae69dc4e710d677650c0c1a95e9081d647",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor%401.0.111/pulsia-editor.zip",
+          "created_at": "2026-10-26T14:49:04Z",
+          "updated_at": "2026-10-26T14:49:04Z"
+        },
+        {
+          "id": 678470399,
+          "name": "pulsia-editor.zip.sha256",
+          "state": "uploaded",
+          "size": 84,
+          "digest": "sha256:ecae2d26297346dcb2c165bb107e81fcbb73d19553f77d0f91a5f0434d8b3aef",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor%401.0.111/pulsia-editor.zip.sha256",
+          "created_at": "2026-10-26T14:49:04Z",
+          "updated_at": "2026-10-26T14:49:04Z"
+        }
+      ]
+    },
+    {
       "id": 424022809,
       "tag_name": "pulsia.editor@1.0.110",
       "name": "기본 편집기 1.0.110 — 업데이트 설치 오류 수정",
@@ -272,6 +306,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor%401.0.108/pulsia-editor.zip.sha256",
           "created_at": "2026-10-26T08:25:53Z",
           "updated_at": "2026-10-26T08:25:53Z"
+        }
+      ]
+    },
+    {
+      "id": 424377507,
+      "tag_name": "pulsia.editor-runtime@1.0.115",
+      "name": "편집 엔진 1.0.115",
+      "body": "# pulsia.editor-runtime 1.0.115\n\n\n\n파일 인코딩 설정과 최근 설치한 구문 도구 우선 적용에는 Pulsia Core 0.3.252 이상을 사용하세요.\n\n- Properties·INI/CFG/CONF·ENV/ENV.LOCAL·TOML·YAML 구문 도구와 앱·프로젝트 파일 인코딩 설정을 추가함.\n- 경로별 인코딩·CP949/EUC-KR·Properties 유니코드 표시·새 UTF-8 BOM과 명시적 URL 해제를 지원함.\n- 미저장 내용·원본 바이트 보호와 설치 취소·첫 실행 실패 후 같은 팩 재시도·재시작을 검증함.\n- 소스: https://github.com/mars-log/pulsia-plugin-studio/commit/451baf3a67ccd4184cfb91e0bdcbabd06e67b289\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.editor-runtime\",\"version\":\"1.0.115\",\"title\":\"pulsia.editor-runtime\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.editor-runtime%401.0.115",
+      "published_at": "2026-10-26T14:49:02Z",
+      "created_at": "2026-10-26T14:45:00Z",
+      "updated_at": "2026-10-26T14:49:02Z",
+      "assets": [
+        {
+          "id": 678470226,
+          "name": "pulsia-editor-runtime.zip",
+          "state": "uploaded",
+          "size": 1724081,
+          "digest": "sha256:da86993ad825107d737f126cdb42a37a3d82ce6251c802268853ce3aae1a1e4c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.115/pulsia-editor-runtime.zip",
+          "created_at": "2026-10-26T14:49:00Z",
+          "updated_at": "2026-10-26T14:49:01Z"
+        },
+        {
+          "id": 678470227,
+          "name": "pulsia-editor-runtime.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:4c06ded0713f4073d524cfde3178d379a4525fe1b3a1bfcaaa1c179a34cadb75",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.115/pulsia-editor-runtime.zip.sha256",
+          "created_at": "2026-10-26T14:49:00Z",
+          "updated_at": "2026-10-26T14:49:00Z"
         }
       ]
     },
