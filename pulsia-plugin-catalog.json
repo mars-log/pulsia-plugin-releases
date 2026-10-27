@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-27T05:40:05.000Z",
+  "generatedAt": "2026-10-27T05:43:03.000Z",
   "releases": [
     {
       "id": 425072355,
@@ -208,6 +208,40 @@
       ]
     },
     {
+      "id": 425073991,
+      "tag_name": "com.naver.mars-_-.messenger.telegram@0.0.103",
+      "name": "com.naver.mars-_-.messenger.telegram 0.0.103",
+      "body": "# 텔레그램 커넥터 0.0.103\n\nPulsia Core 0.3.249 이상이 필요함.\n\n- 우측 패널의 빈 공간과 보이지 않던 대화 목록을 수정함. 대화가 없을 때 안내를 표시함.\n- 설정 아이콘·메신저 연결 버튼으로 본문 설정 화면을 열거나 기존 탭을 선택함.\n- 101·102 설치본은 텔레그램·디스코드 커넥터를 각각 103으로 먼저 업데이트한 뒤 허브·팩을 업데이트함. 이전 커넥터의 Hub 버전 고정을 제거함.\n- 우측 메신저 패널에서 채팅 목록과 대화를 선택하고 메시지를 보냄. 설정 아이콘은 본문 연결·작업 탭을 엶.\n- 본문 설정 탭 종료·우측 패널 접기 뒤에도 수신·명령 처리·응답과 알림 전송을 유지함. 연결별 Pulsia 시작 시 자동 연결을 선택할 수 있음.\n- 기존 101 연결·토큰·대화 원문을 보존하며 일반 대화와 PC를 지정한 명시적 명령을 구분함. 대메뉴 기본값은 숨김임.\n- 실제 서비스 계정 송수신은 사용자 연결 등록 뒤 확인이 필요함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.messenger.telegram\",\"version\":\"0.0.103\",\"title\":\"텔레그램 커넥터\",\"description\":\"텔레그램 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\",\"kind\":\"backend\",\"tags\":[\"메신저\",\"telegram\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.messenger.telegram%400.0.103",
+      "published_at": "2026-10-27T05:42:58Z",
+      "created_at": "2026-10-27T05:40:16Z",
+      "updated_at": "2026-10-27T05:42:58Z",
+      "assets": [
+        {
+          "id": 680593584,
+          "name": "messenger-telegram.zip",
+          "state": "uploaded",
+          "size": 19497,
+          "digest": "sha256:4f337c06136b42345468082570f09eac08ffcac40b87cd248869284000ff1987",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.telegram%400.0.103/messenger-telegram.zip",
+          "created_at": "2026-10-27T05:42:56Z",
+          "updated_at": "2026-10-27T05:42:57Z"
+        },
+        {
+          "id": 680593586,
+          "name": "messenger-telegram.zip.sha256",
+          "state": "uploaded",
+          "size": 89,
+          "digest": "sha256:4221d4ac3e3553ee47cf47efea8eb19eb326234d31acbe6f7ccb9fad71b028fe",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.telegram%400.0.103/messenger-telegram.zip.sha256",
+          "created_at": "2026-10-27T05:42:56Z",
+          "updated_at": "2026-10-27T05:42:57Z"
+        }
+      ]
+    },
+    {
       "id": 425058135,
       "tag_name": "com.naver.mars-_-.messenger.telegram@0.0.102",
       "name": "com.naver.mars-_-.messenger.telegram 0.0.102",
@@ -340,6 +374,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.hub%400.0.101/messenger-hub.zip.sha256",
           "created_at": "2026-10-27T04:08:05Z",
           "updated_at": "2026-10-27T04:08:05Z"
+        }
+      ]
+    },
+    {
+      "id": 425074047,
+      "tag_name": "com.naver.mars-_-.messenger.discord@0.0.103",
+      "name": "com.naver.mars-_-.messenger.discord 0.0.103",
+      "body": "# 디스코드 커넥터 0.0.103\n\nPulsia Core 0.3.249 이상이 필요함.\n\n- 우측 패널의 빈 공간과 보이지 않던 대화 목록을 수정함. 대화가 없을 때 안내를 표시함.\n- 설정 아이콘·메신저 연결 버튼으로 본문 설정 화면을 열거나 기존 탭을 선택함.\n- 101·102 설치본은 텔레그램·디스코드 커넥터를 각각 103으로 먼저 업데이트한 뒤 허브·팩을 업데이트함. 이전 커넥터의 Hub 버전 고정을 제거함.\n- 우측 메신저 패널에서 채팅 목록과 대화를 선택하고 메시지를 보냄. 설정 아이콘은 본문 연결·작업 탭을 엶.\n- 본문 설정 탭 종료·우측 패널 접기 뒤에도 수신·명령 처리·응답과 알림 전송을 유지함. 연결별 Pulsia 시작 시 자동 연결을 선택할 수 있음.\n- 기존 101 연결·토큰·대화 원문을 보존하며 일반 대화와 PC를 지정한 명시적 명령을 구분함. 대메뉴 기본값은 숨김임.\n- 실제 서비스 계정 송수신은 사용자 연결 등록 뒤 확인이 필요함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.messenger.discord\",\"version\":\"0.0.103\",\"title\":\"디스코드 커넥터\",\"description\":\"디스코드 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\",\"kind\":\"backend\",\"tags\":[\"메신저\",\"discord\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.messenger.discord%400.0.103",
+      "published_at": "2026-10-27T05:43:03Z",
+      "created_at": "2026-10-27T05:40:16Z",
+      "updated_at": "2026-10-27T05:43:03Z",
+      "assets": [
+        {
+          "id": 680593888,
+          "name": "messenger-discord.zip",
+          "state": "uploaded",
+          "size": 19487,
+          "digest": "sha256:d3022086afff83a333e86afad7d3f1e1b3dbf259384dac130da77414fbf45b2f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.discord%400.0.103/messenger-discord.zip",
+          "created_at": "2026-10-27T05:43:02Z",
+          "updated_at": "2026-10-27T05:43:02Z"
+        },
+        {
+          "id": 680593889,
+          "name": "messenger-discord.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:4ff7c8bc1335ca7ad848b77db728b24ccae1e0a7eba8c560a76576b2836918f2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.discord%400.0.103/messenger-discord.zip.sha256",
+          "created_at": "2026-10-27T05:43:02Z",
+          "updated_at": "2026-10-27T05:43:03Z"
         }
       ]
     },
