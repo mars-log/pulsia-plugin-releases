@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-27T05:43:40.000Z",
+  "generatedAt": "2026-10-27T07:32:26.000Z",
   "releases": [
     {
       "id": 425072355,
@@ -242,6 +242,40 @@
       ]
     },
     {
+      "id": 425146090,
+      "tag_name": "com.naver.mars-_-.messenger.telegram@0.0.104",
+      "name": "com.naver.mars-_-.messenger.telegram 0.0.104",
+      "body": "# 텔레그램 커넥터 0.0.104\n\nPulsia Core 0.3.249 이상이 필요함.\n\n- 명령에 사용할 PC 이름 편집과 중복 이름 주의사항을 추가함. 기존 내부 장치 ID·연결·토큰·대화를 보존함.\n- 수신 중에도 연결·대화방별 실행 권한과 Agent를 편집함. 봇 토큰·대화방 변경은 로그아웃 후 저장함.\n- 연결·권한, 작업 기록, 전송 기록을 탭으로 표시함. 중복 대화 탭·본문 발송 폼을 제거하고 명령 복사 아이콘과 예시를 제공함.\n- 로그아웃을 우측 패널 상단의 작은 아이콘으로 옮기고 확인·취소를 제공함. 수신 상태를 색상으로 표시함.\n- 작업 요청자·대화방·Agent·ACP 세션, 직접 보낸 메시지와 도구 알림 출처를 기록함.\n- 활성 103 설치본은 비활성화 없이 네 제품을 104로 업데이트할 수 있음. 101·102의 오래된 커넥터는 먼저 커넥터를 104로 업데이트한 뒤 허브·팩을 업데이트함.\n- 화면 아래 메신저 아이콘을 다시 누르면 패널을 접거나 열며 수신·대화·초안을 유지함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.messenger.telegram\",\"version\":\"0.0.104\",\"title\":\"텔레그램 커넥터\",\"description\":\"텔레그램 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\",\"kind\":\"backend\",\"tags\":[\"메신저\",\"telegram\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.messenger.telegram%400.0.104",
+      "published_at": "2026-10-27T07:32:20Z",
+      "created_at": "2026-10-27T05:43:53Z",
+      "updated_at": "2026-10-27T07:32:20Z",
+      "assets": [
+        {
+          "id": 680819665,
+          "name": "messenger-telegram.zip",
+          "state": "uploaded",
+          "size": 20801,
+          "digest": "sha256:07aea4abaf6ab98dcc20772645def89e9d77a3075837da808cfa541bc05dff89",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.telegram%400.0.104/messenger-telegram.zip",
+          "created_at": "2026-10-27T07:32:19Z",
+          "updated_at": "2026-10-27T07:32:19Z"
+        },
+        {
+          "id": 680819666,
+          "name": "messenger-telegram.zip.sha256",
+          "state": "uploaded",
+          "size": 89,
+          "digest": "sha256:773220e4fbd37ce88d2f96dbe72781f1d470910a0532d7214f0598c827f80bad",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.telegram%400.0.104/messenger-telegram.zip.sha256",
+          "created_at": "2026-10-27T07:32:19Z",
+          "updated_at": "2026-10-27T07:32:19Z"
+        }
+      ]
+    },
+    {
       "id": 425073991,
       "tag_name": "com.naver.mars-_-.messenger.telegram@0.0.103",
       "name": "com.naver.mars-_-.messenger.telegram 0.0.103",
@@ -442,6 +476,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.hub%400.0.101/messenger-hub.zip.sha256",
           "created_at": "2026-10-27T04:08:05Z",
           "updated_at": "2026-10-27T04:08:05Z"
+        }
+      ]
+    },
+    {
+      "id": 425146161,
+      "tag_name": "com.naver.mars-_-.messenger.discord@0.0.104",
+      "name": "com.naver.mars-_-.messenger.discord 0.0.104",
+      "body": "# 디스코드 커넥터 0.0.104\n\nPulsia Core 0.3.249 이상이 필요함.\n\n- 명령에 사용할 PC 이름 편집과 중복 이름 주의사항을 추가함. 기존 내부 장치 ID·연결·토큰·대화를 보존함.\n- 수신 중에도 연결·대화방별 실행 권한과 Agent를 편집함. 봇 토큰·대화방 변경은 로그아웃 후 저장함.\n- 연결·권한, 작업 기록, 전송 기록을 탭으로 표시함. 중복 대화 탭·본문 발송 폼을 제거하고 명령 복사 아이콘과 예시를 제공함.\n- 로그아웃을 우측 패널 상단의 작은 아이콘으로 옮기고 확인·취소를 제공함. 수신 상태를 색상으로 표시함.\n- 작업 요청자·대화방·Agent·ACP 세션, 직접 보낸 메시지와 도구 알림 출처를 기록함.\n- 활성 103 설치본은 비활성화 없이 네 제품을 104로 업데이트할 수 있음. 101·102의 오래된 커넥터는 먼저 커넥터를 104로 업데이트한 뒤 허브·팩을 업데이트함.\n- 화면 아래 메신저 아이콘을 다시 누르면 패널을 접거나 열며 수신·대화·초안을 유지함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.messenger.discord\",\"version\":\"0.0.104\",\"title\":\"디스코드 커넥터\",\"description\":\"디스코드 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\",\"kind\":\"backend\",\"tags\":[\"메신저\",\"discord\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.messenger.discord%400.0.104",
+      "published_at": "2026-10-27T07:32:26Z",
+      "created_at": "2026-10-27T05:43:53Z",
+      "updated_at": "2026-10-27T07:32:26Z",
+      "assets": [
+        {
+          "id": 680819864,
+          "name": "messenger-discord.zip",
+          "state": "uploaded",
+          "size": 20791,
+          "digest": "sha256:cdfee25bcdebc7f9e2251fdaa6d659d87fe2532c3c27977484a9906149e04e97",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.discord%400.0.104/messenger-discord.zip",
+          "created_at": "2026-10-27T07:32:25Z",
+          "updated_at": "2026-10-27T07:32:25Z"
+        },
+        {
+          "id": 680819866,
+          "name": "messenger-discord.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:44bc09f12d2f4dacac372654bfcdbfc38925b8b36f844ec58478dbba0948d606",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.discord%400.0.104/messenger-discord.zip.sha256",
+          "created_at": "2026-10-27T07:32:25Z",
+          "updated_at": "2026-10-27T07:32:25Z"
         }
       ]
     },
