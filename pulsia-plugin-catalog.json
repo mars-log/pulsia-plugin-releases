@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-27T07:32:38.000Z",
+  "generatedAt": "2026-10-27T08:35:31.000Z",
   "releases": [
+    {
+      "id": 425198218,
+      "tag_name": "pulsia.acp-common@1.0.114",
+      "name": "ACP 공용 플러그인 1.0.114",
+      "body": "# ACP 공용 플러그인 1.0.114\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.acp-common\",\"version\":\"1.0.114\",\"title\":\"ACP 공용 플러그인\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.markdown-runtime\",\"version\":\"^1.0.101\",\"reason\":\"ACP 응답과 파일 링크를 표시함.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.acp-common%401.0.114",
+      "published_at": "2026-10-27T08:35:31Z",
+      "created_at": "2026-10-27T07:32:45Z",
+      "updated_at": "2026-10-27T08:35:31Z",
+      "assets": [
+        {
+          "id": 680961207,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 1512175,
+          "digest": "sha256:272557f7268209d5a43270fa67f846d87e69f10aa809323e29291093b168d199",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.114/pulsia-acp-common.zip",
+          "created_at": "2026-10-27T08:35:30Z",
+          "updated_at": "2026-10-27T08:35:31Z"
+        },
+        {
+          "id": 680961206,
+          "name": "pulsia-acp-common.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:c2971a3bcba3d644a6faf071ba6a789f4b655a3bbc7ccef15d8a60c2a87b9c88",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.114/pulsia-acp-common.zip.sha256",
+          "created_at": "2026-10-27T08:35:30Z",
+          "updated_at": "2026-10-27T08:35:30Z"
+        }
+      ]
+    },
     {
       "id": 425072355,
       "tag_name": "pulsia-plugin-wingate-client@0.1.116",
