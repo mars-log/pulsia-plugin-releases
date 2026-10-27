@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-27T14:12:25.000Z",
+  "generatedAt": "2026-10-27T15:18:45.000Z",
   "releases": [
+    {
+      "id": 425628800,
+      "tag_name": "pulsia.model-studio@0.0.117",
+      "name": "Model Studio 0.0.117",
+      "body": "# Model Studio 0.0.117\r\n\r\n- 모델 추가 아이콘을 Lucide copy-plus로 변경함.\r\n- 새 모델 맵·선택 상자·모델 맵 이름 변경 순서로 배치함.\r\n- 내보내기 앞에 Lucide download 아이콘을 추가함.\r\n- 상단 전체 화면을 Agent와 같은 Host 집중 화면 확대·복귀로 변경하고 maximize/minimize 아이콘을 사용함. 오른쪽 아래 화면에 맞추기는 기존 배율 기능을 유지함.\r\n- 사용자 요청에 따라 기능·UI 테스트를 생략함. 공식 컴파일·버전·아이콘 출처 검사·패키징만 수행함.\r\n\r\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.model-studio\",\"version\":\"0.0.117\",\"title\":\"Model Studio\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Model\",\"Mind Map\",\"ERD\",\"AI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.model-studio%400.0.117",
+      "published_at": "2026-10-27T15:18:45Z",
+      "created_at": "2026-10-27T14:12:36Z",
+      "updated_at": "2026-10-27T15:18:45Z",
+      "assets": [
+        {
+          "id": 681976129,
+          "name": "pulsia-model-studio.zip",
+          "state": "uploaded",
+          "size": 117327,
+          "digest": "sha256:41f43360e33ef24b0e560239aef34602a132f86fa33636876f32a5f17a35c6e8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.117/pulsia-model-studio.zip",
+          "created_at": "2026-10-27T15:18:44Z",
+          "updated_at": "2026-10-27T15:18:44Z"
+        },
+        {
+          "id": 681976132,
+          "name": "pulsia-model-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:65d274f235b1f6291e664509dc3fabd8d2525a28b3b2fdc3587a168f049bce79",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.117/pulsia-model-studio.zip.sha256",
+          "created_at": "2026-10-27T15:18:44Z",
+          "updated_at": "2026-10-27T15:18:44Z"
+        }
+      ]
+    },
     {
       "id": 425548693,
       "tag_name": "pulsia.model-studio@0.0.116",
