@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-27T13:34:05.000Z",
+  "generatedAt": "2026-10-27T13:34:15.000Z",
   "releases": [
+    {
+      "id": 425505045,
+      "tag_name": "pulsia.acp-common@1.0.115",
+      "name": "ACP 공용 1.0.115",
+      "body": "# ACP 공용 플러그인 1.0.115\n\n- Mini ACP·ACP 공용 입력에서 파일 목록만 전달되는 붙여넣기도 파일·이미지로 처리함.\n- 로컬 경로를 얻을 수 없는 클립보드 파일은 원문 내용을 가져오며 첨부 개수 초과를 명확히 표시함.\n- 컴파일한 companion·workbench 화면에서 이미지 가져오기→실제 첨부 저장→전송 실패 초안 보존→동일 원문 재전송의 바이트 일치를 검사함.\n- 기존 Agent·모델·대화·초안·사용량·한글 입력 처리와 Core 설치 버전을 유지함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.acp-common\",\"version\":\"1.0.115\",\"title\":\"ACP 공용 플러그인\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.markdown-runtime\",\"version\":\"^1.0.101\",\"reason\":\"ACP 응답과 파일 링크를 표시함.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.acp-common%401.0.115",
+      "published_at": "2026-10-27T13:34:10Z",
+      "created_at": "2026-10-27T08:35:43Z",
+      "updated_at": "2026-10-27T13:34:10Z",
+      "assets": [
+        {
+          "id": 681696597,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 1511424,
+          "digest": "sha256:e7cf7122e0a55cf5911ee27c13dde6072d0a8ba5b424a977cc8b5482f2043005",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.115/pulsia-acp-common.zip",
+          "created_at": "2026-10-27T13:34:08Z",
+          "updated_at": "2026-10-27T13:34:09Z"
+        },
+        {
+          "id": 681696601,
+          "name": "pulsia-acp-common.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:356eb01db718083df6487e6928a4f2311bd39c5872505524abff5562570293b3",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.115/pulsia-acp-common.zip.sha256",
+          "created_at": "2026-10-27T13:34:08Z",
+          "updated_at": "2026-10-27T13:34:09Z"
+        }
+      ]
+    },
     {
       "id": 425198218,
       "tag_name": "pulsia.acp-common@1.0.114",
@@ -170,6 +204,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client-addon-ssh-client%400.0.106/pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
           "created_at": "2026-10-27T04:41:28Z",
           "updated_at": "2026-10-27T04:41:29Z"
+        }
+      ]
+    },
+    {
+      "id": 425505181,
+      "tag_name": "com.naver.mars-_-.messenger@0.0.105",
+      "name": "com.naver.mars-_-.messenger 0.0.105",
+      "body": "# Pulsia Messenger · 메신저 팩 0.0.105\n\nPulsia Core 0.3.249 이상이 필요함.\n\n- 연결 추가·편집을 공용 모달로 정리하고 넓은 화면·좁은 화면의 연결 목록과 기록 배치를 개선함.\n- 쉐브론 중복을 제거하고 로그인·로그아웃·연결 삭제를 이름과 아이콘으로 구분함.\n- 업무 요청 권한을 끄면 실행 설정의 자리를 유지한 채 비활성화함. 메신저 도우미의 Agent·모델 선택을 가져올 수 있음.\n- 수신을 유지하면서 완료 기록을 정리하며 진행 중·미전송·대화 기록을 보존함.\n- 파일·이미지 선택 및 붙여넣기와 전송을 지원함. 첨부는 10개·합계 8 MB이며 전송 접수 실패 시 원문과 첨부 초안을 보관함.\n- 텔레그램·디스코드 커넥터를 105로 함께 업데이트함. Mini ACP 파일 붙여넣기는 ACP 공용 플러그인 1.0.115를 함께 업데이트함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.messenger\",\"version\":\"0.0.105\",\"title\":\"Pulsia Messenger · 메신저 팩\",\"description\":\"메신저 허브와 선택한 텔레그램·디스코드 커넥터를 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"메신저\",\"AI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.messenger.hub\",\"version\":\"^0.0.105\",\"reason\":\"메신저 연결·업무 요청·실행 승인과 알림을 관리합니다.\"},{\"pluginId\":\"com.naver.mars-_-.messenger.telegram\",\"version\":\"^0.0.105\",\"reason\":\"텔레그램 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\"},{\"pluginId\":\"com.naver.mars-_-.messenger.discord\",\"version\":\"^0.0.105\",\"reason\":\"디스코드 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\"}],\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.messenger%400.0.105",
+      "published_at": "2026-10-27T13:34:15Z",
+      "created_at": "2026-10-27T13:34:10Z",
+      "updated_at": "2026-10-27T13:34:15Z",
+      "assets": [
+        {
+          "id": 681696895,
+          "name": "messenger-pack.zip",
+          "state": "uploaded",
+          "size": 859,
+          "digest": "sha256:1b6a411b1d8e53c080bb19731a3aa95e3e09e16c78d9b725c85ae3589f978a0f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger%400.0.105/messenger-pack.zip",
+          "created_at": "2026-10-27T13:34:14Z",
+          "updated_at": "2026-10-27T13:34:15Z"
+        },
+        {
+          "id": 681696902,
+          "name": "messenger-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 85,
+          "digest": "sha256:ba66e8678d41e204ccab481057799aa8e215528c7731b4d7f06a14f776566fa3",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger%400.0.105/messenger-pack.zip.sha256",
+          "created_at": "2026-10-27T13:34:14Z",
+          "updated_at": "2026-10-27T13:34:15Z"
         }
       ]
     },
@@ -476,6 +544,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.telegram%400.0.101/messenger-telegram.zip.sha256",
           "created_at": "2026-10-27T04:08:10Z",
           "updated_at": "2026-10-27T04:08:10Z"
+        }
+      ]
+    },
+    {
+      "id": 425505079,
+      "tag_name": "com.naver.mars-_-.messenger.hub@0.0.105",
+      "name": "com.naver.mars-_-.messenger.hub 0.0.105",
+      "body": "# 메신저 허브 0.0.105\n\nPulsia Core 0.3.249 이상이 필요함.\n\n- 연결 추가·편집을 공용 모달로 정리하고 넓은 화면·좁은 화면의 연결 목록과 기록 배치를 개선함.\n- 쉐브론 중복을 제거하고 로그인·로그아웃·연결 삭제를 이름과 아이콘으로 구분함.\n- 업무 요청 권한을 끄면 실행 설정의 자리를 유지한 채 비활성화함. 메신저 도우미의 Agent·모델 선택을 가져올 수 있음.\n- 수신을 유지하면서 완료 기록을 정리하며 진행 중·미전송·대화 기록을 보존함.\n- 파일·이미지 선택 및 붙여넣기와 전송을 지원함. 첨부는 10개·합계 8 MB이며 전송 접수 실패 시 원문과 첨부 초안을 보관함.\n- 텔레그램·디스코드 커넥터를 105로 함께 업데이트함. Mini ACP 파일 붙여넣기는 ACP 공용 플러그인 1.0.115를 함께 업데이트함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.messenger.hub\",\"version\":\"0.0.105\",\"title\":\"메신저 허브\",\"description\":\"메신저 연결·업무 요청·실행 승인과 알림을 관리합니다.\",\"kind\":\"composite\",\"tags\":[\"메신저\",\"AI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"메신저 화면의 AI 도우미를 사용합니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.messenger.hub%400.0.105",
+      "published_at": "2026-10-27T13:34:10Z",
+      "created_at": "2026-10-27T08:35:43Z",
+      "updated_at": "2026-10-27T13:34:10Z",
+      "assets": [
+        {
+          "id": 681696651,
+          "name": "messenger-hub.zip",
+          "state": "uploaded",
+          "size": 65693,
+          "digest": "sha256:58b8fb2b0a583d0d156a119a3439fa53cf844acbd46775da2552ba9e35080063",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.hub%400.0.105/messenger-hub.zip",
+          "created_at": "2026-10-27T13:34:09Z",
+          "updated_at": "2026-10-27T13:34:09Z"
+        },
+        {
+          "id": 681696650,
+          "name": "messenger-hub.zip.sha256",
+          "state": "uploaded",
+          "size": 84,
+          "digest": "sha256:692d9ca4fa54bffb88e3e4fc9afa510fa4e09bc3b17a9928b657621ed89f9f36",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.hub%400.0.105/messenger-hub.zip.sha256",
+          "created_at": "2026-10-27T13:34:09Z",
+          "updated_at": "2026-10-27T13:34:09Z"
         }
       ]
     },
@@ -10516,30 +10618,6 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.111/pulsia-plugin-mini-acp.zip.sha256",
           "created_at": "2026-10-12T06:24:36Z",
           "updated_at": "2026-10-12T06:24:36Z"
-        }
-      ]
-    },
-    {
-      "id": 410206321,
-      "tag_name": "pulsia-plugin-mini-acp@1.0.110",
-      "name": "Mini ACP 1.0.110",
-      "body": "- Core 공용 ACP 화면의 companion 배치를 사용해 Plugin별 Agent와 세션 옵션을 독립적으로 선택함.\n- 오른쪽 ACP Agent header를 복제하지 않고 간결한 Agent 선택과 업무 요청 화면을 제공함.\n- 보관함과 업무 그룹 선택기의 중복 chevron을 제거함.\n- 공개 매뉴얼과 Plugin 연결 스킬에 Core ACP, Mini ACP, 공개 MCP 업무 동작, 현재 화면 동작의 역할을 기록함.\r\n",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-mini-acp%401.0.110",
-      "published_at": "2026-10-12T05:28:13Z",
-      "created_at": "2026-10-12T04:37:10Z",
-      "updated_at": "2026-10-12T05:28:13Z",
-      "assets": [
-        {
-          "id": 632770832,
-          "name": "pulsia-plugin-mini-acp.zip",
-          "state": "uploaded",
-          "size": 19528,
-          "digest": "sha256:8282787b869cdb7b6300813407941bae6fffd831a3d222b76e80a06c584a6b8c",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-mini-acp%401.0.110/pulsia-plugin-mini-acp.zip",
-          "created_at": "2026-10-12T05:28:12Z",
-          "updated_at": "2026-10-12T05:28:12Z"
         }
       ]
     },
