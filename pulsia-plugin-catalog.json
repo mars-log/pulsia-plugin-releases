@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-27T05:43:03.000Z",
+  "generatedAt": "2026-10-27T05:43:15.000Z",
   "releases": [
     {
       "id": 425072355,
@@ -136,6 +136,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client-addon-ssh-client%400.0.106/pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
           "created_at": "2026-10-27T04:41:28Z",
           "updated_at": "2026-10-27T04:41:29Z"
+        }
+      ]
+    },
+    {
+      "id": 425074146,
+      "tag_name": "com.naver.mars-_-.messenger@0.0.103",
+      "name": "com.naver.mars-_-.messenger 0.0.103",
+      "body": "# Pulsia Messenger · 메신저 팩 0.0.103\n\nPulsia Core 0.3.249 이상이 필요함.\n\n- 우측 패널의 빈 공간과 보이지 않던 대화 목록을 수정함. 대화가 없을 때 안내를 표시함.\n- 설정 아이콘·메신저 연결 버튼으로 본문 설정 화면을 열거나 기존 탭을 선택함.\n- 101·102 설치본은 텔레그램·디스코드 커넥터를 각각 103으로 먼저 업데이트한 뒤 허브·팩을 업데이트함. 이전 커넥터의 Hub 버전 고정을 제거함.\n- 우측 메신저 패널에서 채팅 목록과 대화를 선택하고 메시지를 보냄. 설정 아이콘은 본문 연결·작업 탭을 엶.\n- 본문 설정 탭 종료·우측 패널 접기 뒤에도 수신·명령 처리·응답과 알림 전송을 유지함. 연결별 Pulsia 시작 시 자동 연결을 선택할 수 있음.\n- 기존 101 연결·토큰·대화 원문을 보존하며 일반 대화와 PC를 지정한 명시적 명령을 구분함. 대메뉴 기본값은 숨김임.\n- 실제 서비스 계정 송수신은 사용자 연결 등록 뒤 확인이 필요함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.messenger\",\"version\":\"0.0.103\",\"title\":\"Pulsia Messenger · 메신저 팩\",\"description\":\"메신저 허브와 선택한 텔레그램·디스코드 커넥터를 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"메신저\",\"AI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.messenger.hub\",\"version\":\"^0.0.103\",\"reason\":\"메신저 연결·업무 요청·실행 승인과 알림을 관리합니다.\"},{\"pluginId\":\"com.naver.mars-_-.messenger.telegram\",\"version\":\"^0.0.103\",\"reason\":\"텔레그램 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\"},{\"pluginId\":\"com.naver.mars-_-.messenger.discord\",\"version\":\"^0.0.103\",\"reason\":\"디스코드 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\"}],\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.messenger%400.0.103",
+      "published_at": "2026-10-27T05:43:15Z",
+      "created_at": "2026-10-27T05:43:09Z",
+      "updated_at": "2026-10-27T05:43:15Z",
+      "assets": [
+        {
+          "id": 680594278,
+          "name": "messenger-pack.zip",
+          "state": "uploaded",
+          "size": 859,
+          "digest": "sha256:ad35be5739863317cffb20c28a1c9edbf548bff49034402e7a0271610ce8bac5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger%400.0.103/messenger-pack.zip",
+          "created_at": "2026-10-27T05:43:13Z",
+          "updated_at": "2026-10-27T05:43:14Z"
+        },
+        {
+          "id": 680594279,
+          "name": "messenger-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 85,
+          "digest": "sha256:2395e038f199ec3d2fb38002012a04b2d2e6686aa4471d26bf96492af5c3a581",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger%400.0.103/messenger-pack.zip.sha256",
+          "created_at": "2026-10-27T05:43:14Z",
+          "updated_at": "2026-10-27T05:43:14Z"
         }
       ]
     },
@@ -306,6 +340,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.telegram%400.0.101/messenger-telegram.zip.sha256",
           "created_at": "2026-10-27T04:08:10Z",
           "updated_at": "2026-10-27T04:08:10Z"
+        }
+      ]
+    },
+    {
+      "id": 425074087,
+      "tag_name": "com.naver.mars-_-.messenger.hub@0.0.103",
+      "name": "com.naver.mars-_-.messenger.hub 0.0.103",
+      "body": "# 메신저 허브 0.0.103\n\nPulsia Core 0.3.249 이상이 필요함.\n\n- 우측 패널의 빈 공간과 보이지 않던 대화 목록을 수정함. 대화가 없을 때 안내를 표시함.\n- 설정 아이콘·메신저 연결 버튼으로 본문 설정 화면을 열거나 기존 탭을 선택함.\n- 101·102 설치본은 텔레그램·디스코드 커넥터를 각각 103으로 먼저 업데이트한 뒤 허브·팩을 업데이트함. 이전 커넥터의 Hub 버전 고정을 제거함.\n- 우측 메신저 패널에서 채팅 목록과 대화를 선택하고 메시지를 보냄. 설정 아이콘은 본문 연결·작업 탭을 엶.\n- 본문 설정 탭 종료·우측 패널 접기 뒤에도 수신·명령 처리·응답과 알림 전송을 유지함. 연결별 Pulsia 시작 시 자동 연결을 선택할 수 있음.\n- 기존 101 연결·토큰·대화 원문을 보존하며 일반 대화와 PC를 지정한 명시적 명령을 구분함. 대메뉴 기본값은 숨김임.\n- 실제 서비스 계정 송수신은 사용자 연결 등록 뒤 확인이 필요함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.messenger.hub\",\"version\":\"0.0.103\",\"title\":\"메신저 허브\",\"description\":\"메신저 연결·업무 요청·실행 승인과 알림을 관리합니다.\",\"kind\":\"composite\",\"tags\":[\"메신저\",\"AI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"메신저 화면의 AI 도우미를 사용합니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.messenger.hub%400.0.103",
+      "published_at": "2026-10-27T05:43:09Z",
+      "created_at": "2026-10-27T05:40:16Z",
+      "updated_at": "2026-10-27T05:43:09Z",
+      "assets": [
+        {
+          "id": 680594103,
+          "name": "messenger-hub.zip",
+          "state": "uploaded",
+          "size": 52381,
+          "digest": "sha256:a30570ff04323447cf6fe39f8cf72e7d08f1da9a53a64d1a4bec1a2c877a26f6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.hub%400.0.103/messenger-hub.zip",
+          "created_at": "2026-10-27T05:43:08Z",
+          "updated_at": "2026-10-27T05:43:08Z"
+        },
+        {
+          "id": 680594100,
+          "name": "messenger-hub.zip.sha256",
+          "state": "uploaded",
+          "size": 84,
+          "digest": "sha256:b3b5ae696e1ca42c34c889178893e74eec429f376a8806ac11dcecf77b15f830",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.hub%400.0.103/messenger-hub.zip.sha256",
+          "created_at": "2026-10-27T05:43:08Z",
+          "updated_at": "2026-10-27T05:43:08Z"
         }
       ]
     },
