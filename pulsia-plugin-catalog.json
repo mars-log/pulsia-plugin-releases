@@ -1,8 +1,76 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-27T01:09:17.000Z",
+  "generatedAt": "2026-10-27T04:08:11.000Z",
   "releases": [
+    {
+      "id": 425024952,
+      "tag_name": "com.naver.mars-_-.messenger.telegram@0.0.101",
+      "name": "com.naver.mars-_-.messenger.telegram 0.0.101",
+      "body": "# 텔레그램 커넥터 0.0.101\n\nPulsia Core 0.3.249 이상이 필요함.\n\n- 여러 봇 연결·대화방과 발신자 허용·프로젝트별 Agent 실행·결과와 알림 전달을 제공함.\n- 봇 토큰은 연결 화면에서 등록함. 실제 서비스 계정 송수신은 사용자 등록 뒤 확인이 필요함.\n- 수신 중인 메신저 탭을 유지하며 탭을 닫으면 수신을 중지함. 텍스트 요청·응답·알림을 지원함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.messenger.telegram\",\"version\":\"0.0.101\",\"title\":\"텔레그램 커넥터\",\"description\":\"텔레그램 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\",\"kind\":\"backend\",\"tags\":[\"메신저\",\"telegram\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.messenger.hub\",\"version\":\"^0.0.101\",\"reason\":\"연결 설정·수신 요청·작업 결과를 관리합니다.\"}],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.messenger.telegram%400.0.101",
+      "published_at": "2026-10-27T04:08:11Z",
+      "created_at": "2026-10-27T01:09:22Z",
+      "updated_at": "2026-10-27T04:08:11Z",
+      "assets": [
+        {
+          "id": 680393204,
+          "name": "messenger-telegram.zip",
+          "state": "uploaded",
+          "size": 17982,
+          "digest": "sha256:6f18ce9ad6a44df6ab6f046c4ca34e4bec027b7c82854422d9e336af54b7fe62",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.telegram%400.0.101/messenger-telegram.zip",
+          "created_at": "2026-10-27T04:08:10Z",
+          "updated_at": "2026-10-27T04:08:10Z"
+        },
+        {
+          "id": 680393203,
+          "name": "messenger-telegram.zip.sha256",
+          "state": "uploaded",
+          "size": 89,
+          "digest": "sha256:fffe104c142c7b32bca8fc66ef612950af4705307efb793393acd916cf06796b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.telegram%400.0.101/messenger-telegram.zip.sha256",
+          "created_at": "2026-10-27T04:08:10Z",
+          "updated_at": "2026-10-27T04:08:10Z"
+        }
+      ]
+    },
+    {
+      "id": 425024902,
+      "tag_name": "com.naver.mars-_-.messenger.hub@0.0.101",
+      "name": "com.naver.mars-_-.messenger.hub 0.0.101",
+      "body": "# 메신저 허브 0.0.101\n\nPulsia Core 0.3.249 이상이 필요함.\n\n- 여러 봇 연결·대화방과 발신자 허용·프로젝트별 Agent 실행·결과와 알림 전달을 제공함.\n- 봇 토큰은 연결 화면에서 등록함. 실제 서비스 계정 송수신은 사용자 등록 뒤 확인이 필요함.\n- 수신 중인 메신저 탭을 유지하며 탭을 닫으면 수신을 중지함. 텍스트 요청·응답·알림을 지원함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.messenger.hub\",\"version\":\"0.0.101\",\"title\":\"메신저 허브\",\"description\":\"메신저 연결·업무 요청·실행 승인과 알림을 관리합니다.\",\"kind\":\"composite\",\"tags\":[\"메신저\",\"AI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"메신저 화면의 AI 도우미를 사용합니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.messenger.hub%400.0.101",
+      "published_at": "2026-10-27T04:08:06Z",
+      "created_at": "2026-10-27T01:09:22Z",
+      "updated_at": "2026-10-27T04:08:06Z",
+      "assets": [
+        {
+          "id": 680393016,
+          "name": "messenger-hub.zip",
+          "state": "uploaded",
+          "size": 37934,
+          "digest": "sha256:ccc968d1b68c214d02bb8554335737c41c609097dc01b3b83528ac9b93c998c5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.hub%400.0.101/messenger-hub.zip",
+          "created_at": "2026-10-27T04:08:05Z",
+          "updated_at": "2026-10-27T04:08:05Z"
+        },
+        {
+          "id": 680393013,
+          "name": "messenger-hub.zip.sha256",
+          "state": "uploaded",
+          "size": 84,
+          "digest": "sha256:3d7a7a2245fe45b5cbeffad7d53374c169cbab93593a812c98eea4cdb6b8f117",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.hub%400.0.101/messenger-hub.zip.sha256",
+          "created_at": "2026-10-27T04:08:05Z",
+          "updated_at": "2026-10-27T04:08:05Z"
+        }
+      ]
+    },
     {
       "id": 424931857,
       "tag_name": "pulsia.sql-studio@0.0.130",
