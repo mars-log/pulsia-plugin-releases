@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-27T05:39:53.000Z",
+  "generatedAt": "2026-10-27T05:40:05.000Z",
   "releases": [
+    {
+      "id": 425072355,
+      "tag_name": "pulsia-plugin-wingate-client@0.1.116",
+      "name": "WinGate Client 0.1.116",
+      "body": "# Wingate Client 0.1.116\r\n\r\n개인 키를 계정 보관함에 암호화 저장하고 다른 PC에서 키 파일 복사 없이 SSH 접속에 사용합니다.\r\n\r\n- 개인 키 원문은 조회·Agent 응답에서 제외합니다.\r\n- 접속 시 현재 사용자만 읽는 임시 파일을 만들고 로그아웃·계정 만료·종료 때 삭제합니다.\r\n- 모든 PC에서 Client 0.1.116과 SSH 애드온 0.0.107 이상을 함께 업데이트하세요. 기존 로컬 키 경로 방식도 지원합니다.\r\n\r\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\r\n\r\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-wingate-client\",\"version\":\"0.1.116\",\"title\":\"Wingate Client\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"접속\",\"서버\",\"Client\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-manager\",\"version\":\"^0.1.108\",\"reason\":\"Manager가 준비한 조직 서버 목록과 SSH 접속 준비를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-client-addon-ssh-client\",\"version\":\"^0.0.107\",\"reason\":\"개인 SSH 접속 대상을 저장하고 사용할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\r\n\r\n소스: mars-log/pulsia-plugin-studio@ec97b1dc\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.116",
+      "published_at": "2026-10-27T05:40:05Z",
+      "created_at": "2026-10-27T05:14:09Z",
+      "updated_at": "2026-10-27T05:40:05Z",
+      "assets": [
+        {
+          "id": 680588348,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 163748,
+          "digest": "sha256:498e2e3b5f83cd2cae07d6fc104028e2743c5b9d66688b7059ce8d0240e14b46",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.116/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-10-27T05:40:03Z",
+          "updated_at": "2026-10-27T05:40:04Z"
+        },
+        {
+          "id": 680588347,
+          "name": "pulsia-plugin-wingate-client.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:6b47b7ee954c7a5308fb8a9d0279d1f5e0df3859a7cd5755856ddc450f65362a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.116/pulsia-plugin-wingate-client.zip.sha256",
+          "created_at": "2026-10-27T05:40:03Z",
+          "updated_at": "2026-10-27T05:40:04Z"
+        }
+      ]
+    },
     {
       "id": 425041613,
       "tag_name": "pulsia-plugin-wingate-client@0.1.115",
@@ -10496,40 +10530,6 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.126/wintera-net-manager.zip",
           "created_at": "2026-10-11T12:40:14Z",
           "updated_at": "2026-10-11T12:40:14Z"
-        }
-      ]
-    },
-    {
-      "id": 409406986,
-      "tag_name": "pulsia.catalog-studio@1.2.34",
-      "name": "Catalog Studio 1.2.34",
-      "body": "변경 영향의 빈 상태에 공용 여백을 적용하고, 변경 기준을 주변 버튼 높이에 맞는 한 줄 구조와 Lucide 쉐브론으로 정렬합니다.\n\nSource: mars-log/pulsia-plugin-studio@e9763b0",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.34",
-      "published_at": "2026-10-11T04:18:26Z",
-      "created_at": "2026-10-11T03:12:36Z",
-      "updated_at": "2026-10-11T04:18:26Z",
-      "assets": [
-        {
-          "id": 629753128,
-          "name": "pulsia-catalog-studio.zip",
-          "state": "uploaded",
-          "size": 272794,
-          "digest": "sha256:aa57d95578ce2caa9649af582f1cc83b8567a91e948a9f783c1776cd11f7145b",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.34/pulsia-catalog-studio.zip",
-          "created_at": "2026-10-11T04:18:25Z",
-          "updated_at": "2026-10-11T04:18:25Z"
-        },
-        {
-          "id": 629753130,
-          "name": "pulsia-catalog-studio.zip.sha256",
-          "state": "uploaded",
-          "size": 92,
-          "digest": "sha256:f60fd89d9d11620eb152496082f9f88abb5545da0735a217705207c4045be623",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.34/pulsia-catalog-studio.zip.sha256",
-          "created_at": "2026-10-11T04:18:25Z",
-          "updated_at": "2026-10-11T04:18:25Z"
         }
       ]
     },
