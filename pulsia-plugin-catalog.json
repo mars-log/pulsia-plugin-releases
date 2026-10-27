@@ -1,8 +1,76 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-27T04:08:22.000Z",
+  "generatedAt": "2026-10-27T04:41:35.000Z",
   "releases": [
+    {
+      "id": 425041613,
+      "tag_name": "pulsia-plugin-wingate-client@0.1.115",
+      "name": "WinGate Client 0.1.115",
+      "body": "# WinGate Client 0.1.115\n\nSSH Client 탭에 실제 계정 로그인·접속 목록 새로고침·비밀번호 변경·기존 PC 목록 가져오기를 연결했습니다.\n\nSSH Client 애드온 0.0.106 이상이 필요합니다. 조직 Wingate 로그인과 개인 SSH Client 계정은 각각 사용합니다.\n\n[소스 커밋](https://github.com/mars-log/pulsia-plugin-studio/commit/904a3f51d6d2d1ae0bb7ed9d43c433cf08aeece0)\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-wingate-client\",\"version\":\"0.1.115\",\"title\":\"Wingate Client\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"접속\",\"서버\",\"Client\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-mini-acp\",\"version\":\"^1.0.120\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-manager\",\"version\":\"^0.1.108\",\"reason\":\"Manager가 준비한 조직 서버 목록과 SSH 접속 준비를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-client-addon-ssh-client\",\"version\":\"^0.0.106\",\"reason\":\"개인 SSH 접속 대상을 저장하고 사용할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.115",
+      "published_at": "2026-10-27T04:41:35Z",
+      "created_at": "2026-10-27T04:08:27Z",
+      "updated_at": "2026-10-27T04:41:35Z",
+      "assets": [
+        {
+          "id": 680463241,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 161506,
+          "digest": "sha256:7c2db7fb096b9e972258c42b3424658aecd76a5a4e49fa96e8091bca2bb4b361",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.115/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-10-27T04:41:34Z",
+          "updated_at": "2026-10-27T04:41:34Z"
+        },
+        {
+          "id": 680463242,
+          "name": "pulsia-plugin-wingate-client.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:235f2ab6489eb9518f4a48bec68452549854e7938b350df18aa23d08a8f3219c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.115/pulsia-plugin-wingate-client.zip.sha256",
+          "created_at": "2026-10-27T04:41:34Z",
+          "updated_at": "2026-10-27T04:41:34Z"
+        }
+      ]
+    },
+    {
+      "id": 425041569,
+      "tag_name": "pulsia-plugin-wingate-client-addon-ssh-client@0.0.106",
+      "name": "WinGate SSH Client 0.0.106",
+      "body": "# WinGate SSH Client 0.0.106\n\nSSH Client 계정을 서버에서 인증하고 폴더·접속 대상을 계정별 암호화 보관함에 저장합니다. 다른 PC에서 같은 계정으로 로그인하면 같은 목록을 불러옵니다.\n\n비밀번호 변경과 다른 기기 세션 회수, 동시 수정 충돌 처리, 기존 PC의 접속 목록 가져오기를 지원합니다. SSH 서버 비밀번호와 개인 키 파일은 업로드하지 않습니다.\n\n[소스 커밋](https://github.com/mars-log/pulsia-plugin-studio/commit/904a3f51d6d2d1ae0bb7ed9d43c433cf08aeece0)\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-wingate-client-addon-ssh-client\",\"version\":\"0.0.106\",\"title\":\"pulsia-plugin-wingate-client-addon-ssh-client\",\"description\":\"\",\"kind\":\"backend\",\"tags\":[\"Wingate\",\"SSH\",\"Client\",\"접속 대상\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client-addon-ssh-client%400.0.106",
+      "published_at": "2026-10-27T04:41:29Z",
+      "created_at": "2026-10-27T04:08:27Z",
+      "updated_at": "2026-10-27T04:41:29Z",
+      "assets": [
+        {
+          "id": 680463086,
+          "name": "pulsia-plugin-wingate-client-addon-ssh-client.zip",
+          "state": "uploaded",
+          "size": 37597,
+          "digest": "sha256:bd9139875aa573c111cc46b4b8e9badf21880bbd5803eb52ea6b2196f15b3035",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client-addon-ssh-client%400.0.106/pulsia-plugin-wingate-client-addon-ssh-client.zip",
+          "created_at": "2026-10-27T04:41:28Z",
+          "updated_at": "2026-10-27T04:41:29Z"
+        },
+        {
+          "id": 680463084,
+          "name": "pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
+          "state": "uploaded",
+          "size": 116,
+          "digest": "sha256:84b35a75ed4532c19e0bd978c91928679c1e0b8c89f66c47a420da780833be34",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client-addon-ssh-client%400.0.106/pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
+          "created_at": "2026-10-27T04:41:28Z",
+          "updated_at": "2026-10-27T04:41:29Z"
+        }
+      ]
+    },
     {
       "id": 425025036,
       "tag_name": "com.naver.mars-_-.messenger@0.0.101",
