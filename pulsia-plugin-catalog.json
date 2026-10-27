@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-26T15:00:31.000Z",
+  "generatedAt": "2026-10-27T01:09:17.000Z",
   "releases": [
+    {
+      "id": 424931857,
+      "tag_name": "pulsia.sql-studio@0.0.130",
+      "name": "SQL Studio 0.0.130",
+      "body": "# SQL Studio 0.0.130\n\nDB 객체 목록 응답을 25초 동안 받지 못하면 진행 표시를 해소하고 기존 목록·선택을 유지함. 같은 데이터 소스 새로고침으로 다시 조회하며 늦은 이전 응답이 최신 결과를 덮지 않도록 처리함.\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.sql-studio\",\"version\":\"0.0.130\",\"title\":\"SQL Studio\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Database\",\"SQL\",\"PLSQL\",\"Editor\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.db-connector\",\"version\":\"^0.2.114\",\"reason\":\"DB 접속과 SQL 실행에 사용합니다.\"},{\"pluginId\":\"pulsia.editor-runtime\",\"version\":\"^1.0.109\",\"reason\":\"SQL 편집과 테이블 자동완성 팝업·후보 선택에 사용합니다.\"}],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.sql-studio%400.0.130",
+      "published_at": "2026-10-27T01:09:17Z",
+      "created_at": "2026-10-26T15:00:42Z",
+      "updated_at": "2026-10-27T01:09:17Z",
+      "assets": [
+        {
+          "id": 680023200,
+          "name": "pulsia-sql-studio.zip",
+          "state": "uploaded",
+          "size": 89682,
+          "digest": "sha256:4580223069e27c541c437b6deb444c25715bdc4458dfc777106acc8a6f80af79",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.130/pulsia-sql-studio.zip",
+          "created_at": "2026-10-27T01:09:15Z",
+          "updated_at": "2026-10-27T01:09:16Z"
+        },
+        {
+          "id": 680023201,
+          "name": "pulsia-sql-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:5fb18ccb71acad3c409813391e02d137609daa506996945439afeeff43c3fd56",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.130/pulsia-sql-studio.zip.sha256",
+          "created_at": "2026-10-27T01:09:15Z",
+          "updated_at": "2026-10-27T01:09:16Z"
+        }
+      ]
+    },
     {
       "id": 423751556,
       "tag_name": "pulsia.object-model-studio@0.10.125",
@@ -374,6 +408,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.editor-runtime%401.0.115/pulsia-editor-runtime.zip.sha256",
           "created_at": "2026-10-26T14:49:00Z",
           "updated_at": "2026-10-26T14:49:00Z"
+        }
+      ]
+    },
+    {
+      "id": 424931815,
+      "tag_name": "pulsia.acp-common@1.0.113",
+      "name": "ACP 공용 화면 1.0.113",
+      "body": "# ACP 공용 플러그인 1.0.113\n\n보조 에이전트 아이콘과 상태를 현재 응답 화면과 완료한 작업 내역에 표시함. 후속 요청에서도 같은 에이전트의 식별과 원문 상세를 유지함.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.acp-common\",\"version\":\"1.0.113\",\"title\":\"ACP 공용 플러그인\",\"description\":\"보조 에이전트 아이콘과 상태를 현재 응답 화면과 완료한 작업 내역에 표시함. 후속 요청에서도 같은 에이전트의 식별과 원문 상세를 유지함.\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.markdown-runtime\",\"version\":\"^1.0.101\",\"reason\":\"ACP 응답과 파일 링크를 표시함.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.acp-common%401.0.113",
+      "published_at": "2026-10-27T01:09:13Z",
+      "created_at": "2026-10-26T15:00:42Z",
+      "updated_at": "2026-10-27T01:09:13Z",
+      "assets": [
+        {
+          "id": 680023050,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 2839759,
+          "digest": "sha256:c27eb155fe8f51704131317dbcd0e4ffc9bc565fe41e31990ddd96d711e3d852",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.113/pulsia-acp-common.zip",
+          "created_at": "2026-10-27T01:09:10Z",
+          "updated_at": "2026-10-27T01:09:11Z"
+        },
+        {
+          "id": 680023048,
+          "name": "pulsia-acp-common.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:2f8493446aeee3934e8bd868a74db85b713418698ae5e44d3cbe5968e2f5c4d7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.113/pulsia-acp-common.zip.sha256",
+          "created_at": "2026-10-27T01:09:10Z",
+          "updated_at": "2026-10-27T01:09:11Z"
         }
       ]
     },
