@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-28T07:04:42.000Z",
+  "generatedAt": "2026-10-28T07:30:18.000Z",
   "releases": [
     {
       "id": 426349802,
@@ -238,6 +238,90 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.119/pulsia-model-studio.zip.sha256",
           "created_at": "2026-10-28T02:07:22Z",
           "updated_at": "2026-10-28T02:07:22Z"
+        }
+      ]
+    },
+    {
+      "id": 426368889,
+      "tag_name": "pulsia.db-connector-v0.2.115",
+      "name": "DB Connector 0.2.115 · Java 애플리케이션 DB 설정",
+      "body": "# DB Connector 0.2.115\n\nDB 연결·스키마 선택에 대해 승인한 Java 애플리케이션용 private properties 설정 파일을 발급합니다. 지원 DB는 PostgreSQL·MySQL·MariaDB·Oracle이며 비밀정보는 소스·반환 JSON에 포함하지 않습니다. 실제 Java Properties 읽기와 설정 파일 수명은 확인했고, 실제 JDBC 서버 연결은 별도 확인이 필요합니다.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.db-connector\",\"version\":\"0.2.115\",\"title\":\"DB Connector\",\"description\":\"DB 연결·스키마 선택에 대해 승인한 Java 애플리케이션용 private properties 설정 파일을 발급합니다. 지원 DB는 PostgreSQL·MySQL·MariaDB·Oracle이며 비밀정보는 소스·반환 JSON에 포함하지 않습니다. 실제 Java Properties 읽기와 설정 파일 수명은 확인했고, 실제 JDBC 서버 연결은 별도 확인이 필요합니다.\",\"kind\":\"composite\",\"tags\":[\"Database\",\"Oracle\",\"PostgreSQL\",\"MySQL\",\"MariaDB\",\"Redis\",\"SQLite\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.db-connector-v0.2.115",
+      "published_at": "2026-10-28T07:30:14Z",
+      "created_at": "2026-10-28T07:04:53Z",
+      "updated_at": "2026-10-28T07:30:14Z",
+      "assets": [
+        {
+          "id": 684202369,
+          "name": "db-driver-mariadb-3.5.4.zip",
+          "state": "uploaded",
+          "size": 1951037,
+          "digest": "sha256:9fdedcbe01aeba63b920c55b1bbc0c5cf4aef557eb13c87258ec96deed0ac838",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.115/db-driver-mariadb-3.5.4.zip",
+          "created_at": "2026-10-28T07:30:12Z",
+          "updated_at": "2026-10-28T07:30:12Z"
+        },
+        {
+          "id": 684202382,
+          "name": "db-driver-mysql-3.24.4.zip",
+          "state": "uploaded",
+          "size": 580491,
+          "digest": "sha256:8b3456afe1c4e5f2efaba035d3dd3c9ea64fb1743d05d22eeef8f143720a22b1",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.115/db-driver-mysql-3.24.4.zip",
+          "created_at": "2026-10-28T07:30:12Z",
+          "updated_at": "2026-10-28T07:30:12Z"
+        },
+        {
+          "id": 684202371,
+          "name": "db-driver-oracle-7.0.1.zip",
+          "state": "uploaded",
+          "size": 374597,
+          "digest": "sha256:d4688d5d6cf4748deb2331c5f9dc2c5fb091e77edf340e424c4484f8258c0fdd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.115/db-driver-oracle-7.0.1.zip",
+          "created_at": "2026-10-28T07:30:12Z",
+          "updated_at": "2026-10-28T07:30:12Z"
+        },
+        {
+          "id": 684202408,
+          "name": "db-driver-postgresql-8.23.0.zip",
+          "state": "uploaded",
+          "size": 168117,
+          "digest": "sha256:2ede8256af48b0d20b30f1203fb578585ed024254494896d524b8eb760c8b32d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.115/db-driver-postgresql-8.23.0.zip",
+          "created_at": "2026-10-28T07:30:13Z",
+          "updated_at": "2026-10-28T07:30:13Z"
+        },
+        {
+          "id": 684202410,
+          "name": "db-driver-redis-6.3.0.zip",
+          "state": "uploaded",
+          "size": 2212768,
+          "digest": "sha256:45e45b8a2d162238a5a60deb809b030fe5165f0cfad95475fca0021c852f625b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.115/db-driver-redis-6.3.0.zip",
+          "created_at": "2026-10-28T07:30:13Z",
+          "updated_at": "2026-10-28T07:30:13Z"
+        },
+        {
+          "id": 684202376,
+          "name": "pulsia-plugin-db-connector.zip",
+          "state": "uploaded",
+          "size": 238478,
+          "digest": "sha256:cfdd0a88c72ef16e64e312af3ff7c0d6dbedb05b9ffdb1b2e501a0f5ef492963",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.115/pulsia-plugin-db-connector.zip",
+          "created_at": "2026-10-28T07:30:12Z",
+          "updated_at": "2026-10-28T07:30:12Z"
+        },
+        {
+          "id": 684202380,
+          "name": "pulsia-plugin-db-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 65,
+          "digest": "sha256:507bb59fd26b87f3778fbcc0b45f8c325eb30e916e32916522130c4e4843f84b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.115/pulsia-plugin-db-connector.zip.sha256",
+          "created_at": "2026-10-28T07:30:12Z",
+          "updated_at": "2026-10-28T07:30:12Z"
         }
       ]
     },
@@ -496,6 +580,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.112/wingate-managed-ssh-runtime-source-0.85.0-wingate.3.zip.sha256",
           "created_at": "2026-10-28T02:07:32Z",
           "updated_at": "2026-10-28T02:07:32Z"
+        }
+      ]
+    },
+    {
+      "id": 426368941,
+      "tag_name": "pulsia-plugin-wingate-client@0.1.118",
+      "name": "Wingate Client 0.1.118 · Sites 원격 실행",
+      "body": "# Wingate Client 0.1.118\n\nSites의 서버 배포를 위한 구조화 원격 실행·상태 조회·취소·재조회·private 설정 파일 전송을 추가합니다. SSH 키와 Kerberos 연결을 지원하며 기존 터미널 연결을 유지합니다. 임시 SSH 서버로 실제 Windows OpenSSH 전송을 확인했습니다. 실제 Linux 서비스 교체는 별도 확인이 필요합니다.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-wingate-client\",\"version\":\"0.1.118\",\"title\":\"Wingate Client\",\"description\":\"Sites의 서버 배포를 위한 구조화 원격 실행·상태 조회·취소·재조회·private 설정 파일 전송을 추가합니다. SSH 키와 Kerberos 연결을 지원하며 기존 터미널 연결을 유지합니다. 임시 SSH 서버로 실제 Windows OpenSSH 전송을 확인했습니다. 실제 Linux 서비스 교체는 별도 확인이 필요합니다.\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"접속\",\"서버\",\"Client\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-manager\",\"version\":\"^0.1.108\",\"reason\":\"Manager가 준비한 조직 서버 목록과 SSH 접속 준비를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-client-addon-ssh-client\",\"version\":\"^0.0.107\",\"reason\":\"개인 SSH 접속 대상을 저장하고 사용할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.118",
+      "published_at": "2026-10-28T07:30:18Z",
+      "created_at": "2026-10-28T07:04:53Z",
+      "updated_at": "2026-10-28T07:30:18Z",
+      "assets": [
+        {
+          "id": 684202539,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 174356,
+          "digest": "sha256:4dba48d07df14897b88529418a4461b7296c2c841301a7a95db868d2fb60806b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.118/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-10-28T07:30:16Z",
+          "updated_at": "2026-10-28T07:30:17Z"
+        },
+        {
+          "id": 684202535,
+          "name": "pulsia-plugin-wingate-client.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:bb30717db3b4a90bfac6b291377b6bcb7f00657bc89791dc682edc486c8b3acc",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.118/pulsia-plugin-wingate-client.zip.sha256",
+          "created_at": "2026-10-28T07:30:16Z",
+          "updated_at": "2026-10-28T07:30:17Z"
         }
       ]
     },
