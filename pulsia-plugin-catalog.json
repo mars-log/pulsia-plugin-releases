@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-28T03:04:48.000Z",
+  "generatedAt": "2026-10-28T03:06:14.000Z",
   "releases": [
     {
       "id": 426187572,
@@ -496,6 +496,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.145/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
           "created_at": "2026-10-28T02:07:41Z",
           "updated_at": "2026-10-28T02:07:41Z"
+        }
+      ]
+    },
+    {
+      "id": 426218999,
+      "tag_name": "com.naver.mars-_-.sites@0.0.101",
+      "name": "Sites 0.0.101 · 사이트 제작 UI 미리보기",
+      "body": "# Sites 0.0.101\n\nSpring Boot 사이트의 모듈 조합·템플릿·AI 제작 요청·서버 배포 구성을 살펴보는 UI 미리보기입니다. 실제 생성과 원격 실행은 포함하지 않습니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.sites\",\"version\":\"0.0.101\",\"title\":\"Sites\",\"description\":\"Spring Boot 사이트의 모듈 조합·템플릿·AI 제작 요청·서버 배포 구성을 살펴보는 UI 미리보기입니다. 실제 생성과 원격 실행은 포함하지 않습니다.\",\"kind\":\"frontend\",\"tags\":[\"사이트\",\"Spring Boot\",\"템플릿\",\"UI 미리보기\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.sites%400.0.101",
+      "published_at": "2026-10-28T03:06:14Z",
+      "created_at": "2026-10-28T03:04:59Z",
+      "updated_at": "2026-10-28T03:06:14Z",
+      "assets": [
+        {
+          "id": 683646995,
+          "name": "pulsia-sites.zip",
+          "state": "uploaded",
+          "size": 28269,
+          "digest": "sha256:2e991f190317b0195f25f6965b82516d128dee95340cbe72c15748752c70245a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.sites%400.0.101/pulsia-sites.zip",
+          "created_at": "2026-10-28T03:06:12Z",
+          "updated_at": "2026-10-28T03:06:13Z"
+        },
+        {
+          "id": 683646994,
+          "name": "pulsia-sites.zip.sha256",
+          "state": "uploaded",
+          "size": 83,
+          "digest": "sha256:496128ab658e52de332f601402f95e95113436a50b270d2e8b464ee28c121767",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.sites%400.0.101/pulsia-sites.zip.sha256",
+          "created_at": "2026-10-28T03:06:12Z",
+          "updated_at": "2026-10-28T03:06:13Z"
         }
       ]
     },
