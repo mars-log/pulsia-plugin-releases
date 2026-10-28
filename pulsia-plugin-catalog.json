@@ -1,39 +1,39 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-28T02:07:30.000Z",
+  "generatedAt": "2026-10-28T02:07:39.000Z",
   "releases": [
     {
-      "id": 426187479,
-      "tag_name": "pulsia.object-model-studio@0.10.126",
-      "name": "객체 모델 매니저 - legacy 0.10.126",
-      "body": "# 객체 모델 매니저 - legacy 0.10.126\n\n모델 스튜디오(pulsia.model-studio)로 대체된 기존 제품임을 표시함. 기존 Plugin ID·보관함·모델·공개 API와 업데이트 경로를 유지함.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.object-model-studio\",\"version\":\"0.10.126\",\"title\":\"객체 모델 매니저 - legacy\",\"description\":\"모델 스튜디오(pulsia.model-studio)로 대체된 기존 제품임을 표시함. 기존 Plugin ID·보관함·모델·공개 API와 업데이트 경로를 유지함.\",\"kind\":\"composite\",\"tags\":[\"객체 매니저\",\"객체 모델\",\"관계\",\"AI\",\"로컬 저장\"],\"legacy\":true,\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n\n함께 설치할 Mini ACP 또는 Workbench를 현재 제작자 ID로 연결함. 기존 수동 기능과 사용자 자료는 유지함.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/17e0560d7a9b3ab437cd2050ca234f97d26d94a1\n",
+      "id": 426187572,
+      "tag_name": "pulsia.test-pack@1.0.122",
+      "name": "Pulsia Test Pack 1.0.122",
+      "body": "# Pulsia Test Pack 1.0.122\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.test-pack\",\"version\":\"1.0.122\",\"title\":\"Pulsia Test Pack\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"테스트 팩\",\"Vue\",\"백엔드\",\"권한\",\"OTA\"],\"pluginRelations\":{\"recommended\":[{\"pluginId\":\"pulsia.ai-scratchpad\",\"version\":\"^0.0.104\",\"reason\":\"UI 제작실의 미리보기 캔버스를 사용함\"},{\"pluginId\":\"pulsia-plugin-ai-agent-collaboration-chat\",\"version\":\"^0.1.143\",\"reason\":\"UI 제작실의 협업 UI 요소를 사용함\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n\nUI 제작실의 캔버스·협업 UI 요소를 권장 설치 구성으로 제공하고 미설치와 비활성 안내를 구분함. 1.0.121의 새 UI 예제를 함께 유지함.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/17e0560d7a9b3ab437cd2050ca234f97d26d94a1\n",
       "draft": false,
       "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.126",
-      "published_at": "2026-10-28T02:07:30Z",
-      "created_at": "2026-10-28T02:00:51Z",
-      "updated_at": "2026-10-28T02:07:30Z",
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.test-pack%401.0.122",
+      "published_at": "2026-10-28T02:07:39Z",
+      "created_at": "2026-10-28T02:07:33Z",
+      "updated_at": "2026-10-28T02:07:39Z",
       "assets": [
         {
-          "id": 683528146,
-          "name": "pulsia-plugin-object-manager.zip",
+          "id": 683528410,
+          "name": "pulsia-test-pack.zip",
           "state": "uploaded",
-          "size": 369153,
-          "digest": "sha256:1b6e640ba2a3d2a5f7f73d7195e08a3b88b519a8295126ed1f6c91f8f64341fd",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.126/pulsia-plugin-object-manager.zip",
-          "created_at": "2026-10-28T02:07:28Z",
-          "updated_at": "2026-10-28T02:07:29Z"
+          "size": 188153,
+          "digest": "sha256:4348e9716701d127ae049815e0156d1cea86530b4c48996aede13c79e6253ef9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.122/pulsia-test-pack.zip",
+          "created_at": "2026-10-28T02:07:37Z",
+          "updated_at": "2026-10-28T02:07:38Z"
         },
         {
-          "id": 683528147,
-          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "id": 683528409,
+          "name": "pulsia-test-pack.zip.sha256",
           "state": "uploaded",
-          "size": 99,
-          "digest": "sha256:318a4a38634649166ae6631e4891f85499c62a440d7a0690ea4ab8d2f618dc54",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.126/pulsia-plugin-object-manager.zip.sha256",
-          "created_at": "2026-10-28T02:07:29Z",
-          "updated_at": "2026-10-28T02:07:29Z"
+          "size": 87,
+          "digest": "sha256:0bde7afba08148e7f8e5bed9b07d0046e2d4c136d4590d4a6ea21af5732943fa",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.122/pulsia-test-pack.zip.sha256",
+          "created_at": "2026-10-28T02:07:37Z",
+          "updated_at": "2026-10-28T02:07:37Z"
         }
       ]
     },
@@ -68,6 +68,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.121/pulsia-test-pack.zip.sha256",
           "created_at": "2026-10-28T02:00:36Z",
           "updated_at": "2026-10-28T02:00:37Z"
+        }
+      ]
+    },
+    {
+      "id": 426187479,
+      "tag_name": "pulsia.object-model-studio@0.10.126",
+      "name": "객체 모델 매니저 - legacy 0.10.126",
+      "body": "# 객체 모델 매니저 - legacy 0.10.126\n\n모델 스튜디오(pulsia.model-studio)로 대체된 기존 제품임을 표시함. 기존 Plugin ID·보관함·모델·공개 API와 업데이트 경로를 유지함.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.object-model-studio\",\"version\":\"0.10.126\",\"title\":\"객체 모델 매니저 - legacy\",\"description\":\"모델 스튜디오(pulsia.model-studio)로 대체된 기존 제품임을 표시함. 기존 Plugin ID·보관함·모델·공개 API와 업데이트 경로를 유지함.\",\"kind\":\"composite\",\"tags\":[\"객체 매니저\",\"객체 모델\",\"관계\",\"AI\",\"로컬 저장\"],\"legacy\":true,\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n\n함께 설치할 Mini ACP 또는 Workbench를 현재 제작자 ID로 연결함. 기존 수동 기능과 사용자 자료는 유지함.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/17e0560d7a9b3ab437cd2050ca234f97d26d94a1\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.126",
+      "published_at": "2026-10-28T02:07:30Z",
+      "created_at": "2026-10-28T02:00:51Z",
+      "updated_at": "2026-10-28T02:07:30Z",
+      "assets": [
+        {
+          "id": 683528146,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 369153,
+          "digest": "sha256:1b6e640ba2a3d2a5f7f73d7195e08a3b88b519a8295126ed1f6c91f8f64341fd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.126/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-28T02:07:28Z",
+          "updated_at": "2026-10-28T02:07:29Z"
+        },
+        {
+          "id": 683528147,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:318a4a38634649166ae6631e4891f85499c62a440d7a0690ea4ab8d2f618dc54",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.126/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-28T02:07:29Z",
+          "updated_at": "2026-10-28T02:07:29Z"
         }
       ]
     },
@@ -204,6 +238,162 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness-maker%400.0.112/pulsia-ai-harness-maker.zip.sha256",
           "created_at": "2026-10-28T02:07:25Z",
           "updated_at": "2026-10-28T02:07:25Z"
+        }
+      ]
+    },
+    {
+      "id": 426187491,
+      "tag_name": "pulsia-plugin-wingate-seller@0.1.107",
+      "name": "Wingate Seller 0.1.107",
+      "body": "# Wingate Seller 0.1.107\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-wingate-seller\",\"version\":\"0.1.107\",\"title\":\"Wingate Seller\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"판매자\",\"고객\",\"설치\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n\n함께 설치할 Mini ACP 또는 Workbench를 현재 제작자 ID로 연결함. 기존 수동 기능과 사용자 자료는 유지함.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/17e0560d7a9b3ab437cd2050ca234f97d26d94a1\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-seller%400.1.107",
+      "published_at": "2026-10-28T02:07:31Z",
+      "created_at": "2026-10-28T02:00:51Z",
+      "updated_at": "2026-10-28T02:07:31Z",
+      "assets": [
+        {
+          "id": 683528183,
+          "name": "pulsia-plugin-wingate-seller.zip",
+          "state": "uploaded",
+          "size": 120033,
+          "digest": "sha256:e2752e59b56529847b75b55a0f46e9c703afc05b8d7706d2044291471743cbf5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.107/pulsia-plugin-wingate-seller.zip",
+          "created_at": "2026-10-28T02:07:30Z",
+          "updated_at": "2026-10-28T02:07:30Z"
+        },
+        {
+          "id": 683528186,
+          "name": "pulsia-plugin-wingate-seller.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:59fdb73d5b40ffe6eebfc95ae4e77809f27ab8b2e92145f30d39650ffd064024",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-seller%400.1.107/pulsia-plugin-wingate-seller.zip.sha256",
+          "created_at": "2026-10-28T02:07:30Z",
+          "updated_at": "2026-10-28T02:07:30Z"
+        }
+      ]
+    },
+    {
+      "id": 426187514,
+      "tag_name": "pulsia-plugin-wingate-manager@0.1.112",
+      "name": "Wingate Manager 0.1.112",
+      "body": "# Wingate Manager 0.1.112\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-wingate-manager\",\"version\":\"0.1.112\",\"title\":\"Wingate Manager\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"구매자\",\"관리\",\"접속 권한\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-manager-kerberos-package\",\"version\":\"^0.0.101\",\"reason\":\"관리 서버에 Kerberos 인증 서버를 설치하고 점검할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-runtime\",\"version\":\"^0.0.103\",\"reason\":\"관리 서버에 Wingate Runtime을 설치하고 점검할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n\n함께 설치할 Mini ACP 또는 Workbench를 현재 제작자 ID로 연결함. 기존 수동 기능과 사용자 자료는 유지함.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/17e0560d7a9b3ab437cd2050ca234f97d26d94a1\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-manager%400.1.112",
+      "published_at": "2026-10-28T02:07:35Z",
+      "created_at": "2026-10-28T02:07:33Z",
+      "updated_at": "2026-10-28T02:07:35Z",
+      "assets": [
+        {
+          "id": 683528238,
+          "name": "pulsia-plugin-wingate-manager.zip",
+          "state": "uploaded",
+          "size": 1810990,
+          "digest": "sha256:51a7f901bc6227d91ab86d8d3839bff04e61bef8ed2021f5bbd72ae3f758158b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.112/pulsia-plugin-wingate-manager.zip",
+          "created_at": "2026-10-28T02:07:32Z",
+          "updated_at": "2026-10-28T02:07:33Z"
+        },
+        {
+          "id": 683528241,
+          "name": "pulsia-plugin-wingate-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 100,
+          "digest": "sha256:9d4400dc32712f2cac81be163696acce2aa0369ebad4ad0eb7891ede54a07562",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.112/pulsia-plugin-wingate-manager.zip.sha256",
+          "created_at": "2026-10-28T02:07:32Z",
+          "updated_at": "2026-10-28T02:07:32Z"
+        },
+        {
+          "id": 683528243,
+          "name": "wingate-managed-ssh-runtime-source-0.85.0-wingate.3.zip",
+          "state": "uploaded",
+          "size": 11962681,
+          "digest": "sha256:c62e3bdf4fa84a8affbb298e5e800a178f0c59a5e7a5bb053f27db1ed8ba9594",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.112/wingate-managed-ssh-runtime-source-0.85.0-wingate.3.zip",
+          "created_at": "2026-10-28T02:07:32Z",
+          "updated_at": "2026-10-28T02:07:34Z"
+        },
+        {
+          "id": 683528239,
+          "name": "wingate-managed-ssh-runtime-source-0.85.0-wingate.3.zip.sha256",
+          "state": "uploaded",
+          "size": 122,
+          "digest": "sha256:181695f0e8d17c940fcf0c6f3468cf85e9979661490568ba62283648af5950ea",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-manager%400.1.112/wingate-managed-ssh-runtime-source-0.85.0-wingate.3.zip.sha256",
+          "created_at": "2026-10-28T02:07:32Z",
+          "updated_at": "2026-10-28T02:07:32Z"
+        }
+      ]
+    },
+    {
+      "id": 426187529,
+      "tag_name": "pulsia-plugin-wingate-client@0.1.117",
+      "name": "Wingate Client 0.1.117",
+      "body": "# Wingate Client 0.1.117\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-wingate-client\",\"version\":\"0.1.117\",\"title\":\"Wingate Client\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"접속\",\"서버\",\"Client\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-manager\",\"version\":\"^0.1.108\",\"reason\":\"Manager가 준비한 조직 서버 목록과 SSH 접속 준비를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-client-addon-ssh-client\",\"version\":\"^0.0.107\",\"reason\":\"개인 SSH 접속 대상을 저장하고 사용할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n\n함께 설치할 Mini ACP 또는 Workbench를 현재 제작자 ID로 연결함. 기존 수동 기능과 사용자 자료는 유지함.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/17e0560d7a9b3ab437cd2050ca234f97d26d94a1\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.117",
+      "published_at": "2026-10-28T02:07:35Z",
+      "created_at": "2026-10-28T02:07:33Z",
+      "updated_at": "2026-10-28T02:07:35Z",
+      "assets": [
+        {
+          "id": 683528286,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 163367,
+          "digest": "sha256:54ade29bb12b3d7c294ca93a3717d2bb844ff5e301aaea1eb1d57cc9a2e9af21",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.117/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-10-28T02:07:34Z",
+          "updated_at": "2026-10-28T02:07:34Z"
+        },
+        {
+          "id": 683528290,
+          "name": "pulsia-plugin-wingate-client.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:75ddb84045ab6cfe82f0beb018017b5bc4ba8108cb7f9ba97f82eebafd4ebf7a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.117/pulsia-plugin-wingate-client.zip.sha256",
+          "created_at": "2026-10-28T02:07:34Z",
+          "updated_at": "2026-10-28T02:07:34Z"
+        }
+      ]
+    },
+    {
+      "id": 426187562,
+      "tag_name": "pulsia-plugin-tutorial-pulsia-starter@0.1.107",
+      "name": "튜토리얼 0.1.107",
+      "body": "# 튜토리얼 0.1.107\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-tutorial-pulsia-starter\",\"version\":\"0.1.107\",\"title\":\"튜토리얼\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[\"튜토리얼\",\"온보딩\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.workbench\",\"version\":\"^1.1.123\",\"reason\":\"튜토리얼의 Agent 대화와 플러그인 제작 단계를 진행합니다.\"}],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n\n함께 설치할 Mini ACP 또는 Workbench를 현재 제작자 ID로 연결함. 기존 수동 기능과 사용자 자료는 유지함.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/17e0560d7a9b3ab437cd2050ca234f97d26d94a1\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-tutorial-pulsia-starter%400.1.107",
+      "published_at": "2026-10-28T02:07:38Z",
+      "created_at": "2026-10-28T02:07:33Z",
+      "updated_at": "2026-10-28T02:07:38Z",
+      "assets": [
+        {
+          "id": 683528401,
+          "name": "pulsia-plugin-tutorial-pulsia-starter.zip",
+          "state": "uploaded",
+          "size": 23758,
+          "digest": "sha256:d1050869791c7fa29840f8a08113674117d2a11dcceeb0debebe07f6cec3dce6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.107/pulsia-plugin-tutorial-pulsia-starter.zip",
+          "created_at": "2026-10-28T02:07:37Z",
+          "updated_at": "2026-10-28T02:07:37Z"
+        },
+        {
+          "id": 683528399,
+          "name": "pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
+          "state": "uploaded",
+          "size": 108,
+          "digest": "sha256:9af4cb296ce3593713b1b610c01c635b40c8c969b7167c593583aaef30b935df",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-tutorial-pulsia-starter%400.1.107/pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
+          "created_at": "2026-10-28T02:07:37Z",
+          "updated_at": "2026-10-28T02:07:37Z"
         }
       ]
     },
@@ -3240,6 +3430,40 @@
       ]
     },
     {
+      "id": 422791622,
+      "tag_name": "com.naver.mars-_-.acp.ai-chat@1.0.102",
+      "name": "AI 대화 팩 1.0.102",
+      "body": "# AI 대화 팩 1.0.102\n\nAI 대화 작업실과 사이드 패널 도우미를 선택해 설치합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.acp.ai-chat\",\"version\":\"1.0.102\",\"title\":\"AI 대화 팩\",\"description\":\"AI 대화 작업실과 사이드 패널 도우미를 선택해 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"AI\",\"ACP\",\"대화\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.workbench\",\"version\":\"^1.1.123\",\"reason\":\"작업실에서 AI와 대화합니다.\"},{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"사이드 패널에서 AI 도우미를 사용합니다.\"}],\"pluginMigrations\":[{\"fromPluginId\":\"pulsia-plugin-acp-workbench\",\"toPluginId\":\"com.naver.mars-_-.acp.ai-chat.workbench\",\"previousInstallation\":\"remove\",\"reason\":\"제작자 ID 체계로 바뀌었습니다. 대화와 설정은 그대로 사용합니다.\"},{\"fromPluginId\":\"pulsia-plugin-mini-acp\",\"toPluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"previousInstallation\":\"remove\",\"reason\":\"제작자 ID 체계로 바뀌었습니다. 대화와 설정은 그대로 사용합니다.\"}]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.acp.ai-chat%401.0.102",
+      "published_at": "2026-10-24T14:50:06Z",
+      "created_at": "2026-10-24T03:54:32Z",
+      "updated_at": "2026-10-24T14:50:06Z",
+      "assets": [
+        {
+          "id": 672522162,
+          "name": "pulsia-ai-chat-pack.zip",
+          "state": "uploaded",
+          "size": 3166,
+          "digest": "sha256:eaff4b60c462625d104c51729678a34f49dff043bb578cb471409414becd56e5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat%401.0.102/pulsia-ai-chat-pack.zip",
+          "created_at": "2026-10-24T14:50:05Z",
+          "updated_at": "2026-10-24T14:50:05Z"
+        },
+        {
+          "id": 672522159,
+          "name": "pulsia-ai-chat-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:266e427ff319a61c6d184502e4270f8c995be94ee3652505b30b59786ade9cf5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat%401.0.102/pulsia-ai-chat-pack.zip.sha256",
+          "created_at": "2026-10-24T14:50:05Z",
+          "updated_at": "2026-10-24T14:50:05Z"
+        }
+      ]
+    },
+    {
       "id": 422791554,
       "tag_name": "com.naver.mars-_-.acp.ai-chat.workbench@1.1.123",
       "name": "ACP Workbench 1.1.123",
@@ -3406,40 +3630,6 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.124/pulsia-sql-studio.zip.sha256",
           "created_at": "2026-10-23T03:38:22Z",
           "updated_at": "2026-10-23T03:38:22Z"
-        }
-      ]
-    },
-    {
-      "id": 421415604,
-      "tag_name": "pulsia.sql-studio@0.0.123",
-      "name": "SQL Studio 0.0.123",
-      "body": "# SQL Studio 0.0.123\n\n자동 커밋 조회의 실제 상태에 맞춰 저장한 SQL 탭을 정상적으로 닫도록 수정함. 명시적으로 시작한 트랜잭션과 Commit 실패의 보호는 유지하며 제공된 Rollback으로 같은 세션을 정리할 수 있음. DB Connector 0.2.112 이상이 필요함. Core 0.3.231에서 실제 SQLite 조회·저장·닫기와 정상 종료를 확인함.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.sql-studio\",\"version\":\"0.0.123\",\"title\":\"SQL Studio\",\"description\":\"자동 커밋 조회의 실제 상태에 맞춰 저장한 SQL 탭을 정상적으로 닫도록 수정함. 명시적으로 시작한 트랜잭션과 Commit 실패의 보호는 유지하며 제공된 Rollback으로 같은 세션을 정리할 수 있음. DB Connector 0.2.112 이상이 필요함. Core 0.3.231에서 실제 SQLite 조회·저장·닫기와 정상 종료를 확인함.\",\"kind\":\"composite\",\"tags\":[\"Database\",\"SQL\",\"PLSQL\",\"Editor\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.db-connector\",\"version\":\"^0.2.112\",\"reason\":\"DB 접속과 SQL 실행에 사용합니다.\"}],\"recommended\":[]}} -->\n",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.sql-studio%400.0.123",
-      "published_at": "2026-10-23T03:18:25Z",
-      "created_at": "2026-10-23T03:17:30Z",
-      "updated_at": "2026-10-23T03:18:25Z",
-      "assets": [
-        {
-          "id": 667823972,
-          "name": "pulsia-sql-studio.zip",
-          "state": "uploaded",
-          "size": 68041,
-          "digest": "sha256:14f591ff26ad29e8760d66ef56987ce8fceb25a9fe4df96244d634b0744ee04e",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.123/pulsia-sql-studio.zip",
-          "created_at": "2026-10-23T03:18:24Z",
-          "updated_at": "2026-10-23T03:18:24Z"
-        },
-        {
-          "id": 667823973,
-          "name": "pulsia-sql-studio.zip.sha256",
-          "state": "uploaded",
-          "size": 88,
-          "digest": "sha256:bf2e0adf181694cc831bfaebfaf00012e3c71d71a34ce27c09d95db53b15e9f9",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.123/pulsia-sql-studio.zip.sha256",
-          "created_at": "2026-10-23T03:18:24Z",
-          "updated_at": "2026-10-23T03:18:24Z"
         }
       ]
     },
@@ -13706,40 +13896,6 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.24/wintera-net-manager.zip.sha256",
           "created_at": "2026-09-27T04:11:07Z",
           "updated_at": "2026-09-27T04:11:07Z"
-        }
-      ]
-    },
-    {
-      "id": 399271187,
-      "tag_name": "pulsia.home@1.0.01",
-      "name": "pulsia.home@1.0.01",
-      "body": "Pulsia 기본 홈. 프로젝트 설정·플러그인·작업 진행·AI 연결로 이동하며 앱 설정에서 다른 홈으로 교체할 수 있음.\n\nPulsia 0.2.988 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-home/commit/f40170c59d1249a105c9303aa9ac996768045fe4\n\nSHA-256 (pulsia-home.zip): a5ab3e9ce41965d0e5e02418c8c62d039fc4bff0103b63cb7b9ff01ae03e920f",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.home%401.0.01",
-      "published_at": "2026-09-29T15:15:10Z",
-      "created_at": "2026-09-20T13:57:18Z",
-      "updated_at": "2026-09-29T15:15:10Z",
-      "assets": [
-        {
-          "id": 598516471,
-          "name": "pulsia-home.zip",
-          "state": "uploaded",
-          "size": 6596,
-          "digest": "sha256:a5ab3e9ce41965d0e5e02418c8c62d039fc4bff0103b63cb7b9ff01ae03e920f",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.home%401.0.01/pulsia-home.zip",
-          "created_at": "2026-09-29T15:15:08Z",
-          "updated_at": "2026-09-29T15:15:08Z"
-        },
-        {
-          "id": 598516509,
-          "name": "pulsia-home.zip.sha256",
-          "state": "uploaded",
-          "size": 82,
-          "digest": "sha256:b34e42387e90b107399800c53e873bd13fc17c05fb83c9b65d9061ef3ab7de3f",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.home%401.0.01/pulsia-home.zip.sha256",
-          "created_at": "2026-09-29T15:15:09Z",
-          "updated_at": "2026-09-29T15:15:09Z"
         }
       ]
     },
