@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-28T13:56:56.000Z",
+  "generatedAt": "2026-10-28T14:59:58.000Z",
   "releases": [
     {
       "id": 426349802,
@@ -920,6 +920,74 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.sites%400.0.101/pulsia-sites.zip.sha256",
           "created_at": "2026-10-28T03:06:12Z",
           "updated_at": "2026-10-28T03:06:13Z"
+        }
+      ]
+    },
+    {
+      "id": 426813226,
+      "tag_name": "com.naver.mars-_-.device.connectivity.cctv.tester@0.0.101",
+      "name": "CCTV 연결 테스터 0.0.101",
+      "body": "# CCTV 연결 테스터 0.0.101\n\n- CCTV 연결 관리·테스터 UI의 첫 공개임. Core 0.3.248 이상이 필요함.\n- 커넥터 대메뉴는 기본 숨김이며 테스터의 연결 관리 버튼에서 공용 모달을 엶.\n- 카메라 주소·계정 저장과 비밀번호 별도 보관, 목록 검색·수정·삭제를 제공함.\n- 영상 수신·코덱 변환·방식별 어댑터는 이번 버전에 포함되지 않음. 영상 수신 성공을 표시하지 않음.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.device.connectivity.cctv.tester\",\"version\":\"0.0.101\",\"title\":\"CCTV 연결 테스터\",\"description\":\"CCTV 목록 선택과 연결 관리 UI를 제공합니다. 영상 어댑터는 후속 제공 예정입니다.\",\"kind\":\"composite\",\"tags\":[\"디바이스\",\"CCTV\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.device.connectivity.cctv.connector\",\"version\":\"^0.0.101\",\"reason\":\"등록한 CCTV 목록을 조회하고 연결 관리 모달을 엽니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.device.connectivity.cctv.tester%400.0.101",
+      "published_at": "2026-10-28T14:59:58Z",
+      "created_at": "2026-10-28T13:57:13Z",
+      "updated_at": "2026-10-28T14:59:58Z",
+      "assets": [
+        {
+          "id": 685342648,
+          "name": "cctv-connection-tester.zip",
+          "state": "uploaded",
+          "size": 14442,
+          "digest": "sha256:5933601a8d26685d8cd10e74994c4fe8de71adbde325426eb40437e3487ed6ca",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity.cctv.tester%400.0.101/cctv-connection-tester.zip",
+          "created_at": "2026-10-28T14:59:56Z",
+          "updated_at": "2026-10-28T14:59:57Z"
+        },
+        {
+          "id": 685342649,
+          "name": "cctv-connection-tester.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:69bbf0a1de1d147c48c2b7bc9d080a6716f870b734d59d927c839d72912f44a9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity.cctv.tester%400.0.101/cctv-connection-tester.zip.sha256",
+          "created_at": "2026-10-28T14:59:56Z",
+          "updated_at": "2026-10-28T14:59:56Z"
+        }
+      ]
+    },
+    {
+      "id": 426813086,
+      "tag_name": "com.naver.mars-_-.device.connectivity.cctv.connector@0.0.101",
+      "name": "CCTV 커넥터 0.0.101",
+      "body": "# CCTV 커넥터 0.0.101\n\n- CCTV 연결 관리·테스터 UI의 첫 공개임. Core 0.3.248 이상이 필요함.\n- 커넥터 대메뉴는 기본 숨김이며 테스터의 연결 관리 버튼에서 공용 모달을 엶.\n- 카메라 주소·계정 저장과 비밀번호 별도 보관, 목록 검색·수정·삭제를 제공함.\n- 영상 수신·코덱 변환·방식별 어댑터는 이번 버전에 포함되지 않음. 영상 수신 성공을 표시하지 않음.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.device.connectivity.cctv.connector\",\"version\":\"0.0.101\",\"title\":\"CCTV 커넥터\",\"description\":\"CCTV 접속 정보·인증 정보를 보관하고 연결 관리 모달을 제공합니다.\",\"kind\":\"composite\",\"tags\":[\"디바이스\",\"CCTV\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.device.connectivity.cctv.connector%400.0.101",
+      "published_at": "2026-10-28T14:59:51Z",
+      "created_at": "2026-10-28T13:57:13Z",
+      "updated_at": "2026-10-28T14:59:51Z",
+      "assets": [
+        {
+          "id": 685342384,
+          "name": "cctv-connector.zip",
+          "state": "uploaded",
+          "size": 18970,
+          "digest": "sha256:4c451c82cc4e9a7dac8801dcb80b1e8a8667c7c166f56b838b74e24ee927d66c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity.cctv.connector%400.0.101/cctv-connector.zip",
+          "created_at": "2026-10-28T14:59:50Z",
+          "updated_at": "2026-10-28T14:59:50Z"
+        },
+        {
+          "id": 685342379,
+          "name": "cctv-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 85,
+          "digest": "sha256:a2f41b38436d8c060bb355abc8df1d3e236e518045e0dcac7ee3ffce69b0535e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity.cctv.connector%400.0.101/cctv-connector.zip.sha256",
+          "created_at": "2026-10-28T14:59:50Z",
+          "updated_at": "2026-10-28T14:59:50Z"
         }
       ]
     },
@@ -10478,6 +10546,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.140/pulsia-catalog-studio.zip",
           "created_at": "2026-10-14T06:30:50Z",
           "updated_at": "2026-10-14T06:30:50Z"
+        }
+      ]
+    },
+    {
+      "id": 412485701,
+      "tag_name": "pulsia.ai-harness@0.0.107",
+      "name": "AI Harness 0.0.107",
+      "body": "## AI Harness · AI Harness Maker 0.0.107\n\n- Core 0.3.174 이상과 사용 시 ACP 요청을 전송 전에 원문·증적 사본·별도 해석 초안으로 보관함.\n- 후속 대기열·수정·취소·재시도의 원문과 실행 이력을 유지함. 불확실한 전송은 사람의 확인 근거를 기록하고 자동 재전송하지 않음.\n- 요청 보관함에서 원문·해석·증적, 해석 개정과 선택 문맥 압축을 확인함.\n- 이 PC의 Codex·Claude Code 요청 시작 훅과 MCP 해석 도구를 프로젝트별로 연결·해제함. Codex는 사용자의 hooks 신뢰 검토가 필요함. hook이 제공하지 않는 이미지·파일 바이트는 별도로 보관해야 함.\n- 기존 편집 캐시의 빠진 필드를 보완해 pending 오류를 방지하고 미저장 지침을 보존함.\n- 너비·높이 조절은 Pulsia 공용 API와 테마를 사용함. 기본 편집기의 CSS 격리를 유지함.\n- Maker는 판매자 질문·조건의 제작 화면을 유지하며 구매자 요청 기록 기능을 복제하지 않음.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-harness%400.0.107",
+      "published_at": "2026-10-14T08:21:56Z",
+      "created_at": "2026-10-14T08:20:29Z",
+      "updated_at": "2026-10-14T08:21:56Z",
+      "assets": [
+        {
+          "id": 639728608,
+          "name": "pulsia-ai-harness.zip",
+          "state": "uploaded",
+          "size": 108854,
+          "digest": "sha256:f340e44e1b0a310836112837f5710772b53d3a1dd4ca522d6bf94810e7f0be1d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.107/pulsia-ai-harness.zip",
+          "created_at": "2026-10-14T08:21:54Z",
+          "updated_at": "2026-10-14T08:21:55Z"
+        },
+        {
+          "id": 639728607,
+          "name": "pulsia-ai-harness.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:8757c47b68dfcdd6bb44d5943f24449136f7fef5f8551febf13a678a76d2053a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.107/pulsia-ai-harness.zip.sha256",
+          "created_at": "2026-10-14T08:21:54Z",
+          "updated_at": "2026-10-14T08:21:54Z"
         }
       ]
     },
