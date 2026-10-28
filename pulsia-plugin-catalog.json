@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-28T02:19:11.000Z",
+  "generatedAt": "2026-10-28T02:25:32.000Z",
   "releases": [
     {
       "id": 426187572,
@@ -534,6 +534,40 @@
       ]
     },
     {
+      "id": 426197388,
+      "tag_name": "com.naver.mars-_-.ai.harness.catalog-studio@0.1.111",
+      "name": "com.naver.mars-_-.ai.harness.catalog-studio 0.1.111",
+      "body": "# Catalog Studio 0.1.111\n\nPulsia Core 0.3.248 이상이 필요함.\n\n- 변경 취소는 공용 확인창에서 버리기·계속 편집을 선택함.\n- 자식 없는 분류의 쉐브론을 제거하고 처음 진입할 때 분류를 접어 표시함.\n- 기존 문서를 원본 유지·분류별 메타데이터·변경 이력과 함께 복사하며 개인 해석·할 일의 변경을 표시함.\n- 실제 문서 목록과 본문 영역 안에서 원형 스피너로 조회 상태를 표시함.\n- 로딩용 가상 목록·회색 막대·안내 카드를 제거함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.ai.harness.catalog-studio\",\"version\":\"0.1.111\",\"title\":\"Catalog Studio\",\"description\":\"업무 분류에서 문서를 찾고 편집·이동·이전 내용 복구를 수행합니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"Harness\",\"문서\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.ai.harness.catalog-studio%400.1.111",
+      "published_at": "2026-10-28T02:25:32Z",
+      "created_at": "2026-10-28T02:19:24Z",
+      "updated_at": "2026-10-28T02:25:32Z",
+      "assets": [
+        {
+          "id": 683564968,
+          "name": "harness-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 217859,
+          "digest": "sha256:11479c29f462b259b9e7040a0a2ea9006cba7d02a07aed8dbdb94cc5a8381584",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.catalog-studio%400.1.111/harness-catalog-studio.zip",
+          "created_at": "2026-10-28T02:25:31Z",
+          "updated_at": "2026-10-28T02:25:31Z"
+        },
+        {
+          "id": 683564967,
+          "name": "harness-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:deba32f2e4dc076caeb39517137ad349c8ea7a9f89cccfccffcad08e87b56620",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.catalog-studio%400.1.111/harness-catalog-studio.zip.sha256",
+          "created_at": "2026-10-28T02:25:31Z",
+          "updated_at": "2026-10-28T02:25:31Z"
+        }
+      ]
+    },
+    {
       "id": 426165196,
       "tag_name": "com.naver.mars-_-.ai.harness.catalog-studio@0.1.110",
       "name": "com.naver.mars-_-.ai.harness.catalog-studio 0.1.110",
@@ -564,6 +598,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.catalog-studio%400.1.110/harness-catalog-studio.zip.sha256",
           "created_at": "2026-10-28T01:24:55Z",
           "updated_at": "2026-10-28T01:24:55Z"
+        }
+      ]
+    },
+    {
+      "id": 426197315,
+      "tag_name": "com.naver.mars-_-.ai.harness.app@0.1.110",
+      "name": "com.naver.mars-_-.ai.harness.app 0.1.110",
+      "body": "# AI Harness 0.1.110\n\nPulsia Core 0.3.249 이상이 필요함.\n\n- 기존 문서를 요청당 최대 3개 실제 복사하고 동일 요청 재실행·중단 재개에서 중복을 방지함.\n- Windows·Unix 복사 스크립트를 설치하고 요청 기록과 Agent 안내에 자동 호출을 연결함.\n- 신규 저장 위치의 임의 접미사 생성을 제거하고 기존 프로젝트 경로·원본 문서를 보존함.\n- 요청 내역에서 해석본을 먼저 표시하고 같은 요청의 원문·할 일·작업 기준을 탭으로 전환함.\n- 데이터를 받기 전부터 실제 검색창·목록·본문을 표시하며 해당 영역에 원형 스피너를 표시함.\n- 로딩용 안내 카드와 회색 막대를 제거함. 기존 요청 원문·해석 수정 이력·미저장 초안을 보존함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.ai.harness.app\",\"version\":\"0.1.110\",\"title\":\"AI Harness\",\"description\":\"요청 원문과 해석·할 일·작업 기준을 관리하고 제품 버전을 적용합니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"Harness\",\"문서\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.ai.harness.catalog-studio\",\"version\":\"^0.1.111\",\"reason\":\"문서 분류·저장·제품 버전 적용에 사용합니다.\"}],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.ai.harness.app%400.1.110",
+      "published_at": "2026-10-28T02:25:26Z",
+      "created_at": "2026-10-28T02:19:24Z",
+      "updated_at": "2026-10-28T02:25:26Z",
+      "assets": [
+        {
+          "id": 683564823,
+          "name": "harness-app.zip",
+          "state": "uploaded",
+          "size": 162122,
+          "digest": "sha256:58d3572914fb740b96e444424f32572d510edc9d39996d9d0b2c5b8c5bdb506b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.app%400.1.110/harness-app.zip",
+          "created_at": "2026-10-28T02:25:24Z",
+          "updated_at": "2026-10-28T02:25:25Z"
+        },
+        {
+          "id": 683564824,
+          "name": "harness-app.zip.sha256",
+          "state": "uploaded",
+          "size": 82,
+          "digest": "sha256:5c0e41a2f0a6203aab063300dc943892a788a54a09c8b5a0976dccdd0538a59b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.app%400.1.110/harness-app.zip.sha256",
+          "created_at": "2026-10-28T02:25:24Z",
+          "updated_at": "2026-10-28T02:25:25Z"
         }
       ]
     },
