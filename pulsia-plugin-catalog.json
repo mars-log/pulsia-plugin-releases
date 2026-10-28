@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-28T05:56:55.000Z",
+  "generatedAt": "2026-10-28T06:34:39.000Z",
   "releases": [
+    {
+      "id": 426331415,
+      "tag_name": "pulsia.test-pack@1.0.124",
+      "name": "Pulsia Test Pack 1.0.124",
+      "body": "# Pulsia Test Pack 1.0.124\n\n분할선 표시 스위치·선택 메뉴·검색 입력·빈 상태 간격을 보완했습니다.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.test-pack\",\"version\":\"1.0.124\",\"title\":\"Pulsia Test Pack\",\"description\":\"분할선 표시 스위치·선택 메뉴·검색 입력·빈 상태 간격을 보완했습니다.\",\"kind\":\"composite\",\"tags\":[\"테스트 팩\",\"Vue\",\"백엔드\",\"권한\",\"OTA\"],\"pluginRelations\":{\"recommended\":[{\"pluginId\":\"pulsia.ai-scratchpad\",\"version\":\"^0.0.104\",\"reason\":\"UI 제작실의 미리보기 캔버스를 사용함\"},{\"pluginId\":\"pulsia-plugin-ai-agent-collaboration-chat\",\"version\":\"^0.1.143\",\"reason\":\"UI 제작실의 협업 UI 요소를 사용함\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.test-pack%401.0.124",
+      "published_at": "2026-10-28T06:34:39Z",
+      "created_at": "2026-10-28T05:57:05Z",
+      "updated_at": "2026-10-28T06:34:39Z",
+      "assets": [
+        {
+          "id": 684079053,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 202641,
+          "digest": "sha256:25a0c9871980da7f25a384ca206aeef3934d3d99038bfd26a598bcdc4026dcdc",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.124/pulsia-test-pack.zip",
+          "created_at": "2026-10-28T06:34:37Z",
+          "updated_at": "2026-10-28T06:34:38Z"
+        },
+        {
+          "id": 684079052,
+          "name": "pulsia-test-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 87,
+          "digest": "sha256:23902bd198b8cf7d92e1c4f0938691d95e661d4c1c2354747844cbb7a2dd13b8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.124/pulsia-test-pack.zip.sha256",
+          "created_at": "2026-10-28T06:34:37Z",
+          "updated_at": "2026-10-28T06:34:38Z"
+        }
+      ]
+    },
     {
       "id": 426309338,
       "tag_name": "pulsia.test-pack@1.0.123",
