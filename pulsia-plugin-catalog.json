@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-28T01:25:09.000Z",
+  "generatedAt": "2026-10-28T02:00:38.000Z",
   "releases": [
+    {
+      "id": 426183698,
+      "tag_name": "pulsia.test-pack@1.0.121",
+      "name": "Pulsia Test Pack 1.0.121",
+      "body": "# Pulsia Test Pack 1.0.121\n\n모달 컨트롤, 하위 메뉴 가이드선, 세로 단계, 가로·제목 구분선, 아이콘·이전 다음 카드의 Pulsia 기준 예제 7개 추가\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.test-pack\",\"version\":\"1.0.121\",\"title\":\"Pulsia Test Pack\",\"description\":\"모달 컨트롤, 하위 메뉴 가이드선, 세로 단계, 가로·제목 구분선, 아이콘·이전 다음 카드의 Pulsia 기준 예제 7개 추가\",\"kind\":\"composite\",\"tags\":[\"테스트 팩\",\"Vue\",\"백엔드\",\"권한\",\"OTA\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.test-pack%401.0.121",
+      "published_at": "2026-10-28T02:00:38Z",
+      "created_at": "2026-10-28T01:25:14Z",
+      "updated_at": "2026-10-28T02:00:38Z",
+      "assets": [
+        {
+          "id": 683513510,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 186785,
+          "digest": "sha256:07c742fbd0bd49f7754ee470bc98b23876579254805106ffb0a4d8318b401a1a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.121/pulsia-test-pack.zip",
+          "created_at": "2026-10-28T02:00:36Z",
+          "updated_at": "2026-10-28T02:00:37Z"
+        },
+        {
+          "id": 683513516,
+          "name": "pulsia-test-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 87,
+          "digest": "sha256:51eba8aa9657a1543fdc68fc520845c9902c7b54fc42d39ff4a8cd423b3045f4",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.121/pulsia-test-pack.zip.sha256",
+          "created_at": "2026-10-28T02:00:36Z",
+          "updated_at": "2026-10-28T02:00:37Z"
+        }
+      ]
+    },
     {
       "id": 426165325,
       "tag_name": "com.naver.mars-_-.ai.harness@0.1.109",
