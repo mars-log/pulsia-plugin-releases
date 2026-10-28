@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-27T15:28:16.000Z",
+  "generatedAt": "2026-10-28T01:12:06.000Z",
   "releases": [
     {
       "id": 425639490,
@@ -102,6 +102,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.116/pulsia-model-studio.zip.sha256",
           "created_at": "2026-10-27T14:12:24Z",
           "updated_at": "2026-10-27T14:12:24Z"
+        }
+      ]
+    },
+    {
+      "id": 426158626,
+      "tag_name": "pulsia.acp-common@1.0.116",
+      "name": "ACP 공용 플러그인 1.0.116 · 진행 구간과 변경 파일",
+      "body": "# ACP 공용 플러그인 1.0.116\n\n- 응답 중 압축 알림, Agent 설명, 생각 구간별 도구 묶음과 현재 상태를 발생 순서로 표시함.\n- 완료 뒤 작업 내역을 접고 최종 답변 아래 파일별 경로·줄 증감·전체/개별 비교 카드를 제공함.\n- Codex 중간·최종 답변 phase를 보존하며 다른 Agent의 실제 메시지 순서를 유지함.\n- 이전 요청의 파일 diff가 다음 응답에 섞이지 않도록 수정함. 보조 에이전트 SVG의 진행·완료 표시를 확인함.\n\n검증: 집중 검사 112건, 최종 ZIP Workbench·Mini ACP light/dark·좁은 폭·재진입·변경 비교·임시 설치를 확인함. Agent와 일부 Host 요청은 격리 시험 대역임.\n\n입력 부하 제한: 1,200개 메시지·큰 native 이미지·diff 600개 조건에서 기존 성능 목표에 미달함. 비교 활성 조건의 p95는 1.0.115 79.9ms → 1.0.116 64.7ms, 최대는 126.5 → 114.6ms이며 모든 입력 글자를 보존함.\n\n소스: [66e292de](https://github.com/mars-log/pulsia-plugin-studio/commit/66e292de3029c10bb046610e651ecfe08de23dcb)\n\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.acp-common\",\"version\":\"1.0.116\",\"title\":\"ACP 공용 플러그인\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.markdown-runtime\",\"version\":\"^1.0.101\",\"reason\":\"ACP 응답과 파일 링크를 표시함.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.acp-common%401.0.116",
+      "published_at": "2026-10-28T01:12:06Z",
+      "created_at": "2026-10-27T15:28:27Z",
+      "updated_at": "2026-10-28T01:12:06Z",
+      "assets": [
+        {
+          "id": 683405298,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 1513642,
+          "digest": "sha256:1e0827772f7da5be2a1e6735921a4cfab74f4c1ddf433b59091c896488c11521",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.116/pulsia-acp-common.zip",
+          "created_at": "2026-10-28T01:12:05Z",
+          "updated_at": "2026-10-28T01:12:05Z"
+        },
+        {
+          "id": 683405299,
+          "name": "pulsia-acp-common.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:24be45ee82aaea7e0cee4e7dfc36dc4469f9e9e35362f922c1800ebfc3c17d73",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.116/pulsia-acp-common.zip.sha256",
+          "created_at": "2026-10-28T01:12:05Z",
+          "updated_at": "2026-10-28T01:12:05Z"
         }
       ]
     },
