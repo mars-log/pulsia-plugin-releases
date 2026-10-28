@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-28T02:00:38.000Z",
+  "generatedAt": "2026-10-28T02:07:30.000Z",
   "releases": [
+    {
+      "id": 426187479,
+      "tag_name": "pulsia.object-model-studio@0.10.126",
+      "name": "객체 모델 매니저 - legacy 0.10.126",
+      "body": "# 객체 모델 매니저 - legacy 0.10.126\n\n모델 스튜디오(pulsia.model-studio)로 대체된 기존 제품임을 표시함. 기존 Plugin ID·보관함·모델·공개 API와 업데이트 경로를 유지함.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.object-model-studio\",\"version\":\"0.10.126\",\"title\":\"객체 모델 매니저 - legacy\",\"description\":\"모델 스튜디오(pulsia.model-studio)로 대체된 기존 제품임을 표시함. 기존 Plugin ID·보관함·모델·공개 API와 업데이트 경로를 유지함.\",\"kind\":\"composite\",\"tags\":[\"객체 매니저\",\"객체 모델\",\"관계\",\"AI\",\"로컬 저장\"],\"legacy\":true,\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n\n함께 설치할 Mini ACP 또는 Workbench를 현재 제작자 ID로 연결함. 기존 수동 기능과 사용자 자료는 유지함.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/17e0560d7a9b3ab437cd2050ca234f97d26d94a1\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.object-model-studio%400.10.126",
+      "published_at": "2026-10-28T02:07:30Z",
+      "created_at": "2026-10-28T02:00:51Z",
+      "updated_at": "2026-10-28T02:07:30Z",
+      "assets": [
+        {
+          "id": 683528146,
+          "name": "pulsia-plugin-object-manager.zip",
+          "state": "uploaded",
+          "size": 369153,
+          "digest": "sha256:1b6e640ba2a3d2a5f7f73d7195e08a3b88b519a8295126ed1f6c91f8f64341fd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.126/pulsia-plugin-object-manager.zip",
+          "created_at": "2026-10-28T02:07:28Z",
+          "updated_at": "2026-10-28T02:07:29Z"
+        },
+        {
+          "id": 683528147,
+          "name": "pulsia-plugin-object-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:318a4a38634649166ae6631e4891f85499c62a440d7a0690ea4ab8d2f618dc54",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.object-model-studio%400.10.126/pulsia-plugin-object-manager.zip.sha256",
+          "created_at": "2026-10-28T02:07:29Z",
+          "updated_at": "2026-10-28T02:07:29Z"
+        }
+      ]
+    },
     {
       "id": 426183698,
       "tag_name": "pulsia.test-pack@1.0.121",
@@ -34,6 +68,142 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.121/pulsia-test-pack.zip.sha256",
           "created_at": "2026-10-28T02:00:36Z",
           "updated_at": "2026-10-28T02:00:37Z"
+        }
+      ]
+    },
+    {
+      "id": 426187405,
+      "tag_name": "pulsia.model-studio@0.0.119",
+      "name": "Model Studio 0.0.119",
+      "body": "# Model Studio 0.0.119\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.model-studio\",\"version\":\"0.0.119\",\"title\":\"Model Studio\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Model\",\"Mind Map\",\"ERD\",\"AI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n\n함께 설치할 Mini ACP 또는 Workbench를 현재 제작자 ID로 연결함. 기존 수동 기능과 사용자 자료는 유지함.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/17e0560d7a9b3ab437cd2050ca234f97d26d94a1\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.model-studio%400.0.119",
+      "published_at": "2026-10-28T02:07:23Z",
+      "created_at": "2026-10-28T02:00:51Z",
+      "updated_at": "2026-10-28T02:07:23Z",
+      "assets": [
+        {
+          "id": 683527935,
+          "name": "pulsia-model-studio.zip",
+          "state": "uploaded",
+          "size": 117601,
+          "digest": "sha256:4e16d8ce874c5ea13bc15840b9ced082c2a79b9d08f08bd4cc5d3a21f689d639",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.119/pulsia-model-studio.zip",
+          "created_at": "2026-10-28T02:07:22Z",
+          "updated_at": "2026-10-28T02:07:22Z"
+        },
+        {
+          "id": 683527934,
+          "name": "pulsia-model-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:027ad1072058ed152dacd6b3f93903fc3abe4d2673f85d99c7e2db01295ff23c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.119/pulsia-model-studio.zip.sha256",
+          "created_at": "2026-10-28T02:07:22Z",
+          "updated_at": "2026-10-28T02:07:22Z"
+        }
+      ]
+    },
+    {
+      "id": 426187442,
+      "tag_name": "pulsia.catalog-studio@1.2.149",
+      "name": "Catalog Studio · Legacy 1.2.149",
+      "body": "# Catalog Studio · Legacy 1.2.149\n\nCatalog Studio 기존 제품입니다.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.catalog-studio\",\"version\":\"1.2.149\",\"title\":\"Catalog Studio · Legacy\",\"description\":\"Catalog Studio 기존 제품입니다.\",\"kind\":\"composite\",\"tags\":[\"프로젝트\",\"카탈로그\",\"요구 사항\",\"설계\",\"구현\",\"검증\"],\"legacy\":true,\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia.object-model-studio\",\"version\":\"^0.10.119\",\"reason\":\"프로젝트 문서로 모델 정리안을 만들고 모델과 연결할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n\n함께 설치할 Mini ACP 또는 Workbench를 현재 제작자 ID로 연결함. 기존 수동 기능과 사용자 자료는 유지함.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/17e0560d7a9b3ab437cd2050ca234f97d26d94a1\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.catalog-studio%401.2.149",
+      "published_at": "2026-10-28T02:07:28Z",
+      "created_at": "2026-10-28T02:00:51Z",
+      "updated_at": "2026-10-28T02:07:28Z",
+      "assets": [
+        {
+          "id": 683528049,
+          "name": "pulsia-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 295631,
+          "digest": "sha256:78a296053619abee2aefbb54f4db535cdf732ec372459f979180b2c4a691078d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.149/pulsia-catalog-studio.zip",
+          "created_at": "2026-10-28T02:07:25Z",
+          "updated_at": "2026-10-28T02:07:26Z"
+        },
+        {
+          "id": 683528050,
+          "name": "pulsia-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:94ec89350af3dc7f5be8d0c3aa7225e0579366f17f0ae444eca9fcb3d9f9679f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.catalog-studio%401.2.149/pulsia-catalog-studio.zip.sha256",
+          "created_at": "2026-10-28T02:07:25Z",
+          "updated_at": "2026-10-28T02:07:26Z"
+        }
+      ]
+    },
+    {
+      "id": 426187404,
+      "tag_name": "pulsia.ai-harness@0.0.113",
+      "name": "AI Harness · Legacy 0.0.113",
+      "body": "# AI Harness · Legacy 0.0.113\n\nAI Harness 기존 제품입니다.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.ai-harness\",\"version\":\"0.0.113\",\"title\":\"AI Harness · Legacy\",\"description\":\"AI Harness 기존 제품입니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"문맥\",\"프로젝트\",\"공유\"],\"legacy\":true,\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia.catalog-studio\",\"version\":\"^1.2.141\",\"reason\":\"프로젝트 카탈로그에 요청과 작업 문맥을 기록할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n\n함께 설치할 Mini ACP 또는 Workbench를 현재 제작자 ID로 연결함. 기존 수동 기능과 사용자 자료는 유지함.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/17e0560d7a9b3ab437cd2050ca234f97d26d94a1\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-harness%400.0.113",
+      "published_at": "2026-10-28T02:07:23Z",
+      "created_at": "2026-10-28T02:00:51Z",
+      "updated_at": "2026-10-28T02:07:23Z",
+      "assets": [
+        {
+          "id": 683527937,
+          "name": "pulsia-ai-harness.zip",
+          "state": "uploaded",
+          "size": 119976,
+          "digest": "sha256:23b1ade55e5eb2bb6ea79833cf9ba92ddc61baac0df511aba7be4f3c2c363bdd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.113/pulsia-ai-harness.zip",
+          "created_at": "2026-10-28T02:07:22Z",
+          "updated_at": "2026-10-28T02:07:22Z"
+        },
+        {
+          "id": 683527933,
+          "name": "pulsia-ai-harness.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:1cd7d48f4746ee0af5ba605ba90cfdfdbc58d8f34430f18439f1b8cf2ae04872",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness%400.0.113/pulsia-ai-harness.zip.sha256",
+          "created_at": "2026-10-28T02:07:22Z",
+          "updated_at": "2026-10-28T02:07:22Z"
+        }
+      ]
+    },
+    {
+      "id": 426187440,
+      "tag_name": "pulsia.ai-harness-maker@0.0.112",
+      "name": "AI Harness Maker · Legacy 0.0.112",
+      "body": "# AI Harness Maker · Legacy 0.0.112\n\nAI Harness Maker 기존 제품입니다.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.ai-harness-maker\",\"version\":\"0.0.112\",\"title\":\"AI Harness Maker · Legacy\",\"description\":\"AI Harness Maker 기존 제품입니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"문맥\",\"템플릿\",\"제작\"],\"legacy\":true,\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia.catalog-studio\",\"version\":\"^1.2.141\",\"reason\":\"프로젝트 카탈로그에 요청과 작업 문맥을 기록할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n\n함께 설치할 Mini ACP 또는 Workbench를 현재 제작자 ID로 연결함. 기존 수동 기능과 사용자 자료는 유지함.\n\nSource: https://github.com/mars-log/pulsia-plugin-studio/commit/17e0560d7a9b3ab437cd2050ca234f97d26d94a1\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.ai-harness-maker%400.0.112",
+      "published_at": "2026-10-28T02:07:26Z",
+      "created_at": "2026-10-28T02:00:51Z",
+      "updated_at": "2026-10-28T02:07:26Z",
+      "assets": [
+        {
+          "id": 683528043,
+          "name": "pulsia-ai-harness-maker.zip",
+          "state": "uploaded",
+          "size": 111753,
+          "digest": "sha256:a39c190e120548c597d7a08bc547e208e35f4537b972a03d415eb7df7e201217",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness-maker%400.0.112/pulsia-ai-harness-maker.zip",
+          "created_at": "2026-10-28T02:07:25Z",
+          "updated_at": "2026-10-28T02:07:25Z"
+        },
+        {
+          "id": 683528044,
+          "name": "pulsia-ai-harness-maker.zip.sha256",
+          "state": "uploaded",
+          "size": 94,
+          "digest": "sha256:001335236e1981f630981f9a7b138aa791221232aecb1de0dc64adbdf8c72a4f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness-maker%400.0.112/pulsia-ai-harness-maker.zip.sha256",
+          "created_at": "2026-10-28T02:07:25Z",
+          "updated_at": "2026-10-28T02:07:25Z"
         }
       ]
     },
@@ -3236,6 +3406,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.124/pulsia-sql-studio.zip.sha256",
           "created_at": "2026-10-23T03:38:22Z",
           "updated_at": "2026-10-23T03:38:22Z"
+        }
+      ]
+    },
+    {
+      "id": 421415604,
+      "tag_name": "pulsia.sql-studio@0.0.123",
+      "name": "SQL Studio 0.0.123",
+      "body": "# SQL Studio 0.0.123\n\n자동 커밋 조회의 실제 상태에 맞춰 저장한 SQL 탭을 정상적으로 닫도록 수정함. 명시적으로 시작한 트랜잭션과 Commit 실패의 보호는 유지하며 제공된 Rollback으로 같은 세션을 정리할 수 있음. DB Connector 0.2.112 이상이 필요함. Core 0.3.231에서 실제 SQLite 조회·저장·닫기와 정상 종료를 확인함.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.sql-studio\",\"version\":\"0.0.123\",\"title\":\"SQL Studio\",\"description\":\"자동 커밋 조회의 실제 상태에 맞춰 저장한 SQL 탭을 정상적으로 닫도록 수정함. 명시적으로 시작한 트랜잭션과 Commit 실패의 보호는 유지하며 제공된 Rollback으로 같은 세션을 정리할 수 있음. DB Connector 0.2.112 이상이 필요함. Core 0.3.231에서 실제 SQLite 조회·저장·닫기와 정상 종료를 확인함.\",\"kind\":\"composite\",\"tags\":[\"Database\",\"SQL\",\"PLSQL\",\"Editor\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.db-connector\",\"version\":\"^0.2.112\",\"reason\":\"DB 접속과 SQL 실행에 사용합니다.\"}],\"recommended\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.sql-studio%400.0.123",
+      "published_at": "2026-10-23T03:18:25Z",
+      "created_at": "2026-10-23T03:17:30Z",
+      "updated_at": "2026-10-23T03:18:25Z",
+      "assets": [
+        {
+          "id": 667823972,
+          "name": "pulsia-sql-studio.zip",
+          "state": "uploaded",
+          "size": 68041,
+          "digest": "sha256:14f591ff26ad29e8760d66ef56987ce8fceb25a9fe4df96244d634b0744ee04e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.123/pulsia-sql-studio.zip",
+          "created_at": "2026-10-23T03:18:24Z",
+          "updated_at": "2026-10-23T03:18:24Z"
+        },
+        {
+          "id": 667823973,
+          "name": "pulsia-sql-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:bf2e0adf181694cc831bfaebfaf00012e3c71d71a34ce27c09d95db53b15e9f9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.123/pulsia-sql-studio.zip.sha256",
+          "created_at": "2026-10-23T03:18:24Z",
+          "updated_at": "2026-10-23T03:18:24Z"
         }
       ]
     },
@@ -13502,6 +13706,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.24/wintera-net-manager.zip.sha256",
           "created_at": "2026-09-27T04:11:07Z",
           "updated_at": "2026-09-27T04:11:07Z"
+        }
+      ]
+    },
+    {
+      "id": 399271187,
+      "tag_name": "pulsia.home@1.0.01",
+      "name": "pulsia.home@1.0.01",
+      "body": "Pulsia 기본 홈. 프로젝트 설정·플러그인·작업 진행·AI 연결로 이동하며 앱 설정에서 다른 홈으로 교체할 수 있음.\n\nPulsia 0.2.988 이상으로 먼저 업데이트한 뒤 설치함.\n\n소스: https://github.com/mars-log/pulsia-plugin-home/commit/f40170c59d1249a105c9303aa9ac996768045fe4\n\nSHA-256 (pulsia-home.zip): a5ab3e9ce41965d0e5e02418c8c62d039fc4bff0103b63cb7b9ff01ae03e920f",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.home%401.0.01",
+      "published_at": "2026-09-29T15:15:10Z",
+      "created_at": "2026-09-20T13:57:18Z",
+      "updated_at": "2026-09-29T15:15:10Z",
+      "assets": [
+        {
+          "id": 598516471,
+          "name": "pulsia-home.zip",
+          "state": "uploaded",
+          "size": 6596,
+          "digest": "sha256:a5ab3e9ce41965d0e5e02418c8c62d039fc4bff0103b63cb7b9ff01ae03e920f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.home%401.0.01/pulsia-home.zip",
+          "created_at": "2026-09-29T15:15:08Z",
+          "updated_at": "2026-09-29T15:15:08Z"
+        },
+        {
+          "id": 598516509,
+          "name": "pulsia-home.zip.sha256",
+          "state": "uploaded",
+          "size": 82,
+          "digest": "sha256:b34e42387e90b107399800c53e873bd13fc17c05fb83c9b65d9061ef3ab7de3f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.home%401.0.01/pulsia-home.zip.sha256",
+          "created_at": "2026-09-29T15:15:09Z",
+          "updated_at": "2026-09-29T15:15:09Z"
         }
       ]
     },
