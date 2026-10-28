@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-28T13:40:52.000Z",
+  "generatedAt": "2026-10-28T13:56:56.000Z",
   "releases": [
     {
       "id": 426349802,
@@ -1022,6 +1022,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.maker%400.1.109/harness-maker.zip.sha256",
           "created_at": "2026-10-28T01:25:01Z",
           "updated_at": "2026-10-28T01:25:01Z"
+        }
+      ]
+    },
+    {
+      "id": 426738028,
+      "tag_name": "com.naver.mars-_-.ai.harness.catalog-studio@0.1.113",
+      "name": "com.naver.mars-_-.ai.harness.catalog-studio 0.1.113",
+      "body": "# Catalog Studio 0.1.113\n\nPulsia Core 0.3.248 이상이 필요함.\n\n- 도구줄의 외곽 높이를 38px로 맞추고 조밀 control을 적용함.\n- 테스트팩 탐색 트리의 28px 행·16px 단계·14px 아이콘·90도 회전 쉐브론과 선택·키보드 동작을 적용함.\n- 문서 메뉴에 문서·변경 이력 탐색 탭을 통합하고 기존 분류→문서→이력 또는 날짜별로 탐색함.\n- 선택한 이력은 본문 상세 탭에 표시하고 편집 중인 문서·초안·undo를 보존함.\n- 이력의 문서 열기·되돌리기·중단 작업 복구와 기존 history-view 복원을 유지함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.ai.harness.catalog-studio\",\"version\":\"0.1.113\",\"title\":\"Catalog Studio\",\"description\":\"업무 분류에서 문서를 찾고 편집·이동·이전 내용 복구를 수행합니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"Harness\",\"문서\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.ai.harness.catalog-studio%400.1.113",
+      "published_at": "2026-10-28T13:56:56Z",
+      "created_at": "2026-10-28T13:41:04Z",
+      "updated_at": "2026-10-28T13:56:56Z",
+      "assets": [
+        {
+          "id": 685166370,
+          "name": "harness-catalog-studio.zip",
+          "state": "uploaded",
+          "size": 227824,
+          "digest": "sha256:62d6d8702d561784c583dd5c4883ef08b0e38555d832d4c42a19c5eb05b777e7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.catalog-studio%400.1.113/harness-catalog-studio.zip",
+          "created_at": "2026-10-28T13:56:55Z",
+          "updated_at": "2026-10-28T13:56:55Z"
+        },
+        {
+          "id": 685166365,
+          "name": "harness-catalog-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:f8af286938e2d10079dd57eb2c992ac91b966520d844690945224bb7da535b94",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.catalog-studio%400.1.113/harness-catalog-studio.zip.sha256",
+          "created_at": "2026-10-28T13:56:55Z",
+          "updated_at": "2026-10-28T13:56:56Z"
         }
       ]
     },
