@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-29T08:04:58.000Z",
+  "generatedAt": "2026-10-29T08:51:09.000Z",
   "releases": [
+    {
+      "id": 427632905,
+      "tag_name": "com.naver.mars-_-.media.player.addons.hls-js@0.0.101",
+      "name": "HLS.js 영상 엔진 0.0.101",
+      "body": "# HLS.js 영상 엔진 0.0.101\n\n공용 플레이어에 HLS 재생을 제공하는 교체형 엔진입니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.media.player.addons.hls-js\",\"version\":\"0.0.101\",\"title\":\"HLS.js 영상 엔진\",\"description\":\"공용 플레이어에 HLS 재생을 제공하는 교체형 엔진입니다.\",\"kind\":\"frontend\",\"tags\":[\"미디어\",\"HLS\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.media.player.addons.hls-js\",\"dependencies\":[]}} -->\n\n소스: https://github.com/mars-log/pulsia-plugin-studio/commit/579085b86761de6f1a2cc4191a3d30f7e6b94f55\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.media.player.addons.hls-js%400.0.101",
+      "published_at": "2026-10-29T08:51:09Z",
+      "created_at": "2026-10-29T08:05:05Z",
+      "updated_at": "2026-10-29T08:51:09Z",
+      "assets": [
+        {
+          "id": 687929022,
+          "name": "media-player-hls-js.zip",
+          "state": "uploaded",
+          "size": 289242,
+          "digest": "sha256:f21a5a91784a274d3dc4b9117489e134eca72d61d34b6eb0f5008bd2b8620c64",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.media.player.addons.hls-js%400.0.101/media-player-hls-js.zip",
+          "created_at": "2026-10-29T08:51:08Z",
+          "updated_at": "2026-10-29T08:51:08Z"
+        },
+        {
+          "id": 687929025,
+          "name": "media-player-hls-js.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:1ad6e308ac521848f0c4696a35f0196adffc3f793865d085bfd6ce4d22fc021f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.media.player.addons.hls-js%400.0.101/media-player-hls-js.zip.sha256",
+          "created_at": "2026-10-29T08:51:08Z",
+          "updated_at": "2026-10-29T08:51:08Z"
+        }
+      ]
+    },
     {
       "id": 427476130,
       "tag_name": "pulsia.test-pack@1.0.126",
@@ -194,6 +228,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client-addon-ssh-client%400.0.108/pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
           "created_at": "2026-10-29T08:04:53Z",
           "updated_at": "2026-10-29T08:04:53Z"
+        }
+      ]
+    },
+    {
+      "id": 427632809,
+      "tag_name": "com.naver.mars-_-.media.player@0.0.101",
+      "name": "공용 영상 플레이어 0.0.101",
+      "body": "# 공용 영상 플레이어 0.0.101\n\n여러 플러그인에서 같은 조작과 테마로 영상을 재생합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.media.player\",\"version\":\"0.0.101\",\"title\":\"공용 영상 플레이어\",\"description\":\"여러 플러그인에서 같은 조작과 테마로 영상을 재생합니다.\",\"kind\":\"frontend\",\"tags\":[\"미디어\",\"공용 UI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.media.player\",\"dependencies\":[]}} -->\n\n소스: https://github.com/mars-log/pulsia-plugin-studio/commit/579085b86761de6f1a2cc4191a3d30f7e6b94f55\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.media.player%400.0.101",
+      "published_at": "2026-10-29T08:51:02Z",
+      "created_at": "2026-10-29T08:05:05Z",
+      "updated_at": "2026-10-29T08:51:02Z",
+      "assets": [
+        {
+          "id": 687928777,
+          "name": "media-player.zip",
+          "state": "uploaded",
+          "size": 30789,
+          "digest": "sha256:c044d17240e9d359159772ac4ffc39af052e57e64649db9d9df241a9f9b08102",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.media.player%400.0.101/media-player.zip",
+          "created_at": "2026-10-29T08:51:01Z",
+          "updated_at": "2026-10-29T08:51:01Z"
+        },
+        {
+          "id": 687928778,
+          "name": "media-player.zip.sha256",
+          "state": "uploaded",
+          "size": 83,
+          "digest": "sha256:77674862f1cb51ae483c62ee0b196edbbfeecaf755082e6a76e802968dab3aee",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.media.player%400.0.101/media-player.zip.sha256",
+          "created_at": "2026-10-29T08:51:01Z",
+          "updated_at": "2026-10-29T08:51:01Z"
         }
       ]
     },
