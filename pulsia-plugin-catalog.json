@@ -1,42 +1,8 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-29T07:03:31.000Z",
+  "generatedAt": "2026-10-29T07:03:37.000Z",
   "releases": [
-    {
-      "id": 427552560,
-      "tag_name": "com.naver.mars-_-.device.connectivity.cctv.tester@0.0.102",
-      "name": "CCTV 연결 테스터 0.0.102",
-      "body": "# CCTV 연결 테스터 0.0.102\n\n- CCTV 커넥터·테스터의 화면과 메뉴 ID 중복으로 설치·시작이 실패하던 문제를 수정함. Core 0.3.248 이상이 필요함.\n- 커넥터 대메뉴는 기본 숨김이며 테스터의 연결 관리 버튼에서 공용 모달을 엶.\n- 카메라 주소·계정 저장과 비밀번호 별도 보관, 목록 검색·수정·삭제를 제공함.\n- 영상 수신·코덱 변환·방식별 어댑터는 이번 버전에 포함되지 않음. 영상 수신 성공을 표시하지 않음.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.device.connectivity.cctv.tester\",\"version\":\"0.0.102\",\"title\":\"CCTV 연결 테스터\",\"description\":\"CCTV 목록 선택과 연결 관리 UI를 제공합니다. 영상 어댑터는 후속 제공 예정입니다.\",\"kind\":\"composite\",\"tags\":[\"디바이스\",\"CCTV\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.device.connectivity.cctv.connector\",\"version\":\"^0.0.102\",\"reason\":\"등록한 CCTV 목록을 조회하고 연결 관리 모달을 엽니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.device.connectivity.cctv.tester\",\"dependencies\":[]}} -->\n",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.device.connectivity.cctv.tester%400.0.102",
-      "published_at": "2026-10-29T07:03:31Z",
-      "created_at": "2026-10-29T04:47:20Z",
-      "updated_at": "2026-10-29T07:03:31Z",
-      "assets": [
-        {
-          "id": 687673515,
-          "name": "cctv-connection-tester.zip",
-          "state": "uploaded",
-          "size": 14894,
-          "digest": "sha256:5879697debfab91f226cf06652a69dd238f10344c57f9eeb52d6bf593b34235c",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity.cctv.tester%400.0.102/cctv-connection-tester.zip",
-          "created_at": "2026-10-29T07:03:30Z",
-          "updated_at": "2026-10-29T07:03:30Z"
-        },
-        {
-          "id": 687673518,
-          "name": "cctv-connection-tester.zip.sha256",
-          "state": "uploaded",
-          "size": 93,
-          "digest": "sha256:6ce643ff2757c23c67d07d142083cf878ae3da7ba523f488b06e6d4b8aed1f9b",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity.cctv.tester%400.0.102/cctv-connection-tester.zip.sha256",
-          "created_at": "2026-10-29T07:03:30Z",
-          "updated_at": "2026-10-29T07:03:30Z"
-        }
-      ]
-    },
     {
       "id": 427476130,
       "tag_name": "pulsia.test-pack@1.0.126",
@@ -160,6 +126,74 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.121/pulsia-acp-common.zip",
           "created_at": "2026-10-29T04:06:18Z",
           "updated_at": "2026-10-29T04:06:19Z"
+        }
+      ]
+    },
+    {
+      "id": 427552633,
+      "tag_name": "com.naver.mars-_-.device.connectivity@0.0.102",
+      "name": "디바이스 연결 팩 0.0.102",
+      "body": "# 디바이스 연결 팩 0.0.102\n\n- CCTV 커넥터·테스터의 화면과 메뉴 ID 중복으로 설치·시작이 실패하던 문제를 수정함. Core 0.3.248 이상이 필요함.\n- 커넥터 대메뉴는 기본 숨김이며 테스터의 연결 관리 버튼에서 공용 모달을 엶.\n- 카메라 주소·계정 저장과 비밀번호 별도 보관, 목록 검색·수정·삭제를 제공함.\n- 영상 수신·코덱 변환·방식별 어댑터는 이번 버전에 포함되지 않음. 영상 수신 성공을 표시하지 않음.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.device.connectivity\",\"version\":\"0.0.102\",\"title\":\"디바이스 연결 팩\",\"description\":\"CCTV 연결 정보를 관리하고 영상 수신을 준비하는 커넥터·테스터 UI입니다. 영상 수신 어댑터는 후속 제공 예정입니다.\",\"kind\":\"pack\",\"tags\":[\"디바이스\",\"CCTV\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.device.connectivity.cctv.connector\",\"version\":\"^0.0.102\",\"reason\":\"CCTV 접속 정보를 보관하고 연결 관리 화면을 제공합니다.\"},{\"pluginId\":\"com.naver.mars-_-.device.connectivity.cctv.tester\",\"version\":\"^0.0.102\",\"reason\":\"등록한 CCTV를 선택하고 영상 어댑터 준비 상태를 확인합니다.\"}],\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.device.connectivity\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.device.connectivity%400.0.102",
+      "published_at": "2026-10-29T07:03:37Z",
+      "created_at": "2026-10-29T07:03:35Z",
+      "updated_at": "2026-10-29T07:03:37Z",
+      "assets": [
+        {
+          "id": 687673885,
+          "name": "device-connectivity-pack.zip",
+          "state": "uploaded",
+          "size": 1090,
+          "digest": "sha256:b5699d2ca27ed97dca6d4d8dd5a3d7b4f16cd8f4482125edeed16f5180d655cb",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity%400.0.102/device-connectivity-pack.zip",
+          "created_at": "2026-10-29T07:03:36Z",
+          "updated_at": "2026-10-29T07:03:36Z"
+        },
+        {
+          "id": 687673883,
+          "name": "device-connectivity-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 95,
+          "digest": "sha256:7230953d9aeb4648a853ad099392c48b44eeab9b8419cebe2d129b48e474c172",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity%400.0.102/device-connectivity-pack.zip.sha256",
+          "created_at": "2026-10-29T07:03:36Z",
+          "updated_at": "2026-10-29T07:03:36Z"
+        }
+      ]
+    },
+    {
+      "id": 427552560,
+      "tag_name": "com.naver.mars-_-.device.connectivity.cctv.tester@0.0.102",
+      "name": "CCTV 연결 테스터 0.0.102",
+      "body": "# CCTV 연결 테스터 0.0.102\n\n- CCTV 커넥터·테스터의 화면과 메뉴 ID 중복으로 설치·시작이 실패하던 문제를 수정함. Core 0.3.248 이상이 필요함.\n- 커넥터 대메뉴는 기본 숨김이며 테스터의 연결 관리 버튼에서 공용 모달을 엶.\n- 카메라 주소·계정 저장과 비밀번호 별도 보관, 목록 검색·수정·삭제를 제공함.\n- 영상 수신·코덱 변환·방식별 어댑터는 이번 버전에 포함되지 않음. 영상 수신 성공을 표시하지 않음.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.device.connectivity.cctv.tester\",\"version\":\"0.0.102\",\"title\":\"CCTV 연결 테스터\",\"description\":\"CCTV 목록 선택과 연결 관리 UI를 제공합니다. 영상 어댑터는 후속 제공 예정입니다.\",\"kind\":\"composite\",\"tags\":[\"디바이스\",\"CCTV\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.device.connectivity.cctv.connector\",\"version\":\"^0.0.102\",\"reason\":\"등록한 CCTV 목록을 조회하고 연결 관리 모달을 엽니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.device.connectivity.cctv.tester\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.device.connectivity.cctv.tester%400.0.102",
+      "published_at": "2026-10-29T07:03:31Z",
+      "created_at": "2026-10-29T04:47:20Z",
+      "updated_at": "2026-10-29T07:03:31Z",
+      "assets": [
+        {
+          "id": 687673515,
+          "name": "cctv-connection-tester.zip",
+          "state": "uploaded",
+          "size": 14894,
+          "digest": "sha256:5879697debfab91f226cf06652a69dd238f10344c57f9eeb52d6bf593b34235c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity.cctv.tester%400.0.102/cctv-connection-tester.zip",
+          "created_at": "2026-10-29T07:03:30Z",
+          "updated_at": "2026-10-29T07:03:30Z"
+        },
+        {
+          "id": 687673518,
+          "name": "cctv-connection-tester.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:6ce643ff2757c23c67d07d142083cf878ae3da7ba523f488b06e6d4b8aed1f9b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity.cctv.tester%400.0.102/cctv-connection-tester.zip.sha256",
+          "created_at": "2026-10-29T07:03:30Z",
+          "updated_at": "2026-10-29T07:03:30Z"
         }
       ]
     },
