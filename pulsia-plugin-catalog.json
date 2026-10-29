@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-29T02:18:51.000Z",
+  "generatedAt": "2026-10-29T02:18:58.000Z",
   "releases": [
     {
       "id": 426349802,
@@ -1362,6 +1362,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.app%400.1.109/harness-app.zip.sha256",
           "created_at": "2026-10-28T01:24:48Z",
           "updated_at": "2026-10-28T01:24:48Z"
+        }
+      ]
+    },
+    {
+      "id": 427396047,
+      "tag_name": "com.naver.mars-_-.acp.ai-chat@1.0.103",
+      "name": "AI 대화 팩 1.0.103",
+      "body": "# AI 대화 팩 1.0.103\n\nAI 대화 작업실·사이드 패널 도우미·외부 AI 연결을 선택해 설치합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.acp.ai-chat\",\"version\":\"1.0.103\",\"title\":\"AI 대화 팩\",\"description\":\"AI 대화 작업실·사이드 패널 도우미·외부 AI 연결을 선택해 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"AI\",\"ACP\",\"대화\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.workbench\",\"version\":\"^1.1.123\",\"reason\":\"작업실에서 AI와 대화합니다.\"},{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"사이드 패널에서 AI 도우미를 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.external-ai\",\"version\":\"^0.0.101\",\"reason\":\"외부 AI에서 Pulsia의 터미널·파일·공개 플러그인 기능을 사용합니다.\"}],\"pluginMigrations\":[{\"fromPluginId\":\"pulsia-plugin-acp-workbench\",\"toPluginId\":\"com.naver.mars-_-.acp.ai-chat.workbench\",\"previousInstallation\":\"remove\",\"reason\":\"제작자 ID 체계로 바뀌었습니다. 대화와 설정은 그대로 사용합니다.\"},{\"fromPluginId\":\"pulsia-plugin-mini-acp\",\"toPluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"previousInstallation\":\"remove\",\"reason\":\"제작자 ID 체계로 바뀌었습니다. 대화와 설정은 그대로 사용합니다.\"}]} -->\n\n선택 설치 구성에 외부 AI 연결 Plugin을 추가함. ACP Workbench·Mini ACP와 기존 대화 자료를 유지함.\n\n검증: 기존 Core의 MCP 도구 발견·호출·동적 추가·연결 복구와 Plugin별 패키지 검사 통과함. 사용자 설치 앱 및 외부 AI 제품별 실제 호출은 별도 확인이 필요함.\n\n소스: https://github.com/mars-log/pulsia-plugin-studio/commit/7d2a3027\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.acp.ai-chat%401.0.103",
+      "published_at": "2026-10-29T02:18:58Z",
+      "created_at": "2026-10-28T15:00:18Z",
+      "updated_at": "2026-10-29T02:18:58Z",
+      "assets": [
+        {
+          "id": 687079017,
+          "name": "pulsia-ai-chat-pack.zip",
+          "state": "uploaded",
+          "size": 3442,
+          "digest": "sha256:59b33ebc13eee87c7b0e241a6e4d71c7bfdbf685eb7cb9ddae8811e6202e4121",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat%401.0.103/pulsia-ai-chat-pack.zip",
+          "created_at": "2026-10-29T02:18:56Z",
+          "updated_at": "2026-10-29T02:18:57Z"
+        },
+        {
+          "id": 687079018,
+          "name": "pulsia-ai-chat-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:2e89bf73267ec567c95f71848b1062c36ff0cea2eb778407bb86e12321850210",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat%401.0.103/pulsia-ai-chat-pack.zip.sha256",
+          "created_at": "2026-10-29T02:18:56Z",
+          "updated_at": "2026-10-29T02:18:57Z"
         }
       ]
     },
