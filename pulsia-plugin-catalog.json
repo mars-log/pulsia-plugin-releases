@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-29T04:06:40.000Z",
+  "generatedAt": "2026-10-29T04:46:42.000Z",
   "releases": [
+    {
+      "id": 427475956,
+      "tag_name": "pulsia.git-comparison@1.0.114",
+      "name": "pulsia.git-comparison 1.0.114",
+      "body": "# pulsia.git-comparison 1.0.114\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.git-comparison\",\"version\":\"1.0.114\",\"title\":\"pulsia.git-comparison\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.editor-runtime\",\"version\":\"^1.0.106\",\"reason\":\"공용 문서 모델·편집기와 Worker 수명을 재사용함\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n## 선택 입력\n\n- Core 0.3.263 이상의 공용 선택 목록과 light/dark·사용자 테마 적용을 사용함. 기존 값·확정·취소 동작을 유지함.\n- 실제 Windows 패키지의 설치와 변경 영향 검사를 통과함.\n- 소스: https://github.com/mars-log/pulsia-plugin-studio/tree/9af68f5f1e8d72183c477be8e92e0f1081fd3ca4/builtin/git-comparison\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.git-comparison%401.0.114",
+      "published_at": "2026-10-29T04:46:42Z",
+      "created_at": "2026-10-29T04:06:56Z",
+      "updated_at": "2026-10-29T04:46:42Z",
+      "assets": [
+        {
+          "id": 687381776,
+          "name": "pulsia-git-comparison.zip",
+          "state": "uploaded",
+          "size": 264142,
+          "digest": "sha256:b53f3f5f64bc3d85739a15061a5513317dba9e4eecef75dbc64f70e696c5570a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.git-comparison%401.0.114/pulsia-git-comparison.zip",
+          "created_at": "2026-10-29T04:46:40Z",
+          "updated_at": "2026-10-29T04:46:41Z"
+        },
+        {
+          "id": 687381775,
+          "name": "pulsia-git-comparison.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:cead998bf5527991a18d9406fe5f6a34149f3433ea06db30d6423234dc8b5404",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.git-comparison%401.0.114/pulsia-git-comparison.zip.sha256",
+          "created_at": "2026-10-29T04:46:40Z",
+          "updated_at": "2026-10-29T04:46:41Z"
+        }
+      ]
+    },
     {
       "id": 427455695,
       "tag_name": "pulsia.acp-common@1.0.121",
