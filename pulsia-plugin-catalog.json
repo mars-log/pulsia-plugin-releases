@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-29T07:10:48.000Z",
+  "generatedAt": "2026-10-29T08:04:58.000Z",
   "releases": [
     {
       "id": 427476130,
@@ -126,6 +126,74 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.121/pulsia-acp-common.zip",
           "created_at": "2026-10-29T04:06:18Z",
           "updated_at": "2026-10-29T04:06:19Z"
+        }
+      ]
+    },
+    {
+      "id": 427595242,
+      "tag_name": "pulsia-plugin-wingate-client@0.1.119",
+      "name": "Wingate Client 0.1.119",
+      "body": "# Wingate Client 0.1.119\n\nSSH 접속 대상의 아이콘·폴더·순서를 관리하고 탭을 이동해도 로그인 상태를 유지합니다.\n\n- Lucide·SVG 아이콘의 적용과 저장을 수정했습니다.\n- Wingate·SSH Client 탭을 왕복할 때 유효한 로그인 상태를 유지합니다.\n- 로그인이 만료되면 편집 내용을 보관하고 같은 계정으로 로그인한 뒤 이어서 저장합니다.\n- 폴더·접속 대상을 끌어 순서를 바꾸거나 다른 폴더·최상위로 이동할 수 있습니다.\n- 로그인 화면을 패널 가운데 카드로 배치했습니다.\n\n[제품 소스](https://github.com/mars-log/pulsia-plugin-studio/commit/6eb1a1b91d451e0ae7bbf009ce507d4043726093)\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-wingate-client\",\"version\":\"0.1.119\",\"title\":\"Wingate Client\",\"description\":\"SSH 접속 대상의 아이콘·폴더·순서를 관리하고 탭을 이동해도 로그인 상태를 유지합니다.\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"접속\",\"서버\",\"Client\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-manager\",\"version\":\"^0.1.108\",\"reason\":\"Manager가 준비한 조직 서버 목록과 SSH 접속 준비를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-client-addon-ssh-client\",\"version\":\"^0.0.108\",\"reason\":\"개인 SSH 접속 대상을 저장하고 사용할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"pulsia-plugin-wingate-client\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.119",
+      "published_at": "2026-10-29T08:04:58Z",
+      "created_at": "2026-10-29T07:11:00Z",
+      "updated_at": "2026-10-29T08:04:58Z",
+      "assets": [
+        {
+          "id": 687819717,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 179148,
+          "digest": "sha256:544fb5d75fb675d6485f3e93c59a45107d5ab1db69af075a26a081292fcb4229",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.119/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-10-29T08:04:56Z",
+          "updated_at": "2026-10-29T08:04:57Z"
+        },
+        {
+          "id": 687819716,
+          "name": "pulsia-plugin-wingate-client.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:22021b53d868dc56e1faec618cd8861f3abdcb6c86cfd1d042adb9175152ab5b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.119/pulsia-plugin-wingate-client.zip.sha256",
+          "created_at": "2026-10-29T08:04:56Z",
+          "updated_at": "2026-10-29T08:04:56Z"
+        }
+      ]
+    },
+    {
+      "id": 427595207,
+      "tag_name": "pulsia-plugin-wingate-client-addon-ssh-client@0.0.108",
+      "name": "Wingate SSH Client 애드온 0.0.108",
+      "body": "# pulsia-plugin-wingate-client-addon-ssh-client 0.0.108\n\nSSH 접속 대상과 폴더의 위치·순서를 계정 보관함에 저장합니다.\n\n- 폴더·접속 대상의 순서 변경과 폴더 간 이동을 지원합니다.\n- 동시 변경과 로그인 만료를 확인한 뒤 저장합니다.\n- Agent가 접속 대상을 이동하고 결과를 확인하는 도구를 제공합니다.\n\n[제품 소스](https://github.com/mars-log/pulsia-plugin-studio/commit/6eb1a1b91d451e0ae7bbf009ce507d4043726093)\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-wingate-client-addon-ssh-client\",\"version\":\"0.0.108\",\"title\":\"pulsia-plugin-wingate-client-addon-ssh-client\",\"description\":\"SSH 접속 대상과 폴더의 위치·순서를 계정 보관함에 저장합니다.\",\"kind\":\"backend\",\"tags\":[\"Wingate\",\"SSH\",\"Client\",\"접속 대상\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"pulsia-plugin-wingate-client-addon-ssh-client\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client-addon-ssh-client%400.0.108",
+      "published_at": "2026-10-29T08:04:54Z",
+      "created_at": "2026-10-29T07:11:00Z",
+      "updated_at": "2026-10-29T08:04:54Z",
+      "assets": [
+        {
+          "id": 687819593,
+          "name": "pulsia-plugin-wingate-client-addon-ssh-client.zip",
+          "state": "uploaded",
+          "size": 46568,
+          "digest": "sha256:613e6e95c8da7b75ab42360d01ed5e6938e880590fbe01470625992625419645",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client-addon-ssh-client%400.0.108/pulsia-plugin-wingate-client-addon-ssh-client.zip",
+          "created_at": "2026-10-29T08:04:53Z",
+          "updated_at": "2026-10-29T08:04:53Z"
+        },
+        {
+          "id": 687819596,
+          "name": "pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
+          "state": "uploaded",
+          "size": 116,
+          "digest": "sha256:b72da21089b45deadc5105e3083cd23c4d697c52afbe06238157c28d45121b98",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client-addon-ssh-client%400.0.108/pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
+          "created_at": "2026-10-29T08:04:53Z",
+          "updated_at": "2026-10-29T08:04:53Z"
         }
       ]
     },
