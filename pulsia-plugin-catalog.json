@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-29T08:51:19.000Z",
+  "generatedAt": "2026-10-29T08:51:32.000Z",
   "releases": [
     {
       "id": 427476130,
@@ -266,6 +266,40 @@
       ]
     },
     {
+      "id": 427633252,
+      "tag_name": "com.naver.mars-_-.device.connectivity@0.0.103",
+      "name": "디바이스 연결 팩 0.0.103",
+      "body": "# 디바이스 연결 팩 0.0.103\n\n- CCTV Connector·Tester 0.0.103에서 인증 없는 HTTP(S) HLS 영상 수신과 공용 플레이어 연결을 제공함. 공용 영상 플레이어·HLS.js 영상 엔진 0.0.101을 함께 사용함.\n- 테스터의 영상 보기에서 카메라별 창을 열고 같은 카메라는 기존 창을 활성화함. 창 이동·크기 저장·최대화/복원과 목록 너비 조절을 제공함.\n- Player는 창·재생 조작·테마를, HLS 애드온은 재생 라이브러리를, Connector는 자료 수신·취소·세션 종료를 담당함. 기존 Frontend Module API를 사용하며 plugins.frontendModules ^1.1.0 지원이 필요함.\n- 기존 카메라 주소·계정·비밀번호 별도 보관과 RTSP 주소 저장을 유지함. 인증이 필요한 영상과 RTSP 수신·코덱 변환·녹화는 지원하지 않음. 영상 자료는 등록한 주소와 같은 origin에서 읽음.\n- 영상 성공은 재생 상태·해상도·프레임 증가로 판단함. 지원하지 않는 입력과 수신 실패를 성공으로 표시하지 않음.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.device.connectivity\",\"version\":\"0.0.103\",\"title\":\"디바이스 연결 팩\",\"description\":\"CCTV 연결 정보를 관리하고 영상 수신을 준비하는 커넥터·테스터 UI입니다. 영상 수신 어댑터는 후속 제공 예정입니다.\",\"kind\":\"pack\",\"tags\":[\"디바이스\",\"CCTV\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.device.connectivity.cctv.connector\",\"version\":\"^0.0.103\",\"reason\":\"CCTV 접속 정보를 보관하고 연결 관리 화면을 제공합니다.\"},{\"pluginId\":\"com.naver.mars-_-.device.connectivity.cctv.tester\",\"version\":\"^0.0.103\",\"reason\":\"등록한 CCTV를 선택하고 영상 어댑터 준비 상태를 확인합니다.\"}],\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.device.connectivity\",\"dependencies\":[]}} -->\n\n소스: https://github.com/mars-log/pulsia-plugin-studio/commit/579085b86761de6f1a2cc4191a3d30f7e6b94f55\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.device.connectivity%400.0.103",
+      "published_at": "2026-10-29T08:51:32Z",
+      "created_at": "2026-10-29T08:51:28Z",
+      "updated_at": "2026-10-29T08:51:32Z",
+      "assets": [
+        {
+          "id": 687930027,
+          "name": "device-connectivity-pack.zip",
+          "state": "uploaded",
+          "size": 1091,
+          "digest": "sha256:00fbfb6304deb30ef6fca973bfda972f3b9d13751b31d3aa58e7df2632208c7a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity%400.0.103/device-connectivity-pack.zip",
+          "created_at": "2026-10-29T08:51:31Z",
+          "updated_at": "2026-10-29T08:51:31Z"
+        },
+        {
+          "id": 687930025,
+          "name": "device-connectivity-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 95,
+          "digest": "sha256:0eeb8f061572906a24e7e85dc2bf05499dd1eee66b8ece07cfbd0e1ab64a25e8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity%400.0.103/device-connectivity-pack.zip.sha256",
+          "created_at": "2026-10-29T08:51:31Z",
+          "updated_at": "2026-10-29T08:51:31Z"
+        }
+      ]
+    },
+    {
       "id": 427552633,
       "tag_name": "com.naver.mars-_-.device.connectivity@0.0.102",
       "name": "디바이스 연결 팩 0.0.102",
@@ -296,6 +330,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity%400.0.102/device-connectivity-pack.zip.sha256",
           "created_at": "2026-10-29T07:03:36Z",
           "updated_at": "2026-10-29T07:03:36Z"
+        }
+      ]
+    },
+    {
+      "id": 427633162,
+      "tag_name": "com.naver.mars-_-.device.connectivity.cctv.tester@0.0.103",
+      "name": "CCTV 연결 테스터 0.0.103",
+      "body": "# CCTV 연결 테스터 0.0.103\n\n- CCTV Connector·Tester 0.0.103에서 인증 없는 HTTP(S) HLS 영상 수신과 공용 플레이어 연결을 제공함. 공용 영상 플레이어·HLS.js 영상 엔진 0.0.101을 함께 사용함.\n- 테스터의 영상 보기에서 카메라별 창을 열고 같은 카메라는 기존 창을 활성화함. 창 이동·크기 저장·최대화/복원과 목록 너비 조절을 제공함.\n- Player는 창·재생 조작·테마를, HLS 애드온은 재생 라이브러리를, Connector는 자료 수신·취소·세션 종료를 담당함. 기존 Frontend Module API를 사용하며 plugins.frontendModules ^1.1.0 지원이 필요함.\n- 기존 카메라 주소·계정·비밀번호 별도 보관과 RTSP 주소 저장을 유지함. 인증이 필요한 영상과 RTSP 수신·코덱 변환·녹화는 지원하지 않음. 영상 자료는 등록한 주소와 같은 origin에서 읽음.\n- 영상 성공은 재생 상태·해상도·프레임 증가로 판단함. 지원하지 않는 입력과 수신 실패를 성공으로 표시하지 않음.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.device.connectivity.cctv.tester\",\"version\":\"0.0.103\",\"title\":\"CCTV 연결 테스터\",\"description\":\"CCTV 목록 선택과 연결 관리 UI를 제공합니다. 영상 어댑터는 후속 제공 예정입니다.\",\"kind\":\"composite\",\"tags\":[\"디바이스\",\"CCTV\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.device.connectivity.cctv.connector\",\"version\":\"^0.0.103\",\"reason\":\"등록한 CCTV 목록을 조회하고 연결 관리 모달을 엽니다.\"},{\"pluginId\":\"com.naver.mars-_-.media.player\",\"version\":\"^0.0.101\",\"reason\":\"영상 보기 창과 공용 재생 조작을 제공합니다.\"},{\"pluginId\":\"com.naver.mars-_-.media.player.addons.hls-js\",\"version\":\"^0.0.101\",\"reason\":\"HTTP HLS 영상을 재생합니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.device.connectivity.cctv.tester\",\"dependencies\":[]}} -->\n\n소스: https://github.com/mars-log/pulsia-plugin-studio/commit/579085b86761de6f1a2cc4191a3d30f7e6b94f55\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.device.connectivity.cctv.tester%400.0.103",
+      "published_at": "2026-10-29T08:51:26Z",
+      "created_at": "2026-10-29T08:51:14Z",
+      "updated_at": "2026-10-29T08:51:26Z",
+      "assets": [
+        {
+          "id": 687929732,
+          "name": "cctv-connection-tester.zip",
+          "state": "uploaded",
+          "size": 17777,
+          "digest": "sha256:bd146132302101d40a1eee9889abcbae45507c1f8fd2e6f75f52615998d2855e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity.cctv.tester%400.0.103/cctv-connection-tester.zip",
+          "created_at": "2026-10-29T08:51:24Z",
+          "updated_at": "2026-10-29T08:51:25Z"
+        },
+        {
+          "id": 687929733,
+          "name": "cctv-connection-tester.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:070f20e0d82b704cb2d843602b85ad6137a45333302a53ae99e847daa6ba7ea3",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity.cctv.tester%400.0.103/cctv-connection-tester.zip.sha256",
+          "created_at": "2026-10-29T08:51:25Z",
+          "updated_at": "2026-10-29T08:51:25Z"
         }
       ]
     },
@@ -3366,40 +3434,6 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.154/pulsia-java-development-pack.zip.sha256",
           "created_at": "2026-10-26T14:22:26Z",
           "updated_at": "2026-10-26T14:22:26Z"
-        }
-      ]
-    },
-    {
-      "id": 424002167,
-      "tag_name": "pulsia.java-development-pack@0.1.153",
-      "name": "Java 개발 팩 0.1.153 — WAR 선택과 프로젝트 설정 보완",
-      "body": "# 프로젝트 설정 0.1.153\n\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.java-development-pack\",\"version\":\"0.1.153\",\"title\":\"프로젝트 설정\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Java\",\"Maven\",\"Gradle\",\"Spring Boot\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.java-development-pack%400.1.153",
-      "published_at": "2026-10-26T08:29:47Z",
-      "created_at": "2026-10-26T08:26:04Z",
-      "updated_at": "2026-10-26T08:29:47Z",
-      "assets": [
-        {
-          "id": 677514151,
-          "name": "pulsia-java-development-pack.zip",
-          "state": "uploaded",
-          "size": 4818758,
-          "digest": "sha256:7b964091619f17b32df9bd36ffd4a77298dbb1007c53a190971862a94a4d7c46",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.153/pulsia-java-development-pack.zip",
-          "created_at": "2026-10-26T08:29:45Z",
-          "updated_at": "2026-10-26T08:29:46Z"
-        },
-        {
-          "id": 677514152,
-          "name": "pulsia-java-development-pack.zip.sha256",
-          "state": "uploaded",
-          "size": 99,
-          "digest": "sha256:5a190a96d2b2b7de654e2fa265fe59ef9d5258fad854f6ca355428ed2fc80d9e",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.java-development-pack%400.1.153/pulsia-java-development-pack.zip.sha256",
-          "created_at": "2026-10-26T08:29:45Z",
-          "updated_at": "2026-10-26T08:29:45Z"
         }
       ]
     },
