@@ -1,8 +1,32 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-29T03:25:11.000Z",
+  "generatedAt": "2026-10-29T04:06:20.000Z",
   "releases": [
+    {
+      "id": 427455695,
+      "tag_name": "pulsia.acp-common@1.0.121",
+      "name": "ACP 공용 플러그인 1.0.121",
+      "body": "# ACP 공용 플러그인 1.0.121\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.acp-common\",\"version\":\"1.0.121\",\"title\":\"ACP 공용 플러그인\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.markdown-runtime\",\"version\":\"^1.0.101\",\"reason\":\"ACP 응답과 파일 링크를 표시함.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n## 수정 내용\n\n- 외부 MCP의 터미널·화면 기능 호출 중 연결 유효성 검사가 같은 화면 대기열을 다시 호출하던 문제를 수정함.\n- 소유자 활성 상태·프로젝트 고정·인증 회수 검사를 유지하며 실제 Core 순차 처리기를 포함한 집중 검사 14개를 통과함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.acp-common%401.0.121",
+      "published_at": "2026-10-29T04:06:20Z",
+      "created_at": "2026-10-29T03:25:16Z",
+      "updated_at": "2026-10-29T04:06:20Z",
+      "assets": [
+        {
+          "id": 687301827,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 1529192,
+          "digest": "sha256:6d24859e1f22fa1dbabc2bfc4107c9cbda1b32b030c5b282b0aedcea279e7fd5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.121/pulsia-acp-common.zip",
+          "created_at": "2026-10-29T04:06:18Z",
+          "updated_at": "2026-10-29T04:06:19Z"
+        }
+      ]
+    },
     {
       "id": 427431022,
       "tag_name": "com.naver.mars-_-.acp.ai-chat@1.0.105",
