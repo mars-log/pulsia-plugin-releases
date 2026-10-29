@@ -1,8 +1,32 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-29T02:36:15.000Z",
+  "generatedAt": "2026-10-29T02:36:27.000Z",
   "releases": [
+    {
+      "id": 427405255,
+      "tag_name": "com.naver.mars-_-.acp.ai-chat@1.0.104",
+      "name": "AI 대화 팩 1.0.104",
+      "body": "# AI 대화 팩 1.0.104\n\nAI 대화 작업실·사이드 패널 도우미·외부 AI 연결을 선택해 설치합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.acp.ai-chat\",\"version\":\"1.0.104\",\"title\":\"AI 대화 팩\",\"description\":\"AI 대화 작업실·사이드 패널 도우미·외부 AI 연결을 선택해 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"AI\",\"ACP\",\"대화\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.workbench\",\"version\":\"^1.1.123\",\"reason\":\"작업실에서 AI와 대화합니다.\"},{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"사이드 패널에서 AI 도우미를 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.external-ai\",\"version\":\"^0.0.102\",\"reason\":\"외부 AI에서 Pulsia의 터미널·파일·공개 플러그인 기능을 사용합니다.\"}],\"pluginMigrations\":[{\"fromPluginId\":\"pulsia-plugin-acp-workbench\",\"toPluginId\":\"com.naver.mars-_-.acp.ai-chat.workbench\",\"previousInstallation\":\"remove\",\"reason\":\"제작자 ID 체계로 바뀌었습니다. 대화와 설정은 그대로 사용합니다.\"},{\"fromPluginId\":\"pulsia-plugin-mini-acp\",\"toPluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"previousInstallation\":\"remove\",\"reason\":\"제작자 ID 체계로 바뀌었습니다. 대화와 설정은 그대로 사용합니다.\"}]} -->\n\n## 수정 내용\n\n- 외부 AI 연결의 설치 대상을 알림 권한 누락을 수정한 0.0.102로 갱신함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.acp.ai-chat%401.0.104",
+      "published_at": "2026-10-29T02:36:27Z",
+      "created_at": "2026-10-29T02:36:25Z",
+      "updated_at": "2026-10-29T02:36:27Z",
+      "assets": [
+        {
+          "id": 687122093,
+          "name": "pulsia-ai-chat-pack.zip",
+          "state": "uploaded",
+          "size": 3444,
+          "digest": "sha256:d40ec42c26484edcd8612cfd3170f826ad8d5dbc1361127b3e20f6e24a0aea96",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat%401.0.104/pulsia-ai-chat-pack.zip",
+          "created_at": "2026-10-29T02:36:26Z",
+          "updated_at": "2026-10-29T02:36:26Z"
+        }
+      ]
+    },
     {
       "id": 427405155,
       "tag_name": "com.naver.mars-_-.acp.ai-chat.external-ai@0.0.102",
