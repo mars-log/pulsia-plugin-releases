@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-29T04:06:31.000Z",
+  "generatedAt": "2026-10-29T04:06:40.000Z",
   "releases": [
     {
       "id": 427455695,
@@ -24,6 +24,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.121/pulsia-acp-common.zip",
           "created_at": "2026-10-29T04:06:18Z",
           "updated_at": "2026-10-29T04:06:19Z"
+        }
+      ]
+    },
+    {
+      "id": 427455842,
+      "tag_name": "com.naver.mars-_-.acp.ai-chat@1.0.106",
+      "name": "AI 대화 팩 1.0.106",
+      "body": "# AI 대화 팩 1.0.106\n\nAI 대화 작업실·사이드 패널 도우미·외부 AI 연결을 선택해 설치합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.acp.ai-chat\",\"version\":\"1.0.106\",\"title\":\"AI 대화 팩\",\"description\":\"AI 대화 작업실·사이드 패널 도우미·외부 AI 연결을 선택해 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"AI\",\"ACP\",\"대화\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.workbench\",\"version\":\"^1.1.123\",\"reason\":\"작업실에서 AI와 대화합니다.\"},{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"사이드 패널에서 AI 도우미를 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.external-ai\",\"version\":\"^0.0.104\",\"reason\":\"외부 AI에서 Pulsia의 터미널·파일·공개 플러그인 기능을 사용합니다.\"}],\"pluginMigrations\":[{\"fromPluginId\":\"pulsia-plugin-acp-workbench\",\"toPluginId\":\"com.naver.mars-_-.acp.ai-chat.workbench\",\"previousInstallation\":\"remove\",\"reason\":\"제작자 ID 체계로 바뀌었습니다. 대화와 설정은 그대로 사용합니다.\"},{\"fromPluginId\":\"pulsia-plugin-mini-acp\",\"toPluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"previousInstallation\":\"remove\",\"reason\":\"제작자 ID 체계로 바뀌었습니다. 대화와 설정은 그대로 사용합니다.\"}]} -->\n\n## 수정 내용\n\n- 외부 MCP의 터미널·화면 기능 호출 중 연결 유효성 검사가 같은 화면 대기열을 다시 호출하던 문제를 수정함.\n- 소유자 활성 상태·프로젝트 고정·인증 회수 검사를 유지하며 실제 Core 순차 처리기를 포함한 집중 검사 14개를 통과함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.acp.ai-chat%401.0.106",
+      "published_at": "2026-10-29T04:06:40Z",
+      "created_at": "2026-10-29T04:06:30Z",
+      "updated_at": "2026-10-29T04:06:40Z",
+      "assets": [
+        {
+          "id": 687302491,
+          "name": "pulsia-ai-chat-pack.zip",
+          "state": "uploaded",
+          "size": 3448,
+          "digest": "sha256:402fb35fe6dad2255afad6c63e00b392fc7e70f67d4f255bd2d29b74c39c2d24",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat%401.0.106/pulsia-ai-chat-pack.zip",
+          "created_at": "2026-10-29T04:06:39Z",
+          "updated_at": "2026-10-29T04:06:39Z"
         }
       ]
     },
