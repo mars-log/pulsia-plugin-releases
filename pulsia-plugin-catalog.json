@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-29T04:46:42.000Z",
+  "generatedAt": "2026-10-29T04:46:57.000Z",
   "releases": [
     {
       "id": 427475956,
@@ -34,6 +34,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.git-comparison%401.0.114/pulsia-git-comparison.zip.sha256",
           "created_at": "2026-10-29T04:46:40Z",
           "updated_at": "2026-10-29T04:46:41Z"
+        }
+      ]
+    },
+    {
+      "id": 427476019,
+      "tag_name": "pulsia.coin-pilot@0.0.108",
+      "name": "pulsia.coin-pilot 0.0.108",
+      "body": "# 코인파일럿 0.0.108\n\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.coin-pilot\",\"version\":\"0.0.108\",\"title\":\"코인파일럿\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"투자\",\"Binance\",\"차트\",\"모의매매\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n## 선택 입력\n\n- Core 0.3.263 이상의 공용 선택 목록과 light/dark·사용자 테마 적용을 사용함. 기존 값·확정·취소 동작을 유지함.\n- 실제 Windows 패키지의 설치와 변경 영향 검사를 통과함.\n- 소스: https://github.com/mars-log/pulsia-plugin-studio/tree/9af68f5f1e8d72183c477be8e92e0f1081fd3ca4/optional/coin-pilot\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.coin-pilot%400.0.108",
+      "published_at": "2026-10-29T04:46:50Z",
+      "created_at": "2026-10-29T04:06:56Z",
+      "updated_at": "2026-10-29T04:46:50Z",
+      "assets": [
+        {
+          "id": 687382092,
+          "name": "pulsia-coin-pilot.zip",
+          "state": "uploaded",
+          "size": 225376,
+          "digest": "sha256:f1fe4743fc7448dc23032d5a6bb9374854b918aa19e7a4bd9cbd67474f625c95",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.108/pulsia-coin-pilot.zip",
+          "created_at": "2026-10-29T04:46:48Z",
+          "updated_at": "2026-10-29T04:46:49Z"
+        },
+        {
+          "id": 687382091,
+          "name": "pulsia-coin-pilot.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:3b5940ec90c605f8242c25ce593bb329b365d47c0809f39dfd9c57ba35f46fa5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.108/pulsia-coin-pilot.zip.sha256",
+          "created_at": "2026-10-29T04:46:48Z",
+          "updated_at": "2026-10-29T04:46:49Z"
         }
       ]
     },
@@ -130,6 +164,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat%401.0.104/pulsia-ai-chat-pack.zip",
           "created_at": "2026-10-29T02:36:26Z",
           "updated_at": "2026-10-29T02:36:26Z"
+        }
+      ]
+    },
+    {
+      "id": 427476081,
+      "tag_name": "com.naver.mars-_-.acp.ai-chat.mini-acp@1.0.127",
+      "name": "com.naver.mars-_-.acp.ai-chat.mini-acp 1.0.127",
+      "body": "# Mini ACP 1.0.127\n\n사이드 패널에서 AI 도우미를 사용합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"1.0.127\",\"title\":\"Mini ACP\",\"description\":\"사이드 패널에서 AI 도우미를 사용합니다.\",\"kind\":\"frontend\",\"tags\":[\"ACP\",\"Agent\",\"좌측 패널\",\"공용 UI\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.0\",\"reason\":\"AI 대화 화면과 Agent 실행을 제공함\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n## 선택 입력\n\n- Core 0.3.263 이상의 공용 선택 목록과 light/dark·사용자 테마 적용을 사용함. 기존 값·확정·취소 동작을 유지함.\n- 실제 Windows 패키지의 설치와 변경 영향 검사를 통과함.\n- 소스: https://github.com/mars-log/pulsia-plugin-studio/tree/9af68f5f1e8d72183c477be8e92e0f1081fd3ca4/optional/com/naver/mars-_-/acp/ai-chat/mini-acp\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.127",
+      "published_at": "2026-10-29T04:46:57Z",
+      "created_at": "2026-10-29T04:46:52Z",
+      "updated_at": "2026-10-29T04:46:57Z",
+      "assets": [
+        {
+          "id": 687382372,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 30111,
+          "digest": "sha256:f6249e7c35dc9541d28f77a544d3b4b569e1972661f932c6be69b64283bc3d3b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.127/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-10-29T04:46:56Z",
+          "updated_at": "2026-10-29T04:46:56Z"
+        },
+        {
+          "id": 687382370,
+          "name": "pulsia-plugin-mini-acp.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:89a4b454abf506fc655b7ba583ebff4e29214cc59268584753f143f15416baa6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.127/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-10-29T04:46:56Z",
+          "updated_at": "2026-10-29T04:46:56Z"
         }
       ]
     },
@@ -13768,6 +13836,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.home%401.0.101/pulsia-home.zip",
           "created_at": "2026-10-08T02:59:41Z",
           "updated_at": "2026-10-08T02:59:41Z"
+        }
+      ]
+    },
+    {
+      "id": 407572263,
+      "tag_name": "pulsia-plugin-acp-workbench@1.1.110",
+      "name": "ACP Workbench 1.1.110",
+      "body": "- 기존 ACP Agent 패널에서만 동작하는 첫 사용 튜토리얼용 메모리 Agent 껍데기를 추가함.\n- 연습 요청 세 번에 고정 응답하고, 튜토리얼 종료 또는 앱 재시작 때 설치 상태와 대화를 제거함.\n- 실제 Agent 목록과 대화 흐름을 보존하며 범용 모의 Agent 기능은 제공하지 않음.\n- Plugin Studio 소스: mars-log/pulsia-plugin-studio@dceb09fa4a91bcf0371f1e570f45553f6b7fe161\n- SHA-256: 5ece8ffc2c9526d265ca2b341e8233e264c34892f5e8bf83db19df1f87c72b75",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-acp-workbench%401.1.110",
+      "published_at": "2026-10-09T06:00:29Z",
+      "created_at": "2026-10-08T06:46:15Z",
+      "updated_at": "2026-10-09T06:00:43Z",
+      "assets": [
+        {
+          "id": 624055770,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 282011,
+          "digest": "sha256:5ece8ffc2c9526d265ca2b341e8233e264c34892f5e8bf83db19df1f87c72b75",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.110/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-10-09T06:00:28Z",
+          "updated_at": "2026-10-09T06:00:29Z"
+        },
+        {
+          "id": 624055768,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:cd1ee22640eb39b845765669951f4e6314066bd18fb8c0d97f9caec34e884ca0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-acp-workbench%401.1.110/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-10-09T06:00:28Z",
+          "updated_at": "2026-10-09T06:00:28Z"
         }
       ]
     },
