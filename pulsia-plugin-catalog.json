@@ -1,8 +1,32 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-29T02:18:58.000Z",
+  "generatedAt": "2026-10-29T02:36:15.000Z",
   "releases": [
+    {
+      "id": 427405155,
+      "tag_name": "com.naver.mars-_-.acp.ai-chat.external-ai@0.0.102",
+      "name": "외부 AI 연결 0.0.102",
+      "body": "# 외부 AI 연결 0.0.102\n\n외부 AI에서 현재 Pulsia 프로젝트의 터미널·파일·플러그인 기능을 사용합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.acp.ai-chat.external-ai\",\"version\":\"0.0.102\",\"title\":\"외부 AI 연결\",\"description\":\"외부 AI에서 현재 Pulsia 프로젝트의 터미널·파일·플러그인 기능을 사용합니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"MCP\",\"연결\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.120\",\"reason\":\"기존 MCP 도구의 외부 연결을 관리합니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n## 수정 내용\n\n- 연결 시작의 공용 확인창을 사용하기 위한 ui.notification 권한 누락을 수정함.\n- 실제 Core 권한·알림 서비스로 확인·취소·정책 거부와 원 창 응답을 검사함.\n- 설치 후 외부 AI 연결 화면에서 연결 시작을 다시 실행함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.acp.ai-chat.external-ai%400.0.102",
+      "published_at": "2026-10-29T02:36:15Z",
+      "created_at": "2026-10-29T02:19:10Z",
+      "updated_at": "2026-10-29T02:36:15Z",
+      "assets": [
+        {
+          "id": 687121718,
+          "name": "pulsia-external-ai.zip",
+          "state": "uploaded",
+          "size": 15154,
+          "digest": "sha256:721163b3654f4d8d04c25e4c5b6bfb71eb9091d02e6f3c2032369d4402c6aa31",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.external-ai%400.0.102/pulsia-external-ai.zip",
+          "created_at": "2026-10-29T02:36:14Z",
+          "updated_at": "2026-10-29T02:36:14Z"
+        }
+      ]
+    },
     {
       "id": 426349802,
       "tag_name": "pulsia.test-pack@1.0.125",
