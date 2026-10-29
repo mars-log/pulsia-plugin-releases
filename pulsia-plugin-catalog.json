@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-29T07:03:37.000Z",
+  "generatedAt": "2026-10-29T07:09:28.000Z",
   "releases": [
     {
       "id": 427476130,
@@ -334,6 +334,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.127/pulsia-plugin-mini-acp.zip.sha256",
           "created_at": "2026-10-29T04:46:56Z",
           "updated_at": "2026-10-29T04:46:56Z"
+        }
+      ]
+    },
+    {
+      "id": 427556557,
+      "tag_name": "com.naver.mars-_-.acp.ai-chat.external-ai@0.0.105",
+      "name": "외부 AI 연결 0.0.105",
+      "body": "# 외부 AI 연결 0.0.105\n\n외부 AI에서 현재 Pulsia 프로젝트의 터미널·파일·플러그인 기능을 사용합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.acp.ai-chat.external-ai\",\"version\":\"0.0.105\",\"title\":\"외부 AI 연결\",\"description\":\"외부 AI에서 현재 Pulsia 프로젝트의 터미널·파일·플러그인 기능을 사용합니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"MCP\",\"연결\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.121\",\"reason\":\"기존 MCP 도구의 외부 연결을 관리합니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.external-ai\",\"dependencies\":[{\"pluginId\":\"pulsia.acp-common\",\"displayName\":\"ACP 공용 플러그인\",\"minimumVersion\":\"1.0.121\"}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.acp.ai-chat.external-ai%400.0.105",
+      "published_at": "2026-10-29T07:09:28Z",
+      "created_at": "2026-10-29T07:03:50Z",
+      "updated_at": "2026-10-29T07:09:28Z",
+      "assets": [
+        {
+          "id": 687687822,
+          "name": "pulsia-external-ai.zip",
+          "state": "uploaded",
+          "size": 19180,
+          "digest": "sha256:0e609b5f9999baae1feff00366610a676cf67ae4bde94948c1f8bbad3994b78b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.external-ai%400.0.105/pulsia-external-ai.zip",
+          "created_at": "2026-10-29T07:09:27Z",
+          "updated_at": "2026-10-29T07:09:27Z"
+        },
+        {
+          "id": 687687823,
+          "name": "pulsia-external-ai.zip.sha256",
+          "state": "uploaded",
+          "size": 89,
+          "digest": "sha256:4f769c340fb613060543410a1ca96361e16cc025e974b9a41120c203ab131446",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.external-ai%400.0.105/pulsia-external-ai.zip.sha256",
+          "created_at": "2026-10-29T07:09:27Z",
+          "updated_at": "2026-10-29T07:09:27Z"
         }
       ]
     },
