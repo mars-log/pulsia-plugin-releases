@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-29T04:06:20.000Z",
+  "generatedAt": "2026-10-29T04:06:31.000Z",
   "releases": [
     {
       "id": 427455695,
@@ -72,6 +72,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat%401.0.104/pulsia-ai-chat-pack.zip",
           "created_at": "2026-10-29T02:36:26Z",
           "updated_at": "2026-10-29T02:36:26Z"
+        }
+      ]
+    },
+    {
+      "id": 427455767,
+      "tag_name": "com.naver.mars-_-.acp.ai-chat.external-ai@0.0.104",
+      "name": "외부 AI 연결 0.0.104",
+      "body": "# 외부 AI 연결 0.0.104\n\n외부 AI에서 현재 Pulsia 프로젝트의 터미널·파일·플러그인 기능을 사용합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.acp.ai-chat.external-ai\",\"version\":\"0.0.104\",\"title\":\"외부 AI 연결\",\"description\":\"외부 AI에서 현재 Pulsia 프로젝트의 터미널·파일·플러그인 기능을 사용합니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"MCP\",\"연결\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.121\",\"reason\":\"기존 MCP 도구의 외부 연결을 관리합니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n## 수정 내용\n\n- 외부 MCP의 터미널·화면 기능 호출 중 연결 유효성 검사가 같은 화면 대기열을 다시 호출하던 문제를 수정함.\n- 소유자 활성 상태·프로젝트 고정·인증 회수 검사를 유지하며 실제 Core 순차 처리기를 포함한 집중 검사 14개를 통과함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.acp.ai-chat.external-ai%400.0.104",
+      "published_at": "2026-10-29T04:06:31Z",
+      "created_at": "2026-10-29T03:25:16Z",
+      "updated_at": "2026-10-29T04:06:31Z",
+      "assets": [
+        {
+          "id": 687302163,
+          "name": "pulsia-external-ai.zip",
+          "state": "uploaded",
+          "size": 15240,
+          "digest": "sha256:6bd5a92323d2927beec429c4db792e00c51225bfae3bf6d5eef2cca298725df8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.external-ai%400.0.104/pulsia-external-ai.zip",
+          "created_at": "2026-10-29T04:06:29Z",
+          "updated_at": "2026-10-29T04:06:30Z"
         }
       ]
     },
