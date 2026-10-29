@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-28T15:00:03.000Z",
+  "generatedAt": "2026-10-29T02:18:51.000Z",
   "releases": [
     {
       "id": 426349802,
@@ -424,6 +424,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.ai-harness-maker%400.0.112/pulsia-ai-harness-maker.zip.sha256",
           "created_at": "2026-10-28T02:07:25Z",
           "updated_at": "2026-10-28T02:07:25Z"
+        }
+      ]
+    },
+    {
+      "id": 427395907,
+      "tag_name": "pulsia.acp-common@1.0.120",
+      "name": "ACP 공용 플러그인 1.0.120",
+      "body": "# ACP 공용 플러그인 1.0.120\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.acp-common\",\"version\":\"1.0.120\",\"title\":\"ACP 공용 플러그인\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.markdown-runtime\",\"version\":\"^1.0.101\",\"reason\":\"ACP 응답과 파일 링크를 표시함.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n기존 Core MCP Host API를 사용하는 외부 연결 서비스를 추가함. 각 Plugin의 공개 도구 정의·실행을 그대로 사용하며 새 도구마다 Core를 갱신할 필요가 없음.\n\n검증: 기존 Core의 MCP 도구 발견·호출·동적 추가·연결 복구와 Plugin별 패키지 검사 통과함. 사용자 설치 앱 및 외부 AI 제품별 실제 호출은 별도 확인이 필요함.\n\n소스: https://github.com/mars-log/pulsia-plugin-studio/commit/7d2a3027\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.acp-common%401.0.120",
+      "published_at": "2026-10-29T02:18:44Z",
+      "created_at": "2026-10-28T15:00:18Z",
+      "updated_at": "2026-10-29T02:18:44Z",
+      "assets": [
+        {
+          "id": 687078120,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 1528956,
+          "digest": "sha256:b950746d801fa59745531827e7cccf88c257d7e1fca3bb1b587f7eac4d5d0e91",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.120/pulsia-acp-common.zip",
+          "created_at": "2026-10-29T02:18:43Z",
+          "updated_at": "2026-10-29T02:18:43Z"
+        },
+        {
+          "id": 687078121,
+          "name": "pulsia-acp-common.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:8afcc0877c36ff2fe4315d031c3ffebc16ad32e81caf64c7e57c25446c52a6cb",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.120/pulsia-acp-common.zip.sha256",
+          "created_at": "2026-10-29T02:18:43Z",
+          "updated_at": "2026-10-29T02:18:43Z"
         }
       ]
     },
@@ -1396,6 +1430,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.125/pulsia-plugin-mini-acp.zip.sha256",
           "created_at": "2026-10-28T02:07:44Z",
           "updated_at": "2026-10-28T02:07:45Z"
+        }
+      ]
+    },
+    {
+      "id": 427395981,
+      "tag_name": "com.naver.mars-_-.acp.ai-chat.external-ai@0.0.101",
+      "name": "외부 AI 연결 0.0.101",
+      "body": "# 외부 AI 연결 0.0.101\n\n외부 AI에서 현재 Pulsia 프로젝트의 터미널·파일·플러그인 기능을 사용합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.acp.ai-chat.external-ai\",\"version\":\"0.0.101\",\"title\":\"외부 AI 연결\",\"description\":\"외부 AI에서 현재 Pulsia 프로젝트의 터미널·파일·플러그인 기능을 사용합니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"MCP\",\"연결\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.120\",\"reason\":\"기존 MCP 도구의 외부 연결을 관리합니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[]} -->\n\n일반 stdio MCP 연결, AI별 설정 복사, 프로젝트별 연결 관리와 Codex 애드온 내보내기를 제공함. Codex 지침은 MCP로 부족한 작업을 사용 가능한 화면 조작 도구로 이어가도록 안내함. ACP 공용 플러그인 1.0.120 이상이 필수임.\n\n검증: 기존 Core의 MCP 도구 발견·호출·동적 추가·연결 복구와 Plugin별 패키지 검사 통과함. 사용자 설치 앱 및 외부 AI 제품별 실제 호출은 별도 확인이 필요함.\n\n소스: https://github.com/mars-log/pulsia-plugin-studio/commit/7d2a3027\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.acp.ai-chat.external-ai%400.0.101",
+      "published_at": "2026-10-29T02:18:51Z",
+      "created_at": "2026-10-28T15:00:18Z",
+      "updated_at": "2026-10-29T02:18:51Z",
+      "assets": [
+        {
+          "id": 687078626,
+          "name": "pulsia-external-ai.zip",
+          "state": "uploaded",
+          "size": 14976,
+          "digest": "sha256:92cb638eec4d838cdef5fed944ff57121d9785206c76bd2ab1f130c3a031d743",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.external-ai%400.0.101/pulsia-external-ai.zip",
+          "created_at": "2026-10-29T02:18:49Z",
+          "updated_at": "2026-10-29T02:18:50Z"
+        },
+        {
+          "id": 687078630,
+          "name": "pulsia-external-ai.zip.sha256",
+          "state": "uploaded",
+          "size": 89,
+          "digest": "sha256:f68d6f1c0f169eebc2cb05efc45d3a0c57b2a1b8aa8b0ba43c9e052513da1472",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.external-ai%400.0.101/pulsia-external-ai.zip.sha256",
+          "created_at": "2026-10-29T02:18:50Z",
+          "updated_at": "2026-10-29T02:18:50Z"
         }
       ]
     },
