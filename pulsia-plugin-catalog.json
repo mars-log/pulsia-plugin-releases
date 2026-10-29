@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-29T08:51:32.000Z",
+  "generatedAt": "2026-10-29T14:32:58.000Z",
   "releases": [
     {
       "id": 427476130,
@@ -102,6 +102,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.coin-pilot%400.0.108/pulsia-coin-pilot.zip.sha256",
           "created_at": "2026-10-29T04:46:48Z",
           "updated_at": "2026-10-29T04:46:49Z"
+        }
+      ]
+    },
+    {
+      "id": 427976267,
+      "tag_name": "pulsia.acp-common@1.0.122",
+      "name": "ACP 공용 플러그인 1.0.122",
+      "body": "# ACP 공용 플러그인 1.0.122\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.acp-common\",\"version\":\"1.0.122\",\"title\":\"ACP 공용 플러그인\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.markdown-runtime\",\"version\":\"^1.0.101\",\"reason\":\"ACP 응답과 파일 링크를 표시함.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"pulsia.acp-common\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.acp-common%401.0.122",
+      "published_at": "2026-10-29T14:32:58Z",
+      "created_at": "2026-10-29T08:51:41Z",
+      "updated_at": "2026-10-29T14:32:58Z",
+      "assets": [
+        {
+          "id": 688834086,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 1531467,
+          "digest": "sha256:dc5e9b3427df343e1fb00a929bd71889032f8a43c7b83c1cf765bef9961f3803",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.122/pulsia-acp-common.zip",
+          "created_at": "2026-10-29T14:32:57Z",
+          "updated_at": "2026-10-29T14:32:57Z"
+        },
+        {
+          "id": 688834091,
+          "name": "pulsia-acp-common.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:40a9c772175aab3d3ca9b2dbde6a49f2c0317efd89b42ba17951e23054884741",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.acp-common%401.0.122/pulsia-acp-common.zip.sha256",
+          "created_at": "2026-10-29T14:32:57Z",
+          "updated_at": "2026-10-29T14:32:57Z"
         }
       ]
     },
