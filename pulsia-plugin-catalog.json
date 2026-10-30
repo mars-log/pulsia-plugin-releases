@@ -1,8 +1,32 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-30T05:19:21.000Z",
+  "generatedAt": "2026-10-30T08:41:29.000Z",
   "releases": [
+    {
+      "id": 428807329,
+      "tag_name": "pulsia-plugin-wingate-client@0.1.121",
+      "name": "Wingate Client 0.1.121",
+      "body": "# Wingate Client 0.1.121\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-wingate-client\",\"version\":\"0.1.121\",\"title\":\"Wingate Client\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"접속\",\"서버\",\"Client\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-manager\",\"version\":\"^0.1.108\",\"reason\":\"Manager가 준비한 조직 서버 목록과 SSH 접속 준비를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-client-addon-ssh-client\",\"version\":\"^0.0.108\",\"reason\":\"개인 SSH 접속 대상을 저장하고 사용할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"pulsia-plugin-wingate-client\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.121",
+      "published_at": "2026-10-30T08:41:29Z",
+      "created_at": "2026-10-30T05:19:32Z",
+      "updated_at": "2026-10-30T08:41:29Z",
+      "assets": [
+        {
+          "id": 691485709,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 191316,
+          "digest": "sha256:620da3fb9b20b2dfd2903b874fe868ee7882cf62021aebffd7b36c6f8125d94d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.121/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-10-30T08:41:28Z",
+          "updated_at": "2026-10-30T08:41:28Z"
+        }
+      ]
+    },
     {
       "id": 428676282,
       "tag_name": "pulsia-plugin-wingate-client@0.1.120",
