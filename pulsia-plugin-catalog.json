@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-30T08:41:29.000Z",
+  "generatedAt": "2026-10-30T08:46:39.000Z",
   "releases": [
+    {
+      "id": 428811391,
+      "tag_name": "com.naver.mars-_-.media.player@0.0.103",
+      "name": "com.naver.mars-_-.media.player 0.0.103",
+      "body": "# 공용 영상 플레이어 0.0.103\n\n- 재생 위치·음량 손잡이를 16px에서 11.2px로 줄이고 막대는 5.6px로 조정함. 흰 테두리·그림자·활성 창 보라색 테두리를 제거하고 어두운 보라색과 평평한 배경을 적용함.\n- Player 화면 캡처 스킬을 등록함. 외부 컴퓨터 제어 MCP로 실제 창을 캡처하며 Player 자체 backend action은 없음.\n- CCTV Tester 0.0.103 사용 중이면 Tester 0.0.104를 먼저 업데이트한 뒤 이 Player를 적용함. 기존 카메라·설정을 유지함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.media.player\",\"version\":\"0.0.103\",\"title\":\"공용 영상 플레이어\",\"description\":\"여러 플러그인에서 같은 조작과 테마로 영상을 재생합니다.\",\"kind\":\"frontend\",\"tags\":[\"미디어\",\"공용 UI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.media.player\",\"dependencies\":[]}} -->\n\n- [검증한 Studio 소스](https://github.com/mars-log/pulsia-plugin-studio/commit/f51d118fb9940ca2aa4ffba8737251fd63704450)\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.media.player%400.0.103",
+      "published_at": "2026-10-30T08:46:39Z",
+      "created_at": "2026-10-30T08:41:40Z",
+      "updated_at": "2026-10-30T08:46:39Z",
+      "assets": [
+        {
+          "id": 691497898,
+          "name": "media-player.zip",
+          "state": "uploaded",
+          "size": 34091,
+          "digest": "sha256:de7e17beb5120ded649546d9cc3f8b8197f9db5fddd217eb28a9bc961512045c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.media.player%400.0.103/media-player.zip",
+          "created_at": "2026-10-30T08:46:38Z",
+          "updated_at": "2026-10-30T08:46:38Z"
+        },
+        {
+          "id": 691497897,
+          "name": "media-player.zip.sha256",
+          "state": "uploaded",
+          "size": 83,
+          "digest": "sha256:7cb7ef00ed9618c32a932b75b9e00e4ecdaf9f5f9d630393405caeece02e43c0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.media.player%400.0.103/media-player.zip.sha256",
+          "created_at": "2026-10-30T08:46:38Z",
+          "updated_at": "2026-10-30T08:46:38Z"
+        }
+      ]
+    },
     {
       "id": 428807329,
       "tag_name": "pulsia-plugin-wingate-client@0.1.121",
@@ -48,6 +82,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.120/pulsia-plugin-wingate-client.zip",
           "created_at": "2026-10-30T05:13:50Z",
           "updated_at": "2026-10-30T05:13:51Z"
+        }
+      ]
+    },
+    {
+      "id": 428811291,
+      "tag_name": "com.naver.mars-_-.device.connectivity.cctv.tester@0.0.104",
+      "name": "com.naver.mars-_-.device.connectivity.cctv.tester 0.0.104",
+      "body": "# CCTV 연결 테스터 0.0.104\n\n- CCTV Connector 0.0.103·Tester 0.0.104에서 인증 없는 HTTP(S) HLS 영상 수신과 공용 플레이어 연결을 제공함.\n- 기존 테스터 0.0.103이 Player 0.0.102 설치를 막으면 테스터 0.0.104를 먼저 적용한 뒤 같은 Player 패키지를 다시 적용함. 기존 카메라와 설정을 유지함.\n- 필수 Plugin의 같은 제품 버전에서 마지막 숫자 갱신을 허용하며 다음 release line은 별도 지원 확인이 필요함. 지원 범위는 아래 배포 메타데이터로 확인함.\n- 테스터의 영상 보기에서 카메라별 창을 열고 같은 카메라는 기존 창을 활성화함. 창 이동·크기 저장·최대화/복원과 목록 너비 조절을 제공함.\n- Player는 창·재생 조작·테마를, HLS 애드온은 재생 라이브러리를, Connector는 자료 수신·취소·세션 종료를 담당함. 기존 Frontend Module API를 사용하며 plugins.frontendModules ^1.1.0 지원이 필요함.\n- 기존 카메라 주소·계정·비밀번호 별도 보관과 RTSP 주소 저장을 유지함. 인증이 필요한 영상과 RTSP 수신·코덱 변환·녹화는 지원하지 않음. 영상 자료는 등록한 주소와 같은 origin에서 읽음.\n- 영상 성공은 재생 상태·해상도·프레임 증가로 판단함. 지원하지 않는 입력과 수신 실패를 성공으로 표시하지 않음.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.device.connectivity.cctv.tester\",\"version\":\"0.0.104\",\"title\":\"CCTV 연결 테스터\",\"description\":\"CCTV 목록 선택과 연결 관리 UI를 제공합니다. 영상 어댑터는 후속 제공 예정입니다.\",\"kind\":\"composite\",\"tags\":[\"디바이스\",\"CCTV\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.device.connectivity.cctv.connector\",\"version\":\"~0.0.103\",\"reason\":\"등록한 CCTV 목록을 조회하고 연결 관리 모달을 엽니다.\"},{\"pluginId\":\"com.naver.mars-_-.media.player\",\"version\":\"~0.0.101\",\"reason\":\"영상 보기 창과 공용 재생 조작을 제공합니다.\"},{\"pluginId\":\"com.naver.mars-_-.media.player.addons.hls-js\",\"version\":\"~0.0.101\",\"reason\":\"HTTP HLS 영상을 재생합니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.device.connectivity.cctv.tester\",\"dependencies\":[]}} -->\n\n- [검증한 Studio 소스](https://github.com/mars-log/pulsia-plugin-studio/commit/f51d118fb9940ca2aa4ffba8737251fd63704450)\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.device.connectivity.cctv.tester%400.0.104",
+      "published_at": "2026-10-30T08:46:31Z",
+      "created_at": "2026-10-30T08:41:40Z",
+      "updated_at": "2026-10-30T08:46:31Z",
+      "assets": [
+        {
+          "id": 691497642,
+          "name": "cctv-connection-tester.zip",
+          "state": "uploaded",
+          "size": 18099,
+          "digest": "sha256:ad40eb152a44167f7ba7ca75aacdfdb0bfc7c3ad536b10140f4be2260358a9fe",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity.cctv.tester%400.0.104/cctv-connection-tester.zip",
+          "created_at": "2026-10-30T08:46:30Z",
+          "updated_at": "2026-10-30T08:46:30Z"
+        },
+        {
+          "id": 691497644,
+          "name": "cctv-connection-tester.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:4c0ca3e7692b12a8b89880057bb0c5d24f0c4d7ce394cb50ac2f5082cba3bd99",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity.cctv.tester%400.0.104/cctv-connection-tester.zip.sha256",
+          "created_at": "2026-10-30T08:46:30Z",
+          "updated_at": "2026-10-30T08:46:30Z"
         }
       ]
     },
