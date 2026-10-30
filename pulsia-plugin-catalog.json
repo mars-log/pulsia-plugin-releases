@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-29T14:32:58.000Z",
+  "generatedAt": "2026-10-30T02:27:54.000Z",
   "releases": [
     {
       "id": 427476130,
@@ -34,6 +34,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.test-pack%401.0.126/pulsia-test-pack.zip.sha256",
           "created_at": "2026-10-29T04:47:03Z",
           "updated_at": "2026-10-29T04:47:03Z"
+        }
+      ]
+    },
+    {
+      "id": 428592235,
+      "tag_name": "pulsia.home@1.0.104",
+      "name": "Pulsia Home 1.0.104",
+      "body": "# Pulsia 홈 1.0.104\n\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.home\",\"version\":\"1.0.104\",\"title\":\"Pulsia 홈\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[\"홈\",\"프로젝트\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"pulsia.home\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.home%401.0.104",
+      "published_at": "2026-10-30T02:27:54Z",
+      "created_at": "2026-10-29T14:33:11Z",
+      "updated_at": "2026-10-30T02:27:54Z",
+      "assets": [
+        {
+          "id": 690660779,
+          "name": "pulsia-home.zip",
+          "state": "uploaded",
+          "size": 5857,
+          "digest": "sha256:13f111774d99221f0834c18e2e0d1473bcf3fcb0ef1090081ec62ac4d5010f1d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.home%401.0.104/pulsia-home.zip",
+          "created_at": "2026-10-30T02:27:53Z",
+          "updated_at": "2026-10-30T02:27:53Z"
+        },
+        {
+          "id": 690660781,
+          "name": "pulsia-home.zip.sha256",
+          "state": "uploaded",
+          "size": 82,
+          "digest": "sha256:c2e1989ec44010345894d68302b613a30dae8ab0103eb1a4c303beb641e952f3",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.home%401.0.104/pulsia-home.zip.sha256",
+          "created_at": "2026-10-30T02:27:53Z",
+          "updated_at": "2026-10-30T02:27:53Z"
         }
       ]
     },
