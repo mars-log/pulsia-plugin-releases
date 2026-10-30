@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-30T08:46:47.000Z",
+  "generatedAt": "2026-10-30T11:54:07.000Z",
   "releases": [
+    {
+      "id": 428975323,
+      "tag_name": "pulsia-plugin-wingate-client@0.1.122",
+      "name": "Wingate Client 0.1.122",
+      "body": "# Wingate Client 0.1.122\n\n\n\n- 비밀번호 SSH 접속에서도 접속한 서버를 선택하면 원격 탐색기 버튼이 활성화됨. 탐색기를 열 때 조회용 비밀번호를 한 번 더 입력하며 비밀번호를 저장하지 않음.\n- 오른쪽 SSH 패널에서 접속한 개인 키 대상의 탐색기 열기가 `SSH_EXPLORER_CONNECTION_REQUIRED`로 실패하는 문제를 수정함.\n- 비밀번호·개인 키 인증으로 원격 폴더 조회, 공백을 포함한 폴더 선택, 접속한 같은 터미널의 경로 이동을 실제 OpenSSH와 Core PTY에서 검증함.\n- 인증 실패 후 재시도, 조회 연결 취소·종료, 0.1.121→0.1.122 설치 전환을 검증함. Pulsia Core 0.3.270 이상이 필요함.\n\n[수정·검증 근거](https://github.com/mars-log/pulsia-plugin-studio/blob/main/docs/issue-knowledge-center/records/plugins/wingate-client/IKC-2026-10-30-001-ssh-explorer-authentication/README.md)\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-wingate-client\",\"version\":\"0.1.122\",\"title\":\"Wingate Client\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"접속\",\"서버\",\"Client\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-manager\",\"version\":\"^0.1.108\",\"reason\":\"Manager가 준비한 조직 서버 목록과 SSH 접속 준비를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-client-addon-ssh-client\",\"version\":\"^0.0.108\",\"reason\":\"개인 SSH 접속 대상을 저장하고 사용할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"pulsia-plugin-wingate-client\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.122",
+      "published_at": "2026-10-30T11:54:07Z",
+      "created_at": "2026-10-30T08:46:56Z",
+      "updated_at": "2026-10-30T11:54:07Z",
+      "assets": [
+        {
+          "id": 691971683,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 321630,
+          "digest": "sha256:fc0e6ef1292e66241c5172f5efdc4217d41a4412aeb5ebb4d155ca242ed8ae92",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.122/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-10-30T11:54:05Z",
+          "updated_at": "2026-10-30T11:54:06Z"
+        },
+        {
+          "id": 691971686,
+          "name": "pulsia-plugin-wingate-client.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:6177067f3c5d9ad9120630635e597448b99fd56e1f92b6f255f25227ab19f212",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.122/pulsia-plugin-wingate-client.zip.sha256",
+          "created_at": "2026-10-30T11:54:05Z",
+          "updated_at": "2026-10-30T11:54:05Z"
+        }
+      ]
+    },
     {
       "id": 428807329,
       "tag_name": "pulsia-plugin-wingate-client@0.1.121",
