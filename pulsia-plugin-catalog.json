@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-31T05:53:44.000Z",
+  "generatedAt": "2026-10-31T11:10:48.000Z",
   "releases": [
     {
       "id": 429751381,
@@ -34,6 +34,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.134/wintera-net-manager.zip.sha256",
           "created_at": "2026-10-31T05:53:43Z",
           "updated_at": "2026-10-31T05:53:43Z"
+        }
+      ]
+    },
+    {
+      "id": 429885271,
+      "tag_name": "pulsia-plugin-wingate-client@0.1.126",
+      "name": "Wingate Client 0.1.126",
+      "body": "# Wingate Client 0.1.126\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-wingate-client\",\"version\":\"0.1.126\",\"title\":\"Wingate Client\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"접속\",\"서버\",\"Client\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-manager\",\"version\":\"^0.1.108\",\"reason\":\"Manager가 준비한 조직 서버 목록과 SSH 접속 준비를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-client-addon-ssh-client\",\"version\":\"^0.0.108\",\"reason\":\"개인 SSH 접속 대상을 저장하고 사용할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"pulsia-plugin-wingate-client\",\"dependencies\":[]}} -->\n\n\n## 변경\n\n- 탐색기 인증 전에도 현재 개인 Pulsia SSH를 Net Manager 탐색 위치에 제공함. 선택한 원격 Linux/POSIX·Windows PowerShell에서 기본 수집을 실행함.\n- 접속 후에도 폴더 버튼의 선택 목록을 유지하고 같은 탐색기를 재사용함.\n- 접속 버튼을 암호 입력 아래에 배치하고 SVG 색·4px 점으로 SSH·조회 연결 상태를 표시함.\n\n## 검증\n\n- 단위 58개와 격리 SSH·화면 흐름 검증을 통과함. Windows 수집은 실제 SSH/cmd/PowerShell의 loopback·소유 TCP 응답·중단으로 확인함.\n- Core 0.3.272 소스로 설치 ZIP 준비·컴파일과 ZIP Backend의 Windows SSH 실행을 확인함. 사용자 실행 앱·실제 고객망·AI 모델·macOS 실기는 별도임.\n\n[소스 커밋](https://github.com/mars-log/pulsia-plugin-studio/commit/a7007c76db31c678e872b68f970efe7e796008bb)\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-client%400.1.126",
+      "published_at": "2026-10-31T11:10:48Z",
+      "created_at": "2026-10-31T05:53:50Z",
+      "updated_at": "2026-10-31T11:10:48Z",
+      "assets": [
+        {
+          "id": 695162874,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 346812,
+          "digest": "sha256:16412f47ed599c517e1e0d5ef53be79aa375efe82c7004b520ee62555a6d20eb",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.126/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-10-31T11:10:46Z",
+          "updated_at": "2026-10-31T11:10:47Z"
+        },
+        {
+          "id": 695162875,
+          "name": "pulsia-plugin-wingate-client.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:c9618076b5fa0a7f6d8d103272eb1bec58b73595803c0a0ac97dbdd8cafb8d6b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-client%400.1.126/pulsia-plugin-wingate-client.zip.sha256",
+          "created_at": "2026-10-31T11:10:46Z",
+          "updated_at": "2026-10-31T11:10:46Z"
         }
       ]
     },
