@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-10-31T11:10:48.000Z",
+  "generatedAt": "2026-10-31T11:10:55.000Z",
   "releases": [
+    {
+      "id": 429885336,
+      "tag_name": "pulsia.net-manager@0.1.135",
+      "name": "Net Manager 0.1.135",
+      "body": "# Net Manager 0.1.135\n\n현장 PC·현재 SSH에서 장비와 경로를 조사하고 AI와 같은 네트워크 맵을 편집합니다.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.net-manager\",\"version\":\"0.1.135\",\"title\":\"Net Manager\",\"description\":\"현장 PC·현재 SSH에서 장비와 경로를 조사하고 AI와 같은 네트워크 맵을 편집합니다.\",\"kind\":\"composite\",\"tags\":[\"네트워크\",\"장비\",\"토폴로지\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"pulsia-plugin-wingate-client\",\"version\":\"^0.1.126\",\"reason\":\"연결된 SSH 장비에서 네트워크를 탐색합니다.\"},{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"선택한 네트워크의 AI 조사와 맵 수정을 지원합니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"pulsia.net-manager\",\"dependencies\":[]}} -->\n\n\n## 변경\n\n- 파일 탐색기 사전 접속 없이 현재 SSH를 고르고 그 원격지 안의 네트워크를 조사함. 기본·AI 탭이 같은 탐색 위치를 사용함.\n- 인증 취소·SSH 종료 뒤 다른 SSH나 로컬로 자동 전환하지 않음. AI 요청은 원래 탐색의 source를 다시 읽어 전달함.\n- Windows 원격 PowerShell·NetTCPIP 수집과 큰 명령의 stdin 전달·부분 결과·중단을 제공함.\n- 공개 MCP 19개·화면 action 13개·스킬·제품 목적과 매뉴얼을 갱신함. WinGate Client 0.1.126도 함께 업데이트해야 함.\n\n## 검증\n\n- 단위 38개·격리 화면 흐름 11개를 통과함. Linux 격리망 관측·맵 저장과 실제 Windows SSH의 loopback·TCP 응답·중단을 확인함.\n- AI는 동일 대상 전달까지 확인함. 실제 AI 모델·사용 중인 Pulsia 적용·고객망·macOS 실기는 별도임. Core 0.3.272 소스로 운영 ZIP 준비·컴파일을 확인함.\n\n[소스 커밋](https://github.com/mars-log/pulsia-plugin-studio/commit/a7007c76db31c678e872b68f970efe7e796008bb)\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.net-manager%400.1.135",
+      "published_at": "2026-10-31T11:10:55Z",
+      "created_at": "2026-10-31T05:53:50Z",
+      "updated_at": "2026-10-31T11:10:55Z",
+      "assets": [
+        {
+          "id": 695163149,
+          "name": "wintera-net-manager.zip",
+          "state": "uploaded",
+          "size": 252632,
+          "digest": "sha256:883ddb2211f140fc7ca603981a7807f6c3d19d0a24023f9892edb2775dfc0e2a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.135/wintera-net-manager.zip",
+          "created_at": "2026-10-31T11:10:54Z",
+          "updated_at": "2026-10-31T11:10:55Z"
+        },
+        {
+          "id": 695163146,
+          "name": "wintera-net-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:1d95db767a3a00a5fa2bf6ae9a4b0a959be4cfd172da92daf93462bf438ed61a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.net-manager%400.1.135/wintera-net-manager.zip.sha256",
+          "created_at": "2026-10-31T11:10:54Z",
+          "updated_at": "2026-10-31T11:10:54Z"
+        }
+      ]
+    },
     {
       "id": 429751381,
       "tag_name": "pulsia.net-manager@0.1.134",
