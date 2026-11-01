@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-01T13:41:22.000Z",
+  "generatedAt": "2026-11-01T16:20:06.000Z",
   "releases": [
     {
       "id": 430364144,
@@ -238,6 +238,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.editor-engine%401.0.116/pulsia-editor-runtime.zip.sha256",
           "created_at": "2026-11-01T13:20:55Z",
           "updated_at": "2026-11-01T13:20:55Z"
+        }
+      ]
+    },
+    {
+      "id": 430700699,
+      "tag_name": "com.naver.mars-_-.platform.base.acp@1.0.125",
+      "name": "ACP 공용 플러그인 1.0.125",
+      "body": "# ACP 공용 플러그인 1.0.125\n\n- Agent 메뉴의 서버 연결 설정에서 서버 주소·API 키·모델을 입력하고 모델 목록을 조회함. 선택한 모델의 응답 확인 후 저장·재연결함.\n- Qwen Code의 OpenAI 호환 로그인 버튼에서 Internal error가 발생하던 표준 인증 정보 처리를 수정함.\n- Qwen 사용자 modelProviders 설정이 선택한 서버를 덮지 않도록 공식 설정 환경을 적용함.\n- 잘못된 입력의 수정·재시도, 저장한 키의 비노출, 응답 중 연결 변경 방지·이전 연결 복구를 적용함. 기존 대화와 다른 Agent 설정을 유지함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\"1.0.125\",\"title\":\"ACP 공용 플러그인\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"version\":\"^1.0.101\",\"reason\":\"ACP 응답과 파일 링크를 표시함.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.base.acp\",\"dependencies\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"minimumVersion\":\"1.0.101\"}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.base.acp%401.0.125",
+      "published_at": "2026-11-01T16:20:06Z",
+      "created_at": "2026-11-01T13:41:33Z",
+      "updated_at": "2026-11-01T16:20:06Z",
+      "assets": [
+        {
+          "id": 698834583,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 1537410,
+          "digest": "sha256:9280929e5cb1f4861fb0e8b1a71ccc662fb71449195867b49916c529906989dd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.125/pulsia-acp-common.zip",
+          "created_at": "2026-11-01T16:19:46Z",
+          "updated_at": "2026-11-01T16:19:46Z"
+        },
+        {
+          "id": 698834585,
+          "name": "pulsia-acp-common.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:08dce443fea5ce476721d480e3b8c114b9b20a642faca560c5d757d959939e04",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.125/pulsia-acp-common.zip.sha256",
+          "created_at": "2026-11-01T16:19:46Z",
+          "updated_at": "2026-11-01T16:19:46Z"
         }
       ]
     },
