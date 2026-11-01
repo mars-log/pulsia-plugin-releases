@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-01T04:43:56.000Z",
+  "generatedAt": "2026-11-01T04:44:05.000Z",
   "releases": [
+    {
+      "id": 430364144,
+      "tag_name": "com.naver.mars-_-.wingate@0.1.101",
+      "name": "Wingate 팩 0.1.101",
+      "body": "# Wingate 팩 0.1.101\n\nWingate 관리·접속 도구를 선택해 설치합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.wingate\",\"version\":\"0.1.101\",\"title\":\"Wingate 팩\",\"description\":\"Wingate 관리·접속 도구를 선택해 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"Wingate\",\"SSH\",\"접속\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.wingate.manager\",\"version\":\"^0.1.113\",\"reason\":\"조직과 서버를 관리합니다.\"},{\"pluginId\":\"com.naver.mars-_-.wingate.ssh-client\",\"version\":\"^0.0.109\",\"reason\":\"개인 SSH 접속 대상을 관리합니다.\"},{\"pluginId\":\"com.naver.mars-_-.wingate.client\",\"version\":\"^0.1.127\",\"reason\":\"조직 서버와 SSH에 접속합니다.\"}],\"pluginMigrations\":[{\"fromPluginId\":\"pulsia-plugin-wingate-manager\",\"toPluginId\":\"com.naver.mars-_-.wingate.manager\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"},{\"fromPluginId\":\"pulsia-plugin-wingate-client-addon-ssh-client\",\"toPluginId\":\"com.naver.mars-_-.wingate.ssh-client\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"},{\"fromPluginId\":\"pulsia-plugin-wingate-client\",\"toPluginId\":\"com.naver.mars-_-.wingate.client\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"}],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.wingate\",\"dependencies\":[]}} -->\n\n## 사용 조건과 변경\n\n- Pulsia 0.3.273 이상이 필요함. Core 갱신 후 설치함.\n- 기존 설정과 저장한 자료를 이어서 사용하며 플러그인 제거 시 자료를 보존함.\n- Manager·Client·SSH Client를 선택 설치함. Seller는 이 팩에 포함하지 않는 독립 제품임.\n\n[검증한 소스](https://github.com/mars-log/pulsia-plugin-studio/commit/7dd3662131d71f2f3c093ac3f12bee714743feb2)\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.wingate%400.1.101",
+      "published_at": "2026-11-01T04:44:00Z",
+      "created_at": "2026-11-01T04:43:50Z",
+      "updated_at": "2026-11-01T04:44:00Z",
+      "assets": [
+        {
+          "id": 697330737,
+          "name": "pulsia-wingate-pack.zip",
+          "state": "uploaded",
+          "size": 1489,
+          "digest": "sha256:57a47626875c90963657ad7d3d0ac396d6e4ed564782e5321225e8501a5b8225",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate%400.1.101/pulsia-wingate-pack.zip",
+          "created_at": "2026-11-01T04:36:12Z",
+          "updated_at": "2026-11-01T04:36:12Z"
+        },
+        {
+          "id": 697330733,
+          "name": "pulsia-wingate-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:476ad57be30f1dd3e2ac5c49c8c760794713c0a6daae3fcf681e712e7bbaf9db",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate%400.1.101/pulsia-wingate-pack.zip.sha256",
+          "created_at": "2026-11-01T04:36:12Z",
+          "updated_at": "2026-11-01T04:36:12Z"
+        }
+      ]
+    },
     {
       "id": 430364122,
       "tag_name": "com.naver.mars-_-.wingate.ssh-client@0.0.109",
@@ -68,6 +102,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.seller%400.1.108/pulsia-plugin-wingate-seller.zip.sha256",
           "created_at": "2026-11-01T04:36:09Z",
           "updated_at": "2026-11-01T04:36:09Z"
+        }
+      ]
+    },
+    {
+      "id": 430364168,
+      "tag_name": "com.naver.mars-_-.development.java@0.1.101",
+      "name": "Java 개발 팩 0.1.101",
+      "body": "# Java 개발 팩 0.1.101\n\nJava 프로젝트 설정과 개발 도구를 설치합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.development.java\",\"version\":\"0.1.101\",\"title\":\"Java 개발 팩\",\"description\":\"Java 프로젝트 설정과 개발 도구를 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"Java\",\"Maven\",\"Gradle\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.development.java.project-settings\",\"version\":\"^0.1.157\",\"reason\":\"Java 프로젝트와 빌드 도구를 설정합니다.\"}],\"pluginMigrations\":[{\"fromPluginId\":\"pulsia.java-development-pack\",\"toPluginId\":\"com.naver.mars-_-.development.java.project-settings\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"}],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.development.java\",\"dependencies\":[]}} -->\n\n## 사용 조건과 변경\n\n- Pulsia 0.3.273 이상이 필요함. Core 갱신 후 설치함.\n- 기존 설정과 저장한 자료를 이어서 사용하며 플러그인 제거 시 자료를 보존함.\n- 프로젝트 설정과 Java 실행·빌드·디버그 도구를 구성 플러그인으로 설치함.\n\n[검증한 소스](https://github.com/mars-log/pulsia-plugin-studio/commit/7dd3662131d71f2f3c093ac3f12bee714743feb2)\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.development.java%400.1.101",
+      "published_at": "2026-11-01T04:44:05Z",
+      "created_at": "2026-11-01T04:44:03Z",
+      "updated_at": "2026-11-01T04:44:05Z",
+      "assets": [
+        {
+          "id": 697330832,
+          "name": "pulsia-java-pack.zip",
+          "state": "uploaded",
+          "size": 1346,
+          "digest": "sha256:ec9179c3dcfff9ce40a4f0ed968b885cb4d17ea0ae49adbb7cf62c68968f418e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.development.java%400.1.101/pulsia-java-pack.zip",
+          "created_at": "2026-11-01T04:36:14Z",
+          "updated_at": "2026-11-01T04:36:15Z"
+        },
+        {
+          "id": 697330833,
+          "name": "pulsia-java-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 87,
+          "digest": "sha256:7a14cec2e473ebcf30abd9e862cd3150a739cb1ddc0bdc8e827f3d18d239e62e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.development.java%400.1.101/pulsia-java-pack.zip.sha256",
+          "created_at": "2026-11-01T04:36:14Z",
+          "updated_at": "2026-11-01T04:36:15Z"
         }
       ]
     },
