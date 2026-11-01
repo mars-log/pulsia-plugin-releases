@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-01T13:24:20.000Z",
+  "generatedAt": "2026-11-01T13:24:31.000Z",
   "releases": [
     {
       "id": 430364144,
@@ -140,6 +140,40 @@
       ]
     },
     {
+      "id": 430598755,
+      "tag_name": "com.naver.mars-_-.platform.base.home@1.0.105",
+      "name": "펄시아 홈 1.0.105",
+      "body": "# 펄시아 홈 1.0.105\n\n\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n이 버전의 ID 전환에는 Pulsia Core 0.3.274 이상이 필요합니다.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.base.home\",\"version\":\"1.0.105\",\"title\":\"펄시아 홈\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[\"홈\",\"프로젝트\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.base.home\",\"dependencies\":[]},\"minimumCoreVersion\":\"0.3.274\",\"requiresCore\":\"0.3.274\"} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.base.home%401.0.105",
+      "published_at": "2026-11-01T13:24:22Z",
+      "created_at": "2026-11-01T04:44:15Z",
+      "updated_at": "2026-11-01T13:24:22Z",
+      "assets": [
+        {
+          "id": 698405363,
+          "name": "pulsia-home.zip",
+          "state": "uploaded",
+          "size": 5970,
+          "digest": "sha256:5eb0f5c733670d66eba19ee22549e3b8b9b39815500481d84dac0a61326fe680",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.home%401.0.105/pulsia-home.zip",
+          "created_at": "2026-11-01T13:21:00Z",
+          "updated_at": "2026-11-01T13:21:01Z"
+        },
+        {
+          "id": 698405364,
+          "name": "pulsia-home.zip.sha256",
+          "state": "uploaded",
+          "size": 82,
+          "digest": "sha256:2332b7d29505baafcc61b40f03ebc50124d71b03365e0556c0ff2fa16d4bfbc9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.home%401.0.105/pulsia-home.zip.sha256",
+          "created_at": "2026-11-01T13:21:00Z",
+          "updated_at": "2026-11-01T13:21:01Z"
+        }
+      ]
+    },
+    {
       "id": 430598713,
       "tag_name": "com.naver.mars-_-.platform.base.editor-engine@1.0.116",
       "name": "공용 편집 엔진 1.0.116",
@@ -204,6 +238,108 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.123/pulsia-acp-common.zip.sha256",
           "created_at": "2026-11-01T13:20:52Z",
           "updated_at": "2026-11-01T13:20:52Z"
+        }
+      ]
+    },
+    {
+      "id": 430598838,
+      "tag_name": "com.naver.mars-_-.examples.feature-tests@1.0.127",
+      "name": "펄시아 기능 테스트 1.0.127",
+      "body": "# 펄시아 기능 테스트 1.0.127\n\n\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n이 버전의 ID 전환에는 Pulsia Core 0.3.274 이상이 필요합니다.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.examples.feature-tests\",\"version\":\"1.0.127\",\"title\":\"펄시아 기능 테스트\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"테스트 팩\",\"Vue\",\"백엔드\",\"권한\",\"OTA\"],\"pluginRelations\":{\"recommended\":[{\"pluginId\":\"pulsia.ai-scratchpad\",\"version\":\"^0.0.104\",\"reason\":\"UI 제작실의 미리보기 캔버스를 사용함\"},{\"pluginId\":\"pulsia-plugin-ai-agent-collaboration-chat\",\"version\":\"^0.1.143\",\"reason\":\"UI 제작실의 협업 UI 요소를 사용함\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.examples.feature-tests\",\"dependencies\":[]},\"minimumCoreVersion\":\"0.3.274\",\"requiresCore\":\"0.3.274\"} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.examples.feature-tests%401.0.127",
+      "published_at": "2026-11-01T13:24:31Z",
+      "created_at": "2026-11-01T13:24:25Z",
+      "updated_at": "2026-11-01T13:24:31Z",
+      "assets": [
+        {
+          "id": 698405743,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 201433,
+          "digest": "sha256:e37808630a83229b322880240a62a991acb2740da79dbd9eed3f90da9e021c3b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.127/pulsia-test-pack.zip",
+          "created_at": "2026-11-01T13:21:09Z",
+          "updated_at": "2026-11-01T13:21:09Z"
+        },
+        {
+          "id": 698405742,
+          "name": "pulsia-test-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 87,
+          "digest": "sha256:2892ee8e6b38c531ffa7c359c71f05d1bfcb590b9780f023bf97c6b168046d03",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.127/pulsia-test-pack.zip.sha256",
+          "created_at": "2026-11-01T13:21:09Z",
+          "updated_at": "2026-11-01T13:21:09Z"
+        }
+      ]
+    },
+    {
+      "id": 430598784,
+      "tag_name": "com.naver.mars-_-.editor.base.text-editor@1.0.113",
+      "name": "펄시아 에디터 1.0.113",
+      "body": "# 펄시아 에디터 1.0.113\n\n\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n이 버전의 ID 전환에는 Pulsia Core 0.3.274 이상이 필요합니다.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.editor.base.text-editor\",\"version\":\"1.0.113\",\"title\":\"펄시아 에디터\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.editor-engine\",\"version\":\"^1.0.106\",\"reason\":\"공용 문서와 편집 엔진을 사용함.\"},{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"version\":\"^1.0.101\",\"reason\":\"Markdown 표시와 미리 보기를 사용함.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.editor.base.text-editor\",\"dependencies\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.editor-engine\",\"minimumVersion\":\"1.0.106\"},{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"minimumVersion\":\"1.0.101\"}]},\"minimumCoreVersion\":\"0.3.274\",\"requiresCore\":\"0.3.274\"} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.editor.base.text-editor%401.0.113",
+      "published_at": "2026-11-01T13:24:25Z",
+      "created_at": "2026-11-01T04:44:15Z",
+      "updated_at": "2026-11-01T13:24:25Z",
+      "assets": [
+        {
+          "id": 698405509,
+          "name": "pulsia-editor.zip",
+          "state": "uploaded",
+          "size": 307890,
+          "digest": "sha256:d26ba70e9c43fed8da9fe25d496564d7ed2914fa8612727111c3714753f5d9c0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.editor.base.text-editor%401.0.113/pulsia-editor.zip",
+          "created_at": "2026-11-01T13:21:03Z",
+          "updated_at": "2026-11-01T13:21:04Z"
+        },
+        {
+          "id": 698405496,
+          "name": "pulsia-editor.zip.sha256",
+          "state": "uploaded",
+          "size": 84,
+          "digest": "sha256:faea3625a596d35c8a401ca8dfb5ceda9c441ad66d0bf6783851646e0daaa91d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.editor.base.text-editor%401.0.113/pulsia-editor.zip.sha256",
+          "created_at": "2026-11-01T13:21:03Z",
+          "updated_at": "2026-11-01T13:21:03Z"
+        }
+      ]
+    },
+    {
+      "id": 430598813,
+      "tag_name": "com.naver.mars-_-.editor.base.git-comparison@1.0.115",
+      "name": "Git 컴패리즌 1.0.115",
+      "body": "# Git 컴패리즌 1.0.115\n\n\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n이 버전의 ID 전환에는 Pulsia Core 0.3.274 이상이 필요합니다.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.editor.base.git-comparison\",\"version\":\"1.0.115\",\"title\":\"Git 컴패리즌\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.editor-engine\",\"version\":\"^1.0.106\",\"reason\":\"공용 문서 모델·편집기와 Worker 수명을 재사용함\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.editor.base.git-comparison\",\"dependencies\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.editor-engine\",\"minimumVersion\":\"1.0.106\"}]},\"minimumCoreVersion\":\"0.3.274\",\"requiresCore\":\"0.3.274\"} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.editor.base.git-comparison%401.0.115",
+      "published_at": "2026-11-01T13:24:28Z",
+      "created_at": "2026-11-01T13:24:25Z",
+      "updated_at": "2026-11-01T13:24:28Z",
+      "assets": [
+        {
+          "id": 698405631,
+          "name": "pulsia-git-comparison.zip",
+          "state": "uploaded",
+          "size": 265079,
+          "digest": "sha256:fae8ae0f8f40915e78e9ec6975be7150777786eb51c53a90f3b211a1c8e7a435",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.editor.base.git-comparison%401.0.115/pulsia-git-comparison.zip",
+          "created_at": "2026-11-01T13:21:06Z",
+          "updated_at": "2026-11-01T13:21:06Z"
+        },
+        {
+          "id": 698405632,
+          "name": "pulsia-git-comparison.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:8a9bbef96832b243021629a633e88e4999ffff99f186f73dfeb8bedd001b017b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.editor.base.git-comparison%401.0.115/pulsia-git-comparison.zip.sha256",
+          "created_at": "2026-11-01T13:21:06Z",
+          "updated_at": "2026-11-01T13:21:06Z"
         }
       ]
     },
