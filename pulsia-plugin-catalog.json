@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-01T04:44:05.000Z",
+  "generatedAt": "2026-11-01T13:24:20.000Z",
   "releases": [
     {
       "id": 430364144,
@@ -102,6 +102,108 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.seller%400.1.108/pulsia-plugin-wingate-seller.zip.sha256",
           "created_at": "2026-11-01T04:36:09Z",
           "updated_at": "2026-11-01T04:36:09Z"
+        }
+      ]
+    },
+    {
+      "id": 430598737,
+      "tag_name": "com.naver.mars-_-.platform.base.markdown@1.0.103",
+      "name": "공용 마크다운 표시 1.0.103",
+      "body": "# 공용 마크다운 표시 1.0.103\n\n\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n이 버전의 ID 전환에는 Pulsia Core 0.3.274 이상이 필요합니다.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.base.markdown\",\"version\":\"1.0.103\",\"title\":\"공용 마크다운 표시\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"dependencies\":[]},\"minimumCoreVersion\":\"0.3.274\",\"requiresCore\":\"0.3.274\"} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.base.markdown%401.0.103",
+      "published_at": "2026-11-01T13:24:20Z",
+      "created_at": "2026-11-01T04:44:15Z",
+      "updated_at": "2026-11-01T13:24:20Z",
+      "assets": [
+        {
+          "id": 698405257,
+          "name": "pulsia-markdown-runtime.zip",
+          "state": "uploaded",
+          "size": 46707,
+          "digest": "sha256:4707c4ec0f6a6cc46d259dd6a325456e9c598503c9359d68a4b8d6b58acef1b8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.markdown%401.0.103/pulsia-markdown-runtime.zip",
+          "created_at": "2026-11-01T13:20:57Z",
+          "updated_at": "2026-11-01T13:20:58Z"
+        },
+        {
+          "id": 698405259,
+          "name": "pulsia-markdown-runtime.zip.sha256",
+          "state": "uploaded",
+          "size": 94,
+          "digest": "sha256:42054b2b272ec7ec0dc049a29a4c72f452fb9cc64431eddb40f8718c3f8e977c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.markdown%401.0.103/pulsia-markdown-runtime.zip.sha256",
+          "created_at": "2026-11-01T13:20:57Z",
+          "updated_at": "2026-11-01T13:20:58Z"
+        }
+      ]
+    },
+    {
+      "id": 430598713,
+      "tag_name": "com.naver.mars-_-.platform.base.editor-engine@1.0.116",
+      "name": "공용 편집 엔진 1.0.116",
+      "body": "# 공용 편집 엔진 1.0.116\n\n\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n이 버전의 ID 전환에는 Pulsia Core 0.3.274 이상이 필요합니다.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.base.editor-engine\",\"version\":\"1.0.116\",\"title\":\"공용 편집 엔진\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.base.editor-engine\",\"dependencies\":[]},\"minimumCoreVersion\":\"0.3.274\",\"requiresCore\":\"0.3.274\"} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.base.editor-engine%401.0.116",
+      "published_at": "2026-11-01T13:24:17Z",
+      "created_at": "2026-11-01T04:44:15Z",
+      "updated_at": "2026-11-01T13:24:17Z",
+      "assets": [
+        {
+          "id": 698405159,
+          "name": "pulsia-editor-runtime.zip",
+          "state": "uploaded",
+          "size": 1724463,
+          "digest": "sha256:e815154c47a3f1532d4a2d983d216a1ff464ac6daee48155067e37351a628554",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.editor-engine%401.0.116/pulsia-editor-runtime.zip",
+          "created_at": "2026-11-01T13:20:55Z",
+          "updated_at": "2026-11-01T13:20:55Z"
+        },
+        {
+          "id": 698405160,
+          "name": "pulsia-editor-runtime.zip.sha256",
+          "state": "uploaded",
+          "size": 92,
+          "digest": "sha256:7be3a10d1cd8cf7e44263d6021041b784a0b521f2167b46d77a68b90e2d43319",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.editor-engine%401.0.116/pulsia-editor-runtime.zip.sha256",
+          "created_at": "2026-11-01T13:20:55Z",
+          "updated_at": "2026-11-01T13:20:55Z"
+        }
+      ]
+    },
+    {
+      "id": 430598688,
+      "tag_name": "com.naver.mars-_-.platform.base.acp@1.0.123",
+      "name": "ACP 공용 플러그인 1.0.123",
+      "body": "# ACP 공용 플러그인 1.0.123\n\n\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n이 버전의 ID 전환에는 Pulsia Core 0.3.274 이상이 필요합니다.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\"1.0.123\",\"title\":\"ACP 공용 플러그인\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"version\":\"^1.0.101\",\"reason\":\"ACP 응답과 파일 링크를 표시함.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.base.acp\",\"dependencies\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"minimumVersion\":\"1.0.101\"}]},\"minimumCoreVersion\":\"0.3.274\",\"requiresCore\":\"0.3.274\"} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.base.acp%401.0.123",
+      "published_at": "2026-11-01T13:24:14Z",
+      "created_at": "2026-11-01T04:44:15Z",
+      "updated_at": "2026-11-01T13:24:14Z",
+      "assets": [
+        {
+          "id": 698405000,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 1531599,
+          "digest": "sha256:5b737ae34f71dc3b0333dc2de397704a8ed969d21601bf717b3f7807f1eb4a58",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.123/pulsia-acp-common.zip",
+          "created_at": "2026-11-01T13:20:52Z",
+          "updated_at": "2026-11-01T13:20:52Z"
+        },
+        {
+          "id": 698405002,
+          "name": "pulsia-acp-common.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:301c21eebbfe515cecb69e3322c960de4b4ef6f79b451c799786e265d4ad7dc5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.123/pulsia-acp-common.zip.sha256",
+          "created_at": "2026-11-01T13:20:52Z",
+          "updated_at": "2026-11-01T13:20:52Z"
         }
       ]
     },
