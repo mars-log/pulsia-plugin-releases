@@ -1,8 +1,76 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-01T04:43:44.000Z",
+  "generatedAt": "2026-11-01T04:43:56.000Z",
   "releases": [
+    {
+      "id": 430364122,
+      "tag_name": "com.naver.mars-_-.wingate.ssh-client@0.0.109",
+      "name": "wingate-client-addon-ssh-client 0.0.109",
+      "body": "# com.naver.mars-_-.wingate.ssh-client 0.0.109\n\n\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.wingate.ssh-client\",\"version\":\"0.0.109\",\"title\":\"com.naver.mars-_-.wingate.ssh-client\",\"description\":\"\",\"kind\":\"backend\",\"tags\":[\"Wingate\",\"SSH\",\"Client\",\"접속 대상\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.wingate.ssh-client\",\"dependencies\":[]}} -->\n\n## 사용 조건과 변경\n\n- Pulsia 0.3.273 이상이 필요함. Core 갱신 후 설치함.\n- 기존 설정과 저장한 자료를 이어서 사용하며 플러그인 제거 시 자료를 보존함.\n\n[검증한 소스](https://github.com/mars-log/pulsia-plugin-studio/commit/7dd3662131d71f2f3c093ac3f12bee714743feb2)\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.wingate.ssh-client%400.0.109",
+      "published_at": "2026-11-01T04:43:52Z",
+      "created_at": "2026-11-01T04:43:50Z",
+      "updated_at": "2026-11-01T04:43:52Z",
+      "assets": [
+        {
+          "id": 697330596,
+          "name": "pulsia-plugin-wingate-client-addon-ssh-client.zip",
+          "state": "uploaded",
+          "size": 46665,
+          "digest": "sha256:5ebe75b7d3feba9d22a9de6a1c28b0ce1582d64d0b69568d54d035e77e5b04b9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.ssh-client%400.0.109/pulsia-plugin-wingate-client-addon-ssh-client.zip",
+          "created_at": "2026-11-01T04:36:06Z",
+          "updated_at": "2026-11-01T04:36:06Z"
+        },
+        {
+          "id": 697330597,
+          "name": "pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
+          "state": "uploaded",
+          "size": 116,
+          "digest": "sha256:836552630e058f6d0fcc2814677f6cc7656a9f8f2d34efe5cadb7bffd66312c3",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.ssh-client%400.0.109/pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
+          "created_at": "2026-11-01T04:36:06Z",
+          "updated_at": "2026-11-01T04:36:06Z"
+        }
+      ]
+    },
+    {
+      "id": 430364137,
+      "tag_name": "com.naver.mars-_-.wingate.seller@0.1.108",
+      "name": "wingate-seller 0.1.108",
+      "body": "# Wingate Seller 0.1.108\n\n\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.wingate.seller\",\"version\":\"0.1.108\",\"title\":\"Wingate Seller\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"판매자\",\"고객\",\"설치\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.wingate.seller\",\"dependencies\":[]}} -->\n\n## 사용 조건과 변경\n\n- Pulsia 0.3.273 이상이 필요함. Core 갱신 후 설치함.\n- 기존 설정과 저장한 자료를 이어서 사용하며 플러그인 제거 시 자료를 보존함.\n- 판매자 도구는 별도로 설치하며 Wingate 팩 제거의 영향을 받지 않음.\n\n[검증한 소스](https://github.com/mars-log/pulsia-plugin-studio/commit/7dd3662131d71f2f3c093ac3f12bee714743feb2)\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.wingate.seller%400.1.108",
+      "published_at": "2026-11-01T04:43:56Z",
+      "created_at": "2026-11-01T04:43:50Z",
+      "updated_at": "2026-11-01T04:43:56Z",
+      "assets": [
+        {
+          "id": 697330679,
+          "name": "pulsia-plugin-wingate-seller.zip",
+          "state": "uploaded",
+          "size": 120282,
+          "digest": "sha256:df3d1d5c404b5455dca1cec40eb7f52fce6c65a3bf8a3e4e01141ab276c1ddff",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.seller%400.1.108/pulsia-plugin-wingate-seller.zip",
+          "created_at": "2026-11-01T04:36:09Z",
+          "updated_at": "2026-11-01T04:36:09Z"
+        },
+        {
+          "id": 697330677,
+          "name": "pulsia-plugin-wingate-seller.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:19746774c262abc353e19fd7857743ac7d8c0d0eee90497b57464ef181ba023b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.seller%400.1.108/pulsia-plugin-wingate-seller.zip.sha256",
+          "created_at": "2026-11-01T04:36:09Z",
+          "updated_at": "2026-11-01T04:36:09Z"
+        }
+      ]
+    },
     {
       "id": 429885336,
       "tag_name": "pulsia.net-manager@0.1.135",
@@ -190,6 +258,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.manager%400.1.113/wingate-managed-ssh-runtime-source-0.85.0-wingate.3.zip.sha256",
           "created_at": "2026-11-01T04:35:49Z",
           "updated_at": "2026-11-01T04:35:49Z"
+        }
+      ]
+    },
+    {
+      "id": 430364103,
+      "tag_name": "com.naver.mars-_-.wingate.client@0.1.127",
+      "name": "wingate-client 0.1.127",
+      "body": "# Wingate Client 0.1.127\n\n\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.wingate.client\",\"version\":\"0.1.127\",\"title\":\"Wingate Client\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"접속\",\"서버\",\"Client\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"com.naver.mars-_-.wingate.manager\",\"version\":\"^0.1.108\",\"reason\":\"Manager가 준비한 조직 서버 목록과 SSH 접속 준비를 사용할 수 있습니다.\"},{\"pluginId\":\"com.naver.mars-_-.wingate.ssh-client\",\"version\":\"^0.0.108\",\"reason\":\"개인 SSH 접속 대상을 저장하고 사용할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.wingate.client\",\"dependencies\":[]}} -->\n\n## 사용 조건과 변경\n\n- Pulsia 0.3.273 이상이 필요함. Core 갱신 후 설치함.\n- 기존 설정과 저장한 자료를 이어서 사용하며 플러그인 제거 시 자료를 보존함.\n\n[검증한 소스](https://github.com/mars-log/pulsia-plugin-studio/commit/7dd3662131d71f2f3c093ac3f12bee714743feb2)\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.wingate.client%400.1.127",
+      "published_at": "2026-11-01T04:43:48Z",
+      "created_at": "2026-10-31T11:11:09Z",
+      "updated_at": "2026-11-01T04:43:48Z",
+      "assets": [
+        {
+          "id": 697330521,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 346847,
+          "digest": "sha256:19b2ea7aebeae2c1de3e722f91339d19884a2952551792f7babc1799263f4b7a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.client%400.1.127/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-11-01T04:36:04Z",
+          "updated_at": "2026-11-01T04:36:04Z"
+        },
+        {
+          "id": 697330516,
+          "name": "pulsia-plugin-wingate-client.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:0b252ad636447120be17c9e58b6ae1907c3017cddf512b9b6b0c45d876355e93",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.client%400.1.127/pulsia-plugin-wingate-client.zip.sha256",
+          "created_at": "2026-11-01T04:36:04Z",
+          "updated_at": "2026-11-01T04:36:04Z"
         }
       ]
     },
