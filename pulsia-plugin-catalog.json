@@ -1,8 +1,110 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-02T16:35:18.000Z",
+  "generatedAt": "2026-11-02T17:20:18.000Z",
   "releases": [
+    {
+      "id": 431748952,
+      "tag_name": "com.naver.mars-_-.wingate@0.1.103",
+      "name": "Wingate 팩 0.1.103",
+      "body": "# Wingate 팩 0.1.103\n\nWingate 관리·접속 도구를 선택해 설치합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.wingate\",\"version\":\"0.1.103\",\"title\":\"Wingate 팩\",\"description\":\"Wingate 관리·접속 도구를 선택해 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"Wingate\",\"SSH\",\"접속\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.wingate.manager\",\"version\":\"^0.1.113\",\"reason\":\"조직과 서버를 관리합니다.\"},{\"pluginId\":\"com.naver.mars-_-.wingate.ssh-client\",\"version\":\">=0.0.109 <=0.0.110\",\"reason\":\"개인 SSH 접속 대상을 관리합니다.\"},{\"pluginId\":\"com.naver.mars-_-.wingate.client\",\"version\":\"^0.1.127\",\"reason\":\"조직 서버와 SSH에 접속합니다.\"}],\"pluginMigrations\":[{\"fromPluginId\":\"pulsia-plugin-wingate-manager\",\"toPluginId\":\"com.naver.mars-_-.wingate.manager\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"},{\"fromPluginId\":\"pulsia-plugin-wingate-client-addon-ssh-client\",\"toPluginId\":\"com.naver.mars-_-.wingate.ssh-client\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"},{\"fromPluginId\":\"pulsia-plugin-wingate-client\",\"toPluginId\":\"com.naver.mars-_-.wingate.client\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"}],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.wingate\",\"dependencies\":[]}} -->\n\n소스: `32b3fbc2b9532bfa6de77ff80e0e062a39fe19e5` · 기존 UI/Backend 서비스·저장 자료·승인 흐름을 유지함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.wingate%400.1.103",
+      "published_at": "2026-11-02T17:20:18Z",
+      "created_at": "2026-11-02T16:35:33Z",
+      "updated_at": "2026-11-02T17:20:18Z",
+      "assets": [
+        {
+          "id": 702554330,
+          "name": "pulsia-wingate-pack.zip",
+          "state": "uploaded",
+          "size": 3422,
+          "digest": "sha256:125670aa8819c7e0da8ffe2bf72d3d44258475b43d8c140fc17f3b4d21986258",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate%400.1.103/pulsia-wingate-pack.zip",
+          "created_at": "2026-11-02T17:20:17Z",
+          "updated_at": "2026-11-02T17:20:17Z"
+        },
+        {
+          "id": 702554331,
+          "name": "pulsia-wingate-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:d00baae9a44fd37fcfe868398383632a139b1ecdf71aa2fe67e38ec9d961a217",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate%400.1.103/pulsia-wingate-pack.zip.sha256",
+          "created_at": "2026-11-02T17:20:17Z",
+          "updated_at": "2026-11-02T17:20:17Z"
+        }
+      ]
+    },
+    {
+      "id": 431748773,
+      "tag_name": "pulsia.sql-studio@0.0.131",
+      "name": "pulsia.sql-studio 0.0.131",
+      "body": "# SQL Studio 0.0.131\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.sql-studio\",\"version\":\"0.0.131\",\"title\":\"SQL Studio\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Database\",\"SQL\",\"PLSQL\",\"Editor\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.db-connector\",\"version\":\"^0.2.114\",\"reason\":\"DB 접속과 SQL 실행에 사용합니다.\"},{\"pluginId\":\"pulsia.editor-runtime\",\"version\":\"^1.0.109\",\"reason\":\"SQL 편집과 테이블 자동완성 팝업·후보 선택에 사용합니다.\"}],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"pulsia.sql-studio\",\"dependencies\":[]}} -->\n\n소스: `32b3fbc2b9532bfa6de77ff80e0e062a39fe19e5` · 기존 UI/Backend 서비스·저장 자료·승인 흐름을 유지함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.sql-studio%400.0.131",
+      "published_at": "2026-11-02T17:20:09Z",
+      "created_at": "2026-11-02T16:35:33Z",
+      "updated_at": "2026-11-02T17:20:09Z",
+      "assets": [
+        {
+          "id": 702553875,
+          "name": "pulsia-sql-studio.zip",
+          "state": "uploaded",
+          "size": 91048,
+          "digest": "sha256:a093f95368aeb0f15c7b5be6874ad1fbc5a3d6a70fda5abb8ac536aa475d4baf",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.131/pulsia-sql-studio.zip",
+          "created_at": "2026-11-02T17:20:08Z",
+          "updated_at": "2026-11-02T17:20:08Z"
+        },
+        {
+          "id": 702553872,
+          "name": "pulsia-sql-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:28c2d4a00dc9120c90a2122e69cbdf3daea7533698be0de3d66fa85d6e46d188",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.131/pulsia-sql-studio.zip.sha256",
+          "created_at": "2026-11-02T17:20:07Z",
+          "updated_at": "2026-11-02T17:20:08Z"
+        }
+      ]
+    },
+    {
+      "id": 431748776,
+      "tag_name": "pulsia.model-studio@0.0.121",
+      "name": "pulsia.model-studio 0.0.121",
+      "body": "# Model Studio 0.0.121\n\n\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.model-studio\",\"version\":\"0.0.121\",\"title\":\"Model Studio\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Model\",\"Mind Map\",\"ERD\",\"AI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"pulsia.model-studio\",\"dependencies\":[]}} -->\n\n소스: `32b3fbc2b9532bfa6de77ff80e0e062a39fe19e5` · 기존 UI/Backend 서비스·저장 자료·승인 흐름을 유지함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.model-studio%400.0.121",
+      "published_at": "2026-11-02T17:20:09Z",
+      "created_at": "2026-11-02T16:35:33Z",
+      "updated_at": "2026-11-02T17:20:09Z",
+      "assets": [
+        {
+          "id": 702553871,
+          "name": "pulsia-model-studio.zip",
+          "state": "uploaded",
+          "size": 118051,
+          "digest": "sha256:e599b40648b6eb6f2df57d7ad51cf4b76375fd428baaa45be51e3695c6297afe",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.121/pulsia-model-studio.zip",
+          "created_at": "2026-11-02T17:20:07Z",
+          "updated_at": "2026-11-02T17:20:08Z"
+        },
+        {
+          "id": 702553869,
+          "name": "pulsia-model-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:373e207d04fecf01074fa9acd859ffc75ce8b9ab4eba3f0efff39a07ff41282b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.121/pulsia-model-studio.zip.sha256",
+          "created_at": "2026-11-02T17:20:07Z",
+          "updated_at": "2026-11-02T17:20:08Z"
+        }
+      ]
+    },
     {
       "id": 431069160,
       "tag_name": "pulsia.model-studio@0.0.120",
@@ -24,6 +126,124 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.120/pulsia-model-studio.zip",
           "created_at": "2026-11-02T04:22:56Z",
           "updated_at": "2026-11-02T04:22:56Z"
+        }
+      ]
+    },
+    {
+      "id": 431748876,
+      "tag_name": "pulsia.db-connector@0.2.116",
+      "name": "pulsia.db-connector 0.2.116",
+      "body": "# pulsia.db-connector 0.2.116\n\n기존 기능의 CLI·MCP·스킬·매뉴얼을 현재 Core 호출 경로에 맞춰 갱신함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.db-connector\",\"version\":\"0.2.116\",\"title\":\"pulsia.db-connector\",\"description\":\"기존 기능의 CLI·MCP·스킬·매뉴얼을 현재 Core 호출 경로에 맞춰 갱신함.\",\"kind\":\"composite\",\"tags\":[\"Database\",\"Oracle\",\"PostgreSQL\",\"MySQL\",\"MariaDB\",\"Redis\",\"SQLite\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":null} -->\n\n소스: `32b3fbc2b9532bfa6de77ff80e0e062a39fe19e5` · 기존 UI/Backend 서비스·저장 자료·승인 흐름을 유지함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.db-connector%400.2.116",
+      "published_at": "2026-11-02T17:20:16Z",
+      "created_at": "2026-11-02T16:35:33Z",
+      "updated_at": "2026-11-02T17:20:16Z",
+      "assets": [
+        {
+          "id": 702554117,
+          "name": "db-driver-mariadb-3.5.4.zip",
+          "state": "uploaded",
+          "size": 1951026,
+          "digest": "sha256:873b0b9359f37bfc5ca67af1c0cd7ebab6b3e1f11f84d3752981ec81a86d22d9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector%400.2.116/db-driver-mariadb-3.5.4.zip",
+          "created_at": "2026-11-02T17:20:12Z",
+          "updated_at": "2026-11-02T17:20:13Z"
+        },
+        {
+          "id": 702554115,
+          "name": "db-driver-mysql-3.24.4.zip",
+          "state": "uploaded",
+          "size": 580480,
+          "digest": "sha256:180e641eb54d89335e9744ef2004469281694259b2fd5e52e48fa828cb8e117e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector%400.2.116/db-driver-mysql-3.24.4.zip",
+          "created_at": "2026-11-02T17:20:12Z",
+          "updated_at": "2026-11-02T17:20:13Z"
+        },
+        {
+          "id": 702554118,
+          "name": "db-driver-oracle-7.0.1.zip",
+          "state": "uploaded",
+          "size": 374585,
+          "digest": "sha256:5aabd4a524c427ae531855ec113196cc3e329b512d398e60ae5caa10584bfdb9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector%400.2.116/db-driver-oracle-7.0.1.zip",
+          "created_at": "2026-11-02T17:20:12Z",
+          "updated_at": "2026-11-02T17:20:13Z"
+        },
+        {
+          "id": 702554151,
+          "name": "db-driver-postgresql-8.23.0.zip",
+          "state": "uploaded",
+          "size": 168105,
+          "digest": "sha256:c7fbfddf12a33b3dce7583f5191ccc7cac9f596e4996b61d05bd3a2f279c9815",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector%400.2.116/db-driver-postgresql-8.23.0.zip",
+          "created_at": "2026-11-02T17:20:13Z",
+          "updated_at": "2026-11-02T17:20:14Z"
+        },
+        {
+          "id": 702554155,
+          "name": "db-driver-redis-6.3.0.zip",
+          "state": "uploaded",
+          "size": 2212755,
+          "digest": "sha256:b4cf8c8ecc68e7faa87003d93f15eefd47c3032429a2f99437551bdf2f49130c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector%400.2.116/db-driver-redis-6.3.0.zip",
+          "created_at": "2026-11-02T17:20:13Z",
+          "updated_at": "2026-11-02T17:20:15Z"
+        },
+        {
+          "id": 702554119,
+          "name": "pulsia-plugin-db-connector.zip",
+          "state": "uploaded",
+          "size": 240942,
+          "digest": "sha256:149172d35c952ed6874b2ec40658c113b8fa1910ca08c684742d1bd1c6c3feef",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector%400.2.116/pulsia-plugin-db-connector.zip",
+          "created_at": "2026-11-02T17:20:12Z",
+          "updated_at": "2026-11-02T17:20:13Z"
+        },
+        {
+          "id": 702554116,
+          "name": "pulsia-plugin-db-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 97,
+          "digest": "sha256:1bcd0901501eac7fd4b9824a115581e8048ad81721f536fbc3b794b046836c50",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector%400.2.116/pulsia-plugin-db-connector.zip.sha256",
+          "created_at": "2026-11-02T17:20:12Z",
+          "updated_at": "2026-11-02T17:20:12Z"
+        }
+      ]
+    },
+    {
+      "id": 431748881,
+      "tag_name": "pulsia-plugin-wingate-runtime@0.0.104",
+      "name": "pulsia-plugin-wingate-runtime 0.0.104",
+      "body": "# pulsia-plugin-wingate-runtime 0.0.104\n\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia-plugin-wingate-runtime\",\"version\":\"0.0.104\",\"title\":\"pulsia-plugin-wingate-runtime\",\"description\":\"\",\"kind\":\"backend\",\"tags\":[\"Wingate\",\"Runtime\",\"Kerberos\",\"SSH\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"pulsia-plugin-wingate-runtime\",\"dependencies\":[]}} -->\n\n소스: `32b3fbc2b9532bfa6de77ff80e0e062a39fe19e5` · 기존 UI/Backend 서비스·저장 자료·승인 흐름을 유지함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-plugin-wingate-runtime%400.0.104",
+      "published_at": "2026-11-02T17:20:14Z",
+      "created_at": "2026-11-02T16:35:33Z",
+      "updated_at": "2026-11-02T17:20:14Z",
+      "assets": [
+        {
+          "id": 702554130,
+          "name": "pulsia-plugin-wingate-runtime.zip",
+          "state": "uploaded",
+          "size": 67865,
+          "digest": "sha256:84b0432e9f7692573b7c01dd06851c90f7f7fa889fe5d9f82daf77797c7956af",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-runtime%400.0.104/pulsia-plugin-wingate-runtime.zip",
+          "created_at": "2026-11-02T17:20:12Z",
+          "updated_at": "2026-11-02T17:20:13Z"
+        },
+        {
+          "id": 702554133,
+          "name": "pulsia-plugin-wingate-runtime.zip.sha256",
+          "state": "uploaded",
+          "size": 100,
+          "digest": "sha256:9d20d2eba98475d528a103ca8a50cdf766768f6cdd8943c0cc744bb6574e6d44",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-wingate-runtime%400.0.104/pulsia-plugin-wingate-runtime.zip.sha256",
+          "created_at": "2026-11-02T17:20:13Z",
+          "updated_at": "2026-11-02T17:20:13Z"
         }
       ]
     },
@@ -58,6 +278,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate%400.1.102/pulsia-wingate-pack.zip.sha256",
           "created_at": "2026-11-02T15:56:45Z",
           "updated_at": "2026-11-02T15:56:46Z"
+        }
+      ]
+    },
+    {
+      "id": 431748880,
+      "tag_name": "com.naver.mars-_-.wingate.ssh-client@0.0.110",
+      "name": "com.naver.mars-_-.wingate.ssh-client 0.0.110",
+      "body": "# com.naver.mars-_-.wingate.ssh-client 0.0.110\n\n\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.wingate.ssh-client\",\"version\":\"0.0.110\",\"title\":\"com.naver.mars-_-.wingate.ssh-client\",\"description\":\"\",\"kind\":\"backend\",\"tags\":[\"Wingate\",\"SSH\",\"Client\",\"접속 대상\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.wingate.ssh-client\",\"dependencies\":[]}} -->\n\n소스: `32b3fbc2b9532bfa6de77ff80e0e062a39fe19e5` · 기존 UI/Backend 서비스·저장 자료·승인 흐름을 유지함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.wingate.ssh-client%400.0.110",
+      "published_at": "2026-11-02T17:20:14Z",
+      "created_at": "2026-11-02T16:35:33Z",
+      "updated_at": "2026-11-02T17:20:14Z",
+      "assets": [
+        {
+          "id": 702554138,
+          "name": "pulsia-plugin-wingate-client-addon-ssh-client.zip",
+          "state": "uploaded",
+          "size": 48610,
+          "digest": "sha256:c37071225b264b7008cd12c323f23b90c11c15a0faf167779bc30adb6be920c4",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.ssh-client%400.0.110/pulsia-plugin-wingate-client-addon-ssh-client.zip",
+          "created_at": "2026-11-02T17:20:13Z",
+          "updated_at": "2026-11-02T17:20:13Z"
+        },
+        {
+          "id": 702554137,
+          "name": "pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
+          "state": "uploaded",
+          "size": 116,
+          "digest": "sha256:e0967d96ddc7fb3ab276a7d16b3c6bf35df627d03608acce775f837e81451ed2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.ssh-client%400.0.110/pulsia-plugin-wingate-client-addon-ssh-client.zip.sha256",
+          "created_at": "2026-11-02T17:20:13Z",
+          "updated_at": "2026-11-02T17:20:13Z"
         }
       ]
     },
@@ -824,6 +1078,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat%401.0.108/pulsia-ai-chat-pack.zip.sha256",
           "created_at": "2026-11-02T15:56:41Z",
           "updated_at": "2026-11-02T15:56:41Z"
+        }
+      ]
+    },
+    {
+      "id": 431748772,
+      "tag_name": "com.naver.mars-_-.acp.ai-chat.mini-acp@1.0.129",
+      "name": "com.naver.mars-_-.acp.ai-chat.mini-acp 1.0.129",
+      "body": "# Mini ACP 1.0.129\n\n사이드 패널에서 AI 도우미를 사용합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"1.0.129\",\"title\":\"Mini ACP\",\"description\":\"사이드 패널에서 AI 도우미를 사용합니다.\",\"kind\":\"frontend\",\"tags\":[\"ACP\",\"Agent\",\"좌측 패널\",\"공용 UI\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.127\",\"reason\":\"AI 대화 화면과 Agent 실행을 제공함\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"dependencies\":[]}} -->\n\n소스: `32b3fbc2b9532bfa6de77ff80e0e062a39fe19e5` · 기존 UI/Backend 서비스·저장 자료·승인 흐름을 유지함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.129",
+      "published_at": "2026-11-02T17:20:09Z",
+      "created_at": "2026-11-02T16:35:33Z",
+      "updated_at": "2026-11-02T17:20:09Z",
+      "assets": [
+        {
+          "id": 702553868,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 32774,
+          "digest": "sha256:06ea88179e3da28b4a6eb9a8703e0871212ab9b50b89567024d92965a7e62b3c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.129/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-11-02T17:20:07Z",
+          "updated_at": "2026-11-02T17:20:08Z"
+        },
+        {
+          "id": 702553866,
+          "name": "pulsia-plugin-mini-acp.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:5f87537ea02e2892803f1df760c1e9738c902c25fea339be69806708f7463187",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.129/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-11-02T17:20:07Z",
+          "updated_at": "2026-11-02T17:20:08Z"
         }
       ]
     },
@@ -13400,6 +13688,80 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.106/pulsia-plugin-db-connector.zip",
           "created_at": "2026-10-14T07:47:57Z",
           "updated_at": "2026-10-14T07:47:57Z"
+        }
+      ]
+    },
+    {
+      "id": 412403465,
+      "tag_name": "pulsia.db-connector-v0.2.105",
+      "name": "pulsia.db-connector 0.2.105",
+      "body": "공용 너비·높이 조절과 테마 색상·두께를 사용합니다. 드래그·방향키·정착 저장·취소·복원을 Pulsia 공용 모듈에 연결하고 기존 크기 설정을 유지합니다.\n\nPulsia 0.3.172 이상을 먼저 업데이트하고 재시작한 뒤 설치합니다.\n\nSource: e9e251eac21cb0b588cc8d719f6536f22166d641\nSHA-256: 8ba1714c9311d86946c7e5893c7d09e916501cf8411949dafc171b6a2a8a4438\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.db-connector-v0.2.105",
+      "published_at": "2026-10-14T06:31:37Z",
+      "created_at": "2026-10-14T06:30:57Z",
+      "updated_at": "2026-10-14T06:31:37Z",
+      "assets": [
+        {
+          "id": 639477938,
+          "name": "db-driver-mariadb-3.5.4.zip",
+          "state": "uploaded",
+          "size": 1948237,
+          "digest": "sha256:100be009751355b14371fb727d239a8b9a9e5fb03ec500855ef9ac2e763bd12b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.105/db-driver-mariadb-3.5.4.zip",
+          "created_at": "2026-10-14T06:31:34Z",
+          "updated_at": "2026-10-14T06:31:34Z"
+        },
+        {
+          "id": 639477957,
+          "name": "db-driver-mysql-3.24.4.zip",
+          "state": "uploaded",
+          "size": 577691,
+          "digest": "sha256:0ed23908658073ad4f045c0571f45e65f2bc9102eb7b306ac8e8967d28b6e97c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.105/db-driver-mysql-3.24.4.zip",
+          "created_at": "2026-10-14T06:31:34Z",
+          "updated_at": "2026-10-14T06:31:35Z"
+        },
+        {
+          "id": 639477941,
+          "name": "db-driver-oracle-7.0.1.zip",
+          "state": "uploaded",
+          "size": 371700,
+          "digest": "sha256:a0398bab907048576e7fa1b39c76ca2c99d3ab807057b5cfc9b7ee3cd058d1ef",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.105/db-driver-oracle-7.0.1.zip",
+          "created_at": "2026-10-14T06:31:34Z",
+          "updated_at": "2026-10-14T06:31:34Z"
+        },
+        {
+          "id": 639477939,
+          "name": "db-driver-postgresql-8.23.0.zip",
+          "state": "uploaded",
+          "size": 163639,
+          "digest": "sha256:98462d8dacb016c4576318c7dcb6c455cf2d195dcd7751b790d9409f1632d002",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.105/db-driver-postgresql-8.23.0.zip",
+          "created_at": "2026-10-14T06:31:34Z",
+          "updated_at": "2026-10-14T06:31:34Z"
+        },
+        {
+          "id": 639477963,
+          "name": "db-driver-redis-6.3.0.zip",
+          "state": "uploaded",
+          "size": 2212755,
+          "digest": "sha256:b4cf8c8ecc68e7faa87003d93f15eefd47c3032429a2f99437551bdf2f49130c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.105/db-driver-redis-6.3.0.zip",
+          "created_at": "2026-10-14T06:31:34Z",
+          "updated_at": "2026-10-14T06:31:36Z"
+        },
+        {
+          "id": 639477940,
+          "name": "pulsia-plugin-db-connector.zip",
+          "state": "uploaded",
+          "size": 208396,
+          "digest": "sha256:8ba1714c9311d86946c7e5893c7d09e916501cf8411949dafc171b6a2a8a4438",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.db-connector-v0.2.105/pulsia-plugin-db-connector.zip",
+          "created_at": "2026-10-14T06:31:34Z",
+          "updated_at": "2026-10-14T06:31:34Z"
         }
       ]
     },
