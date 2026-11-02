@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-02T15:28:55.000Z",
+  "generatedAt": "2026-11-02T15:56:59.000Z",
   "releases": [
     {
       "id": 431069160,
@@ -24,6 +24,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.120/pulsia-model-studio.zip",
           "created_at": "2026-11-02T04:22:56Z",
           "updated_at": "2026-11-02T04:22:56Z"
+        }
+      ]
+    },
+    {
+      "id": 431660530,
+      "tag_name": "com.naver.mars-_-.wingate@0.1.102",
+      "name": "Wingate 팩 0.1.102",
+      "body": "# Wingate 팩 0.1.102\n\n- CLI/MCP 공개 경로·기능 목록·매뉴얼·스킬을 현재 지원 범위에 맞춰 정비함. 팩은 실행 코드를 복제하지 않고 승인한 구성의 정적 Agent 자료를 포함함.\n- 업무 완료는 해당 기능의 최종 상태로 확인하며 사람 승인·기존 권한·저장 자료를 보존함.\n- 설치본·실제 외부 서버·세 OS 전체 확인과 남은 기능은 [인계 원장](https://github.com/mars-log/pulsia-plugin-studio/blob/ab7abd58e26da2a5e04b6f792f53ec2a95088ff8/catalog/doc/work/plugin-cli/handoff/README.md)을 따름. 전체 Plugin 정비 완료를 뜻하지 않음.\n\n소스: ab7abd58e26da2a5e04b6f792f53ec2a95088ff8\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.wingate\",\"version\":\"0.1.102\",\"title\":\"Wingate 팩\",\"description\":\"Wingate 관리·접속 도구를 선택해 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"Wingate\",\"SSH\",\"접속\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.wingate.manager\",\"version\":\"^0.1.113\",\"reason\":\"조직과 서버를 관리합니다.\"},{\"pluginId\":\"com.naver.mars-_-.wingate.ssh-client\",\"version\":\"^0.0.109\",\"reason\":\"개인 SSH 접속 대상을 관리합니다.\"},{\"pluginId\":\"com.naver.mars-_-.wingate.client\",\"version\":\"^0.1.127\",\"reason\":\"조직 서버와 SSH에 접속합니다.\"}],\"pluginMigrations\":[{\"fromPluginId\":\"pulsia-plugin-wingate-manager\",\"toPluginId\":\"com.naver.mars-_-.wingate.manager\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"},{\"fromPluginId\":\"pulsia-plugin-wingate-client-addon-ssh-client\",\"toPluginId\":\"com.naver.mars-_-.wingate.ssh-client\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"},{\"fromPluginId\":\"pulsia-plugin-wingate-client\",\"toPluginId\":\"com.naver.mars-_-.wingate.client\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"}],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.wingate\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.wingate%400.1.102",
+      "published_at": "2026-11-02T15:56:47Z",
+      "created_at": "2026-11-02T15:29:06Z",
+      "updated_at": "2026-11-02T15:56:47Z",
+      "assets": [
+        {
+          "id": 702299164,
+          "name": "pulsia-wingate-pack.zip",
+          "state": "uploaded",
+          "size": 3553,
+          "digest": "sha256:3ed893c42328f31820d444a94b2d2e44c2328fd2355e8ef8b2f33072b28b42b2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate%400.1.102/pulsia-wingate-pack.zip",
+          "created_at": "2026-11-02T15:56:45Z",
+          "updated_at": "2026-11-02T15:56:46Z"
+        },
+        {
+          "id": 702299167,
+          "name": "pulsia-wingate-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:9ee1a61eaf3364d189d08071909feaec05fd3b4fcebfafacb9ea954d580eba0f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate%400.1.102/pulsia-wingate-pack.zip.sha256",
+          "created_at": "2026-11-02T15:56:45Z",
+          "updated_at": "2026-11-02T15:56:46Z"
         }
       ]
     },
@@ -134,6 +168,74 @@
       ]
     },
     {
+      "id": 431660543,
+      "tag_name": "com.naver.mars-_-.platform.base@0.1.102",
+      "name": "펄시아 기본 팩 0.1.102",
+      "body": "# 펄시아 기본 팩 0.1.102\n\n- CLI/MCP 공개 경로·기능 목록·매뉴얼·스킬을 현재 지원 범위에 맞춰 정비함. 팩은 실행 코드를 복제하지 않고 승인한 구성의 정적 Agent 자료를 포함함.\n- 업무 완료는 해당 기능의 최종 상태로 확인하며 사람 승인·기존 권한·저장 자료를 보존함.\n- 설치본·실제 외부 서버·세 OS 전체 확인과 남은 기능은 [인계 원장](https://github.com/mars-log/pulsia-plugin-studio/blob/ab7abd58e26da2a5e04b6f792f53ec2a95088ff8/catalog/doc/work/plugin-cli/handoff/README.md)을 따름. 전체 Plugin 정비 완료를 뜻하지 않음.\n\n소스: ab7abd58e26da2a5e04b6f792f53ec2a95088ff8\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.base\",\"version\":\"0.1.102\",\"title\":\"펄시아 기본 팩\",\"description\":\"AI 대화·편집·문서 표시의 공용 기능과 기본 홈을 선택해 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"펄시아 기본 팩\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\"^1.0.123\",\"reason\":\"ACP 공용 플러그인을 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.platform.base.editor-engine\",\"version\":\"^1.0.116\",\"reason\":\"공용 편집 엔진을 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"version\":\"^1.0.103\",\"reason\":\"공용 마크다운 표시을 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.platform.base.home\",\"version\":\"^1.0.105\",\"reason\":\"펄시아 홈을 사용합니다.\"}],\"pluginMigrations\":[{\"fromPluginId\":\"pulsia.acp-common\",\"toPluginId\":\"com.naver.mars-_-.platform.base.acp\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"},{\"fromPluginId\":\"pulsia.editor-runtime\",\"toPluginId\":\"com.naver.mars-_-.platform.base.editor-engine\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"},{\"fromPluginId\":\"pulsia.markdown-runtime\",\"toPluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"},{\"fromPluginId\":\"pulsia.home\",\"toPluginId\":\"com.naver.mars-_-.platform.base.home\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"}],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.base\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.base%400.1.102",
+      "published_at": "2026-11-02T15:56:48Z",
+      "created_at": "2026-11-02T15:29:06Z",
+      "updated_at": "2026-11-02T15:56:48Z",
+      "assets": [
+        {
+          "id": 702299204,
+          "name": "base-pack.zip",
+          "state": "uploaded",
+          "size": 3674,
+          "digest": "sha256:e1f465dcce07c2d10c81be2e69c53d4aa35772dc83915206ee157e1fe9e01dd4",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base%400.1.102/base-pack.zip",
+          "created_at": "2026-11-02T15:56:46Z",
+          "updated_at": "2026-11-02T15:56:46Z"
+        },
+        {
+          "id": 702299211,
+          "name": "base-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 80,
+          "digest": "sha256:e8259ef321d506e0082aec2fd8e1643114515a2a5a20446b4a0eadb42a676694",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base%400.1.102/base-pack.zip.sha256",
+          "created_at": "2026-11-02T15:56:46Z",
+          "updated_at": "2026-11-02T15:56:47Z"
+        }
+      ]
+    },
+    {
+      "id": 431660450,
+      "tag_name": "com.naver.mars-_-.messenger@0.0.107",
+      "name": "Pulsia Messenger · 메신저 팩 0.0.107",
+      "body": "# Pulsia Messenger · 메신저 팩 0.0.107\n\n- CLI/MCP 공개 경로·기능 목록·매뉴얼·스킬을 현재 지원 범위에 맞춰 정비함. 팩은 실행 코드를 복제하지 않고 승인한 구성의 정적 Agent 자료를 포함함.\n- 업무 완료는 해당 기능의 최종 상태로 확인하며 사람 승인·기존 권한·저장 자료를 보존함.\n- 설치본·실제 외부 서버·세 OS 전체 확인과 남은 기능은 [인계 원장](https://github.com/mars-log/pulsia-plugin-studio/blob/ab7abd58e26da2a5e04b6f792f53ec2a95088ff8/catalog/doc/work/plugin-cli/handoff/README.md)을 따름. 전체 Plugin 정비 완료를 뜻하지 않음.\n\n소스: ab7abd58e26da2a5e04b6f792f53ec2a95088ff8\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.messenger\",\"version\":\"0.0.107\",\"title\":\"Pulsia Messenger · 메신저 팩\",\"description\":\"메신저 허브와 선택한 텔레그램·디스코드 커넥터를 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"메신저\",\"AI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.messenger.hub\",\"version\":\"^0.0.107\",\"reason\":\"메신저 연결·업무 요청·실행 승인과 알림을 관리합니다.\"},{\"pluginId\":\"com.naver.mars-_-.messenger.telegram\",\"version\":\"^0.0.106\",\"reason\":\"텔레그램 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\"},{\"pluginId\":\"com.naver.mars-_-.messenger.discord\",\"version\":\"^0.0.106\",\"reason\":\"디스코드 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\"}],\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.messenger\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.messenger%400.0.107",
+      "published_at": "2026-11-02T15:56:42Z",
+      "created_at": "2026-11-02T15:29:06Z",
+      "updated_at": "2026-11-02T15:56:42Z",
+      "assets": [
+        {
+          "id": 702298940,
+          "name": "messenger-pack.zip",
+          "state": "uploaded",
+          "size": 4016,
+          "digest": "sha256:3f18b6206272da84067d5914809cb9e2439b80958b196d467095090e2e22748a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger%400.0.107/messenger-pack.zip",
+          "created_at": "2026-11-02T15:56:41Z",
+          "updated_at": "2026-11-02T15:56:41Z"
+        },
+        {
+          "id": 702298938,
+          "name": "messenger-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 85,
+          "digest": "sha256:1e79f62fead5ee2152e12db2a8cf1cf4a61f37df1cdc6897c3571486442bafd6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger%400.0.107/messenger-pack.zip.sha256",
+          "created_at": "2026-11-02T15:56:41Z",
+          "updated_at": "2026-11-02T15:56:41Z"
+        }
+      ]
+    },
+    {
       "id": 431034668,
       "tag_name": "com.naver.mars-_-.messenger@0.0.106",
       "name": "Pulsia Messenger · 메신저 팩 0.0.106",
@@ -158,6 +260,74 @@
       ]
     },
     {
+      "id": 431660705,
+      "tag_name": "com.naver.mars-_-.messenger.telegram@0.0.106",
+      "name": "텔레그램 커넥터 0.0.106",
+      "body": "# 텔레그램 커넥터 0.0.106\n\n- CLI/MCP 공개 경로·기능 목록·매뉴얼·스킬을 현재 지원 범위에 맞춰 정비함. 팩은 실행 코드를 복제하지 않고 승인한 구성의 정적 Agent 자료를 포함함.\n- 업무 완료는 해당 기능의 최종 상태로 확인하며 사람 승인·기존 권한·저장 자료를 보존함.\n- 설치본·실제 외부 서버·세 OS 전체 확인과 남은 기능은 [인계 원장](https://github.com/mars-log/pulsia-plugin-studio/blob/ab7abd58e26da2a5e04b6f792f53ec2a95088ff8/catalog/doc/work/plugin-cli/handoff/README.md)을 따름. 전체 Plugin 정비 완료를 뜻하지 않음.\n\n소스: ab7abd58e26da2a5e04b6f792f53ec2a95088ff8\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.messenger.telegram\",\"version\":\"0.0.106\",\"title\":\"텔레그램 커넥터\",\"description\":\"텔레그램 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\",\"kind\":\"backend\",\"tags\":[\"메신저\",\"telegram\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.messenger.telegram\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.messenger.telegram%400.0.106",
+      "published_at": "2026-11-02T15:56:55Z",
+      "created_at": "2026-11-02T15:29:06Z",
+      "updated_at": "2026-11-02T15:56:55Z",
+      "assets": [
+        {
+          "id": 702299560,
+          "name": "messenger-telegram.zip",
+          "state": "uploaded",
+          "size": 27712,
+          "digest": "sha256:13c73fe284107f83efdee0d570939fa076fb36c6fcdece6e191a85ccd8cfcba6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.telegram%400.0.106/messenger-telegram.zip",
+          "created_at": "2026-11-02T15:56:54Z",
+          "updated_at": "2026-11-02T15:56:54Z"
+        },
+        {
+          "id": 702299556,
+          "name": "messenger-telegram.zip.sha256",
+          "state": "uploaded",
+          "size": 89,
+          "digest": "sha256:e3f6274e9052fff005c5e91c596a00e2b3675729346805e54f2302eb5baa5554",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.telegram%400.0.106/messenger-telegram.zip.sha256",
+          "created_at": "2026-11-02T15:56:54Z",
+          "updated_at": "2026-11-02T15:56:54Z"
+        }
+      ]
+    },
+    {
+      "id": 431660631,
+      "tag_name": "com.naver.mars-_-.messenger.hub@0.0.107",
+      "name": "메신저 허브 0.0.107",
+      "body": "# 메신저 허브 0.0.107\n\n- CLI/MCP 공개 경로·기능 목록·매뉴얼·스킬을 현재 지원 범위에 맞춰 정비함. 팩은 실행 코드를 복제하지 않고 승인한 구성의 정적 Agent 자료를 포함함.\n- 업무 완료는 해당 기능의 최종 상태로 확인하며 사람 승인·기존 권한·저장 자료를 보존함.\n- 설치본·실제 외부 서버·세 OS 전체 확인과 남은 기능은 [인계 원장](https://github.com/mars-log/pulsia-plugin-studio/blob/ab7abd58e26da2a5e04b6f792f53ec2a95088ff8/catalog/doc/work/plugin-cli/handoff/README.md)을 따름. 전체 Plugin 정비 완료를 뜻하지 않음.\n\n소스: ab7abd58e26da2a5e04b6f792f53ec2a95088ff8\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.messenger.hub\",\"version\":\"0.0.107\",\"title\":\"메신저 허브\",\"description\":\"메신저 연결·업무 요청·실행 승인과 알림을 관리합니다.\",\"kind\":\"composite\",\"tags\":[\"메신저\",\"AI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"메신저 화면의 AI 도우미를 사용합니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.messenger.hub\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.messenger.hub%400.0.107",
+      "published_at": "2026-11-02T15:56:52Z",
+      "created_at": "2026-11-02T15:29:06Z",
+      "updated_at": "2026-11-02T15:56:52Z",
+      "assets": [
+        {
+          "id": 702299395,
+          "name": "messenger-hub.zip",
+          "state": "uploaded",
+          "size": 70476,
+          "digest": "sha256:0090d5f1d00c39ff43b14678ebc96dd7895b61544cc42a369370556bf7284e72",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.hub%400.0.107/messenger-hub.zip",
+          "created_at": "2026-11-02T15:56:51Z",
+          "updated_at": "2026-11-02T15:56:51Z"
+        },
+        {
+          "id": 702299396,
+          "name": "messenger-hub.zip.sha256",
+          "state": "uploaded",
+          "size": 84,
+          "digest": "sha256:058a8ce7bd8d467c89e4dc3618729ab3b3069f1f5017c962cc54a3f058872df6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.hub%400.0.107/messenger-hub.zip.sha256",
+          "created_at": "2026-11-02T15:56:51Z",
+          "updated_at": "2026-11-02T15:56:51Z"
+        }
+      ]
+    },
+    {
       "id": 431034598,
       "tag_name": "com.naver.mars-_-.messenger.hub@0.0.106",
       "name": "메신저 허브 0.0.106",
@@ -178,6 +348,346 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.hub%400.0.106/messenger-hub.zip",
           "created_at": "2026-11-02T03:13:57Z",
           "updated_at": "2026-11-02T03:13:58Z"
+        }
+      ]
+    },
+    {
+      "id": 431660715,
+      "tag_name": "com.naver.mars-_-.messenger.discord@0.0.106",
+      "name": "디스코드 커넥터 0.0.106",
+      "body": "# 디스코드 커넥터 0.0.106\n\n- CLI/MCP 공개 경로·기능 목록·매뉴얼·스킬을 현재 지원 범위에 맞춰 정비함. 팩은 실행 코드를 복제하지 않고 승인한 구성의 정적 Agent 자료를 포함함.\n- 업무 완료는 해당 기능의 최종 상태로 확인하며 사람 승인·기존 권한·저장 자료를 보존함.\n- 설치본·실제 외부 서버·세 OS 전체 확인과 남은 기능은 [인계 원장](https://github.com/mars-log/pulsia-plugin-studio/blob/ab7abd58e26da2a5e04b6f792f53ec2a95088ff8/catalog/doc/work/plugin-cli/handoff/README.md)을 따름. 전체 Plugin 정비 완료를 뜻하지 않음.\n\n소스: ab7abd58e26da2a5e04b6f792f53ec2a95088ff8\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.messenger.discord\",\"version\":\"0.0.106\",\"title\":\"디스코드 커넥터\",\"description\":\"디스코드 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\",\"kind\":\"backend\",\"tags\":[\"메신저\",\"discord\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.messenger.discord\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.messenger.discord%400.0.106",
+      "published_at": "2026-11-02T15:56:56Z",
+      "created_at": "2026-11-02T15:29:06Z",
+      "updated_at": "2026-11-02T15:56:56Z",
+      "assets": [
+        {
+          "id": 702299572,
+          "name": "messenger-discord.zip",
+          "state": "uploaded",
+          "size": 27701,
+          "digest": "sha256:f2391a0b8d144fd68c4473c901acd463222009836a01e3d82b8142e0d5543e55",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.discord%400.0.106/messenger-discord.zip",
+          "created_at": "2026-11-02T15:56:54Z",
+          "updated_at": "2026-11-02T15:56:55Z"
+        },
+        {
+          "id": 702299575,
+          "name": "messenger-discord.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:cb8c2644cfbad7d885139eab2fe58caebaf9a148a94c00d9d43f2e7dd397099f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.discord%400.0.106/messenger-discord.zip.sha256",
+          "created_at": "2026-11-02T15:56:54Z",
+          "updated_at": "2026-11-02T15:56:55Z"
+        }
+      ]
+    },
+    {
+      "id": 431660609,
+      "tag_name": "com.naver.mars-_-.media.playback@0.1.102",
+      "name": "영상 재생 팩 0.1.102",
+      "body": "# 영상 재생 팩 0.1.102\n\n- CLI/MCP 공개 경로·기능 목록·매뉴얼·스킬을 현재 지원 범위에 맞춰 정비함. 팩은 실행 코드를 복제하지 않고 승인한 구성의 정적 Agent 자료를 포함함.\n- 업무 완료는 해당 기능의 최종 상태로 확인하며 사람 승인·기존 권한·저장 자료를 보존함.\n- 설치본·실제 외부 서버·세 OS 전체 확인과 남은 기능은 [인계 원장](https://github.com/mars-log/pulsia-plugin-studio/blob/ab7abd58e26da2a5e04b6f792f53ec2a95088ff8/catalog/doc/work/plugin-cli/handoff/README.md)을 따름. 전체 Plugin 정비 완료를 뜻하지 않음.\n\n소스: ab7abd58e26da2a5e04b6f792f53ec2a95088ff8\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.media.playback\",\"version\":\"0.1.102\",\"title\":\"영상 재생 팩\",\"description\":\"공용 영상 플레이어와 HLS 재생 엔진을 선택해 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"영상 재생 팩\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.media.playback.player\",\"version\":\"~0.0.104\",\"reason\":\"공용 영상 플레이어을 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.media.playback.hls-js\",\"version\":\"~0.0.102\",\"reason\":\"HLS 영상 엔진을 사용합니다.\"}],\"pluginMigrations\":[{\"fromPluginId\":\"com.naver.mars-_-.media.player\",\"toPluginId\":\"com.naver.mars-_-.media.playback.player\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"},{\"fromPluginId\":\"com.naver.mars-_-.media.player.addons.hls-js\",\"toPluginId\":\"com.naver.mars-_-.media.playback.hls-js\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"}],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.media.playback\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.media.playback%400.1.102",
+      "published_at": "2026-11-02T15:56:51Z",
+      "created_at": "2026-11-02T15:29:06Z",
+      "updated_at": "2026-11-02T15:56:51Z",
+      "assets": [
+        {
+          "id": 702299354,
+          "name": "video-playback-pack.zip",
+          "state": "uploaded",
+          "size": 3543,
+          "digest": "sha256:59978c3534d382e0317fbc00509e78f33948056987caebb9f9496396baddef74",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.media.playback%400.1.102/video-playback-pack.zip",
+          "created_at": "2026-11-02T15:56:50Z",
+          "updated_at": "2026-11-02T15:56:50Z"
+        },
+        {
+          "id": 702299351,
+          "name": "video-playback-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:dcbb5109ce7085c58abac9772f9a82473d264ec84168707f144568547d256051",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.media.playback%400.1.102/video-playback-pack.zip.sha256",
+          "created_at": "2026-11-02T15:56:50Z",
+          "updated_at": "2026-11-02T15:56:50Z"
+        }
+      ]
+    },
+    {
+      "id": 431660620,
+      "tag_name": "com.naver.mars-_-.examples@0.1.102",
+      "name": "펄시아 예제·테스트 팩 0.1.102",
+      "body": "# 펄시아 예제·테스트 팩 0.1.102\n\n- CLI/MCP 공개 경로·기능 목록·매뉴얼·스킬을 현재 지원 범위에 맞춰 정비함. 팩은 실행 코드를 복제하지 않고 승인한 구성의 정적 Agent 자료를 포함함.\n- 업무 완료는 해당 기능의 최종 상태로 확인하며 사람 승인·기존 권한·저장 자료를 보존함.\n- 설치본·실제 외부 서버·세 OS 전체 확인과 남은 기능은 [인계 원장](https://github.com/mars-log/pulsia-plugin-studio/blob/ab7abd58e26da2a5e04b6f792f53ec2a95088ff8/catalog/doc/work/plugin-cli/handoff/README.md)을 따름. 전체 Plugin 정비 완료를 뜻하지 않음.\n\n소스: ab7abd58e26da2a5e04b6f792f53ec2a95088ff8\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.examples\",\"version\":\"0.1.102\",\"title\":\"펄시아 예제·테스트 팩\",\"description\":\"기능 점검과 UI 예제·제작실, 시작 튜토리얼을 선택해 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"펄시아 예제·테스트 팩\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.examples.feature-tests\",\"version\":\"^1.0.127\",\"reason\":\"펄시아 기능 테스트을 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.examples.tutorial\",\"version\":\"^0.1.108\",\"reason\":\"Pulsia 시작 튜토리얼을 사용합니다.\"}],\"pluginMigrations\":[{\"fromPluginId\":\"pulsia.test-pack\",\"toPluginId\":\"com.naver.mars-_-.examples.feature-tests\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"},{\"fromPluginId\":\"pulsia-plugin-tutorial-pulsia-starter\",\"toPluginId\":\"com.naver.mars-_-.examples.tutorial\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"}],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.examples\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.examples%400.1.102",
+      "published_at": "2026-11-02T15:56:52Z",
+      "created_at": "2026-11-02T15:29:06Z",
+      "updated_at": "2026-11-02T15:56:52Z",
+      "assets": [
+        {
+          "id": 702299370,
+          "name": "examples-test-pack.zip",
+          "state": "uploaded",
+          "size": 3604,
+          "digest": "sha256:58a2bb2ab5bea26e3c68c094c3077c42799460b1ec385c259d132a67722225b6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples%400.1.102/examples-test-pack.zip",
+          "created_at": "2026-11-02T15:56:50Z",
+          "updated_at": "2026-11-02T15:56:51Z"
+        },
+        {
+          "id": 702299379,
+          "name": "examples-test-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 89,
+          "digest": "sha256:9238525e0401a4999b9e652d8367725f825a819969f5d6f9a12b29bb31cad347",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples%400.1.102/examples-test-pack.zip.sha256",
+          "created_at": "2026-11-02T15:56:50Z",
+          "updated_at": "2026-11-02T15:56:51Z"
+        }
+      ]
+    },
+    {
+      "id": 431660785,
+      "tag_name": "com.naver.mars-_-.examples.feature-tests@1.0.128",
+      "name": "펄시아 기능 테스트 1.0.128",
+      "body": "# 펄시아 기능 테스트 1.0.128\n\n- CLI/MCP 공개 경로·기능 목록·매뉴얼·스킬을 현재 지원 범위에 맞춰 정비함. 팩은 실행 코드를 복제하지 않고 승인한 구성의 정적 Agent 자료를 포함함.\n- 업무 완료는 해당 기능의 최종 상태로 확인하며 사람 승인·기존 권한·저장 자료를 보존함.\n- 설치본·실제 외부 서버·세 OS 전체 확인과 남은 기능은 [인계 원장](https://github.com/mars-log/pulsia-plugin-studio/blob/ab7abd58e26da2a5e04b6f792f53ec2a95088ff8/catalog/doc/work/plugin-cli/handoff/README.md)을 따름. 전체 Plugin 정비 완료를 뜻하지 않음.\n\n소스: ab7abd58e26da2a5e04b6f792f53ec2a95088ff8\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.examples.feature-tests\",\"version\":\"1.0.128\",\"title\":\"펄시아 기능 테스트\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"테스트 팩\",\"Vue\",\"백엔드\",\"권한\",\"OTA\"],\"pluginRelations\":{\"recommended\":[{\"pluginId\":\"pulsia.ai-scratchpad\",\"version\":\"^0.0.104\",\"reason\":\"UI 제작실의 미리보기 캔버스를 사용함\"},{\"pluginId\":\"pulsia-plugin-ai-agent-collaboration-chat\",\"version\":\"^0.1.143\",\"reason\":\"UI 제작실의 협업 UI 요소를 사용함\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.examples.feature-tests\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.examples.feature-tests%401.0.128",
+      "published_at": "2026-11-02T15:56:59Z",
+      "created_at": "2026-11-02T15:29:06Z",
+      "updated_at": "2026-11-02T15:56:59Z",
+      "assets": [
+        {
+          "id": 702299729,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 206358,
+          "digest": "sha256:bcf610929096963a57f463b0a76911745e4d482339c3a87d3296672d73bbc6db",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.128/pulsia-test-pack.zip",
+          "created_at": "2026-11-02T15:56:58Z",
+          "updated_at": "2026-11-02T15:56:58Z"
+        },
+        {
+          "id": 702299735,
+          "name": "pulsia-test-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 87,
+          "digest": "sha256:2d7acc6a1d8a90d5af3dbf4991e7d9a0018e8bc732e4a31b1143156eb808a895",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.128/pulsia-test-pack.zip.sha256",
+          "created_at": "2026-11-02T15:56:58Z",
+          "updated_at": "2026-11-02T15:56:58Z"
+        }
+      ]
+    },
+    {
+      "id": 431660449,
+      "tag_name": "com.naver.mars-_-.editor.tools@0.1.102",
+      "name": "에디터 도구 팩 0.1.102",
+      "body": "# 에디터 도구 팩 0.1.102\n\n- CLI/MCP 공개 경로·기능 목록·매뉴얼·스킬을 현재 지원 범위에 맞춰 정비함. 팩은 실행 코드를 복제하지 않고 승인한 구성의 정적 Agent 자료를 포함함.\n- 업무 완료는 해당 기능의 최종 상태로 확인하며 사람 승인·기존 권한·저장 자료를 보존함.\n- 설치본·실제 외부 서버·세 OS 전체 확인과 남은 기능은 [인계 원장](https://github.com/mars-log/pulsia-plugin-studio/blob/ab7abd58e26da2a5e04b6f792f53ec2a95088ff8/catalog/doc/work/plugin-cli/handoff/README.md)을 따름. 전체 Plugin 정비 완료를 뜻하지 않음.\n\n소스: ab7abd58e26da2a5e04b6f792f53ec2a95088ff8\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.editor.tools\",\"version\":\"0.1.102\",\"title\":\"에디터 도구 팩\",\"description\":\"파일 형식별 구문 강조와 편집 도구를 모아 설치합니다.\",\"kind\":\"pack\",\"tags\":[],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.editor.tools.properties\",\"version\":\"^0.1.101\",\"reason\":\"설정 파일 구문 강조와 선택한 텍스트의 인코딩 해제를 제공합니다.\"}],\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.editor.tools\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.editor.tools%400.1.102",
+      "published_at": "2026-11-02T15:56:43Z",
+      "created_at": "2026-11-02T15:29:06Z",
+      "updated_at": "2026-11-02T15:56:43Z",
+      "assets": [
+        {
+          "id": 702298951,
+          "name": "pulsia-editor-tools-pack.zip",
+          "state": "uploaded",
+          "size": 3342,
+          "digest": "sha256:81bc4e005df6a7e8dc4b60b11813f3b4da535c3b0f2510f0dd7f06ce0e25dd88",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.editor.tools%400.1.102/pulsia-editor-tools-pack.zip",
+          "created_at": "2026-11-02T15:56:41Z",
+          "updated_at": "2026-11-02T15:56:42Z"
+        },
+        {
+          "id": 702298947,
+          "name": "pulsia-editor-tools-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 95,
+          "digest": "sha256:9f1af7bbb6217f87c106ff3c63110a7920c662a3dded4949121eb417afa3cbab",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.editor.tools%400.1.102/pulsia-editor-tools-pack.zip.sha256",
+          "created_at": "2026-11-02T15:56:41Z",
+          "updated_at": "2026-11-02T15:56:42Z"
+        }
+      ]
+    },
+    {
+      "id": 431660595,
+      "tag_name": "com.naver.mars-_-.editor.base@0.1.102",
+      "name": "에디터 기본 팩 0.1.102",
+      "body": "# 에디터 기본 팩 0.1.102\n\n- CLI/MCP 공개 경로·기능 목록·매뉴얼·스킬을 현재 지원 범위에 맞춰 정비함. 팩은 실행 코드를 복제하지 않고 승인한 구성의 정적 Agent 자료를 포함함.\n- 업무 완료는 해당 기능의 최종 상태로 확인하며 사람 승인·기존 권한·저장 자료를 보존함.\n- 설치본·실제 외부 서버·세 OS 전체 확인과 남은 기능은 [인계 원장](https://github.com/mars-log/pulsia-plugin-studio/blob/ab7abd58e26da2a5e04b6f792f53ec2a95088ff8/catalog/doc/work/plugin-cli/handoff/README.md)을 따름. 전체 Plugin 정비 완료를 뜻하지 않음.\n\n소스: ab7abd58e26da2a5e04b6f792f53ec2a95088ff8\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.editor.base\",\"version\":\"0.1.102\",\"title\":\"에디터 기본 팩\",\"description\":\"파일 편집기와 Git 비교 도구를 선택해 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"에디터 기본 팩\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.editor.base.text-editor\",\"version\":\"^1.0.113\",\"reason\":\"펄시아 에디터을 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.editor.base.git-comparison\",\"version\":\"^1.0.115\",\"reason\":\"Git 컴패리즌을 사용합니다.\"}],\"pluginMigrations\":[{\"fromPluginId\":\"pulsia.editor\",\"toPluginId\":\"com.naver.mars-_-.editor.base.text-editor\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"},{\"fromPluginId\":\"pulsia.git-comparison\",\"toPluginId\":\"com.naver.mars-_-.editor.base.git-comparison\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"}],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.editor.base\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.editor.base%400.1.102",
+      "published_at": "2026-11-02T15:56:51Z",
+      "created_at": "2026-11-02T15:29:06Z",
+      "updated_at": "2026-11-02T15:56:51Z",
+      "assets": [
+        {
+          "id": 702299335,
+          "name": "editor-base-pack.zip",
+          "state": "uploaded",
+          "size": 3481,
+          "digest": "sha256:49f9e75ada2e7c044882fb1275d15d1ebc332a96ad219bb98cc617213c233914",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.editor.base%400.1.102/editor-base-pack.zip",
+          "created_at": "2026-11-02T15:56:50Z",
+          "updated_at": "2026-11-02T15:56:50Z"
+        },
+        {
+          "id": 702299336,
+          "name": "editor-base-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 87,
+          "digest": "sha256:56ca3d2e91219776242f6c0a6d6a5bdee6c05f58ce0e629cabe01bbe87461e3e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.editor.base%400.1.102/editor-base-pack.zip.sha256",
+          "created_at": "2026-11-02T15:56:50Z",
+          "updated_at": "2026-11-02T15:56:50Z"
+        }
+      ]
+    },
+    {
+      "id": 431660525,
+      "tag_name": "com.naver.mars-_-.device.connectivity@0.0.105",
+      "name": "디바이스 연결 팩 0.0.105",
+      "body": "# 디바이스 연결 팩 0.0.105\n\n- CLI/MCP 공개 경로·기능 목록·매뉴얼·스킬을 현재 지원 범위에 맞춰 정비함. 팩은 실행 코드를 복제하지 않고 승인한 구성의 정적 Agent 자료를 포함함.\n- 업무 완료는 해당 기능의 최종 상태로 확인하며 사람 승인·기존 권한·저장 자료를 보존함.\n- 설치본·실제 외부 서버·세 OS 전체 확인과 남은 기능은 [인계 원장](https://github.com/mars-log/pulsia-plugin-studio/blob/ab7abd58e26da2a5e04b6f792f53ec2a95088ff8/catalog/doc/work/plugin-cli/handoff/README.md)을 따름. 전체 Plugin 정비 완료를 뜻하지 않음.\n\n소스: ab7abd58e26da2a5e04b6f792f53ec2a95088ff8\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.device.connectivity\",\"version\":\"0.0.105\",\"title\":\"디바이스 연결 팩\",\"description\":\"CCTV 연결 정보를 관리하고 공개 HTTP(S) HLS 영상을 확인하는 커넥터·테스터입니다.\",\"kind\":\"pack\",\"tags\":[\"디바이스\",\"CCTV\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.device.connectivity.cctv.connector\",\"version\":\"~0.0.103\",\"reason\":\"CCTV 접속 정보를 보관하고 연결 관리 화면을 제공합니다.\"},{\"pluginId\":\"com.naver.mars-_-.device.connectivity.cctv.tester\",\"version\":\"~0.0.103\",\"reason\":\"등록한 CCTV를 선택하고 공용 플레이어로 영상을 확인합니다.\"}],\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.device.connectivity\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.device.connectivity%400.0.105",
+      "published_at": "2026-11-02T15:56:47Z",
+      "created_at": "2026-11-02T15:29:06Z",
+      "updated_at": "2026-11-02T15:56:47Z",
+      "assets": [
+        {
+          "id": 702299163,
+          "name": "device-connectivity-pack.zip",
+          "state": "uploaded",
+          "size": 3644,
+          "digest": "sha256:7bacfc998aeb539e0e3b29a35dd536588b4a7e8c2ffd642f7680e37474985ccc",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity%400.0.105/device-connectivity-pack.zip",
+          "created_at": "2026-11-02T15:56:45Z",
+          "updated_at": "2026-11-02T15:56:46Z"
+        },
+        {
+          "id": 702299158,
+          "name": "device-connectivity-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 95,
+          "digest": "sha256:7c80780e601d584f629c9ee330e9a38bcd80c0564e17257cd53097253e6b59c1",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity%400.0.105/device-connectivity-pack.zip.sha256",
+          "created_at": "2026-11-02T15:56:45Z",
+          "updated_at": "2026-11-02T15:56:45Z"
+        }
+      ]
+    },
+    {
+      "id": 431660736,
+      "tag_name": "com.naver.mars-_-.device.connectivity.cctv.tester@0.0.105",
+      "name": "CCTV 연결 테스터 0.0.105",
+      "body": "# CCTV 연결 테스터 0.0.105\n\n- CLI/MCP 공개 경로·기능 목록·매뉴얼·스킬을 현재 지원 범위에 맞춰 정비함. 팩은 실행 코드를 복제하지 않고 승인한 구성의 정적 Agent 자료를 포함함.\n- 업무 완료는 해당 기능의 최종 상태로 확인하며 사람 승인·기존 권한·저장 자료를 보존함.\n- 설치본·실제 외부 서버·세 OS 전체 확인과 남은 기능은 [인계 원장](https://github.com/mars-log/pulsia-plugin-studio/blob/ab7abd58e26da2a5e04b6f792f53ec2a95088ff8/catalog/doc/work/plugin-cli/handoff/README.md)을 따름. 전체 Plugin 정비 완료를 뜻하지 않음.\n\n소스: ab7abd58e26da2a5e04b6f792f53ec2a95088ff8\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.device.connectivity.cctv.tester\",\"version\":\"0.0.105\",\"title\":\"CCTV 연결 테스터\",\"description\":\"CCTV 목록 선택과 연결 관리 UI를 제공합니다. 영상 어댑터는 후속 제공 예정입니다.\",\"kind\":\"composite\",\"tags\":[\"디바이스\",\"CCTV\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.device.connectivity.cctv.connector\",\"version\":\"~0.0.103\",\"reason\":\"등록한 CCTV 목록을 조회하고 연결 관리 모달을 엽니다.\"},{\"pluginId\":\"com.naver.mars-_-.media.player\",\"version\":\"~0.0.101\",\"reason\":\"영상 보기 창과 공용 재생 조작을 제공합니다.\"},{\"pluginId\":\"com.naver.mars-_-.media.player.addons.hls-js\",\"version\":\"~0.0.101\",\"reason\":\"HTTP HLS 영상을 재생합니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.device.connectivity.cctv.tester\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.device.connectivity.cctv.tester%400.0.105",
+      "published_at": "2026-11-02T15:56:56Z",
+      "created_at": "2026-11-02T15:29:06Z",
+      "updated_at": "2026-11-02T15:56:56Z",
+      "assets": [
+        {
+          "id": 702299611,
+          "name": "cctv-connection-tester.zip",
+          "state": "uploaded",
+          "size": 23165,
+          "digest": "sha256:bcd7ae38653af741215f40d028a8879b84c932226051ccf36429dc77a5be359f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity.cctv.tester%400.0.105/cctv-connection-tester.zip",
+          "created_at": "2026-11-02T15:56:55Z",
+          "updated_at": "2026-11-02T15:56:56Z"
+        },
+        {
+          "id": 702299610,
+          "name": "cctv-connection-tester.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:03ea490b5cdc35ec650dc55d70f6f2735c0d659114665a58dba54a90ad0fad88",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity.cctv.tester%400.0.105/cctv-connection-tester.zip.sha256",
+          "created_at": "2026-11-02T15:56:55Z",
+          "updated_at": "2026-11-02T15:56:55Z"
+        }
+      ]
+    },
+    {
+      "id": 431660730,
+      "tag_name": "com.naver.mars-_-.device.connectivity.cctv.connector@0.0.104",
+      "name": "CCTV 커넥터 0.0.104",
+      "body": "# CCTV 커넥터 0.0.104\n\n- CLI/MCP 공개 경로·기능 목록·매뉴얼·스킬을 현재 지원 범위에 맞춰 정비함. 팩은 실행 코드를 복제하지 않고 승인한 구성의 정적 Agent 자료를 포함함.\n- 업무 완료는 해당 기능의 최종 상태로 확인하며 사람 승인·기존 권한·저장 자료를 보존함.\n- 설치본·실제 외부 서버·세 OS 전체 확인과 남은 기능은 [인계 원장](https://github.com/mars-log/pulsia-plugin-studio/blob/ab7abd58e26da2a5e04b6f792f53ec2a95088ff8/catalog/doc/work/plugin-cli/handoff/README.md)을 따름. 전체 Plugin 정비 완료를 뜻하지 않음.\n\n소스: ab7abd58e26da2a5e04b6f792f53ec2a95088ff8\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.device.connectivity.cctv.connector\",\"version\":\"0.0.104\",\"title\":\"CCTV 커넥터\",\"description\":\"CCTV 접속 정보·인증 정보를 보관하고 연결 관리 모달을 제공합니다.\",\"kind\":\"composite\",\"tags\":[\"디바이스\",\"CCTV\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.device.connectivity.cctv.connector\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.device.connectivity.cctv.connector%400.0.104",
+      "published_at": "2026-11-02T15:56:57Z",
+      "created_at": "2026-11-02T15:29:06Z",
+      "updated_at": "2026-11-02T15:56:57Z",
+      "assets": [
+        {
+          "id": 702299604,
+          "name": "cctv-connector.zip",
+          "state": "uploaded",
+          "size": 24231,
+          "digest": "sha256:0f437393c602a95b749f41d4670b7fc8fd921abedaad71f8fffd6ee87695d8b1",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity.cctv.connector%400.0.104/cctv-connector.zip",
+          "created_at": "2026-11-02T15:56:55Z",
+          "updated_at": "2026-11-02T15:56:55Z"
+        },
+        {
+          "id": 702299603,
+          "name": "cctv-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 85,
+          "digest": "sha256:8f15a6059ebc2374929f355d765804a49a1f05c0830b212601502444d7f1fdca",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.device.connectivity.cctv.connector%400.0.104/cctv-connector.zip.sha256",
+          "created_at": "2026-11-02T15:56:55Z",
+          "updated_at": "2026-11-02T15:56:55Z"
+        }
+      ]
+    },
+    {
+      "id": 431660535,
+      "tag_name": "com.naver.mars-_-.development.java@0.1.102",
+      "name": "Java 개발 팩 0.1.102",
+      "body": "# Java 개발 팩 0.1.102\n\n- CLI/MCP 공개 경로·기능 목록·매뉴얼·스킬을 현재 지원 범위에 맞춰 정비함. 팩은 실행 코드를 복제하지 않고 승인한 구성의 정적 Agent 자료를 포함함.\n- 업무 완료는 해당 기능의 최종 상태로 확인하며 사람 승인·기존 권한·저장 자료를 보존함.\n- 설치본·실제 외부 서버·세 OS 전체 확인과 남은 기능은 [인계 원장](https://github.com/mars-log/pulsia-plugin-studio/blob/ab7abd58e26da2a5e04b6f792f53ec2a95088ff8/catalog/doc/work/plugin-cli/handoff/README.md)을 따름. 전체 Plugin 정비 완료를 뜻하지 않음.\n\n소스: ab7abd58e26da2a5e04b6f792f53ec2a95088ff8\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.development.java\",\"version\":\"0.1.102\",\"title\":\"Java 개발 팩\",\"description\":\"Java 프로젝트 설정과 개발 도구를 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"Java\",\"Maven\",\"Gradle\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.development.java.project-settings\",\"version\":\"^0.1.158\",\"reason\":\"Java 프로젝트와 빌드 도구를 설정합니다.\"}],\"pluginMigrations\":[{\"fromPluginId\":\"pulsia.java-development-pack\",\"toPluginId\":\"com.naver.mars-_-.development.java.project-settings\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"}],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.development.java\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.development.java%400.1.102",
+      "published_at": "2026-11-02T15:56:47Z",
+      "created_at": "2026-11-02T15:29:06Z",
+      "updated_at": "2026-11-02T15:56:47Z",
+      "assets": [
+        {
+          "id": 702299175,
+          "name": "pulsia-java-pack.zip",
+          "state": "uploaded",
+          "size": 3792,
+          "digest": "sha256:799df5334ff02921ba4118a960e4114945fbca8c3bdf2228aeacd32270def14c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.development.java%400.1.102/pulsia-java-pack.zip",
+          "created_at": "2026-11-02T15:56:46Z",
+          "updated_at": "2026-11-02T15:56:46Z"
+        },
+        {
+          "id": 702299176,
+          "name": "pulsia-java-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 87,
+          "digest": "sha256:14df6a5bad435ab244f6a29cc3d81670c1384b8a7e153ec87f87021c08b2c6eb",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.development.java%400.1.102/pulsia-java-pack.zip.sha256",
+          "created_at": "2026-11-02T15:56:46Z",
+          "updated_at": "2026-11-02T15:56:46Z"
         }
       ]
     },
@@ -212,6 +722,74 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.development.java.project-settings%400.1.158/pulsia-java-development-pack.zip.sha256",
           "created_at": "2026-11-02T15:16:28Z",
           "updated_at": "2026-11-02T15:16:28Z"
+        }
+      ]
+    },
+    {
+      "id": 431660451,
+      "tag_name": "com.naver.mars-_-.ai.harness@0.1.111",
+      "name": "Harness 팩 0.1.111",
+      "body": "# Harness 팩 0.1.111\n\n- CLI/MCP 공개 경로·기능 목록·매뉴얼·스킬을 현재 지원 범위에 맞춰 정비함. 팩은 실행 코드를 복제하지 않고 승인한 구성의 정적 Agent 자료를 포함함.\n- 업무 완료는 해당 기능의 최종 상태로 확인하며 사람 승인·기존 권한·저장 자료를 보존함.\n- 설치본·실제 외부 서버·세 OS 전체 확인과 남은 기능은 [인계 원장](https://github.com/mars-log/pulsia-plugin-studio/blob/ab7abd58e26da2a5e04b6f792f53ec2a95088ff8/catalog/doc/work/plugin-cli/handoff/README.md)을 따름. 전체 Plugin 정비 완료를 뜻하지 않음.\n\n소스: ab7abd58e26da2a5e04b6f792f53ec2a95088ff8\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.ai.harness\",\"version\":\"0.1.111\",\"title\":\"Harness 팩\",\"description\":\"AI Harness와 Catalog Studio를 함께 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"AI\",\"Harness\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.ai.harness.app\",\"version\":\"^0.1.110\",\"reason\":\"AI Harness를 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.ai.harness.catalog-studio\",\"version\":\"^0.1.111\",\"reason\":\"Catalog Studio를 사용합니다.\"}],\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.ai.harness\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.ai.harness%400.1.111",
+      "published_at": "2026-11-02T15:56:43Z",
+      "created_at": "2026-11-02T15:29:06Z",
+      "updated_at": "2026-11-02T15:56:43Z",
+      "assets": [
+        {
+          "id": 702298941,
+          "name": "harness-pack.zip",
+          "state": "uploaded",
+          "size": 3264,
+          "digest": "sha256:d84319504c5d070d91f4fca71d24557b4942c06a491052f9f5a4ac6bb6c7c0f7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness%400.1.111/harness-pack.zip",
+          "created_at": "2026-11-02T15:56:41Z",
+          "updated_at": "2026-11-02T15:56:41Z"
+        },
+        {
+          "id": 702298944,
+          "name": "harness-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 83,
+          "digest": "sha256:f04fdde79c5e514ba6144d5f15c933d4277e3e291b89ac5e25dc45299991fdd4",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness%400.1.111/harness-pack.zip.sha256",
+          "created_at": "2026-11-02T15:56:41Z",
+          "updated_at": "2026-11-02T15:56:42Z"
+        }
+      ]
+    },
+    {
+      "id": 431660446,
+      "tag_name": "com.naver.mars-_-.acp.ai-chat@1.0.108",
+      "name": "AI 대화 팩 1.0.108",
+      "body": "# AI 대화 팩 1.0.108\n\n- CLI/MCP 공개 경로·기능 목록·매뉴얼·스킬을 현재 지원 범위에 맞춰 정비함. 팩은 실행 코드를 복제하지 않고 승인한 구성의 정적 Agent 자료를 포함함.\n- 업무 완료는 해당 기능의 최종 상태로 확인하며 사람 승인·기존 권한·저장 자료를 보존함.\n- 설치본·실제 외부 서버·세 OS 전체 확인과 남은 기능은 [인계 원장](https://github.com/mars-log/pulsia-plugin-studio/blob/ab7abd58e26da2a5e04b6f792f53ec2a95088ff8/catalog/doc/work/plugin-cli/handoff/README.md)을 따름. 전체 Plugin 정비 완료를 뜻하지 않음.\n\n소스: ab7abd58e26da2a5e04b6f792f53ec2a95088ff8\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.acp.ai-chat\",\"version\":\"1.0.108\",\"title\":\"AI 대화 팩\",\"description\":\"AI 대화 작업실·사이드 패널 도우미·외부 AI 연결을 선택해 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"AI\",\"ACP\",\"대화\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.workbench\",\"version\":\"^1.1.123\",\"reason\":\"작업실에서 AI와 대화합니다.\"},{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"사이드 패널에서 AI 도우미를 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.external-ai\",\"version\":\">=0.0.105 <0.1.0\",\"reason\":\"외부 AI에서 Pulsia의 터미널·파일·공개 플러그인 기능을 사용합니다.\"}],\"pluginMigrations\":[{\"fromPluginId\":\"pulsia-plugin-acp-workbench\",\"toPluginId\":\"com.naver.mars-_-.acp.ai-chat.workbench\",\"previousInstallation\":\"remove\",\"reason\":\"제작자 ID 체계로 바뀌었습니다. 대화와 설정은 그대로 사용합니다.\"},{\"fromPluginId\":\"pulsia-plugin-mini-acp\",\"toPluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"previousInstallation\":\"remove\",\"reason\":\"제작자 ID 체계로 바뀌었습니다. 대화와 설정은 그대로 사용합니다.\"}],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.acp.ai-chat\",\"dependencies\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.workbench\",\"minimumVersion\":\"1.1.123\"},{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"minimumVersion\":\"1.0.124\"},{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.external-ai\",\"minimumVersion\":\"0.0.105\"}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.acp.ai-chat%401.0.108",
+      "published_at": "2026-11-02T15:56:42Z",
+      "created_at": "2026-11-02T15:29:06Z",
+      "updated_at": "2026-11-02T15:56:42Z",
+      "assets": [
+        {
+          "id": 702298935,
+          "name": "pulsia-ai-chat-pack.zip",
+          "state": "uploaded",
+          "size": 4071,
+          "digest": "sha256:f90d25777484e2293f02d68b2d1ccff78e1508a704877b78dd5a48a39089fd1d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat%401.0.108/pulsia-ai-chat-pack.zip",
+          "created_at": "2026-11-02T15:56:41Z",
+          "updated_at": "2026-11-02T15:56:41Z"
+        },
+        {
+          "id": 702298937,
+          "name": "pulsia-ai-chat-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:91900f04aa624d58003abd6bbe6323c0edabbca72017ddb33d7450a031684a06",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat%401.0.108/pulsia-ai-chat-pack.zip.sha256",
+          "created_at": "2026-11-02T15:56:41Z",
+          "updated_at": "2026-11-02T15:56:41Z"
         }
       ]
     },
