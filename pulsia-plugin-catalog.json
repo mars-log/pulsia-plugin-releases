@@ -1,8 +1,32 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-02T03:13:36.000Z",
+  "generatedAt": "2026-11-02T03:13:51.000Z",
   "releases": [
+    {
+      "id": 431034522,
+      "tag_name": "com.naver.mars-_-.wingate.client@0.1.128",
+      "name": "undefined 0.1.128",
+      "body": "# undefined 0.1.128\n\nWingate·SSH Client 로그인 카드를 본문 높이 약 30%에 표시함. 낮은 영역에서는 폼을 스크롤함. 기존 접속 정보·인증 처리를 유지함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.wingate.client\",\"version\":\"0.1.128\",\"title\":\"Wingate Client\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"접속\",\"서버\",\"Client\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"com.naver.mars-_-.wingate.manager\",\"version\":\"^0.1.108\",\"reason\":\"Manager가 준비한 조직 서버 목록과 SSH 접속 준비를 사용할 수 있습니다.\"},{\"pluginId\":\"com.naver.mars-_-.wingate.ssh-client\",\"version\":\"^0.0.108\",\"reason\":\"개인 SSH 접속 대상을 저장하고 사용할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.wingate.client\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.wingate.client%400.1.128",
+      "published_at": "2026-11-02T03:13:51Z",
+      "created_at": "2026-11-02T03:13:43Z",
+      "updated_at": "2026-11-02T03:13:51Z",
+      "assets": [
+        {
+          "id": 700346974,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 347202,
+          "digest": "sha256:6715f7125129e820bd65b2b08a15877aa30b75d2b424658b6facf005a302c7dc",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.client%400.1.128/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-11-02T03:13:50Z",
+          "updated_at": "2026-11-02T03:13:50Z"
+        }
+      ]
+    },
     {
       "id": 430364144,
       "tag_name": "com.naver.mars-_-.wingate@0.1.101",
@@ -102,6 +126,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.seller%400.1.108/pulsia-plugin-wingate-seller.zip.sha256",
           "created_at": "2026-11-01T04:36:09Z",
           "updated_at": "2026-11-01T04:36:09Z"
+        }
+      ]
+    },
+    {
+      "id": 431034449,
+      "tag_name": "com.naver.mars-_-.wingate.manager@0.1.114",
+      "name": "undefined 0.1.114",
+      "body": "# undefined 0.1.114\n\n관리자 도우미의 내부 JSON 표시를 현재 페이지와 선택 건수로 정리함. 관리형 SSH 실행 파일·인증·설치 동작은 유지함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.wingate.manager\",\"version\":\"0.1.114\",\"title\":\"Wingate Manager\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"구매자\",\"관리\",\"접속 권한\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-manager-kerberos-package\",\"version\":\"^0.0.101\",\"reason\":\"관리 서버에 Kerberos 인증 서버를 설치하고 점검할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-runtime\",\"version\":\"^0.0.103\",\"reason\":\"관리 서버에 Wingate Runtime을 설치하고 점검할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.wingate.manager\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.wingate.manager%400.1.114",
+      "published_at": "2026-11-02T03:13:44Z",
+      "created_at": "2026-11-01T20:28:27Z",
+      "updated_at": "2026-11-02T03:13:44Z",
+      "assets": [
+        {
+          "id": 700346509,
+          "name": "pulsia-plugin-wingate-manager.zip",
+          "state": "uploaded",
+          "size": 1811448,
+          "digest": "sha256:f6bf0a0c9ada4e862d3d037c957b8d56ae46874718dcd23d0f5e201e95042dab",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.manager%400.1.114/pulsia-plugin-wingate-manager.zip",
+          "created_at": "2026-11-02T03:13:42Z",
+          "updated_at": "2026-11-02T03:13:42Z"
         }
       ]
     },
