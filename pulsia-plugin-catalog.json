@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-02T15:20:38.000Z",
+  "generatedAt": "2026-11-02T15:28:55.000Z",
   "releases": [
     {
       "id": 431069160,
@@ -96,6 +96,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.client%400.1.128/pulsia-plugin-wingate-client.zip",
           "created_at": "2026-11-02T03:13:50Z",
           "updated_at": "2026-11-02T03:13:50Z"
+        }
+      ]
+    },
+    {
+      "id": 431629859,
+      "tag_name": "com.naver.mars-_-.platform.plugins@0.0.101",
+      "name": "플러그인들 0.0.101",
+      "body": "# 플러그인들 0.0.101\n\n팩의 구성을 골라 설치하고 설치된 플러그인을 관리합니다.\n\nPulsia Core 0.3.281 이상이 필요합니다. Core를 먼저 업데이트한 뒤 이 ZIP을 수동 설치하세요. 플러그인 > 플러그인들에서 업무별 팩을 보고 구성 보기 모달로 설치 항목을 선택할 수 있습니다. 기존 플러그인 관리 메뉴도 유지됩니다.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.plugins\",\"version\":\"0.0.101\",\"title\":\"플러그인들\",\"description\":\"팩의 구성을 골라 설치하고 설치된 플러그인을 관리합니다.\",\"kind\":\"frontend\",\"tags\":[\"플러그인\",\"팩\",\"도구\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.plugins\",\"dependencies\":[]}} -->\n\n소스: https://github.com/mars-log/pulsia-plugin-studio/commit/3a10bb52e6eea2d72f7787f23919a91761a65044\n\n검증: 실제 Core 격리 프로필에서 ZIP 설치, 메뉴 진입, 구성 모달 선택·취소, 탭 전환, light/dark 표시와 좁은 폭을 확인함. 사용자 PC 설치는 사용자가 직접 진행함.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.plugins%400.0.101",
+      "published_at": "2026-11-02T15:28:55Z",
+      "created_at": "2026-11-02T15:20:54Z",
+      "updated_at": "2026-11-02T15:28:55Z",
+      "assets": [
+        {
+          "id": 702211872,
+          "name": "plugins-ui.zip",
+          "state": "uploaded",
+          "size": 18084,
+          "digest": "sha256:0f128ccd0907f1834f25a098a3ce4f242ec4c5b2f5b6311a2e1fa14cd53be878",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.plugins%400.0.101/plugins-ui.zip",
+          "created_at": "2026-11-02T15:28:53Z",
+          "updated_at": "2026-11-02T15:28:54Z"
+        },
+        {
+          "id": 702211870,
+          "name": "plugins-ui.zip.sha256",
+          "state": "uploaded",
+          "size": 81,
+          "digest": "sha256:6b0cdaa153444061f4088da9d813669b86e5ea1c0ab9b5d386a935034cea90d0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.plugins%400.0.101/plugins-ui.zip.sha256",
+          "created_at": "2026-11-02T15:28:53Z",
+          "updated_at": "2026-11-02T15:28:53Z"
         }
       ]
     },
