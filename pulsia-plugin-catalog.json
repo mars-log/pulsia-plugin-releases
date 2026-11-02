@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-01T16:45:30.000Z",
+  "generatedAt": "2026-11-02T03:13:36.000Z",
   "releases": [
     {
       "id": 430364144,
@@ -238,6 +238,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.editor-engine%401.0.116/pulsia-editor-runtime.zip.sha256",
           "created_at": "2026-11-01T13:20:55Z",
           "updated_at": "2026-11-01T13:20:55Z"
+        }
+      ]
+    },
+    {
+      "id": 431034291,
+      "tag_name": "com.naver.mars-_-.platform.base.acp@1.0.127",
+      "name": "ACP 공용 플러그인 1.0.127",
+      "body": "# ACP 공용 플러그인 1.0.127\n\n메뉴별 대화 선택·Agent 복원과 ACP Registry 전체 너비를 수정함. 기존 대화·첨부·초안을 보존함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\"1.0.127\",\"title\":\"ACP 공용 플러그인\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"version\":\"^1.0.101\",\"reason\":\"ACP 응답과 파일 링크를 표시함.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.base.acp\",\"dependencies\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"minimumVersion\":\"1.0.101\"}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.base.acp%401.0.127",
+      "published_at": "2026-11-02T03:13:29Z",
+      "created_at": "2026-11-01T20:28:27Z",
+      "updated_at": "2026-11-02T03:13:29Z",
+      "assets": [
+        {
+          "id": 700345987,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 1538536,
+          "digest": "sha256:6df0be765b4192c58d9d2952b6308cb3eadea32f2880c21fa071ea324a7c0904",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.127/pulsia-acp-common.zip",
+          "created_at": "2026-11-02T03:13:27Z",
+          "updated_at": "2026-11-02T03:13:28Z"
         }
       ]
     },
@@ -646,6 +670,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.development.java%400.1.101/pulsia-java-pack.zip.sha256",
           "created_at": "2026-11-01T04:36:14Z",
           "updated_at": "2026-11-01T04:36:15Z"
+        }
+      ]
+    },
+    {
+      "id": 431034377,
+      "tag_name": "com.naver.mars-_-.acp.ai-chat.mini-acp@1.0.128",
+      "name": "undefined 1.0.128",
+      "body": "# undefined 1.0.128\n\n프로젝트·대메뉴별 마지막 Agent·대화·세션 모델을 복원함. 중복 쉐브론과 문맥 선택의 가로 넘침을 수정함. ACP 공용 1.0.127 이상이 필요함. 이전 대화는 대화 목록에서 직접 다시 열 수 있음.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"1.0.128\",\"title\":\"Mini ACP\",\"description\":\"사이드 패널에서 AI 도우미를 사용합니다.\",\"kind\":\"frontend\",\"tags\":[\"ACP\",\"Agent\",\"좌측 패널\",\"공용 UI\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.127\",\"reason\":\"AI 대화 화면과 Agent 실행을 제공함\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.128",
+      "published_at": "2026-11-02T03:13:36Z",
+      "created_at": "2026-11-01T20:28:27Z",
+      "updated_at": "2026-11-02T03:13:36Z",
+      "assets": [
+        {
+          "id": 700346293,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 30823,
+          "digest": "sha256:035dde3cec5ec402ef32f3b1407cf6e83a90e15a76393957a51cb78f49478e26",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.128/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-11-02T03:13:35Z",
+          "updated_at": "2026-11-02T03:13:35Z"
         }
       ]
     },
