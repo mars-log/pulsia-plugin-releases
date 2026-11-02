@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-02T15:56:59.000Z",
+  "generatedAt": "2026-11-02T16:23:47.000Z",
   "releases": [
     {
       "id": 431069160,
@@ -688,6 +688,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.development.java%400.1.102/pulsia-java-pack.zip.sha256",
           "created_at": "2026-11-02T15:56:46Z",
           "updated_at": "2026-11-02T15:56:46Z"
+        }
+      ]
+    },
+    {
+      "id": 431689426,
+      "tag_name": "com.naver.mars-_-.development.java.project-settings@0.1.159",
+      "name": "Java 프로젝트 설정 0.1.159",
+      "body": "- Core 0.3.283의 공용 form 명령에 Java 설정 초안을 연결함. 열린 설정 페이지에서 필드 조회·입력·검증·적용·취소·닫기를 기존 UI와 같은 함수로 처리함.\n- 원본 수정 번호 충돌, 저장 중 변경, 쓰기 전용 값과 미저장 초안을 보호함. 이전 Core의 pluginView 경로를 유지함.\n- 실제 Vue 컴포넌트와 Core form Host 통합을 포함한 관련 검사22개를 통과함.\n- 소스: mars-log/pulsia-plugin-studio c51322b3.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.development.java.project-settings%400.1.159",
+      "published_at": "2026-11-02T16:23:47Z",
+      "created_at": "2026-11-02T15:57:08Z",
+      "updated_at": "2026-11-02T16:23:47Z",
+      "assets": [
+        {
+          "id": 702383483,
+          "name": "pulsia-java-development-pack.zip",
+          "state": "uploaded",
+          "size": 4840060,
+          "digest": "sha256:5f9dc570b4ee8d9bcd3d4da28eaf29b6f8bed1436ec80a4798d5bb70720fe67a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.development.java.project-settings%400.1.159/pulsia-java-development-pack.zip",
+          "created_at": "2026-11-02T16:23:45Z",
+          "updated_at": "2026-11-02T16:23:46Z"
+        },
+        {
+          "id": 702383482,
+          "name": "pulsia-java-development-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 99,
+          "digest": "sha256:9947394bd34ce52be7202611acc36552bda8a2def07dd57ead9c5aefa214ebe5",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.development.java.project-settings%400.1.159/pulsia-java-development-pack.zip.sha256",
+          "created_at": "2026-11-02T16:23:45Z",
+          "updated_at": "2026-11-02T16:23:45Z"
         }
       ]
     },
