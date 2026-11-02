@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-02T04:22:57.000Z",
+  "generatedAt": "2026-11-02T04:23:14.000Z",
   "releases": [
     {
       "id": 431069160,
@@ -24,6 +24,54 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.model-studio%400.0.120/pulsia-model-studio.zip",
           "created_at": "2026-11-02T04:22:56Z",
           "updated_at": "2026-11-02T04:22:56Z"
+        }
+      ]
+    },
+    {
+      "id": 431069302,
+      "tag_name": "com.naver.mars-_-.wingate.manager@0.1.115",
+      "name": "undefined 0.1.115",
+      "body": "Manager 로그인 스타일이 Client 로그인 탭과 카드의 간격을 바꾸던 문제를 수정함. 기존 서버·인증·접속 자료를 유지함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.wingate.manager\",\"version\":\"0.1.115\",\"title\":\"Wingate Manager\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"구매자\",\"관리\",\"접속 권한\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-manager-kerberos-package\",\"version\":\"^0.0.101\",\"reason\":\"관리 서버에 Kerberos 인증 서버를 설치하고 점검할 수 있습니다.\"},{\"pluginId\":\"pulsia-plugin-wingate-runtime\",\"version\":\"^0.0.103\",\"reason\":\"관리 서버에 Wingate Runtime을 설치하고 점검할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.wingate.manager\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.wingate.manager%400.1.115",
+      "published_at": "2026-11-02T04:23:14Z",
+      "created_at": "2026-11-02T04:23:08Z",
+      "updated_at": "2026-11-02T04:23:14Z",
+      "assets": [
+        {
+          "id": 700494861,
+          "name": "pulsia-plugin-wingate-manager.zip",
+          "state": "uploaded",
+          "size": 1811595,
+          "digest": "sha256:0b18de13c3f346cdab0425a7f68c1cce3d8bd3be9ba2aa2935f20a65389a8832",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.manager%400.1.115/pulsia-plugin-wingate-manager.zip",
+          "created_at": "2026-11-02T04:23:13Z",
+          "updated_at": "2026-11-02T04:23:13Z"
+        }
+      ]
+    },
+    {
+      "id": 431069236,
+      "tag_name": "com.naver.mars-_-.wingate.client@0.1.129",
+      "name": "undefined 0.1.129",
+      "body": "로그인 탭 구분선을 패널 양끝까지 표시하고 공용 헤더 높이 38px를 유지함. Manager와 로그인 스타일 간섭을 제거함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.wingate.client\",\"version\":\"0.1.129\",\"title\":\"Wingate Client\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"Wingate\",\"접속\",\"서버\",\"Client\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"화면에서 공용 AI 작업 도우미를 사용할 수 있습니다.\"},{\"pluginId\":\"com.naver.mars-_-.wingate.manager\",\"version\":\"^0.1.108\",\"reason\":\"Manager가 준비한 조직 서버 목록과 SSH 접속 준비를 사용할 수 있습니다.\"},{\"pluginId\":\"com.naver.mars-_-.wingate.ssh-client\",\"version\":\"^0.0.108\",\"reason\":\"개인 SSH 접속 대상을 저장하고 사용할 수 있습니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.wingate.client\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.wingate.client%400.1.129",
+      "published_at": "2026-11-02T04:23:06Z",
+      "created_at": "2026-11-02T03:14:23Z",
+      "updated_at": "2026-11-02T04:23:06Z",
+      "assets": [
+        {
+          "id": 700494621,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 347395,
+          "digest": "sha256:b2983b022cbba3371b10ac83f843fe96ebe63ba0cea5ceabcb58bd002c245c05",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.client%400.1.129/pulsia-plugin-wingate-client.zip",
+          "created_at": "2026-11-02T04:23:04Z",
+          "updated_at": "2026-11-02T04:23:05Z"
         }
       ]
     },
@@ -6702,40 +6750,6 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.124/pulsia-sql-studio.zip.sha256",
           "created_at": "2026-10-23T03:38:22Z",
           "updated_at": "2026-10-23T03:38:22Z"
-        }
-      ]
-    },
-    {
-      "id": 421415604,
-      "tag_name": "pulsia.sql-studio@0.0.123",
-      "name": "SQL Studio 0.0.123",
-      "body": "# SQL Studio 0.0.123\n\n자동 커밋 조회의 실제 상태에 맞춰 저장한 SQL 탭을 정상적으로 닫도록 수정함. 명시적으로 시작한 트랜잭션과 Commit 실패의 보호는 유지하며 제공된 Rollback으로 같은 세션을 정리할 수 있음. DB Connector 0.2.112 이상이 필요함. Core 0.3.231에서 실제 SQLite 조회·저장·닫기와 정상 종료를 확인함.\n\n필수·권장 관계를 사용하는 설치에는 Pulsia Core 0.3.214 이상이 필요합니다. 개요에서 권장을 선택하고 전체 설치 대상·권한을 확인하세요.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"pulsia.sql-studio\",\"version\":\"0.0.123\",\"title\":\"SQL Studio\",\"description\":\"자동 커밋 조회의 실제 상태에 맞춰 저장한 SQL 탭을 정상적으로 닫도록 수정함. 명시적으로 시작한 트랜잭션과 Commit 실패의 보호는 유지하며 제공된 Rollback으로 같은 세션을 정리할 수 있음. DB Connector 0.2.112 이상이 필요함. Core 0.3.231에서 실제 SQLite 조회·저장·닫기와 정상 종료를 확인함.\",\"kind\":\"composite\",\"tags\":[\"Database\",\"SQL\",\"PLSQL\",\"Editor\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.db-connector\",\"version\":\"^0.2.112\",\"reason\":\"DB 접속과 SQL 실행에 사용합니다.\"}],\"recommended\":[]}} -->\n",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia.sql-studio%400.0.123",
-      "published_at": "2026-10-23T03:18:25Z",
-      "created_at": "2026-10-23T03:17:30Z",
-      "updated_at": "2026-10-23T03:18:25Z",
-      "assets": [
-        {
-          "id": 667823972,
-          "name": "pulsia-sql-studio.zip",
-          "state": "uploaded",
-          "size": 68041,
-          "digest": "sha256:14f591ff26ad29e8760d66ef56987ce8fceb25a9fe4df96244d634b0744ee04e",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.123/pulsia-sql-studio.zip",
-          "created_at": "2026-10-23T03:18:24Z",
-          "updated_at": "2026-10-23T03:18:24Z"
-        },
-        {
-          "id": 667823973,
-          "name": "pulsia-sql-studio.zip.sha256",
-          "state": "uploaded",
-          "size": 88,
-          "digest": "sha256:bf2e0adf181694cc831bfaebfaf00012e3c71d71a34ce27c09d95db53b15e9f9",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.123/pulsia-sql-studio.zip.sha256",
-          "created_at": "2026-10-23T03:18:24Z",
-          "updated_at": "2026-10-23T03:18:24Z"
         }
       ]
     },
