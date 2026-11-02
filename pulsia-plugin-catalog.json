@@ -1,8 +1,32 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-02T03:13:51.000Z",
+  "generatedAt": "2026-11-02T03:14:06.000Z",
   "releases": [
+    {
+      "id": 431034668,
+      "tag_name": "com.naver.mars-_-.messenger@0.0.106",
+      "name": "Pulsia Messenger · 메신저 팩 0.0.106",
+      "body": "# Pulsia Messenger · 메신저 팩 0.0.106\n\n메신저 허브 0.0.106과 텔레그램·디스코드 커넥터 0.0.105를 구성함. 연결·대화·인증 자료를 유지함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.messenger\",\"version\":\"0.0.106\",\"title\":\"Pulsia Messenger · 메신저 팩\",\"description\":\"메신저 허브와 선택한 텔레그램·디스코드 커넥터를 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"메신저\",\"AI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.messenger.hub\",\"version\":\"^0.0.106\",\"reason\":\"메신저 연결·업무 요청·실행 승인과 알림을 관리합니다.\"},{\"pluginId\":\"com.naver.mars-_-.messenger.telegram\",\"version\":\"^0.0.105\",\"reason\":\"텔레그램 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\"},{\"pluginId\":\"com.naver.mars-_-.messenger.discord\",\"version\":\"^0.0.105\",\"reason\":\"디스코드 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\"}],\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.messenger\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.messenger%400.0.106",
+      "published_at": "2026-11-02T03:14:06Z",
+      "created_at": "2026-11-02T03:13:56Z",
+      "updated_at": "2026-11-02T03:14:06Z",
+      "assets": [
+        {
+          "id": 700347455,
+          "name": "messenger-pack.zip",
+          "state": "uploaded",
+          "size": 1064,
+          "digest": "sha256:b4b5dc5f188b527880ee4489de022ec4c900d71fc92caadc975ad86f4917ee1f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger%400.0.106/messenger-pack.zip",
+          "created_at": "2026-11-02T03:14:05Z",
+          "updated_at": "2026-11-02T03:14:05Z"
+        }
+      ]
+    },
     {
       "id": 431034522,
       "tag_name": "com.naver.mars-_-.wingate.client@0.1.128",
@@ -24,6 +48,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.client%400.1.128/pulsia-plugin-wingate-client.zip",
           "created_at": "2026-11-02T03:13:50Z",
           "updated_at": "2026-11-02T03:13:50Z"
+        }
+      ]
+    },
+    {
+      "id": 431034598,
+      "tag_name": "com.naver.mars-_-.messenger.hub@0.0.106",
+      "name": "메신저 허브 0.0.106",
+      "body": "# 메신저 허브 0.0.106\n\n하단 메신저 아이콘을 message-circle-heart로 변경함. 연결·로그인·수신·대화·첨부 동작을 유지하며 커넥터 0.0.105를 사용함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.messenger.hub\",\"version\":\"0.0.106\",\"title\":\"메신저 허브\",\"description\":\"메신저 연결·업무 요청·실행 승인과 알림을 관리합니다.\",\"kind\":\"composite\",\"tags\":[\"메신저\",\"AI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.124\",\"reason\":\"메신저 화면의 AI 도우미를 사용합니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.messenger.hub\",\"dependencies\":[]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.messenger.hub%400.0.106",
+      "published_at": "2026-11-02T03:13:58Z",
+      "created_at": "2026-11-02T03:13:56Z",
+      "updated_at": "2026-11-02T03:13:58Z",
+      "assets": [
+        {
+          "id": 700347208,
+          "name": "messenger-hub.zip",
+          "state": "uploaded",
+          "size": 66021,
+          "digest": "sha256:60c354aac2ebaa6c3c7455a6a529981e4f83272d29b80e9c7b123c5088645921",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger.hub%400.0.106/messenger-hub.zip",
+          "created_at": "2026-11-02T03:13:57Z",
+          "updated_at": "2026-11-02T03:13:58Z"
         }
       ]
     },
