@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-03T07:27:08.000Z",
+  "generatedAt": "2026-11-03T07:36:46.000Z",
   "releases": [
     {
       "id": 432385599,
@@ -432,6 +432,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.development.java.project-settings%400.1.160/pulsia-java-development-pack.zip.sha256",
           "created_at": "2026-11-03T05:46:40Z",
           "updated_at": "2026-11-03T05:46:41Z"
+        }
+      ]
+    },
+    {
+      "id": 432393423,
+      "tag_name": "com.naver.mars-_-.acp.ai-chat.external-ai@0.0.109",
+      "name": "외부 AI 연결 0.0.109",
+      "body": "# 외부 AI 연결 0.0.109\n\n외부 AI에서 현재 Pulsia 프로젝트의 터미널·파일·플러그인 기능을 사용합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 0.0.109\n\n- 열린 연결 화면의 사용할 AI 선택·MCP 설정 복사·Codex 애드온 다운로드 요청을 AI 화면 action에 추가함.\n- 사람과 AI가 같은 버튼 함수를 사용하고 연결 처리 중 AI 선택 변경을 차단함.\n- 인증 설정·애드온 본문은 AI 응답에서 제외하고 클립보드 실패·애드온 생성 실패 뒤 재시도를 제공함.\n- 다운로드 요청과 파일 저장 확인을 구분하고 화면 종료 때 임시 다운로드 URL을 회수함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.acp.ai-chat.external-ai\",\"version\":\"0.0.109\",\"title\":\"외부 AI 연결\",\"description\":\"외부 AI에서 현재 Pulsia 프로젝트의 터미널·파일·플러그인 기능을 사용합니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"MCP\",\"연결\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.121\",\"reason\":\"기존 MCP 도구의 외부 연결을 관리합니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.external-ai\",\"dependencies\":[{\"pluginId\":\"pulsia.acp-common\",\"displayName\":\"ACP 공용 플러그인\",\"minimumVersion\":\"1.0.121\"}]},\"information\":{\"schemaVersion\":1,\"icon\":\"bot\",\"publisher\":\"\",\"categories\":[],\"features\":[],\"discovery\":{\"areas\":[\"ai\"],\"tasks\":[{\"id\":\"ai.connect\",\"label\":\"외부 AI 연결하기\",\"area\":\"ai\"},{\"id\":\"ai.automate\",\"label\":\"AI에게 작업 맡기기\",\"area\":\"ai\"}],\"summary\":\"외부 AI에서 현재 Pulsia 프로젝트의 터미널·파일·플러그인 기능을 사용합니다.\",\"role\":\"product\"}},\"icon\":\"bot\",\"changelog\":\"## 0.0.109\\n\\n- 열린 연결 화면의 사용할 AI 선택·MCP 설정 복사·Codex 애드온 다운로드 요청을 AI 화면 action에 추가함.\\n- 사람과 AI가 같은 버튼 함수를 사용하고 연결 처리 중 AI 선택 변경을 차단함.\\n- 인증 설정·애드온 본문은 AI 응답에서 제외하고 클립보드 실패·애드온 생성 실패 뒤 재시도를 제공함.\\n- 다운로드 요청과 파일 저장 확인을 구분하고 화면 종료 때 임시 다운로드 URL을 회수함.\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.acp.ai-chat.external-ai\",\"version\":\"0.0.109\",\"displayName\":\"외부 AI 연결\",\"description\":\"외부 AI에서 현재 Pulsia 프로젝트의 터미널·파일·플러그인 기능을 사용합니다.\",\"kind\":\"composite\",\"tags\":[\"AI\",\"MCP\",\"연결\"],\"pluginApiVersion\":1,\"hostRequirements\":{\"plugins.backendIdentity\":\"^1.0.0\",\"plugins.serviceModules\":\"^1.0.0\"},\"executionGrade\":\"full-access\",\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2},\"backend\":{\"kind\":\"node-extension-host\",\"hostApiVersion\":2}},\"entrypoints\":{\"frontend\":\"frontend/external-ai-main.js\",\"backend\":\"backend/external-ai-main.js\"},\"activationEvents\":[\"onStartup\",\"onView:mars.external-ai.view\",\"onView:mars.external-ai.preferences\"],\"permissions\":{\"networkHosts\":[],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"projectPaths\":[],\"capabilities\":[{\"id\":\"ui.notification\",\"version\":1,\"grants\":{\"allowed\":true}}],\"userData\":[\"read\",\"write\"]},\"actions\":[{\"id\":\"exportCodexAddon\",\"title\":\"Codex 애드온 받기\",\"description\":\"현재 연결 설정과 MCP·화면 조작 지침을 Codex 애드온으로 제공합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"required\":[\"connection\"],\"additionalProperties\":false,\"properties\":{\"connection\":{\"type\":\"object\",\"required\":[\"state\",\"serverName\",\"profileId\",\"configuration\"],\"properties\":{\"state\":{\"const\":\"listening\"},\"serverName\":{\"type\":\"string\",\"pattern\":\"^[a-z0-9-]+$\"},\"profileId\":{\"type\":\"string\"},\"configuration\":{\"type\":\"object\"}}}}},\"outputSchema\":{\"type\":\"object\"}},{\"id\":\"getMenuPreference\",\"title\":\"외부 AI 대메뉴 표시 조회\",\"description\":\"외부 AI 대메뉴의 표시 여부를 읽습니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{}},\"outputSchema\":{\"type\":\"object\",\"required\":[\"showMenu\"],\"additionalProperties\":false,\"properties\":{\"showMenu\":{\"type\":\"boolean\"}}}},{\"id\":\"setMenuPreference\",\"title\":\"외부 AI 대메뉴 표시 변경\",\"description\":\"외부 AI 대메뉴의 표시 여부를 저장합니다.\",\"version\":1,\"access\":\"write\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"required\":[\"showMenu\"],\"properties\":{\"showMenu\":{\"type\":\"boolean\"}}},\"outputSchema\":{\"type\":\"object\",\"required\":[\"showMenu\"],\"additionalProperties\":false,\"properties\":{\"showMenu\":{\"type\":\"boolean\"}}}}],\"contributes\":{\"views\":[{\"id\":\"mars.external-ai.view\",\"title\":\"외부 AI 연결\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\"},{\"id\":\"mars.external-ai.preferences\",\"title\":\"외부 AI 표시\",\"kind\":\"screen\",\"layoutProfile\":\"compact-panel\"}],\"subMenus\":[{\"id\":\"mars.external-ai.open\",\"primaryMenuId\":\"mars.external-ai\",\"viewId\":\"mars.external-ai.view\",\"label\":\"연결 설정\",\"icon\":\"plug\",\"order\":10}],\"extensions\":[{\"point\":\"agent.skill\",\"version\":1,\"id\":\"mars.external-ai.skill\",\"data\":{\"id\":\"external-ai\",\"title\":\"외부 AI에서 Pulsia 사용\",\"description\":\"공용 MCP 도구 발견·호출·연결 복구를 안내합니다.\",\"path\":\"agent/skills/external-ai/SKILL.md\"}},{\"point\":\"ui.settingsGroup\",\"version\":1,\"id\":\"mars.external-ai.settings\",\"data\":{\"id\":\"mars.external-ai.settings\",\"title\":\"외부 AI\",\"description\":\"명령줄 사용과 외부 AI 연결을 관리합니다.\",\"scope\":\"app\",\"viewId\":\"mars.external-ai.view\",\"order\":130}},{\"point\":\"ui.pluginDetailActions\",\"version\":1,\"id\":\"mars.external-ai.menu-preference\",\"data\":{\"id\":\"mars.external-ai.menu-preference\",\"viewId\":\"mars.external-ai.preferences\",\"wrapperClass\":\"external-ai-preferences\",\"order\":10}}],\"primaryMenus\":[{\"id\":\"mars.external-ai\",\"label\":\"외부 AI\",\"icon\":\"bot\",\"order\":85,\"visibleWhen\":{\"action\":\"getMenuPreference\",\"setAction\":\"setMenuPreference\",\"field\":\"showMenu\",\"equals\":true}}]},\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-external-ai.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}},\"localSystemAccess\":{\"reason\":\"공용 외부 AI 연결을 요청하고 Codex 애드온에 포함할 공개 지침 파일을 읽습니다.\",\"plannedUses\":[\"files\"],\"dependencyMode\":\"none\"},\"moduleRequirements\":[{\"providerId\":\"pulsia.acp-common\",\"moduleId\":\"acp.mcp-connections\",\"apiRange\":\"^1.0.0\",\"features\":[\"external-connections\"]}],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.121\",\"reason\":\"기존 MCP 도구의 외부 연결을 관리합니다.\"}]}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.acp.ai-chat.external-ai%400.0.109",
+      "published_at": "2026-11-03T07:36:46Z",
+      "created_at": "2026-11-03T07:27:22Z",
+      "updated_at": "2026-11-03T07:36:46Z",
+      "assets": [
+        {
+          "id": 704744677,
+          "name": "pulsia-external-ai.zip",
+          "state": "uploaded",
+          "size": 25439,
+          "digest": "sha256:bfc2928cf5f90decf7ed52edde79046ca756334f2f75f1a65884d4f281c6e2d6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.external-ai%400.0.109/pulsia-external-ai.zip",
+          "created_at": "2026-11-03T07:36:45Z",
+          "updated_at": "2026-11-03T07:36:45Z"
+        },
+        {
+          "id": 704744679,
+          "name": "pulsia-external-ai.zip.sha256",
+          "state": "uploaded",
+          "size": 89,
+          "digest": "sha256:391907fd276a922ca7c226a173fa0c0bd4bd6238eab342142c934e84d72c5267",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.external-ai%400.0.109/pulsia-external-ai.zip.sha256",
+          "created_at": "2026-11-03T07:36:45Z",
+          "updated_at": "2026-11-03T07:36:45Z"
         }
       ]
     },
