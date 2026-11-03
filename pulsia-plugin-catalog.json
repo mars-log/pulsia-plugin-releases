@@ -1,8 +1,32 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-03T02:02:11.000Z",
+  "generatedAt": "2026-11-03T02:59:31.000Z",
   "releases": [
+    {
+      "id": 432228811,
+      "tag_name": "com.naver.mars-_-.platform.base.acp@1.0.129",
+      "name": "ACP 공용 플러그인 1.0.129",
+      "body": "# ACP 공용 플러그인 1.0.129\n\n\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 1.0.129 · 2026-11-03\n\n- 여러 대화 패널이 같은 Agent를 동시에 시작할 때 준비 중인 프로세스를 종료하던 문제를 수정함.\n- Agent 준비 시간이 길어지거나 연결에 실패하면 진행 상태·실패 이유·다시 시도 조작을 표시함.\n- 이전 대화 목록을 불러오지 못해도 Agent 연결을 사용할 수 있도록 처리함.\n- 메뉴별 마지막 대화·Agent·모델과 작성 중인 입력을 보존함. 실패한 요청을 자동으로 다시 전송하지 않음.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\"1.0.129\",\"title\":\"ACP 공용 플러그인\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"version\":\"^1.0.101\",\"reason\":\"ACP 응답과 파일 링크를 표시함.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.base.acp\",\"dependencies\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"minimumVersion\":\"1.0.101\"}]},\"information\":{\"schemaVersion\":1,\"icon\":\"\",\"publisher\":\"\",\"categories\":[],\"features\":[],\"discovery\":{\"areas\":[\"ai\"],\"tasks\":[{\"id\":\"ai.chat\",\"label\":\"AI와 대화하기\",\"area\":\"ai\"},{\"id\":\"ai.automate\",\"label\":\"AI에게 작업 맡기기\",\"area\":\"ai\"}],\"summary\":\"AI 대화·도우미 화면의 Agent 실행과 대화 복원을 제공합니다.\",\"role\":\"supporting\"}},\"icon\":null,\"changelog\":\"## 1.0.129 · 2026-11-03\\n\\n- 여러 대화 패널이 같은 Agent를 동시에 시작할 때 준비 중인 프로세스를 종료하던 문제를 수정함.\\n- Agent 준비 시간이 길어지거나 연결에 실패하면 진행 상태·실패 이유·다시 시도 조작을 표시함.\\n- 이전 대화 목록을 불러오지 못해도 Agent 연결을 사용할 수 있도록 처리함.\\n- 메뉴별 마지막 대화·Agent·모델과 작성 중인 입력을 보존함. 실패한 요청을 자동으로 다시 전송하지 않음.\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\"1.0.129\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginApiVersion\":1,\"executionGrade\":\"full-access\",\"localSystemAccess\":{\"reason\":\"설치된 Agent 프로세스를 실행하고 사용자의 대화와 선택한 첨부를 저장합니다.\",\"plannedUses\":[\"files\",\"network\",\"processes\",\"environment\",\"libraries\"],\"dependencyMode\":\"none\"},\"dependencyPreparation\":{\"mode\":\"none\"},\"hostRequirements\":{\"plugins.frontendModules\":\"^1.1.0\",\"plugins.tasks\":\"^1.0.0\",\"plugins.hostServices\":\"^1.0.0\",\"plugins.serviceModules\":\"^1.0.0\",\"plugins.hostServiceWorkbench\":\"^1.0.0\",\"plugins.identityMigrations\":\"^1.1.0\"},\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2,\"prebuilt\":true},\"backend\":{\"kind\":\"node-extension-host\",\"hostApiVersion\":2}},\"activationEvents\":[\"onStartup\"],\"entrypoints\":{\"frontend\":\"frontend-dist/plugin.js\",\"backend\":\"backend-dist/main.js\"},\"permissions\":{\"networkHosts\":[],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"userData\":[\"read\",\"write\"],\"fileSelection\":[],\"fileHandles\":[],\"projectPaths\":[],\"capabilities\":[{\"id\":\"ui.workbench\",\"version\":1,\"grants\":{\"allowed\":true}}]},\"actions\":[],\"contributes\":{\"views\":[],\"primaryMenus\":[],\"subMenus\":[],\"menus\":[],\"routes\":[],\"extensions\":[{\"point\":\"plugins.frontendModule\",\"version\":1,\"id\":\"pulsia.acp-common.surface\",\"data\":{\"id\":\"acp.surface\",\"apiVersion\":\"1.0.0\",\"entrypoint\":\"plugin.js\",\"styles\":[\"style.css\"],\"features\":[\"composer\",\"streaming\",\"registry\",\"attachments\",\"workspace-selection\"],\"serviceModules\":[\"acp.workspace\"]}},{\"point\":\"plugins.hostService\",\"version\":1,\"id\":\"pulsia.acp-common.services\",\"data\":{\"id\":\"acp.services\",\"apiVersion\":\"1.0.0\",\"entrypoint\":\"backend-dist/host.js\"}},{\"point\":\"plugins.serviceModule\",\"version\":1,\"id\":\"pulsia.acp-common.workspace\",\"data\":{\"id\":\"acp.workspace\",\"apiVersion\":\"1.0.0\",\"features\":[\"sessions\",\"attachments\",\"agent-registry\"]}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"pulsia.acp-common.agent-surface\",\"data\":{\"id\":\"acp-common-surface\",\"title\":\"ACP 대화 화면 소비\",\"description\":\"공용 ACP 화면의 준비·이벤트·종료와 초기 준비 실패 복구를 설명합니다.\",\"path\":\"agent/skills/acp-surface/SKILL.md\"}},{\"point\":\"plugins.serviceModule\",\"version\":1,\"id\":\"pulsia.acp-common.mcp-connections\",\"data\":{\"id\":\"acp.mcp-connections\",\"apiVersion\":\"1.0.0\",\"features\":[\"external-connections\"]}}]},\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-acp-common.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}},\"displayName\":\"ACP 공용 플러그인\",\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"version\":\"^1.0.101\",\"reason\":\"ACP 응답과 파일 링크를 표시함.\"}]},\"moduleRequirements\":[{\"providerId\":\"com.naver.mars-_-.platform.base.markdown\",\"moduleId\":\"markdown.render\",\"apiRange\":\"^1.0.0\",\"features\":[\"render\",\"links\"]},{\"providerId\":\"com.naver.mars-_-.editor.base.git-comparison\",\"moduleId\":\"comparison.surface\",\"apiRange\":\"^1.0.0\",\"features\":[\"compare\"],\"optional\":true}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.base.acp%401.0.129",
+      "published_at": "2026-11-03T02:59:31Z",
+      "created_at": "2026-11-03T02:02:29Z",
+      "updated_at": "2026-11-03T02:59:31Z",
+      "assets": [
+        {
+          "id": 704044479,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 1540091,
+          "digest": "sha256:7425fdde517f8cdeb98c815bac89aa737c7cf924470b1c0c8ff0fb9b04643d31",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.129/pulsia-acp-common.zip",
+          "created_at": "2026-11-03T02:59:28Z",
+          "updated_at": "2026-11-03T02:59:29Z"
+        }
+      ]
+    },
     {
       "id": 431748773,
       "tag_name": "pulsia.sql-studio@0.0.131",
