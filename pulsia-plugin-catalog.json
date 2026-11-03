@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-03T02:59:31.000Z",
+  "generatedAt": "2026-11-03T05:32:10.000Z",
   "releases": [
     {
       "id": 432228811,
@@ -24,6 +24,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.129/pulsia-acp-common.zip",
           "created_at": "2026-11-03T02:59:28Z",
           "updated_at": "2026-11-03T02:59:29Z"
+        }
+      ]
+    },
+    {
+      "id": 432313297,
+      "tag_name": "com.naver.mars-_-.media.playback.player@0.0.105",
+      "name": "공용 영상 플레이어 0.0.105",
+      "body": "# 공용 영상 플레이어 0.0.105\n\n- 호출 화면이 소유한 플레이어의 AI 조회·재생·음량·탐색·정지·재연결·닫기를 공용 export로 제공함.\n- 같은 플레이어의 조작을 순서대로 실행하고 허용한 상태값만 반환함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.media.playback.player\",\"version\":\"0.0.105\",\"title\":\"공용 영상 플레이어\",\"description\":\"여러 플러그인에서 같은 조작과 테마로 영상을 재생합니다.\",\"kind\":\"frontend\",\"tags\":[\"미디어\",\"공용 UI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.media.playback.player\",\"dependencies\":[]},\"information\":{\"schemaVersion\":1,\"icon\":\"\",\"publisher\":\"\",\"categories\":[],\"features\":[],\"discovery\":{\"areas\":[\"media\"],\"tasks\":[{\"id\":\"media.play\",\"label\":\"영상·음원 보기\",\"area\":\"media\"}],\"summary\":\"여러 플러그인에서 같은 조작과 테마로 영상을 재생합니다.\",\"role\":\"supporting\"}},\"icon\":null,\"changelog\":\"\",\"manifest\":{\"id\":\"com.naver.mars-_-.media.playback.player\",\"version\":\"0.0.105\",\"displayName\":\"공용 영상 플레이어\",\"description\":\"여러 플러그인에서 같은 조작과 테마로 영상을 재생합니다.\",\"kind\":\"frontend\",\"tags\":[\"미디어\",\"공용 UI\"],\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"hostRequirements\":{\"plugins.frontendModules\":\"^1.1.0\",\"plugins.identityMigrations\":\"^1.1.0\"},\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2,\"prebuilt\":true}},\"entrypoints\":{\"frontend\":\"frontend/player-module.js\"},\"activationEvents\":[\"onStartup\"],\"permissions\":{},\"actions\":[],\"contributes\":{\"views\":[],\"extensions\":[{\"point\":\"plugins.frontendModule\",\"version\":1,\"id\":\"media.player\",\"data\":{\"id\":\"media.player\",\"apiVersion\":\"1.0.0\",\"entrypoint\":\"player-module.js\",\"styles\":[\"player.css\"],\"features\":[\"media-player\",\"floating-window\",\"inline\",\"engine-addons\",\"theming\",\"agent-controller\"],\"exports\":[\"createVideoPlayer\",\"createPlayerAgentController\"]}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"media.player.skill\",\"data\":{\"id\":\"media-player\",\"title\":\"공용 영상 플레이어 사용\",\"description\":\"교체 가능한 영상 엔진과 공용 조작·창·회수를 연결합니다.\",\"path\":\"agent/skills/media-player/SKILL.md\"}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"media.player.skill.screenshot\",\"data\":{\"id\":\"player-screenshot\",\"title\":\"Player 화면 캡처\",\"description\":\"컴퓨터 제어 MCP로 실제 영상 창과 재생 조작부를 캡처하고 확인합니다.\",\"path\":\"agent/skills/player-screenshot/SKILL.md\"}}]},\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"media-player.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.media.playback.player%400.0.105",
+      "published_at": "2026-11-03T05:32:10Z",
+      "created_at": "2026-11-03T02:59:41Z",
+      "updated_at": "2026-11-03T05:32:10Z",
+      "assets": [
+        {
+          "id": 704439789,
+          "name": "media-player.zip",
+          "state": "uploaded",
+          "size": 39825,
+          "digest": "sha256:a57f2cde6def60bc342df7a0b600f0bf50258d081adfca60e6a1ca3fba24ef05",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.media.playback.player%400.0.105/media-player.zip",
+          "created_at": "2026-11-03T05:32:09Z",
+          "updated_at": "2026-11-03T05:32:09Z"
+        },
+        {
+          "id": 704439788,
+          "name": "media-player.zip.sha256",
+          "state": "uploaded",
+          "size": 83,
+          "digest": "sha256:010ab9b536e2f3af6fcad6223c63b1848abe184a1901409fb6c929e51ea1e5fa",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.media.playback.player%400.0.105/media-player.zip.sha256",
+          "created_at": "2026-11-03T05:32:09Z",
+          "updated_at": "2026-11-03T05:32:09Z"
         }
       ]
     },
