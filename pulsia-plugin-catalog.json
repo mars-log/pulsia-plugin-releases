@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-03T07:36:46.000Z",
+  "generatedAt": "2026-11-03T07:55:45.000Z",
   "releases": [
     {
       "id": 432385599,
@@ -170,6 +170,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.client%400.1.132/pulsia-plugin-wingate-client.zip.sha256",
           "created_at": "2026-11-03T06:07:17Z",
           "updated_at": "2026-11-03T06:07:18Z"
+        }
+      ]
+    },
+    {
+      "id": 432407424,
+      "tag_name": "com.naver.mars-_-.platform.plugins@0.0.103",
+      "name": "플러그인들 · Legacy 0.0.103",
+      "body": "# 플러그인들 · Legacy 0.0.103\n\n이전 플러그인 탐색 화면입니다. 화면 모양과 배치 아이디어의 참고 자료로 보관합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 0.0.103\n\n- 플러그인들 제품을 Legacy로 분류하고 표시명·메뉴·공개 메타데이터에 반영함.\n- 소스를 optional/legacy 아래로 이동하고 기존 Plugin ID·업데이트 경로를 유지함.\n- 문서와 Agent 지침·스킬을 화면 모양·배치 아이디어 참고용으로 한정함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.plugins\",\"version\":\"0.0.103\",\"title\":\"플러그인들 · Legacy\",\"description\":\"이전 플러그인 탐색 화면입니다. 화면 모양과 배치 아이디어의 참고 자료로 보관합니다.\",\"kind\":\"frontend\",\"tags\":[\"플러그인\",\"팩\",\"도구\"],\"legacy\":true,\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.plugins\",\"dependencies\":[]},\"information\":null,\"icon\":null,\"changelog\":\"## 0.0.103\\n\\n- 플러그인들 제품을 Legacy로 분류하고 표시명·메뉴·공개 메타데이터에 반영함.\\n- 소스를 optional/legacy 아래로 이동하고 기존 Plugin ID·업데이트 경로를 유지함.\\n- 문서와 Agent 지침·스킬을 화면 모양·배치 아이디어 참고용으로 한정함.\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.platform.plugins\",\"displayName\":\"플러그인들 · Legacy\",\"description\":\"이전 플러그인 탐색 화면입니다. 화면 모양과 배치 아이디어의 참고 자료로 보관합니다.\",\"version\":\"0.0.103\",\"kind\":\"frontend\",\"tags\":[\"플러그인\",\"팩\",\"도구\"],\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2}},\"activationEvents\":[\"onStartup\"],\"entrypoints\":{\"frontend\":\"frontend/plugins.js\"},\"hostRequirements\":{\"plugins.managerUi\":\"^1.0.0\",\"workbench.dialogTemplates\":\"^1.0.0\"},\"permissions\":{\"networkHosts\":[],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"userData\":[],\"fileSelection\":[],\"fileHandles\":[],\"projectPaths\":[],\"capabilities\":[{\"id\":\"ui.workbench\",\"version\":1,\"grants\":{\"allowed\":true}},{\"id\":\"ui.notification\",\"version\":1,\"grants\":{\"allowed\":true}}]},\"actions\":[],\"contributes\":{\"views\":[{\"id\":\"plugins.browser\",\"title\":\"플러그인들 · Legacy\",\"localizations\":{\"en\":{\"title\":\"Plugins · Legacy\"}},\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"header\":{\"mode\":\"hidden\"}},{\"id\":\"plugins.pack-configuration\",\"title\":\"팩 구성 선택\",\"localizations\":{\"en\":{\"title\":\"Choose pack components\"}},\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"header\":{\"mode\":\"hidden\"},\"dialog\":{\"category\":\"selection\",\"size\":{\"width\":680,\"height\":520,\"minWidth\":360,\"minHeight\":300}}}],\"primaryMenus\":[],\"subMenus\":[{\"id\":\"plugins.browse\",\"primaryMenuId\":\"plugins\",\"viewId\":\"plugins.browser\",\"label\":\"플러그인들 · Legacy\",\"localizations\":{\"en\":{\"label\":\"Plugins · Legacy\"}},\"icon\":\"layout-grid\",\"order\":20}],\"menus\":[],\"routes\":[],\"extensions\":[{\"point\":\"agent.skill\",\"version\":1,\"id\":\"platform.plugins.skill\",\"data\":{\"id\":\"platform-plugins\",\"title\":\"플러그인들 Legacy 화면 아이디어 참고\",\"description\":\"Legacy 화면의 모양·배치 아이디어를 살펴볼 때만 사용함. 현행 기능·설계·API·설치 구현의 기준으로 사용하지 않음.\",\"path\":\"agent/skills/platform-plugins/SKILL.md\"}}]},\"databaseImpacts\":[],\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"plugins-ui.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}},\"legacy\":true}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.plugins%400.0.103",
+      "published_at": "2026-11-03T07:55:45Z",
+      "created_at": "2026-11-03T07:37:07Z",
+      "updated_at": "2026-11-03T07:55:45Z",
+      "assets": [
+        {
+          "id": 704792093,
+          "name": "plugins-ui.zip",
+          "state": "uploaded",
+          "size": 20478,
+          "digest": "sha256:526c1e6ca63e2b875cb06f7661cd7ac85477f728eafc00dfc974fb0f20bc40f7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.plugins%400.0.103/plugins-ui.zip",
+          "created_at": "2026-11-03T07:55:44Z",
+          "updated_at": "2026-11-03T07:55:44Z"
+        },
+        {
+          "id": 704792094,
+          "name": "plugins-ui.zip.sha256",
+          "state": "uploaded",
+          "size": 81,
+          "digest": "sha256:1290f705375816b2ffa0294b36c56e1cfe9d0a1c9e34b1dbb90ea031a99c2a26",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.plugins%400.0.103/plugins-ui.zip.sha256",
+          "created_at": "2026-11-03T07:55:44Z",
+          "updated_at": "2026-11-03T07:55:44Z"
         }
       ]
     },
