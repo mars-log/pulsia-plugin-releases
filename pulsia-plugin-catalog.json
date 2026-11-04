@@ -1,8 +1,82 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-04T02:53:25.000Z",
+  "generatedAt": "2026-11-04T04:47:17.000Z",
   "releases": [
+    {
+      "id": 433523890,
+      "tag_name": "pulsia-theme-starter@0.0.101",
+      "name": "Pulsia 비교 테마 4종 0.0.101",
+      "body": "# Pulsia 비교 테마 4종 · 0.0.101\n\n화면 테마: 미드나이트 블루, 포레스트\n에디터 구문 테마: 오로라, 앰버\n\nPulsia Core 0.3.289 이상과 테마 팩 관리자를 사용합니다. 테마 출처에 catalog.json 주소를 등록하거나 각 ZIP을 테마 관리자의 ZIP 설치로 설치하세요.\n\n공통 예시: 오로라 → 미드나이트 블루 → 앰버 → 포레스트\n프로젝트 예시: 앰버 → 포레스트 → 오로라 → 미드나이트 블루\n\n위쪽 테마에서 선언한 값을 우선 적용합니다. 화면 테마는 공용 배경과 강조색을, 에디터 테마는 코드 구문·커서·선택·현재 줄을 구성합니다. Light/Dark 모두 제공합니다.\n\n각 ZIP의 SHA-256은 SHA256SUMS.txt와 catalog.json에 포함돼 있습니다.\r\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-theme-starter%400.0.101",
+      "published_at": "2026-11-04T04:47:17Z",
+      "created_at": "2026-11-04T02:53:35Z",
+      "updated_at": "2026-11-04T04:47:17Z",
+      "assets": [
+        {
+          "id": 708266873,
+          "name": "catalog.json",
+          "state": "uploaded",
+          "size": 1600,
+          "digest": "sha256:244d4595a242415560a7641c333ddcf76263cf51a968428978ff6b96ddb44f4a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-theme-starter%400.0.101/catalog.json",
+          "created_at": "2026-11-04T04:47:15Z",
+          "updated_at": "2026-11-04T04:47:16Z"
+        },
+        {
+          "id": 708266910,
+          "name": "pulsia-theme-amber-0.0.101.zip",
+          "state": "uploaded",
+          "size": 616,
+          "digest": "sha256:1ffbd915d97b000ef2ad0b1f1b4ed23bdf99e01417e6252df773736fc7444406",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-theme-starter%400.0.101/pulsia-theme-amber-0.0.101.zip",
+          "created_at": "2026-11-04T04:47:16Z",
+          "updated_at": "2026-11-04T04:47:16Z"
+        },
+        {
+          "id": 708266878,
+          "name": "pulsia-theme-aurora-0.0.101.zip",
+          "state": "uploaded",
+          "size": 617,
+          "digest": "sha256:4962eabd4e99fbfb17c57779fb1401b96c5b1061e66fafd66835d875ac3d158f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-theme-starter%400.0.101/pulsia-theme-aurora-0.0.101.zip",
+          "created_at": "2026-11-04T04:47:15Z",
+          "updated_at": "2026-11-04T04:47:16Z"
+        },
+        {
+          "id": 708266875,
+          "name": "pulsia-theme-forest-0.0.101.zip",
+          "state": "uploaded",
+          "size": 664,
+          "digest": "sha256:4c6c23d7bb087ede378613310f0b9116b2a9a16f103bc37c63bf0173fcb1f826",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-theme-starter%400.0.101/pulsia-theme-forest-0.0.101.zip",
+          "created_at": "2026-11-04T04:47:15Z",
+          "updated_at": "2026-11-04T04:47:16Z"
+        },
+        {
+          "id": 708266872,
+          "name": "pulsia-theme-midnight-blue-0.0.101.zip",
+          "state": "uploaded",
+          "size": 676,
+          "digest": "sha256:ac73c5e82228bc8814279a1dfabfae3e6bd7fa388819b17979d1c4eb1589e11d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-theme-starter%400.0.101/pulsia-theme-midnight-blue-0.0.101.zip",
+          "created_at": "2026-11-04T04:47:15Z",
+          "updated_at": "2026-11-04T04:47:16Z"
+        },
+        {
+          "id": 708266874,
+          "name": "SHA256SUMS.txt",
+          "state": "uploaded",
+          "size": 398,
+          "digest": "sha256:7a094c77008b05faa087407e076398b91233d8bdd4c7005456369f2a90f775a1",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-theme-starter%400.0.101/SHA256SUMS.txt",
+          "created_at": "2026-11-04T04:47:15Z",
+          "updated_at": "2026-11-04T04:47:16Z"
+        }
+      ]
+    },
     {
       "id": 432464006,
       "tag_name": "wintera.demo.storeops-pilot@2.2.103",
