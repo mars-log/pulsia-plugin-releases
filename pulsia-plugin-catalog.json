@@ -1,19 +1,19 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-04T04:47:17.000Z",
+  "generatedAt": "2026-11-04T04:55:18.000Z",
   "releases": [
     {
       "id": 433523890,
       "tag_name": "pulsia-theme-starter@0.0.101",
       "name": "Pulsia 비교 테마 4종 0.0.101",
-      "body": "# Pulsia 비교 테마 4종 · 0.0.101\n\n화면 테마: 미드나이트 블루, 포레스트\n에디터 구문 테마: 오로라, 앰버\n\nPulsia Core 0.3.289 이상과 테마 팩 관리자를 사용합니다. 테마 출처에 catalog.json 주소를 등록하거나 각 ZIP을 테마 관리자의 ZIP 설치로 설치하세요.\n\n공통 예시: 오로라 → 미드나이트 블루 → 앰버 → 포레스트\n프로젝트 예시: 앰버 → 포레스트 → 오로라 → 미드나이트 블루\n\n위쪽 테마에서 선언한 값을 우선 적용합니다. 화면 테마는 공용 배경과 강조색을, 에디터 테마는 코드 구문·커서·선택·현재 줄을 구성합니다. Light/Dark 모두 제공합니다.\n\n각 ZIP의 SHA-256은 SHA256SUMS.txt와 catalog.json에 포함돼 있습니다.\r\n",
+      "body": "# Pulsia 비교 테마 4종 · 0.0.101\n\n화면 테마: 미드나이트 블루, 포레스트\n에디터 구문 테마: 오로라, 앰버\n\nPulsia Core 0.3.290 이상과 테마 팩 관리자 0.0.102 이상을 사용합니다. 테마 출처에 catalog.json 주소를 등록하거나 각 ZIP을 테마 관리자의 ZIP 설치로 설치하세요.\n\n공통 예시: 오로라 → 미드나이트 블루 → 앰버 → 포레스트\n프로젝트 예시: 앰버 → 포레스트 → 오로라 → 미드나이트 블루\n\n위쪽 테마에서 선언한 값을 우선 적용합니다. 화면 테마는 공용 배경과 강조색을, 에디터 테마는 코드 구문·커서·선택·현재 줄을 구성합니다. Light/Dark 모두 제공합니다.\n\n각 ZIP의 SHA-256은 SHA256SUMS.txt와 catalog.json에 포함돼 있습니다.\r\n",
       "draft": false,
       "prerelease": false,
       "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-theme-starter%400.0.101",
       "published_at": "2026-11-04T04:47:17Z",
       "created_at": "2026-11-04T02:53:35Z",
-      "updated_at": "2026-11-04T04:47:17Z",
+      "updated_at": "2026-11-04T04:55:18Z",
       "assets": [
         {
           "id": 708266873,
