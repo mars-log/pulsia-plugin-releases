@@ -4,40 +4,6 @@
   "generatedAt": "2026-11-10T12:17:03.000Z",
   "releases": [
     {
-      "id": 440321618,
-      "tag_name": "com.naver.mars-_-.messenger@0.0.109",
-      "name": "Pulsia Messenger Pack 0.0.109",
-      "body": "# Pulsia Messenger Pack 0.0.109\n\n- 프로젝트 없는 새 창의 조회를 수정한 Hub 0.0.109를 사용하도록 구성 버전을 갱신함. Connector 0.0.107과 기존 연결·대화 자료를 유지함.\n- Source: `8908c5fab6bab02ae733d11772381459c254a8ab`\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.messenger\",\"version\":\"0.0.109\",\"title\":\"Pulsia Messenger · 메신저 팩\",\"description\":\"메신저 허브와 선택한 텔레그램·디스코드 커넥터를 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"메신저\",\"AI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.messenger.hub\",\"version\":\"^0.0.109\",\"reason\":\"메신저 연결·업무 요청·실행 승인과 알림을 관리합니다.\"},{\"pluginId\":\"com.naver.mars-_-.messenger.telegram\",\"version\":\"^0.0.107\",\"reason\":\"텔레그램 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\"},{\"pluginId\":\"com.naver.mars-_-.messenger.discord\",\"version\":\"^0.0.107\",\"reason\":\"디스코드 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\"}],\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.messenger\",\"dependencies\":[]},\"information\":{\"schemaVersion\":1,\"icon\":\"\",\"publisher\":\"\",\"categories\":[],\"features\":[],\"discovery\":{\"areas\":[\"work\",\"ai\"],\"tasks\":[{\"id\":\"work.communicate\",\"label\":\"대화·알림 모아보기\",\"area\":\"work\"},{\"id\":\"ai.automate\",\"label\":\"AI에게 작업 맡기기\",\"area\":\"ai\"}],\"summary\":\"메신저 허브와 선택한 텔레그램·디스코드 커넥터를 설치합니다.\",\"role\":\"product\"}},\"icon\":null,\"changelog\":\"\",\"manifest\":{\"id\":\"com.naver.mars-_-.messenger\",\"version\":\"0.0.109\",\"displayName\":\"Pulsia Messenger · 메신저 팩\",\"description\":\"메신저 허브와 선택한 텔레그램·디스코드 커넥터를 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"메신저\",\"AI\"],\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"runtimes\":{},\"entrypoints\":{},\"permissions\":{},\"actions\":[],\"contributes\":{},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.messenger.hub\",\"version\":\"^0.0.109\",\"reason\":\"메신저 연결·업무 요청·실행 승인과 알림을 관리합니다.\"},{\"pluginId\":\"com.naver.mars-_-.messenger.telegram\",\"version\":\"^0.0.107\",\"reason\":\"텔레그램 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\"},{\"pluginId\":\"com.naver.mars-_-.messenger.discord\",\"version\":\"^0.0.107\",\"reason\":\"디스코드 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\"}],\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"messenger-pack.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}}}} -->\n",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.messenger%400.0.109",
-      "published_at": "2026-11-10T12:17:03Z",
-      "created_at": "2026-11-10T11:06:09Z",
-      "updated_at": "2026-11-10T12:17:03Z",
-      "assets": [
-        {
-          "id": 731326427,
-          "name": "messenger-pack.zip",
-          "state": "uploaded",
-          "size": 4014,
-          "digest": "sha256:2b897b73be3fc02bfb55314237d403ee7ce6ea813af249c2756150aebd20fe8e",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger%400.0.109/messenger-pack.zip",
-          "created_at": "2026-11-10T12:17:01Z",
-          "updated_at": "2026-11-10T12:17:02Z"
-        },
-        {
-          "id": 731326428,
-          "name": "messenger-pack.zip.sha256",
-          "state": "uploaded",
-          "size": 85,
-          "digest": "sha256:0fdb70aed7aeeeb603495f2ab73b99fbe4c0f46be891b41ec1fe78f0e99f30fb",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger%400.0.109/messenger-pack.zip.sha256",
-          "created_at": "2026-11-10T12:17:01Z",
-          "updated_at": "2026-11-10T12:17:02Z"
-        }
-      ]
-    },
-    {
       "id": 440207164,
       "tag_name": "pulsia-theme-starter@0.0.102",
       "name": "Pulsia 기본 제공 테마 5종 · 0.0.102",
@@ -118,6 +84,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-theme-starter%400.0.102/SHA256SUMS.txt",
           "created_at": "2026-11-10T10:17:16Z",
           "updated_at": "2026-11-10T10:17:17Z"
+        }
+      ]
+    },
+    {
+      "id": 440321618,
+      "tag_name": "com.naver.mars-_-.messenger@0.0.109",
+      "name": "Pulsia Messenger Pack 0.0.109",
+      "body": "# Pulsia Messenger Pack 0.0.109\n\n- 프로젝트 없는 새 창의 조회를 수정한 Hub 0.0.109를 사용하도록 구성 버전을 갱신함. Connector 0.0.107과 기존 연결·대화 자료를 유지함.\n- Source: `8908c5fab6bab02ae733d11772381459c254a8ab`\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.messenger\",\"version\":\"0.0.109\",\"title\":\"Pulsia Messenger · 메신저 팩\",\"description\":\"메신저 허브와 선택한 텔레그램·디스코드 커넥터를 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"메신저\",\"AI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.messenger.hub\",\"version\":\"^0.0.109\",\"reason\":\"메신저 연결·업무 요청·실행 승인과 알림을 관리합니다.\"},{\"pluginId\":\"com.naver.mars-_-.messenger.telegram\",\"version\":\"^0.0.107\",\"reason\":\"텔레그램 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\"},{\"pluginId\":\"com.naver.mars-_-.messenger.discord\",\"version\":\"^0.0.107\",\"reason\":\"디스코드 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\"}],\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.messenger\",\"dependencies\":[]},\"information\":{\"schemaVersion\":1,\"icon\":\"\",\"publisher\":\"\",\"categories\":[],\"features\":[],\"discovery\":{\"areas\":[\"work\",\"ai\"],\"tasks\":[{\"id\":\"work.communicate\",\"label\":\"대화·알림 모아보기\",\"area\":\"work\"},{\"id\":\"ai.automate\",\"label\":\"AI에게 작업 맡기기\",\"area\":\"ai\"}],\"summary\":\"메신저 허브와 선택한 텔레그램·디스코드 커넥터를 설치합니다.\",\"role\":\"product\"}},\"icon\":null,\"changelog\":\"\",\"manifest\":{\"id\":\"com.naver.mars-_-.messenger\",\"version\":\"0.0.109\",\"displayName\":\"Pulsia Messenger · 메신저 팩\",\"description\":\"메신저 허브와 선택한 텔레그램·디스코드 커넥터를 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"메신저\",\"AI\"],\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"runtimes\":{},\"entrypoints\":{},\"permissions\":{},\"actions\":[],\"contributes\":{},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.messenger.hub\",\"version\":\"^0.0.109\",\"reason\":\"메신저 연결·업무 요청·실행 승인과 알림을 관리합니다.\"},{\"pluginId\":\"com.naver.mars-_-.messenger.telegram\",\"version\":\"^0.0.107\",\"reason\":\"텔레그램 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\"},{\"pluginId\":\"com.naver.mars-_-.messenger.discord\",\"version\":\"^0.0.107\",\"reason\":\"디스코드 봇의 메시지를 수신하고 결과와 알림을 보냅니다.\"}],\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"messenger-pack.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.messenger%400.0.109",
+      "published_at": "2026-11-10T12:17:03Z",
+      "created_at": "2026-11-10T11:06:09Z",
+      "updated_at": "2026-11-10T12:17:03Z",
+      "assets": [
+        {
+          "id": 731326427,
+          "name": "messenger-pack.zip",
+          "state": "uploaded",
+          "size": 4014,
+          "digest": "sha256:2b897b73be3fc02bfb55314237d403ee7ce6ea813af249c2756150aebd20fe8e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger%400.0.109/messenger-pack.zip",
+          "created_at": "2026-11-10T12:17:01Z",
+          "updated_at": "2026-11-10T12:17:02Z"
+        },
+        {
+          "id": 731326428,
+          "name": "messenger-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 85,
+          "digest": "sha256:0fdb70aed7aeeeb603495f2ab73b99fbe4c0f46be891b41ec1fe78f0e99f30fb",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.messenger%400.0.109/messenger-pack.zip.sha256",
+          "created_at": "2026-11-10T12:17:01Z",
+          "updated_at": "2026-11-10T12:17:02Z"
         }
       ]
     },
