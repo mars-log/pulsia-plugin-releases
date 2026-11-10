@@ -1,8 +1,92 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-10T10:11:12.000Z",
+  "generatedAt": "2026-11-10T10:17:18.000Z",
   "releases": [
+    {
+      "id": 440207164,
+      "tag_name": "pulsia-theme-starter@0.0.102",
+      "name": "Pulsia 기본 제공 테마 5종 · 0.0.102",
+      "body": "# Pulsia 기본 제공 테마 5종\n\n파스텔 블루 화면 테마를 추가함. 기본 제공판 ID는 com.naver.mars-_-.appearance.theme.workbench.pastel-blue이며, 기존 io.github.mars-log.appearance.pastel-blue의 설치·선택·자료를 자동 변경하지 않음. 원본의 light·dark 색상과 설정값을 유지함.\n\n화면 테마: 파스텔 블루·미드나이트 블루·포레스트임. 에디터 테마: 오로라·앰버임.\n\n각 ZIP은 독립 테마이며 Core 설치 파일이나 Plugin ZIP이 아님. 기존 4개 ZIP은 이전 공개 파일과 바이트·SHA-256이 같음. catalog.json에 각 파일의 SHA-256을 포함함.\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/pulsia-theme-starter%400.0.102",
+      "published_at": "2026-11-10T10:17:18Z",
+      "created_at": "2026-11-10T10:11:28Z",
+      "updated_at": "2026-11-10T10:17:18Z",
+      "assets": [
+        {
+          "id": 730979656,
+          "name": "catalog.json",
+          "state": "uploaded",
+          "size": 2000,
+          "digest": "sha256:aad892c69b29650671f4dad758d0d9a5bd78a664ff1b161e7591e7d8115ec67a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-theme-starter%400.0.102/catalog.json",
+          "created_at": "2026-11-10T10:17:16Z",
+          "updated_at": "2026-11-10T10:17:17Z"
+        },
+        {
+          "id": 730979610,
+          "name": "pulsia-theme-amber-0.0.101.zip",
+          "state": "uploaded",
+          "size": 616,
+          "digest": "sha256:1ffbd915d97b000ef2ad0b1f1b4ed23bdf99e01417e6252df773736fc7444406",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-theme-starter%400.0.102/pulsia-theme-amber-0.0.101.zip",
+          "created_at": "2026-11-10T10:17:15Z",
+          "updated_at": "2026-11-10T10:17:16Z"
+        },
+        {
+          "id": 730979613,
+          "name": "pulsia-theme-aurora-0.0.101.zip",
+          "state": "uploaded",
+          "size": 617,
+          "digest": "sha256:4962eabd4e99fbfb17c57779fb1401b96c5b1061e66fafd66835d875ac3d158f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-theme-starter%400.0.102/pulsia-theme-aurora-0.0.101.zip",
+          "created_at": "2026-11-10T10:17:15Z",
+          "updated_at": "2026-11-10T10:17:16Z"
+        },
+        {
+          "id": 730979609,
+          "name": "pulsia-theme-forest-0.0.101.zip",
+          "state": "uploaded",
+          "size": 664,
+          "digest": "sha256:4c6c23d7bb087ede378613310f0b9116b2a9a16f103bc37c63bf0173fcb1f826",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-theme-starter%400.0.102/pulsia-theme-forest-0.0.101.zip",
+          "created_at": "2026-11-10T10:17:15Z",
+          "updated_at": "2026-11-10T10:17:16Z"
+        },
+        {
+          "id": 730979611,
+          "name": "pulsia-theme-midnight-blue-0.0.101.zip",
+          "state": "uploaded",
+          "size": 676,
+          "digest": "sha256:ac73c5e82228bc8814279a1dfabfae3e6bd7fa388819b17979d1c4eb1589e11d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-theme-starter%400.0.102/pulsia-theme-midnight-blue-0.0.101.zip",
+          "created_at": "2026-11-10T10:17:15Z",
+          "updated_at": "2026-11-10T10:17:16Z"
+        },
+        {
+          "id": 730979612,
+          "name": "pulsia-theme-pastel-blue-0.0.101.zip",
+          "state": "uploaded",
+          "size": 697,
+          "digest": "sha256:646dbb746205015a8cd7f007a359201412684d1c8f2f27f086a07d3fe7e7073b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-theme-starter%400.0.102/pulsia-theme-pastel-blue-0.0.101.zip",
+          "created_at": "2026-11-10T10:17:15Z",
+          "updated_at": "2026-11-10T10:17:16Z"
+        },
+        {
+          "id": 730979663,
+          "name": "SHA256SUMS.txt",
+          "state": "uploaded",
+          "size": 501,
+          "digest": "sha256:18fa0aba9ba5fd9385cf4d5426f43411a65233abb2bf5d0eaad414704a2bb89d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-theme-starter%400.0.102/SHA256SUMS.txt",
+          "created_at": "2026-11-10T10:17:16Z",
+          "updated_at": "2026-11-10T10:17:17Z"
+        }
+      ]
+    },
     {
       "id": 440201428,
       "tag_name": "com.naver.mars-_-.appearance.theme-pack-manager@0.0.107",
