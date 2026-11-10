@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-10T07:20:17.000Z",
+  "generatedAt": "2026-11-10T10:11:12.000Z",
   "releases": [
+    {
+      "id": 440201428,
+      "tag_name": "com.naver.mars-_-.appearance.theme-pack-manager@0.0.107",
+      "name": "테마 팩 관리자 0.0.107",
+      "body": "# 테마 팩 관리자 0.0.107\n\n\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 0.0.107\n\n- 테마 설정의 레지스트리 관리·ZIP 직접 설치를 상단 공용 탭으로 표시함.\n- 방향키·Home·End로 탭을 전환하며 주소·ZIP 입력과 목록 결과를 보존함.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.appearance.theme-pack-manager\",\"version\":\"0.0.107\",\"title\":\"테마 팩 관리자\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[\"테마\",\"외형\",\"설정\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.editor-engine\",\"version\":\"^1.0.118\",\"reason\":\"테마 팩의 에디터 구문 색상을 적용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\"^1.0.131\",\"reason\":\"테마 도우미를 사용합니다.\"}],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.appearance.theme-pack-manager\",\"dependencies\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.editor-engine\",\"displayName\":\"공용 편집 엔진\",\"minimumVersion\":\"1.0.118\"},{\"pluginId\":\"com.naver.mars-_-.platform.base.acp\",\"displayName\":\"ACP 공용 플러그인\",\"minimumVersion\":\"1.0.131\"}]},\"information\":{\"schemaVersion\":1,\"icon\":\"palette\",\"publisher\":\"mars-log\",\"categories\":[\"테마\",\"화면 설정\"],\"features\":[{\"id\":\"color-mode\",\"label\":\"라이트·다크 전환\",\"markdown\":\"## 화면 밝기\\n\\n상단 테마 설정 버튼 왼쪽의 해·달 스위치로 실제 앱 밝기를 바꾸고 저장합니다. 대메뉴·앱 설정·프로젝트 설정에 같은 스위치가 표시됩니다.\"},{\"id\":\"theme-stack\",\"label\":\"테마 순서와 프로젝트 설정\",\"markdown\":\"## 테마 순서\\n\\n위에 있는 테마의 값을 우선 적용합니다. 공통 기본값과 프로젝트 전용 구성을 선택하고 미리보기·적용·취소할 수 있습니다.\"},{\"id\":\"theme-sources\",\"label\":\"테마 설치와 출처 관리\",\"markdown\":\"## 테마 설치\\n\\nZIP 파일과 HTTPS 다운로드 주소로 테마를 설치합니다. 테마 설정의 레지스트리 관리·ZIP 직접 설치 탭에서 여러 테마 목록 주소를 등록하고 설치한 버전별로 선택할 수 있습니다.\"}],\"discovery\":{\"areas\":[\"work\",\"development\"],\"tasks\":[{\"id\":\"com.naver.mars-_-.appearance.theme-pack-manager.configure-themes\",\"label\":\"공통·프로젝트 테마 구성\",\"area\":\"work\"}],\"summary\":\"테마 팩을 설치하고 공통·프로젝트별 적용 순서를 정합니다.\",\"role\":\"product\"}},\"icon\":\"palette\",\"changelog\":\"## 0.0.107\\n\\n- 테마 설정의 레지스트리 관리·ZIP 직접 설치를 상단 공용 탭으로 표시함.\\n- 방향키·Home·End로 탭을 전환하며 주소·ZIP 입력과 목록 결과를 보존함.\\n\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.appearance.theme-pack-manager\",\"version\":\"0.0.107\",\"displayName\":\"테마 팩 관리자\",\"kind\":\"frontend\",\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"tags\":[\"테마\",\"외형\",\"설정\"],\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2}},\"activationEvents\":[\"onView:pulsia.theme-pack-manager.view\",\"onView:pulsia.theme-pack-manager.sources\"],\"entrypoints\":{\"frontend\":\"frontend/main.js\"},\"permissions\":{\"networkHosts\":[],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"userData\":[],\"fileSelection\":[],\"fileHandles\":[],\"projectPaths\":[],\"capabilities\":[{\"id\":\"ui.notification\",\"version\":1,\"grants\":{\"allowed\":true}}]},\"actions\":[],\"hostRequirements\":{\"workbench.themes\":\"^1.0.0\",\"workbench.dialogTemplates\":\"^1.0.0\",\"plugins.frontendModules\":\"^1.0.0\"},\"contributes\":{\"views\":[{\"id\":\"pulsia.theme-pack-manager.view\",\"title\":\"테마 팩 관리자\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\"},{\"id\":\"pulsia.theme-pack-manager.sources\",\"title\":\"테마 설정\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"dialog\":{\"category\":\"form\",\"size\":{\"width\":780,\"height\":620,\"minWidth\":420,\"minHeight\":360}}}],\"primaryMenus\":[{\"id\":\"pulsia.theme-pack-manager\",\"label\":\"테마\",\"icon\":\"palette\",\"order\":800}],\"subMenus\":[{\"id\":\"pulsia.theme-pack-manager.manage\",\"primaryMenuId\":\"pulsia.theme-pack-manager\",\"viewId\":\"pulsia.theme-pack-manager.view\",\"label\":\"테마 팩 관리자\",\"icon\":\"palette\",\"order\":10},{\"id\":\"project-settings.group.pulsia.theme-pack-manager.project\",\"primaryMenuId\":\"project-settings\",\"viewId\":\"project-settings\",\"label\":\"테마 팩\",\"icon\":\"palette\",\"order\":115}],\"menus\":[],\"routes\":[],\"extensions\":[{\"point\":\"ui.settingsGroup\",\"version\":1,\"id\":\"pulsia.theme-pack-manager.app\",\"data\":{\"id\":\"pulsia.theme-pack-manager.app\",\"title\":\"테마 팩\",\"scope\":\"app\",\"parentId\":\"appearance\",\"viewId\":\"pulsia.theme-pack-manager.view\",\"order\":15,\"description\":\"테마 적용 순서\"}},{\"point\":\"ui.settingsGroup\",\"version\":1,\"id\":\"pulsia.theme-pack-manager.project\",\"data\":{\"id\":\"pulsia.theme-pack-manager.project\",\"title\":\"테마 팩\",\"scope\":\"project\",\"viewId\":\"pulsia.theme-pack-manager.view\",\"order\":15,\"description\":\"테마 적용 순서\"}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"pulsia.theme-pack-manager.skill\",\"data\":{\"id\":\"theme-pack-manager\",\"title\":\"테마 구성 관리\",\"description\":\"공통·프로젝트 테마 순서와 설치 자료를 관리함\",\"path\":\"agent/skills/theme-pack-manager/SKILL.md\"}}]},\"databaseImpacts\":[],\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-theme-pack-manager.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}},\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.editor-engine\",\"version\":\"^1.0.118\",\"reason\":\"테마 팩의 에디터 구문 색상을 적용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\"^1.0.131\",\"reason\":\"테마 도우미를 사용합니다.\"}],\"recommended\":[]},\"moduleRequirements\":[{\"providerId\":\"pulsia.acp-common\",\"moduleId\":\"acp.surface\",\"apiRange\":\"^1.0.0\",\"features\":[\"header-assistant\"]}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.appearance.theme-pack-manager%400.0.107",
+      "published_at": "2026-11-10T10:11:12Z",
+      "created_at": "2026-11-10T07:20:31Z",
+      "updated_at": "2026-11-10T10:11:12Z",
+      "assets": [
+        {
+          "id": 730964478,
+          "name": "pulsia-theme-pack-manager.zip",
+          "state": "uploaded",
+          "size": 29408,
+          "digest": "sha256:ed7bcf700f625ed5a186ec87df7c9e7a276efc7c39794f35234a3b430a87c5c6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.appearance.theme-pack-manager%400.0.107/pulsia-theme-pack-manager.zip",
+          "created_at": "2026-11-10T10:11:10Z",
+          "updated_at": "2026-11-10T10:11:11Z"
+        },
+        {
+          "id": 730964481,
+          "name": "pulsia-theme-pack-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 96,
+          "digest": "sha256:4f9bf225b68fbcd0e4095802e95ce088e36bb44268d312e91d3f81e90901b643",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.appearance.theme-pack-manager%400.0.107/pulsia-theme-pack-manager.zip.sha256",
+          "created_at": "2026-11-10T10:11:11Z",
+          "updated_at": "2026-11-10T10:11:11Z"
+        }
+      ]
+    },
     {
       "id": 439246719,
       "tag_name": "com.naver.mars-_-.platform.base.acp@1.0.138",
