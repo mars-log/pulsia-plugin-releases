@@ -4,40 +4,6 @@
   "generatedAt": "2026-11-15T06:39:10.000Z",
   "releases": [
     {
-      "id": 445862661,
-      "tag_name": "com.naver.mars-_-.design.ui-production@0.0.102",
-      "name": "UI 제작팩 0.0.102",
-      "body": "# UI 제작팩 0.0.102\n\n디자인 컨셉을 검토하고 실제 UI 시안을 함께 제작합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.design.ui-production\",\"version\":\"0.0.102\",\"title\":\"UI 제작팩\",\"description\":\"디자인 컨셉을 검토하고 실제 UI 시안을 함께 제작합니다.\",\"kind\":\"pack\",\"tags\":[],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.design.ui-studio\",\"version\":\">=0.0.110 <0.1.0\",\"reason\":\"컨셉 제작실과 UI 제작실을 제공합니다.\"}],\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.design.ui-production\",\"dependencies\":[]},\"information\":null,\"icon\":null,\"changelog\":\"\",\"manifest\":{\"id\":\"com.naver.mars-_-.design.ui-production\",\"version\":\"0.0.102\",\"displayName\":\"UI 제작팩\",\"description\":\"디자인 컨셉을 검토하고 실제 UI 시안을 함께 제작합니다.\",\"kind\":\"pack\",\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"runtimes\":{},\"entrypoints\":{},\"permissions\":{},\"actions\":[],\"contributes\":{},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.design.ui-studio\",\"version\":\">=0.0.110 <0.1.0\",\"reason\":\"컨셉 제작실과 UI 제작실을 제공합니다.\"}],\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-ui-production-pack.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}}}} -->\n",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.design.ui-production%400.0.102",
-      "published_at": "2026-11-15T06:39:10Z",
-      "created_at": "2026-11-15T06:15:17Z",
-      "updated_at": "2026-11-15T06:39:10Z",
-      "assets": [
-        {
-          "id": 750093649,
-          "name": "pulsia-ui-production-pack.zip",
-          "state": "uploaded",
-          "size": 1041,
-          "digest": "sha256:0b2e820e415989ffb7f709ff5584f83ea8dfb8f7282c6c8e082a258fea0db737",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.design.ui-production%400.0.102/pulsia-ui-production-pack.zip",
-          "created_at": "2026-11-15T06:39:09Z",
-          "updated_at": "2026-11-15T06:39:09Z"
-        },
-        {
-          "id": 750093651,
-          "name": "pulsia-ui-production-pack.zip.sha256",
-          "state": "uploaded",
-          "size": 96,
-          "digest": "sha256:3dca457c1c771979750df1d40bcec6224215ecbccc769fcd1a20a7092d020965",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.design.ui-production%400.0.102/pulsia-ui-production-pack.zip.sha256",
-          "created_at": "2026-11-15T06:39:09Z",
-          "updated_at": "2026-11-15T06:39:09Z"
-        }
-      ]
-    },
-    {
       "id": 445862638,
       "tag_name": "com.naver.mars-_-.design.ui-studio@0.0.110",
       "name": "UI 제작실 0.0.110",
@@ -68,6 +34,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.design.ui-studio%400.0.110/pulsia-ui-studio.zip.sha256",
           "created_at": "2026-11-15T06:39:06Z",
           "updated_at": "2026-11-15T06:39:06Z"
+        }
+      ]
+    },
+    {
+      "id": 445862661,
+      "tag_name": "com.naver.mars-_-.design.ui-production@0.0.102",
+      "name": "UI 제작팩 0.0.102",
+      "body": "# UI 제작팩 0.0.102\n\n디자인 컨셉을 검토하고 실제 UI 시안을 함께 제작합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.design.ui-production\",\"version\":\"0.0.102\",\"title\":\"UI 제작팩\",\"description\":\"디자인 컨셉을 검토하고 실제 UI 시안을 함께 제작합니다.\",\"kind\":\"pack\",\"tags\":[],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.design.ui-studio\",\"version\":\">=0.0.110 <0.1.0\",\"reason\":\"컨셉 제작실과 UI 제작실을 제공합니다.\"}],\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.design.ui-production\",\"dependencies\":[]},\"information\":null,\"icon\":null,\"changelog\":\"\",\"manifest\":{\"id\":\"com.naver.mars-_-.design.ui-production\",\"version\":\"0.0.102\",\"displayName\":\"UI 제작팩\",\"description\":\"디자인 컨셉을 검토하고 실제 UI 시안을 함께 제작합니다.\",\"kind\":\"pack\",\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"runtimes\":{},\"entrypoints\":{},\"permissions\":{},\"actions\":[],\"contributes\":{},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.design.ui-studio\",\"version\":\">=0.0.110 <0.1.0\",\"reason\":\"컨셉 제작실과 UI 제작실을 제공합니다.\"}],\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-ui-production-pack.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.design.ui-production%400.0.102",
+      "published_at": "2026-11-15T06:39:10Z",
+      "created_at": "2026-11-15T06:15:17Z",
+      "updated_at": "2026-11-15T06:39:10Z",
+      "assets": [
+        {
+          "id": 750093649,
+          "name": "pulsia-ui-production-pack.zip",
+          "state": "uploaded",
+          "size": 1041,
+          "digest": "sha256:0b2e820e415989ffb7f709ff5584f83ea8dfb8f7282c6c8e082a258fea0db737",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.design.ui-production%400.0.102/pulsia-ui-production-pack.zip",
+          "created_at": "2026-11-15T06:39:09Z",
+          "updated_at": "2026-11-15T06:39:09Z"
+        },
+        {
+          "id": 750093651,
+          "name": "pulsia-ui-production-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 96,
+          "digest": "sha256:3dca457c1c771979750df1d40bcec6224215ecbccc769fcd1a20a7092d020965",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.design.ui-production%400.0.102/pulsia-ui-production-pack.zip.sha256",
+          "created_at": "2026-11-15T06:39:09Z",
+          "updated_at": "2026-11-15T06:39:09Z"
         }
       ]
     },
