@@ -1,8 +1,76 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-17T14:13:29.000Z",
+  "generatedAt": "2026-11-18T01:36:40.000Z",
   "releases": [
+    {
+      "id": 449403873,
+      "tag_name": "com.naver.mars-_-.platform.base@0.1.103",
+      "name": "펄시아 기본 팩 0.1.103",
+      "body": "# 펄시아 기본 팩 0.1.103\n\nAI 대화·편집·문서 표시의 공용 기능과 기본 홈·시작 화면을 선택해 설치합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 0.1.103\n\n- 기본 팩 구성에 Pulsia Welcome을 추가함. 시작 화면에서 프로젝트를 열고, 저장소를 복제하고, 앱 설정과 플러그인 관리로 이동할 수 있음.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.base\",\"version\":\"0.1.103\",\"title\":\"펄시아 기본 팩\",\"description\":\"AI 대화·편집·문서 표시의 공용 기능과 기본 홈·시작 화면을 선택해 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"펄시아 기본 팩\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\"^1.0.123\",\"reason\":\"ACP 공용 플러그인을 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.platform.base.editor-engine\",\"version\":\"^1.0.116\",\"reason\":\"공용 편집 엔진을 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"version\":\"^1.0.103\",\"reason\":\"공용 마크다운 표시 기능을 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.platform.base.home\",\"version\":\"^1.0.105\",\"reason\":\"펄시아 홈을 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.platform.base.welcome\",\"version\":\"^0.1.101\",\"reason\":\"시작 화면에서 프로젝트를 열고 앱 설정과 플러그인 관리로 이동합니다.\"}],\"pluginMigrations\":[{\"fromPluginId\":\"pulsia.acp-common\",\"toPluginId\":\"com.naver.mars-_-.platform.base.acp\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"},{\"fromPluginId\":\"pulsia.editor-runtime\",\"toPluginId\":\"com.naver.mars-_-.platform.base.editor-engine\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"},{\"fromPluginId\":\"pulsia.markdown-runtime\",\"toPluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"},{\"fromPluginId\":\"pulsia.home\",\"toPluginId\":\"com.naver.mars-_-.platform.base.home\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"}],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.base\",\"dependencies\":[]},\"information\":{\"schemaVersion\":1,\"icon\":\"\",\"publisher\":\"\",\"categories\":[],\"features\":[],\"discovery\":{\"areas\":[\"ai\",\"work\"],\"tasks\":[{\"id\":\"ai.chat\",\"label\":\"AI와 대화하기\",\"area\":\"ai\"},{\"id\":\"work.documents\",\"label\":\"문서·지식 관리하기\",\"area\":\"work\"}],\"summary\":\"AI 대화·편집·문서 표시의 공용 기능과 기본 홈을 선택해 설치합니다.\",\"role\":\"product\"}},\"icon\":null,\"changelog\":\"## 0.1.103\\n\\n- 기본 팩 구성에 Pulsia Welcome을 추가함. 시작 화면에서 프로젝트를 열고, 저장소를 복제하고, 앱 설정과 플러그인 관리로 이동할 수 있음.\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.platform.base\",\"version\":\"0.1.103\",\"displayName\":\"펄시아 기본 팩\",\"description\":\"AI 대화·편집·문서 표시의 공용 기능과 기본 홈·시작 화면을 선택해 설치합니다.\",\"kind\":\"pack\",\"tags\":[\"펄시아 기본 팩\"],\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"runtimes\":{},\"entrypoints\":{},\"permissions\":{},\"actions\":[],\"contributes\":{},\"hostRequirements\":{\"plugins.identityMigrations\":\"^1.1.0\"},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\"^1.0.123\",\"reason\":\"ACP 공용 플러그인을 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.platform.base.editor-engine\",\"version\":\"^1.0.116\",\"reason\":\"공용 편집 엔진을 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"version\":\"^1.0.103\",\"reason\":\"공용 마크다운 표시 기능을 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.platform.base.home\",\"version\":\"^1.0.105\",\"reason\":\"펄시아 홈을 사용합니다.\"},{\"pluginId\":\"com.naver.mars-_-.platform.base.welcome\",\"version\":\"^0.1.101\",\"reason\":\"시작 화면에서 프로젝트를 열고 앱 설정과 플러그인 관리로 이동합니다.\"}],\"pluginMigrations\":[{\"fromPluginId\":\"pulsia.acp-common\",\"toPluginId\":\"com.naver.mars-_-.platform.base.acp\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"},{\"fromPluginId\":\"pulsia.editor-runtime\",\"toPluginId\":\"com.naver.mars-_-.platform.base.editor-engine\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"},{\"fromPluginId\":\"pulsia.markdown-runtime\",\"toPluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"},{\"fromPluginId\":\"pulsia.home\",\"toPluginId\":\"com.naver.mars-_-.platform.base.home\",\"previousInstallation\":\"remove\",\"reason\":\"기존 설정과 자료를 이어서 사용합니다.\"}],\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"base-pack.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.base%400.1.103",
+      "published_at": "2026-11-18T01:36:38Z",
+      "created_at": "2026-11-17T14:13:46Z",
+      "updated_at": "2026-11-18T01:36:38Z",
+      "assets": [
+        {
+          "id": 761372368,
+          "name": "base-pack.zip",
+          "state": "uploaded",
+          "size": 4582,
+          "digest": "sha256:9d1bc3692cf1451996f10d515e7816b1445e6462deb25784829601cd977eedb6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base%400.1.103/base-pack.zip",
+          "created_at": "2026-11-18T01:24:44Z",
+          "updated_at": "2026-11-18T01:24:44Z"
+        },
+        {
+          "id": 761372390,
+          "name": "base-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 80,
+          "digest": "sha256:8cc7eb277051f877af869e30f17dcf99484bf6bb9e6a24179edcc108b42bc333",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base%400.1.103/base-pack.zip.sha256",
+          "created_at": "2026-11-18T01:24:44Z",
+          "updated_at": "2026-11-18T01:24:44Z"
+        }
+      ]
+    },
+    {
+      "id": 449403849,
+      "tag_name": "com.naver.mars-_-.platform.base.welcome@0.1.101",
+      "name": "Pulsia Welcome 0.1.101",
+      "body": "# Pulsia Welcome 0.1.101\n\nPulsia 시작 화면에서 프로젝트를 열고 설정과 플러그인 관리로 이동합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 0.1.101\n\n- 최근 프로젝트 검색, 폴더 열기, 새 프로젝트, 저장소 복제를 한 화면에 제공함.\n- 앱 설정, 플러그인 관리, 업데이트, 제품 정보를 공용 화면으로 엶.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.base.welcome\",\"version\":\"0.1.101\",\"title\":\"Pulsia Welcome\",\"description\":\"Pulsia 시작 화면에서 프로젝트를 열고 설정과 플러그인 관리로 이동합니다.\",\"kind\":\"frontend\",\"tags\":[\"시작\",\"프로젝트\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.base.welcome\",\"dependencies\":[]},\"information\":{\"schemaVersion\":1,\"icon\":\"folder-open\",\"publisher\":\"mars-log\",\"categories\":[\"프로젝트\"],\"features\":[{\"id\":\"startup-projects\",\"label\":\"시작 화면에서 프로젝트 열기\",\"markdown\":\"최근 프로젝트, 폴더 열기, 새 프로젝트, 저장소 복제를 시작 창에서 사용함.\"}],\"discovery\":null},\"icon\":\"folder-open\",\"changelog\":\"## 0.1.101\\n\\n- 최근 프로젝트 검색, 폴더 열기, 새 프로젝트, 저장소 복제를 한 화면에 제공함.\\n- 앱 설정, 플러그인 관리, 업데이트, 제품 정보를 공용 화면으로 엶.\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.platform.base.welcome\",\"version\":\"0.1.101\",\"displayName\":\"Pulsia Welcome\",\"description\":\"Pulsia 시작 화면에서 프로젝트를 열고 설정과 플러그인 관리로 이동합니다.\",\"kind\":\"frontend\",\"tags\":[\"시작\",\"프로젝트\"],\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"hostRequirements\":{\"ui.startupSurface\":\"^1.0.0\"},\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2}},\"activationEvents\":[],\"entrypoints\":{\"frontend\":\"frontend/main.js\"},\"permissions\":{},\"actions\":[],\"contributes\":{\"extensions\":[{\"point\":\"ui.startupSurface\",\"version\":1,\"id\":\"platform.welcome.startup\",\"data\":{\"providerId\":\"platform.welcome.provider\",\"entry\":\"frontend/startup-main.js\",\"hostApiVersion\":1,\"title\":\"Pulsia 시작\",\"titleEn\":\"Pulsia Welcome\"}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"platform.welcome.skill\",\"data\":{\"id\":\"pulsia-welcome\",\"title\":\"Pulsia 시작 화면 사용\",\"description\":\"시작 창에서 프로젝트를 열고 완료 상태를 확인합니다.\",\"path\":\"agent/skills/pulsia-welcome/SKILL.md\"}}]},\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-welcome.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.base.welcome%400.1.101",
+      "published_at": "2026-11-18T01:36:36Z",
+      "created_at": "2026-11-17T14:13:46Z",
+      "updated_at": "2026-11-18T01:36:36Z",
+      "assets": [
+        {
+          "id": 761372256,
+          "name": "pulsia-welcome.zip",
+          "state": "uploaded",
+          "size": 41403,
+          "digest": "sha256:6c60afc6f6203f8743fed97038529dd7df0f6abe811187d71d21166c6b992dbb",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.welcome%400.1.101/pulsia-welcome.zip",
+          "created_at": "2026-11-18T01:24:42Z",
+          "updated_at": "2026-11-18T01:24:42Z"
+        },
+        {
+          "id": 761372258,
+          "name": "pulsia-welcome.zip.sha256",
+          "state": "uploaded",
+          "size": 85,
+          "digest": "sha256:5267187df6a4971e2221db536cb5d88431ebeb02560ba39e65c188e7509483e3",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.welcome%400.1.101/pulsia-welcome.zip.sha256",
+          "created_at": "2026-11-18T01:24:42Z",
+          "updated_at": "2026-11-18T01:24:42Z"
+        }
+      ]
+    },
     {
       "id": 448725227,
       "tag_name": "com.naver.mars-_-.platform.account.login@0.1.105",
@@ -34,6 +102,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.account.login%400.1.105/pulsia-login.zip.sha256",
           "created_at": "2026-11-17T14:13:27Z",
           "updated_at": "2026-11-17T14:13:28Z"
+        }
+      ]
+    },
+    {
+      "id": 449403893,
+      "tag_name": "com.naver.mars-_-.examples.tutorial@0.1.111",
+      "name": "Pulsia Legacy 튜토리얼 0.1.111",
+      "body": "# Pulsia 시작 튜토리얼 0.1.111\n\n\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 0.1.111\n\n- 기존 시작 튜토리얼을 Legacy 분류로 이동함. Workbench 도움말이나 명령 검색에서 열 수 있음.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.examples.tutorial\",\"version\":\"0.1.111\",\"title\":\"Pulsia 시작 튜토리얼\",\"description\":\"\",\"kind\":\"frontend\",\"tags\":[\"튜토리얼\",\"온보딩\"],\"legacy\":true,\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.workbench\",\"version\":\"^1.1.123\",\"reason\":\"튜토리얼의 Agent 대화와 플러그인 제작 단계를 진행합니다.\"}],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.examples.tutorial\",\"dependencies\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.workbench\",\"minimumVersion\":\"1.1.123\"}]},\"information\":{\"schemaVersion\":1,\"icon\":\"\",\"publisher\":\"\",\"categories\":[],\"features\":[],\"discovery\":{\"areas\":[\"work\",\"ai\"],\"tasks\":[{\"id\":\"work.projects\",\"label\":\"프로젝트·업무 관리하기\",\"area\":\"work\"},{\"id\":\"ai.chat\",\"label\":\"AI와 대화하기\",\"area\":\"ai\"}],\"summary\":\"Pulsia의 화면과 기본 작업 순서를 익힙니다.\",\"role\":\"product\"}},\"icon\":null,\"changelog\":\"## 0.1.111\\n\\n- 기존 시작 튜토리얼을 Legacy 분류로 이동함. Workbench 도움말이나 명령 검색에서 열 수 있음.\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.examples.tutorial\",\"version\":\"0.1.111\",\"legacy\":true,\"kind\":\"frontend\",\"tags\":[\"튜토리얼\",\"온보딩\"],\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2}},\"activationEvents\":[\"onView:pulsia-plugin-tutorial-pulsia-starter.view\"],\"entrypoints\":{\"frontend\":\"frontend/main.js\"},\"permissions\":{\"networkHosts\":[],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"userData\":[],\"fileSelection\":[],\"fileHandles\":[],\"projectPaths\":[]},\"actions\":[],\"contributes\":{\"views\":[{\"id\":\"pulsia-plugin-tutorial-pulsia-starter.view\",\"title\":\"튜토리얼\",\"kind\":\"screen\",\"layoutProfile\":\"reading\"}],\"primaryMenus\":[],\"subMenus\":[],\"menus\":[],\"routes\":[],\"extensions\":[{\"point\":\"ui.command\",\"version\":1,\"id\":\"pulsia-plugin-tutorial-pulsia-starter.open\",\"data\":{\"id\":\"pulsia-plugin-tutorial-pulsia-starter.open\",\"title\":\"시작 튜토리얼 열기\",\"category\":\"도움말\",\"icon\":\"circle-help\",\"viewId\":\"pulsia-plugin-tutorial-pulsia-starter.view\",\"presentation\":\"modal\"}},{\"point\":\"ui.applicationMenuItem\",\"version\":1,\"id\":\"pulsia-plugin-tutorial-pulsia-starter.help\",\"data\":{\"type\":\"command\",\"parentId\":\"application.help\",\"commandId\":\"pulsia-plugin-tutorial-pulsia-starter.open\",\"order\":30}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"tutorial-pulsia-starter.skill.usage\",\"data\":{\"id\":\"tutorial-pulsia-starter\",\"title\":\"Pulsia 시작 튜토리얼 사용\",\"description\":\"Agent 연결, 프로젝트 준비, Plugin 제작·설치 승인을 실제 화면에서 단계별로 진행하는 시작 튜토리얼임.\",\"path\":\"agent/skills/tutorial-pulsia-starter/SKILL.md\"}},{\"point\":\"ui.settingsGroup\",\"version\":1,\"id\":\"pulsia-plugin-tutorial-pulsia-starter.settings\",\"data\":{\"id\":\"pulsia-plugin-tutorial-pulsia-starter.settings\",\"title\":\"튜토리얼\",\"description\":\"Pulsia의 프로젝트, Agent와 Plugin 설치 흐름을 실제 화면에서 익힙니다.\",\"order\":10000}},{\"point\":\"ui.setting\",\"version\":1,\"id\":\"pulsia-plugin-tutorial-pulsia-starter.enabled\",\"data\":{\"key\":\"pulsia.tutorial.enabled\",\"scope\":\"app\",\"type\":\"boolean\",\"default\":true,\"group\":\"pulsia-plugin-tutorial-pulsia-starter.settings\",\"label\":\"튜토리얼 표시\",\"description\":\"튜토리얼을 직접 열었을 때 시작합니다.\",\"order\":10}}]},\"databaseImpacts\":[],\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-plugin-tutorial-pulsia-starter.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}},\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.workbench\",\"version\":\"^1.1.123\",\"reason\":\"튜토리얼의 Agent 대화와 플러그인 제작 단계를 진행합니다.\"}],\"recommended\":[]},\"displayName\":\"Pulsia 시작 튜토리얼\",\"hostRequirements\":{\"plugins.identityMigrations\":\"^1.1.0\"}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.examples.tutorial%400.1.111",
+      "published_at": "2026-11-18T01:36:40Z",
+      "created_at": "2026-11-17T14:13:46Z",
+      "updated_at": "2026-11-18T01:36:40Z",
+      "assets": [
+        {
+          "id": 761372502,
+          "name": "pulsia-plugin-tutorial-pulsia-starter.zip",
+          "state": "uploaded",
+          "size": 28764,
+          "digest": "sha256:5bcc4a81b846a8e2fe680ebcb4abc7d614106a635659cf208e63cc9ce8d0960f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.tutorial%400.1.111/pulsia-plugin-tutorial-pulsia-starter.zip",
+          "created_at": "2026-11-18T01:24:46Z",
+          "updated_at": "2026-11-18T01:24:46Z"
+        },
+        {
+          "id": 761372478,
+          "name": "pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
+          "state": "uploaded",
+          "size": 108,
+          "digest": "sha256:f74d8481737ca9a06c9b1ca56ded164b9ec2bb09cb78abab8c39487d3e2b6e67",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.tutorial%400.1.111/pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
+          "created_at": "2026-11-18T01:24:46Z",
+          "updated_at": "2026-11-18T01:24:46Z"
         }
       ]
     },
