@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-18T14:17:19.000Z",
+  "generatedAt": "2026-11-18T14:29:02.000Z",
   "releases": [
     {
       "id": 449993868,
@@ -136,6 +136,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.101/pulsia-remote-workbench.zip.sha256",
           "created_at": "2026-11-18T12:19:02Z",
           "updated_at": "2026-11-18T12:19:02Z"
+        }
+      ]
+    },
+    {
+      "id": 450102965,
+      "tag_name": "com.naver.mars-_-.platform.remote.web-connector@0.1.102",
+      "name": "Pulsia 원격 Web 커넥터 0.1.102",
+      "body": "# Pulsia 원격 Web 커넥터 0.1.102\n\nPulsia 계정을 확인하고 등록된 장치 간 원격 연결을 중계 서버에 연결합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 0.1.102\n\n- 같은 계정의 새 액세스 토큰을 확인하면 이전 연결을 닫고 원격 런타임에 기존 장치와 세션을 다시 연결할 수 있는 상태를 반환함.\n- 일시적 인증 장애 동안 유효한 연결을 유지함. 로그아웃이나 계정 변경 시에는 기존 세션을 자동으로 다시 열지 않음.\n- 같은 계정으로 재로그인했을 때 호스트 장치가 원래 계정으로 등록되는지 검증하는 식별자를 원격 런타임에 제공함.\n- 원격 호스트를 켠 기기는 접속 대기 중에도 필요한 로그인을 갱신함. 장치 목록을 확인할 때는 로그인 상태만 조회함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.remote.web-connector\",\"version\":\"0.1.102\",\"title\":\"Pulsia 원격 Web 커넥터\",\"description\":\"Pulsia 계정을 확인하고 등록된 장치 간 원격 연결을 중계 서버에 연결합니다.\",\"kind\":\"backend\",\"tags\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.account.login\",\"version\":\"^0.1.106\",\"reason\":\"Pulsia 계정에서 원격 중계 연결을 인증합니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.remote.web-connector\",\"dependencies\":[]},\"information\":null,\"icon\":null,\"changelog\":\"## 0.1.102\\n\\n- 같은 계정의 새 액세스 토큰을 확인하면 이전 연결을 닫고 원격 런타임에 기존 장치와 세션을 다시 연결할 수 있는 상태를 반환함.\\n- 일시적 인증 장애 동안 유효한 연결을 유지함. 로그아웃이나 계정 변경 시에는 기존 세션을 자동으로 다시 열지 않음.\\n- 같은 계정으로 재로그인했을 때 호스트 장치가 원래 계정으로 등록되는지 검증하는 식별자를 원격 런타임에 제공함.\\n- 원격 호스트를 켠 기기는 접속 대기 중에도 필요한 로그인을 갱신함. 장치 목록을 확인할 때는 로그인 상태만 조회함.\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.platform.remote.web-connector\",\"version\":\"0.1.102\",\"displayName\":\"Pulsia 원격 Web 커넥터\",\"description\":\"Pulsia 계정을 확인하고 등록된 장치 간 원격 연결을 중계 서버에 연결합니다.\",\"kind\":\"backend\",\"pluginApiVersion\":1,\"executionGrade\":\"full-access\",\"localSystemAccess\":{\"reason\":\"Pulsia 계정을 확인하고 등록된 장치 간 원격 연결을 중계 서버에 연결합니다.\",\"plannedUses\":[\"network\"],\"dependencyMode\":\"none\"},\"hostRequirements\":{\"plugins.backgroundContext\":\"^1.0.0\",\"plugins.linkedCallers\":\"^1.0.0\"},\"runtimes\":{\"backend\":{\"kind\":\"node-extension-host\",\"hostApiVersion\":2}},\"activationEvents\":[\"onStartup\"],\"entrypoints\":{\"backend\":\"backend/index.js\"},\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-remote-web-connector.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}},\"permissions\":{\"networkHosts\":[\"https://pulsia-relay.149.118.56.103.sslip.io\"],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"projectPaths\":[],\"capabilities\":[{\"id\":\"plugins.linkedActions\",\"version\":1,\"grants\":{\"allowed\":true,\"targets\":[{\"pluginId\":\"com.naver.mars-_-.platform.account.login\",\"actions\":[\"getRelayCredential\",\"ensureRelayCredential\",\"peekRelayCredential\",\"startRelaySignIn\"]}]}}]},\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.account.login\",\"version\":\"^0.1.106\",\"reason\":\"Pulsia 계정에서 원격 중계 연결을 인증합니다.\"}]},\"actions\":[{\"id\":\"relayListDevices\",\"version\":1,\"access\":\"read\",\"exposure\":\"plugin\",\"linkedCallers\":[\"com.naver.mars-_-.platform.remote.runtime\"],\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{}},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"devices\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"deviceId\":{\"type\":\"string\"},\"label\":{\"type\":\"string\"},\"publicKey\":{\"type\":\"string\"},\"hostEnabled\":{\"type\":\"boolean\"}},\"required\":[\"deviceId\",\"label\",\"publicKey\",\"hostEnabled\"],\"additionalProperties\":false}}},\"required\":[\"devices\"],\"additionalProperties\":false}},{\"id\":\"relayOpen\",\"version\":1,\"access\":\"write\",\"exposure\":\"plugin\",\"linkedCallers\":[\"com.naver.mars-_-.platform.remote.runtime\"],\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"deviceId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":180},\"publicKey\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":180},\"label\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":180},\"hostEnabled\":{\"type\":\"boolean\"},\"refresh\":{\"type\":\"boolean\"},\"expectedAccountBinding\":{\"type\":\"string\",\"pattern\":\"^[A-Za-z0-9_-]{43}$\"}},\"required\":[\"deviceId\",\"publicKey\",\"label\",\"hostEnabled\"]},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"connectionId\":{\"type\":\"string\"},\"nonce\":{\"type\":\"string\"},\"accountBinding\":{\"type\":\"string\",\"pattern\":\"^[A-Za-z0-9_-]{43}$\"}},\"required\":[\"connectionId\",\"nonce\"],\"additionalProperties\":false}},{\"id\":\"relayRegister\",\"version\":1,\"access\":\"write\",\"exposure\":\"plugin\",\"linkedCallers\":[\"com.naver.mars-_-.platform.remote.runtime\"],\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"connectionId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":180},\"signature\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":180}},\"required\":[\"connectionId\",\"signature\"]},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"deviceId\":{\"type\":\"string\"}},\"required\":[\"deviceId\"],\"additionalProperties\":false}},{\"id\":\"relaySend\",\"version\":1,\"access\":\"write\",\"exposure\":\"plugin\",\"linkedCallers\":[\"com.naver.mars-_-.platform.remote.runtime\"],\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"connectionId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":180},\"message\":{\"type\":\"object\"}},\"required\":[\"connectionId\",\"message\"]},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"sent\":{\"type\":\"boolean\"}},\"required\":[\"sent\"],\"additionalProperties\":false}},{\"id\":\"relayRead\",\"version\":1,\"access\":\"read\",\"exposure\":\"plugin\",\"linkedCallers\":[\"com.naver.mars-_-.platform.remote.runtime\"],\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"connectionId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":180}},\"required\":[\"connectionId\"]},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"frames\":{\"type\":\"array\",\"items\":{\"type\":\"object\"}},\"closed\":{\"type\":\"boolean\"},\"code\":{\"type\":\"string\",\"maxLength\":80},\"retryable\":{\"type\":\"boolean\"}},\"required\":[\"frames\",\"closed\"],\"additionalProperties\":false}},{\"id\":\"relayClose\",\"version\":1,\"access\":\"write\",\"exposure\":\"plugin\",\"linkedCallers\":[\"com.naver.mars-_-.platform.remote.runtime\"],\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"connectionId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":180}},\"required\":[\"connectionId\"]},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"closed\":{\"type\":\"boolean\"}},\"required\":[\"closed\"],\"additionalProperties\":false}},{\"id\":\"startRelaySignIn\",\"version\":1,\"access\":\"write\",\"exposure\":\"plugin\",\"linkedCallers\":[\"com.naver.mars-_-.platform.remote.runtime\"],\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{}},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"status\":{\"type\":\"string\"}},\"required\":[\"status\"],\"additionalProperties\":false}}],\"contributes\":{}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.remote.web-connector%400.1.102",
+      "published_at": "2026-11-18T14:29:02Z",
+      "created_at": "2026-11-18T14:17:33Z",
+      "updated_at": "2026-11-18T14:29:02Z",
+      "assets": [
+        {
+          "id": 763709509,
+          "name": "pulsia-remote-web-connector.zip",
+          "state": "uploaded",
+          "size": 10577,
+          "digest": "sha256:6fcce5414d04e4da553b27c0ed57589536627dd5e56ba811f54b627146fb9979",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.web-connector%400.1.102/pulsia-remote-web-connector.zip",
+          "created_at": "2026-11-18T14:29:01Z",
+          "updated_at": "2026-11-18T14:29:01Z"
+        },
+        {
+          "id": 763709504,
+          "name": "pulsia-remote-web-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:c2e3639d85cf22f4c228408ee9a7065ae3be93946098c9344479e9110aeda0d1",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.web-connector%400.1.102/pulsia-remote-web-connector.zip.sha256",
+          "created_at": "2026-11-18T14:29:01Z",
+          "updated_at": "2026-11-18T14:29:01Z"
         }
       ]
     },
