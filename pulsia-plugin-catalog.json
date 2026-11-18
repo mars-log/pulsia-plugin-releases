@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-18T14:46:02.000Z",
+  "generatedAt": "2026-11-18T15:09:45.000Z",
   "releases": [
     {
       "id": 450124982,
@@ -102,6 +102,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote%400.1.101/pulsia-remote-pack.zip.sha256",
           "created_at": "2026-11-18T12:19:02Z",
           "updated_at": "2026-11-18T12:19:02Z"
+        }
+      ]
+    },
+    {
+      "id": 450155194,
+      "tag_name": "com.naver.mars-_-.platform.remote.workbench@0.1.104",
+      "name": "원격 Workbench 0.1.104",
+      "body": "# 원격 Workbench 0.1.104\n\n접속이 허용된 PC와 프로젝트를 골라 별도의 원격 작업창에서 엽니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 0.1.104 · 2026-11-19\n\n- 원격 PC 목록을 표시하고 호스트를 켜면 자동으로 갱신함. PC 행을 누르면 프로젝트 선택창을 열고 바로 조회함.\n- 프로젝트 선택 칸에 로딩 표시를 붙이고, 표시 이름 입력과 원격 세션 영역을 줄임. 새로고침은 PC 목록 카드 안에 배치하고 공용 아이콘을 사용함.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.remote.workbench\",\"version\":\"0.1.104\",\"title\":\"원격 Workbench\",\"description\":\"접속이 허용된 PC와 프로젝트를 골라 별도의 원격 작업창에서 엽니다.\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.remote.runtime\",\"version\":\"^0.1.103\",\"reason\":\"접속할 PC와 프로젝트를 확인하고 원격 세션을 엽니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.remote.workbench\",\"dependencies\":[]},\"information\":null,\"icon\":\"monitor\",\"changelog\":\"## 0.1.104 · 2026-11-19\\n\\n- 원격 PC 목록을 표시하고 호스트를 켜면 자동으로 갱신함. PC 행을 누르면 프로젝트 선택창을 열고 바로 조회함.\\n- 프로젝트 선택 칸에 로딩 표시를 붙이고, 표시 이름 입력과 원격 세션 영역을 줄임. 새로고침은 PC 목록 카드 안에 배치하고 공용 아이콘을 사용함.\\n\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.platform.remote.workbench\",\"version\":\"0.1.104\",\"displayName\":\"원격 Workbench\",\"description\":\"접속이 허용된 PC와 프로젝트를 골라 별도의 원격 작업창에서 엽니다.\",\"kind\":\"frontend\",\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"hostRequirements\":{\"plugins.serviceModules\":\"^1.0.0\",\"plugins.serviceModuleActions\":\"^1.0.0\",\"workbench.dialogTemplates\":\"^1.0.0\"},\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2}},\"activationEvents\":[\"onView:remote.workbench.connections\",\"onView:remote.workbench.connection-picker\"],\"entrypoints\":{\"frontend\":\"frontend/main.js\"},\"permissions\":{\"capabilities\":[{\"id\":\"ui.workbench\",\"version\":1,\"grants\":{\"allowed\":true}},{\"id\":\"ui.notification\",\"version\":1,\"grants\":{\"allowed\":true}}]},\"actions\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.remote.runtime\",\"version\":\"^0.1.103\",\"reason\":\"접속할 PC와 프로젝트를 확인하고 원격 세션을 엽니다.\"}]},\"contributes\":{\"views\":[{\"id\":\"remote.workbench.connections\",\"title\":\"원격 연결\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\"},{\"id\":\"remote.workbench.connection-picker\",\"title\":\"원격 프로젝트 연결\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"dialog\":{\"category\":\"selection\",\"size\":{\"width\":500,\"height\":350,\"minWidth\":340,\"minHeight\":300}}}],\"primaryMenus\":[{\"id\":\"remote.workbench\",\"label\":\"원격 Workbench\",\"icon\":\"monitor\",\"order\":310}],\"subMenus\":[{\"id\":\"remote.workbench.manage\",\"primaryMenuId\":\"remote.workbench\",\"viewId\":\"remote.workbench.connections\",\"label\":\"원격 연결\",\"icon\":\"monitor\",\"order\":10}],\"extensions\":[{\"point\":\"ui.command\",\"version\":1,\"id\":\"remote.workbench.connect\",\"data\":{\"id\":\"remote.workbench.connect\",\"title\":\"원격 프로젝트 연결\",\"viewId\":\"remote.workbench.connection-picker\",\"presentation\":\"modal\"}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"remote.workbench.agent\",\"data\":{\"id\":\"remote-workbench\",\"title\":\"Pulsia 원격 Workbench\",\"description\":\"원격 연결 화면에서 대상 PC·프로젝트와 세션 상태를 확인합니다.\",\"path\":\"agent/skills/remote-workbench/SKILL.md\"}}]},\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-remote-workbench.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.remote.workbench%400.1.104",
+      "published_at": "2026-11-18T15:09:45Z",
+      "created_at": "2026-11-18T14:46:10Z",
+      "updated_at": "2026-11-18T15:09:45Z",
+      "assets": [
+        {
+          "id": 763848810,
+          "name": "pulsia-remote-workbench.zip",
+          "state": "uploaded",
+          "size": 18433,
+          "digest": "sha256:0e99777cdb05623b146ff5d925c6e58fda9ed34482a4bbbf24f0c61b7ecfd740",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.104/pulsia-remote-workbench.zip",
+          "created_at": "2026-11-18T15:09:44Z",
+          "updated_at": "2026-11-18T15:09:44Z"
+        },
+        {
+          "id": 763848809,
+          "name": "pulsia-remote-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 94,
+          "digest": "sha256:7afb51ec475df810a120f9176e229d4fb872f2d631c6bbee317cbfa86feaa5fd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.104/pulsia-remote-workbench.zip.sha256",
+          "created_at": "2026-11-18T15:09:44Z",
+          "updated_at": "2026-11-18T15:09:44Z"
         }
       ]
     },
