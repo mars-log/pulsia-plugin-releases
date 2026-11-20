@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-20T06:17:13.000Z",
+  "generatedAt": "2026-11-20T07:26:15.000Z",
   "releases": [
     {
       "id": 452175786,
@@ -510,6 +510,74 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.design.ui-studio%400.0.114/pulsia-ui-studio.zip.sha256",
           "created_at": "2026-11-20T06:14:15Z",
           "updated_at": "2026-11-20T06:14:15Z"
+        }
+      ]
+    },
+    {
+      "id": 452385750,
+      "tag_name": "com.naver.mars-_-.acp.ai-chat.workbench@1.1.128",
+      "name": "ACP Workbench 1.1.128",
+      "body": "# ACP Workbench 1.1.128\n\n작업실에서 AI와 대화합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.acp.ai-chat.workbench\",\"version\":\"1.1.128\",\"title\":\"ACP Workbench\",\"description\":\"작업실에서 AI와 대화합니다.\",\"kind\":\"frontend\",\"tags\":[\"ACP\",\"Agent\",\"오른쪽 패널\",\"Workbench\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.138\",\"reason\":\"AI 대화 화면과 Agent 실행을 제공함\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.workbench\",\"dependencies\":[]},\"information\":{\"schemaVersion\":1,\"icon\":\"\",\"publisher\":\"\",\"categories\":[],\"features\":[],\"discovery\":{\"areas\":[\"ai\"],\"tasks\":[{\"id\":\"ai.chat\",\"label\":\"AI와 대화하기\",\"area\":\"ai\"},{\"id\":\"ai.automate\",\"label\":\"AI에게 작업 맡기기\",\"area\":\"ai\"}],\"summary\":\"AI와 대화하고 프로젝트 작업을 요청합니다.\",\"role\":\"product\"}},\"icon\":null,\"changelog\":\"\",\"manifest\":{\"id\":\"com.naver.mars-_-.acp.ai-chat.workbench\",\"version\":\"1.1.128\",\"kind\":\"frontend\",\"tags\":[\"ACP\",\"Agent\",\"오른쪽 패널\",\"Workbench\"],\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"dependencyPreparation\":{\"mode\":\"managed\",\"sourceId\":\"npm-public\",\"allowNative\":false},\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2}},\"activationEvents\":[\"onStartup\",\"onView:pulsia.acp-workbench.view\"],\"entrypoints\":{\"frontend\":\"frontend/main.js\"},\"permissions\":{\"networkHosts\":[],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"userData\":[\"read\",\"write\"],\"fileSelection\":[],\"fileHandles\":[],\"projectPaths\":[]},\"actions\":[],\"contributes\":{\"views\":[{\"id\":\"pulsia.acp-workbench.view\",\"title\":\"Agent\",\"kind\":\"panel\",\"layoutProfile\":\"compact-panel\"}],\"primaryMenus\":[],\"subMenus\":[],\"menus\":[],\"routes\":[],\"extensions\":[{\"point\":\"ui.rightPanel\",\"version\":1,\"id\":\"pulsia.acp-workbench.panel\",\"data\":{\"id\":\"pulsia.acp-workbench.panel\",\"title\":\"Agent\",\"icon\":\"sparkles\",\"viewId\":\"pulsia.acp-workbench.view\",\"defaultWidth\":440,\"minimumWidth\":320,\"maximumWidth\":1200,\"toggleCommandId\":\"pulsia.acp.togglePanel\"}},{\"point\":\"acp.workbenchProvider\",\"version\":1,\"id\":\"pulsia.acp-workbench.default\",\"data\":{\"id\":\"pulsia.acp-workbench.default\",\"label\":\"Pulsia Agent\",\"description\":\"Pulsia에 기본 포함된 ACP Agent 작업 화면입니다.\",\"rightPanelId\":\"pulsia.acp-workbench.panel\",\"viewId\":\"pulsia.acp-workbench.view\",\"order\":10}},{\"point\":\"ui.settingsGroup\",\"version\":1,\"id\":\"pulsia.acp.settings\",\"data\":{\"id\":\"agent\",\"title\":\"AI Agent\",\"description\":\"ACP Agent 패널과 권한 확인 방식을 설정합니다.\",\"parentId\":\"core.application\",\"order\":30}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"pulsia.acp-workbench.agent-skill\",\"data\":{\"id\":\"acp-workbench\",\"title\":\"ACP Workbench 사용·복구\",\"description\":\"오른쪽 Agent Panel의 대화 사용과 공용 알림을 통한 초기 준비 실패 복구를 설명합니다.\",\"path\":\"agent/skills/acp-workbench/SKILL.md\"}}]},\"databaseImpacts\":[],\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-plugin-acp-workbench.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}},\"hostRequirements\":{\"plugins.frontendModules\":\"^1.0.0\"},\"moduleRequirements\":[{\"providerId\":\"pulsia.acp-common\",\"moduleId\":\"acp.surface\",\"apiRange\":\"^1.0.0\",\"features\":[\"composer\",\"streaming\",\"attachments\"]}],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.138\",\"reason\":\"AI 대화 화면과 Agent 실행을 제공함\"}]}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.acp.ai-chat.workbench%401.1.128",
+      "published_at": "2026-11-20T07:26:15Z",
+      "created_at": "2026-11-20T06:17:26Z",
+      "updated_at": "2026-11-20T07:26:15Z",
+      "assets": [
+        {
+          "id": 770881762,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 19442,
+          "digest": "sha256:0706ced4cd950a954fca3941923c6a3afb6aee45a2260c995f0f80813524e43e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.workbench%401.1.128/pulsia-plugin-acp-workbench.zip",
+          "created_at": "2026-11-20T07:26:14Z",
+          "updated_at": "2026-11-20T07:26:14Z"
+        },
+        {
+          "id": 770881757,
+          "name": "pulsia-plugin-acp-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:677e8c8f22a583a2bb9133678b3c278a172447cf4bd896688ffb479e131dcdf0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.workbench%401.1.128/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-11-20T07:26:14Z",
+          "updated_at": "2026-11-20T07:26:14Z"
+        }
+      ]
+    },
+    {
+      "id": 452385752,
+      "tag_name": "com.naver.mars-_-.acp.ai-chat.mini-acp@1.0.132",
+      "name": "Mini ACP 1.0.132",
+      "body": "# Mini ACP 1.0.132\n\n사이드 패널에서 AI 도우미를 사용합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"1.0.132\",\"title\":\"Mini ACP\",\"description\":\"사이드 패널에서 AI 도우미를 사용합니다.\",\"kind\":\"frontend\",\"tags\":[\"ACP\",\"Agent\",\"좌측 패널\",\"공용 UI\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.127\",\"reason\":\"AI 대화 화면과 Agent 실행을 제공함\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"dependencies\":[]},\"information\":{\"schemaVersion\":1,\"icon\":\"\",\"publisher\":\"\",\"categories\":[],\"features\":[],\"discovery\":{\"areas\":[\"ai\"],\"tasks\":[{\"id\":\"ai.chat\",\"label\":\"AI와 대화하기\",\"area\":\"ai\"},{\"id\":\"ai.automate\",\"label\":\"AI에게 작업 맡기기\",\"area\":\"ai\"}],\"summary\":\"각 작업 화면에서 현재 대상을 AI에게 요청하는 도우미를 제공합니다.\",\"role\":\"supporting\"}},\"icon\":null,\"changelog\":\"\",\"manifest\":{\"id\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"1.0.132\",\"kind\":\"frontend\",\"tags\":[\"ACP\",\"Agent\",\"좌측 패널\",\"공용 UI\"],\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2}},\"activationEvents\":[\"onStartup\",\"onView:pulsia.mini-acp.companion-view\"],\"entrypoints\":{\"frontend\":\"frontend/main.js\"},\"permissions\":{\"networkHosts\":[],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"userData\":[\"read\",\"write\"],\"fileSelection\":[],\"fileHandles\":[],\"projectPaths\":[]},\"actions\":[],\"contributes\":{\"views\":[{\"id\":\"pulsia.mini-acp.companion-view\",\"title\":\"Mini ACP\",\"kind\":\"panel\",\"layoutProfile\":\"compact-panel\"}],\"primaryMenus\":[],\"subMenus\":[],\"menus\":[],\"routes\":[],\"extensions\":[{\"point\":\"acp.embeddedSurface\",\"version\":1,\"id\":\"pulsia.mini-acp.embedded-surface\",\"data\":{\"id\":\"pulsia.mini-acp.embedded-surface\",\"viewId\":\"pulsia.mini-acp.companion-view\",\"description\":\"대메뉴별 도우미에서 공용 ACP 작업 화면을 제공합니다.\"}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"pulsia.mini-acp.plugin-authoring\",\"data\":{\"id\":\"mini-acp-plugin-authoring\",\"title\":\"Mini ACP 플러그인 유지보수\",\"description\":\"Mini ACP 자체 기능, 상태 소유권, 소비 화면 연결과 검증 방법을 설명합니다.\",\"path\":\"agent/skills/plugin-authoring/SKILL.md\"}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"pulsia.mini-acp.consumer-integration\",\"data\":{\"id\":\"mini-acp-consumer-integration\",\"title\":\"Mini ACP 소비 플러그인 연결\",\"description\":\"새 플러그인이 Mini ACP를 설정하고 문서·MCP 도구 중심으로 Agent 작업을 구성하는 방법을 설명합니다.\",\"path\":\"agent/skills/consumer-integration/SKILL.md\"}}]},\"databaseImpacts\":[],\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-plugin-mini-acp.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}},\"hostRequirements\":{\"plugins.frontendModules\":\"^1.0.0\"},\"moduleRequirements\":[{\"providerId\":\"pulsia.acp-common\",\"moduleId\":\"acp.surface\",\"apiRange\":\"^1.0.0\",\"features\":[\"composer\",\"streaming\",\"attachments\",\"workspace-selection\"]}],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.127\",\"reason\":\"AI 대화 화면과 Agent 실행을 제공함\"}]}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.132",
+      "published_at": "2026-11-20T07:26:15Z",
+      "created_at": "2026-11-20T06:17:26Z",
+      "updated_at": "2026-11-20T07:26:15Z",
+      "assets": [
+        {
+          "id": 770881755,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 35102,
+          "digest": "sha256:db124b08effe794511529d66c1a9a19a92821d08fe491343b13dc4de249f78bd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.132/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-11-20T07:26:14Z",
+          "updated_at": "2026-11-20T07:26:14Z"
+        },
+        {
+          "id": 770881756,
+          "name": "pulsia-plugin-mini-acp.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:5c1b13c6b48ad15054416ec323ee278560276fbeb84cc0fec07611b0c37a005d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.132/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-11-20T07:26:14Z",
+          "updated_at": "2026-11-20T07:26:14Z"
         }
       ]
     },
