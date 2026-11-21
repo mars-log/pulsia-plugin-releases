@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-21T06:27:24.000Z",
+  "generatedAt": "2026-11-21T09:56:11.000Z",
   "releases": [
     {
       "id": 453490577,
@@ -102,6 +102,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.150/pulsia-acp-common.zip.sha256",
           "created_at": "2026-11-21T06:27:14Z",
           "updated_at": "2026-11-21T06:27:14Z"
+        }
+      ]
+    },
+    {
+      "id": 453592619,
+      "tag_name": "com.naver.mars-_-.acp.ai-chat.mini-acp@1.0.134",
+      "name": "Mini ACP 1.0.134",
+      "body": "# Mini ACP 1.0.134\n\n사이드 패널에서 AI 도우미를 사용합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 1.0.134 · 도킹 오른쪽 선 정리\n\n도킹된 도우미의 오른쪽 선을 제거하여 본문 곡선 옆에 직선이 이어지지 않도록 했습니다. 분리한 도우미의 테마 외곽선은 유지합니다.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"1.0.134\",\"title\":\"Mini ACP\",\"description\":\"사이드 패널에서 AI 도우미를 사용합니다.\",\"kind\":\"frontend\",\"tags\":[\"ACP\",\"Agent\",\"좌측 패널\",\"공용 UI\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.127\",\"reason\":\"AI 대화 화면과 Agent 실행을 제공함\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"dependencies\":[]},\"information\":{\"schemaVersion\":1,\"icon\":\"\",\"publisher\":\"\",\"categories\":[],\"features\":[],\"discovery\":{\"areas\":[\"ai\"],\"tasks\":[{\"id\":\"ai.chat\",\"label\":\"AI와 대화하기\",\"area\":\"ai\"},{\"id\":\"ai.automate\",\"label\":\"AI에게 작업 맡기기\",\"area\":\"ai\"}],\"summary\":\"각 작업 화면에서 현재 대상을 AI에게 요청하는 도우미를 제공합니다.\",\"role\":\"supporting\"}},\"icon\":null,\"changelog\":\"## 1.0.134 · 도킹 오른쪽 선 정리\\n\\n도킹된 도우미의 오른쪽 선을 제거하여 본문 곡선 옆에 직선이 이어지지 않도록 했습니다. 분리한 도우미의 테마 외곽선은 유지합니다.\\n\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"1.0.134\",\"kind\":\"frontend\",\"tags\":[\"ACP\",\"Agent\",\"좌측 패널\",\"공용 UI\"],\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2}},\"activationEvents\":[\"onStartup\",\"onView:pulsia.mini-acp.companion-view\"],\"entrypoints\":{\"frontend\":\"frontend/main.js\"},\"permissions\":{\"networkHosts\":[],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"userData\":[\"read\",\"write\"],\"fileSelection\":[],\"fileHandles\":[],\"projectPaths\":[]},\"actions\":[],\"contributes\":{\"views\":[{\"id\":\"pulsia.mini-acp.companion-view\",\"title\":\"Mini ACP\",\"kind\":\"panel\",\"layoutProfile\":\"compact-panel\"}],\"primaryMenus\":[],\"subMenus\":[],\"menus\":[],\"routes\":[],\"extensions\":[{\"point\":\"acp.embeddedSurface\",\"version\":1,\"id\":\"pulsia.mini-acp.embedded-surface\",\"data\":{\"id\":\"pulsia.mini-acp.embedded-surface\",\"viewId\":\"pulsia.mini-acp.companion-view\",\"description\":\"대메뉴별 도우미에서 공용 ACP 작업 화면을 제공합니다.\"}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"pulsia.mini-acp.plugin-authoring\",\"data\":{\"id\":\"mini-acp-plugin-authoring\",\"title\":\"Mini ACP 플러그인 유지보수\",\"description\":\"Mini ACP 자체 기능, 상태 소유권, 소비 화면 연결과 검증 방법을 설명합니다.\",\"path\":\"agent/skills/plugin-authoring/SKILL.md\"}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"pulsia.mini-acp.consumer-integration\",\"data\":{\"id\":\"mini-acp-consumer-integration\",\"title\":\"Mini ACP 소비 플러그인 연결\",\"description\":\"새 플러그인이 Mini ACP를 설정하고 문서·MCP 도구 중심으로 Agent 작업을 구성하는 방법을 설명합니다.\",\"path\":\"agent/skills/consumer-integration/SKILL.md\"}}]},\"databaseImpacts\":[],\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-plugin-mini-acp.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}},\"hostRequirements\":{\"plugins.frontendModules\":\"^1.0.0\"},\"moduleRequirements\":[{\"providerId\":\"pulsia.acp-common\",\"moduleId\":\"acp.surface\",\"apiRange\":\"^1.0.0\",\"features\":[\"composer\",\"streaming\",\"attachments\",\"workspace-selection\"]}],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.127\",\"reason\":\"AI 대화 화면과 Agent 실행을 제공함\"}]}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.134",
+      "published_at": "2026-11-21T09:56:11Z",
+      "created_at": "2026-11-21T06:27:30Z",
+      "updated_at": "2026-11-21T09:56:11Z",
+      "assets": [
+        {
+          "id": 775124916,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 36290,
+          "digest": "sha256:dbffb7fdc8fee3abfe86c355f84b161f7aff957156894855993a892ca1bb0bec",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.134/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-11-21T09:56:10Z",
+          "updated_at": "2026-11-21T09:56:10Z"
+        },
+        {
+          "id": 775124906,
+          "name": "pulsia-plugin-mini-acp.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:9399f98d7796ecd0dc1e83deaf7c9d12f80fefdc23b56caa327ab8a508f14bf4",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.134/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-11-21T09:56:09Z",
+          "updated_at": "2026-11-21T09:56:10Z"
         }
       ]
     },
