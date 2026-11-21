@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-21T13:08:43.000Z",
+  "generatedAt": "2026-11-21T13:08:53.000Z",
   "releases": [
     {
       "id": 453698582,
@@ -118,22 +118,22 @@
       "updated_at": "2026-11-21T11:23:47Z",
       "assets": [
         {
-          "id": 775344466,
-          "name": "pulsia-remote-workbench.zip",
-          "state": "uploaded",
-          "size": 28553,
-          "digest": "sha256:4428becfe5467695754bc4898ee7541f24e8c1a15da212456de557549f85eb68",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.110/pulsia-remote-workbench.zip",
-          "created_at": "2026-11-21T11:23:46Z",
-          "updated_at": "2026-11-21T11:23:47Z"
-        },
-        {
           "id": 775344465,
           "name": "pulsia-remote-workbench.zip.sha256",
           "state": "uploaded",
           "size": 94,
           "digest": "sha256:0ed626f0d9abcb94ae0ecd50859b1ef7c7f5181dad17514efd75c5a8ba462346",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.110/pulsia-remote-workbench.zip.sha256",
+          "created_at": "2026-11-21T11:23:46Z",
+          "updated_at": "2026-11-21T11:23:47Z"
+        },
+        {
+          "id": 775344466,
+          "name": "pulsia-remote-workbench.zip",
+          "state": "uploaded",
+          "size": 28553,
+          "digest": "sha256:4428becfe5467695754bc4898ee7541f24e8c1a15da212456de557549f85eb68",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.110/pulsia-remote-workbench.zip",
           "created_at": "2026-11-21T11:23:46Z",
           "updated_at": "2026-11-21T11:23:47Z"
         }
@@ -174,6 +174,40 @@
       ]
     },
     {
+      "id": 453698671,
+      "tag_name": "com.naver.mars-_-.platform.remote.web-connector@0.1.104",
+      "name": "Pulsia 원격 Web 커넥터 0.1.104",
+      "body": "# Pulsia 원격 Web 커넥터 0.1.104\n\nPulsia 계정을 확인하고 등록된 장치 간 원격 연결을 중계 서버에 연결합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 0.1.104 · 원격 Plugin 기능 지원 확인\n\n- 원격 서버가 지원하는 기능을 확인하고 원격 런타임에 전달합니다. 이전 서버의 기본 연결은 유지합니다.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.remote.web-connector\",\"version\":\"0.1.104\",\"title\":\"Pulsia 원격 Web 커넥터\",\"description\":\"Pulsia 계정을 확인하고 등록된 장치 간 원격 연결을 중계 서버에 연결합니다.\",\"kind\":\"backend\",\"tags\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.account.login\",\"version\":\"^0.1.106\",\"reason\":\"Pulsia 계정에서 원격 중계 연결을 인증합니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.remote.web-connector\",\"dependencies\":[]},\"information\":null,\"icon\":null,\"changelog\":\"## 0.1.104 · 원격 Plugin 기능 지원 확인\\n\\n- 원격 서버가 지원하는 기능을 확인하고 원격 런타임에 전달합니다. 이전 서버의 기본 연결은 유지합니다.\\n\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.platform.remote.web-connector\",\"version\":\"0.1.104\",\"displayName\":\"Pulsia 원격 Web 커넥터\",\"description\":\"Pulsia 계정을 확인하고 등록된 장치 간 원격 연결을 중계 서버에 연결합니다.\",\"kind\":\"backend\",\"pluginApiVersion\":1,\"executionGrade\":\"full-access\",\"localSystemAccess\":{\"reason\":\"Pulsia 계정을 확인하고 등록된 장치 간 원격 연결을 중계 서버에 연결합니다.\",\"plannedUses\":[\"network\"],\"dependencyMode\":\"none\"},\"hostRequirements\":{\"plugins.backgroundContext\":\"^1.0.0\",\"plugins.linkedCallers\":\"^1.0.0\"},\"runtimes\":{\"backend\":{\"kind\":\"node-extension-host\",\"hostApiVersion\":2}},\"activationEvents\":[\"onStartup\"],\"entrypoints\":{\"backend\":\"backend/index.js\"},\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-remote-web-connector.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}},\"permissions\":{\"networkHosts\":[\"https://pulsia-relay.149.118.56.103.sslip.io\"],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"projectPaths\":[],\"capabilities\":[{\"id\":\"plugins.linkedActions\",\"version\":1,\"grants\":{\"allowed\":true,\"targets\":[{\"pluginId\":\"com.naver.mars-_-.platform.account.login\",\"actions\":[\"getRelayCredential\",\"ensureRelayCredential\",\"peekRelayCredential\",\"startRelaySignIn\"]}]}}]},\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.account.login\",\"version\":\"^0.1.106\",\"reason\":\"Pulsia 계정에서 원격 중계 연결을 인증합니다.\"}]},\"actions\":[{\"id\":\"relayListDevices\",\"version\":1,\"access\":\"read\",\"exposure\":\"plugin\",\"linkedCallers\":[\"com.naver.mars-_-.platform.remote.runtime\"],\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{}},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"devices\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"deviceId\":{\"type\":\"string\"},\"label\":{\"type\":\"string\"},\"publicKey\":{\"type\":\"string\"},\"hostEnabled\":{\"type\":\"boolean\"},\"sessions\":{\"type\":\"object\",\"properties\":{\"active\":{\"type\":\"integer\",\"minimum\":0},\"maximum\":{\"type\":\"integer\",\"minimum\":1},\"available\":{\"type\":\"integer\",\"minimum\":0}},\"required\":[\"active\",\"maximum\",\"available\"],\"additionalProperties\":false}},\"required\":[\"deviceId\",\"label\",\"publicKey\",\"hostEnabled\"],\"additionalProperties\":false}}},\"required\":[\"devices\"],\"additionalProperties\":false}},{\"id\":\"relayOpen\",\"version\":1,\"access\":\"write\",\"exposure\":\"plugin\",\"linkedCallers\":[\"com.naver.mars-_-.platform.remote.runtime\"],\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"deviceId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":180},\"publicKey\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":180},\"label\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":180},\"hostEnabled\":{\"type\":\"boolean\"},\"refresh\":{\"type\":\"boolean\"},\"expectedAccountBinding\":{\"type\":\"string\",\"pattern\":\"^[A-Za-z0-9_-]{43}$\"}},\"required\":[\"deviceId\",\"publicKey\",\"label\",\"hostEnabled\"]},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"connectionId\":{\"type\":\"string\"},\"nonce\":{\"type\":\"string\"},\"accountBinding\":{\"type\":\"string\",\"pattern\":\"^[A-Za-z0-9_-]{43}$\"}},\"required\":[\"connectionId\",\"nonce\"],\"additionalProperties\":false}},{\"id\":\"relayRegister\",\"version\":1,\"access\":\"write\",\"exposure\":\"plugin\",\"linkedCallers\":[\"com.naver.mars-_-.platform.remote.runtime\"],\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"connectionId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":180},\"signature\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":180}},\"required\":[\"connectionId\",\"signature\"]},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"deviceId\":{\"type\":\"string\"},\"supportedScopes\":{\"type\":\"array\",\"maxItems\":32,\"uniqueItems\":true,\"items\":{\"type\":\"string\",\"pattern\":\"^[a-z]+:[a-z]+$\"}}},\"required\":[\"deviceId\"],\"additionalProperties\":false}},{\"id\":\"relaySend\",\"version\":1,\"access\":\"write\",\"exposure\":\"plugin\",\"linkedCallers\":[\"com.naver.mars-_-.platform.remote.runtime\"],\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"connectionId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":180},\"message\":{\"type\":\"object\"}},\"required\":[\"connectionId\",\"message\"]},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"sent\":{\"type\":\"boolean\"}},\"required\":[\"sent\"],\"additionalProperties\":false}},{\"id\":\"relayRead\",\"version\":1,\"access\":\"read\",\"exposure\":\"plugin\",\"linkedCallers\":[\"com.naver.mars-_-.platform.remote.runtime\"],\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"connectionId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":180}},\"required\":[\"connectionId\"]},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"frames\":{\"type\":\"array\",\"items\":{\"type\":\"object\"}},\"closed\":{\"type\":\"boolean\"},\"code\":{\"type\":\"string\",\"maxLength\":80},\"retryable\":{\"type\":\"boolean\"}},\"required\":[\"frames\",\"closed\"],\"additionalProperties\":false}},{\"id\":\"relayClose\",\"version\":1,\"access\":\"write\",\"exposure\":\"plugin\",\"linkedCallers\":[\"com.naver.mars-_-.platform.remote.runtime\"],\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"connectionId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":180}},\"required\":[\"connectionId\"]},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"closed\":{\"type\":\"boolean\"}},\"required\":[\"closed\"],\"additionalProperties\":false}},{\"id\":\"startRelaySignIn\",\"version\":1,\"access\":\"write\",\"exposure\":\"plugin\",\"linkedCallers\":[\"com.naver.mars-_-.platform.remote.runtime\"],\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{}},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"status\":{\"type\":\"string\"}},\"required\":[\"status\"],\"additionalProperties\":false}}],\"contributes\":{}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.remote.web-connector%400.1.104",
+      "published_at": "2026-11-21T13:08:53Z",
+      "created_at": "2026-11-21T12:34:39Z",
+      "updated_at": "2026-11-21T13:08:53Z",
+      "assets": [
+        {
+          "id": 775621299,
+          "name": "pulsia-remote-web-connector.zip.sha256",
+          "state": "uploaded",
+          "size": 98,
+          "digest": "sha256:87a88f3d472f8aba30e8b43aa0c9aad540bfda460cccfe6712e5c2f4481fce9e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.web-connector%400.1.104/pulsia-remote-web-connector.zip.sha256",
+          "created_at": "2026-11-21T13:08:52Z",
+          "updated_at": "2026-11-21T13:08:52Z"
+        },
+        {
+          "id": 775621300,
+          "name": "pulsia-remote-web-connector.zip",
+          "state": "uploaded",
+          "size": 11427,
+          "digest": "sha256:2eaf28e7381250f3a5ecc472e9f93af3e55682140c5a42e5892be9d700905208",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.web-connector%400.1.104/pulsia-remote-web-connector.zip",
+          "created_at": "2026-11-21T13:08:52Z",
+          "updated_at": "2026-11-21T13:08:52Z"
+        }
+      ]
+    },
+    {
       "id": 453643537,
       "tag_name": "com.naver.mars-_-.platform.remote.runtime@0.1.110",
       "name": "Pulsia 원격 런타임 0.1.110",
@@ -186,22 +220,22 @@
       "updated_at": "2026-11-21T11:30:24Z",
       "assets": [
         {
-          "id": 775361032,
-          "name": "pulsia-remote-runtime.zip",
-          "state": "uploaded",
-          "size": 42507,
-          "digest": "sha256:9e8a595e2f7c6c871449b8a14ee63684ca10ef87d07b232fa5200276190f92f9",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.110/pulsia-remote-runtime.zip",
-          "created_at": "2026-11-21T11:30:23Z",
-          "updated_at": "2026-11-21T11:30:23Z"
-        },
-        {
           "id": 775361008,
           "name": "pulsia-remote-runtime.zip.sha256",
           "state": "uploaded",
           "size": 92,
           "digest": "sha256:78058a01fed090bf810f30d01af994a08721831412009b99c3c90122e2942379",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.110/pulsia-remote-runtime.zip.sha256",
+          "created_at": "2026-11-21T11:30:23Z",
+          "updated_at": "2026-11-21T11:30:23Z"
+        },
+        {
+          "id": 775361032,
+          "name": "pulsia-remote-runtime.zip",
+          "state": "uploaded",
+          "size": 42507,
+          "digest": "sha256:9e8a595e2f7c6c871449b8a14ee63684ca10ef87d07b232fa5200276190f92f9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.110/pulsia-remote-runtime.zip",
           "created_at": "2026-11-21T11:30:23Z",
           "updated_at": "2026-11-21T11:30:23Z"
         }
@@ -220,16 +254,6 @@
       "updated_at": "2026-11-21T04:51:34Z",
       "assets": [
         {
-          "id": 774462203,
-          "name": "pulsia-welcome.zip",
-          "state": "uploaded",
-          "size": 42831,
-          "digest": "sha256:e7a42932bb26f64e36206ade90b997657aa05fa3792f605cefd0bdf4e2838a13",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.welcome%400.1.104/pulsia-welcome.zip",
-          "created_at": "2026-11-21T04:51:33Z",
-          "updated_at": "2026-11-21T04:51:33Z"
-        },
-        {
           "id": 774462198,
           "name": "pulsia-welcome.zip.sha256",
           "state": "uploaded",
@@ -238,6 +262,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.welcome%400.1.104/pulsia-welcome.zip.sha256",
           "created_at": "2026-11-21T04:51:32Z",
           "updated_at": "2026-11-21T04:51:32Z"
+        },
+        {
+          "id": 774462203,
+          "name": "pulsia-welcome.zip",
+          "state": "uploaded",
+          "size": 42831,
+          "digest": "sha256:e7a42932bb26f64e36206ade90b997657aa05fa3792f605cefd0bdf4e2838a13",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.welcome%400.1.104/pulsia-welcome.zip",
+          "created_at": "2026-11-21T04:51:33Z",
+          "updated_at": "2026-11-21T04:51:33Z"
         }
       ]
     },
@@ -254,16 +288,6 @@
       "updated_at": "2026-11-21T12:34:26Z",
       "assets": [
         {
-          "id": 775529856,
-          "name": "pulsia-acp-common.zip",
-          "state": "uploaded",
-          "size": 1764353,
-          "digest": "sha256:fa2573e06767a309d372850b5d389ec11f429c1e7ac11c9a8a47915318fb27f3",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.153/pulsia-acp-common.zip",
-          "created_at": "2026-11-21T12:34:24Z",
-          "updated_at": "2026-11-21T12:34:25Z"
-        },
-        {
           "id": 775529855,
           "name": "pulsia-acp-common.zip.sha256",
           "state": "uploaded",
@@ -272,6 +296,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.153/pulsia-acp-common.zip.sha256",
           "created_at": "2026-11-21T12:34:24Z",
           "updated_at": "2026-11-21T12:34:24Z"
+        },
+        {
+          "id": 775529856,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 1764353,
+          "digest": "sha256:fa2573e06767a309d372850b5d389ec11f429c1e7ac11c9a8a47915318fb27f3",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.153/pulsia-acp-common.zip",
+          "created_at": "2026-11-21T12:34:24Z",
+          "updated_at": "2026-11-21T12:34:25Z"
         }
       ]
     },
@@ -288,16 +322,6 @@
       "updated_at": "2026-11-21T11:20:33Z",
       "assets": [
         {
-          "id": 775335386,
-          "name": "pulsia-acp-common.zip",
-          "state": "uploaded",
-          "size": 1764250,
-          "digest": "sha256:d55a8c310e4eabc97e44f7d6c6faeb4b9b09fe1eb795d99b30c29a09a3936511",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.152/pulsia-acp-common.zip",
-          "created_at": "2026-11-21T11:20:10Z",
-          "updated_at": "2026-11-21T11:20:12Z"
-        },
-        {
           "id": 775335385,
           "name": "pulsia-acp-common.zip.sha256",
           "state": "uploaded",
@@ -306,6 +330,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.152/pulsia-acp-common.zip.sha256",
           "created_at": "2026-11-21T11:20:10Z",
           "updated_at": "2026-11-21T11:20:11Z"
+        },
+        {
+          "id": 775335386,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 1764250,
+          "digest": "sha256:d55a8c310e4eabc97e44f7d6c6faeb4b9b09fe1eb795d99b30c29a09a3936511",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.152/pulsia-acp-common.zip",
+          "created_at": "2026-11-21T11:20:10Z",
+          "updated_at": "2026-11-21T11:20:12Z"
         }
       ]
     },
@@ -378,6 +412,40 @@
       ]
     },
     {
+      "id": 453698636,
+      "tag_name": "com.naver.mars-_-.design.ui-studio@0.0.115",
+      "name": "UI Studio 0.0.115",
+      "body": "# UI 제작실 0.0.115\n\n디자인 컨셉을 검토하고 실제 UI 시안을 함께 제작합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 0.0.115 - 2026-11-21\n\n- 원격으로 연결한 Pulsia 창에서도 UI 제작실의 화면 제작과 HTML 저장이 연결한 호스트 프로젝트에서 이루어지고, 접속한 PC는 준비 중 상태와 완성된 HTML만 표시함.\n- 응답을 받지 못해 같은 작업 탭으로 다시 연결하면 새 작업을 만들지 않고 같은 작업을 이어서 보여 줌.\n- 접속 PC가 사라져 정리 요청이 오지 않으면 15분 뒤 작업 탭 연결 정보만 회수함. 작업과 HTML, 저장하지 않은 변경은 지우지 않고 같은 작업 번호로 다시 연결할 수 있음.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.design.ui-studio\",\"version\":\"0.0.115\",\"title\":\"UI 제작실\",\"description\":\"디자인 컨셉을 검토하고 실제 UI 시안을 함께 제작합니다.\",\"kind\":\"composite\",\"tags\":[\"UI\",\"미리보기\",\"화면 제작\",\"AI\",\"HTML\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.131\",\"reason\":\"두 제작실에서 같은 왼쪽 AI 대화를 사용합니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.design.ui-studio\",\"dependencies\":[]},\"information\":{\"schemaVersion\":1,\"icon\":\"image-play\",\"publisher\":\"mars-_-\",\"categories\":[\"개발 지원\",\"UI 디자인\"],\"features\":[{\"id\":\"live-previews\",\"label\":\"다중 화면 제작\",\"markdown\":\"생성 중 문구와 완성 화면을 각각 갱신함. 2×2로 시작해 가로 최대 개수에 맞춰 늘리고 개별 확대·공용 팝업으로 확인함.\"},{\"id\":\"workspace-files\",\"label\":\"작업 저장과 복구\",\"markdown\":\"작업 이름과 HTML을 함께 저장하고 다시 불러옴. 삭제와 미저장 이탈을 확인하며 판본 충돌에서는 현재 초안을 보존함.\"},{\"id\":\"agent-access\",\"label\":\"외부·내부 AI 사용\",\"markdown\":\"같은 공개 동작을 Pulsia CLI와 MCP에 제공함. Codex·Claude 등 Agent가 도구를 발견해 화면별 상태·HTML을 게시하며 사용 스킬과 매뉴얼을 포함함.\"},{\"id\":\"design-concepts\",\"label\":\"디자인 컨셉 검토와 저장\",\"markdown\":\"디자인 기준 260개와 컴포넌트를 실제 예시로 검토하며 프로젝트에 컨셉을 저장함.\"}],\"discovery\":{\"areas\":[\"development\",\"ai\"],\"tasks\":[{\"id\":\"development.web\",\"label\":\"웹·앱 개발하기\",\"area\":\"development\"},{\"id\":\"development.plugins\",\"label\":\"플러그인 만들기\",\"area\":\"development\"},{\"id\":\"com.naver.mars-_-.design.ui-studio.preview-ui\",\"label\":\"화면을 만들며 비교하기\",\"area\":\"development\"}],\"summary\":\"AI가 만든 웹 화면·플러그인·모달을 배포 전에 나란히 보고 수정·저장합니다.\",\"role\":\"product\"},\"media\":{\"screenshots\":[\"assets/store/screenshots/ui-studio-workspace.png\"]}},\"icon\":\"image-play\",\"changelog\":\"## 0.0.115 - 2026-11-21\\n\\n- 원격으로 연결한 Pulsia 창에서도 UI 제작실의 화면 제작과 HTML 저장이 연결한 호스트 프로젝트에서 이루어지고, 접속한 PC는 준비 중 상태와 완성된 HTML만 표시함.\\n- 응답을 받지 못해 같은 작업 탭으로 다시 연결하면 새 작업을 만들지 않고 같은 작업을 이어서 보여 줌.\\n- 접속 PC가 사라져 정리 요청이 오지 않으면 15분 뒤 작업 탭 연결 정보만 회수함. 작업과 HTML, 저장하지 않은 변경은 지우지 않고 같은 작업 번호로 다시 연결할 수 있음.\\n\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.design.ui-studio\",\"displayName\":\"UI 제작실\",\"version\":\"0.0.115\",\"kind\":\"composite\",\"description\":\"디자인 컨셉을 검토하고 실제 UI 시안을 함께 제작합니다.\",\"tags\":[\"UI\",\"미리보기\",\"화면 제작\",\"AI\",\"HTML\"],\"pluginApiVersion\":1,\"executionGrade\":\"full-access\",\"localSystemAccess\":{\"reason\":\"생성 중인 HTML의 임시 파일과 사용자가 저장한 UI 작업을 관리합니다.\",\"plannedUses\":[\"files\"],\"dependencyMode\":\"self-contained\"},\"runtimes\":{\"backend\":{\"kind\":\"node-extension-host\",\"hostApiVersion\":1},\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2,\"prebuilt\":true}},\"entrypoints\":{\"backend\":\"backend/main.js\",\"frontend\":\"frontend/plugin.js\"},\"activationEvents\":[\"onStartup\"],\"hostRequirements\":{\"plugins.workspaceActions\":\"^1.0.0\",\"workbench.dialogTemplates\":\"^1.0.0\",\"workbench.sandboxHtmlFrame\":\"^1.0.0\"},\"permissions\":{\"networkHosts\":[],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"projectPaths\":[],\"capabilities\":[{\"id\":\"ui.workbench\",\"version\":1,\"grants\":{\"allowed\":true}},{\"id\":\"ui.notification\",\"version\":1,\"grants\":{\"allowed\":true}}]},\"actions\":[{\"id\":\"describe\",\"version\":1,\"title\":\"UI 제작실 사용 가능 기능\",\"description\":\"현재 프로젝트에서 사용할 수 있는 기능과 버전을 조회합니다.\",\"access\":\"read\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"}},\"required\":[]},\"outputSchema\":{\"type\":\"object\",\"required\":[\"status\",\"pluginId\",\"version\",\"supports\",\"instructions\"],\"additionalProperties\":false,\"properties\":{\"status\":{\"const\":\"completed\"},\"pluginId\":{\"const\":\"com.naver.mars-_-.design.ui-studio\"},\"version\":{\"type\":\"string\"},\"supports\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}},\"instructions\":{\"type\":\"string\"}}}},{\"id\":\"listWorkspaces\",\"version\":1,\"title\":\"열린 UI 작업 목록\",\"description\":\"현재 프로젝트의 열린 작업과 작업 번호·판본·화면별 generation을 조회합니다.\",\"access\":\"read\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"}},\"required\":[]},\"outputSchema\":{\"type\":\"object\",\"required\":[\"status\",\"workspaces\"],\"additionalProperties\":false,\"properties\":{\"status\":{\"const\":\"completed\"},\"workspaces\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"required\":[\"id\",\"name\",\"maxColumns\",\"revision\",\"dirty\",\"savedId\",\"savedHash\",\"items\",\"createdAt\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"name\":{\"type\":\"string\"},\"maxColumns\":{\"type\":\"integer\"},\"revision\":{\"type\":\"integer\",\"minimum\":0},\"dirty\":{\"type\":\"boolean\"},\"savedId\":{\"type\":[\"string\",\"null\"]},\"savedHash\":{\"type\":[\"string\",\"null\"]},\"items\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"required\":[\"id\",\"generation\",\"itemRevision\",\"title\",\"status\",\"heading\",\"message\",\"width\",\"height\",\"contentRevision\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"generation\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"itemRevision\":{\"type\":\"integer\",\"minimum\":0},\"title\":{\"type\":\"string\"},\"status\":{\"enum\":[\"preparing\",\"ready\",\"failed\"]},\"heading\":{\"type\":\"string\"},\"message\":{\"type\":\"string\"},\"width\":{\"type\":\"integer\"},\"height\":{\"type\":\"integer\"},\"contentRevision\":{\"type\":\"integer\",\"minimum\":0}}}},\"createdAt\":{\"type\":\"string\"}}}}}}},{\"id\":\"createWorkspace\",\"version\":1,\"title\":\"새 UI 작업 만들기\",\"description\":\"고유 requestId로 새 임시 작업을 만듭니다. 같은 요청을 재전송하면 같은 작업을 반환합니다.\",\"access\":\"write\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":160},\"name\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":80}},\"required\":[\"requestId\"]},\"outputSchema\":{\"type\":\"object\",\"required\":[\"status\",\"workspace\"],\"additionalProperties\":false,\"properties\":{\"status\":{\"enum\":[\"completed\"]},\"workspace\":{\"type\":\"object\",\"required\":[\"id\",\"name\",\"maxColumns\",\"revision\",\"dirty\",\"savedId\",\"savedHash\",\"items\",\"createdAt\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"name\":{\"type\":\"string\"},\"maxColumns\":{\"type\":\"integer\"},\"revision\":{\"type\":\"integer\",\"minimum\":0},\"dirty\":{\"type\":\"boolean\"},\"savedId\":{\"type\":[\"string\",\"null\"]},\"savedHash\":{\"type\":[\"string\",\"null\"]},\"items\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"required\":[\"id\",\"generation\",\"itemRevision\",\"title\",\"status\",\"heading\",\"message\",\"width\",\"height\",\"contentRevision\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"generation\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"itemRevision\":{\"type\":\"integer\",\"minimum\":0},\"title\":{\"type\":\"string\"},\"status\":{\"enum\":[\"preparing\",\"ready\",\"failed\"]},\"heading\":{\"type\":\"string\"},\"message\":{\"type\":\"string\"},\"width\":{\"type\":\"integer\"},\"height\":{\"type\":\"integer\"},\"contentRevision\":{\"type\":\"integer\",\"minimum\":0}}}},\"createdAt\":{\"type\":\"string\"}}}}}},{\"id\":\"inspectWorkspace\",\"version\":1,\"title\":\"UI 작업 상태 읽기\",\"description\":\"작업 판본과 화면별 생성 번호·판본을 읽습니다. 쓰기 충돌 뒤 먼저 다시 읽고 변경 내용을 비교합니다.\",\"access\":\"read\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"workspaceId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36}},\"required\":[\"workspaceId\"]},\"outputSchema\":{\"type\":\"object\",\"required\":[\"status\",\"workspace\"],\"additionalProperties\":false,\"properties\":{\"status\":{\"enum\":[\"completed\"]},\"workspace\":{\"type\":\"object\",\"required\":[\"id\",\"name\",\"maxColumns\",\"revision\",\"dirty\",\"savedId\",\"savedHash\",\"items\",\"createdAt\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"name\":{\"type\":\"string\"},\"maxColumns\":{\"type\":\"integer\"},\"revision\":{\"type\":\"integer\",\"minimum\":0},\"dirty\":{\"type\":\"boolean\"},\"savedId\":{\"type\":[\"string\",\"null\"]},\"savedHash\":{\"type\":[\"string\",\"null\"]},\"items\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"required\":[\"id\",\"generation\",\"itemRevision\",\"title\",\"status\",\"heading\",\"message\",\"width\",\"height\",\"contentRevision\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"generation\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"itemRevision\":{\"type\":\"integer\",\"minimum\":0},\"title\":{\"type\":\"string\"},\"status\":{\"enum\":[\"preparing\",\"ready\",\"failed\"]},\"heading\":{\"type\":\"string\"},\"message\":{\"type\":\"string\"},\"width\":{\"type\":\"integer\"},\"height\":{\"type\":\"integer\"},\"contentRevision\":{\"type\":\"integer\",\"minimum\":0}}}},\"createdAt\":{\"type\":\"string\"}}}}}},{\"id\":\"configureWorkspace\",\"version\":1,\"title\":\"이름과 가로 최대 변경\",\"description\":\"현재 판본과 일치할 때 작업 이름 또는 한 줄의 최대 화면 수를 변경합니다.\",\"access\":\"write\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"workspaceId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":160},\"expectedRevision\":{\"type\":\"integer\",\"minimum\":0},\"name\":{\"type\":\"string\",\"maxLength\":80},\"maxColumns\":{\"enum\":[1,2,3,4,5,6,8]}},\"required\":[\"workspaceId\",\"requestId\",\"expectedRevision\"]},\"outputSchema\":{\"type\":\"object\",\"required\":[\"status\",\"workspace\"],\"additionalProperties\":false,\"properties\":{\"status\":{\"enum\":[\"completed\"]},\"workspace\":{\"type\":\"object\",\"required\":[\"id\",\"name\",\"maxColumns\",\"revision\",\"dirty\",\"savedId\",\"savedHash\",\"items\",\"createdAt\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"name\":{\"type\":\"string\"},\"maxColumns\":{\"type\":\"integer\"},\"revision\":{\"type\":\"integer\",\"minimum\":0},\"dirty\":{\"type\":\"boolean\"},\"savedId\":{\"type\":[\"string\",\"null\"]},\"savedHash\":{\"type\":[\"string\",\"null\"]},\"items\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"required\":[\"id\",\"generation\",\"itemRevision\",\"title\",\"status\",\"heading\",\"message\",\"width\",\"height\",\"contentRevision\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"generation\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"itemRevision\":{\"type\":\"integer\",\"minimum\":0},\"title\":{\"type\":\"string\"},\"status\":{\"enum\":[\"preparing\",\"ready\",\"failed\"]},\"heading\":{\"type\":\"string\"},\"message\":{\"type\":\"string\"},\"width\":{\"type\":\"integer\"},\"height\":{\"type\":\"integer\"},\"contentRevision\":{\"type\":\"integer\",\"minimum\":0}}}},\"createdAt\":{\"type\":\"string\"}}}}}},{\"id\":\"addPreviews\",\"version\":1,\"title\":\"생성 중인 미리보기 추가\",\"description\":\"전체 개수 제한 없이 호출마다 1~100개를 추가합니다. 반환된 각 id·generation·itemRevision으로 별도 생성 결과를 게시합니다.\",\"access\":\"write\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"workspaceId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":160},\"expectedRevision\":{\"type\":\"integer\",\"minimum\":0},\"count\":{\"type\":\"integer\",\"minimum\":1,\"maximum\":100}},\"required\":[\"workspaceId\",\"requestId\",\"expectedRevision\",\"count\"]},\"outputSchema\":{\"type\":\"object\",\"required\":[\"status\",\"workspace\"],\"additionalProperties\":false,\"properties\":{\"status\":{\"enum\":[\"completed\"]},\"workspace\":{\"type\":\"object\",\"required\":[\"id\",\"name\",\"maxColumns\",\"revision\",\"dirty\",\"savedId\",\"savedHash\",\"items\",\"createdAt\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"name\":{\"type\":\"string\"},\"maxColumns\":{\"type\":\"integer\"},\"revision\":{\"type\":\"integer\",\"minimum\":0},\"dirty\":{\"type\":\"boolean\"},\"savedId\":{\"type\":[\"string\",\"null\"]},\"savedHash\":{\"type\":[\"string\",\"null\"]},\"items\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"required\":[\"id\",\"generation\",\"itemRevision\",\"title\",\"status\",\"heading\",\"message\",\"width\",\"height\",\"contentRevision\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"generation\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"itemRevision\":{\"type\":\"integer\",\"minimum\":0},\"title\":{\"type\":\"string\"},\"status\":{\"enum\":[\"preparing\",\"ready\",\"failed\"]},\"heading\":{\"type\":\"string\"},\"message\":{\"type\":\"string\"},\"width\":{\"type\":\"integer\"},\"height\":{\"type\":\"integer\"},\"contentRevision\":{\"type\":\"integer\",\"minimum\":0}}}},\"createdAt\":{\"type\":\"string\"}}}}}},{\"id\":\"beginPreview\",\"version\":1,\"title\":\"기존 화면 다시 만들기\",\"description\":\"현재 HTML을 보존하고 새 generation을 발급합니다. 이전 generation의 늦은 응답은 거부합니다.\",\"access\":\"write\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"workspaceId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":160},\"expectedRevision\":{\"type\":\"integer\",\"minimum\":0},\"previewId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"heading\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":200},\"message\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":1000}},\"required\":[\"workspaceId\",\"requestId\",\"expectedRevision\",\"previewId\"]},\"outputSchema\":{\"type\":\"object\",\"required\":[\"status\",\"workspace\"],\"additionalProperties\":false,\"properties\":{\"status\":{\"enum\":[\"completed\"]},\"workspace\":{\"type\":\"object\",\"required\":[\"id\",\"name\",\"maxColumns\",\"revision\",\"dirty\",\"savedId\",\"savedHash\",\"items\",\"createdAt\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"name\":{\"type\":\"string\"},\"maxColumns\":{\"type\":\"integer\"},\"revision\":{\"type\":\"integer\",\"minimum\":0},\"dirty\":{\"type\":\"boolean\"},\"savedId\":{\"type\":[\"string\",\"null\"]},\"savedHash\":{\"type\":[\"string\",\"null\"]},\"items\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"required\":[\"id\",\"generation\",\"itemRevision\",\"title\",\"status\",\"heading\",\"message\",\"width\",\"height\",\"contentRevision\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"generation\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"itemRevision\":{\"type\":\"integer\",\"minimum\":0},\"title\":{\"type\":\"string\"},\"status\":{\"enum\":[\"preparing\",\"ready\",\"failed\"]},\"heading\":{\"type\":\"string\"},\"message\":{\"type\":\"string\"},\"width\":{\"type\":\"integer\"},\"height\":{\"type\":\"integer\"},\"contentRevision\":{\"type\":\"integer\",\"minimum\":0}}}},\"createdAt\":{\"type\":\"string\"}}}}}},{\"id\":\"updatePreview\",\"version\":1,\"title\":\"생성 상태 또는 완성 HTML 게시\",\"description\":\"특정 화면의 generation과 expectedItemRevision을 확인해 갱신합니다. 다른 화면은 병렬 생성할 수 있습니다. 완성 HTML 또는 현재 프로젝트 안 sourcePath 중 하나를 지정합니다.\",\"access\":\"write\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"workspaceId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"previewId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":160},\"generation\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"expectedItemRevision\":{\"type\":\"integer\",\"minimum\":0},\"state\":{\"enum\":[\"preparing\",\"ready\",\"failed\"]},\"title\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":150},\"heading\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":200},\"message\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":1000},\"width\":{\"type\":\"integer\",\"minimum\":200,\"maximum\":7680},\"height\":{\"type\":\"integer\",\"minimum\":200,\"maximum\":7680},\"html\":{\"type\":\"string\",\"maxLength\":2000000},\"sourcePath\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":1024}},\"required\":[\"workspaceId\",\"previewId\",\"requestId\",\"generation\",\"expectedItemRevision\"]},\"outputSchema\":{\"type\":\"object\",\"required\":[\"status\",\"workspace\"],\"additionalProperties\":false,\"properties\":{\"status\":{\"enum\":[\"completed\"]},\"workspace\":{\"type\":\"object\",\"required\":[\"id\",\"name\",\"maxColumns\",\"revision\",\"dirty\",\"savedId\",\"savedHash\",\"items\",\"createdAt\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"name\":{\"type\":\"string\"},\"maxColumns\":{\"type\":\"integer\"},\"revision\":{\"type\":\"integer\",\"minimum\":0},\"dirty\":{\"type\":\"boolean\"},\"savedId\":{\"type\":[\"string\",\"null\"]},\"savedHash\":{\"type\":[\"string\",\"null\"]},\"items\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"required\":[\"id\",\"generation\",\"itemRevision\",\"title\",\"status\",\"heading\",\"message\",\"width\",\"height\",\"contentRevision\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"generation\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"itemRevision\":{\"type\":\"integer\",\"minimum\":0},\"title\":{\"type\":\"string\"},\"status\":{\"enum\":[\"preparing\",\"ready\",\"failed\"]},\"heading\":{\"type\":\"string\"},\"message\":{\"type\":\"string\"},\"width\":{\"type\":\"integer\"},\"height\":{\"type\":\"integer\"},\"contentRevision\":{\"type\":\"integer\",\"minimum\":0}}}},\"createdAt\":{\"type\":\"string\"}}}}}},{\"id\":\"getPreview\",\"version\":1,\"title\":\"화면 원본과 상태 읽기\",\"description\":\"지정한 화면의 HTML과 생성 번호·판본·표시 상태를 읽습니다. 아직 HTML이 없으면 html은 null입니다.\",\"access\":\"read\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"workspaceId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"previewId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36}},\"required\":[\"workspaceId\",\"previewId\"]},\"outputSchema\":{\"type\":\"object\",\"required\":[\"status\",\"preview\",\"html\"],\"additionalProperties\":false,\"properties\":{\"status\":{\"const\":\"completed\"},\"preview\":{\"type\":\"object\",\"required\":[\"id\",\"generation\",\"itemRevision\",\"title\",\"status\",\"heading\",\"message\",\"width\",\"height\",\"contentRevision\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"generation\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"itemRevision\":{\"type\":\"integer\",\"minimum\":0},\"title\":{\"type\":\"string\"},\"status\":{\"enum\":[\"preparing\",\"ready\",\"failed\"]},\"heading\":{\"type\":\"string\"},\"message\":{\"type\":\"string\"},\"width\":{\"type\":\"integer\"},\"height\":{\"type\":\"integer\"},\"contentRevision\":{\"type\":\"integer\",\"minimum\":0}}},\"html\":{\"type\":[\"string\",\"null\"]}}}},{\"id\":\"movePreview\",\"version\":1,\"title\":\"미리보기 순서 변경\",\"description\":\"화면을 지정한 화면 앞 또는 맨 끝으로 이동합니다. HTML과 생성 번호를 유지하며 순서 변경은 저장 전 초안에 반영됩니다.\",\"access\":\"write\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"workspaceId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":160},\"expectedRevision\":{\"type\":\"integer\",\"minimum\":0},\"previewId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"beforePreviewId\":{\"type\":[\"string\",\"null\"],\"minLength\":1,\"maxLength\":36}},\"required\":[\"workspaceId\",\"requestId\",\"expectedRevision\",\"previewId\",\"beforePreviewId\"]},\"outputSchema\":{\"type\":\"object\",\"required\":[\"status\",\"workspace\"],\"additionalProperties\":false,\"properties\":{\"status\":{\"enum\":[\"completed\"]},\"workspace\":{\"type\":\"object\",\"required\":[\"id\",\"name\",\"maxColumns\",\"revision\",\"dirty\",\"savedId\",\"savedHash\",\"items\",\"createdAt\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"name\":{\"type\":\"string\"},\"maxColumns\":{\"type\":\"integer\"},\"revision\":{\"type\":\"integer\",\"minimum\":0},\"dirty\":{\"type\":\"boolean\"},\"savedId\":{\"type\":[\"string\",\"null\"]},\"savedHash\":{\"type\":[\"string\",\"null\"]},\"items\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"required\":[\"id\",\"generation\",\"itemRevision\",\"title\",\"status\",\"heading\",\"message\",\"width\",\"height\",\"contentRevision\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"generation\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"itemRevision\":{\"type\":\"integer\",\"minimum\":0},\"title\":{\"type\":\"string\"},\"status\":{\"enum\":[\"preparing\",\"ready\",\"failed\"]},\"heading\":{\"type\":\"string\"},\"message\":{\"type\":\"string\"},\"width\":{\"type\":\"integer\"},\"height\":{\"type\":\"integer\"},\"contentRevision\":{\"type\":\"integer\",\"minimum\":0}}}},\"createdAt\":{\"type\":\"string\"}}}}}},{\"id\":\"removePreview\",\"version\":1,\"title\":\"미리보기와 작업 파일 삭제\",\"description\":\"사용자가 명시적으로 삭제를 요청한 화면만 제거합니다. confirmation에 동일 화면 번호를 지정합니다. 저장 전에는 이전 저장본을 보존합니다.\",\"access\":\"write\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"workspaceId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":160},\"expectedRevision\":{\"type\":\"integer\",\"minimum\":0},\"previewId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"confirmation\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36}},\"required\":[\"workspaceId\",\"requestId\",\"expectedRevision\",\"previewId\",\"confirmation\"]},\"outputSchema\":{\"type\":\"object\",\"required\":[\"status\",\"workspace\"],\"additionalProperties\":false,\"properties\":{\"status\":{\"enum\":[\"completed\"]},\"workspace\":{\"type\":\"object\",\"required\":[\"id\",\"name\",\"maxColumns\",\"revision\",\"dirty\",\"savedId\",\"savedHash\",\"items\",\"createdAt\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"name\":{\"type\":\"string\"},\"maxColumns\":{\"type\":\"integer\"},\"revision\":{\"type\":\"integer\",\"minimum\":0},\"dirty\":{\"type\":\"boolean\"},\"savedId\":{\"type\":[\"string\",\"null\"]},\"savedHash\":{\"type\":[\"string\",\"null\"]},\"items\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"required\":[\"id\",\"generation\",\"itemRevision\",\"title\",\"status\",\"heading\",\"message\",\"width\",\"height\",\"contentRevision\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"generation\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"itemRevision\":{\"type\":\"integer\",\"minimum\":0},\"title\":{\"type\":\"string\"},\"status\":{\"enum\":[\"preparing\",\"ready\",\"failed\"]},\"heading\":{\"type\":\"string\"},\"message\":{\"type\":\"string\"},\"width\":{\"type\":\"integer\"},\"height\":{\"type\":\"integer\"},\"contentRevision\":{\"type\":\"integer\",\"minimum\":0}}}},\"createdAt\":{\"type\":\"string\"}}}}}},{\"id\":\"saveWorkspace\",\"version\":1,\"title\":\"UI 작업 저장\",\"description\":\"이름을 받아 프로젝트 ui-studio-work에 HTML과 작업 구성을 저장합니다. 다른 창의 저장본 변경은 SAVED_WORK_CONFLICT로 보존하고 중단합니다.\",\"access\":\"write\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"workspaceId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":160},\"expectedRevision\":{\"type\":\"integer\",\"minimum\":0},\"name\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":80}},\"required\":[\"workspaceId\",\"requestId\",\"expectedRevision\"]},\"outputSchema\":{\"type\":\"object\",\"required\":[\"status\",\"workspace\"],\"additionalProperties\":false,\"properties\":{\"status\":{\"enum\":[\"completed\"]},\"workspace\":{\"type\":\"object\",\"required\":[\"id\",\"name\",\"maxColumns\",\"revision\",\"dirty\",\"savedId\",\"savedHash\",\"items\",\"createdAt\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"name\":{\"type\":\"string\"},\"maxColumns\":{\"type\":\"integer\"},\"revision\":{\"type\":\"integer\",\"minimum\":0},\"dirty\":{\"type\":\"boolean\"},\"savedId\":{\"type\":[\"string\",\"null\"]},\"savedHash\":{\"type\":[\"string\",\"null\"]},\"items\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"required\":[\"id\",\"generation\",\"itemRevision\",\"title\",\"status\",\"heading\",\"message\",\"width\",\"height\",\"contentRevision\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"generation\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"itemRevision\":{\"type\":\"integer\",\"minimum\":0},\"title\":{\"type\":\"string\"},\"status\":{\"enum\":[\"preparing\",\"ready\",\"failed\"]},\"heading\":{\"type\":\"string\"},\"message\":{\"type\":\"string\"},\"width\":{\"type\":\"integer\"},\"height\":{\"type\":\"integer\"},\"contentRevision\":{\"type\":\"integer\",\"minimum\":0}}}},\"createdAt\":{\"type\":\"string\"}}}}}},{\"id\":\"listSavedWorkspaces\",\"version\":1,\"title\":\"저장한 UI 작업 목록\",\"description\":\"저장본 목록과 각 파일 해시를 읽습니다. 읽지 못한 저장본은 issues로 분리합니다.\",\"access\":\"read\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"}},\"required\":[]},\"outputSchema\":{\"type\":\"object\",\"required\":[\"status\",\"workspaces\",\"issues\"],\"additionalProperties\":false,\"properties\":{\"status\":{\"enum\":[\"completed\",\"partial\"]},\"workspaces\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"required\":[\"id\",\"name\",\"itemCount\",\"savedAt\",\"hash\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"name\":{\"type\":\"string\"},\"itemCount\":{\"type\":\"integer\",\"minimum\":0},\"savedAt\":{\"type\":\"string\"},\"hash\":{\"type\":\"string\"}}}},\"issues\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"id\":{\"type\":\"string\"},\"code\":{\"type\":\"string\"}},\"required\":[\"id\",\"code\"],\"additionalProperties\":false}}}}},{\"id\":\"openSavedWorkspace\",\"version\":1,\"title\":\"저장본을 새 작업으로 열기\",\"description\":\"저장본으로 새 작업 사본을 만듭니다. 기존 열린 초안을 덮어쓰거나 버리지 않습니다.\",\"access\":\"write\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"savedId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":160}},\"required\":[\"savedId\",\"requestId\"]},\"outputSchema\":{\"type\":\"object\",\"required\":[\"status\",\"workspace\"],\"additionalProperties\":false,\"properties\":{\"status\":{\"enum\":[\"completed\"]},\"workspace\":{\"type\":\"object\",\"required\":[\"id\",\"name\",\"maxColumns\",\"revision\",\"dirty\",\"savedId\",\"savedHash\",\"items\",\"createdAt\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"name\":{\"type\":\"string\"},\"maxColumns\":{\"type\":\"integer\"},\"revision\":{\"type\":\"integer\",\"minimum\":0},\"dirty\":{\"type\":\"boolean\"},\"savedId\":{\"type\":[\"string\",\"null\"]},\"savedHash\":{\"type\":[\"string\",\"null\"]},\"items\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"required\":[\"id\",\"generation\",\"itemRevision\",\"title\",\"status\",\"heading\",\"message\",\"width\",\"height\",\"contentRevision\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"generation\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"itemRevision\":{\"type\":\"integer\",\"minimum\":0},\"title\":{\"type\":\"string\"},\"status\":{\"enum\":[\"preparing\",\"ready\",\"failed\"]},\"heading\":{\"type\":\"string\"},\"message\":{\"type\":\"string\"},\"width\":{\"type\":\"integer\"},\"height\":{\"type\":\"integer\"},\"contentRevision\":{\"type\":\"integer\",\"minimum\":0}}}},\"createdAt\":{\"type\":\"string\"}}}}}},{\"id\":\"discardWorkspace\",\"version\":1,\"title\":\"미저장 작업 버리기\",\"description\":\"사용자가 버리기를 명시한 임시 작업만 종료합니다. confirmation에 동일 작업 번호를 넣습니다. 영구 저장본은 유지합니다.\",\"access\":\"write\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"workspaceId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":160},\"expectedRevision\":{\"type\":\"integer\",\"minimum\":0},\"confirmation\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36}},\"required\":[\"workspaceId\",\"requestId\",\"expectedRevision\",\"confirmation\"]},\"outputSchema\":{\"type\":\"object\",\"required\":[\"status\",\"discarded\",\"workspaceId\"],\"additionalProperties\":false,\"properties\":{\"status\":{\"const\":\"completed\"},\"discarded\":{\"const\":true},\"workspaceId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36}}}},{\"id\":\"listConceptCriteria\",\"title\":\"디자인 기준과 컴포넌트 목록\",\"description\":\"기본 템플릿과 디자인 기준 260개 및 컴포넌트 분류를 읽습니다.\",\"version\":1,\"access\":\"read\",\"executionTarget\":\"application\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"}},\"required\":[]},\"outputSchema\":{\"type\":\"object\",\"required\":[\"status\",\"templates\",\"groups\",\"components\"],\"properties\":{\"status\":{\"const\":\"completed\"},\"templates\":{\"type\":\"array\"},\"groups\":{\"type\":\"array\"},\"components\":{\"type\":\"array\"}},\"additionalProperties\":false}},{\"id\":\"loadConcepts\",\"title\":\"저장한 컨셉 읽기\",\"description\":\"현재 프로젝트의 컨셉과 최신 저장 버전을 읽습니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"}},\"required\":[]},\"outputSchema\":{\"type\":\"object\",\"required\":[\"status\",\"document\",\"version\"],\"properties\":{\"status\":{\"const\":\"completed\"},\"document\":{\"type\":[\"object\",\"null\"]},\"version\":{\"type\":[\"string\",\"null\"]}},\"additionalProperties\":false}},{\"id\":\"saveConcepts\",\"title\":\"프로젝트 컨셉 저장\",\"description\":\"현재 프로젝트에서 버전을 비교하고 컨셉 전체와 기준별 결정을 저장합니다.\",\"version\":1,\"access\":\"write\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"document\":{\"type\":\"object\"},\"expectedVersion\":{\"type\":[\"string\",\"null\"]}},\"required\":[\"document\",\"expectedVersion\"]},\"outputSchema\":{\"type\":\"object\",\"required\":[\"status\",\"version\"],\"properties\":{\"status\":{\"const\":\"completed\"},\"version\":{\"type\":\"string\"}},\"additionalProperties\":false}},{\"id\":\"saveReviewedConcepts\",\"title\":\"검토한 컨셉 저장\",\"description\":\"현재 프로젝트에서 버전을 비교하고 컨셉 전체와 기준별 결정을 저장합니다.\",\"version\":1,\"access\":\"write\",\"exposure\":\"plugin\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"document\":{\"type\":\"object\"},\"expectedVersion\":{\"type\":[\"string\",\"null\"]}},\"required\":[\"document\",\"expectedVersion\"]},\"outputSchema\":{\"type\":\"object\",\"required\":[\"status\",\"version\"],\"properties\":{\"status\":{\"const\":\"completed\"},\"version\":{\"type\":\"string\"}},\"additionalProperties\":false}},{\"id\":\"listConceptFiles\",\"title\":\"개별 컨셉 파일 목록 읽기\",\"description\":\"개별 컨셉 파일 목록 읽기\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"known\":{\"type\":\"object\",\"additionalProperties\":{\"type\":\"string\"}}},\"required\":[]},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"status\":{\"const\":\"completed\"},\"files\":{\"type\":\"array\"},\"issues\":{\"type\":\"array\"}},\"required\":[\"status\",\"files\",\"issues\"]}},{\"id\":\"saveConceptFile\",\"title\":\"선택한 컨셉 파일 저장\",\"description\":\"선택한 컨셉 파일 저장\",\"version\":1,\"access\":\"write\",\"exposure\":\"public\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"conceptId\":{\"type\":\"string\",\"pattern\":\"^draft-[a-z0-9-]{1,90}$\"},\"expectedVersion\":{\"type\":[\"string\",\"null\"]},\"document\":{\"type\":\"object\"}},\"required\":[\"conceptId\",\"expectedVersion\",\"document\"]},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"status\":{\"const\":\"completed\"},\"version\":{\"type\":\"string\"}},\"required\":[\"status\",\"version\"]}},{\"id\":\"saveReviewedConceptFile\",\"title\":\"검토한 컨셉 파일 저장\",\"description\":\"검토한 컨셉 파일 저장\",\"version\":1,\"access\":\"write\",\"exposure\":\"plugin\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"conceptId\":{\"type\":\"string\",\"pattern\":\"^draft-[a-z0-9-]{1,90}$\"},\"expectedVersion\":{\"type\":[\"string\",\"null\"]},\"document\":{\"type\":\"object\"}},\"required\":[\"conceptId\",\"expectedVersion\",\"document\"]},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"status\":{\"const\":\"completed\"},\"version\":{\"type\":\"string\"}},\"required\":[\"status\",\"version\"]}},{\"id\":\"deleteConceptFile\",\"title\":\"확인한 컨셉 파일 삭제\",\"description\":\"확인한 컨셉 파일 삭제\",\"version\":1,\"access\":\"write\",\"exposure\":\"plugin\",\"agentContext\":\"project\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"conceptId\":{\"type\":\"string\",\"pattern\":\"^draft-[a-z0-9-]{1,90}$\"},\"expectedVersion\":{\"type\":\"string\"}},\"required\":[\"conceptId\",\"expectedVersion\"]},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"status\":{\"const\":\"completed\"},\"conceptId\":{\"type\":\"string\"}},\"required\":[\"status\",\"conceptId\"]}},{\"id\":\"attachView\",\"title\":\"현재 프로젝트의 작업을 탭에서 열기\",\"description\":\"현재 프로젝트의 작업을 탭에서 열기\",\"version\":1,\"access\":\"write\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"viewId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"workspaceId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"savedId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36}},\"required\":[\"viewId\"]},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"status\":{\"const\":\"completed\"},\"workspace\":{\"type\":\"object\",\"required\":[\"id\",\"name\",\"maxColumns\",\"revision\",\"dirty\",\"savedId\",\"savedHash\",\"items\",\"createdAt\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"name\":{\"type\":\"string\"},\"maxColumns\":{\"type\":\"integer\"},\"revision\":{\"type\":\"integer\",\"minimum\":0},\"dirty\":{\"type\":\"boolean\"},\"savedId\":{\"type\":[\"string\",\"null\"]},\"savedHash\":{\"type\":[\"string\",\"null\"]},\"items\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"required\":[\"id\",\"generation\",\"itemRevision\",\"title\",\"status\",\"heading\",\"message\",\"width\",\"height\",\"contentRevision\"],\"additionalProperties\":false,\"properties\":{\"id\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"generation\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"itemRevision\":{\"type\":\"integer\",\"minimum\":0},\"title\":{\"type\":\"string\"},\"status\":{\"enum\":[\"preparing\",\"ready\",\"failed\"]},\"heading\":{\"type\":\"string\"},\"message\":{\"type\":\"string\"},\"width\":{\"type\":\"integer\"},\"height\":{\"type\":\"integer\"},\"contentRevision\":{\"type\":\"integer\",\"minimum\":0}}}},\"createdAt\":{\"type\":\"string\"}}}},\"required\":[\"status\",\"workspace\"]}},{\"id\":\"releaseView\",\"title\":\"탭을 닫고 열린 작업 연결 정리\",\"description\":\"탭을 닫고 열린 작업 연결 정리\",\"version\":1,\"access\":\"write\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"context\":{\"type\":\"object\"},\"viewId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":36},\"discardRevision\":{\"type\":\"integer\",\"minimum\":0}},\"required\":[\"viewId\"]},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"properties\":{\"status\":{\"const\":\"completed\"},\"preserved\":{\"type\":\"boolean\"}},\"required\":[\"status\",\"preserved\"]}}],\"contributes\":{\"primaryMenus\":[{\"id\":\"mars-design.ui-production\",\"label\":\"UI 제작팩\",\"icon\":\"image-play\",\"order\":72,\"companionViewId\":\"pulsia.mini-acp.companion-view\",\"companionProviderViewId\":\"ui-studio.companion-provider\"}],\"subMenus\":[{\"id\":\"mars-design.ui-studio.open\",\"primaryMenuId\":\"mars-design.ui-production\",\"viewId\":\"ui-studio.workspace\",\"label\":\"UI 제작실\",\"icon\":\"image-play\",\"order\":15},{\"id\":\"mars-design.ui-production.concept\",\"primaryMenuId\":\"mars-design.ui-production\",\"viewId\":\"ui-studio.concept\",\"label\":\"컨셉 제작실\",\"icon\":\"layout-template\",\"order\":10}],\"views\":[{\"id\":\"ui-studio.workspace\",\"title\":\"UI 제작실\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"header\":{\"mode\":\"hidden\"}},{\"id\":\"ui-studio.dialog\",\"title\":\"작업\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"header\":{\"mode\":\"hidden\"},\"dialog\":{\"category\":\"form\",\"resizable\":false,\"size\":{\"width\":460,\"height\":280,\"minWidth\":320,\"minHeight\":200}}},{\"id\":\"ui-studio.open-work\",\"title\":\"작업 열기\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"header\":{\"mode\":\"hidden\"},\"dialog\":{\"category\":\"selection\",\"resizable\":true,\"size\":{\"width\":460,\"height\":420,\"minWidth\":320,\"minHeight\":200}}},{\"id\":\"ui-studio.concept\",\"kind\":\"screen\",\"title\":\"컨셉 제작실\",\"layoutProfile\":\"edge-to-edge\",\"header\":{\"mode\":\"hidden\"}},{\"id\":\"ui-studio.companion-provider\",\"kind\":\"screen\",\"title\":\"UI 제작 도우미\",\"layoutProfile\":\"edge-to-edge\",\"header\":{\"mode\":\"hidden\"}},{\"id\":\"ui-studio.preview\",\"title\":\"미리보기\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"header\":{\"mode\":\"hidden\"},\"dialog\":{\"category\":\"workspace\",\"resizable\":true,\"size\":{\"width\":900,\"height\":640,\"minWidth\":340,\"minHeight\":220}}}],\"menus\":[],\"routes\":[],\"extensions\":[{\"point\":\"agent.skill\",\"version\":1,\"id\":\"ui-studio.skill.ui-studio-use\",\"data\":{\"id\":\"ui-studio-use\",\"title\":\"UI 제작실 사용\",\"description\":\"Pulsia 내부·외부 Codex와 Claude가 작업을 선택하고 CLI/MCP로 같은 기능을 사용합니다.\",\"path\":\"agent/skills/ui-studio-use/SKILL.md\"}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"ui-studio.skill.generate-previews\",\"data\":{\"id\":\"generate-previews\",\"title\":\"미리보기 생성·갱신\",\"description\":\"화면별 생성 번호·판본으로 진행 문구와 완성 HTML을 게시하고 늦은 응답을 처리합니다.\",\"path\":\"agent/skills/generate-previews/SKILL.md\"}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"ui-studio.skill.workspace-files\",\"data\":{\"id\":\"workspace-files\",\"title\":\"저장·불러오기·복구\",\"description\":\"미저장 작업과 저장본을 구분하고 저장 충돌·삭제·버리기를 처리합니다.\",\"path\":\"agent/skills/workspace-files/SKILL.md\"}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"ui-studio.skill.design-concepts\",\"data\":{\"id\":\"design-concepts\",\"title\":\"컨셉 제작실 사용\",\"description\":\"기준 조회, 컨셉 제작·확정·프로젝트 저장과 화면 조작을 제공합니다.\",\"path\":\"agent/skills/design-concepts/SKILL.md\"}}]},\"databaseImpacts\":[],\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-ui-studio.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}},\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"^1.0.131\",\"reason\":\"두 제작실에서 같은 왼쪽 AI 대화를 사용합니다.\"}]}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.design.ui-studio%400.0.115",
+      "published_at": "2026-11-21T13:08:50Z",
+      "created_at": "2026-11-21T12:34:39Z",
+      "updated_at": "2026-11-21T13:08:50Z",
+      "assets": [
+        {
+          "id": 775621204,
+          "name": "pulsia-ui-studio.zip",
+          "state": "uploaded",
+          "size": 610459,
+          "digest": "sha256:8ef195930ee48bfbe16a467e79b8bb1ba10714c270d3bb284704bcf588cca51b",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.design.ui-studio%400.0.115/pulsia-ui-studio.zip",
+          "created_at": "2026-11-21T13:08:48Z",
+          "updated_at": "2026-11-21T13:08:49Z"
+        },
+        {
+          "id": 775621209,
+          "name": "pulsia-ui-studio.zip.sha256",
+          "state": "uploaded",
+          "size": 87,
+          "digest": "sha256:15f956507ddbdf7d1b08a7ebe15fe5c656b21a60e879bbb7de9a481210a15571",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.design.ui-studio%400.0.115/pulsia-ui-studio.zip.sha256",
+          "created_at": "2026-11-21T13:08:48Z",
+          "updated_at": "2026-11-21T13:08:48Z"
+        }
+      ]
+    },
+    {
       "id": 453698519,
       "tag_name": "com.naver.mars-_-.ai.harness.catalog-studio@0.1.125",
       "name": "Catalog Studio 0.1.125",
@@ -424,16 +492,6 @@
       "updated_at": "2026-11-21T10:04:46Z",
       "assets": [
         {
-          "id": 775145960,
-          "name": "harness-app.zip",
-          "state": "uploaded",
-          "size": 8874305,
-          "digest": "sha256:1b56dd827e32d0d46f37b7afc4987197e226a7cf66ffce4f1f4a1d4cdc431f3c",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.app%400.1.122/harness-app.zip",
-          "created_at": "2026-11-21T10:04:44Z",
-          "updated_at": "2026-11-21T10:04:45Z"
-        },
-        {
           "id": 775145939,
           "name": "harness-app.zip.sha256",
           "state": "uploaded",
@@ -442,6 +500,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.app%400.1.122/harness-app.zip.sha256",
           "created_at": "2026-11-21T10:04:43Z",
           "updated_at": "2026-11-21T10:04:43Z"
+        },
+        {
+          "id": 775145960,
+          "name": "harness-app.zip",
+          "state": "uploaded",
+          "size": 8874305,
+          "digest": "sha256:1b56dd827e32d0d46f37b7afc4987197e226a7cf66ffce4f1f4a1d4cdc431f3c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.app%400.1.122/harness-app.zip",
+          "created_at": "2026-11-21T10:04:44Z",
+          "updated_at": "2026-11-21T10:04:45Z"
         }
       ]
     },
@@ -458,22 +526,22 @@
       "updated_at": "2026-11-21T12:34:29Z",
       "assets": [
         {
-          "id": 775530019,
-          "name": "pulsia-plugin-mini-acp.zip",
-          "state": "uploaded",
-          "size": 37208,
-          "digest": "sha256:2464c23ce4d3a167985ab18bfd3b259603725d03c01656e90450472dc7475986",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.136/pulsia-plugin-mini-acp.zip",
-          "created_at": "2026-11-21T12:34:28Z",
-          "updated_at": "2026-11-21T12:34:28Z"
-        },
-        {
           "id": 775530017,
           "name": "pulsia-plugin-mini-acp.zip.sha256",
           "state": "uploaded",
           "size": 93,
           "digest": "sha256:8c0a7ab31a015e454dab32521bd2ca62878bbcd7bd5397d1d16f2f577805b693",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.136/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-11-21T12:34:28Z",
+          "updated_at": "2026-11-21T12:34:28Z"
+        },
+        {
+          "id": 775530019,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 37208,
+          "digest": "sha256:2464c23ce4d3a167985ab18bfd3b259603725d03c01656e90450472dc7475986",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.136/pulsia-plugin-mini-acp.zip",
           "created_at": "2026-11-21T12:34:28Z",
           "updated_at": "2026-11-21T12:34:28Z"
         }
@@ -492,16 +560,6 @@
       "updated_at": "2026-11-21T10:21:49Z",
       "assets": [
         {
-          "id": 775186905,
-          "name": "pulsia-plugin-mini-acp.zip",
-          "state": "uploaded",
-          "size": 36726,
-          "digest": "sha256:f33bc4cd96253af615cacff91be01832dd8617251f710536a85fab497c4b0295",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.135/pulsia-plugin-mini-acp.zip",
-          "created_at": "2026-11-21T10:21:48Z",
-          "updated_at": "2026-11-21T10:21:48Z"
-        },
-        {
           "id": 775186844,
           "name": "pulsia-plugin-mini-acp.zip.sha256",
           "state": "uploaded",
@@ -510,6 +568,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.135/pulsia-plugin-mini-acp.zip.sha256",
           "created_at": "2026-11-21T10:21:47Z",
           "updated_at": "2026-11-21T10:21:47Z"
+        },
+        {
+          "id": 775186905,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 36726,
+          "digest": "sha256:f33bc4cd96253af615cacff91be01832dd8617251f710536a85fab497c4b0295",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.135/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-11-21T10:21:48Z",
+          "updated_at": "2026-11-21T10:21:48Z"
         }
       ]
     },
@@ -526,16 +594,6 @@
       "updated_at": "2026-11-21T09:56:11Z",
       "assets": [
         {
-          "id": 775124916,
-          "name": "pulsia-plugin-mini-acp.zip",
-          "state": "uploaded",
-          "size": 36290,
-          "digest": "sha256:dbffb7fdc8fee3abfe86c355f84b161f7aff957156894855993a892ca1bb0bec",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.134/pulsia-plugin-mini-acp.zip",
-          "created_at": "2026-11-21T09:56:10Z",
-          "updated_at": "2026-11-21T09:56:10Z"
-        },
-        {
           "id": 775124906,
           "name": "pulsia-plugin-mini-acp.zip.sha256",
           "state": "uploaded",
@@ -543,6 +601,16 @@
           "digest": "sha256:9399f98d7796ecd0dc1e83deaf7c9d12f80fefdc23b56caa327ab8a508f14bf4",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.134/pulsia-plugin-mini-acp.zip.sha256",
           "created_at": "2026-11-21T09:56:09Z",
+          "updated_at": "2026-11-21T09:56:10Z"
+        },
+        {
+          "id": 775124916,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 36290,
+          "digest": "sha256:dbffb7fdc8fee3abfe86c355f84b161f7aff957156894855993a892ca1bb0bec",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.134/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-11-21T09:56:10Z",
           "updated_at": "2026-11-21T09:56:10Z"
         }
       ]
@@ -560,22 +628,22 @@
       "updated_at": "2026-11-21T06:27:20Z",
       "assets": [
         {
-          "id": 774656770,
-          "name": "pulsia-plugin-mini-acp.zip",
-          "state": "uploaded",
-          "size": 36048,
-          "digest": "sha256:3347c192c8920dc18c3ae61c625f1a0a5939d5267fe8c3c4d4f30a04080cd1c9",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.133/pulsia-plugin-mini-acp.zip",
-          "created_at": "2026-11-21T06:27:19Z",
-          "updated_at": "2026-11-21T06:27:19Z"
-        },
-        {
           "id": 774656769,
           "name": "pulsia-plugin-mini-acp.zip.sha256",
           "state": "uploaded",
           "size": 93,
           "digest": "sha256:e0ca0fd04cc924421bb34aa7d044ad0e8a3ffc079693edb271fc604388708797",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.133/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-11-21T06:27:19Z",
+          "updated_at": "2026-11-21T06:27:19Z"
+        },
+        {
+          "id": 774656770,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 36048,
+          "digest": "sha256:3347c192c8920dc18c3ae61c625f1a0a5939d5267fe8c3c4d4f30a04080cd1c9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.133/pulsia-plugin-mini-acp.zip",
           "created_at": "2026-11-21T06:27:19Z",
           "updated_at": "2026-11-21T06:27:19Z"
         }
@@ -594,22 +662,22 @@
       "updated_at": "2026-11-20T02:04:37Z",
       "assets": [
         {
-          "id": 770056516,
-          "name": "pulsia-plugin-wingate-client.zip",
-          "state": "uploaded",
-          "size": 569438,
-          "digest": "sha256:7fb1353ab49cbb360affe5c63d7166679ac81cd041d4b90a5d63a97366f6691e",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.client%400.1.140/pulsia-plugin-wingate-client.zip",
-          "created_at": "2026-11-20T01:59:08Z",
-          "updated_at": "2026-11-20T01:59:08Z"
-        },
-        {
           "id": 770056515,
           "name": "pulsia-plugin-wingate-client.zip.sha256",
           "state": "uploaded",
           "size": 99,
           "digest": "sha256:a3f4df4b6cf32bcc72a78c3c502ebf7ec1abde84334358990b7d787b4323aceb",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.client%400.1.140/pulsia-plugin-wingate-client.zip.sha256",
+          "created_at": "2026-11-20T01:59:08Z",
+          "updated_at": "2026-11-20T01:59:08Z"
+        },
+        {
+          "id": 770056516,
+          "name": "pulsia-plugin-wingate-client.zip",
+          "state": "uploaded",
+          "size": 569438,
+          "digest": "sha256:7fb1353ab49cbb360affe5c63d7166679ac81cd041d4b90a5d63a97366f6691e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.wingate.client%400.1.140/pulsia-plugin-wingate-client.zip",
           "created_at": "2026-11-20T01:59:08Z",
           "updated_at": "2026-11-20T01:59:08Z"
         }
@@ -730,16 +798,6 @@
       "updated_at": "2026-11-20T02:04:41Z",
       "assets": [
         {
-          "id": 770056080,
-          "name": "pulsia-remote-pack.zip",
-          "state": "uploaded",
-          "size": 1107,
-          "digest": "sha256:49b1901986461b4d83d490f4c5cf0cbc11a314d352fe11947382412db2991b39",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote%400.1.110/pulsia-remote-pack.zip",
-          "created_at": "2026-11-20T01:58:55Z",
-          "updated_at": "2026-11-20T01:58:55Z"
-        },
-        {
           "id": 770056078,
           "name": "pulsia-remote-pack.zip.sha256",
           "state": "uploaded",
@@ -747,6 +805,16 @@
           "digest": "sha256:436990882fea7f412134d56eaafb41d00d27052a77a324e40b1be665f73bdbb9",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote%400.1.110/pulsia-remote-pack.zip.sha256",
           "created_at": "2026-11-20T01:58:54Z",
+          "updated_at": "2026-11-20T01:58:55Z"
+        },
+        {
+          "id": 770056080,
+          "name": "pulsia-remote-pack.zip",
+          "state": "uploaded",
+          "size": 1107,
+          "digest": "sha256:49b1901986461b4d83d490f4c5cf0cbc11a314d352fe11947382412db2991b39",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote%400.1.110/pulsia-remote-pack.zip",
+          "created_at": "2026-11-20T01:58:55Z",
           "updated_at": "2026-11-20T01:58:55Z"
         }
       ]
@@ -764,22 +832,22 @@
       "updated_at": "2026-11-20T02:04:31Z",
       "assets": [
         {
-          "id": 770056368,
-          "name": "pulsia-remote-workbench.zip",
-          "state": "uploaded",
-          "size": 28268,
-          "digest": "sha256:11d8f56f06a512b2c84e956044618560524b34dde1ed0209c1e31caaf560d3e7",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.109/pulsia-remote-workbench.zip",
-          "created_at": "2026-11-20T01:59:03Z",
-          "updated_at": "2026-11-20T01:59:03Z"
-        },
-        {
           "id": 770056361,
           "name": "pulsia-remote-workbench.zip.sha256",
           "state": "uploaded",
           "size": 94,
           "digest": "sha256:2a3977170915bdc20309da86c2cb8b995f227b149c7bcfc81479eb551ed416fd",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.109/pulsia-remote-workbench.zip.sha256",
+          "created_at": "2026-11-20T01:59:03Z",
+          "updated_at": "2026-11-20T01:59:03Z"
+        },
+        {
+          "id": 770056368,
+          "name": "pulsia-remote-workbench.zip",
+          "state": "uploaded",
+          "size": 28268,
+          "digest": "sha256:11d8f56f06a512b2c84e956044618560524b34dde1ed0209c1e31caaf560d3e7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.109/pulsia-remote-workbench.zip",
           "created_at": "2026-11-20T01:59:03Z",
           "updated_at": "2026-11-20T01:59:03Z"
         }
@@ -832,16 +900,6 @@
       "updated_at": "2026-11-20T02:04:24Z",
       "assets": [
         {
-          "id": 770056212,
-          "name": "pulsia-remote-runtime.zip",
-          "state": "uploaded",
-          "size": 42473,
-          "digest": "sha256:caefbb4f7b4069a76a82ef2fa97c3d46ced1399edfa538a086ddda20a125f3fc",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.109/pulsia-remote-runtime.zip",
-          "created_at": "2026-11-20T01:58:57Z",
-          "updated_at": "2026-11-20T01:58:58Z"
-        },
-        {
           "id": 770056210,
           "name": "pulsia-remote-runtime.zip.sha256",
           "state": "uploaded",
@@ -850,6 +908,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.109/pulsia-remote-runtime.zip.sha256",
           "created_at": "2026-11-20T01:58:57Z",
           "updated_at": "2026-11-20T01:58:57Z"
+        },
+        {
+          "id": 770056212,
+          "name": "pulsia-remote-runtime.zip",
+          "state": "uploaded",
+          "size": 42473,
+          "digest": "sha256:caefbb4f7b4069a76a82ef2fa97c3d46ced1399edfa538a086ddda20a125f3fc",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.109/pulsia-remote-runtime.zip",
+          "created_at": "2026-11-20T01:58:57Z",
+          "updated_at": "2026-11-20T01:58:58Z"
         }
       ]
     },
@@ -968,16 +1036,6 @@
       "updated_at": "2026-11-20T04:37:59Z",
       "assets": [
         {
-          "id": 770467029,
-          "name": "pulsia-acp-common.zip",
-          "state": "uploaded",
-          "size": 1762767,
-          "digest": "sha256:b597a8672f4ed3f9d572863ae3d1fec4be469644a4b106579de06c124e7114c0",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.147/pulsia-acp-common.zip",
-          "created_at": "2026-11-20T04:37:57Z",
-          "updated_at": "2026-11-20T04:37:58Z"
-        },
-        {
           "id": 770467026,
           "name": "pulsia-acp-common.zip.sha256",
           "state": "uploaded",
@@ -986,6 +1044,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.147/pulsia-acp-common.zip.sha256",
           "created_at": "2026-11-20T04:37:56Z",
           "updated_at": "2026-11-20T04:37:57Z"
+        },
+        {
+          "id": 770467029,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 1762767,
+          "digest": "sha256:b597a8672f4ed3f9d572863ae3d1fec4be469644a4b106579de06c124e7114c0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.147/pulsia-acp-common.zip",
+          "created_at": "2026-11-20T04:37:57Z",
+          "updated_at": "2026-11-20T04:37:58Z"
         }
       ]
     },
@@ -1002,16 +1070,6 @@
       "updated_at": "2026-11-20T02:04:17Z",
       "assets": [
         {
-          "id": 770055894,
-          "name": "pulsia-login.zip",
-          "state": "uploaded",
-          "size": 50400,
-          "digest": "sha256:678d80962c48d0b008c0aa81647608c3d8d5fc8a821f5d5d0ea3915880751d32",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.account.login%400.1.108/pulsia-login.zip",
-          "created_at": "2026-11-20T01:58:49Z",
-          "updated_at": "2026-11-20T01:58:50Z"
-        },
-        {
           "id": 770055881,
           "name": "pulsia-login.zip.sha256",
           "state": "uploaded",
@@ -1020,6 +1078,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.account.login%400.1.108/pulsia-login.zip.sha256",
           "created_at": "2026-11-20T01:58:49Z",
           "updated_at": "2026-11-20T01:58:49Z"
+        },
+        {
+          "id": 770055894,
+          "name": "pulsia-login.zip",
+          "state": "uploaded",
+          "size": 50400,
+          "digest": "sha256:678d80962c48d0b008c0aa81647608c3d8d5fc8a821f5d5d0ea3915880751d32",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.account.login%400.1.108/pulsia-login.zip",
+          "created_at": "2026-11-20T01:58:49Z",
+          "updated_at": "2026-11-20T01:58:50Z"
         }
       ]
     },
@@ -1070,16 +1138,6 @@
       "updated_at": "2026-11-20T04:31:39Z",
       "assets": [
         {
-          "id": 770451686,
-          "name": "pulsia-test-pack.zip",
-          "state": "uploaded",
-          "size": 1454870,
-          "digest": "sha256:2449841292eb0f3f7b4d8483627eb3c9b7fcba0e5370bd695bbdd8942c951b9d",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.156/pulsia-test-pack.zip",
-          "created_at": "2026-11-20T04:31:37Z",
-          "updated_at": "2026-11-20T04:31:38Z"
-        },
-        {
           "id": 770451685,
           "name": "pulsia-test-pack.zip.sha256",
           "state": "uploaded",
@@ -1088,6 +1146,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.156/pulsia-test-pack.zip.sha256",
           "created_at": "2026-11-20T04:31:37Z",
           "updated_at": "2026-11-20T04:31:37Z"
+        },
+        {
+          "id": 770451686,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 1454870,
+          "digest": "sha256:2449841292eb0f3f7b4d8483627eb3c9b7fcba0e5370bd695bbdd8942c951b9d",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.156/pulsia-test-pack.zip",
+          "created_at": "2026-11-20T04:31:37Z",
+          "updated_at": "2026-11-20T04:31:38Z"
         }
       ]
     },
@@ -1138,22 +1206,22 @@
       "updated_at": "2026-11-20T07:26:15Z",
       "assets": [
         {
-          "id": 770881762,
-          "name": "pulsia-plugin-acp-workbench.zip",
-          "state": "uploaded",
-          "size": 19442,
-          "digest": "sha256:0706ced4cd950a954fca3941923c6a3afb6aee45a2260c995f0f80813524e43e",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.workbench%401.1.128/pulsia-plugin-acp-workbench.zip",
-          "created_at": "2026-11-20T07:26:14Z",
-          "updated_at": "2026-11-20T07:26:14Z"
-        },
-        {
           "id": 770881757,
           "name": "pulsia-plugin-acp-workbench.zip.sha256",
           "state": "uploaded",
           "size": 98,
           "digest": "sha256:677e8c8f22a583a2bb9133678b3c278a172447cf4bd896688ffb479e131dcdf0",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.workbench%401.1.128/pulsia-plugin-acp-workbench.zip.sha256",
+          "created_at": "2026-11-20T07:26:14Z",
+          "updated_at": "2026-11-20T07:26:14Z"
+        },
+        {
+          "id": 770881762,
+          "name": "pulsia-plugin-acp-workbench.zip",
+          "state": "uploaded",
+          "size": 19442,
+          "digest": "sha256:0706ced4cd950a954fca3941923c6a3afb6aee45a2260c995f0f80813524e43e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.workbench%401.1.128/pulsia-plugin-acp-workbench.zip",
           "created_at": "2026-11-20T07:26:14Z",
           "updated_at": "2026-11-20T07:26:14Z"
         }
@@ -1206,16 +1274,6 @@
       "updated_at": "2026-11-19T12:18:49Z",
       "assets": [
         {
-          "id": 767580351,
-          "name": "plugin-store.zip",
-          "state": "uploaded",
-          "size": 57284,
-          "digest": "sha256:ac5a6963cfff6960ddf07a81f70fcd1afc74219154bafc291afbf4445e24d477",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.ui.plugin-store%400.1.107/plugin-store.zip",
-          "created_at": "2026-11-19T12:18:47Z",
-          "updated_at": "2026-11-19T12:18:48Z"
-        },
-        {
           "id": 767580350,
           "name": "plugin-store.zip.sha256",
           "state": "uploaded",
@@ -1224,6 +1282,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.ui.plugin-store%400.1.107/plugin-store.zip.sha256",
           "created_at": "2026-11-19T12:18:47Z",
           "updated_at": "2026-11-19T12:18:47Z"
+        },
+        {
+          "id": 767580351,
+          "name": "plugin-store.zip",
+          "state": "uploaded",
+          "size": 57284,
+          "digest": "sha256:ac5a6963cfff6960ddf07a81f70fcd1afc74219154bafc291afbf4445e24d477",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.ui.plugin-store%400.1.107/plugin-store.zip",
+          "created_at": "2026-11-19T12:18:47Z",
+          "updated_at": "2026-11-19T12:18:48Z"
         }
       ]
     },
@@ -1308,22 +1376,22 @@
       "updated_at": "2026-11-19T04:24:52Z",
       "assets": [
         {
-          "id": 766204032,
-          "name": "plugin-store.zip",
-          "state": "uploaded",
-          "size": 38323,
-          "digest": "sha256:149ce24de6eccc893b5e088fc0a3705e6c6db77cb60c9225213b40d1528d31c8",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.ui.plugin-store%400.1.104/plugin-store.zip",
-          "created_at": "2026-11-19T04:24:51Z",
-          "updated_at": "2026-11-19T04:24:51Z"
-        },
-        {
           "id": 766204028,
           "name": "plugin-store.zip.sha256",
           "state": "uploaded",
           "size": 83,
           "digest": "sha256:5def0d19768df307fce5d12167091ecea0e682f64d4b1d8b35bb957802a9dfff",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.ui.plugin-store%400.1.104/plugin-store.zip.sha256",
+          "created_at": "2026-11-19T04:24:51Z",
+          "updated_at": "2026-11-19T04:24:51Z"
+        },
+        {
+          "id": 766204032,
+          "name": "plugin-store.zip",
+          "state": "uploaded",
+          "size": 38323,
+          "digest": "sha256:149ce24de6eccc893b5e088fc0a3705e6c6db77cb60c9225213b40d1528d31c8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.ui.plugin-store%400.1.104/plugin-store.zip",
           "created_at": "2026-11-19T04:24:51Z",
           "updated_at": "2026-11-19T04:24:51Z"
         }
@@ -1342,22 +1410,22 @@
       "updated_at": "2026-11-19T02:11:41Z",
       "assets": [
         {
-          "id": 765850042,
-          "name": "plugin-store.zip",
-          "state": "uploaded",
-          "size": 32893,
-          "digest": "sha256:54fcb559093d255baa6180acf2769dc7fb98066629efd68a1784e40acc062d38",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.ui.plugin-store%400.1.103/plugin-store.zip",
-          "created_at": "2026-11-19T02:11:40Z",
-          "updated_at": "2026-11-19T02:11:40Z"
-        },
-        {
           "id": 765850041,
           "name": "plugin-store.zip.sha256",
           "state": "uploaded",
           "size": 83,
           "digest": "sha256:0a060eb95626e978d6f5ca1ec8526e5b025997598512e5b9eada49c2376ffbd1",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.ui.plugin-store%400.1.103/plugin-store.zip.sha256",
+          "created_at": "2026-11-19T02:11:40Z",
+          "updated_at": "2026-11-19T02:11:40Z"
+        },
+        {
+          "id": 765850042,
+          "name": "plugin-store.zip",
+          "state": "uploaded",
+          "size": 32893,
+          "digest": "sha256:54fcb559093d255baa6180acf2769dc7fb98066629efd68a1784e40acc062d38",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.ui.plugin-store%400.1.103/plugin-store.zip",
           "created_at": "2026-11-19T02:11:40Z",
           "updated_at": "2026-11-19T02:11:40Z"
         }
@@ -1376,16 +1444,6 @@
       "updated_at": "2026-11-19T01:30:29Z",
       "assets": [
         {
-          "id": 765739002,
-          "name": "plugin-store.zip",
-          "state": "uploaded",
-          "size": 29397,
-          "digest": "sha256:e418499c0de2344c3fdde3526bb3226e0cfe274ce8c388debb602b89f1dc0b7e",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.ui.plugin-store%400.1.102/plugin-store.zip",
-          "created_at": "2026-11-19T01:29:56Z",
-          "updated_at": "2026-11-19T01:29:56Z"
-        },
-        {
           "id": 765738985,
           "name": "plugin-store.zip.sha256",
           "state": "uploaded",
@@ -1393,6 +1451,16 @@
           "digest": "sha256:33a595e32f87596ecb7377ff66789c7372922c7d51d0c3924cb2daf9930bb64d",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.ui.plugin-store%400.1.102/plugin-store.zip.sha256",
           "created_at": "2026-11-19T01:29:55Z",
+          "updated_at": "2026-11-19T01:29:56Z"
+        },
+        {
+          "id": 765739002,
+          "name": "plugin-store.zip",
+          "state": "uploaded",
+          "size": 29397,
+          "digest": "sha256:e418499c0de2344c3fdde3526bb3226e0cfe274ce8c388debb602b89f1dc0b7e",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.ui.plugin-store%400.1.102/plugin-store.zip",
+          "created_at": "2026-11-19T01:29:56Z",
           "updated_at": "2026-11-19T01:29:56Z"
         }
       ]
@@ -1478,22 +1546,22 @@
       "updated_at": "2026-11-19T13:51:19Z",
       "assets": [
         {
-          "id": 767862204,
-          "name": "pulsia-remote-pack.zip",
-          "state": "uploaded",
-          "size": 1054,
-          "digest": "sha256:556080d27f4600d5d85a543edb15fb0aea7a7d0cbf41507f37127bec7e03f5a8",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote%400.1.108/pulsia-remote-pack.zip",
-          "created_at": "2026-11-19T13:47:30Z",
-          "updated_at": "2026-11-19T13:47:30Z"
-        },
-        {
           "id": 767862185,
           "name": "pulsia-remote-pack.zip.sha256",
           "state": "uploaded",
           "size": 89,
           "digest": "sha256:40a2561faed5f0c593dcb8e45e22466bf0fce7aed75e4b868926b9ae6c5f8b0b",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote%400.1.108/pulsia-remote-pack.zip.sha256",
+          "created_at": "2026-11-19T13:47:30Z",
+          "updated_at": "2026-11-19T13:47:30Z"
+        },
+        {
+          "id": 767862204,
+          "name": "pulsia-remote-pack.zip",
+          "state": "uploaded",
+          "size": 1054,
+          "digest": "sha256:556080d27f4600d5d85a543edb15fb0aea7a7d0cbf41507f37127bec7e03f5a8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote%400.1.108/pulsia-remote-pack.zip",
           "created_at": "2026-11-19T13:47:30Z",
           "updated_at": "2026-11-19T13:47:30Z"
         }
@@ -1580,22 +1648,22 @@
       "updated_at": "2026-11-19T15:19:29Z",
       "assets": [
         {
-          "id": 768179783,
-          "name": "pulsia-remote-workbench.zip",
-          "state": "uploaded",
-          "size": 28158,
-          "digest": "sha256:e97488aa753285811aa05c6e439166617006d76acab33eb674792c8d395c3c33",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.108/pulsia-remote-workbench.zip",
-          "created_at": "2026-11-19T15:19:28Z",
-          "updated_at": "2026-11-19T15:19:28Z"
-        },
-        {
           "id": 768179782,
           "name": "pulsia-remote-workbench.zip.sha256",
           "state": "uploaded",
           "size": 94,
           "digest": "sha256:63fcb828dd4f1605542d93e9ca1be67f75be88a5ba5906b67a7d2831fa771fdf",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.108/pulsia-remote-workbench.zip.sha256",
+          "created_at": "2026-11-19T15:19:28Z",
+          "updated_at": "2026-11-19T15:19:28Z"
+        },
+        {
+          "id": 768179783,
+          "name": "pulsia-remote-workbench.zip",
+          "state": "uploaded",
+          "size": 28158,
+          "digest": "sha256:e97488aa753285811aa05c6e439166617006d76acab33eb674792c8d395c3c33",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.108/pulsia-remote-workbench.zip",
           "created_at": "2026-11-19T15:19:28Z",
           "updated_at": "2026-11-19T15:19:28Z"
         }
@@ -1648,22 +1716,22 @@
       "updated_at": "2026-11-19T09:01:13Z",
       "assets": [
         {
-          "id": 766964481,
-          "name": "pulsia-remote-workbench.zip",
-          "state": "uploaded",
-          "size": 23143,
-          "digest": "sha256:3874064f930d661855da32aaeb7cd09b3a5a249eb325a40cad28e57fa4cb9250",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.106/pulsia-remote-workbench.zip",
-          "created_at": "2026-11-19T09:01:12Z",
-          "updated_at": "2026-11-19T09:01:12Z"
-        },
-        {
           "id": 766964479,
           "name": "pulsia-remote-workbench.zip.sha256",
           "state": "uploaded",
           "size": 94,
           "digest": "sha256:df54d3d9fb1e2e7e7de019da6bbd468ce77ca1f9b4824bb78ca41951adec8b63",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.106/pulsia-remote-workbench.zip.sha256",
+          "created_at": "2026-11-19T09:01:12Z",
+          "updated_at": "2026-11-19T09:01:12Z"
+        },
+        {
+          "id": 766964481,
+          "name": "pulsia-remote-workbench.zip",
+          "state": "uploaded",
+          "size": 23143,
+          "digest": "sha256:3874064f930d661855da32aaeb7cd09b3a5a249eb325a40cad28e57fa4cb9250",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.106/pulsia-remote-workbench.zip",
           "created_at": "2026-11-19T09:01:12Z",
           "updated_at": "2026-11-19T09:01:12Z"
         }
@@ -1682,22 +1750,22 @@
       "updated_at": "2026-11-19T08:41:30Z",
       "assets": [
         {
-          "id": 766906986,
-          "name": "pulsia-remote-workbench.zip",
-          "state": "uploaded",
-          "size": 22408,
-          "digest": "sha256:2116f1cf928e55f4832f75086b38126d985a1ad4f2e9ef691f59c1afaa777dc7",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.105/pulsia-remote-workbench.zip",
-          "created_at": "2026-11-19T08:41:28Z",
-          "updated_at": "2026-11-19T08:41:29Z"
-        },
-        {
           "id": 766906982,
           "name": "pulsia-remote-workbench.zip.sha256",
           "state": "uploaded",
           "size": 94,
           "digest": "sha256:8daac28d33e3ba4c8e60c15b944a0af88b432d1215e021eca6168e8757575b51",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.105/pulsia-remote-workbench.zip.sha256",
+          "created_at": "2026-11-19T08:41:28Z",
+          "updated_at": "2026-11-19T08:41:29Z"
+        },
+        {
+          "id": 766906986,
+          "name": "pulsia-remote-workbench.zip",
+          "state": "uploaded",
+          "size": 22408,
+          "digest": "sha256:2116f1cf928e55f4832f75086b38126d985a1ad4f2e9ef691f59c1afaa777dc7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.105/pulsia-remote-workbench.zip",
           "created_at": "2026-11-19T08:41:28Z",
           "updated_at": "2026-11-19T08:41:29Z"
         }
@@ -1784,22 +1852,22 @@
       "updated_at": "2026-11-19T13:51:14Z",
       "assets": [
         {
-          "id": 767861860,
-          "name": "pulsia-remote-runtime.zip",
-          "state": "uploaded",
-          "size": 31833,
-          "digest": "sha256:8dbe5cc79c784966c130d9b60c79ceafca162508d149ebe879366377036d6458",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.107/pulsia-remote-runtime.zip",
-          "created_at": "2026-11-19T13:47:24Z",
-          "updated_at": "2026-11-19T13:47:24Z"
-        },
-        {
           "id": 767861857,
           "name": "pulsia-remote-runtime.zip.sha256",
           "state": "uploaded",
           "size": 92,
           "digest": "sha256:6949578d7ef833b26e0ac1fd284fdf6871ec87b239f5dcd03a1391900c1c494f",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.107/pulsia-remote-runtime.zip.sha256",
+          "created_at": "2026-11-19T13:47:24Z",
+          "updated_at": "2026-11-19T13:47:24Z"
+        },
+        {
+          "id": 767861860,
+          "name": "pulsia-remote-runtime.zip",
+          "state": "uploaded",
+          "size": 31833,
+          "digest": "sha256:8dbe5cc79c784966c130d9b60c79ceafca162508d149ebe879366377036d6458",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.107/pulsia-remote-runtime.zip",
           "created_at": "2026-11-19T13:47:24Z",
           "updated_at": "2026-11-19T13:47:24Z"
         }
@@ -1818,16 +1886,6 @@
       "updated_at": "2026-11-19T08:55:13Z",
       "assets": [
         {
-          "id": 766946110,
-          "name": "pulsia-remote-runtime.zip",
-          "state": "uploaded",
-          "size": 30335,
-          "digest": "sha256:045ec5ee94692333efb39feef8e93d6b78431ac6aa572af9de057fc41d5cf6bb",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.106/pulsia-remote-runtime.zip",
-          "created_at": "2026-11-19T08:55:12Z",
-          "updated_at": "2026-11-19T08:55:13Z"
-        },
-        {
           "id": 766946084,
           "name": "pulsia-remote-runtime.zip.sha256",
           "state": "uploaded",
@@ -1836,6 +1894,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.106/pulsia-remote-runtime.zip.sha256",
           "created_at": "2026-11-19T08:55:12Z",
           "updated_at": "2026-11-19T08:55:12Z"
+        },
+        {
+          "id": 766946110,
+          "name": "pulsia-remote-runtime.zip",
+          "state": "uploaded",
+          "size": 30335,
+          "digest": "sha256:045ec5ee94692333efb39feef8e93d6b78431ac6aa572af9de057fc41d5cf6bb",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.106/pulsia-remote-runtime.zip",
+          "created_at": "2026-11-19T08:55:12Z",
+          "updated_at": "2026-11-19T08:55:13Z"
         }
       ]
     },
@@ -2022,16 +2090,6 @@
       "updated_at": "2026-11-19T12:18:53Z",
       "assets": [
         {
-          "id": 767580548,
-          "name": "pulsia-test-pack.zip",
-          "state": "uploaded",
-          "size": 1448417,
-          "digest": "sha256:3e68a95e07cc83ae1001b33bebd36fb43b42764906fe7c426e917dd6011aa1a0",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.155/pulsia-test-pack.zip",
-          "created_at": "2026-11-19T12:18:51Z",
-          "updated_at": "2026-11-19T12:18:52Z"
-        },
-        {
           "id": 767580546,
           "name": "pulsia-test-pack.zip.sha256",
           "state": "uploaded",
@@ -2040,6 +2098,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.155/pulsia-test-pack.zip.sha256",
           "created_at": "2026-11-19T12:18:51Z",
           "updated_at": "2026-11-19T12:18:51Z"
+        },
+        {
+          "id": 767580548,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 1448417,
+          "digest": "sha256:3e68a95e07cc83ae1001b33bebd36fb43b42764906fe7c426e917dd6011aa1a0",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.155/pulsia-test-pack.zip",
+          "created_at": "2026-11-19T12:18:51Z",
+          "updated_at": "2026-11-19T12:18:52Z"
         }
       ]
     },
@@ -2056,16 +2124,6 @@
       "updated_at": "2026-11-19T06:15:35Z",
       "assets": [
         {
-          "id": 766493504,
-          "name": "pulsia-test-pack.zip",
-          "state": "uploaded",
-          "size": 1448046,
-          "digest": "sha256:1568fc39dd4969a9971aad8594236bd8f24e0845851bed4a4da8ec4478dfd38a",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.154/pulsia-test-pack.zip",
-          "created_at": "2026-11-19T06:15:33Z",
-          "updated_at": "2026-11-19T06:15:34Z"
-        },
-        {
           "id": 766493502,
           "name": "pulsia-test-pack.zip.sha256",
           "state": "uploaded",
@@ -2074,6 +2132,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.154/pulsia-test-pack.zip.sha256",
           "created_at": "2026-11-19T06:15:33Z",
           "updated_at": "2026-11-19T06:15:33Z"
+        },
+        {
+          "id": 766493504,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 1448046,
+          "digest": "sha256:1568fc39dd4969a9971aad8594236bd8f24e0845851bed4a4da8ec4478dfd38a",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.154/pulsia-test-pack.zip",
+          "created_at": "2026-11-19T06:15:33Z",
+          "updated_at": "2026-11-19T06:15:34Z"
         }
       ]
     },
@@ -2158,16 +2226,6 @@
       "updated_at": "2026-11-19T02:11:47Z",
       "assets": [
         {
-          "id": 765850251,
-          "name": "pulsia-test-pack.zip",
-          "state": "uploaded",
-          "size": 1427298,
-          "digest": "sha256:6ba9631d791ee918a13ef07c1b2bde4d3048c778d0fa727285be36ba84cf39ea",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.151/pulsia-test-pack.zip",
-          "created_at": "2026-11-19T02:11:45Z",
-          "updated_at": "2026-11-19T02:11:46Z"
-        },
-        {
           "id": 765850219,
           "name": "pulsia-test-pack.zip.sha256",
           "state": "uploaded",
@@ -2176,6 +2234,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.151/pulsia-test-pack.zip.sha256",
           "created_at": "2026-11-19T02:11:45Z",
           "updated_at": "2026-11-19T02:11:45Z"
+        },
+        {
+          "id": 765850251,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 1427298,
+          "digest": "sha256:6ba9631d791ee918a13ef07c1b2bde4d3048c778d0fa727285be36ba84cf39ea",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.151/pulsia-test-pack.zip",
+          "created_at": "2026-11-19T02:11:45Z",
+          "updated_at": "2026-11-19T02:11:46Z"
         }
       ]
     },
@@ -2294,22 +2362,22 @@
       "updated_at": "2026-11-18T15:12:27Z",
       "assets": [
         {
-          "id": 763858437,
-          "name": "pulsia-remote-pack.zip",
-          "state": "uploaded",
-          "size": 960,
-          "digest": "sha256:b30c0f43cefd327932c430e0ec2690d7d5b0068337bd4aa34e06edbcb37832dd",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote%400.1.104/pulsia-remote-pack.zip",
-          "created_at": "2026-11-18T15:12:26Z",
-          "updated_at": "2026-11-18T15:12:26Z"
-        },
-        {
           "id": 763858436,
           "name": "pulsia-remote-pack.zip.sha256",
           "state": "uploaded",
           "size": 89,
           "digest": "sha256:2c66e81970f5539eae56d73b2134314a01636b09ad173724bf79075bbd5714ec",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote%400.1.104/pulsia-remote-pack.zip.sha256",
+          "created_at": "2026-11-18T15:12:26Z",
+          "updated_at": "2026-11-18T15:12:26Z"
+        },
+        {
+          "id": 763858437,
+          "name": "pulsia-remote-pack.zip",
+          "state": "uploaded",
+          "size": 960,
+          "digest": "sha256:b30c0f43cefd327932c430e0ec2690d7d5b0068337bd4aa34e06edbcb37832dd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote%400.1.104/pulsia-remote-pack.zip",
           "created_at": "2026-11-18T15:12:26Z",
           "updated_at": "2026-11-18T15:12:26Z"
         }
@@ -2328,22 +2396,22 @@
       "updated_at": "2026-11-18T14:46:02Z",
       "assets": [
         {
-          "id": 763770516,
-          "name": "pulsia-remote-pack.zip",
-          "state": "uploaded",
-          "size": 960,
-          "digest": "sha256:a9f439eaae84a1cadaa398deef938db37255a8ea634c727ce03c5ee981da5049",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote%400.1.103/pulsia-remote-pack.zip",
-          "created_at": "2026-11-18T14:46:01Z",
-          "updated_at": "2026-11-18T14:46:01Z"
-        },
-        {
           "id": 763770515,
           "name": "pulsia-remote-pack.zip.sha256",
           "state": "uploaded",
           "size": 89,
           "digest": "sha256:c7233d97eb494dd9d2ece4633cd4f957d1db58aa6c62188ee22ad186d9fd750c",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote%400.1.103/pulsia-remote-pack.zip.sha256",
+          "created_at": "2026-11-18T14:46:01Z",
+          "updated_at": "2026-11-18T14:46:01Z"
+        },
+        {
+          "id": 763770516,
+          "name": "pulsia-remote-pack.zip",
+          "state": "uploaded",
+          "size": 960,
+          "digest": "sha256:a9f439eaae84a1cadaa398deef938db37255a8ea634c727ce03c5ee981da5049",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote%400.1.103/pulsia-remote-pack.zip",
           "created_at": "2026-11-18T14:46:01Z",
           "updated_at": "2026-11-18T14:46:01Z"
         }
@@ -2430,22 +2498,22 @@
       "updated_at": "2026-11-18T15:09:45Z",
       "assets": [
         {
-          "id": 763848810,
-          "name": "pulsia-remote-workbench.zip",
-          "state": "uploaded",
-          "size": 18433,
-          "digest": "sha256:0e99777cdb05623b146ff5d925c6e58fda9ed34482a4bbbf24f0c61b7ecfd740",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.104/pulsia-remote-workbench.zip",
-          "created_at": "2026-11-18T15:09:44Z",
-          "updated_at": "2026-11-18T15:09:44Z"
-        },
-        {
           "id": 763848809,
           "name": "pulsia-remote-workbench.zip.sha256",
           "state": "uploaded",
           "size": 94,
           "digest": "sha256:7afb51ec475df810a120f9176e229d4fb872f2d631c6bbee317cbfa86feaa5fd",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.104/pulsia-remote-workbench.zip.sha256",
+          "created_at": "2026-11-18T15:09:44Z",
+          "updated_at": "2026-11-18T15:09:44Z"
+        },
+        {
+          "id": 763848810,
+          "name": "pulsia-remote-workbench.zip",
+          "state": "uploaded",
+          "size": 18433,
+          "digest": "sha256:0e99777cdb05623b146ff5d925c6e58fda9ed34482a4bbbf24f0c61b7ecfd740",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.104/pulsia-remote-workbench.zip",
           "created_at": "2026-11-18T15:09:44Z",
           "updated_at": "2026-11-18T15:09:44Z"
         }
@@ -2464,16 +2532,6 @@
       "updated_at": "2026-11-18T14:45:58Z",
       "assets": [
         {
-          "id": 763770238,
-          "name": "pulsia-remote-workbench.zip",
-          "state": "uploaded",
-          "size": 16047,
-          "digest": "sha256:4c064e0179662d52bfb3591cde35b7dbc2528210be2787462d714ec373573374",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.103/pulsia-remote-workbench.zip",
-          "created_at": "2026-11-18T14:45:57Z",
-          "updated_at": "2026-11-18T14:45:57Z"
-        },
-        {
           "id": 763770237,
           "name": "pulsia-remote-workbench.zip.sha256",
           "state": "uploaded",
@@ -2482,6 +2540,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.103/pulsia-remote-workbench.zip.sha256",
           "created_at": "2026-11-18T14:45:57Z",
           "updated_at": "2026-11-18T14:45:58Z"
+        },
+        {
+          "id": 763770238,
+          "name": "pulsia-remote-workbench.zip",
+          "state": "uploaded",
+          "size": 16047,
+          "digest": "sha256:4c064e0179662d52bfb3591cde35b7dbc2528210be2787462d714ec373573374",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.103/pulsia-remote-workbench.zip",
+          "created_at": "2026-11-18T14:45:57Z",
+          "updated_at": "2026-11-18T14:45:57Z"
         }
       ]
     },
@@ -2498,22 +2566,22 @@
       "updated_at": "2026-11-18T13:02:07Z",
       "assets": [
         {
-          "id": 763429280,
-          "name": "pulsia-remote-workbench.zip",
-          "state": "uploaded",
-          "size": 14168,
-          "digest": "sha256:eaf48045ccd7c7ceaa464c7a155a8544266e0f9b51c4ae2f2f11aa36510438ee",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.102/pulsia-remote-workbench.zip",
-          "created_at": "2026-11-18T13:02:06Z",
-          "updated_at": "2026-11-18T13:02:06Z"
-        },
-        {
           "id": 763429271,
           "name": "pulsia-remote-workbench.zip.sha256",
           "state": "uploaded",
           "size": 94,
           "digest": "sha256:0014df9a765c30bdd73b4e6cd13921666a71cae02f46ea13c45cccc983e327a9",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.102/pulsia-remote-workbench.zip.sha256",
+          "created_at": "2026-11-18T13:02:06Z",
+          "updated_at": "2026-11-18T13:02:06Z"
+        },
+        {
+          "id": 763429280,
+          "name": "pulsia-remote-workbench.zip",
+          "state": "uploaded",
+          "size": 14168,
+          "digest": "sha256:eaf48045ccd7c7ceaa464c7a155a8544266e0f9b51c4ae2f2f11aa36510438ee",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.102/pulsia-remote-workbench.zip",
           "created_at": "2026-11-18T13:02:06Z",
           "updated_at": "2026-11-18T13:02:06Z"
         }
@@ -2532,22 +2600,22 @@
       "updated_at": "2026-11-18T12:23:20Z",
       "assets": [
         {
-          "id": 763294644,
-          "name": "pulsia-remote-workbench.zip",
-          "state": "uploaded",
-          "size": 14146,
-          "digest": "sha256:5f09e7ef61030f04507a2df41da2bbd4ffe832af334424e9e22982d24230efa7",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.101/pulsia-remote-workbench.zip",
-          "created_at": "2026-11-18T12:19:02Z",
-          "updated_at": "2026-11-18T12:19:02Z"
-        },
-        {
           "id": 763294640,
           "name": "pulsia-remote-workbench.zip.sha256",
           "state": "uploaded",
           "size": 94,
           "digest": "sha256:ffc057a6340e60f1ad0255ab5e02d6a094c81664ea0121d7ef7a1b9121488158",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.101/pulsia-remote-workbench.zip.sha256",
+          "created_at": "2026-11-18T12:19:02Z",
+          "updated_at": "2026-11-18T12:19:02Z"
+        },
+        {
+          "id": 763294644,
+          "name": "pulsia-remote-workbench.zip",
+          "state": "uploaded",
+          "size": 14146,
+          "digest": "sha256:5f09e7ef61030f04507a2df41da2bbd4ffe832af334424e9e22982d24230efa7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.101/pulsia-remote-workbench.zip",
           "created_at": "2026-11-18T12:19:02Z",
           "updated_at": "2026-11-18T12:19:02Z"
         }
@@ -2566,22 +2634,22 @@
       "updated_at": "2026-11-18T14:29:02Z",
       "assets": [
         {
-          "id": 763709509,
-          "name": "pulsia-remote-web-connector.zip",
-          "state": "uploaded",
-          "size": 10577,
-          "digest": "sha256:6fcce5414d04e4da553b27c0ed57589536627dd5e56ba811f54b627146fb9979",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.web-connector%400.1.102/pulsia-remote-web-connector.zip",
-          "created_at": "2026-11-18T14:29:01Z",
-          "updated_at": "2026-11-18T14:29:01Z"
-        },
-        {
           "id": 763709504,
           "name": "pulsia-remote-web-connector.zip.sha256",
           "state": "uploaded",
           "size": 98,
           "digest": "sha256:c2e3639d85cf22f4c228408ee9a7065ae3be93946098c9344479e9110aeda0d1",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.web-connector%400.1.102/pulsia-remote-web-connector.zip.sha256",
+          "created_at": "2026-11-18T14:29:01Z",
+          "updated_at": "2026-11-18T14:29:01Z"
+        },
+        {
+          "id": 763709509,
+          "name": "pulsia-remote-web-connector.zip",
+          "state": "uploaded",
+          "size": 10577,
+          "digest": "sha256:6fcce5414d04e4da553b27c0ed57589536627dd5e56ba811f54b627146fb9979",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.web-connector%400.1.102/pulsia-remote-web-connector.zip",
           "created_at": "2026-11-18T14:29:01Z",
           "updated_at": "2026-11-18T14:29:01Z"
         }
@@ -2634,16 +2702,6 @@
       "updated_at": "2026-11-18T15:19:11Z",
       "assets": [
         {
-          "id": 763881250,
-          "name": "pulsia-remote-runtime.zip",
-          "state": "uploaded",
-          "size": 28354,
-          "digest": "sha256:a68bdbcf7bcc97ce70e3d00d1b152b0a46d8371f420bbe08d82dbf9ac703c540",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.105/pulsia-remote-runtime.zip",
-          "created_at": "2026-11-18T15:19:10Z",
-          "updated_at": "2026-11-18T15:19:11Z"
-        },
-        {
           "id": 763881243,
           "name": "pulsia-remote-runtime.zip.sha256",
           "state": "uploaded",
@@ -2652,6 +2710,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.105/pulsia-remote-runtime.zip.sha256",
           "created_at": "2026-11-18T15:19:10Z",
           "updated_at": "2026-11-18T15:19:10Z"
+        },
+        {
+          "id": 763881250,
+          "name": "pulsia-remote-runtime.zip",
+          "state": "uploaded",
+          "size": 28354,
+          "digest": "sha256:a68bdbcf7bcc97ce70e3d00d1b152b0a46d8371f420bbe08d82dbf9ac703c540",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.105/pulsia-remote-runtime.zip",
+          "created_at": "2026-11-18T15:19:10Z",
+          "updated_at": "2026-11-18T15:19:11Z"
         }
       ]
     },
@@ -2668,22 +2736,22 @@
       "updated_at": "2026-11-18T15:12:24Z",
       "assets": [
         {
-          "id": 763858198,
-          "name": "pulsia-remote-runtime.zip",
-          "state": "uploaded",
-          "size": 28130,
-          "digest": "sha256:ef1745d1af60a4e09111c6ff55bb6db6512cd0d55bea2598d6d154d85922d897",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.104/pulsia-remote-runtime.zip",
-          "created_at": "2026-11-18T15:12:23Z",
-          "updated_at": "2026-11-18T15:12:23Z"
-        },
-        {
           "id": 763858194,
           "name": "pulsia-remote-runtime.zip.sha256",
           "state": "uploaded",
           "size": 92,
           "digest": "sha256:b9b4bf9a482110ec6376f980934ad748e3f5179258e71c35a62f36907fda964d",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.104/pulsia-remote-runtime.zip.sha256",
+          "created_at": "2026-11-18T15:12:23Z",
+          "updated_at": "2026-11-18T15:12:23Z"
+        },
+        {
+          "id": 763858198,
+          "name": "pulsia-remote-runtime.zip",
+          "state": "uploaded",
+          "size": 28130,
+          "digest": "sha256:ef1745d1af60a4e09111c6ff55bb6db6512cd0d55bea2598d6d154d85922d897",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.104/pulsia-remote-runtime.zip",
           "created_at": "2026-11-18T15:12:23Z",
           "updated_at": "2026-11-18T15:12:23Z"
         }
@@ -2702,22 +2770,22 @@
       "updated_at": "2026-11-18T14:45:55Z",
       "assets": [
         {
-          "id": 763769987,
-          "name": "pulsia-remote-runtime.zip",
-          "state": "uploaded",
-          "size": 27885,
-          "digest": "sha256:6a4c3a9e9e23761a313350de6b63b2c11693b0e3558f5cffc6eae845ea7b17a9",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.103/pulsia-remote-runtime.zip",
-          "created_at": "2026-11-18T14:45:53Z",
-          "updated_at": "2026-11-18T14:45:53Z"
-        },
-        {
           "id": 763769982,
           "name": "pulsia-remote-runtime.zip.sha256",
           "state": "uploaded",
           "size": 92,
           "digest": "sha256:374406bcc5490f7f6420dabb096a8c25eb5e486e4585b84b000fbcd732d61891",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.103/pulsia-remote-runtime.zip.sha256",
+          "created_at": "2026-11-18T14:45:53Z",
+          "updated_at": "2026-11-18T14:45:53Z"
+        },
+        {
+          "id": 763769987,
+          "name": "pulsia-remote-runtime.zip",
+          "state": "uploaded",
+          "size": 27885,
+          "digest": "sha256:6a4c3a9e9e23761a313350de6b63b2c11693b0e3558f5cffc6eae845ea7b17a9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.103/pulsia-remote-runtime.zip",
           "created_at": "2026-11-18T14:45:53Z",
           "updated_at": "2026-11-18T14:45:53Z"
         }
@@ -2736,22 +2804,22 @@
       "updated_at": "2026-11-18T13:02:04Z",
       "assets": [
         {
-          "id": 763429097,
-          "name": "pulsia-remote-runtime.zip",
-          "state": "uploaded",
-          "size": 22414,
-          "digest": "sha256:35742775b83f5c8908678e19ef1cf5a7fee1512e29aa0381089d0ab8464050c7",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.102/pulsia-remote-runtime.zip",
-          "created_at": "2026-11-18T13:02:02Z",
-          "updated_at": "2026-11-18T13:02:03Z"
-        },
-        {
           "id": 763429095,
           "name": "pulsia-remote-runtime.zip.sha256",
           "state": "uploaded",
           "size": 92,
           "digest": "sha256:7a91a21401d341d242915815e1f18b754a62afa71e044c4d73559e775e2ef778",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.102/pulsia-remote-runtime.zip.sha256",
+          "created_at": "2026-11-18T13:02:02Z",
+          "updated_at": "2026-11-18T13:02:03Z"
+        },
+        {
+          "id": 763429097,
+          "name": "pulsia-remote-runtime.zip",
+          "state": "uploaded",
+          "size": 22414,
+          "digest": "sha256:35742775b83f5c8908678e19ef1cf5a7fee1512e29aa0381089d0ab8464050c7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.runtime%400.1.102/pulsia-remote-runtime.zip",
           "created_at": "2026-11-18T13:02:02Z",
           "updated_at": "2026-11-18T13:02:03Z"
         }
@@ -2804,16 +2872,6 @@
       "updated_at": "2026-11-18T15:24:19Z",
       "assets": [
         {
-          "id": 763899119,
-          "name": "pulsia-acp-common.zip",
-          "state": "uploaded",
-          "size": 1559508,
-          "digest": "sha256:5db55e9f88fa78ce7e13c0f9dcd35aec5c9dd43ca046beddaaad3f774a429ba3",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.143/pulsia-acp-common.zip",
-          "created_at": "2026-11-18T15:24:16Z",
-          "updated_at": "2026-11-18T15:24:18Z"
-        },
-        {
           "id": 763899114,
           "name": "pulsia-acp-common.zip.sha256",
           "state": "uploaded",
@@ -2822,6 +2880,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.143/pulsia-acp-common.zip.sha256",
           "created_at": "2026-11-18T15:24:16Z",
           "updated_at": "2026-11-18T15:24:17Z"
+        },
+        {
+          "id": 763899119,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 1559508,
+          "digest": "sha256:5db55e9f88fa78ce7e13c0f9dcd35aec5c9dd43ca046beddaaad3f774a429ba3",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.143/pulsia-acp-common.zip",
+          "created_at": "2026-11-18T15:24:16Z",
+          "updated_at": "2026-11-18T15:24:18Z"
         }
       ]
     },
@@ -2872,16 +2940,6 @@
       "updated_at": "2026-11-18T14:43:50Z",
       "assets": [
         {
-          "id": 763763123,
-          "name": "pulsia-acp-common.zip",
-          "state": "uploaded",
-          "size": 1559587,
-          "digest": "sha256:c68ffd6b97f87db6b493ff3257c8c46d53213192ec206911cae2acc53bc1f1a2",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.141/pulsia-acp-common.zip",
-          "created_at": "2026-11-18T14:43:48Z",
-          "updated_at": "2026-11-18T14:43:49Z"
-        },
-        {
           "id": 763763122,
           "name": "pulsia-acp-common.zip.sha256",
           "state": "uploaded",
@@ -2890,6 +2948,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.141/pulsia-acp-common.zip.sha256",
           "created_at": "2026-11-18T14:43:48Z",
           "updated_at": "2026-11-18T14:43:48Z"
+        },
+        {
+          "id": 763763123,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 1559587,
+          "digest": "sha256:c68ffd6b97f87db6b493ff3257c8c46d53213192ec206911cae2acc53bc1f1a2",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.141/pulsia-acp-common.zip",
+          "created_at": "2026-11-18T14:43:48Z",
+          "updated_at": "2026-11-18T14:43:49Z"
         }
       ]
     },
@@ -2906,16 +2974,6 @@
       "updated_at": "2026-11-18T14:35:37Z",
       "assets": [
         {
-          "id": 763733346,
-          "name": "pulsia-acp-common.zip",
-          "state": "uploaded",
-          "size": 1558992,
-          "digest": "sha256:1d8e4c15ecee490d8db35a40e42c56d41d33e0a145cea8aa7ae62e03c96f1cc8",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.140/pulsia-acp-common.zip",
-          "created_at": "2026-11-18T14:35:35Z",
-          "updated_at": "2026-11-18T14:35:36Z"
-        },
-        {
           "id": 763733317,
           "name": "pulsia-acp-common.zip.sha256",
           "state": "uploaded",
@@ -2924,6 +2982,16 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.140/pulsia-acp-common.zip.sha256",
           "created_at": "2026-11-18T14:35:34Z",
           "updated_at": "2026-11-18T14:35:34Z"
+        },
+        {
+          "id": 763733346,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 1558992,
+          "digest": "sha256:1d8e4c15ecee490d8db35a40e42c56d41d33e0a145cea8aa7ae62e03c96f1cc8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.140/pulsia-acp-common.zip",
+          "created_at": "2026-11-18T14:35:35Z",
+          "updated_at": "2026-11-18T14:35:36Z"
         }
       ]
     },
@@ -2940,22 +3008,22 @@
       "updated_at": "2026-11-18T14:17:19Z",
       "assets": [
         {
-          "id": 763671837,
-          "name": "pulsia-login.zip",
-          "state": "uploaded",
-          "size": 45911,
-          "digest": "sha256:5eb8056fd5cbd5aa9b80b9d4efef5d684ce0b00b938bf0cfe7645a1c01299c1f",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.account.login%400.1.107/pulsia-login.zip",
-          "created_at": "2026-11-18T14:17:17Z",
-          "updated_at": "2026-11-18T14:17:18Z"
-        },
-        {
           "id": 763671834,
           "name": "pulsia-login.zip.sha256",
           "state": "uploaded",
           "size": 83,
           "digest": "sha256:e2f77dc1965826804e4c15e4988df0b9f1885afde93c295c7269ab733ed05df7",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.account.login%400.1.107/pulsia-login.zip.sha256",
+          "created_at": "2026-11-18T14:17:17Z",
+          "updated_at": "2026-11-18T14:17:18Z"
+        },
+        {
+          "id": 763671837,
+          "name": "pulsia-login.zip",
+          "state": "uploaded",
+          "size": 45911,
+          "digest": "sha256:5eb8056fd5cbd5aa9b80b9d4efef5d684ce0b00b938bf0cfe7645a1c01299c1f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.account.login%400.1.107/pulsia-login.zip",
           "created_at": "2026-11-18T14:17:17Z",
           "updated_at": "2026-11-18T14:17:18Z"
         }
@@ -2974,22 +3042,22 @@
       "updated_at": "2026-11-18T12:23:14Z",
       "assets": [
         {
-          "id": 763294642,
-          "name": "pulsia-login.zip",
-          "state": "uploaded",
-          "size": 44301,
-          "digest": "sha256:5effd3a8d508f860d31d282c0278fdaf107603a2f53fbceb6b6eda6c61a54230",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.account.login%400.1.106/pulsia-login.zip",
-          "created_at": "2026-11-18T12:19:02Z",
-          "updated_at": "2026-11-18T12:19:02Z"
-        },
-        {
           "id": 763294641,
           "name": "pulsia-login.zip.sha256",
           "state": "uploaded",
           "size": 83,
           "digest": "sha256:eb65d7ae34bba3ac571687543c1ec79e44762da99bd03f5621977f6dc5fde416",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.account.login%400.1.106/pulsia-login.zip.sha256",
+          "created_at": "2026-11-18T12:19:02Z",
+          "updated_at": "2026-11-18T12:19:02Z"
+        },
+        {
+          "id": 763294642,
+          "name": "pulsia-login.zip",
+          "state": "uploaded",
+          "size": 44301,
+          "digest": "sha256:5effd3a8d508f860d31d282c0278fdaf107603a2f53fbceb6b6eda6c61a54230",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.account.login%400.1.106/pulsia-login.zip",
           "created_at": "2026-11-18T12:19:02Z",
           "updated_at": "2026-11-18T12:19:02Z"
         }
@@ -3008,16 +3076,6 @@
       "updated_at": "2026-11-19T01:03:54Z",
       "assets": [
         {
-          "id": 765636331,
-          "name": "pulsia-test-pack.zip",
-          "state": "uploaded",
-          "size": 1405861,
-          "digest": "sha256:e117529208496ab8a7b464507fb0e178b4811dd40bfa1cc1fbd703f66aaf0e92",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.149/pulsia-test-pack.zip",
-          "created_at": "2026-11-19T00:49:48Z",
-          "updated_at": "2026-11-19T00:49:48Z"
-        },
-        {
           "id": 765636329,
           "name": "pulsia-test-pack.zip.sha256",
           "state": "uploaded",
@@ -3025,6 +3083,16 @@
           "digest": "sha256:f3c86b23b9e5a0044cf9518ba1544d52d432ba62b35074fae93f41720d38b466",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.149/pulsia-test-pack.zip.sha256",
           "created_at": "2026-11-19T00:49:47Z",
+          "updated_at": "2026-11-19T00:49:48Z"
+        },
+        {
+          "id": 765636331,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 1405861,
+          "digest": "sha256:e117529208496ab8a7b464507fb0e178b4811dd40bfa1cc1fbd703f66aaf0e92",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.149/pulsia-test-pack.zip",
+          "created_at": "2026-11-19T00:49:48Z",
           "updated_at": "2026-11-19T00:49:48Z"
         }
       ]
@@ -3042,16 +3110,6 @@
       "updated_at": "2026-11-18T06:39:12Z",
       "assets": [
         {
-          "id": 762226932,
-          "name": "pulsia-test-pack.zip",
-          "state": "uploaded",
-          "size": 1398839,
-          "digest": "sha256:cb53c93282a7deb3759ee687a3398e8874d3774ab43d0986d906024404d34ba8",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.148/pulsia-test-pack.zip",
-          "created_at": "2026-11-18T06:34:10Z",
-          "updated_at": "2026-11-18T06:34:10Z"
-        },
-        {
           "id": 762226929,
           "name": "pulsia-test-pack.zip.sha256",
           "state": "uploaded",
@@ -3059,6 +3117,16 @@
           "digest": "sha256:37202416f85864624bc575e677b4553368f752de0c61bbf24f1d3a8539349aff",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.148/pulsia-test-pack.zip.sha256",
           "created_at": "2026-11-18T06:34:09Z",
+          "updated_at": "2026-11-18T06:34:10Z"
+        },
+        {
+          "id": 762226932,
+          "name": "pulsia-test-pack.zip",
+          "state": "uploaded",
+          "size": 1398839,
+          "digest": "sha256:cb53c93282a7deb3759ee687a3398e8874d3774ab43d0986d906024404d34ba8",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.feature-tests%401.0.148/pulsia-test-pack.zip",
+          "created_at": "2026-11-18T06:34:10Z",
           "updated_at": "2026-11-18T06:34:10Z"
         }
       ]
@@ -3144,22 +3212,22 @@
       "updated_at": "2026-11-17T14:13:29Z",
       "assets": [
         {
-          "id": 759322562,
-          "name": "pulsia-login.zip",
-          "state": "uploaded",
-          "size": 43727,
-          "digest": "sha256:24c7b520a4b3356a2ab74bd647e7413e5fd2a2f144ddda0638baa7d183e98b89",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.account.login%400.1.105/pulsia-login.zip",
-          "created_at": "2026-11-17T14:13:27Z",
-          "updated_at": "2026-11-17T14:13:28Z"
-        },
-        {
           "id": 759322561,
           "name": "pulsia-login.zip.sha256",
           "state": "uploaded",
           "size": 83,
           "digest": "sha256:85ce13e03be1eadbce32fddee0e731482a12500603a6fd33eb1f581eb146bdad",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.account.login%400.1.105/pulsia-login.zip.sha256",
+          "created_at": "2026-11-17T14:13:27Z",
+          "updated_at": "2026-11-17T14:13:28Z"
+        },
+        {
+          "id": 759322562,
+          "name": "pulsia-login.zip",
+          "state": "uploaded",
+          "size": 43727,
+          "digest": "sha256:24c7b520a4b3356a2ab74bd647e7413e5fd2a2f144ddda0638baa7d183e98b89",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.account.login%400.1.105/pulsia-login.zip",
           "created_at": "2026-11-17T14:13:27Z",
           "updated_at": "2026-11-17T14:13:28Z"
         }
@@ -3178,22 +3246,22 @@
       "updated_at": "2026-11-18T01:36:40Z",
       "assets": [
         {
-          "id": 761372502,
-          "name": "pulsia-plugin-tutorial-pulsia-starter.zip",
-          "state": "uploaded",
-          "size": 28764,
-          "digest": "sha256:5bcc4a81b846a8e2fe680ebcb4abc7d614106a635659cf208e63cc9ce8d0960f",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.tutorial%400.1.111/pulsia-plugin-tutorial-pulsia-starter.zip",
-          "created_at": "2026-11-18T01:24:46Z",
-          "updated_at": "2026-11-18T01:24:46Z"
-        },
-        {
           "id": 761372478,
           "name": "pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
           "state": "uploaded",
           "size": 108,
           "digest": "sha256:f74d8481737ca9a06c9b1ca56ded164b9ec2bb09cb78abab8c39487d3e2b6e67",
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.tutorial%400.1.111/pulsia-plugin-tutorial-pulsia-starter.zip.sha256",
+          "created_at": "2026-11-18T01:24:46Z",
+          "updated_at": "2026-11-18T01:24:46Z"
+        },
+        {
+          "id": 761372502,
+          "name": "pulsia-plugin-tutorial-pulsia-starter.zip",
+          "state": "uploaded",
+          "size": 28764,
+          "digest": "sha256:5bcc4a81b846a8e2fe680ebcb4abc7d614106a635659cf208e63cc9ce8d0960f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.examples.tutorial%400.1.111/pulsia-plugin-tutorial-pulsia-starter.zip",
           "created_at": "2026-11-18T01:24:46Z",
           "updated_at": "2026-11-18T01:24:46Z"
         }
@@ -7138,40 +7206,6 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.automation.node-auto%400.1.135/pulsia-plugin-node-auto.zip.sha256",
           "created_at": "2026-11-06T11:04:39Z",
           "updated_at": "2026-11-06T11:04:39Z"
-        }
-      ]
-    },
-    {
-      "id": 436344121,
-      "tag_name": "com.naver.mars-_-.automation.node-auto@0.1.134",
-      "name": "Node Auto 0.1.134",
-      "body": "# Node Auto 0.1.134\n\n\n\nPulsia 0.3.297 이상이 필요함. 설치·갱신 계획에 ACP 공용 플러그인 1.0.131 이상을 포함함.\r\n\r\n[제작 원본](https://github.com/mars-log/pulsia-plugin-studio/commit/e0071f31d7e4c24613d263cccc4a68c0e33d4204)\n\n## 0.1.134\n\n- 새 워크플로우 버튼과 최상위 카드의 너비를 맞춤. 그룹과 카드 전체에서 끌기를 시작하고 가로선이 표시되는 위치로 옮길 수 있음.\n- 그룹 순서와 그룹 안팎의 워크플로우 순서를 프로젝트에 저장함. 목록의 빈 공간이나 최상위 카드 사이에 놓아 그룹에서 뺄 수 있음.\n- 연결선을 클릭할 때 나타나던 네모 포커스 테두리를 없앰. 키보드 포커스와 선택을 연결선 자체에 표시함.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.automation.node-auto\",\"version\":\"0.1.134\",\"title\":\"Node Auto\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"배치\",\"자동화\",\"워크플로우\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\"^1.0.131\",\"reason\":\"상단의 워크플로우 도우미를 사용합니다.\"}],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.automation.node-auto\",\"dependencies\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.acp\",\"displayName\":\"ACP 공용 플러그인\",\"minimumVersion\":\"1.0.131\"}]},\"information\":{\"schemaVersion\":1,\"icon\":\"waypoints\",\"publisher\":\"mars-_-\",\"categories\":[\"자동화\"],\"features\":[{\"id\":\"workflow\",\"label\":\"워크플로우 작성\",\"markdown\":\"노드 검색 결과를 캔버스로 끌어 놓거나 클릭해 추가하고, 연결과 설정을 프로젝트에 저장함.\"},{\"id\":\"local-execution\",\"label\":\"로컬 작업 실행\",\"markdown\":\"저장한 워크플로우에서 프로그램과 셸을 실행하고 종료 코드·출력·중단 결과를 확인함.\"},{\"id\":\"schedules\",\"label\":\"워크플로우 예약\",\"markdown\":\"cron과 시간대로 저장 버전의 실행을 예약하고 예정 시각·누락·실행 기록을 확인함.\"},{\"id\":\"project-files-and-git\",\"label\":\"프로젝트 파일과 Git 작업\",\"markdown\":\"프로젝트 파일 생성·복사·이동과 Git 상태·가져오기·fast-forward·푸시를 워크플로우로 실행함.\"},{\"id\":\"data-flow\",\"label\":\"데이터와 조건 분기\",\"markdown\":\"JSON 값 선택·조건 분기·입력 묶기와 신뢰하는 JavaScript를 워크플로우에 연결함.\"},{\"id\":\"ssh-script\",\"label\":\"SSH 스크립트와 Java 실행\",\"markdown\":\"OpenSSH로 스크립트·Java JAR를 실행하고 작업 ID·종료 코드·로그를 원격에서 다시 확인함.\"},{\"id\":\"acp-agent\",\"label\":\"ACP Agent 질문\",\"markdown\":\"설치된 Agent와 모델·노력치를 선택하고 질문·추가 답변·응답 기록을 처리함.\"},{\"id\":\"browser-page\",\"label\":\"Pulsia 브라우저 페이지와 파일\",\"markdown\":\"지정한 페이지를 읽고 같은 사이트 파일을 작업 탭에서 받아 다음 노드에 전달함.\"},{\"id\":\"http-and-file\",\"label\":\"HTTP 파일 받기와 저장\",\"markdown\":\"HTTP 파일을 받고 실행 산출물의 해시를 확인해 프로젝트 폴더에 저장함.\"},{\"id\":\"open-explorer\",\"label\":\"파일 탐색기 열기\",\"markdown\":\"저장한 파일의 폴더를 Pulsia 탐색기에서 선택하거나 OS 파일 관리자로 엶.\"},{\"id\":\"node-error-output\",\"label\":\"노드 오류 처리\",\"markdown\":\"실패한 노드의 오류 코드와 로그를 지정한 다음 노드에 전달함.\"},{\"id\":\"subworkflow-and-loop\",\"label\":\"하위 워크플로우와 배열 반복\",\"markdown\":\"저장된 하위 워크플로우를 한 번 또는 배열 항목별로 실행하고 순서대로 결과를 받음.\"},{\"id\":\"workflow-cleanup\",\"label\":\"실행 뒤 정리 작업\",\"markdown\":\"완료·실패·중단 뒤 지정한 정리 워크플로우를 실행하고 결과를 따로 보존함.\"}],\"discovery\":{\"areas\":[\"work\"],\"tasks\":[{\"id\":\"com.naver.mars-_-.automation.node-auto.workflow\",\"label\":\"배치 흐름 만들기\",\"area\":\"work\"}],\"summary\":\"프로젝트의 배치 워크플로우를 작성하고 검증합니다.\",\"role\":\"product\"}},\"icon\":\"waypoints\",\"changelog\":\"## 0.1.134\\n\\n- 새 워크플로우 버튼과 최상위 카드의 너비를 맞춤. 그룹과 카드 전체에서 끌기를 시작하고 가로선이 표시되는 위치로 옮길 수 있음.\\n- 그룹 순서와 그룹 안팎의 워크플로우 순서를 프로젝트에 저장함. 목록의 빈 공간이나 최상위 카드 사이에 놓아 그룹에서 뺄 수 있음.\\n- 연결선을 클릭할 때 나타나던 네모 포커스 테두리를 없앰. 키보드 포커스와 선택을 연결선 자체에 표시함.\\n\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.automation.node-auto\",\"version\":\"0.1.134\",\"kind\":\"composite\",\"tags\":[\"배치\",\"자동화\",\"워크플로우\"],\"pluginApiVersion\":1,\"hostRequirements\":{\"plugins.backendIdentity\":\"^1.0.0\",\"plugins.backgroundContext\":\"^1.0.0\",\"browser.taskSnapshot\":\"^1.2.0\",\"browser.taskDownload\":\"^1.0.0\",\"plugins.projectReady\":\"^1.0.0\",\"workbench.contextMessages\":\"^1.0.0\",\"workbench.dialogTemplates\":\"^1.0.0\",\"explorer.openDirectory\":\"^1.0.0\"},\"executionGrade\":\"full-access\",\"localSystemAccess\":{\"reason\":\"프로젝트의 워크플로우·실행 기록을 저장하고 프로그램·파일 작업과 지정한 웹 주소·SSH 서버 요청을 실행합니다.\",\"plannedUses\":[\"files\",\"processes\",\"libraries\",\"network\"],\"dependencyMode\":\"self-contained\"},\"runtimes\":{\"backend\":{\"kind\":\"node-extension-host\",\"hostApiVersion\":2},\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2}},\"activationEvents\":[\"onStartup\",\"onView:node-auto.workflow-view\",\"onProjectReady:restoreProjectRuns\"],\"entrypoints\":{\"backend\":\"backend/node-auto-main.js\",\"frontend\":\"frontend/node-auto-main.js\"},\"permissions\":{\"networkHosts\":[],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"userData\":[\"read\",\"write\"],\"fileSelection\":[\"openPath\"],\"fileHandles\":[],\"projectPaths\":[{\"path\":\".\",\"access\":[\"read\"]}],\"capabilities\":[{\"id\":\"ui.workbench\",\"version\":1,\"grants\":{\"allowed\":true}},{\"id\":\"acp.agentSession\",\"version\":1,\"grants\":{\"access\":[\"list\",\"create\",\"read\",\"configure\",\"prompt\",\"respond\",\"cancel\",\"close\"],\"agentIds\":[\"*\"]}}]},\"actions\":[{\"id\":\"getRuntimeStatus\",\"title\":\"저장소 상태\",\"description\":\"저장소 상태 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{},\"required\":[],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"sqliteVersion\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"projectKey\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120}},\"required\":[\"sqliteVersion\",\"projectKey\"],\"additionalProperties\":false}},{\"id\":\"listNodeTypes\",\"title\":\"노드 종류\",\"description\":\"노드 종류 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{},\"required\":[],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"items\":{\"type\":\"array\"}},\"required\":[\"items\"],\"additionalProperties\":false}},{\"id\":\"describeNodeType\",\"title\":\"노드 설정\",\"description\":\"노드 설정 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"typeId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"typeVersion\":{\"type\":\"integer\",\"minimum\":1}},\"required\":[\"typeId\",\"typeVersion\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"typeId\",\"typeVersion\",\"ports\",\"parametersSchema\"]}},{\"id\":\"listWorkflows\",\"title\":\"워크플로우 목록\",\"description\":\"워크플로우 목록 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"limit\":{\"type\":\"integer\",\"minimum\":1,\"maximum\":100},\"after\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"includeArchived\":{\"type\":\"boolean\"}},\"required\":[],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"items\",\"next\"]}},{\"id\":\"getWorkflow\",\"title\":\"워크플로우 열기\",\"description\":\"워크플로우 열기 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"workflowId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"revision\":{\"type\":\"integer\",\"minimum\":1}},\"required\":[\"workflowId\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"workflowId\",\"revision\",\"definition\",\"validation\"]}},{\"id\":\"createWorkflow\",\"title\":\"워크플로우 만들기\",\"description\":\"워크플로우 만들기 작업을 수행합니다.\",\"version\":1,\"access\":\"write\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"name\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"icon\":{\"type\":\"string\",\"pattern\":\"^[a-z0-9]+(-[a-z0-9]+)*$\",\"maxLength\":96},\"groupId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120}},\"required\":[\"requestId\",\"name\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"workflowId\",\"revision\",\"definition\",\"validation\"]}},{\"id\":\"listWorkflowGroups\",\"title\":\"워크플로우 그룹 목록\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"items\"]}},{\"id\":\"createWorkflowGroup\",\"title\":\"워크플로우 그룹 만들기\",\"version\":1,\"access\":\"write\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"name\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120}},\"required\":[\"requestId\",\"name\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"groupId\",\"name\"]}},{\"id\":\"moveWorkflowToGroup\",\"title\":\"워크플로우 그룹 이동\",\"version\":1,\"access\":\"write\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"workflowId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"groupId\":{\"type\":[\"string\",\"null\"],\"minLength\":1,\"maxLength\":120}},\"required\":[\"requestId\",\"workflowId\",\"groupId\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"workflowId\",\"groupId\"]}},{\"id\":\"placeWorkflowLibraryItem\",\"title\":\"워크플로우 목록 순서 변경\",\"version\":1,\"access\":\"write\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"itemId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"kind\":{\"type\":\"string\",\"enum\":[\"workflow\",\"group\"]},\"groupId\":{\"type\":[\"string\",\"null\"],\"minLength\":1,\"maxLength\":120},\"beforeId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120}},\"required\":[\"requestId\",\"itemId\",\"kind\",\"groupId\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"itemId\",\"kind\",\"groupId\"]}},{\"id\":\"importWorkflow\",\"title\":\"워크플로우 가져오기\",\"description\":\"워크플로우 가져오기 작업을 수행합니다.\",\"version\":1,\"access\":\"write\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"definition\":{\"type\":\"object\"}},\"required\":[\"requestId\",\"definition\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"workflowId\",\"revision\",\"definition\",\"validation\"]}},{\"id\":\"exportWorkflow\",\"title\":\"워크플로우 내보내기\",\"description\":\"워크플로우 내보내기 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"workflowId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"revision\":{\"type\":\"integer\",\"minimum\":1}},\"required\":[\"workflowId\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"definition\":{\"type\":\"object\"}},\"required\":[\"definition\"],\"additionalProperties\":false}},{\"id\":\"validateWorkflow\",\"title\":\"워크플로우 검증\",\"description\":\"워크플로우 검증 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"workflowId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"revision\":{\"type\":\"integer\",\"minimum\":1}},\"required\":[\"workflowId\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"valid\":{\"type\":\"boolean\"},\"errors\":{\"type\":\"array\"},\"order\":{\"type\":\"array\"}},\"required\":[\"valid\",\"errors\",\"order\"],\"additionalProperties\":false}},{\"id\":\"applyWorkflowPatch\",\"title\":\"워크플로우 저장\",\"description\":\"워크플로우 저장 작업을 수행합니다.\",\"version\":1,\"access\":\"write\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"workflowId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"expectedRevision\":{\"type\":\"integer\",\"minimum\":1},\"operations\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"required\":[\"type\"]},\"maxItems\":200}},\"required\":[\"requestId\",\"workflowId\",\"expectedRevision\",\"operations\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"workflowId\",\"revision\",\"definition\",\"validation\"]}},{\"id\":\"archiveWorkflow\",\"title\":\"워크플로우 보관\",\"description\":\"워크플로우 보관 작업을 수행합니다.\",\"version\":1,\"access\":\"write\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"workflowId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"expectedRevision\":{\"type\":\"integer\",\"minimum\":1}},\"required\":[\"requestId\",\"workflowId\",\"expectedRevision\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"workflowId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"archivedAt\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120}},\"required\":[\"workflowId\",\"archivedAt\"],\"additionalProperties\":false}},{\"id\":\"listShells\",\"title\":\"설치된 셸\",\"description\":\"설치된 셸 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{},\"required\":[],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"items\"],\"properties\":{\"items\":{\"type\":\"array\"}}}},{\"id\":\"previewRun\",\"title\":\"실행 계획 보기\",\"description\":\"실행 계획 보기 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"workflowId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"revision\":{\"type\":\"integer\",\"minimum\":1}},\"required\":[\"workflowId\",\"revision\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"contentHash\",\"order\",\"providers\"]}},{\"id\":\"startRun\",\"title\":\"워크플로우 실행\",\"description\":\"워크플로우 실행 작업을 수행합니다.\",\"version\":1,\"access\":\"write\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"workflowId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"revision\":{\"type\":\"integer\",\"minimum\":1},\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"input\":{}},\"required\":[\"workflowId\",\"revision\",\"requestId\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"runId\",\"state\",\"stateRevision\",\"status\"]}},{\"id\":\"getRun\",\"title\":\"실행 상태\",\"description\":\"실행 상태 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"runId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120}},\"required\":[\"runId\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"runId\",\"state\",\"stateRevision\"]}},{\"id\":\"listRuns\",\"title\":\"실행 목록\",\"description\":\"실행 목록 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"workflowId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"limit\":{\"type\":\"integer\",\"minimum\":1,\"maximum\":100}},\"required\":[],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"items\"],\"properties\":{\"items\":{\"type\":\"array\"}}}},{\"id\":\"cancelRun\",\"title\":\"실행 중단\",\"description\":\"실행 중단 작업을 수행합니다.\",\"version\":1,\"access\":\"write\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"runId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"expectedStateRevision\":{\"type\":\"integer\",\"minimum\":1}},\"required\":[\"runId\",\"expectedStateRevision\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"runId\",\"state\",\"stateRevision\"]}},{\"id\":\"readRunEvents\",\"title\":\"실행 기록 조회\",\"description\":\"실행 기록 조회 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"runId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"after\":{\"type\":\"integer\",\"minimum\":0},\"limit\":{\"type\":\"integer\",\"minimum\":1,\"maximum\":200}},\"required\":[\"runId\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"items\",\"next\"]}},{\"id\":\"readNodeOutput\",\"title\":\"노드 출력 조회\",\"description\":\"노드 출력 조회 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"runId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"nodeId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120}},\"required\":[\"runId\",\"nodeId\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"state\",\"operationId\",\"output\"]}},{\"id\":\"listArtifacts\",\"title\":\"실행 산출물 목록\",\"description\":\"실행 산출물 목록 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"runId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120}},\"required\":[\"runId\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"items\"],\"properties\":{\"items\":{\"type\":\"array\"}}}},{\"id\":\"readArtifact\",\"title\":\"실행 산출물 읽기\",\"description\":\"실행 산출물 읽기 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"runId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"artifactId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"offset\":{\"type\":\"integer\",\"minimum\":0,\"maximum\":8388608},\"length\":{\"type\":\"integer\",\"minimum\":1,\"maximum\":65536}},\"required\":[\"runId\",\"artifactId\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"dataBase64\",\"bytesRead\",\"nextOffset\",\"done\"]}},{\"id\":\"previewSchedule\",\"title\":\"다음 예약 시각\",\"description\":\"다음 예약 시각 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"cron\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"timezone\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":80}},\"required\":[\"cron\",\"timezone\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"timezone\",\"next\"]}},{\"id\":\"activateSchedule\",\"title\":\"워크플로우 예약 활성화\",\"description\":\"워크플로우 예약 활성화 작업을 수행합니다.\",\"version\":1,\"access\":\"write\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"cron\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"timezone\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":80},\"missed\":{\"type\":\"string\",\"enum\":[\"skip\",\"run-once-latest\",\"catch-up\"]},\"catchUpLimit\":{\"type\":\"integer\",\"minimum\":1,\"maximum\":20},\"overlap\":{\"type\":\"string\",\"enum\":[\"skip\",\"queue\"]},\"workflowId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"workflowRevision\":{\"type\":\"integer\",\"minimum\":1},\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120}},\"required\":[\"workflowId\",\"workflowRevision\",\"requestId\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"scheduleId\",\"workflowId\",\"workflowRevision\",\"revision\",\"enabled\",\"nextDueAt\"]}},{\"id\":\"updateSchedule\",\"title\":\"워크플로우 예약 수정\",\"description\":\"워크플로우 예약 수정 작업을 수행합니다.\",\"version\":1,\"access\":\"write\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"cron\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"timezone\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":80},\"missed\":{\"type\":\"string\",\"enum\":[\"skip\",\"run-once-latest\",\"catch-up\"]},\"catchUpLimit\":{\"type\":\"integer\",\"minimum\":1,\"maximum\":20},\"overlap\":{\"type\":\"string\",\"enum\":[\"skip\",\"queue\"]},\"scheduleId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"expectedRevision\":{\"type\":\"integer\",\"minimum\":1},\"workflowRevision\":{\"type\":\"integer\",\"minimum\":1},\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"enabled\":{\"type\":\"boolean\"}},\"required\":[\"scheduleId\",\"expectedRevision\",\"workflowRevision\",\"requestId\",\"enabled\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"scheduleId\",\"workflowId\",\"workflowRevision\",\"revision\",\"enabled\",\"nextDueAt\"]}},{\"id\":\"pauseSchedule\",\"title\":\"워크플로우 예약 중지\",\"description\":\"워크플로우 예약 중지 작업을 수행합니다.\",\"version\":1,\"access\":\"write\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"scheduleId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"expectedRevision\":{\"type\":\"integer\",\"minimum\":1},\"requestId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120}},\"required\":[\"scheduleId\",\"expectedRevision\",\"requestId\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"scheduleId\",\"workflowId\",\"workflowRevision\",\"revision\",\"enabled\",\"nextDueAt\"]}},{\"id\":\"listSchedules\",\"title\":\"워크플로우 예약 목록\",\"description\":\"워크플로우 예약 목록 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"workflowId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120}},\"required\":[],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"items\"],\"properties\":{\"items\":{\"type\":\"array\"}}}},{\"id\":\"readScheduleEvents\",\"title\":\"예약 실행 내역\",\"description\":\"예약 실행 내역 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"scheduleId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"limit\":{\"type\":\"integer\",\"minimum\":1,\"maximum\":100}},\"required\":[\"scheduleId\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"items\"],\"properties\":{\"items\":{\"type\":\"array\"}}}},{\"id\":\"listPulsiaFeatures\",\"title\":\"Pulsia 공개 기능 목록\",\"description\":\"Pulsia 공개 기능 목록를 읽습니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{},\"required\":[],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"result\"]}},{\"id\":\"describePulsiaFeature\",\"title\":\"Pulsia 공개 기능 안내\",\"description\":\"Pulsia 공개 기능 안내를 읽습니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"featureId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120}},\"required\":[\"featureId\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"result\"]}},{\"id\":\"listAcpAgents\",\"title\":\"설치된 ACP Agent\",\"description\":\"설치된 ACP Agent 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{},\"required\":[],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"items\":{\"type\":\"array\"}},\"required\":[\"items\"],\"additionalProperties\":false}},{\"id\":\"describeAcpAgent\",\"title\":\"ACP Agent 모델과 설정\",\"description\":\"ACP Agent 모델과 설정 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"agentId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":128},\"config\":{\"type\":\"object\",\"maxProperties\":40,\"additionalProperties\":{\"type\":[\"string\",\"boolean\"]}}},\"required\":[\"agentId\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"configOptions\":{\"type\":\"array\"}},\"required\":[\"configOptions\"],\"additionalProperties\":false}},{\"id\":\"listPendingInputs\",\"title\":\"실행 중 대기 질문\",\"description\":\"실행 중 대기 질문 작업을 수행합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"runId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":128}},\"required\":[],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"items\":{\"type\":\"array\"}},\"required\":[\"items\"],\"additionalProperties\":false}},{\"id\":\"answerQuestion\",\"title\":\"Agent 질문에 답변\",\"description\":\"Agent 질문에 답변 작업을 수행합니다.\",\"version\":1,\"access\":\"write\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"runId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":128},\"waitId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":128},\"action\":{\"type\":\"string\",\"enum\":[\"accept\",\"decline\",\"cancel\"]},\"content\":{\"type\":\"object\"}},\"required\":[\"runId\",\"waitId\",\"action\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"status\":{\"const\":\"accepted\"},\"runId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":128}},\"required\":[\"status\",\"runId\"],\"additionalProperties\":false}},{\"id\":\"inspectNodeEffect\",\"title\":\"외부 실행의 실제 결과 조회\",\"description\":\"노드가 기록한 외부 작업의 실제 종료 상태와 로그를 조회합니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"runId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"nodeId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120}},\"required\":[\"runId\",\"nodeId\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"operationId\",\"state\"]}},{\"id\":\"restoreProjectRuns\",\"title\":\"열린 프로젝트 예약 복구\",\"version\":1,\"access\":\"read\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"properties\":{},\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"properties\":{\"restored\":{\"type\":\"boolean\"}},\"required\":[\"restored\"],\"additionalProperties\":false}},{\"id\":\"listChildRuns\",\"title\":\"하위 워크플로우 실행 목록\",\"description\":\"부모 실행에 연결된 하위 작업의 ID, 입력 순서와 상태를 읽습니다.\",\"version\":1,\"access\":\"read\",\"exposure\":\"public\",\"inputSchema\":{\"type\":\"object\",\"properties\":{\"runId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"nodeId\":{\"type\":\"string\",\"minLength\":1,\"maxLength\":120},\"after\":{\"type\":\"integer\",\"minimum\":0},\"limit\":{\"type\":\"integer\",\"minimum\":1,\"maximum\":100}},\"required\":[\"runId\"],\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"required\":[\"items\",\"next\"]}},{\"id\":\"selectLocalPath\",\"title\":\"로컬 파일 또는 폴더 선택\",\"version\":1,\"access\":\"read\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"required\":[\"kind\",\"projectRelative\"],\"properties\":{\"kind\":{\"enum\":[\"file\",\"directory\"]},\"projectRelative\":{\"type\":\"boolean\"},\"initialPath\":{\"type\":\"string\",\"maxLength\":2048}}},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":false,\"required\":[\"canceled\",\"path\"],\"properties\":{\"canceled\":{\"type\":\"boolean\"},\"path\":{\"type\":[\"string\",\"null\"]}}}}],\"contributes\":{\"extensions\":[{\"point\":\"agent.skill\",\"version\":1,\"id\":\"node-auto.skill.authoring\",\"data\":{\"id\":\"node-auto-authoring\",\"title\":\"Node Auto 워크플로우 작성\",\"description\":\"노드를 발견하고 프로젝트 워크플로우를 작성·검증·저장합니다.\",\"path\":\"agent/skills/workflow-authoring/SKILL.md\"}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"node-auto.skill.operation\",\"data\":{\"id\":\"node-auto-operation\",\"title\":\"Node Auto 로컬 실행\",\"description\":\"저장한 워크플로우의 실행·중단·출력을 확인합니다.\",\"path\":\"agent/skills/workflow-operation/SKILL.md\"}}],\"views\":[{\"id\":\"node-auto.workflow-view\",\"title\":\"워크플로우\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"header\":{\"mode\":\"hidden\"}},{\"id\":\"node-auto.create-workflow\",\"title\":\"워크플로우 만들기\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"dialog\":{\"category\":\"form\",\"size\":{\"width\":370,\"height\":166,\"minWidth\":305,\"minHeight\":155}}},{\"id\":\"node-auto.create-workflow-group\",\"title\":\"워크플로우 그룹 만들기\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"dialog\":{\"category\":\"form\",\"size\":{\"width\":370,\"height\":166,\"minWidth\":305,\"minHeight\":155}}},{\"id\":\"node-auto.workflow-icon\",\"title\":\"아이콘 선택\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"dialog\":{\"category\":\"selection\",\"resizable\":true,\"size\":{\"width\":430,\"height\":320,\"minWidth\":260,\"minHeight\":235}}},{\"id\":\"node-auto.node-editor\",\"title\":\"노드 편집\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"dialog\":{\"category\":\"form\",\"size\":{\"width\":680,\"height\":620},\"slots\":{\"footer\":{\"viewId\":\"node-auto.node-editor-actions\",\"height\":46}}}},{\"id\":\"node-auto.node-info\",\"title\":\"노드 정보\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"dialog\":{\"category\":\"selection\",\"size\":{\"width\":480,\"height\":310},\"slots\":{\"footer\":{\"viewId\":\"node-auto.node-editor-actions\",\"height\":46}}}},{\"id\":\"node-auto.node-editor-actions\",\"title\":\"노드 창 작업\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\"},{\"id\":\"node-auto.run-report\",\"title\":\"실행 리포트\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"dialog\":{\"category\":\"workspace\",\"size\":{\"width\":850,\"height\":690}}}],\"primaryMenus\":[{\"id\":\"node-auto\",\"label\":\"Node Auto\",\"icon\":\"waypoints\",\"order\":73}],\"subMenus\":[{\"id\":\"node-auto.workflows\",\"primaryMenuId\":\"node-auto\",\"viewId\":\"node-auto.workflow-view\",\"label\":\"워크플로우\",\"icon\":\"workflow\",\"order\":10}]},\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\"^1.0.131\",\"reason\":\"상단의 워크플로우 도우미를 사용합니다.\"}],\"recommended\":[]},\"moduleRequirements\":[{\"providerId\":\"pulsia.acp-common\",\"moduleId\":\"acp.surface\",\"apiRange\":\"^1.0.0\",\"features\":[\"header-assistant\"]}],\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-plugin-node-auto.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}},\"databaseImpacts\":[]}} -->\n",
-      "draft": false,
-      "prerelease": false,
-      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.automation.node-auto%400.1.134",
-      "published_at": "2026-11-06T10:05:16Z",
-      "created_at": "2026-11-06T09:44:45Z",
-      "updated_at": "2026-11-06T10:05:16Z",
-      "assets": [
-        {
-          "id": 716707812,
-          "name": "pulsia-plugin-node-auto.zip",
-          "state": "uploaded",
-          "size": 148591,
-          "digest": "sha256:0b20c7bc6b16e042a1614bce7ae0990504bb6a4fa8c2b4005bd70e00d639f92e",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.automation.node-auto%400.1.134/pulsia-plugin-node-auto.zip",
-          "created_at": "2026-11-06T10:04:54Z",
-          "updated_at": "2026-11-06T10:04:54Z"
-        },
-        {
-          "id": 716707809,
-          "name": "pulsia-plugin-node-auto.zip.sha256",
-          "state": "uploaded",
-          "size": 94,
-          "digest": "sha256:7702647332599e5125707bac058d77fe4e2d0a48a8ca3e5d563d0110693dcb4c",
-          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.automation.node-auto%400.1.134/pulsia-plugin-node-auto.zip.sha256",
-          "created_at": "2026-11-06T10:04:54Z",
-          "updated_at": "2026-11-06T10:04:54Z"
         }
       ]
     },
