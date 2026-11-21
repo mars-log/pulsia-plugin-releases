@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-21T11:18:02.000Z",
+  "generatedAt": "2026-11-21T11:18:09.000Z",
   "releases": [
     {
       "id": 453490577,
@@ -136,6 +136,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.welcome%400.1.104/pulsia-welcome.zip.sha256",
           "created_at": "2026-11-21T04:51:32Z",
           "updated_at": "2026-11-21T04:51:32Z"
+        }
+      ]
+    },
+    {
+      "id": 453636506,
+      "tag_name": "com.naver.mars-_-.platform.base.acp@1.0.151",
+      "name": "ACP 공용 1.0.151",
+      "body": "# ACP 공용 플러그인 1.0.151\n\n\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 1.0.151 · ACP 입력창 어두운 테마 배경\n\n테마가 입력창 배경을 지정하지 않았을 때 밝음·어두움에 맞는 옅은 반투명 배경을 표시합니다. 테마에서 지정한 색과 투명도는 그대로 반영합니다.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\"1.0.151\",\"title\":\"ACP 공용 플러그인\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"version\":\"^1.0.101\",\"reason\":\"ACP 응답과 파일 링크를 표시함.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.base.acp\",\"dependencies\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"minimumVersion\":\"1.0.101\"}]},\"information\":{\"schemaVersion\":1,\"icon\":\"\",\"publisher\":\"\",\"categories\":[],\"features\":[],\"discovery\":{\"areas\":[\"ai\"],\"tasks\":[{\"id\":\"ai.chat\",\"label\":\"AI와 대화하기\",\"area\":\"ai\"},{\"id\":\"ai.automate\",\"label\":\"AI에게 작업 맡기기\",\"area\":\"ai\"}],\"summary\":\"AI 대화·도우미 화면의 Agent 실행과 대화 복원을 제공합니다.\",\"role\":\"supporting\"}},\"icon\":null,\"changelog\":\"## 1.0.151 · ACP 입력창 어두운 테마 배경\\n\\n테마가 입력창 배경을 지정하지 않았을 때 밝음·어두움에 맞는 옅은 반투명 배경을 표시합니다. 테마에서 지정한 색과 투명도는 그대로 반영합니다.\\n\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\"1.0.151\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginApiVersion\":1,\"executionGrade\":\"full-access\",\"localSystemAccess\":{\"reason\":\"설치된 Agent 프로세스를 실행하고 사용자의 대화와 선택한 첨부를 저장합니다.\",\"plannedUses\":[\"files\",\"network\",\"processes\",\"environment\",\"libraries\"],\"dependencyMode\":\"none\"},\"dependencyPreparation\":{\"mode\":\"none\"},\"hostRequirements\":{\"plugins.frontendModules\":\"^1.1.0\",\"plugins.tasks\":\"^1.0.0\",\"plugins.hostServices\":\"^1.0.0\",\"plugins.serviceModules\":\"^1.0.0\",\"plugins.hostServiceWorkbench\":\"^1.0.0\",\"plugins.identityMigrations\":\"^1.1.0\",\"workbench.moduleHostServices\":\"^1.0.0\",\"workbench.fileLinkActions\":\"^1.0.0\"},\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2,\"prebuilt\":true},\"backend\":{\"kind\":\"node-extension-host\",\"hostApiVersion\":2}},\"activationEvents\":[\"onStartup\"],\"entrypoints\":{\"frontend\":\"frontend-dist/plugin.js\",\"backend\":\"backend-dist/main.js\"},\"permissions\":{\"networkHosts\":[],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"userData\":[\"read\",\"write\"],\"fileSelection\":[],\"fileHandles\":[],\"projectPaths\":[],\"capabilities\":[{\"id\":\"ui.workbench\",\"version\":1,\"grants\":{\"allowed\":true}}]},\"actions\":[],\"contributes\":{\"views\":[],\"primaryMenus\":[],\"subMenus\":[],\"menus\":[],\"routes\":[],\"extensions\":[{\"point\":\"plugins.frontendModule\",\"version\":1,\"id\":\"pulsia.acp-common.surface\",\"data\":{\"id\":\"acp.surface\",\"apiVersion\":\"1.0.0\",\"entrypoint\":\"plugin.js\",\"styles\":[\"style.css\"],\"features\":[\"composer\",\"streaming\",\"registry\",\"attachments\",\"workspace-selection\",\"workspace-service-adapter\",\"header-assistant\"],\"serviceModules\":[\"acp.workspace\"]}},{\"point\":\"plugins.hostService\",\"version\":1,\"id\":\"pulsia.acp-common.services\",\"data\":{\"id\":\"acp.services\",\"apiVersion\":\"1.0.0\",\"entrypoint\":\"backend-dist/host.js\"}},{\"point\":\"plugins.serviceModule\",\"version\":1,\"id\":\"pulsia.acp-common.workspace\",\"data\":{\"id\":\"acp.workspace\",\"apiVersion\":\"1.0.0\",\"features\":[\"sessions\",\"attachments\",\"agent-registry\"]}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"pulsia.acp-common.agent-surface\",\"data\":{\"id\":\"acp-common-surface\",\"title\":\"ACP 대화 화면 소비\",\"description\":\"공용 ACP 화면의 준비·이벤트·종료와 초기 준비 실패 복구를 설명합니다.\",\"path\":\"agent/skills/acp-surface/SKILL.md\"}},{\"point\":\"plugins.serviceModule\",\"version\":1,\"id\":\"pulsia.acp-common.mcp-connections\",\"data\":{\"id\":\"acp.mcp-connections\",\"apiVersion\":\"1.0.0\",\"features\":[\"external-connections\"]}}]},\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-acp-common.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}},\"displayName\":\"ACP 공용 플러그인\",\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"version\":\"^1.0.101\",\"reason\":\"ACP 응답과 파일 링크를 표시함.\"}]},\"moduleRequirements\":[{\"providerId\":\"com.naver.mars-_-.platform.base.markdown\",\"moduleId\":\"markdown.render\",\"apiRange\":\"^1.0.0\",\"features\":[\"render\",\"links\"]},{\"providerId\":\"com.naver.mars-_-.editor.base.git-comparison\",\"moduleId\":\"comparison.surface\",\"apiRange\":\"^1.0.0\",\"features\":[\"compare\"],\"optional\":true}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.base.acp%401.0.151",
+      "published_at": "2026-11-21T11:18:09Z",
+      "created_at": "2026-11-21T10:22:06Z",
+      "updated_at": "2026-11-21T11:18:09Z",
+      "assets": [
+        {
+          "id": 775329687,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 1764208,
+          "digest": "sha256:f2751cdcddbe07e7c8751032f8a99623b64e830f7791169c3c3bfc03468b879c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.151/pulsia-acp-common.zip",
+          "created_at": "2026-11-21T11:17:37Z",
+          "updated_at": "2026-11-21T11:17:38Z"
+        },
+        {
+          "id": 775329690,
+          "name": "pulsia-acp-common.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:ac3418fc32e4f67fd3d532bdb0e4fd61f9f156f84ab8e8c35a5b409e17afcba6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.151/pulsia-acp-common.zip.sha256",
+          "created_at": "2026-11-21T11:17:37Z",
+          "updated_at": "2026-11-21T11:17:37Z"
         }
       ]
     },
