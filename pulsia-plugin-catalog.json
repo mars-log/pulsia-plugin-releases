@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-21T11:20:33.000Z",
+  "generatedAt": "2026-11-21T11:23:47.000Z",
   "releases": [
     {
       "id": 453490577,
@@ -68,6 +68,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia-plugin-ai-agent-collaboration-chat%400.1.150/pulsia-plugin-ai-agent-collaboration-chat.zip.sha256",
           "created_at": "2026-11-21T10:21:43Z",
           "updated_at": "2026-11-21T10:21:43Z"
+        }
+      ]
+    },
+    {
+      "id": 453639928,
+      "tag_name": "com.naver.mars-_-.platform.remote.workbench@0.1.110",
+      "name": "원격 Workbench 0.1.110",
+      "body": "# 원격 Workbench 0.1.110\n\n접속할 PC와 프로젝트를 골라 원격 작업창 또는 ACP Agent 작업 팝업을 엽니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 0.1.110 · 2026-11-21\n\n- 원격 연결 화면 상단의 배경을 본문과 맞추고 아래 구분선에 테마 색과 투명도를 적용함.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.remote.workbench\",\"version\":\"0.1.110\",\"title\":\"원격 Workbench\",\"description\":\"접속할 PC와 프로젝트를 골라 원격 작업창 또는 ACP Agent 작업 팝업을 엽니다.\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.remote.runtime\",\"version\":\"^0.1.109\",\"reason\":\"접속할 PC와 프로젝트를 확인하고 원격 세션을 엽니다.\"},{\"pluginId\":\"com.naver.mars-_-.platform.remote.acp-agent\",\"version\":\"^0.1.102\",\"reason\":\"선택한 호스트의 ACP 대화를 작업 팝업에서 사용합니다.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.remote.workbench\",\"dependencies\":[]},\"information\":null,\"icon\":\"monitor\",\"changelog\":\"## 0.1.110 · 2026-11-21\\n\\n- 원격 연결 화면 상단의 배경을 본문과 맞추고 아래 구분선에 테마 색과 투명도를 적용함.\\n\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.platform.remote.workbench\",\"version\":\"0.1.110\",\"displayName\":\"원격 Workbench\",\"description\":\"접속할 PC와 프로젝트를 골라 원격 작업창 또는 ACP Agent 작업 팝업을 엽니다.\",\"kind\":\"frontend\",\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"hostRequirements\":{\"plugins.serviceModules\":\"^1.0.0\",\"plugins.serviceModuleActions\":\"^1.0.0\",\"workbench.dialogTemplates\":\"^1.1.0\",\"workbench.contextMessages\":\"^1.0.0\",\"acp.projectWorkspace\":\"^1.0.0\"},\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2}},\"activationEvents\":[\"onView:remote.workbench.connections\",\"onView:remote.workbench.connection-picker\"],\"entrypoints\":{\"frontend\":\"frontend/main.js\"},\"permissions\":{\"capabilities\":[{\"id\":\"ui.workbench\",\"version\":1,\"grants\":{\"allowed\":true}},{\"id\":\"ui.notification\",\"version\":1,\"grants\":{\"allowed\":true}}]},\"actions\":[],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.remote.runtime\",\"version\":\"^0.1.109\",\"reason\":\"접속할 PC와 프로젝트를 확인하고 원격 세션을 엽니다.\"},{\"pluginId\":\"com.naver.mars-_-.platform.remote.acp-agent\",\"version\":\"^0.1.102\",\"reason\":\"선택한 호스트의 ACP 대화를 작업 팝업에서 사용합니다.\"}]},\"contributes\":{\"views\":[{\"id\":\"remote.workbench.connections\",\"title\":\"원격 연결\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\"},{\"id\":\"remote.workbench.connection-picker\",\"title\":\"원격 프로젝트 연결\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"dialog\":{\"category\":\"selection\",\"size\":{\"width\":500,\"height\":350,\"minWidth\":340,\"minHeight\":300}}}],\"primaryMenus\":[{\"id\":\"remote.workbench\",\"label\":\"원격 Workbench\",\"icon\":\"monitor\",\"order\":310}],\"subMenus\":[{\"id\":\"remote.workbench.manage\",\"primaryMenuId\":\"remote.workbench\",\"viewId\":\"remote.workbench.connections\",\"label\":\"원격 연결\",\"icon\":\"monitor\",\"order\":10}],\"extensions\":[{\"point\":\"ui.command\",\"version\":1,\"id\":\"remote.workbench.connect\",\"data\":{\"id\":\"remote.workbench.connect\",\"title\":\"원격 프로젝트 연결\",\"viewId\":\"remote.workbench.connection-picker\",\"presentation\":\"modal\"}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"remote.workbench.agent\",\"data\":{\"id\":\"remote-workbench\",\"title\":\"Pulsia 원격 Workbench\",\"description\":\"원격 연결 화면에서 대상 PC·프로젝트와 세션 상태를 확인합니다.\",\"path\":\"agent/skills/remote-workbench/SKILL.md\"}},{\"point\":\"ui.setting\",\"version\":1,\"id\":\"remote.workbench.host-name\",\"data\":{\"key\":\"remote.workbench.hostName\",\"scope\":\"app\",\"type\":\"string\",\"default\":\"\",\"group\":\"remote.workbench\",\"label\":\"원격 접속 표시 이름\",\"description\":\"다른 PC의 원격 목록에 표시할 이 PC의 이름입니다.\",\"maxLength\":80,\"hidden\":true,\"agentVisible\":true}}]},\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-remote-workbench.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}}}} -->\n\n[소스 커밋](https://github.com/mars-log/pulsia-plugin-studio/commit/b389aaed7ef02cc8bb6db60eec344fa05aae1a79)\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.remote.workbench%400.1.110",
+      "published_at": "2026-11-21T11:23:47Z",
+      "created_at": "2026-11-21T11:20:47Z",
+      "updated_at": "2026-11-21T11:23:47Z",
+      "assets": [
+        {
+          "id": 775344466,
+          "name": "pulsia-remote-workbench.zip",
+          "state": "uploaded",
+          "size": 28553,
+          "digest": "sha256:4428becfe5467695754bc4898ee7541f24e8c1a15da212456de557549f85eb68",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.110/pulsia-remote-workbench.zip",
+          "created_at": "2026-11-21T11:23:46Z",
+          "updated_at": "2026-11-21T11:23:47Z"
+        },
+        {
+          "id": 775344465,
+          "name": "pulsia-remote-workbench.zip.sha256",
+          "state": "uploaded",
+          "size": 94,
+          "digest": "sha256:0ed626f0d9abcb94ae0ecd50859b1ef7c7f5181dad17514efd75c5a8ba462346",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.remote.workbench%400.1.110/pulsia-remote-workbench.zip.sha256",
+          "created_at": "2026-11-21T11:23:46Z",
+          "updated_at": "2026-11-21T11:23:47Z"
         }
       ]
     },
