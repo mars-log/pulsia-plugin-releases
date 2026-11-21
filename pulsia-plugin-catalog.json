@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-21T11:30:24.000Z",
+  "generatedAt": "2026-11-21T12:34:29.000Z",
   "releases": [
     {
       "id": 453490577,
@@ -208,6 +208,40 @@
       ]
     },
     {
+      "id": 453679708,
+      "tag_name": "com.naver.mars-_-.platform.base.acp@1.0.153",
+      "name": "ACP 공용 1.0.153",
+      "body": "# ACP 공용 플러그인 1.0.153\n\n\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 1.0.153 · 원격 ACP 연결 복구\n\n원격 프로젝트의 Agent와 모델을 해당 호스트에서 조회합니다. 연결을 확인할 수 없으면 다시 연결할 수 있고, 원격 화면에서 접속 PC의 Agent 관리 항목을 숨깁니다.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\"1.0.153\",\"title\":\"ACP 공용 플러그인\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"version\":\"^1.0.101\",\"reason\":\"ACP 응답과 파일 링크를 표시함.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.base.acp\",\"dependencies\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"minimumVersion\":\"1.0.101\"}]},\"information\":{\"schemaVersion\":1,\"icon\":\"\",\"publisher\":\"\",\"categories\":[],\"features\":[],\"discovery\":{\"areas\":[\"ai\"],\"tasks\":[{\"id\":\"ai.chat\",\"label\":\"AI와 대화하기\",\"area\":\"ai\"},{\"id\":\"ai.automate\",\"label\":\"AI에게 작업 맡기기\",\"area\":\"ai\"}],\"summary\":\"AI 대화·도우미 화면의 Agent 실행과 대화 복원을 제공합니다.\",\"role\":\"supporting\"}},\"icon\":null,\"changelog\":\"## 1.0.153 · 원격 ACP 연결 복구\\n\\n원격 프로젝트의 Agent와 모델을 해당 호스트에서 조회합니다. 연결을 확인할 수 없으면 다시 연결할 수 있고, 원격 화면에서 접속 PC의 Agent 관리 항목을 숨깁니다.\\n\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\"1.0.153\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginApiVersion\":1,\"executionGrade\":\"full-access\",\"localSystemAccess\":{\"reason\":\"설치된 Agent 프로세스를 실행하고 사용자의 대화와 선택한 첨부를 저장합니다.\",\"plannedUses\":[\"files\",\"network\",\"processes\",\"environment\",\"libraries\"],\"dependencyMode\":\"none\"},\"dependencyPreparation\":{\"mode\":\"none\"},\"hostRequirements\":{\"plugins.frontendModules\":\"^1.1.0\",\"plugins.tasks\":\"^1.0.0\",\"plugins.hostServices\":\"^1.0.0\",\"plugins.serviceModules\":\"^1.0.0\",\"plugins.hostServiceWorkbench\":\"^1.0.0\",\"plugins.identityMigrations\":\"^1.1.0\",\"workbench.moduleHostServices\":\"^1.0.0\",\"workbench.fileLinkActions\":\"^1.0.0\"},\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2,\"prebuilt\":true},\"backend\":{\"kind\":\"node-extension-host\",\"hostApiVersion\":2}},\"activationEvents\":[\"onStartup\"],\"entrypoints\":{\"frontend\":\"frontend-dist/plugin.js\",\"backend\":\"backend-dist/main.js\"},\"permissions\":{\"networkHosts\":[],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"userData\":[\"read\",\"write\"],\"fileSelection\":[],\"fileHandles\":[],\"projectPaths\":[],\"capabilities\":[{\"id\":\"ui.workbench\",\"version\":1,\"grants\":{\"allowed\":true}}]},\"actions\":[],\"contributes\":{\"views\":[],\"primaryMenus\":[],\"subMenus\":[],\"menus\":[],\"routes\":[],\"extensions\":[{\"point\":\"plugins.frontendModule\",\"version\":1,\"id\":\"pulsia.acp-common.surface\",\"data\":{\"id\":\"acp.surface\",\"apiVersion\":\"1.0.0\",\"entrypoint\":\"plugin.js\",\"styles\":[\"style.css\"],\"features\":[\"composer\",\"streaming\",\"registry\",\"attachments\",\"workspace-selection\",\"workspace-service-adapter\",\"header-assistant\"],\"serviceModules\":[\"acp.workspace\"]}},{\"point\":\"plugins.hostService\",\"version\":1,\"id\":\"pulsia.acp-common.services\",\"data\":{\"id\":\"acp.services\",\"apiVersion\":\"1.0.0\",\"entrypoint\":\"backend-dist/host.js\"}},{\"point\":\"plugins.serviceModule\",\"version\":1,\"id\":\"pulsia.acp-common.workspace\",\"data\":{\"id\":\"acp.workspace\",\"apiVersion\":\"1.0.0\",\"features\":[\"sessions\",\"attachments\",\"agent-registry\"]}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"pulsia.acp-common.agent-surface\",\"data\":{\"id\":\"acp-common-surface\",\"title\":\"ACP 대화 화면 소비\",\"description\":\"공용 ACP 화면의 준비·이벤트·종료와 초기 준비 실패 복구를 설명합니다.\",\"path\":\"agent/skills/acp-surface/SKILL.md\"}},{\"point\":\"plugins.serviceModule\",\"version\":1,\"id\":\"pulsia.acp-common.mcp-connections\",\"data\":{\"id\":\"acp.mcp-connections\",\"apiVersion\":\"1.0.0\",\"features\":[\"external-connections\"]}}]},\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-acp-common.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}},\"displayName\":\"ACP 공용 플러그인\",\"pluginRelations\":{\"required\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"version\":\"^1.0.101\",\"reason\":\"ACP 응답과 파일 링크를 표시함.\"}]},\"moduleRequirements\":[{\"providerId\":\"com.naver.mars-_-.platform.base.markdown\",\"moduleId\":\"markdown.render\",\"apiRange\":\"^1.0.0\",\"features\":[\"render\",\"links\"]},{\"providerId\":\"com.naver.mars-_-.editor.base.git-comparison\",\"moduleId\":\"comparison.surface\",\"apiRange\":\"^1.0.0\",\"features\":[\"compare\"],\"optional\":true}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.base.acp%401.0.153",
+      "published_at": "2026-11-21T12:34:26Z",
+      "created_at": "2026-11-21T11:30:43Z",
+      "updated_at": "2026-11-21T12:34:26Z",
+      "assets": [
+        {
+          "id": 775529856,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 1764353,
+          "digest": "sha256:fa2573e06767a309d372850b5d389ec11f429c1e7ac11c9a8a47915318fb27f3",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.153/pulsia-acp-common.zip",
+          "created_at": "2026-11-21T12:34:24Z",
+          "updated_at": "2026-11-21T12:34:25Z"
+        },
+        {
+          "id": 775529855,
+          "name": "pulsia-acp-common.zip.sha256",
+          "state": "uploaded",
+          "size": 88,
+          "digest": "sha256:ebcc74b5733a058936ea2ed5acdd04913cf8245dfeb64836b39a66166826f6dd",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.153/pulsia-acp-common.zip.sha256",
+          "created_at": "2026-11-21T12:34:24Z",
+          "updated_at": "2026-11-21T12:34:24Z"
+        }
+      ]
+    },
+    {
       "id": 453637846,
       "tag_name": "com.naver.mars-_-.platform.base.acp@1.0.152",
       "name": "ACP 공용 1.0.152",
@@ -340,6 +374,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.ai.harness.app%400.1.122/harness-app.zip.sha256",
           "created_at": "2026-11-21T10:04:43Z",
           "updated_at": "2026-11-21T10:04:43Z"
+        }
+      ]
+    },
+    {
+      "id": 453679737,
+      "tag_name": "com.naver.mars-_-.acp.ai-chat.mini-acp@1.0.136",
+      "name": "Mini ACP 1.0.136",
+      "body": "# Mini ACP 1.0.136\n\n사이드 패널에서 AI 도우미를 사용합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 1.0.136 · 원격 Mini ACP의 Agent와 모델 선택\n\n원격 프로젝트의 Mini ACP에서 호스트가 허용한 Agent와 대화가 제공한 모델을 선택하고 같은 호스트에서 요청을 실행할 수 있습니다.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"1.0.136\",\"title\":\"Mini ACP\",\"description\":\"사이드 패널에서 AI 도우미를 사용합니다.\",\"kind\":\"frontend\",\"tags\":[\"ACP\",\"Agent\",\"좌측 패널\",\"공용 UI\"],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.127\",\"reason\":\"AI 대화 화면과 Agent 실행을 제공함\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"dependencies\":[]},\"information\":{\"schemaVersion\":1,\"icon\":\"\",\"publisher\":\"\",\"categories\":[],\"features\":[],\"discovery\":{\"areas\":[\"ai\"],\"tasks\":[{\"id\":\"ai.chat\",\"label\":\"AI와 대화하기\",\"area\":\"ai\"},{\"id\":\"ai.automate\",\"label\":\"AI에게 작업 맡기기\",\"area\":\"ai\"}],\"summary\":\"각 작업 화면에서 현재 대상을 AI에게 요청하는 도우미를 제공합니다.\",\"role\":\"supporting\"}},\"icon\":null,\"changelog\":\"## 1.0.136 · 원격 Mini ACP의 Agent와 모델 선택\\n\\n원격 프로젝트의 Mini ACP에서 호스트가 허용한 Agent와 대화가 제공한 모델을 선택하고 같은 호스트에서 요청을 실행할 수 있습니다.\\n\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.acp.ai-chat.mini-acp\",\"version\":\"1.0.136\",\"kind\":\"frontend\",\"tags\":[\"ACP\",\"Agent\",\"좌측 패널\",\"공용 UI\"],\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2}},\"activationEvents\":[\"onStartup\",\"onView:pulsia.mini-acp.companion-view\"],\"entrypoints\":{\"frontend\":\"frontend/main.js\"},\"permissions\":{\"networkHosts\":[],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"userData\":[\"read\",\"write\"],\"fileSelection\":[],\"fileHandles\":[],\"projectPaths\":[]},\"actions\":[],\"contributes\":{\"views\":[{\"id\":\"pulsia.mini-acp.companion-view\",\"title\":\"Mini ACP\",\"kind\":\"panel\",\"layoutProfile\":\"compact-panel\"}],\"primaryMenus\":[],\"subMenus\":[],\"menus\":[],\"routes\":[],\"extensions\":[{\"point\":\"acp.embeddedSurface\",\"version\":1,\"id\":\"pulsia.mini-acp.embedded-surface\",\"data\":{\"id\":\"pulsia.mini-acp.embedded-surface\",\"viewId\":\"pulsia.mini-acp.companion-view\",\"description\":\"대메뉴별 도우미에서 공용 ACP 작업 화면을 제공합니다.\"}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"pulsia.mini-acp.plugin-authoring\",\"data\":{\"id\":\"mini-acp-plugin-authoring\",\"title\":\"Mini ACP 플러그인 유지보수\",\"description\":\"Mini ACP 자체 기능, 상태 소유권, 소비 화면 연결과 검증 방법을 설명합니다.\",\"path\":\"agent/skills/plugin-authoring/SKILL.md\"}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"pulsia.mini-acp.consumer-integration\",\"data\":{\"id\":\"mini-acp-consumer-integration\",\"title\":\"Mini ACP 소비 플러그인 연결\",\"description\":\"새 플러그인이 Mini ACP를 설정하고 문서·MCP 도구 중심으로 Agent 작업을 구성하는 방법을 설명합니다.\",\"path\":\"agent/skills/consumer-integration/SKILL.md\"}}]},\"databaseImpacts\":[],\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-plugin-mini-acp.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}},\"hostRequirements\":{\"plugins.frontendModules\":\"^1.0.0\"},\"moduleRequirements\":[{\"providerId\":\"pulsia.acp-common\",\"moduleId\":\"acp.surface\",\"apiRange\":\"^1.0.0\",\"features\":[\"composer\",\"streaming\",\"attachments\",\"workspace-selection\"]}],\"pluginRelations\":{\"required\":[{\"pluginId\":\"pulsia.acp-common\",\"version\":\"^1.0.127\",\"reason\":\"AI 대화 화면과 Agent 실행을 제공함\"}]}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.136",
+      "published_at": "2026-11-21T12:34:29Z",
+      "created_at": "2026-11-21T11:30:43Z",
+      "updated_at": "2026-11-21T12:34:29Z",
+      "assets": [
+        {
+          "id": 775530019,
+          "name": "pulsia-plugin-mini-acp.zip",
+          "state": "uploaded",
+          "size": 37208,
+          "digest": "sha256:2464c23ce4d3a167985ab18bfd3b259603725d03c01656e90450472dc7475986",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.136/pulsia-plugin-mini-acp.zip",
+          "created_at": "2026-11-21T12:34:28Z",
+          "updated_at": "2026-11-21T12:34:28Z"
+        },
+        {
+          "id": 775530017,
+          "name": "pulsia-plugin-mini-acp.zip.sha256",
+          "state": "uploaded",
+          "size": 93,
+          "digest": "sha256:8c0a7ab31a015e454dab32521bd2ca62878bbcd7bd5397d1d16f2f577805b693",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.acp.ai-chat.mini-acp%401.0.136/pulsia-plugin-mini-acp.zip.sha256",
+          "created_at": "2026-11-21T12:34:28Z",
+          "updated_at": "2026-11-21T12:34:28Z"
         }
       ]
     },
