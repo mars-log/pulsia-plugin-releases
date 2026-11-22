@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-22T13:57:31.000Z",
+  "generatedAt": "2026-11-22T14:24:24.000Z",
   "releases": [
     {
       "id": 454482764,
@@ -68,6 +68,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.ui.plugin-store%400.1.115/plugin-store.zip.sha256",
           "created_at": "2026-11-22T02:23:07Z",
           "updated_at": "2026-11-22T02:23:07Z"
+        }
+      ]
+    },
+    {
+      "id": 454491668,
+      "tag_name": "com.naver.mars-_-.platform.base.welcome@0.1.106",
+      "name": "Pulsia Welcome 0.1.106",
+      "body": "# Pulsia Welcome 0.1.106\n\nPulsia 시작 화면에서 프로젝트를 열고 설정과 플러그인 관리로 이동합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 0.1.106 · 2026-11-22\n\n- 펄시아 소개에 시안의 집 아이콘과 테마 스크롤바를 적용하고, 안내 카드의 제목 위 여백과 제목·버튼 사이 간격을 맞춤.\n- 맞춤설정 메뉴가 선택 상태를 유지하며, 지원하는 Core에서 같은 웰컴 창의 본문에 설정을 표시함.\n- 웰컴이 설치된 경우 일반 설정에서 첫 페이지를 펄시아 소개 또는 프로젝트로 선택할 수 있음.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.base.welcome\",\"version\":\"0.1.106\",\"title\":\"Pulsia Welcome\",\"description\":\"Pulsia 시작 화면에서 프로젝트를 열고 설정과 플러그인 관리로 이동합니다.\",\"kind\":\"frontend\",\"tags\":[\"시작\",\"프로젝트\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.base.welcome\",\"dependencies\":[]},\"information\":{\"schemaVersion\":1,\"icon\":\"folder-open\",\"publisher\":\"mars-log\",\"categories\":[\"프로젝트\"],\"features\":[{\"id\":\"startup-projects\",\"label\":\"시작 화면에서 프로젝트 열기\",\"markdown\":\"최근 프로젝트, 폴더 열기, 새 프로젝트, 저장소 복제를 시작 창에서 사용함.\"}],\"discovery\":null},\"icon\":\"folder-open\",\"changelog\":\"## 0.1.106 · 2026-11-22\\n\\n- 펄시아 소개에 시안의 집 아이콘과 테마 스크롤바를 적용하고, 안내 카드의 제목 위 여백과 제목·버튼 사이 간격을 맞춤.\\n- 맞춤설정 메뉴가 선택 상태를 유지하며, 지원하는 Core에서 같은 웰컴 창의 본문에 설정을 표시함.\\n- 웰컴이 설치된 경우 일반 설정에서 첫 페이지를 펄시아 소개 또는 프로젝트로 선택할 수 있음.\\n\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.platform.base.welcome\",\"version\":\"0.1.106\",\"displayName\":\"Pulsia Welcome\",\"description\":\"Pulsia 시작 화면에서 프로젝트를 열고 설정과 플러그인 관리로 이동합니다.\",\"kind\":\"frontend\",\"tags\":[\"시작\",\"프로젝트\"],\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"hostRequirements\":{\"ui.startupSurface\":\"^1.0.0\",\"ui.startupContent\":\"^1.0.0\"},\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2}},\"activationEvents\":[],\"entrypoints\":{\"frontend\":\"frontend/main.js\"},\"permissions\":{},\"actions\":[],\"contributes\":{\"extensions\":[{\"point\":\"ui.setting\",\"version\":1,\"id\":\"platform.welcome.first-page\",\"data\":{\"key\":\"com.naver.mars-_-.platform.base.welcome.startup.firstPage\",\"scope\":\"app\",\"type\":\"string\",\"default\":\"intro\",\"group\":\"general\",\"label\":\"웰컴 첫 페이지\",\"description\":\"웰컴 창을 열 때 처음 표시할 메뉴를 선택합니다.\",\"enum\":[\"intro\",\"projects\"],\"enumLabels\":[\"펄시아 소개\",\"프로젝트\"],\"localizations\":{\"en\":{\"enumLabelsByValue\":{\"intro\":\"About Pulsia\",\"projects\":\"Projects\"}}}}},{\"point\":\"ui.startupSurface\",\"version\":1,\"id\":\"platform.welcome.startup\",\"data\":{\"providerId\":\"platform.welcome.provider\",\"entry\":\"frontend/startup-main.js\",\"hostApiVersion\":1,\"title\":\"Pulsia 시작\",\"titleEn\":\"Pulsia Welcome\"}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"platform.welcome.skill\",\"data\":{\"id\":\"pulsia-welcome\",\"title\":\"Pulsia 시작 화면 사용\",\"description\":\"시작 창에서 프로젝트를 열고 완료 상태를 확인합니다.\",\"path\":\"agent/skills/pulsia-welcome/SKILL.md\"}}]},\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-welcome.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.base.welcome%400.1.106",
+      "published_at": "2026-11-22T14:24:24Z",
+      "created_at": "2026-11-22T13:57:42Z",
+      "updated_at": "2026-11-22T14:24:24Z",
+      "assets": [
+        {
+          "id": 779301286,
+          "name": "pulsia-welcome.zip",
+          "state": "uploaded",
+          "size": 50335,
+          "digest": "sha256:19c294c68526d64c5a34ac5acd3ddf77705e5a164ff62de8c10cf8ed9240a2a4",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.welcome%400.1.106/pulsia-welcome.zip",
+          "created_at": "2026-11-22T14:18:51Z",
+          "updated_at": "2026-11-22T14:18:51Z"
+        },
+        {
+          "id": 779301281,
+          "name": "pulsia-welcome.zip.sha256",
+          "state": "uploaded",
+          "size": 85,
+          "digest": "sha256:7e37e5af85726da8a34b57b3c03d340150eed1240e0c551994748e3b17c900f7",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.welcome%400.1.106/pulsia-welcome.zip.sha256",
+          "created_at": "2026-11-22T14:18:51Z",
+          "updated_at": "2026-11-22T14:18:51Z"
         }
       ]
     },
