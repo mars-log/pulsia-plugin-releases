@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-22T02:16:13.000Z",
+  "generatedAt": "2026-11-22T02:23:09.000Z",
   "releases": [
+    {
+      "id": 454140166,
+      "tag_name": "com.naver.mars-_-.platform.ui.plugin-store@0.1.115",
+      "name": "플러그인 스토어 0.1.115",
+      "body": "# 플러그인 스토어 0.1.115\n\n분야별로 Pulsia 플러그인과 팩을 둘러보고 설치합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 0.1.115 - 2026-11-22\n\n- 상세의 설치·설치됨·업데이트를 버튼으로 통일하고 조작 가능 여부와 누름 상태를 구분함.\n- 모두 업데이트에 밑줄 대신 hover·누름·진행 표시를 제공함.\n- 적용 대기 목록 아래에서 다시 시작하고 적용할 수 있게 함. 기존 저장 확인과 정상 종료 절차를 사용함.\n- 맥 투명 효과의 추가 블러 보호를 유지하고 공용 창 소재 변수를 함께 사용함.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.ui.plugin-store\",\"version\":\"0.1.115\",\"title\":\"플러그인 스토어\",\"description\":\"분야별로 Pulsia 플러그인과 팩을 둘러보고 설치합니다.\",\"kind\":\"frontend\",\"tags\":[\"플러그인\",\"스토어\",\"팩\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.ui.plugin-store\",\"dependencies\":[]},\"information\":{\"schemaVersion\":1,\"icon\":\"package\",\"publisher\":\"Pulsia\",\"categories\":[\"플러그인\",\"도구\"],\"features\":[],\"discovery\":{\"areas\":[\"development\"],\"tasks\":[{\"id\":\"development.plugins\",\"label\":\"플러그인 만들기\",\"area\":\"development\"}],\"summary\":\"플러그인과 팩을 찾아 설치합니다.\",\"role\":\"product\"}},\"icon\":\"package\",\"changelog\":\"## 0.1.115 - 2026-11-22\\n\\n- 상세의 설치·설치됨·업데이트를 버튼으로 통일하고 조작 가능 여부와 누름 상태를 구분함.\\n- 모두 업데이트에 밑줄 대신 hover·누름·진행 표시를 제공함.\\n- 적용 대기 목록 아래에서 다시 시작하고 적용할 수 있게 함. 기존 저장 확인과 정상 종료 절차를 사용함.\\n- 맥 투명 효과의 추가 블러 보호를 유지하고 공용 창 소재 변수를 함께 사용함.\\n\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.platform.ui.plugin-store\",\"version\":\"0.1.115\",\"displayName\":\"플러그인 스토어\",\"description\":\"분야별로 Pulsia 플러그인과 팩을 둘러보고 설치합니다.\",\"kind\":\"frontend\",\"tags\":[\"플러그인\",\"스토어\",\"팩\"],\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2}},\"activationEvents\":[\"onStartup\"],\"entrypoints\":{\"frontend\":\"frontend/plugin-store.js\"},\"hostRequirements\":{\"plugins.assistant\":\"^1.0.0\",\"ui.startupContent\":\"^1.0.0\",\"workbench.contextMessages\":\"^1.0.0\",\"workbench.navigation.preferredEntry\":\"^1.0.0\",\"plugins.managerUi\":\"^1.0.0\",\"workbench.dialogTemplates\":\"^1.0.0\"},\"permissions\":{\"capabilities\":[{\"id\":\"ui.workbench\",\"version\":1,\"grants\":{\"allowed\":true}}]},\"actions\":[],\"contributes\":{\"views\":[{\"id\":\"plugin-store.browse\",\"startupContent\":true,\"title\":\"플러그인 스토어\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"header\":{\"mode\":\"hidden\"}},{\"id\":\"plugin-store.updates\",\"title\":\"플러그인 업데이트\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"header\":{\"mode\":\"hidden\"},\"dialog\":{\"category\":\"selection\",\"resizable\":true,\"size\":{\"width\":560,\"height\":680,\"minWidth\":360,\"minHeight\":360}}}],\"primaryMenus\":[],\"subMenus\":[{\"id\":\"plugin-store.store\",\"primaryMenuId\":\"plugins\",\"viewId\":\"plugin-store.browse\",\"label\":\"플러그인 스토어\",\"icon\":\"package\",\"preferredEntry\":true,\"order\":15}],\"extensions\":[{\"point\":\"agent.skill\",\"version\":1,\"id\":\"plugin-store.skill\",\"data\":{\"id\":\"pulsia-plugin-store\",\"title\":\"Pulsia 플러그인 스토어\",\"description\":\"플러그인 스토어의 탐색·설치와 콘텐츠 표시 UI 기준을 사용함.\",\"path\":\"agent/skills/plugin-store/SKILL.md\"}}]},\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"plugin-store.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.ui.plugin-store%400.1.115",
+      "published_at": "2026-11-22T02:23:09Z",
+      "created_at": "2026-11-22T02:16:27Z",
+      "updated_at": "2026-11-22T02:23:09Z",
+      "assets": [
+        {
+          "id": 777591384,
+          "name": "plugin-store.zip",
+          "state": "uploaded",
+          "size": 62857,
+          "digest": "sha256:336374508c7fd59838803cec485adc91a3d24727df47b9db8682f64acd2da77f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.ui.plugin-store%400.1.115/plugin-store.zip",
+          "created_at": "2026-11-22T02:23:07Z",
+          "updated_at": "2026-11-22T02:23:08Z"
+        },
+        {
+          "id": 777591373,
+          "name": "plugin-store.zip.sha256",
+          "state": "uploaded",
+          "size": 83,
+          "digest": "sha256:af8aa70e9d0f46cddb3c0a2eb267bd849716469f43f6f0da8de0396ee1cde55c",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.ui.plugin-store%400.1.115/plugin-store.zip.sha256",
+          "created_at": "2026-11-22T02:23:07Z",
+          "updated_at": "2026-11-22T02:23:07Z"
+        }
+      ]
+    },
     {
       "id": 453782977,
       "tag_name": "pulsia.model-studio@0.0.124",
