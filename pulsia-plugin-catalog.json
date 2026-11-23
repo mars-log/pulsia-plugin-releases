@@ -1,8 +1,32 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-23T06:15:24.000Z",
+  "generatedAt": "2026-11-23T06:22:18.000Z",
   "releases": [
+    {
+      "id": 455057064,
+      "tag_name": "com.naver.mars-_-.platform.update-client@0.0.102",
+      "name": "업데이트 클라이언트 0.0.102",
+      "body": "# 업데이트 클라이언트 0.0.102\n\n플러그인 업데이트와 선택 파일 패치의 다운로드·적용 상태를 확인합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 0.0.102\n\n- 다운로드 완료를 기다리는 동안에도 일시정지·계속을 조작할 수 있게 함.\n- 변경 없는 진행 조회에서 화면·초점을 유지하고 설치 목록 반복 조회를 줄임.\n- 파일 패치는 Pulsia Core 0.3.372 이상의 공용 업데이트 클라이언트 기능을 사용함.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.update-client\",\"version\":\"0.0.102\",\"title\":\"업데이트 클라이언트\",\"description\":\"플러그인 업데이트와 선택 파일 패치의 다운로드·적용 상태를 확인합니다.\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.update-client\",\"dependencies\":[]},\"information\":{\"schemaVersion\":1,\"icon\":\"\",\"publisher\":\"mars-log\",\"categories\":[\"development\"],\"features\":[{\"id\":\"updates\",\"label\":\"업데이트와 파일 패치\",\"markdown\":\"일반 플러그인 업데이트와 지원 제품의 파일 패치를 확인합니다. 파일별 진행 상태·패치 번호를 확인하고 준비된 패치를 적용합니다. 화면을 닫아도 접수한 작업은 계속되며 다시 열어 확인할 수 있습니다.\"}],\"discovery\":null},\"icon\":\"download\",\"changelog\":\"## 0.0.102\\n\\n- 다운로드 완료를 기다리는 동안에도 일시정지·계속을 조작할 수 있게 함.\\n- 변경 없는 진행 조회에서 화면·초점을 유지하고 설치 목록 반복 조회를 줄임.\\n- 파일 패치는 Pulsia Core 0.3.372 이상의 공용 업데이트 클라이언트 기능을 사용함.\\n\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.platform.update-client\",\"version\":\"0.0.102\",\"displayName\":\"업데이트 클라이언트\",\"description\":\"플러그인 업데이트와 선택 파일 패치의 다운로드·적용 상태를 확인합니다.\",\"kind\":\"frontend\",\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2,\"prebuilt\":true}},\"activationEvents\":[\"onStartup\",\"onView:pulsia.update-client.view\"],\"entrypoints\":{\"frontend\":\"frontend/main.js\"},\"permissions\":{\"networkHosts\":[],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"projectPaths\":[]},\"actions\":[],\"contributes\":{\"views\":[{\"id\":\"pulsia.update-client.view\",\"title\":\"업데이트\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\"}],\"primaryMenus\":[{\"id\":\"pulsia.update-client.menu\",\"icon\":\"download\",\"companionViewId\":\"pulsia.update-client.view\",\"defaultVisible\":true,\"label\":\"업데이트\"}],\"extensions\":[{\"point\":\"agent.skill\",\"version\":1,\"id\":\"pulsia.update-client.skill\",\"data\":{\"id\":\"update-client\",\"title\":\"업데이트와 파일 패치\",\"description\":\"일반 업데이트·선택 파일 패치와 중단 후 복구 상태를 확인합니다.\",\"path\":\"agent/skills/update-client/SKILL.md\"}},{\"point\":\"updates.client\",\"version\":1,\"id\":\"pulsia.update-client.provider\",\"data\":{\"viewId\":\"pulsia.update-client.view\",\"order\":10}}]},\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-update-client.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}},\"databaseImpacts\":[],\"hostRequirements\":{\"plugins.updateClient\":\"^1.0.0\"}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.update-client%400.0.102",
+      "published_at": "2026-11-23T06:22:18Z",
+      "created_at": "2026-11-23T06:15:35Z",
+      "updated_at": "2026-11-23T06:22:18Z",
+      "assets": [
+        {
+          "id": 781800883,
+          "name": "pulsia-update-client.zip",
+          "state": "uploaded",
+          "size": 22648,
+          "digest": "sha256:97b13af56fa9c2dc2be8859fd1e07ff02de6ecc485864d392411f7d5bf8256a6",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.update-client%400.0.102/pulsia-update-client.zip",
+          "created_at": "2026-11-23T06:22:17Z",
+          "updated_at": "2026-11-23T06:22:17Z"
+        }
+      ]
+    },
     {
       "id": 454482764,
       "tag_name": "pulsia.sql-studio@0.0.146",
