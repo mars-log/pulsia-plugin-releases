@@ -1,7 +1,7 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-22T15:20:40.000Z",
+  "generatedAt": "2026-11-23T06:15:24.000Z",
   "releases": [
     {
       "id": 454482764,
@@ -34,6 +34,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/pulsia.sql-studio%400.0.146/pulsia-sql-studio.zip.sha256",
           "created_at": "2026-11-22T13:53:18Z",
           "updated_at": "2026-11-22T13:53:18Z"
+        }
+      ]
+    },
+    {
+      "id": 455052671,
+      "tag_name": "com.naver.mars-_-.platform.update-client@0.0.101",
+      "name": "업데이트 클라이언트 0.0.101",
+      "body": "# 업데이트 클라이언트 0.0.101\n\n플러그인 업데이트와 선택 파일 패치의 다운로드·적용 상태를 확인합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 0.0.101\n\n- 플러그인 업데이트와 선택 파일 패치 다운로드 화면을 제공함.\n- 실제 파일 진행·패치 번호·준비·적용 상태와 같은 작업 재열기를 지원함.\n- 파일 적용과 신뢰 검사는 Core가 담당하며 패치 미지원 제품은 기존 일반 업데이트를 유지함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.update-client\",\"version\":\"0.0.101\",\"title\":\"업데이트 클라이언트\",\"description\":\"플러그인 업데이트와 선택 파일 패치의 다운로드·적용 상태를 확인합니다.\",\"kind\":\"frontend\",\"tags\":[],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.update-client\",\"dependencies\":[]},\"information\":{\"schemaVersion\":1,\"icon\":\"\",\"publisher\":\"mars-log\",\"categories\":[\"development\"],\"features\":[{\"id\":\"updates\",\"label\":\"업데이트와 파일 패치\",\"markdown\":\"일반 플러그인 업데이트와 지원 제품의 파일 패치를 확인합니다. 파일별 진행 상태·패치 번호를 확인하고 준비된 패치를 적용합니다. 화면을 닫아도 접수한 작업은 계속되며 다시 열어 확인할 수 있습니다.\"}],\"discovery\":null},\"icon\":\"download\",\"changelog\":\"## 0.0.101\\n\\n- 플러그인 업데이트와 선택 파일 패치 다운로드 화면을 제공함.\\n- 실제 파일 진행·패치 번호·준비·적용 상태와 같은 작업 재열기를 지원함.\\n- 파일 적용과 신뢰 검사는 Core가 담당하며 패치 미지원 제품은 기존 일반 업데이트를 유지함.\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.platform.update-client\",\"version\":\"0.0.101\",\"displayName\":\"업데이트 클라이언트\",\"description\":\"플러그인 업데이트와 선택 파일 패치의 다운로드·적용 상태를 확인합니다.\",\"kind\":\"frontend\",\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2,\"prebuilt\":true}},\"activationEvents\":[\"onStartup\",\"onView:pulsia.update-client.view\"],\"entrypoints\":{\"frontend\":\"frontend/main.js\"},\"permissions\":{\"networkHosts\":[],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"projectPaths\":[]},\"actions\":[],\"contributes\":{\"views\":[{\"id\":\"pulsia.update-client.view\",\"title\":\"업데이트\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\"}],\"primaryMenus\":[{\"id\":\"pulsia.update-client.menu\",\"icon\":\"download\",\"companionViewId\":\"pulsia.update-client.view\",\"defaultVisible\":true,\"label\":\"업데이트\"}],\"extensions\":[{\"point\":\"agent.skill\",\"version\":1,\"id\":\"pulsia.update-client.skill\",\"data\":{\"id\":\"update-client\",\"title\":\"업데이트와 파일 패치\",\"description\":\"일반 업데이트·선택 파일 패치와 중단 후 복구 상태를 확인합니다.\",\"path\":\"agent/skills/update-client/SKILL.md\"}},{\"point\":\"updates.client\",\"version\":1,\"id\":\"pulsia.update-client.provider\",\"data\":{\"viewId\":\"pulsia.update-client.view\",\"order\":10}}]},\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-update-client.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}},\"databaseImpacts\":[],\"hostRequirements\":{\"plugins.updateClient\":\"^1.0.0\"}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.update-client%400.0.101",
+      "published_at": "2026-11-23T06:15:19Z",
+      "created_at": "2026-11-22T15:20:54Z",
+      "updated_at": "2026-11-23T06:15:19Z",
+      "assets": [
+        {
+          "id": 781784327,
+          "name": "pulsia-update-client.zip",
+          "state": "uploaded",
+          "size": 22185,
+          "digest": "sha256:abe34b61e5f3972a92ee3fdeb169e5e382ac02756de8e9e947cda184c5fa8ab9",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.update-client%400.0.101/pulsia-update-client.zip",
+          "created_at": "2026-11-23T06:15:17Z",
+          "updated_at": "2026-11-23T06:15:18Z"
         }
       ]
     },
@@ -170,6 +194,30 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.welcome%400.1.105/pulsia-welcome.zip.sha256",
           "created_at": "2026-11-22T13:53:16Z",
           "updated_at": "2026-11-22T13:53:16Z"
+        }
+      ]
+    },
+    {
+      "id": 455052702,
+      "tag_name": "com.naver.mars-_-.platform.base.acp@1.0.161",
+      "name": "ACP 공용 플러그인 1.0.161",
+      "body": "# ACP 공용 플러그인 1.0.161\n\n\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 1.0.161 · 선택 마크다운과 기본 채팅\n\n- 공용 마크다운 표시를 선택 기능으로 변경함. 미설치·준비 실패·무응답이어도 같은 대화를 기본 텍스트로 표시함.\n- 늦게 준비된 제공자의 화면 자원을 회수하며, 마크다운 준비 실패가 ACP 화면 시작을 중단시키지 않게 함.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\"1.0.161\",\"title\":\"ACP 공용 플러그인\",\"description\":\"\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginRelations\":{\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"version\":\"^1.0.101\",\"reason\":\"ACP 응답과 파일 링크를 표시함.\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.platform.base.acp\",\"dependencies\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"minimumVersion\":\"1.0.101\"}]},\"information\":{\"schemaVersion\":1,\"icon\":\"\",\"publisher\":\"\",\"categories\":[],\"features\":[],\"discovery\":{\"areas\":[\"ai\"],\"tasks\":[{\"id\":\"ai.chat\",\"label\":\"AI와 대화하기\",\"area\":\"ai\"},{\"id\":\"ai.automate\",\"label\":\"AI에게 작업 맡기기\",\"area\":\"ai\"}],\"summary\":\"AI 대화·도우미 화면의 Agent 실행과 대화 복원을 제공합니다.\",\"role\":\"supporting\"}},\"icon\":null,\"changelog\":\"## 1.0.161 · 선택 마크다운과 기본 채팅\\n\\n- 공용 마크다운 표시를 선택 기능으로 변경함. 미설치·준비 실패·무응답이어도 같은 대화를 기본 텍스트로 표시함.\\n- 늦게 준비된 제공자의 화면 자원을 회수하며, 마크다운 준비 실패가 ACP 화면 시작을 중단시키지 않게 함.\\n\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\"1.0.161\",\"kind\":\"composite\",\"tags\":[\"ACP\",\"Agent\",\"공용 모듈\"],\"pluginApiVersion\":1,\"executionGrade\":\"full-access\",\"localSystemAccess\":{\"reason\":\"설치된 Agent 프로세스를 실행하고 사용자의 대화와 선택한 첨부를 저장합니다.\",\"plannedUses\":[\"files\",\"network\",\"processes\",\"environment\",\"libraries\"],\"dependencyMode\":\"none\"},\"dependencyPreparation\":{\"mode\":\"none\"},\"hostRequirements\":{\"plugins.frontendModules\":\"^1.1.0\",\"plugins.tasks\":\"^1.0.0\",\"plugins.hostServices\":\"^1.0.0\",\"plugins.serviceModules\":\"^1.0.0\",\"plugins.hostServiceWorkbench\":\"^1.0.0\",\"plugins.identityMigrations\":\"^1.1.0\",\"workbench.moduleHostServices\":\"^1.0.0\",\"workbench.fileLinkActions\":\"^1.0.0\",\"plugins.remoteWorkspaceSupport\":\"^1.0.0\"},\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2,\"prebuilt\":true},\"backend\":{\"kind\":\"node-extension-host\",\"hostApiVersion\":2}},\"activationEvents\":[\"onStartup\"],\"entrypoints\":{\"frontend\":\"frontend-dist/plugin.js\",\"backend\":\"backend-dist/main.js\"},\"permissions\":{\"networkHosts\":[],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"userData\":[\"read\",\"write\"],\"fileSelection\":[],\"fileHandles\":[],\"projectPaths\":[],\"capabilities\":[{\"id\":\"ui.workbench\",\"version\":1,\"grants\":{\"allowed\":true}}]},\"actions\":[],\"contributes\":{\"views\":[],\"primaryMenus\":[],\"subMenus\":[],\"menus\":[],\"routes\":[],\"extensions\":[{\"point\":\"plugins.frontendModule\",\"version\":1,\"id\":\"pulsia.acp-common.surface\",\"data\":{\"id\":\"acp.surface\",\"apiVersion\":\"1.0.0\",\"entrypoint\":\"plugin.js\",\"styles\":[\"style.css\"],\"features\":[\"composer\",\"streaming\",\"registry\",\"attachments\",\"workspace-selection\",\"workspace-service-adapter\",\"header-assistant\"],\"serviceModules\":[\"acp.workspace\"]}},{\"point\":\"plugins.hostService\",\"version\":1,\"id\":\"pulsia.acp-common.services\",\"data\":{\"id\":\"acp.services\",\"apiVersion\":\"1.0.0\",\"entrypoint\":\"backend-dist/host.js\"}},{\"point\":\"plugins.serviceModule\",\"version\":1,\"id\":\"pulsia.acp-common.workspace\",\"data\":{\"id\":\"acp.workspace\",\"apiVersion\":\"1.0.0\",\"features\":[\"sessions\",\"attachments\",\"agent-registry\"]}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"pulsia.acp-common.agent-surface\",\"data\":{\"id\":\"acp-common-surface\",\"title\":\"ACP 대화 화면 소비\",\"description\":\"공용 ACP 화면의 준비·이벤트·종료와 초기 준비 실패 복구를 설명합니다.\",\"path\":\"agent/skills/acp-surface/SKILL.md\"}},{\"point\":\"plugins.serviceModule\",\"version\":1,\"id\":\"pulsia.acp-common.mcp-connections\",\"data\":{\"id\":\"acp.mcp-connections\",\"apiVersion\":\"1.0.0\",\"features\":[\"external-connections\"]}}]},\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"pulsia-acp-common.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}},\"displayName\":\"ACP 공용 플러그인\",\"pluginRelations\":{\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.platform.base.markdown\",\"version\":\"^1.0.101\",\"reason\":\"ACP 응답과 파일 링크를 표시함.\"}]},\"moduleRequirements\":[{\"providerId\":\"com.naver.mars-_-.platform.base.markdown\",\"moduleId\":\"markdown.render\",\"apiRange\":\"^1.0.0\",\"features\":[\"render\",\"links\"],\"optional\":true},{\"providerId\":\"com.naver.mars-_-.editor.base.git-comparison\",\"moduleId\":\"comparison.surface\",\"apiRange\":\"^1.0.0\",\"features\":[\"compare\"],\"optional\":true}],\"remoteSupport\":{\"execution\":\"client\",\"requiredFeatures\":{\"acp.workspace\":\"^1.0.0\"}}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.platform.base.acp%401.0.161",
+      "published_at": "2026-11-23T06:15:24Z",
+      "created_at": "2026-11-22T15:20:54Z",
+      "updated_at": "2026-11-23T06:15:24Z",
+      "assets": [
+        {
+          "id": 781784447,
+          "name": "pulsia-acp-common.zip",
+          "state": "uploaded",
+          "size": 1771422,
+          "digest": "sha256:a43f1e950494a4d8fb48937710405b4d6134182781af682837086899e14ec387",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.161/pulsia-acp-common.zip",
+          "created_at": "2026-11-23T06:15:21Z",
+          "updated_at": "2026-11-23T06:15:23Z"
         }
       ]
     },
