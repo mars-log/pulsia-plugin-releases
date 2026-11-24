@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-24T07:35:27.000Z",
+  "generatedAt": "2026-11-24T08:37:31.000Z",
   "releases": [
+    {
+      "id": 456489014,
+      "tag_name": "com.naver.mars-_-.sites-manager@0.0.103",
+      "name": "Sites 매니저 팩 0.0.103",
+      "body": "# Sites 매니저 팩 0.0.103\n\nSites 대메뉴에 서버 관리 소메뉴를 추가하는 팩입니다. 현재 Gitea 관리 플러그인을 포함합니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.sites-manager\",\"version\":\"0.0.103\",\"title\":\"Sites 매니저 팩\",\"description\":\"Sites 대메뉴에 서버 관리 소메뉴를 추가하는 팩입니다. 현재 Gitea 관리 플러그인을 포함합니다.\",\"kind\":\"pack\",\"tags\":[\"Sites\",\"서버\",\"Gitea\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.sites-manager.gitea-manager\",\"version\":\"~0.0.103\",\"reason\":\"Sites 대메뉴에서 Gitea 설치 서버를 등록하고 설치·운영을 관리합니다.\"}],\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.sites-manager\",\"dependencies\":[]},\"information\":null,\"icon\":null,\"changelog\":\"\",\"manifest\":{\"id\":\"com.naver.mars-_-.sites-manager\",\"version\":\"0.0.103\",\"displayName\":\"Sites 매니저 팩\",\"description\":\"Sites 대메뉴에 서버 관리 소메뉴를 추가하는 팩입니다. 현재 Gitea 관리 플러그인을 포함합니다.\",\"kind\":\"pack\",\"tags\":[\"Sites\",\"서버\",\"Gitea\"],\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"runtimes\":{},\"entrypoints\":{},\"permissions\":{},\"actions\":[],\"contributes\":{},\"pluginPack\":[{\"pluginId\":\"com.naver.mars-_-.sites-manager.gitea-manager\",\"version\":\"~0.0.103\",\"reason\":\"Sites 대메뉴에서 Gitea 설치 서버를 등록하고 설치·운영을 관리합니다.\"}],\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"},\"assetName\":\"sites-manager-pack.zip\"}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.sites-manager%400.0.103",
+      "published_at": "2026-11-24T08:37:31Z",
+      "created_at": "2026-11-24T07:35:42Z",
+      "updated_at": "2026-11-24T08:37:31Z",
+      "assets": [
+        {
+          "id": 786359439,
+          "name": "sites-manager-pack.zip",
+          "state": "uploaded",
+          "size": 1311,
+          "digest": "sha256:42d56e4ddd718e5b88c5dc574cbc8250cc36b9cb7487b03c926c7a3c68106533",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.sites-manager%400.0.103/sites-manager-pack.zip",
+          "created_at": "2026-11-24T08:37:29Z",
+          "updated_at": "2026-11-24T08:37:30Z"
+        },
+        {
+          "id": 786359443,
+          "name": "sites-manager-pack.zip.sha256",
+          "state": "uploaded",
+          "size": 89,
+          "digest": "sha256:9d06cf32a4b7b4a66d5f585fdb0e9e9da5bdb27f6faa16487531592149176fc3",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.sites-manager%400.0.103/sites-manager-pack.zip.sha256",
+          "created_at": "2026-11-24T08:37:30Z",
+          "updated_at": "2026-11-24T08:37:30Z"
+        }
+      ]
+    },
     {
       "id": 456417912,
       "tag_name": "com.naver.mars-_-.sites-manager@0.0.102",
@@ -34,6 +68,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.sites-manager%400.0.102/sites-manager-pack.zip.sha256",
           "created_at": "2026-11-24T07:14:48Z",
           "updated_at": "2026-11-24T07:14:49Z"
+        }
+      ]
+    },
+    {
+      "id": 456488960,
+      "tag_name": "com.naver.mars-_-.sites-manager.gitea-manager@0.0.103",
+      "name": "Gitea 관리 0.0.103",
+      "body": "# Gitea 관리 0.0.103\n\nSSH 서버를 등록하고 Docker와 Gitea를 설치합니다. 외부 접근 점검과 백업·업데이트를 Pulsia 터미널에서 확인할 수 있습니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 0.0.103\n\n- 설치한 Gitea의 웹 주소, Docker 웹 게시 주소와 포트, 내부 Git SSH 포트를 외부 접근 탭에서 다시 적용할 수 있음.\n- Git SSH 전용 도메인과 외부 SSH 포트를 각각 선택 입력으로 제공함. 서버 내부와 이 PC에서 각 주소의 응답을 따로 점검함.\n- 설치 탭에 외부 접근 탭으로 이동하는 버튼과 Pulsia 공용 툴팁을 제공함.\n- 실패 기록을 ACP Agent의 대화 입력창에 넣거나 복사할 수 있음.\n- 서버 연결 탭에서 서버 카드를 삭제할 수 있고, 보안 저장소 정리에 실패해도 삭제된 카드가 사라짐.\n\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.sites-manager.gitea-manager\",\"version\":\"0.0.103\",\"title\":\"Gitea 관리\",\"description\":\"SSH 서버를 등록하고 Docker와 Gitea를 설치합니다. 외부 접근 점검과 백업·업데이트를 Pulsia 터미널에서 확인할 수 있습니다.\",\"kind\":\"composite\",\"tags\":[\"Sites\",\"Gitea\",\"Docker\",\"서버\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.sites\",\"version\":\">=0.0.105\",\"reason\":\"Gitea 관리 소메뉴를 표시하는 Sites 대메뉴 제공\"},{\"pluginId\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\">=1.0.162\",\"reason\":\"실패 기록을 검토하고 설치된 Agent 대화에서 원인을 확인\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.sites-manager.gitea-manager\",\"dependencies\":[]},\"information\":null,\"icon\":null,\"changelog\":\"## 0.0.103\\n\\n- 설치한 Gitea의 웹 주소, Docker 웹 게시 주소와 포트, 내부 Git SSH 포트를 외부 접근 탭에서 다시 적용할 수 있음.\\n- Git SSH 전용 도메인과 외부 SSH 포트를 각각 선택 입력으로 제공함. 서버 내부와 이 PC에서 각 주소의 응답을 따로 점검함.\\n- 설치 탭에 외부 접근 탭으로 이동하는 버튼과 Pulsia 공용 툴팁을 제공함.\\n- 실패 기록을 ACP Agent의 대화 입력창에 넣거나 복사할 수 있음.\\n- 서버 연결 탭에서 서버 카드를 삭제할 수 있고, 보안 저장소 정리에 실패해도 삭제된 카드가 사라짐.\\n\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.sites-manager.gitea-manager\",\"version\":\"0.0.103\",\"displayName\":\"Gitea 관리\",\"description\":\"SSH 서버를 등록하고 Docker와 Gitea를 설치합니다. 외부 접근 점검과 백업·업데이트를 Pulsia 터미널에서 확인할 수 있습니다.\",\"kind\":\"composite\",\"tags\":[\"Sites\",\"Gitea\",\"Docker\",\"서버\"],\"pluginApiVersion\":1,\"executionGrade\":\"privileged\",\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2},\"backend\":{\"kind\":\"node-extension-host\",\"hostApiVersion\":2}},\"activationEvents\":[\"onView:sites-manager.gitea.view\"],\"entrypoints\":{\"frontend\":\"frontend/main.js\",\"backend\":\"backend/index.js\"},\"permissions\":{\"networkHosts\":[],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"projectPaths\":[],\"userData\":[\"read\",\"write\"],\"capabilities\":[{\"id\":\"storage.pluginSecrets\",\"version\":1,\"grants\":{\"access\":[\"read\",\"write\"]}},{\"id\":\"ui.workbench\",\"version\":1,\"grants\":{\"allowed\":true}},{\"id\":\"ui.notification\",\"version\":1,\"grants\":{\"allowed\":true}}]},\"actions\":[{\"id\":\"list\",\"title\":\"서버 목록과 실행 상태를 봅니다.\",\"description\":\"서버 목록과 실행 상태를 봅니다.\",\"access\":\"read\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"save\",\"title\":\"서버 접속 설정과 보안 자격 증명을 저장합니다.\",\"description\":\"서버 접속 설정과 보안 자격 증명을 저장합니다.\",\"access\":\"write\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"remove\",\"title\":\"서버 항목을 이 PC에서 삭제합니다.\",\"description\":\"서버 항목을 이 PC에서 삭제합니다.\",\"access\":\"write\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"trust\",\"title\":\"사용자가 확인한 SSH 지문을 저장합니다.\",\"description\":\"사용자가 확인한 SSH 지문을 저장합니다.\",\"access\":\"write\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"preview\",\"title\":\"Compose 설정과 실행할 스크립트를 봅니다.\",\"description\":\"Compose 설정과 실행할 스크립트를 봅니다.\",\"access\":\"read\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"prepare\",\"title\":\"SSH 실행과 Pulsia 터미널을 준비합니다.\",\"description\":\"SSH 실행과 Pulsia 터미널을 준비합니다.\",\"access\":\"write\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"start\",\"title\":\"준비한 SSH 작업을 시작합니다.\",\"description\":\"준비한 SSH 작업을 시작합니다.\",\"access\":\"write\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"read\",\"title\":\"실행 결과와 점검 값을 가져옵니다.\",\"description\":\"실행 결과와 점검 값을 가져옵니다.\",\"access\":\"read\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"cancel\",\"title\":\"SSH 실행 연결을 중단합니다.\",\"description\":\"SSH 실행 연결을 중단합니다.\",\"access\":\"write\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"diagnostics\",\"title\":\"실패한 스크립트와 로그를 확인합니다.\",\"description\":\"실패한 스크립트와 로그를 확인합니다.\",\"access\":\"read\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"cleanupCredentials\",\"title\":\"삭제된 서버의 접속 비밀번호를 정리합니다.\",\"description\":\"삭제된 서버의 보안 저장소 정리를 다시 시도합니다.\",\"access\":\"write\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":false},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1}],\"contributes\":{\"views\":[{\"id\":\"sites-manager.gitea.view\",\"title\":\"Gitea 관리\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"header\":{\"mode\":\"default\",\"title\":\"Gitea 관리\",\"showIdentity\":false,\"showReload\":false}}],\"primaryMenus\":[],\"subMenus\":[{\"id\":\"sites-manager.gitea.open\",\"primaryMenuId\":\"sites\",\"viewId\":\"sites-manager.gitea.view\",\"label\":\"Gitea 관리\",\"icon\":\"git-branch\",\"order\":20}]},\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.sites\",\"version\":\">=0.0.105\",\"reason\":\"Gitea 관리 소메뉴를 표시하는 Sites 대메뉴 제공\"},{\"pluginId\":\"com.naver.mars-_-.platform.base.acp\",\"version\":\">=1.0.162\",\"reason\":\"실패 기록을 검토하고 설치된 Agent 대화에서 원인을 확인\"}]},\"databaseImpacts\":[],\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"},\"assetName\":\"sites-gitea-manager.zip\"},\"hostRequirements\":{\"workbench.contextMessages\":\"^1.0.0\"},\"moduleRequirements\":[{\"providerId\":\"com.naver.mars-_-.platform.base.acp\",\"moduleId\":\"acp.surface\",\"apiRange\":\"^1.0.0\",\"features\":[\"composer\",\"streaming\",\"workspace-selection\"],\"optional\":true}]}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.sites-manager.gitea-manager%400.0.103",
+      "published_at": "2026-11-24T08:37:27Z",
+      "created_at": "2026-11-24T07:35:42Z",
+      "updated_at": "2026-11-24T08:37:27Z",
+      "assets": [
+        {
+          "id": 786359283,
+          "name": "sites-gitea-manager.zip",
+          "state": "uploaded",
+          "size": 180260,
+          "digest": "sha256:779d200213fdc3f102aee2da844aa7c95dcc5d1a1f3f03ebcc09464c4c5fe19f",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.sites-manager.gitea-manager%400.0.103/sites-gitea-manager.zip",
+          "created_at": "2026-11-24T08:37:26Z",
+          "updated_at": "2026-11-24T08:37:26Z"
+        },
+        {
+          "id": 786359284,
+          "name": "sites-gitea-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:a62ef910479bb2af9abe748fb69fa9be8f67b03863c2e0e05591e1b6f7627dbb",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.sites-manager.gitea-manager%400.0.103/sites-gitea-manager.zip.sha256",
+          "created_at": "2026-11-24T08:37:26Z",
+          "updated_at": "2026-11-24T08:37:26Z"
         }
       ]
     },
