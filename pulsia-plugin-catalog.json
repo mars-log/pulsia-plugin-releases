@@ -1,8 +1,42 @@
 {
   "format": "pulsia-plugin-catalog-v1",
   "repository": "mars-log/pulsia-plugin-releases",
-  "generatedAt": "2026-11-24T06:46:40.000Z",
+  "generatedAt": "2026-11-24T07:14:39.000Z",
   "releases": [
+    {
+      "id": 456417788,
+      "tag_name": "com.naver.mars-_-.sites-manager.gitea-manager@0.0.102",
+      "name": "Gitea 관리 0.0.102",
+      "body": "# Gitea 관리 0.0.102\n\nSSH 서버를 등록하고 Docker와 Gitea를 설치합니다. 외부 접근 점검과 백업·업데이트를 Pulsia 터미널에서 확인할 수 있습니다.\n\n제작자 ID와 이전 설치 정리에는 Pulsia Core 0.3.240 이상이 필요합니다. 설치 확인에서 구성과 이전 설치 제거 대상을 확인하세요.\n\n## 0.0.102\n\n- 서버 추가·수정·삭제, SSH 비밀번호·키 인증과 서버 키 지문 확인을 제공함.\n- Ubuntu·Debian Docker 설치와 6개 상태 점검, SQLite·PostgreSQL Gitea 설치와 Compose 미리보기를 제공함.\n- 기존 프록시, Caddy 자동 HTTPS, 포트 직접 공개를 지원하고 서버 내부와 이 PC에서 DNS·HTTP·TLS·Git SSH 응답을 점검함.\n- 시작·중지·재시작·실시간 로그·백업·업데이트·설정 보기·데이터 삭제 선택을 제공함.\n- 실행 출력과 종료 코드는 Pulsia 터미널에 표시함. 실패 자료는 사용자가 확인하고 선택한 AI 연결로 보낼 수 있음.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.sites-manager.gitea-manager\",\"version\":\"0.0.102\",\"title\":\"Gitea 관리\",\"description\":\"SSH 서버를 등록하고 Docker와 Gitea를 설치합니다. 외부 접근 점검과 백업·업데이트를 Pulsia 터미널에서 확인할 수 있습니다.\",\"kind\":\"composite\",\"tags\":[\"Sites\",\"Gitea\",\"Docker\",\"서버\"],\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.sites\",\"version\":\">=0.0.105\",\"reason\":\"Gitea 관리 소메뉴를 표시하는 Sites 대메뉴 제공\"}]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.sites-manager.gitea-manager\",\"dependencies\":[]},\"information\":null,\"icon\":null,\"changelog\":\"## 0.0.102\\n\\n- 서버 추가·수정·삭제, SSH 비밀번호·키 인증과 서버 키 지문 확인을 제공함.\\n- Ubuntu·Debian Docker 설치와 6개 상태 점검, SQLite·PostgreSQL Gitea 설치와 Compose 미리보기를 제공함.\\n- 기존 프록시, Caddy 자동 HTTPS, 포트 직접 공개를 지원하고 서버 내부와 이 PC에서 DNS·HTTP·TLS·Git SSH 응답을 점검함.\\n- 시작·중지·재시작·실시간 로그·백업·업데이트·설정 보기·데이터 삭제 선택을 제공함.\\n- 실행 출력과 종료 코드는 Pulsia 터미널에 표시함. 실패 자료는 사용자가 확인하고 선택한 AI 연결로 보낼 수 있음.\\n\",\"manifest\":{\"id\":\"com.naver.mars-_-.sites-manager.gitea-manager\",\"version\":\"0.0.102\",\"displayName\":\"Gitea 관리\",\"description\":\"SSH 서버를 등록하고 Docker와 Gitea를 설치합니다. 외부 접근 점검과 백업·업데이트를 Pulsia 터미널에서 확인할 수 있습니다.\",\"kind\":\"composite\",\"tags\":[\"Sites\",\"Gitea\",\"Docker\",\"서버\"],\"pluginApiVersion\":1,\"executionGrade\":\"privileged\",\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2},\"backend\":{\"kind\":\"node-extension-host\",\"hostApiVersion\":2}},\"activationEvents\":[\"onView:sites-manager.gitea.view\"],\"entrypoints\":{\"frontend\":\"frontend/main.js\",\"backend\":\"backend/index.js\"},\"permissions\":{\"networkHosts\":[],\"secretIds\":[],\"databaseConnections\":[],\"commands\":[],\"projectPaths\":[],\"userData\":[\"read\",\"write\"],\"capabilities\":[{\"id\":\"storage.pluginSecrets\",\"version\":1,\"grants\":{\"access\":[\"read\",\"write\"]}},{\"id\":\"ui.workbench\",\"version\":1,\"grants\":{\"allowed\":true}},{\"id\":\"ui.notification\",\"version\":1,\"grants\":{\"allowed\":true}}],\"ai\":{\"access\":[\"list\",\"request\"],\"connectionIds\":[\"*\"]}},\"actions\":[{\"id\":\"list\",\"title\":\"서버 목록과 실행 상태를 봅니다.\",\"description\":\"서버 목록과 실행 상태를 봅니다.\",\"access\":\"read\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"save\",\"title\":\"서버 접속 설정과 보안 자격 증명을 저장합니다.\",\"description\":\"서버 접속 설정과 보안 자격 증명을 저장합니다.\",\"access\":\"write\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"remove\",\"title\":\"서버 항목을 이 PC에서 삭제합니다.\",\"description\":\"서버 항목을 이 PC에서 삭제합니다.\",\"access\":\"write\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"trust\",\"title\":\"사용자가 확인한 SSH 지문을 저장합니다.\",\"description\":\"사용자가 확인한 SSH 지문을 저장합니다.\",\"access\":\"write\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"preview\",\"title\":\"Compose 설정과 실행할 스크립트를 봅니다.\",\"description\":\"Compose 설정과 실행할 스크립트를 봅니다.\",\"access\":\"read\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"prepare\",\"title\":\"SSH 실행과 Pulsia 터미널을 준비합니다.\",\"description\":\"SSH 실행과 Pulsia 터미널을 준비합니다.\",\"access\":\"write\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"start\",\"title\":\"준비한 SSH 작업을 시작합니다.\",\"description\":\"준비한 SSH 작업을 시작합니다.\",\"access\":\"write\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"read\",\"title\":\"실행 결과와 점검 값을 가져옵니다.\",\"description\":\"실행 결과와 점검 값을 가져옵니다.\",\"access\":\"read\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"cancel\",\"title\":\"SSH 실행 연결을 중단합니다.\",\"description\":\"SSH 실행 연결을 중단합니다.\",\"access\":\"write\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"diagnostics\",\"title\":\"실패한 스크립트와 로그를 확인합니다.\",\"description\":\"실패한 스크립트와 로그를 확인합니다.\",\"access\":\"read\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"aiConnections\",\"title\":\"선택할 수 있는 AI 연결을 확인합니다.\",\"description\":\"선택할 수 있는 AI 연결을 확인합니다.\",\"access\":\"read\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1},{\"id\":\"askAi\",\"title\":\"확인한 실패 자료를 선택한 AI 연결에 보냅니다.\",\"description\":\"확인한 실패 자료를 선택한 AI 연결에 보냅니다.\",\"access\":\"write\",\"exposure\":\"plugin\",\"inputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"outputSchema\":{\"type\":\"object\",\"additionalProperties\":true},\"version\":1}],\"contributes\":{\"views\":[{\"id\":\"sites-manager.gitea.view\",\"title\":\"Gitea 관리\",\"kind\":\"screen\",\"layoutProfile\":\"edge-to-edge\",\"header\":{\"mode\":\"default\",\"title\":\"Gitea 관리\",\"showIdentity\":false,\"showReload\":false}}],\"primaryMenus\":[],\"subMenus\":[{\"id\":\"sites-manager.gitea.open\",\"primaryMenuId\":\"sites\",\"viewId\":\"sites-manager.gitea.view\",\"label\":\"Gitea 관리\",\"icon\":\"git-branch\",\"order\":20}]},\"pluginRelations\":{\"required\":[],\"recommended\":[{\"pluginId\":\"com.naver.mars-_-.sites\",\"version\":\">=0.0.105\",\"reason\":\"Gitea 관리 소메뉴를 표시하는 Sites 대메뉴 제공\"}]},\"databaseImpacts\":[],\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"},\"assetName\":\"sites-gitea-manager.zip\"}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.sites-manager.gitea-manager%400.0.102",
+      "published_at": "2026-11-24T07:14:39Z",
+      "created_at": "2026-11-24T06:46:54Z",
+      "updated_at": "2026-11-24T07:14:39Z",
+      "assets": [
+        {
+          "id": 786123189,
+          "name": "sites-gitea-manager.zip",
+          "state": "uploaded",
+          "size": 175625,
+          "digest": "sha256:de260c450bd3d1992fe1999098be18668e985e9bb51923ea37bec52f88772685",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.sites-manager.gitea-manager%400.0.102/sites-gitea-manager.zip",
+          "created_at": "2026-11-24T07:14:38Z",
+          "updated_at": "2026-11-24T07:14:38Z"
+        },
+        {
+          "id": 786123196,
+          "name": "sites-gitea-manager.zip.sha256",
+          "state": "uploaded",
+          "size": 90,
+          "digest": "sha256:c883261414d7038cff3421859a5a7fb6a5007c4e02d8f7be09141a52f0484a74",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.sites-manager.gitea-manager%400.0.102/sites-gitea-manager.zip.sha256",
+          "created_at": "2026-11-24T07:14:38Z",
+          "updated_at": "2026-11-24T07:14:38Z"
+        }
+      ]
+    },
     {
       "id": 456347304,
       "tag_name": "com.naver.mars-_-.platform.ui.plugin-store@0.1.118",
@@ -10534,6 +10568,40 @@
           "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.platform.base.acp%401.0.129/pulsia-acp-common.zip",
           "created_at": "2026-11-03T02:59:28Z",
           "updated_at": "2026-11-03T02:59:29Z"
+        }
+      ]
+    },
+    {
+      "id": 432313297,
+      "tag_name": "com.naver.mars-_-.media.playback.player@0.0.105",
+      "name": "공용 영상 플레이어 0.0.105",
+      "body": "# 공용 영상 플레이어 0.0.105\n\n- 호출 화면이 소유한 플레이어의 AI 조회·재생·음량·탐색·정지·재연결·닫기를 공용 export로 제공함.\n- 같은 플레이어의 조작을 순서대로 실행하고 허용한 상태값만 반환함.\n\n<!-- pulsia-plugin-metadata:{\"id\":\"com.naver.mars-_-.media.playback.player\",\"version\":\"0.0.105\",\"title\":\"공용 영상 플레이어\",\"description\":\"여러 플러그인에서 같은 조작과 테마로 영상을 재생합니다.\",\"kind\":\"frontend\",\"tags\":[\"미디어\",\"공용 UI\"],\"pluginRelations\":{\"required\":[],\"recommended\":[]},\"pluginPack\":null,\"pluginMigrations\":[],\"dependencyMap\":{\"schemaVersion\":1,\"pluginId\":\"com.naver.mars-_-.media.playback.player\",\"dependencies\":[]},\"information\":{\"schemaVersion\":1,\"icon\":\"\",\"publisher\":\"\",\"categories\":[],\"features\":[],\"discovery\":{\"areas\":[\"media\"],\"tasks\":[{\"id\":\"media.play\",\"label\":\"영상·음원 보기\",\"area\":\"media\"}],\"summary\":\"여러 플러그인에서 같은 조작과 테마로 영상을 재생합니다.\",\"role\":\"supporting\"}},\"icon\":null,\"changelog\":\"\",\"manifest\":{\"id\":\"com.naver.mars-_-.media.playback.player\",\"version\":\"0.0.105\",\"displayName\":\"공용 영상 플레이어\",\"description\":\"여러 플러그인에서 같은 조작과 테마로 영상을 재생합니다.\",\"kind\":\"frontend\",\"tags\":[\"미디어\",\"공용 UI\"],\"pluginApiVersion\":1,\"executionGrade\":\"standard\",\"hostRequirements\":{\"plugins.frontendModules\":\"^1.1.0\",\"plugins.identityMigrations\":\"^1.1.0\"},\"runtimes\":{\"frontend\":{\"kind\":\"workbench-direct\",\"hostApiVersion\":2,\"prebuilt\":true}},\"entrypoints\":{\"frontend\":\"frontend/player-module.js\"},\"activationEvents\":[\"onStartup\"],\"permissions\":{},\"actions\":[],\"contributes\":{\"views\":[],\"extensions\":[{\"point\":\"plugins.frontendModule\",\"version\":1,\"id\":\"media.player\",\"data\":{\"id\":\"media.player\",\"apiVersion\":\"1.0.0\",\"entrypoint\":\"player-module.js\",\"styles\":[\"player.css\"],\"features\":[\"media-player\",\"floating-window\",\"inline\",\"engine-addons\",\"theming\",\"agent-controller\"],\"exports\":[\"createVideoPlayer\",\"createPlayerAgentController\"]}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"media.player.skill\",\"data\":{\"id\":\"media-player\",\"title\":\"공용 영상 플레이어 사용\",\"description\":\"교체 가능한 영상 엔진과 공용 조작·창·회수를 연결합니다.\",\"path\":\"agent/skills/media-player/SKILL.md\"}},{\"point\":\"agent.skill\",\"version\":1,\"id\":\"media.player.skill.screenshot\",\"data\":{\"id\":\"player-screenshot\",\"title\":\"Player 화면 캡처\",\"description\":\"컴퓨터 제어 MCP로 실제 영상 창과 재생 조작부를 캡처하고 확인합니다.\",\"path\":\"agent/skills/player-screenshot/SKILL.md\"}}]},\"updates\":{\"provider\":\"github-releases\",\"repository\":\"mars-log/pulsia-plugin-releases\",\"assetName\":\"media-player.zip\",\"channel\":\"stable\",\"trust\":{\"mode\":\"repository\"}}}} -->\n",
+      "draft": false,
+      "prerelease": false,
+      "html_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/tag/com.naver.mars-_-.media.playback.player%400.0.105",
+      "published_at": "2026-11-03T05:32:10Z",
+      "created_at": "2026-11-03T02:59:41Z",
+      "updated_at": "2026-11-03T05:32:10Z",
+      "assets": [
+        {
+          "id": 704439789,
+          "name": "media-player.zip",
+          "state": "uploaded",
+          "size": 39825,
+          "digest": "sha256:a57f2cde6def60bc342df7a0b600f0bf50258d081adfca60e6a1ca3fba24ef05",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.media.playback.player%400.0.105/media-player.zip",
+          "created_at": "2026-11-03T05:32:09Z",
+          "updated_at": "2026-11-03T05:32:09Z"
+        },
+        {
+          "id": 704439788,
+          "name": "media-player.zip.sha256",
+          "state": "uploaded",
+          "size": 83,
+          "digest": "sha256:010ab9b536e2f3af6fcad6223c63b1848abe184a1901409fb6c929e51ea1e5fa",
+          "browser_download_url": "https://github.com/mars-log/pulsia-plugin-releases/releases/download/com.naver.mars-_-.media.playback.player%400.0.105/media-player.zip.sha256",
+          "created_at": "2026-11-03T05:32:09Z",
+          "updated_at": "2026-11-03T05:32:09Z"
         }
       ]
     },
