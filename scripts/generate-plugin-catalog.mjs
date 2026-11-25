@@ -1,8 +1,9 @@
-import { writeFile } from 'node:fs/promises'
-import { pathToFileURL } from 'node:url'
+import { readFile, writeFile } from 'node:fs/promises'
+import { latestReleases, metadataBody, writeHistory } from './catalog-history.mjs'
+import { fileURLToPath, pathToFileURL } from 'node:url'
 
 const PAGE_SIZE = 100
-const MAXIMUM_PAGES = 20
+const ROOT = fileURLToPath(new URL('../', import.meta.url))
 const CATALOG_FILE = new URL('../pulsia-plugin-catalog.json', import.meta.url)
 
 function selectedAsset(asset) {
@@ -18,12 +19,13 @@ function selectedAsset(asset) {
   }
 }
 
-export function selectedRelease(release) {
+export function selectedRelease(release, notesPath) {
   return {
     id: release.id,
     tag_name: release.tag_name,
     name: release.name || '',
-    body: release.body || '',
+    body: metadataBody(release.body),
+    ...(notesPath ? { changelog_path: notesPath } : {}),
     draft: false,
     prerelease: release.prerelease === true,
     html_url: release.html_url,
@@ -46,11 +48,12 @@ function latestChange(releases) {
   return times.length ? new Date(Math.max(...times)).toISOString() : null
 }
 
-export function createCatalog(repository, releases) {
-  let selected = releases.filter(function published(release) { return release?.draft !== true }).map(selectedRelease)
+export function createCatalog(repository, releases, links = new Map()) {
+  let selected = latestReleases(releases).map(release => selectedRelease(release, links.get(release.id)))
   return {
     format: 'pulsia-plugin-catalog-v1',
     repository,
+    latestOnly: true,
     generatedAt: latestChange(selected),
     releases: selected
   }
@@ -80,22 +83,26 @@ async function fetchReleasePage(repository, page, token) {
 
 async function fetchReleases(repository, token) {
   let releases = []
-  for (let page = 1; page <= MAXIMUM_PAGES; page += 1) {
+  for (let page = 1; ; page += 1) {
     let current = await fetchReleasePage(repository, page, token)
     releases.push(...current)
     if (current.length < PAGE_SIZE) {
       return releases
     }
   }
-  throw new Error(`${MAXIMUM_PAGES * PAGE_SIZE}개를 넘는 Release는 카탈로그에 포함할 수 없음`)
 }
 
 async function main() {
   let repository = String(process.env.GITHUB_REPOSITORY || 'mars-log/pulsia-plugin-releases').trim()
   let token = String(process.env.GITHUB_TOKEN || '').trim()
   let releases = await fetchReleases(repository, token)
-  let catalog = createCatalog(repository, releases)
-  await writeFile(CATALOG_FILE, `${JSON.stringify(catalog, null, 2)}\n`, 'utf8')
+  let baseline = []
+  if (process.argv.includes('--migrate-existing')) {
+    baseline = JSON.parse(await readFile(CATALOG_FILE, 'utf8')).releases
+  }
+  const links = await writeHistory(ROOT, repository, releases, baseline)
+  let catalog = createCatalog(repository, releases, links)
+  await writeFile(CATALOG_FILE, `${JSON.stringify(catalog)}\n`, 'utf8')
   process.stdout.write(`${catalog.releases.length}개 Release의 정적 카탈로그를 생성함\n`)
 }
 

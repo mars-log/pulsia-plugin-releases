@@ -1,6 +1,10 @@
 import assert from 'node:assert/strict'
 import test from 'node:test'
 
+import { mkdtemp, readFile, rm } from 'node:fs/promises'
+import { tmpdir } from 'node:os'
+import { join } from 'node:path'
+import { writeHistory } from '../scripts/catalog-history.mjs'
 import { createCatalog } from '../scripts/generate-plugin-catalog.mjs'
 
 test('정적 카탈로그는 초안을 제외하고 Release 설치 정보와 마지막 변경 시각을 보존함', function run() {
@@ -35,4 +39,19 @@ test('정적 카탈로그는 초안을 제외하고 Release 설치 정보와 마
   assert.equal(catalog.generatedAt, '2026-10-05T02:00:00.000Z')
   assert.equal(catalog.releases.length, 1)
   assert.equal(catalog.releases[0].assets[0].size, 128)
+})
+
+test('최신 버전과 별도 이력을 만들고 과거 본문을 목록에서 제외함', async t => {
+  const dir = await mkdtemp(join(tmpdir(), 'pulsia-catalog-'))
+  t.after(() => rm(dir, { recursive: true, force: true }))
+  const releases = ['sample-v1.0.99','sample@1.0.101','sample@1.0.102','other@2.0.0'].map((tag, id) => ({
+    id: id+1, tag_name: tag, prerelease: id === 2, assets: [], body: 'old notes\n<!-- pulsia-plugin-metadata:{"title":"상품","changelog":"old notes"} -->'
+  }))
+  const links = await writeHistory(dir, 'example/plugins', releases, releases)
+  const current = createCatalog('example/plugins', releases, links)
+  assert.deepEqual(current.releases.map(r => r.tag_name), ['sample@1.0.101','sample@1.0.102','other@2.0.0'])
+  assert.equal(JSON.stringify(current).includes('old notes'), false)
+  assert.match(current.releases[0].body, /상품/)
+  assert.equal(JSON.parse(await readFile(join(dir, 'history/sample.json'))).releases.length, 3)
+  await writeHistory(dir, 'example/plugins', releases)
 })
