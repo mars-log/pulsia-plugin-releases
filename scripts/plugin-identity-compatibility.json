@@ -1,0 +1,86 @@
+[
+  {
+    "fromPluginId": "wintera.holdings.object-studio",
+    "toPluginId": "pulsia.object-model-studio"
+  },
+  {
+    "fromPluginId": "wintera.net-manager",
+    "toPluginId": "pulsia.net-manager"
+  },
+  {
+    "fromPluginId": "pulsia.ai-chat-pack",
+    "toPluginId": "com.naver.mars-_-.acp.ai-chat"
+  },
+  {
+    "fromPluginId": "pulsia-plugin-acp-workbench",
+    "toPluginId": "com.naver.mars-_-.acp.ai-chat.workbench"
+  },
+  {
+    "fromPluginId": "pulsia-plugin-mini-acp",
+    "toPluginId": "com.naver.mars-_-.acp.ai-chat.mini-acp"
+  },
+  {
+    "fromPluginId": "pulsia.java-development-pack",
+    "toPluginId": "com.naver.mars-_-.development.java.project-settings"
+  },
+  {
+    "fromPluginId": "pulsia-plugin-wingate-manager",
+    "toPluginId": "com.naver.mars-_-.wingate.manager"
+  },
+  {
+    "fromPluginId": "pulsia-plugin-wingate-client",
+    "toPluginId": "com.naver.mars-_-.wingate.client"
+  },
+  {
+    "fromPluginId": "pulsia-plugin-wingate-client-addon-ssh-client",
+    "toPluginId": "com.naver.mars-_-.wingate.ssh-client"
+  },
+  {
+    "fromPluginId": "pulsia-plugin-wingate-seller",
+    "toPluginId": "com.naver.mars-_-.wingate.seller"
+  },
+  {
+    "fromPluginId": "pulsia.acp-common",
+    "toPluginId": "com.naver.mars-_-.platform.base.acp"
+  },
+  {
+    "fromPluginId": "pulsia.editor-runtime",
+    "toPluginId": "com.naver.mars-_-.platform.base.editor-engine"
+  },
+  {
+    "fromPluginId": "pulsia.markdown-runtime",
+    "toPluginId": "com.naver.mars-_-.platform.base.markdown"
+  },
+  {
+    "fromPluginId": "pulsia.home",
+    "toPluginId": "com.naver.mars-_-.platform.base.home"
+  },
+  {
+    "fromPluginId": "pulsia.editor",
+    "toPluginId": "com.naver.mars-_-.editor.base.text-editor"
+  },
+  {
+    "fromPluginId": "pulsia.git-comparison",
+    "toPluginId": "com.naver.mars-_-.editor.base.git-comparison"
+  },
+  {
+    "fromPluginId": "pulsia.test-pack",
+    "toPluginId": "com.naver.mars-_-.examples.feature-tests"
+  },
+  {
+    "fromPluginId": "pulsia.ai-scratchpad",
+    "toPluginId": "com.naver.mars-_-.examples.ai-scratchpad"
+  },
+  {
+    "fromPluginId": "pulsia-plugin-tutorial-pulsia-starter",
+    "toPluginId": "com.naver.mars-_-.examples.tutorial"
+  },
+  {
+    "fromPluginId": "com.naver.mars-_-.media.player",
+    "toPluginId": "com.naver.mars-_-.media.playback.player"
+  },
+  {
+    "fromPluginId": "com.naver.mars-_-.media.player.addons.hls-js",
+    "toPluginId": "com.naver.mars-_-.media.playback.hls-js"
+  }
+]

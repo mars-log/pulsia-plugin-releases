@@ -2,6 +2,8 @@ import { readFile, writeFile } from 'node:fs/promises'
 import { latestReleases, metadataBody, writeHistory } from './catalog-history.mjs'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 
+import { splitCatalog } from './plugin-catalog-files.mjs'
+
 const PAGE_SIZE = 100
 const ROOT = fileURLToPath(new URL('../', import.meta.url))
 const CATALOG_FILE = new URL('../pulsia-plugin-catalog.json', import.meta.url)
@@ -102,6 +104,7 @@ async function main() {
   }
   const links = await writeHistory(ROOT, repository, releases, baseline)
   let catalog = createCatalog(repository, releases, links)
+  await splitCatalog(ROOT, catalog)
   await writeFile(CATALOG_FILE, `${JSON.stringify(catalog)}\n`, 'utf8')
   process.stdout.write(`${catalog.releases.length}개 Release의 정적 카탈로그를 생성함\n`)
 }

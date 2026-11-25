@@ -23,7 +23,7 @@ export function packageAsset(release) {
   return named.length === 1 ? named[0] : undefined
 }
 
-function numericOrder(a, b) {
+export function numericOrder(a, b) {
   const [left, lpre] = a.split(/-(.*)/), [right, rpre] = b.split(/-(.*)/)
   const x = left.split('.').map(Number), y = right.split('.').map(Number)
   for (let i = 0; i < 3; i++) if (x[i] !== y[i]) return x[i] - y[i]

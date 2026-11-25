@@ -33,11 +33,11 @@ jobs:
         run: node scripts/generate-plugin-catalog.mjs
       - name: Verify generator
         run: |
-          node --test test/generate-plugin-catalog.test.mjs
+          node --test test/*.test.mjs
           python test/zip-changelog-test.py
       - name: Commit changed catalog
         run: |
-          git add -- pulsia-plugin-catalog.json history/
+          git add -- pulsia-plugin-catalog.json pulsia-plugin-updates.json details/ history/
           if [ -d changelogs ]; then git add -- changelogs/; fi
           if git diff --cached --quiet; then
             exit 0
