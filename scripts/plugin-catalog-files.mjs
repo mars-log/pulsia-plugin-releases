@@ -9,7 +9,7 @@ function metadata(release) {
   return match ? JSON.parse(match[1]) : {}
 }
 
-export async function splitCatalog(root, catalog) {
+export async function splitCatalog(root, catalog, readPatch = async () => null) {
   const aliases = new Map(compatibility.map(row => [row.fromPluginId, row.toPluginId]))
   const products = new Map()
   const groups = new Map()
@@ -36,6 +36,7 @@ export async function splitCatalog(root, catalog) {
     await writeFile(join(root, path), detail)
     release.detail_sha256 = createHash('sha256').update(detail).digest('hex')
     const data = metadata(release)
+    const patchUpdates = data.manifest?.updates || data.updates
     delete data.manifest
     delete data.dependencyMap
     if (data.information) {
@@ -56,7 +57,8 @@ export async function splitCatalog(root, catalog) {
     const prior = channels[channel]
     if (!prior || numericOrder(product.version, prior.version) > 0 || product.version === prior.version && id === product.id) {
       if (channel === 'stable' || !groups.has(id)) groups.set(id, data.legacy ? 'legacy' : data.kind === 'pack' ? 'packs' : 'plugins')
-      channels[channel] = { version: product.version, asset: asset.name, sha256: asset.digest.slice(7), ...(release.changelog_path ? { notesId: release.id } : {}), ...(product.id !== id ? { publishedId: product.id } : {}) }
+      const patch = data.kind === 'pack' ? null : await readPatch(patchUpdates, product, release.prerelease === true)
+      channels[channel] = { ...(patch ? { patch } : {}), version: product.version, asset: asset.name, sha256: asset.digest.slice(7), ...(release.changelog_path ? { notesId: release.id } : {}), ...(product.id !== id ? { publishedId: product.id } : {}) }
     }
     products.set(id, channels)
   }

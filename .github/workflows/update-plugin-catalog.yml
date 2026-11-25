@@ -3,6 +3,9 @@ name: Update plugin catalog
 on:
   release:
     types: [published, released, edited, deleted]
+  push:
+    branches: [main]
+    paths: ['patches/**']
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
